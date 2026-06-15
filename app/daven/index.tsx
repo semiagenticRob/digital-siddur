@@ -25,7 +25,7 @@ export default function DavenHome() {
             accessibilityLabel="Open settings"
             style={s.settingsBtn}
           >
-            <Text style={[s.settingsIcon, { color: colors.muted }]}>⚙</Text>
+            <Text style={s.settingsIcon}>⚙️</Text>
           </Pressable>
         </View>
         <FlatList

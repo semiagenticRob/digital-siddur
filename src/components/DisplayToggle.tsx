@@ -49,7 +49,7 @@ function makeStyles(c: ColorPalette) {
       backgroundColor: c.accentSoft,
       borderRadius: 11,
       padding: 3,
-      flex: 1,
+      alignSelf: 'stretch',
     },
     btn: {
       flex: 1,

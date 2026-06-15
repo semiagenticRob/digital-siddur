@@ -139,9 +139,11 @@ export default function Onboarding() {
 
           <Text style={[s.controlLabel, { color: colors.muted, marginTop: 16 }]}>Preview</Text>
           <View style={[s.previewCard, { backgroundColor: colors.surface, borderColor: colors.line }]}>
-            <Text style={[s.previewHe, { fontSize: previewHeSize, lineHeight: previewHeSize * 1.95, color: colors.ink }]}>
-              בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ
-            </Text>
+            {displayMode !== 'en' && (
+              <Text style={[s.previewHe, { fontSize: previewHeSize, lineHeight: previewHeSize * 1.95, color: colors.ink }]}>
+                בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ
+              </Text>
+            )}
             {displayMode !== 'he' && (
               <Text style={[s.previewEn, { fontSize: previewEnSize, color: colors.ink }]}>
                 Blessed are You, Hashem our God
