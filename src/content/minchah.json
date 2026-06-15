@@ -1,0 +1,85 @@
+{
+  "id": "minchah",
+  "heTitle": "מִנְחָה",
+  "enTitle": "Minchah",
+  "groups": [
+    {
+      "id": "g-ashrei",
+      "title": "Ashrei & Shemoneh Esrei",
+      "prayers": [
+        {
+          "id": "p-ashrei",
+          "heTitle": "אַשְׁרֵי",
+          "enTitle": "Ashrei",
+          "segments": [
+            {
+              "id": "ashrei-1",
+              "type": "prayer",
+              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה."
+            },
+            {
+              "id": "ashrei-2",
+              "type": "prayer",
+              "heText": "אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיְיָ אֱלֹהָיו."
+            },
+            {
+              "id": "ashrei-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] Ashrei opens Minchah — we arrive in the middle of the day, catching our breath and returning to Hashem."
+            },
+            {
+              "id": "ashrei-insight",
+              "type": "insight",
+              "enText": "[Placeholder insight] Why do we say Ashrei three times a day? The Gemara teaches it guarantees a share in the World to Come — not because of magic, but because of what consistent gratitude does to a person over time."
+            }
+          ]
+        },
+        {
+          "id": "p-shemoneh-esrei-minchah",
+          "heTitle": "שְׁמֹנֶה עֶשְׂרֵה",
+          "enTitle": "Shemoneh Esrei",
+          "segments": [
+            {
+              "id": "minchah-se-opening",
+              "type": "prayer",
+              "heText": "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ."
+            },
+            {
+              "id": "minchah-se-rubric",
+              "type": "rubric",
+              "heText": "The Amidah follows — same text as Shacharis from Avos through the concluding brachos."
+            },
+            {
+              "id": "minchah-se-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] Minchah's Amidah is the same eighteen brachos as Shacharis. The Arizal teaches that Minchah is in some ways the most important tefillah of the day — it requires the most intention precisely because it interrupts the workday."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-tachanun-minchah",
+      "title": "Tachanun & Aleinu",
+      "prayers": [
+        {
+          "id": "p-aleinu-minchah",
+          "heTitle": "עָלֵינוּ",
+          "enTitle": "Aleinu",
+          "segments": [
+            {
+              "id": "aleinu-minchah-1",
+              "type": "prayer",
+              "heText": "עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל, לָתֵת גְּדֻלָּה לְיוֹצֵר בְּרֵאשִׁית."
+            },
+            {
+              "id": "aleinu-minchah-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] Aleinu closes every tefillah — a reminder that the goal of all our prayer is a world where Hashem's presence is universally recognized."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

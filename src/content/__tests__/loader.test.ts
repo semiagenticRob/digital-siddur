@@ -16,6 +16,10 @@ test('listServices includes shacharit', () => {
   expect(list.some(s => s.id === 'shacharit')).toBe(true);
 });
 
+test('listServices returns 4 services', () => {
+  expect(listServices()).toHaveLength(4);
+});
+
 test('shacharit has segments with heText', () => {
   const s = getService('shacharit');
   const allSegments = s!.groups.flatMap(g => g.prayers.flatMap(p => p.segments));

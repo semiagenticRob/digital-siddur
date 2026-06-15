@@ -1,0 +1,85 @@
+{
+  "id": "maariv",
+  "heTitle": "מַעֲרִיב",
+  "enTitle": "Maariv",
+  "groups": [
+    {
+      "id": "g-barchu",
+      "title": "Barchu & Shema",
+      "prayers": [
+        {
+          "id": "p-barchu",
+          "heTitle": "בָּרְכוּ",
+          "enTitle": "Barchu",
+          "segments": [
+            {
+              "id": "barchu-1",
+              "type": "prayer",
+              "heText": "בָּרְכוּ אֶת יְיָ הַמְּבֹרָךְ."
+            },
+            {
+              "id": "barchu-2",
+              "type": "prayer",
+              "heText": "בָּרוּךְ יְיָ הַמְּבֹרָךְ לְעוֹלָם וָעֶד."
+            },
+            {
+              "id": "barchu-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] Barchu is the public call to prayer. The chazan invites and the congregation responds — tefillah is never just individual, it's communal."
+            }
+          ]
+        },
+        {
+          "id": "p-shema",
+          "heTitle": "קְרִיאַת שְׁמַע",
+          "enTitle": "Krias Shema",
+          "segments": [
+            {
+              "id": "shema-1",
+              "type": "prayer",
+              "heText": "שְׁמַע יִשְׂרָאֵל יְיָ אֱלֹהֵינוּ יְיָ אֶחָד."
+            },
+            {
+              "id": "shema-2",
+              "type": "prayer",
+              "heText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד."
+            },
+            {
+              "id": "shema-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] The Shema is not a prayer — it's a declaration. We aren't asking for anything; we're stating a fact about reality that we commit ourselves to living by."
+            },
+            {
+              "id": "shema-insight",
+              "type": "insight",
+              "enText": "[Placeholder insight] Why do we say Shema at night as well as morning? Because Hashem's unity doesn't change with the light. Morning davening is easy — the world looks ordered. Maariv is the harder declaration: Hashem is One even in the dark."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-maariv-amidah",
+      "title": "Shemoneh Esrei & Aleinu",
+      "prayers": [
+        {
+          "id": "p-shemoneh-esrei-maariv",
+          "heTitle": "שְׁמֹנֶה עֶשְׂרֵה",
+          "enTitle": "Shemoneh Esrei",
+          "segments": [
+            {
+              "id": "maariv-se-1",
+              "type": "prayer",
+              "heText": "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ."
+            },
+            {
+              "id": "maariv-se-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] The evening Amidah is said quietly, each person at their own pace. There is no chazaras hashatz (repetition) at night — Maariv was originally optional, and the individual nature of the evening prayer still echoes that history."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

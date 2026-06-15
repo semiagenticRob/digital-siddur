@@ -1,0 +1,63 @@
+{
+  "id": "birkas-hamazon",
+  "heTitle": "בִּרְכַּת הַמָּזוֹן",
+  "enTitle": "Birkas HaMazon",
+  "groups": [
+    {
+      "id": "g-hazan",
+      "title": "Hazan — Sustenance",
+      "prayers": [
+        {
+          "id": "p-hazan",
+          "heTitle": "בִּרְכַּת הַזָּן",
+          "enTitle": "Hazan",
+          "segments": [
+            {
+              "id": "hazan-1",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ בְּטוּבוֹ בְּחֵן בְּחֶסֶד וּבְרַחֲמִים."
+            },
+            {
+              "id": "hazan-2",
+              "type": "prayer",
+              "heText": "הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר כִּי לְעוֹלָם חַסְדּוֹ. וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ."
+            },
+            {
+              "id": "hazan-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] The first bracha thanks Hashem for feeding all of creation — not just us, not just today, but the entire world across all of history."
+            },
+            {
+              "id": "hazan-insight",
+              "type": "insight",
+              "enText": "[Placeholder insight] Why do we thank Hashem for food after we've already eaten? Because gratitude, by definition, comes after — it's not anticipation, it's recognition. Birkas HaMazon trains us to pause and acknowledge what we received rather than rushing to the next thing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-nodeh",
+      "title": "Nodeh — Thanksgiving",
+      "prayers": [
+        {
+          "id": "p-nodeh",
+          "heTitle": "בִּרְכַּת הָאָרֶץ",
+          "enTitle": "Nodeh (Land of Israel)",
+          "segments": [
+            {
+              "id": "nodeh-1",
+              "type": "prayer",
+              "heText": "נוֹדֶה לְּךָ יְיָ אֱלֹהֵינוּ עַל שֶׁהִנְחַלְתָּ לַאֲבוֹתֵינוּ אֶרֶץ חֶמְדָּה טוֹבָה וּרְחָבָה."
+            },
+            {
+              "id": "nodeh-commentary",
+              "type": "commentary",
+              "enText": "[Placeholder] The second bracha thanks Hashem for the Land of Israel — even when we're not in it. Birkas HaMazon ties every meal to our people's story and destination."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
