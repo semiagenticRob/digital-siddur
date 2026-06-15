@@ -24,4 +24,4 @@ export const DarkColors = {
   rubric: '#BBA877',
 } as const;
 
-export type ColorPalette = typeof LightColors;
+export type ColorPalette = typeof LightColors | typeof DarkColors;
