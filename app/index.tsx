@@ -1,9 +1,7 @@
-import { Text, View } from 'react-native';
+import { Redirect } from 'expo-router';
+import { usePreferencesStore } from '../src/store/preferences';
 
-export default function Index() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Digital Siddur</Text>
-    </View>
-  );
+export default function Root() {
+  const { hasCompletedOnboarding } = usePreferencesStore();
+  return <Redirect href={hasCompletedOnboarding ? '/daven' : '/onboarding'} />;
 }
