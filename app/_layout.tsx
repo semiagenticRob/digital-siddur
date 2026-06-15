@@ -1,5 +1,6 @@
 import { Stack } from 'expo-router';
 import { useFonts } from 'expo-font';
+import { useColorScheme, StatusBar } from 'react-native';
 import {
   FrankRuhlLibre_400Regular,
   FrankRuhlLibre_500Medium,
@@ -17,6 +18,8 @@ import {
 } from '@expo-google-fonts/inter';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
+import { usePreferencesStore } from '../src/store/preferences';
+import { DarkColors, LightColors } from '../src/theme/colors';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -33,6 +36,11 @@ export default function RootLayout() {
     Inter_600SemiBold,
   });
 
+  const { theme } = usePreferencesStore();
+  const systemScheme = useColorScheme();
+  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
+  const colors = isDark ? DarkColors : LightColors;
+
   useEffect(() => {
     if (loaded || error) SplashScreen.hideAsync();
   }, [loaded, error]);
@@ -40,6 +48,12 @@ export default function RootLayout() {
   if (!loaded && !error) return null;
 
   return (
-    <Stack screenOptions={{ headerShown: false }} />
+    <>
+      <StatusBar
+        barStyle={isDark ? 'light-content' : 'dark-content'}
+        backgroundColor={colors.paper}
+      />
+      <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.paper } }} />
+    </>
   );
 }
