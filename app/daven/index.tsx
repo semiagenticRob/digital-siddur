@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet, FlatList, SafeAreaView, useColorScheme } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { listServices } from '../../src/content/loader';
 import { usePreferencesStore } from '../../src/store/preferences';
@@ -25,7 +26,7 @@ export default function DavenHome() {
             accessibilityLabel="Open settings"
             style={s.settingsBtn}
           >
-            <Text style={s.settingsIcon}>⚙️</Text>
+            <Ionicons name="settings-outline" size={22} color={colors.muted} />
           </Pressable>
         </View>
         <FlatList
@@ -66,7 +67,6 @@ function makeStyles(colors: ColorPalette) {
       fontSize: 28,
     },
     settingsBtn: { padding: 8 },
-    settingsIcon: { fontSize: 22 },
     list: { paddingHorizontal: 16, gap: 8, paddingBottom: 40 },
     row: {
       flexDirection: 'row',
