@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal } from 'react-native';
 import { Segment } from '../content/types';
 import { DisplayMode } from '../store/preferences';
@@ -24,6 +24,10 @@ export function SegmentRenderer({
   const [noteModalVisible, setNoteModalVisible] = useState(false);
   const [noteText, setNoteText] = useState('');
   const [selectionVisible, setSelectionVisible] = useState(false);
+
+  useEffect(() => {
+    setSelectionVisible(false);
+  }, [segment.id]);
 
   const heSize = hebrewFontSize(fontStep);
   const enSize = englishFontSize(fontStep);
