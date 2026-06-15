@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet } from 'react-native';
+import { View, Text, Pressable, StyleSheet, ViewStyle } from 'react-native';
 import { DisplayMode } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
 import { Fonts } from '../theme/typography';
@@ -14,12 +14,13 @@ interface Props {
   value: DisplayMode;
   colors: ColorPalette;
   onChange: (mode: DisplayMode) => void;
+  style?: ViewStyle;
 }
 
-export function DisplayToggle({ value, colors, onChange }: Props) {
+export function DisplayToggle({ value, colors, onChange, style }: Props) {
   const s = makeStyles(colors);
   return (
-    <View style={s.seg} accessibilityRole="radiogroup" accessibilityLabel="Display language">
+    <View style={[s.seg, style]} accessibilityRole="radiogroup" accessibilityLabel="Display language">
       {MODES.map(({ value: v, label, isHebrew }) => (
         <Pressable
           key={v}
@@ -49,7 +50,6 @@ function makeStyles(c: ColorPalette) {
       backgroundColor: c.accentSoft,
       borderRadius: 11,
       padding: 3,
-      alignSelf: 'stretch',
     },
     btn: {
       flex: 1,

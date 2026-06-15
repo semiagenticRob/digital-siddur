@@ -63,7 +63,7 @@ export default function ServiceScreen() {
             </Pressable>
           </View>
           <View style={s.controlRow}>
-            <DisplayToggle value={displayMode} colors={colors} onChange={setDisplayMode} />
+            <DisplayToggle value={displayMode} colors={colors} onChange={setDisplayMode} style={{ flex: 1 }} />
             <FontSizeControl colors={colors} onBump={bumpFontStep} />
           </View>
         </View>
