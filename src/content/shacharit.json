@@ -1,0 +1,133 @@
+{
+  "id": "shacharit",
+  "heTitle": "שַׁחֲרִית",
+  "enTitle": "Shacharis",
+  "groups": [
+    {
+      "id": "g-shemoneh-esrei",
+      "title": "Shemoneh Esrei",
+      "prayers": [
+        {
+          "id": "p-pesicha",
+          "heTitle": "פְּתִיחָה",
+          "enTitle": "Opening",
+          "segments": [
+            {
+              "id": "pesicha-1",
+              "type": "prayer",
+              "heText": "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ."
+            },
+            {
+              "id": "pesicha-1-commentary",
+              "type": "commentary",
+              "enText": "Before we say a word, we ask Hashem to open our lips — admitting that even the ability to talk to Him is a gift He gives us."
+            }
+          ]
+        },
+        {
+          "id": "p-avos",
+          "heTitle": "אָבוֹת",
+          "enTitle": "Avos",
+          "segments": [
+            {
+              "id": "avos-1",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, אֱלֹהֵי אַבְרָהָם, אֱלֹהֵי יִצְחָק, וֵאלֹהֵי יַעֲקֹב,"
+            },
+            {
+              "id": "avos-2",
+              "type": "prayer",
+              "heText": "הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, גּוֹמֵל חֲסָדִים טוֹבִים, וְקוֹנֵה הַכֹּל,"
+            },
+            {
+              "id": "avos-3",
+              "type": "prayer",
+              "heText": "וְזוֹכֵר חַסְדֵי אָבוֹת, וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ בְּאַהֲבָה."
+            },
+            {
+              "id": "avos-4",
+              "type": "prayer",
+              "heText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן. בָּרוּךְ אַתָּה יְיָ, מָגֵן אַבְרָהָם."
+            },
+            {
+              "id": "avos-commentary",
+              "type": "commentary",
+              "enText": "We don't walk up to Hashem as strangers. We come as the children of Avraham, Yitzchak and Yaakov — reminding ourselves we're part of something that started long before us."
+            },
+            {
+              "id": "avos-insight",
+              "type": "insight",
+              "enText": "Why start with the Avos and not just jump to our requests? Because relationships come before requests — we ground the conversation in who we are before we ask for anything."
+            }
+          ]
+        },
+        {
+          "id": "p-gevuros",
+          "heTitle": "גְּבוּרוֹת",
+          "enTitle": "Gevuros",
+          "segments": [
+            {
+              "id": "gevuros-1",
+              "type": "prayer",
+              "heText": "אַתָּה גִּבּוֹר לְעוֹלָם אֲדֹנָי, מְחַיֵּה מֵתִים אַתָּה, רַב לְהוֹשִׁיעַ."
+            },
+            {
+              "id": "gevuros-rubric",
+              "type": "rubric",
+              "heText": "בַּחֹרֶף (in winter) add:",
+              "condition": "winter"
+            },
+            {
+              "id": "gevuros-2",
+              "type": "prayer",
+              "heText": "מַשִּׁיב הָרוּחַ וּמוֹרִיד הַגֶּשֶׁם.",
+              "condition": "winter"
+            },
+            {
+              "id": "gevuros-3",
+              "type": "prayer",
+              "heText": "מְכַלְכֵּל חַיִּים בְּחֶסֶד, מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים וְרוֹפֵא חוֹלִים וּמַתִּיר אֲסוּרִים,"
+            },
+            {
+              "id": "gevuros-4",
+              "type": "prayer",
+              "heText": "וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר. מִי כָמוֹךָ בַּעַל גְּבוּרוֹת וּמִי דּוֹמֶה לָּךְ,"
+            },
+            {
+              "id": "gevuros-5",
+              "type": "prayer",
+              "heText": "מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה. בָּרוּךְ אַתָּה יְיָ, מְחַיֵּה הַמֵּתִים."
+            },
+            {
+              "id": "gevuros-commentary",
+              "type": "commentary",
+              "enText": "This bracha is about Hashem's power — but notice where it goes: holding up the falling, healing the sick, freeing the trapped. Real strength, here, looks like care."
+            }
+          ]
+        },
+        {
+          "id": "p-kedusha",
+          "heTitle": "קְדֻשַּׁת הַשֵּׁם",
+          "enTitle": "Kedushas Hashem",
+          "segments": [
+            {
+              "id": "kedusha-1",
+              "type": "prayer",
+              "heText": "אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה."
+            },
+            {
+              "id": "kedusha-2",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְיָ, הָאֵל הַקָּדוֹשׁ."
+            },
+            {
+              "id": "kedusha-commentary",
+              "type": "commentary",
+              "enText": "\"Holy\" means set apart — beyond anything we can fully picture. We pause here to remember Who we're actually talking to."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
