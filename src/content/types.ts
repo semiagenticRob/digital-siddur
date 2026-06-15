@@ -1,12 +1,19 @@
-export type SegmentType = 'prayer' | 'commentary' | 'rubric' | 'insight';
+export type SegmentType =
+  | 'prayer'        // Hebrew liturgical text
+  | 'commentary'    // English explanation (word-by-word gloss or paragraph)
+  | 'rubric'        // Instructional label ("For women:", "in winter add:", etc.)
+  | 'insight'       // Expandable "Instant Insight" callout
+  | 'faq'           // Margin FAQ/Answer box
+  | 'header'        // Section heading (Hebrew, English, or both)
+  | 'section_intro';// Bold English preamble before a prayer group
 
 export interface Segment {
   id: string;
   type: SegmentType;
-  heText?: string;       // Hebrew with nikkud; present on prayer/rubric
-  enText?: string;       // English explanation; present on commentary/insight
-  condition?: string;    // e.g. "winter", "rosh_chodesh" — v2 logic; shown as rubric label in v1
-  xref?: string;         // e.g. "faq:3" — captured now, navigable in v2
+  heText?: string;   // Hebrew with nikkud — prayer, rubric (Hebrew rubrics), header
+  enText?: string;   // English text — commentary, insight, faq, section_intro, header, English rubrics
+  condition?: string; // e.g. "winter", "rosh_chodesh" — static label in v1, logic in v2
+  xref?: string;     // e.g. "faq:3", "appendix:9" — captured now, navigable in v2
 }
 
 export interface Prayer {

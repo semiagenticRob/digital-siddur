@@ -34,10 +34,58 @@ export function SegmentRenderer({
 
   const s = makeStyles(colors, heSize, enSize);
 
-  // Rubric
+  // Header — always visible, language-aware
+  if (segment.type === 'header') {
+    return (
+      <View style={s.headerBlock}>
+        {segment.heText && displayMode !== 'en' && (
+          <Text style={s.headerHe}>{segment.heText}</Text>
+        )}
+        {segment.enText && displayMode !== 'he' && (
+          <Text style={s.headerEn}>{segment.enText}</Text>
+        )}
+        <View style={s.headerRule} />
+      </View>
+    );
+  }
+
+  // Section intro — hide in Hebrew-only mode
+  if (segment.type === 'section_intro') {
+    if (displayMode === 'he') return null;
+    return <Text style={s.sectionIntro}>{segment.enText}</Text>;
+  }
+
+  // FAQ — collapsible, hide in Hebrew-only mode
+  if (segment.type === 'faq') {
+    if (displayMode === 'he') return null;
+    return (
+      <View>
+        <Pressable
+          style={s.faqToggle}
+          onPress={() => setShowInsight(v => !v)}
+          accessibilityRole="button"
+          accessibilityLabel={showInsight ? 'Hide FAQ' : 'Show FAQ'}
+        >
+          <Text style={s.faqToggleText}>
+            {showInsight ? '▲ Hide FAQ' : '? FAQ'}
+          </Text>
+        </Pressable>
+        {showInsight && (
+          <View style={s.faqBody}>
+            <Text style={s.faqText}>{segment.enText}</Text>
+          </View>
+        )}
+      </View>
+    );
+  }
+
+  // Rubric — Hebrew rubric hides in English-only; English rubric hides in Hebrew-only
   if (segment.type === 'rubric') {
-    if (displayMode === 'en') return null;
-    return <Text style={s.rubric}>{segment.heText}</Text>;
+    if (segment.heText && displayMode === 'en') return null;
+    if (segment.enText && displayMode === 'he') return null;
+    return segment.heText
+      ? <Text style={s.rubricHe}>{segment.heText}</Text>
+      : <Text style={s.rubricEn}>{segment.enText}</Text>;
   }
 
   // Commentary
@@ -63,7 +111,7 @@ export function SegmentRenderer({
           accessibilityLabel={showInsight ? 'Hide quick insight' : 'Show quick insight'}
         >
           <Text style={s.insightToggleText}>
-            {showInsight ? '▲ Hide insight' : '💡 Quick insight'}
+            {showInsight ? '▲ Hide insight' : 'Insight'}
           </Text>
         </Pressable>
         {showInsight && (
@@ -200,7 +248,73 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       lineHeight: enSize * 1.62,
       color: c.ink,
     },
-    rubric: {
+    headerBlock: {
+      marginTop: 20,
+      marginBottom: 6,
+      alignItems: 'center',
+      gap: 2,
+    },
+    headerHe: {
+      fontFamily: Fonts.hebrewBold,
+      fontSize: heSize * 0.9,
+      color: c.accent,
+      textAlign: 'center',
+      writingDirection: 'rtl' as const,
+    },
+    headerEn: {
+      fontFamily: Fonts.uiSemiBold,
+      fontSize: enSize * 0.9,
+      letterSpacing: 1.2,
+      textTransform: 'uppercase' as const,
+      color: c.accent,
+      textAlign: 'center',
+    },
+    headerRule: {
+      height: 1,
+      width: '40%',
+      backgroundColor: c.line,
+      marginTop: 6,
+    },
+    sectionIntro: {
+      fontFamily: Fonts.english,
+      fontSize: enSize,
+      lineHeight: enSize * 1.6,
+      color: c.ink,
+      textAlign: 'center',
+      fontStyle: 'italic',
+      paddingHorizontal: 8,
+      marginBottom: 10,
+    },
+    faqToggle: {
+      marginTop: 8,
+      alignSelf: 'flex-start',
+      paddingVertical: 5,
+      paddingHorizontal: 10,
+      borderRadius: 20,
+      borderWidth: 1,
+      borderStyle: 'dashed',
+      borderColor: c.gold,
+    },
+    faqToggleText: {
+      fontFamily: Fonts.uiSemiBold,
+      fontSize: 11,
+      color: c.gold,
+    },
+    faqBody: {
+      marginTop: 6,
+      padding: 10,
+      borderRadius: 10,
+      backgroundColor: c.accentSoft,
+      borderWidth: 1,
+      borderColor: c.gold,
+    },
+    faqText: {
+      fontFamily: Fonts.english,
+      fontSize: enSize * 0.9,
+      lineHeight: enSize * 1.5,
+      color: c.ink,
+    },
+    rubricHe: {
       fontFamily: Fonts.hebrew,
       fontSize: heSize * 0.72,
       color: c.rubric,
@@ -208,12 +322,20 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       textAlign: 'right',
       writingDirection: 'rtl' as const,
       marginVertical: 6,
-      paddingVertical: 6,
+      paddingVertical: 5,
       paddingHorizontal: 10,
       borderRightWidth: 3,
       borderRightColor: c.rubric,
       backgroundColor: c.accentSoft,
       borderRadius: 10,
+    },
+    rubricEn: {
+      fontFamily: Fonts.englishItalic,
+      fontSize: enSize * 0.88,
+      color: c.rubric,
+      textAlign: 'center',
+      marginVertical: 6,
+      paddingVertical: 4,
     },
     insightToggle: {
       marginTop: 10,
