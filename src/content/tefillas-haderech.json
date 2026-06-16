@@ -1,0 +1,71 @@
+{
+  "id": "tefillas-haderech",
+  "heTitle": "תְּפִלַּת הַדֶּרֶךְ",
+  "enTitle": "Tefillas HaDerech",
+  "groups": [
+    {
+      "id": "g-tefillas-haderech",
+      "title": "Tefillas HaDerech",
+      "prayers": [
+        {
+          "id": "p-tefillas-haderech",
+          "heTitle": "תְּפִלַּת הַדֶּרֶךְ",
+          "enTitle": "Tefillas HaDerech",
+          "segments": [
+            {
+              "id": "s-th-header",
+              "type": "header",
+              "heText": "תְּפִלַּת הַדֶּרֶךְ",
+              "enText": "Travel Safe!"
+            },
+            {
+              "id": "s-th-prayer",
+              "type": "prayer",
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁתּוֹלִיכֵנוּ לְשָׁלוֹם וְתַצְעִידֵנוּ לְשָׁלוֹם וְתַדְרִיכֵנוּ לְשָׁלוֹם, וְתַגִּיעֵנוּ לִמְחוֹז חֶפְצֵנוּ לְחַיִּים וּלְשִׂמְחָה וּלְשָׁלוֹם, (אם דעתו לחזור מיד אומר: וְתַחֲזִירֵנוּ לְשָׁלוֹם), וְתַצִּילֵנוּ מִכַּף כָּל אוֹיֵב וְאוֹרֵב (וְלִסְטִים, וְחַיּוֹת רָעוֹת) בַּדֶּרֶךְ, וּמִכָּל מִינֵי פֻּרְעָנֻיּוֹת הַמִּתְרַגְּשׁוֹת וּבָאוֹת לָעוֹלָם, וְתִשְׁלַח בְּרָכָה בְּכָל מַעֲשֵׂה יָדֵינוּ, וְתִתְּנֵנִי לְחֵן וּלְחֶסֶד וּלְרַחֲמִים בְּעֵינֶיךָ וּבְעֵינֵי כָל רוֹאַי, וְתִשְׁמַע קוֹל תַּחֲנוּנֵינוּ, כִּי אֵל שׁוֹמֵעַ תְּפִלָּה וְתַחֲנוּן אָתָּה: בָּרוּךְ אַתָּה יְהֹוָה, שׁוֹמֵעַ תְּפִלָּה:"
+            },
+            {
+              "id": "s-th-commentary",
+              "type": "commentary",
+              "enText": "*יְהִי רָצוֹן מִלְּפָנֶיךָ*—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that You should lead us to peace and direct our steps to peace, and guide us to peace, and bring us to our desired destination in life, joy, and peace *(if one intends to return that day, one adds:* and bring us back home in peace). Save us from every enemy or ambush *(and from robbers and wild beasts)* on this trip, and from all kinds of hardships and tragedies that trouble the world. May You send brachah upon all that we do, and grant me grace, kindness, and compassion in Your eyes and in the eyes of all we meet. May You accept our tefillos, for You are a God Who hears tefillos and requests. *בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *שׁוֹמֵעַ תְּפִלָּה*—Who listens to tefillah."
+            },
+            {
+              "id": "s-th-rubric-pesukim",
+              "type": "rubric",
+              "enText": "We then recite various pesukim that deal with Hashem's constant protection of us, especially regarding traveling:"
+            },
+            {
+              "id": "s-th-rubric-yaakov",
+              "type": "rubric",
+              "enText": "*(Regarding Yaakov Avinu's trip back to Eretz Yisrael, the Torah tells us:)*"
+            },
+            {
+              "id": "s-th-prayer-yaakov",
+              "type": "prayer",
+              "heText": "וְאוֹמֵר נ\"פ: וְיַעֲקֹב הָלַךְ לְדַרְכּוֹ וַיִּפְגְּעוּ בוֹ מַלְאֲכֵי אֱלֹהִים: וַיֹּאמֶר יַעֲקֹב כַּאֲשֶׁר רָאָם מַחֲנֵה אֱלֹהִים זֶה, וַיִּקְרָא שֵׁם הַמָּקוֹם הַהוּא מַחֲנָיִם:"
+            },
+            {
+              "id": "s-th-commentary-yaakov",
+              "type": "commentary",
+              "enText": "*וְיַעֲקֹב הָלַךְ לְדַרְכּוֹ*—And Yaakov continued on his way, and he encountered angels of Hashem *(to protect him)*. And when Yaakov saw them, he said, \"This is a Godly camp,\" and he named the place Machanayim."
+            },
+            {
+              "id": "s-th-rubric-malach",
+              "type": "rubric",
+              "enText": "*(When Yaakov Avinu gave a brachah to Ephraim and Menasheh, he said:)*"
+            },
+            {
+              "id": "s-th-prayer-malach",
+              "type": "prayer",
+              "heText": "וְאוֹמֵר נ\"פ: הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל רָע, יְבָרֵךְ אֶת הַנְּעָרִים, וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק, וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ:"
+            },
+            {
+              "id": "s-th-commentary-malach",
+              "type": "commentary",
+              "enText": "*הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל רָע*—May the angel who saved me from all evil bless the boys, and let them carry my name and the names Avraham and Yitzchak *(may they continue in our path of serving Hashem)*, and may they multiply abundantly in the land."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

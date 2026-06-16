@@ -1,0 +1,107 @@
+{
+  "id": "al-hamichyah",
+  "heTitle": "עַל הַמִּחְיָה",
+  "enTitle": "Al HaMichyah",
+  "groups": [
+    {
+      "id": "g-al-hamichyah",
+      "title": "Al HaMichyah",
+      "prayers": [
+        {
+          "id": "p-al-hamichyah",
+          "heTitle": "עַל הַמִּחְיָה",
+          "enTitle": "Al HaMichyah",
+          "segments": [
+            {
+              "id": "s-am-header",
+              "type": "header",
+              "heText": "בְּרָכָה מֵעֵין שָׁלֹשׁ—עַל הַמִּחְיָה",
+              "enText": "You Ate a Piece of Cake, Had Some Wine, and/or Fruit from the Seven Species? It's Also a Miracle like Manna from Heaven! Say Thank You!"
+            },
+            {
+              "id": "s-am-intro",
+              "type": "section_intro",
+              "enText": "Yes, even cake is a miracle! See Introduction to Birkas Ha'mazon above on 119."
+            },
+            {
+              "id": "s-am-prayer-1",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם\nעַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה וְעַל פְּרִי הָעֵץ\nוְעַל מְזוֹנוֹת, וְעַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה\nעַל הַגֶּפֶן וְעַל פְּרִי הַגֶּפֶן."
+            },
+            {
+              "id": "s-am-commentary-1",
+              "type": "commentary",
+              "enText": "*בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *אֱלֹהֵינוּ*—You take care of us; *מֶלֶךְ הָעוֹלָם*—and You rule the entire world. Thank you for: the nourishment and sustenance/the vine and fruit of the vine/the tree and the fruit of the tree;"
+            },
+            {
+              "id": "s-am-prayer-2",
+              "type": "prayer",
+              "heText": "וְעַל תְּנוּבַת הַשָּׂדֶה וְעַל אֶרֶץ חֶמְדָּה טוֹבָה וּרְחָבָה שֶׁרָצִיתָ וְהִנְחַלְתָּ לַאֲבוֹתֵינוּ לֶאֱכֹל מִפִּרְיָהּ וְלִשְׂבּוֹעַ מִטּוּבָהּ, רַחֶם (נָא) יְהֹוָה אֱלֹהֵינוּ עַל יִשְׂרָאֵל עַמֶּךָ וְעַל יְרוּשָׁלַיִם עִירֶךָ וְעַל צִיּוֹן מִשְׁכַּן כְּבוֹדֶךָ וְעַל מִזְבְּחֶךָ וְעַל הֵיכָלֶךָ, וּבְנֵה יְרוּשָׁלַיִם עִיר הַקֹּדֶשׁ בִּמְהֵרָה בְיָמֵינוּ וְהַעֲלֵנוּ לְתוֹכָהּ וְשַׂמְּחֵנוּ בְּבִנְיָנָהּ וְנֹאכַל מִפִּרְיָהּ וְנִשְׂבַּע מִטּוּבָהּ וּנְבָרֶכְךָ עָלֶיהָ בִּקְדֻשָּׁה וּבְטָהֳרָה."
+            },
+            {
+              "id": "s-am-commentary-2",
+              "type": "commentary",
+              "enText": "*וְעַל תְּנוּבַת הַשָּׂדֶה*—and for the produce of the field, and for the precious, good, and spacious land that You have graciously given as a heritage to our ancestors, so that they may eat of its fruit and be satiated with its goodness. Hashem, have mercy on Your nation Bnei Yisrael, on Your city Yerushalayim, on Zion where Your Divine Presence rests, on Your Mizbei'ach and on the Beis Hamikdash. Rebuild Yerushalayim speedily in our lifetime, and may You bring us up there and we will rejoice in its rebuilding! And may we eat from its fruit, be satisfied by all its goodness, and we will thank You for all that with sanctity and purity."
+            },
+            {
+              "id": "s-am-rubric-shabbos",
+              "type": "rubric",
+              "enText": "*On Shabbos:* Please refresh and fortify us on this day of Shabbos.",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "s-am-prayer-shabbos",
+              "type": "prayer",
+              "heText": "בְּשַׁבָּת: וּרְצֵה וְהַחֲלִיצֵנוּ בְּיוֹם הַשַּׁבָּת הַזֶּה:",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "s-am-rubric-roshchodesh",
+              "type": "rubric",
+              "enText": "*On Rosh Chodesh:* Remember us for good on this day of Rosh Chodesh.",
+              "condition": "On Rosh Chodesh"
+            },
+            {
+              "id": "s-am-prayer-roshchodesh",
+              "type": "prayer",
+              "heText": "בר\"ח: וְזָכְרֵנוּ לְטוֹבָה בְּיוֹם רֹאשׁ הַחֹדֶשׁ הַזֶּה:",
+              "condition": "On Rosh Chodesh"
+            },
+            {
+              "id": "s-am-rubric-yomtov",
+              "type": "rubric",
+              "enText": "*On Yom Tov:* Grant us simchah on this day of Pesach/Sukkos/Shavuos.",
+              "condition": "On Yom Tov"
+            },
+            {
+              "id": "s-am-prayer-yomtov",
+              "type": "prayer",
+              "heText": "ביו\"ט: וְשַׂמְּחֵנוּ בְּיוֹם חַג (פְּלוֹנִי) הַזֶּה:",
+              "condition": "On Yom Tov"
+            },
+            {
+              "id": "s-am-prayer-3",
+              "type": "prayer",
+              "heText": "כִּי אַתָּה יְהֹוָה טוֹב וּמֵטִיב לַכֹּל וְנוֹדֶה לְּךָ עַל הָאָרֶץ וְעַל"
+            },
+            {
+              "id": "s-am-commentary-3",
+              "type": "commentary",
+              "enText": "*כִּי אַתָּה*—For You, Hashem, are Good, and You do good to all, and we thank You for the land and for: the nourishment/fruit of the vine/the fruits."
+            },
+            {
+              "id": "s-am-prayer-4",
+              "type": "prayer",
+              "heText": "עַל הַמִּחְיָה: בָּרוּךְ אַתָּה יְהֹוָה עַל הָאָרֶץ וְעַל הַמִּחְיָה:\nעַל הַפֵּרוֹת: בָּרוּךְ אַתָּה יְהֹוָה עַל הָאָרֶץ וְעַל הַפֵּרוֹת:\nעַל מְזוֹנוֹת: בָּרוּךְ אַתָּה יְהֹוָה עַל הָאָרֶץ וְעַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה:\nעַל מְזוֹנוֹת וְיַיִן כּיחד: בָּרוּךְ אַתָּה יְהֹוָה עַל הָאָרֶץ וְעַל הַמִּחְיָה וְעַל הַכַּלְכָּלָה וְעַל (בא\"י וְעַל) פְּרִי הַגֶּפֶן:"
+            },
+            {
+              "id": "s-am-commentary-4",
+              "type": "commentary",
+              "enText": "*בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *(and we thank You)* for the land and for: the nourishment/fruit of the vine/the fruits."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

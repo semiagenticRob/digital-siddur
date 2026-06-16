@@ -1,0 +1,47 @@
+{
+  "id": "borei-nefashos",
+  "heTitle": "בּוֹרֵא נְפָשׁוֹת",
+  "enTitle": "Borei Nefashos",
+  "groups": [
+    {
+      "id": "g-borei-nefashos",
+      "title": "Borei Nefashos",
+      "prayers": [
+        {
+          "id": "p-borei-nefashos",
+          "heTitle": "בּוֹרֵא נְפָשׁוֹת",
+          "enTitle": "Borei Nefashos",
+          "segments": [
+            {
+              "id": "s-bn-header",
+              "type": "header",
+              "heText": "בּוֹרֵא נְפָשׁוֹת",
+              "enText": "You Had a Glass of Water? It's Also a Miracle Like Manna from Heaven! Say Thank You!"
+            },
+            {
+              "id": "s-bn-intro",
+              "type": "section_intro",
+              "enText": "Yes, even a glass of water is a miracle! See Introduction to Birkas Ha'mazon on page 119."
+            },
+            {
+              "id": "s-bn-prayer",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא נְפָשׁוֹת רַבּוֹת וְחֶסְרוֹנָן עַל כָּל מַה שֶּׁבָּרָאתָ לְהַחֲיוֹת בָּהֶם נֶפֶשׁ כָּל חָי: בָּרוּךְ חֵי הָעוֹלָמִים:"
+            },
+            {
+              "id": "s-bn-commentary",
+              "type": "commentary",
+              "enText": "*בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *אֱלֹהֵינוּ*—You take care of us; *מֶלֶךְ הָעוֹלָם*—and You rule the entire world; *בּוֹרֵא נְפָשׁוֹת*—You are the Creator of numerous living things and all they need to survive; *עַל כָּל מַה שֶּׁבָּרָאתָ*—*(we thank You)* for all the things You have created with which to sustain the life of every living being. *בָּרוּךְ חֵי הָעוֹלָמִים*—You are the Source of life of the worlds."
+            },
+            {
+              "id": "s-bn-insight",
+              "type": "insight",
+              "enText": "We translated חֶסְרוֹנָן as thanking Hashem Who created all that we need to survive, all that we are lacking. But literally, the phrase really means that we are thanking Hashem Who created numerous living things and their deficiencies! Why would we thank Hashem for creating us with deficiencies and therefore needing stuff? As we explained at length in Appendix 1, the most important thing we need is to create a relationship with Hashem and talk to Him on a regular basis. Having deficiencies (we are hungry and thirsty) pushes us to talk to Him! Let's be honest. If we were created completely self-sufficient, we would quickly forget about Hashem! In addition, thanks to the fact that we all have חֶסְרוֹנָן, we have the opportunity to do chessed with each other! This helps us all bond and create a more loving community.",
+              "xref": "Appendix 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "id": "sefiras-haomer",
+  "heTitle": "סְפִירַת הָעוֹמֶר",
+  "enTitle": "Sefiras HaOmer",
+  "groups": [
+    {
+      "id": "g-sefiras-haomer",
+      "title": "Sefiras HaOmer",
+      "prayers": [
+        {
+          "id": "p-sefiras-haomer",
+          "heTitle": "סְפִירַת הָעוֹמֶר",
+          "enTitle": "Sefiras HaOmer",
+          "segments": [
+            {
+              "id": "seg-001",
+              "type": "commentary",
+              "heText": "שֶׁבְּרָאָנוּ לִכְבוֹדוֹ",
+              "enText": "Thank You for creating us as Your unique nation and giving us a Torah of truth. Open our hearts to Your Torah and inspire us to do the right things! And may we live to see the coming of Mashiach."
+            },
+            {
+              "id": "seg-002",
+              "type": "commentary",
+              "heText": "בָּרוּךְ הַגֶּבֶר",
+              "enText": "Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best *(even if it is hard to see)*. Hashem never abandons those who seek Him."
+            },
+            {
+              "id": "seg-003",
+              "type": "rubric",
+              "enText": "Full-Kaddish and Aleinu—page 185."
+            },
+            {
+              "id": "seg-004",
+              "type": "header",
+              "heText": "סְפִירַת הָעוֹמֶר",
+              "enText": "Counting Up to Kabbalas HaTorah"
+            },
+            {
+              "id": "seg-005",
+              "type": "section_intro",
+              "enText": "It's important to think a bit before one does a mitzvah, so that one will be doing it for the correct reasons and realize that he is fulfilling a mitzvah! Therefore, one may say the following before counting the Omer:"
+            },
+            {
+              "id": "seg-006",
+              "type": "commentary",
+              "heText": "לְשֵׁם יִחוּד",
+              "enText": "I am prepared and ready to fulfill the mitzvah of counting the Omer as described in the Torah. *(And as Moshe told Bnei Yisrael upon the completion of the Mishkan:)*"
+            },
+            {
+              "id": "seg-007",
+              "type": "commentary",
+              "heText": "וִיהִי נֹעַם",
+              "enText": "May we always feel the pleasantness of the Divine Presence, and may the Divine Presence always rest on the work of our hands."
+            },
+            {
+              "id": "seg-008",
+              "type": "prayer",
+              "heText": "לְשֵׁם יִחוּד קֻדְשָׁא בְּרִיךְ הוּא וּשְׁכִינְתֵּהּ בִּדְחִילוּ וּרְחִימוּ. לְיַחֵד שֵׁם י\"ה בְּו\"ה בְּיִחוּדָא שְׁלִים בְּשֵׁם כָּל יִשְׂרָאֵל. הִנְנִי מוּכָן וּמְזֻמָּן לְקַיֵּם מִצְוַת עֲשֵׂה שֶׁל סְפִירַת הָעוֹמֶר. כְּמוֹ שֶׁכָּתוּב בַּתּוֹרָה. וּסְפַרְתֶּם לָכֶם מִמָּחֳרַת הַשַּׁבָּת מִיּוֹם הֲבִיאֲכֶם אֶת עוֹמֶר הַתְּנוּפָה שֶׁבַע שַׁבָּתוֹת תְּמִימוֹת תִּהְיֶינָה. עַד מִמָּחֳרַת הַשַּׁבָּת הַשְּׁבִיעִית תִּסְפְּרוּ חֲמִשִּׁים יוֹם. כְּדֵי שֶׁיִּטַּהֲרוּ נַפְשׁוֹת עַמְּךָ יִשְׂרָאֵל מִזֻּהֲמָתָם. וּבְכֵן יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ. שֶׁבִּזְכוּת סְפִירַת הָעוֹמֶר שֶׁאֶסְפֹּר הַיּוֹם. יְתֻקַּן מַה שֶּׁפָּגַמְתִּי בִּסְפִירָה. וְאֶטָּהֵר וְאֶתְקַדֵּשׁ בִּקְדֻשָּׁה שֶׁל מַעְלָה. וְעַל יְדֵי זֶה יֻשְׁפַּע שֶׁפַע רַב בְּכָל הָעוֹלָמוֹת. לְתַקֵּן אֶת נַפְשׁוֹתֵינוּ וְרוּחוֹתֵינוּ וְנִשְׁמוֹתֵינוּ מִכָּל סִיג וּפְגָם וּלְטַהֲרֵנוּ וּלְקַדְּשֵׁנוּ בִּקְדֻשָּׁתְךָ הָעֶלְיוֹנָה. אָמֵן סֶלָה.\n\nוִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ. וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ. וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:",
+              "condition": "Said before counting the Omer"
+            },
+            {
+              "id": "seg-009",
+              "type": "rubric",
+              "enText": "Brachah before counting the Omer:"
+            },
+            {
+              "id": "seg-010",
+              "type": "commentary",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה",
+              "enText": "You, Hashem, are the Source of everything;"
+            },
+            {
+              "id": "seg-011",
+              "type": "commentary",
+              "heText": "אֱלֹהֵינוּ",
+              "enText": "You take care of us;"
+            },
+            {
+              "id": "seg-012",
+              "type": "commentary",
+              "heText": "מֶלֶךְ הָעוֹלָם",
+              "enText": "and You rule the entire world;"
+            },
+            {
+              "id": "seg-013",
+              "type": "commentary",
+              "heText": "אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו",
+              "enText": "and through Your mitzvos You elevated us;"
+            },
+            {
+              "id": "seg-014",
+              "type": "commentary",
+              "heText": "וְצִוָּנוּ עַל סְפִירַת הָעֹמֶר",
+              "enText": "and commanded us concerning the mitzvah of counting the Omer."
+            },
+            {
+              "id": "seg-015",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ עַל סְפִירַת הָעֹמֶר:"
+            },
+            {
+              "id": "seg-016",
+              "type": "rubric",
+              "enText": "Count the appropriate day; see below."
+            },
+            {
+              "id": "seg-017",
+              "type": "header",
+              "heText": "הַיּוֹם..."
+            },
+            {
+              "id": "seg-018",
+              "type": "rubric",
+              "enText": "After counting the Omer:"
+            },
+            {
+              "id": "seg-019",
+              "type": "commentary",
+              "heText": "הָרַחֲמָן הוּא יַחֲזִיר לָנוּ",
+              "enText": "May Hashem rebuild the Beis Hamikdash soon and restore the avodah (so that we will actually be able to bring the Korban Omer!)."
+            },
+            {
+              "id": "seg-020",
+              "type": "prayer",
+              "heText": "הָרַחֲמָן הוּא יַחֲזִיר לָנוּ עֲבוֹדַת בֵּית הַמִּקְדָּשׁ לִמְקוֹמָהּ, בִּמְהֵרָה בְּיָמֵינוּ אָמֵן סֶלָה:"
+            },
+            {
+              "id": "seg-021",
+              "type": "section_intro",
+              "enText": "The focus of this chapter is on the future, when the entire world will join with Bnei Yisrael to sing praises to Hashem and submit to His Will. In addition, after the introductory pasuk, this chapter has forty-nine words, corresponding to the forty-nine days of the Omer."
+            },
+            {
+              "id": "seg-022",
+              "type": "commentary",
+              "heText": "לַמְנַצֵּחַ בִּנְגִינֹת",
+              "enText": "The entire world will understand Your ways, Hashem—and everyone will bow to You and praise You! All the nations will rejoice, because they will understand that You judge everyone fairly. At that time, the earth will produce plenty, and everyone will be blessed and serve Hashem."
+            },
+            {
+              "id": "seg-023",
+              "type": "prayer",
+              "heText": "לַמְנַצֵּחַ בִּנְגִינֹת מִזְמוֹר שִׁיר: אֱלֹהִים יְחָנֵּנוּ וִיבָרְכֵנוּ, יָאֵר פָּנָיו אִתָּנוּ סֶלָה: לָדַעַת בָּאָרֶץ דַּרְכֶּךָ, בְּכָל גּוֹיִם יְשׁוּעָתֶךָ: יוֹדוּךָ עַמִּים אֱלֹהִים, יוֹדוּךָ עַמִּים כֻּלָּם: יִשְׂמְחוּ וִירַנְּנוּ לְאֻמִּים, כִּי תִשְׁפֹּט עַמִּים מִישׁוֹר, וּלְאֻמִּים בָּאָרֶץ תַּנְחֵם סֶלָה: יוֹדוּךָ עַמִּים אֱלֹהִים, יוֹדוּךָ עַמִּים כֻּלָּם: אֶרֶץ נָתְנָה יְבוּלָהּ, יְבָרְכֵנוּ אֱלֹהִים אֱלֹהֵינוּ: יְבָרְכֵנוּ אֱלֹהִים, וְיִירְאוּ אֹתוֹ כָּל אַפְסֵי אָרֶץ:"
+            },
+            {
+              "id": "seg-024",
+              "type": "commentary",
+              "heText": "אָנָּא בְכֹחַ",
+              "enText": "Please, Hashem, set us, Your chosen nation, free *(from our galus)*! Accept our tefillos and give us strength *(to overcome our challenges)*; purify us *(from all the impurities of the society around us)*; and guide us *(to make the correct decisions)*. *(And even if we do not know how to express ourselves properly)* please accept our requests, for You know all our thoughts!"
+            },
+            {
+              "id": "seg-025",
+              "type": "commentary",
+              "heText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ",
+              "enText": "May the perception of Hashem's Presence and rulership be increased *(so all humans will recognize His existence and power)*;"
+            },
+            {
+              "id": "seg-026",
+              "type": "commentary",
+              "heText": "לְעוֹלָם וָעֶד",
+              "enText": "forever and ever."
+            },
+            {
+              "id": "seg-027",
+              "type": "prayer",
+              "heText": "אָנָּא בְכֹחַ גְּדֻלַּת יְמִינְךָ, תַּתִּיר צְרוּרָה: קַבֵּל רִנַּת עַמְּךָ, שַׂגְּבֵנוּ, טַהֲרֵנוּ נוֹרָא: נָא גִבּוֹר, דּוֹרְשֵׁי יִחוּדְךָ, כְּבָבַת שָׁמְרֵם: בָּרְכֵם טַהֲרֵם, רַחֲמֵי צִדְקָתְךָ, תָּמִיד גָּמְלֵם: חֲסִין קָדוֹשׁ, בְּרֹב טוּבְךָ, נַהֵל עֲדָתֶךָ: יָחִיד גֵּאֶה, לְעַמְּךָ פְּנֵה, זוֹכְרֵי קְדֻשָּׁתֶךָ: שַׁוְעָתֵנוּ קַבֵּל, וּשְׁמַע צַעֲקָתֵנוּ, יוֹדֵעַ תַּעֲלוּמוֹת:\nבָּרוּךְ, שֵׁם כְּבוֹד מַלְכוּתוֹ, לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "seg-028",
+              "type": "commentary",
+              "heText": "רִבּוֹנוֹ שֶׁל עוֹלָם",
+              "enText": "You commanded us to count the Omer from Pesach to Shavuos as an opportunity to reflect, rethink our values, and step by step, day by day, purify ourselves and thus be prepared to accept the Torah again, and our mission to the world, on Shavuos. Hashem, in the merit of this mitzvah of counting the Omer today, may I be cleansed of my impurities, and may I be able to connect to the essence of my neshamah, which is rooted in the Heavens above."
+            },
+            {
+              "id": "seg-029",
+              "type": "prayer",
+              "heText": "רִבּוֹנוֹ שֶׁל עוֹלָם, אַתָּה צִוִּיתָנִי עַל יְדֵי מֹשֶׁה עַבְדְּךָ לִסְפֹּר סְפִירַת הָעוֹמֶר כְּדֵי לְטַהֲרֵנוּ מִקְּלִפּוֹתֵינוּ וּמִטֻּמְאוֹתֵינוּ, כְּמוֹ שֶׁכָּתַבְתָּ בְּתוֹרָתֶךָ: וּסְפַרְתֶּם לָכֶם מִמָּחֳרַת הַשַּׁבָּת מִיּוֹם הֲבִיאֲכֶם אֶת עֹמֶר הַתְּנוּפָה שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶינָה: עַד מִמָּחֳרַת הַשַּׁבָּת הַשְּׁבִיעִית תִּסְפְּרוּ חֲמִשִּׁים יוֹם, כְּדֵי שֶׁיִּטַּהֲרוּ נַפְשׁוֹת עַמְּךָ יִשְׂרָאֵל מִזֻּהֲמָתָם. וּבְכֵן יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁבִּזְכוּת סְפִירַת הָעוֹמֶר שֶׁסָּפַרְתִּי הַיּוֹם, יְתֻקַּן מַה שֶּׁפָּגַמְתִּי בִּסְפִירָה, וְאֶטָּהֵר וְאֶתְקַדֵּשׁ בִּקְדֻשָּׁה שֶׁל מַעְלָה, וְעַל יְדֵי זֶה יֻשְׁפַּע שֶׁפַע רַב בְּכָל הָעוֹלָמוֹת, לְתַקֵּן אֶת נַפְשׁוֹתֵינוּ וְרוּחוֹתֵינוּ וְנִשְׁמוֹתֵינוּ מִכָּל סִיג וּפְגָם וּלְטַהֲרֵנוּ וּלְקַדְּשֵׁנוּ בִּקְדֻשָּׁתְךָ הָעֶלְיוֹנָה, אָמֵן סֶלָה:"
+            },
+            {
+              "id": "seg-030",
+              "type": "header",
+              "enText": "THE DAYS OF THE OMER"
+            },
+            {
+              "id": "seg-031",
+              "type": "prayer",
+              "heText": "ט\"ז נִיסָן. הַיּוֹם יוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 1 — 16 Nisan"
+            },
+            {
+              "id": "seg-032",
+              "type": "prayer",
+              "heText": "י\"ז נִיסָן. הַיּוֹם שְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 2 — 17 Nisan"
+            },
+            {
+              "id": "seg-033",
+              "type": "prayer",
+              "heText": "י\"ח נִיסָן. הַיּוֹם שְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 3 — 18 Nisan"
+            },
+            {
+              "id": "seg-034",
+              "type": "prayer",
+              "heText": "י\"ט נִיסָן. הַיּוֹם אַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 4 — 19 Nisan"
+            },
+            {
+              "id": "seg-035",
+              "type": "prayer",
+              "heText": "כ' נִיסָן. הַיּוֹם חֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 5 — 20 Nisan"
+            },
+            {
+              "id": "seg-036",
+              "type": "prayer",
+              "heText": "כ\"א נִיסָן. הַיּוֹם שִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 6 — 21 Nisan"
+            },
+            {
+              "id": "seg-037",
+              "type": "prayer",
+              "heText": "כ\"ב נִיסָן. הַיּוֹם שִׁבְעָה יָמִים, שֶׁהֵם שָׁבוּעַ אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 7 — 22 Nisan"
+            },
+            {
+              "id": "seg-038",
+              "type": "prayer",
+              "heText": "כ\"ג נִיסָן. הַיּוֹם שְׁמוֹנָה יָמִים, שֶׁהֵם שָׁבוּעַ אֶחָד וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 8 — 23 Nisan"
+            },
+            {
+              "id": "seg-039",
+              "type": "prayer",
+              "heText": "כ\"ד נִיסָן. הַיּוֹם תִּשְׁעָה יָמִים, שֶׁהֵם שָׁבוּעַ אֶחָד וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 9 — 24 Nisan"
+            },
+            {
+              "id": "seg-040",
+              "type": "prayer",
+              "heText": "כ\"ה נִיסָן. הַיּוֹם עֲשָׂרָה יָמִים, שֶׁהֵם שָׁבוּעַ אֶחָד וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 10 — 25 Nisan"
+            },
+            {
+              "id": "seg-041",
+              "type": "prayer",
+              "heText": "כ\"ו נִיסָן. הַיּוֹם אַחַד עָשָׂר יוֹם, שֶׁהֵם שָׁבוּעַ אֶחָד וְאַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 11 — 26 Nisan"
+            },
+            {
+              "id": "seg-042",
+              "type": "prayer",
+              "heText": "כ\"ז נִיסָן. הַיּוֹם שְׁנֵים עָשָׂר יוֹם, שֶׁהֵם שָׁבוּעַ אֶחָד וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 12 — 27 Nisan"
+            },
+            {
+              "id": "seg-043",
+              "type": "prayer",
+              "heText": "כ\"ח נִיסָן. הַיּוֹם שְׁלֹשָׁה עָשָׂר יוֹם, שֶׁהֵם שָׁבוּעַ אֶחָד וְשִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 13 — 28 Nisan"
+            },
+            {
+              "id": "seg-044",
+              "type": "prayer",
+              "heText": "כ\"ט נִיסָן. הַיּוֹם אַרְבָּעָה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת בָּעוֹמֶר:",
+              "condition": "Day 14 — 29 Nisan"
+            },
+            {
+              "id": "seg-045",
+              "type": "prayer",
+              "heText": "ל' נִיסָן. הַיּוֹם חֲמִשָּׁה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 15 — 30 Nisan"
+            },
+            {
+              "id": "seg-046",
+              "type": "prayer",
+              "heText": "א' אִיָּיר. הַיּוֹם שִׁשָּׁה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 16 — 1 Iyar"
+            },
+            {
+              "id": "seg-047",
+              "type": "prayer",
+              "heText": "ב' אִיָּיר. הַיּוֹם שִׁבְעָה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 17 — 2 Iyar"
+            },
+            {
+              "id": "seg-048",
+              "type": "prayer",
+              "heText": "ג' אִיָּיר. הַיּוֹם שְׁמוֹנָה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְאַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 18 — 3 Iyar"
+            },
+            {
+              "id": "seg-049",
+              "type": "prayer",
+              "heText": "ד' אִיָּיר. הַיּוֹם תִּשְׁעָה עָשָׂר יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 19 — 4 Iyar"
+            },
+            {
+              "id": "seg-050",
+              "type": "prayer",
+              "heText": "ה' אִיָּיר. הַיּוֹם עֶשְׂרִים יוֹם, שֶׁהֵם שְׁנֵי שָׁבוּעוֹת וְשִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 20 — 5 Iyar"
+            },
+            {
+              "id": "seg-051",
+              "type": "prayer",
+              "heText": "ו' אִיָּיר. הַיּוֹם אֶחָד וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת בָּעוֹמֶר:",
+              "condition": "Day 21 — 6 Iyar"
+            },
+            {
+              "id": "seg-052",
+              "type": "prayer",
+              "heText": "ז' אִיָּיר. הַיּוֹם שְׁנַיִם וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 22 — 7 Iyar"
+            },
+            {
+              "id": "seg-053",
+              "type": "prayer",
+              "heText": "ח' אִיָּיר. הַיּוֹם שְׁלֹשָׁה וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 23 — 8 Iyar"
+            },
+            {
+              "id": "seg-054",
+              "type": "prayer",
+              "heText": "ט' אִיָּיר. הַיּוֹם אַרְבָּעָה וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 24 — 9 Iyar"
+            },
+            {
+              "id": "seg-055",
+              "type": "prayer",
+              "heText": "י' אִיָּיר. הַיּוֹם חֲמִשָּׁה וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 25 — 10 Iyar"
+            },
+            {
+              "id": "seg-056",
+              "type": "prayer",
+              "heText": "י\"א אִיָּיר. הַיּוֹם שִׁשָּׁה וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 26 — 11 Iyar"
+            },
+            {
+              "id": "seg-057",
+              "type": "prayer",
+              "heText": "י\"ב אִיָּיר. הַיּוֹם שִׁבְעָה וְעֶשְׂרִים יוֹם, שֶׁהֵם שְׁלֹשָׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 27 — 12 Iyar"
+            },
+            {
+              "id": "seg-058",
+              "type": "prayer",
+              "heText": "י\"ג אִיָּיר. הַיּוֹם שְׁמוֹנָה וְעֶשְׂרִים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת בָּעוֹמֶר:",
+              "condition": "Day 28 — 13 Iyar"
+            },
+            {
+              "id": "seg-059",
+              "type": "prayer",
+              "heText": "י\"ד אִיָּיר. הַיּוֹם תִּשְׁעָה וְעֶשְׂרִים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 29 — 14 Iyar"
+            },
+            {
+              "id": "seg-060",
+              "type": "prayer",
+              "heText": "ט\"ו אִיָּיר. הַיּוֹם שְׁלֹשִׁים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 30 — 15 Iyar"
+            },
+            {
+              "id": "seg-061",
+              "type": "prayer",
+              "heText": "ט\"ז אִיָּיר. הַיּוֹם אֶחָד וּשְׁלֹשִׁים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 31 — 16 Iyar"
+            },
+            {
+              "id": "seg-062",
+              "type": "prayer",
+              "heText": "י\"ז אִיָּיר. הַיּוֹם שְׁנַיִם וּשְׁלֹשִׁים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 32 — 17 Iyar"
+            },
+            {
+              "id": "seg-063",
+              "type": "prayer",
+              "heText": "י\"ח אִיָּיר. הַיּוֹם שְׁלֹשָׁה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 33 — 18 Iyar (Lag BaOmer)"
+            },
+            {
+              "id": "seg-064",
+              "type": "prayer",
+              "heText": "י\"ט אִיָּיר. הַיּוֹם אַרְבָּעָה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם אַרְבָּעָה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 34 — 19 Iyar"
+            },
+            {
+              "id": "seg-065",
+              "type": "prayer",
+              "heText": "כ' אִיָּיר. הַיּוֹם חֲמִשָּׁה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת בָּעוֹמֶר:",
+              "condition": "Day 35 — 20 Iyar"
+            },
+            {
+              "id": "seg-066",
+              "type": "prayer",
+              "heText": "כ\"א אִיָּיר. הַיּוֹם שִׁשָּׁה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 36 — 21 Iyar"
+            },
+            {
+              "id": "seg-067",
+              "type": "prayer",
+              "heText": "כ\"ב אִיָּיר. הַיּוֹם שִׁבְעָה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 37 — 22 Iyar"
+            },
+            {
+              "id": "seg-068",
+              "type": "prayer",
+              "heText": "כ\"ג אִיָּיר. הַיּוֹם שְׁמוֹנָה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 38 — 23 Iyar"
+            },
+            {
+              "id": "seg-069",
+              "type": "prayer",
+              "heText": "כ\"ד אִיָּיר. הַיּוֹם תִּשְׁעָה וּשְׁלֹשִׁים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 39 — 24 Iyar"
+            },
+            {
+              "id": "seg-070",
+              "type": "prayer",
+              "heText": "כ\"ה אִיָּיר. הַיּוֹם אַרְבָּעִים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 40 — 25 Iyar"
+            },
+            {
+              "id": "seg-071",
+              "type": "prayer",
+              "heText": "כ\"ו אִיָּיר. הַיּוֹם אֶחָד וְאַרְבָּעִים יוֹם, שֶׁהֵם חֲמִשָּׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים בָּעוֹמֶר:",
+              "condition": "Day 41 — 26 Iyar"
+            },
+            {
+              "id": "seg-072",
+              "type": "prayer",
+              "heText": "כ\"ז אִיָּיר. הַיּוֹם שְׁנַיִם וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת בָּעוֹמֶר:",
+              "condition": "Day 42 — 27 Iyar"
+            },
+            {
+              "id": "seg-073",
+              "type": "prayer",
+              "heText": "כ\"ח אִיָּיר. הַיּוֹם שְׁלֹשָׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
+              "condition": "Day 43 — 28 Iyar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "id": "mussaf-chol-hamoed",
+  "heTitle": "מוּסַף לְחוֹל הַמּוֹעֵד",
+  "enTitle": "Mussaf for Chol Hamoed",
+  "groups": [
+    {
+      "id": "g-mussaf-chol-hamoed",
+      "title": "Mussaf for Chol Hamoed",
+      "prayers": [
+        {
+          "id": "p-mussaf-chol-hamoed",
+          "heTitle": "מוּסַף לְחוֹל הַמּוֹעֵד",
+          "enTitle": "Mussaf for Chol Hamoed",
+          "segments": [
+            {
+              "id": "mch1-header",
+              "type": "header",
+              "heText": "מוּסַף לְחוֹל הַמּוֹעֵד",
+              "enText": "Mussaf for Chol Hamoed"
+            },
+            {
+              "id": "mch1-subheader",
+              "type": "header",
+              "enText": "Special Days—with Opportunities to Focus on Specific Values"
+            },
+            {
+              "id": "mch1-faq",
+              "type": "faq",
+              "enText": "FAQ: Really? Am I supposed to wake up on Chol Hamoed and say to myself: \"I sooo wish I could go bring an animal sacrifice this morning\"? How are we supposed to relate to a concept that seems so foreign to us? ANSWER: Valid question! See Appendix 9.",
+              "xref": "Appendix 9"
+            },
+            {
+              "id": "mch1-intro-1",
+              "type": "commentary",
+              "enText": "The Sefer Kuzari describes davening three times a day as an opportunity to recharge our neshamah's spiritual batteries from its battles with all the very non-spiritual \"junk\" of the material world. Even so, keeping our spiritual sensitivities pure and our value system straight is not easy. We are bombarded continuously with messages, values, goals, and promises of instant happiness, which are all antithetical to Torah and our mission to the world. Therefore, Hashem gave us specific times in the year (Shabbos and the Shalosh Regalim) to step back and reflect. Regarding the Yamim Tovim, each focuses on a different value or pillar in our unique status as Hashem's chosen people. This is reflected by the unique character of the korbanos brought on each Yom Tov. (Here is not the place to go into the details of each korban. The commentary of Rav Samson Raphael Hirsch on the appropriate sections in the Chumash explains the significance of each animal and offering.)"
+            },
+            {
+              "id": "mch1-intro-2",
+              "type": "commentary",
+              "enText": "Unfortunately, now we do not have the Beis Hamikdash, but in this tefillah we will show Hashem that we are not happy with our current state of galus—and that we wish for the time when the Beis Hamikdash will be rebuilt and we will be able to bring these korbanos."
+            },
+            {
+              "id": "mch1-intro-3",
+              "type": "commentary",
+              "enText": "As in every Shemoneh Esrei, we start with the three brachos of praises of Hashem and end with the three brachos of our thanks to Hashem. The special Yom Tov Mussaf part is in between those two sections."
+            },
+            {
+              "id": "mch1-opening-rubric",
+              "type": "rubric",
+              "enText": "Opening Statement"
+            },
+            {
+              "id": "mch1-opening-prayer",
+              "type": "prayer",
+              "heText": "כִּי שֵׁם יְהֹוָה אֶקְרָא הָבוּ גֹדֶל לֵאלֹהֵינוּ:"
+            },
+            {
+              "id": "mch1-opening-comm",
+              "type": "commentary",
+              "enText": "**כִּי שֵׁם יְהֹוָה אֶקְרָא הָבוּ גֹדֶל לֵאלֹהֵינוּ**—When I proclaim the providence of Hashem (*which I am now going to focus on in Mussaf*), it will become clear to all that everyone must ascribe greatness (*and therefore praise*) to Hashem, our God."
+            },
+            {
+              "id": "mch1-lips-prayer",
+              "type": "prayer",
+              "heText": "אֲדֹנָי, שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ:"
+            },
+            {
+              "id": "mch1-lips-comm",
+              "type": "commentary",
+              "enText": "**אֲדֹנָי, שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ**—(*I am standing here because I do want to daven, create a relationship, and thank You for all the good You do for me—which is sometimes hard to see or understand—and I want to ask You for the help I need. But that does not come easy to me for so many reasons. Therefore, I am asking, please*) Hashem, open my lips and help me express myself properly."
+            },
+            {
+              "id": "mch1-sec1-rubric",
+              "type": "rubric",
+              "enText": "Section 1—Praises"
+            },
+            {
+              "id": "mch1-avos-header",
+              "type": "header",
+              "heText": "אָבוֹת"
+            },
+            {
+              "id": "mch1-avos-subrubric",
+              "type": "rubric",
+              "enText": "Hashem took care of us from the beginning:"
+            },
+            {
+              "id": "mch1-avos-prayer",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה, אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, אֱלֹהֵי אַבְרָהָם, אֱלֹהֵי יִצְחָק, וֵאלֹהֵי יַעֲקֹב, הָאֵל הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא, אֵל עֶלְיוֹן, גּוֹמֵל חֲסָדִים טוֹבִים, וְקוֹנֵה הַכֹּל, וְזוֹכֵר חַסְדֵי אָבוֹת, וּמֵבִיא גוֹאֵל לִבְנֵי בְנֵיהֶם לְמַעַן שְׁמוֹ, בְּאַהֲבָה:"
+            },
+            {
+              "id": "mch1-avos-comm",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה, אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—You, Hashem, are the Source of everything; You control everything, and have taken care of Bnei Yisrael throughout our history starting from the time of the Avos. You are all-powerful; You shower us with acts of helpful kindness (*even though at times it is hard to see that*) and everything is Yours. When dealing with us, You take into account the good deeds of our ancestors, and (*everything you do for us, is in order to*) bring Mashiach to us, their descendants, even if we do not deserve it!"
+            },
+            {
+              "id": "mch1-insight",
+              "type": "insight",
+              "enText": "The terms חֶסֶד, עֶזֶר, and מָגֵן represent three levels of help that we need in our lives—from the least to the most. עֶזֶר—\"help,\" is when we are on the right track, doing what we need to do in the best way possible, and we ask Hashem to please help us that all should work out, since nothing will come to fruition without His help. חֶסֶד—\"salvation,\" is when we are completely at a loss; we throw up our hands and say to Hashem, \"Save me, I have no idea what to do next!\" The third and highest level of מָגֵן—\"protect,\" is when we think we're on the right track and know what we're doing, but in truth we are completely off base! We ask Hashem, \"if I'm going in the wrong direction, מָגֵן—protect me from myself!\""
+            },
+            {
+              "id": "mch1-avos-king-prayer",
+              "type": "prayer",
+              "heText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן: בָּרוּךְ אַתָּה יְהֹוָה, מָגֵן אַבְרָהָם:"
+            },
+            {
+              "id": "mch1-avos-king-comm",
+              "type": "commentary",
+              "enText": "**מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן**—You are our King, You have the power to help us through our difficulties, to save us (*from our physical and spiritual enemies*), and to protect us (*from evil*). **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מָגֵן אַבְרָהָם**—You are the Protector of Avraham (*and us, his descendants*)."
+            },
+            {
+              "id": "mch1-gevuros-header",
+              "type": "header",
+              "heText": "גְּבוּרוֹת"
+            },
+            {
+              "id": "mch1-gevuros-subrubric",
+              "type": "rubric",
+              "enText": "Hashem is all-powerful:"
+            },
+            {
+              "id": "mch1-gevuros-prayer1",
+              "type": "prayer",
+              "heText": "אַתָּה גִבּוֹר לְעוֹלָם, אֲדֹנָי, מְחַיֵּה מֵתִים אַתָּה, רַב לְהוֹשִׁיעַ:"
+            },
+            {
+              "id": "mch1-gevuros-comm1",
+              "type": "commentary",
+              "enText": "**אַתָּה גִבּוֹר לְעוֹלָם**—Hashem, Your power and rulership are permanent; You bring about Techiyas Hameisim (*since our souls are eternal*); and You have unlimited power to save us."
+            },
+            {
+              "id": "mch1-tal-rubric",
+              "type": "rubric",
+              "enText": "*In Israel on Chol Hamoed Pesach and Sukkos:*",
+              "condition": "In Israel on Chol Hamoed Pesach and Sukkos"
+            },
+            {
+              "id": "mch1-tal-prayer",
+              "type": "prayer",
+              "heText": "מוֹרִיד הַטָּל:",
+              "condition": "In Israel on Chol Hamoed Pesach and Sukkos"
+            },
+            {
+              "id": "mch1-tal-comm",
+              "type": "commentary",
+              "enText": "You cause the dew to fall. (*If you made a mistake—see Appendix 12:3*)",
+              "condition": "In Israel on Chol Hamoed Pesach and Sukkos",
+              "xref": "Appendix 12:3"
+            },
+            {
+              "id": "mch1-gevuros-prayer2",
+              "type": "prayer",
+              "heText": "מְכַלְכֵּל חַיִּים בְּחֶסֶד, מְחַיֵּה מֵתִים בְּרַחֲמִים רַבִּים, סוֹמֵךְ נוֹפְלִים, וְרוֹפֵא חוֹלִים, וּמַתִּיר אֲסוּרִים, וּמְקַיֵּם אֱמוּנָתוֹ לִישֵׁנֵי עָפָר: מִי כָמוֹךָ בַּעַל גְּבוּרוֹת, וּמִי דּוֹמֶה לָּךְ, מֶלֶךְ מֵמִית וּמְחַיֶּה וּמַצְמִיחַ יְשׁוּעָה:"
+            },
+            {
+              "id": "mch1-gevuros-comm2",
+              "type": "commentary",
+              "enText": "**מְכַלְכֵּל חַיִּים בְּחֶסֶד**—You take care of us with Your kindness; and with Your great mercy You revive the dead (*literally Techiyas Hameisim, and You also save those who are near physical or spiritual death*); You support those who have fallen (*physically and spiritually*); You heal the sick (*both physically and emotionally ill*) and free those in prison (*whether in real prisons or trapped in their own sense of limitations*); and You keep the covenant You made with our ancestors. There is no other power like You at all; You have total control over our lives and our ultimate salvation. (*And that is why we are turning to You and only You with the upcoming requests in our Shemoneh Esrei.*)"
+            },
+            {
+              "id": "mch1-gevuros-prayer3",
+              "type": "prayer",
+              "heText": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים: בָּרוּךְ אַתָּה יְהֹוָה, מְחַיֵּה הַמֵּתִים:"
+            },
+            {
+              "id": "mch1-gevuros-comm3",
+              "type": "commentary",
+              "enText": "**וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים**—We have total faith that You will perform Techiyas Hameisim. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מְחַיֵּה הַמֵּתִים**—Who performs Techiyas Hameisim. (*Even though it has not yet happened, we are so sure that it will that we say this brachah in the present tense!*)"
+            },
+            {
+              "id": "mch1-kedushah-header",
+              "type": "header",
+              "heText": "קְדוּשָׁה"
+            },
+            {
+              "id": "mch1-kedushah-subrubric",
+              "type": "rubric",
+              "enText": "Let us praise Hashem like the angels do!"
+            },
+            {
+              "id": "mch1-kedushah-intro",
+              "type": "commentary",
+              "enText": "Unlike angels who have a higher understanding of Hashem, we humans cannot understand \"Who\" Hashem is—His very essence (represented by the word \"אַתָּה\"). All we can perceive is what He does—referred to as \"שֵׁם.\" Nevertheless, in Kedushah we will praise Hashem like the angels do. Since we can only do this when we are at the level of a tzibbur—a unified community—we therefore only say this with a minyan."
+            },
+            {
+              "id": "mch1-kedushah-prayer1",
+              "type": "prayer",
+              "heText": "נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם, כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם, כַּכָּתוּב עַל יַד נְבִיאֶךָ, וְקָרָא זֶה אֶל זֶה וְאָמַר:"
+            },
+            {
+              "id": "mch1-kedushah-comm1",
+              "type": "commentary",
+              "enText": "**נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם**—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; **כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם**—just like the angels declare the kedushah of \"אוֹתוֹ\"—the essence of Hashem. **וְקָרָא זֶה אֶל זֶה וְאָמַר**—As the Navi tells us; **כַּכָּתוּב עַל יַד נְבִיאֶךָ**—that one angel calls to the other (*so that they all praise Hashem in unison*) and say:"
+            },
+            {
+              "id": "mch1-kedushah-kof1-rubric",
+              "type": "rubric",
+              "heText": "קהל:"
+            },
+            {
+              "id": "mch1-kedushah-prayer2",
+              "type": "prayer",
+              "heText": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:"
+            },
+            {
+              "id": "mch1-kedushah-comm2",
+              "type": "commentary",
+              "enText": "**קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת**—The sanctity of Hashem can be felt in **all** worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere (*though it requires effort and diligence in order to tap into it through Torah and mitzvos*)."
+            },
+            {
+              "id": "mch1-kedushah-chazzan1-rubric",
+              "type": "rubric",
+              "heText": "חזן:"
+            },
+            {
+              "id": "mch1-kedushah-prayer3",
+              "type": "prayer",
+              "heText": "לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ:"
+            },
+            {
+              "id": "mch1-kedushah-comm3",
+              "type": "commentary",
+              "enText": "**לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ**—Correspondingly, other angels offer praise and declare (*as we do also*):"
+            },
+            {
+              "id": "mch1-kedushah-kof2-rubric",
+              "type": "rubric",
+              "heText": "קהל:"
+            },
+            {
+              "id": "mch1-kedushah-prayer4",
+              "type": "prayer",
+              "heText": "בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:"
+            },
+            {
+              "id": "mch1-kedushah-comm4",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ כְּבוֹד יְהֹוָה**—The essence of Hashem is completely beyond us (*even the highest angels*); it is **מִמְּקוֹמוֹ**—from His place (*up there, it all makes sense!*)."
+            },
+            {
+              "id": "mch1-kedushah-chazzan2-rubric",
+              "type": "rubric",
+              "heText": "חזן:"
+            },
+            {
+              "id": "mch1-kedushah-prayer5",
+              "type": "prayer",
+              "heText": "וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:"
+            },
+            {
+              "id": "mch1-kedushah-comm5",
+              "type": "commentary",
+              "enText": "**וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר**—In addition, it is written in Your holy words:"
+            },
+            {
+              "id": "mch1-kedushah-kof3-rubric",
+              "type": "rubric",
+              "heText": "קהל:"
+            },
+            {
+              "id": "mch1-kedushah-prayer6",
+              "type": "prayer",
+              "heText": "יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:"
+            },
+            {
+              "id": "mch1-kedushah-comm6",
+              "type": "commentary",
+              "enText": "**יִמְלֹךְ יְהֹוָה לְעוֹלָם**—The Kingship of Hashem is for all eternity (*He will always be there, unlike our mortal helpers*); **אֱלֹהַיִךְ צִיּוֹן**—and Hashem has a special providence on Eretz Yisrael; **לְדֹר וָדֹר**—in all generations: our past and our future; **הַלְלוּיָהּ**—whatever happens, praise Hashem!"
+            },
+            {
+              "id": "mch1-kedushah-conclude-rubric",
+              "type": "rubric",
+              "enText": "*The chazzan concludes:*"
+            },
+            {
+              "id": "mch1-kedushah-prayer7",
+              "type": "prayer",
+              "heText": "לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ וּלְנֵצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ, וְשִׁבְחֲךָ אֱלֹהֵינוּ מִפִּינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד, כִּי אֵל מֶלֶךְ גָּדוֹל וְקָדוֹשׁ אָתָּה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ:"
+            },
+            {
+              "id": "mch1-kedushah-comm7",
+              "type": "commentary",
+              "enText": "**לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ**—We will proclaim Your greatness and Your holiness from generation to generation, forever, because You are truly a great and Kadosh King. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָאֵל הַקָּדוֹשׁ**—the Almighty, the Kadosh One."
+            },
+            {
+              "id": "mch1-kedushas-hashem-header",
+              "type": "header",
+              "heText": "קְדוּשַׁת הַשֵּׁם",
+              "enText": "Hashem is Kadosh"
+            },
+            {
+              "id": "mch1-kedushas-hashem-prayer",
+              "type": "prayer",
+              "heText": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ:"
+            },
+            {
+              "id": "mch1-kedushas-hashem-comm",
+              "type": "commentary",
+              "enText": "**אַתָּה קָדוֹשׁ וְשִׁמְךָ קָדוֹשׁ**—You, Hashem, are קָדוֹשׁ, separate and far removed from this physical world; and all that we see You do (\"שֵׁם\") is beyond our understanding. But we, Bnei Yisrael, are also קְדוֹשִׁים, separate and removed from the values and the norms of the regular material world (*look at the miracle of our survival! And therefore, even though many times what happens to us seems not to make sense*)—we, Your people, praise and thank You every day; **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָאֵל הַקָּדוֹשׁ**—the Almighty, the Kadosh One."
+            },
+            {
+              "id": "mch1-sec2-rubric",
+              "type": "rubric",
+              "enText": "Section 2—Yom Tov"
+            },
+            {
+              "id": "mch1-sec2-prayer1",
+              "type": "prayer",
+              "heText": "אַתָּה בְחַרְתָּנוּ מִכָּל הָעַמִּים, אָהַבְתָּ אוֹתָנוּ וְרָצִיתָ בָּנוּ, וְרוֹמַמְתָּנוּ מִכָּל הַלְּשׁוֹנוֹת, וְקִדַּשְׁתָּנוּ בְּמִצְוֹתֶיךָ, וְקֵרַבְתָּנוּ מַלְכֵּנוּ לַעֲבוֹדָתֶךָ, וְשִׁמְךָ הַגָּדוֹל וְהַקָּדוֹשׁ עָלֵינוּ קָרָאתָ:"
+            },
+            {
+              "id": "mch1-sec2-comm1",
+              "type": "commentary",
+              "enText": "**אַתָּה בְחַרְתָּנוּ מִכָּל הָעַמִּים**—You, Hashem, have chosen us out of all the nations of the world to be Your special people; and You have shown Your love for us by giving us the great mission of being the ones who are privileged (*yes—privileged!*) to keep Your mitzvos, which sanctify our lives and give them meaning; and thus we are known to the world as Your unique people."
+            },
+            {
+              "id": "mch1-sec2-prayer2",
+              "type": "prayer",
+              "heText": "וַתִּתֶּן לָנוּ יְהֹוָה אֱלֹהֵינוּ בְּאַהֲבָה (לְשַׁבָּת: שַׁבָּתוֹת לִמְנוּחָה וּ) מוֹעֲדִים לְשִׂמְחָה חַגִּים וּזְמַנִּים לְשָׂשׂוֹן, אֶת יוֹם (לְשַׁבָּת: הַשַּׁבָּת הַזֶּה וְאֶת יוֹם)",
+              "condition": "additions in parentheses on Shabbos"
+            },
+            {
+              "id": "mch1-sec2-prayer2-occasions",
+              "type": "prayer",
+              "heText": "בְּפֶסַח: חַג הַמַּצּוֹת הַזֶּה, זְמַן חֵרוּתֵנוּ\nבְּשָׁבוּעוֹת: חַג הַשָּׁבֻעוֹת הַזֶּה, זְמַן מַתַּן תּוֹרָתֵנוּ\nבְּסֻכּוֹת: חַג הַסֻּכּוֹת הַזֶּה, זְמַן שִׂמְחָתֵנוּ\nבשמע\"צ ושמח\"ת: הַשְּׁמִינִי חַג הָעֲצֶרֶת הַזֶּה, זְמַן שִׂמְחָתֵנוּ\n(כְּשַׁבָּת בְּאַהֲבָה) מִקְרָא קֹדֶשׁ זֵכֶר לִיצִיאַת מִצְרָיִם:",
+              "condition": "select the line for the current festival"
+            },
+            {
+              "id": "mch1-sec2-comm2",
+              "type": "commentary",
+              "enText": "**וַתִּתֶּן לָנוּ**—And because of Your love for us, You, Hashem, Who controls everything, have given us (*on Shabbos add: the day of Shabbos for rest and*) specific Yamim Tovim in order for us to celebrate (*our joy at being Hashem's unique people*) and specifically (*on Shabbos add: this day of Shabbos, and*):\nOn Pesach: this Yom Tov of Pesach, a time to focus on the privileges and responsibilities of our freedom;\nOn Shavuos: this Yom Tov of Shavuos, a time to focus on the privileges and responsibilities of having been given the gift of Torah.\nOn Sukkos: this Yom Tov of Sukkos, a time to focus on being happy with the abundance that Hashem has given each of us.\nOn Shemini Atzeres/Simchas Torah: this Yom Tov of Shemini Atzeres/Simchas Torah, a time to focus on the joy of being Hashem's chosen nation.\nThis entire day and the opportunities that it gives us are based on the fact that Hashem chose us (*on Shabbos add: with love*) and took us out of Mitzrayim to give us His Torah and Mitzvos."
+            },
+            {
+              "id": "mch1-sec2-prayer3",
+              "type": "prayer",
+              "heText": "וּמִפְּנֵי חֲטָאֵינוּ גָּלִינוּ מֵאַרְצֵנוּ, וְנִתְרַחַקְנוּ מֵעַל אַדְמָתֵנוּ, וְאֵין אֲנַחְנוּ יְכוֹלִים לַעֲלוֹת וְלֵרָאוֹת וּלְהִשְׁתַּחֲוֹת לְפָנֶיךָ, וְלַעֲשׂוֹת חוֹבוֹתֵינוּ בְּבֵית בְּחִירָתֶךָ, בַּבַּיִת הַגָּדוֹל וְהַקָּדוֹשׁ שֶׁנִּקְרָא שִׁמְךָ"
+            },
+            {
+              "id": "mch1-sec2-comm3",
+              "type": "commentary",
+              "enText": "**וּמִפְּנֵי חֲטָאֵינוּ**—It is due to our sins that we do not have the Beis Hamikdash and thus cannot bring korbanos and do the avodah. Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, You are a merciful King; please rebuild the Beis Hamikdash and reveal to the"
+            },
+            {
+              "id": "seg-mch2-001",
+              "type": "prayer",
+              "heText": "עָלָיו, מִפְּנֵי הַיָּד שֶׁנִּשְׁתַּלְּחָה בְּמִקְדָּשֶׁךָ: יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, מֶלֶךְ רַחֲמָן, שֶׁתָּשׁוּב וּתְרַחֵם עָלֵינוּ וְעַל מִקְדָּשְׁךָ בְּרַחֲמֶיךָ הָרַבִּים, וְתִבְנֵהוּ מְהֵרָה וּתְגַדֵּל כְּבוֹדוֹ: אָבִינוּ מַלְכֵּנוּ, גַּלֵּה כְּבוֹד מַלְכוּתְךָ עָלֵינוּ מְהֵרָה, וְהוֹפַע וְהִנָּשֵׂא עָלֵינוּ לְעֵינֵי כָּל חָי, וְקָרֵב פְּזוּרֵינוּ מִבֵּין הַגּוֹיִם, וּנְפוּצוֹתֵינוּ כַּנֵּס מִיַּרְכְּתֵי אָרֶץ: וַהֲבִיאֵנוּ לְצִיּוֹן עִירְךָ בְּרִנָּה, וְלִירוּשָׁלַיִם בֵּית מִקְדָּשְׁךָ בְּשִׂמְחַת עוֹלָם, וְשָׁם נַעֲשֶׂה לְפָנֶיךָ אֶת קָרְבְּנוֹת חוֹבוֹתֵינוּ, תְּמִידִים כְּסִדְרָם וּמוּסָפִים כְּהִלְכָתָם: וְאֶת מוּסַף"
+            },
+            {
+              "id": "seg-mch2-002",
+              "type": "rubric",
+              "heText": "(לְשַׁבָּת, מוּסְפֵי) יוֹם הַשַּׁבָּת הַזֶּה, וְ) יוֹם",
+              "condition": "On Shabbos add"
+            },
+            {
+              "id": "seg-mch2-003",
+              "type": "rubric",
+              "heText": "בְּפֶסַח: חַג הַמַּצּוֹת הַזֶּה. בְּשָׁבוּעוֹת: חַג הַשָּׁבוּעוֹת הַזֶּה. בְּסֻכּוֹת: חַג הַסֻּכּוֹת הַזֶּה. בִּשְׁמִינִי עֲצֶרֶת: שְׁמִינִי חַג עֲצֶרֶת הַזֶּה",
+              "condition": "Insert the appropriate festival name"
+            },
+            {
+              "id": "seg-mch2-004",
+              "type": "prayer",
+              "heText": "נַעֲשֶׂה וְנַקְרִיב לְפָנֶיךָ בְּאַהֲבָה כְּמִצְוַת רְצוֹנֶךָ, כְּמוֹ שֶׁכָּתַבְתָּ עָלֵינוּ בְּתוֹרָתֶךָ, עַל יְדֵי מֹשֶׁה עַבְדֶּךָ, מִפִּי כְבוֹדֶךָ כָּאָמוּר:"
+            },
+            {
+              "id": "seg-mch2-005",
+              "type": "commentary",
+              "enText": "*On Shabbos add:* —וּבְיוֹם הַשַּׁבָּת—This is a quote from the Torah describing the Shabbos korbanos that were brought, besides the daily Korban Tamid."
+            },
+            {
+              "id": "seg-mch2-006",
+              "type": "prayer",
+              "heText": "וּבְיוֹם הַשַּׁבָּת, שְׁנֵי כְבָשִׂים בְּנֵי שָׁנָה תְּמִימִם, וּשְׁנֵי עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן וְנִסְכּוֹ: עֹלַת שַׁבַּת בְּשַׁבַּתּוֹ, עַל עֹלַת הַתָּמִיד וְנִסְכָּהּ: (זֶה קָרְבַּן שַׁבָּת. וְקָרְבַּן הַיּוֹם כָּאָמוּר:)",
+              "condition": "On Shabbos add"
+            },
+            {
+              "id": "seg-mch2-007",
+              "type": "header",
+              "heText": "קָרְבְּנוֹת הֶחָג",
+              "enText": "The Korbanos of the Festival"
+            },
+            {
+              "id": "seg-mch2-008",
+              "type": "commentary",
+              "enText": "The pesukim that detail the unique korbanos and nesachim for each Yom Tov are now listed. As mentioned in the introduction, each of the Regalim (Pesach, Sukkos, and Shavuos) focuses on a different value or pillar in our unique status as Hashem's chosen people, and this is reflected by the unique character of the korbanos brought on each Yom Tov. (See the commentary of Rav Samson Raphael Hirsch on the appropriate sections in the Chumash that explain the significance of each animal and offering.) We read these pesukim to show Hashem that we are not happy with our present state of galus and that we wish for the time when the Beis Hamikdash will be rebuilt and we will be able to bring these korbanos."
+            },
+            {
+              "id": "seg-mch2-009",
+              "type": "faq",
+              "enText": "FAQ: Really? Am I supposed to wake up on Chol Hamoed and say to myself: \"I sooo wish I could go bring an animal sacrifice this morning in honor of Pesach or Sukkos\"? How are we supposed to relate to a concept that seems so foreign to us? ANSWER: Valid question! See Appendix 9.",
+              "xref": "Appendix 9"
+            },
+            {
+              "id": "seg-mch2-010",
+              "type": "rubric",
+              "enText": "*Pesach—the first (and second) day of Yom Tov:*",
+              "condition": "Pesach, first and second day of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-011",
+              "type": "prayer",
+              "heText": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה, פֶּסַח לַיהֹוָה: וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה חָג, שִׁבְעַת יָמִים מַצּוֹת יֵאָכֵל: בַּיּוֹם הָרִאשׁוֹן מִקְרָא קֹדֶשׁ, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם אִשֶּׁה עֹלָה לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם, וְאַיִל אֶחָד, וְשִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה, תְּמִימִם יִהְיוּ לָכֶם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Pesach, first and second day of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-012",
+              "type": "rubric",
+              "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "seg-mch2-013",
+              "type": "rubric",
+              "enText": "*Pesach—Chol Hamoed and the last day(s) of Yom Tov:*",
+              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-014",
+              "type": "prayer",
+              "heText": "וְהִקְרַבְתֶּם אִשֶּׁה עֹלָה לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם וְאַיִל אֶחָד, וְשִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה, תְּמִימִם יִהְיוּ לָכֶם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-015",
+              "type": "rubric",
+              "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "seg-mch2-016",
+              "type": "rubric",
+              "enText": "*Shavuos:*",
+              "condition": "Shavuos"
+            },
+            {
+              "id": "seg-mch2-017",
+              "type": "prayer",
+              "heText": "וּבְיוֹם הַבִּכּוּרִים, בְּהַקְרִיבְכֶם מִנְחָה חֲדָשָׁה לַיהֹוָה, בְּשָׁבֻעֹתֵיכֶם מִקְרָא קֹדֶשׁ יִהְיֶה לָכֶם, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם עֹלָה לְרֵיחַ נִיחֹחַ לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם, אַיִל אֶחָד, שִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Shavuos"
+            },
+            {
+              "id": "seg-mch2-018",
+              "type": "rubric",
+              "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "seg-mch2-019",
+              "type": "rubric",
+              "enText": "*Sukkos—the first (and second) day of Yom Tov:*",
+              "condition": "Sukkos, first and second day of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-020",
+              "type": "prayer",
+              "heText": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַשְּׁבִיעִי, מִקְרָא קֹדֶשׁ יִהְיֶה לָכֶם כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ, וְחַגֹּתֶם חַג לַיהֹוָה שִׁבְעַת יָמִים: וְהִקְרַבְתֶּם עֹלָה אִשֵּׁה רֵיחַ נִיחֹחַ לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁלֹשָׁה עָשָׂר, אֵילִם שְׁנַיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם יִהְיוּ: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, first and second day of Yom Tov"
+            },
+            {
+              "id": "seg-mch2-021",
+              "type": "rubric",
+              "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
+              "condition": "On Shabbos"
+            },
+            {
+              "id": "seg-mch2-022",
+              "type": "rubric",
+              "enText": "*Sukkos—First day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשֵּׁנִי *Sukkos—First day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַשֵּׁנִי *and* וּבַיּוֹם הַשְּׁלִישִׁי",
+              "condition": "Sukkos, First day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-023",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הַשֵּׁנִי, פָּרִים בְּנֵי בָקָר שְׁנֵים עָשָׂר, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, First day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-024",
+              "type": "rubric",
+              "enText": "*Sukkos—Second day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשְּׁלִישִׁי *Sukkos—Second day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַשְּׁלִישִׁי *and* וּבַיּוֹם הָרְבִיעִי",
+              "condition": "Sukkos, Second day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-025",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הַשְּׁלִישִׁי, פָּרִים עַשְׁתֵּי עָשָׂר, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, Second day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-026",
+              "type": "rubric",
+              "enText": "*Sukkos—Third day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הָרְבִיעִי *Sukkos—Third day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הָרְבִיעִי *and* וּבַיּוֹם הַחֲמִישִׁי",
+              "condition": "Sukkos, Third day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-027",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הָרְבִיעִי, פָּרִים עֲשָׂרָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, Third day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-028",
+              "type": "rubric",
+              "enText": "*Sukkos—Fourth day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַחֲמִישִׁי *Sukkos—Fourth day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַחֲמִישִׁי *and* וּבַיּוֹם הַשִּׁשִּׁי",
+              "condition": "Sukkos, Fourth day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-029",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הַחֲמִישִׁי, פָּרִים תִּשְׁעָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, Fourth day Chol Hamoed"
+            },
+            {
+              "id": "seg-mch2-030",
+              "type": "rubric",
+              "enText": "*Sukkos—Fifth day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשִּׁשִּׁי *Sukkos—Hoshana Rabbah in chutz la'aretz, say* וּבַיּוֹם הַשִּׁשִּׁי *and* וּבַיּוֹם הַשְּׁבִיעִי",
+              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz"
+            },
+            {
+              "id": "seg-mch2-031",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הַשִּׁשִּׁי, פָּרִים שְׁמֹנָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz"
+            },
+            {
+              "id": "seg-mch2-032",
+              "type": "rubric",
+              "enText": "*Sukkos—Hoshana Rabbah in Eretz Yisrael, say* וּבַיּוֹם הַשְּׁבִיעִי",
+              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael"
+            },
+            {
+              "id": "seg-mch2-033",
+              "type": "prayer",
+              "heText": "וּבַיּוֹם הַשְּׁבִיעִי, פָּרִים שִׁבְעָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael"
+            },
+            {
+              "id": "seg-mch2-034",
+              "type": "rubric",
+              "enText": "*Shemini Atzeres/Simchas Torah:*",
+              "condition": "Shemini Atzeres / Simchas Torah"
+            },
+            {
+              "id": "seg-mch2-035",
+              "type": "prayer",
+              "heText": "בַּיּוֹם הַשְּׁמִינִי, עֲצֶרֶת תִּהְיֶה לָכֶם, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם עֹלָה אִשֵּׁה רֵיחַ נִיחֹחַ לַיהֹוָה, פַּר אֶחָד, אַיִל אֶחָד, כְּבָשִׂים בְּנֵי שָׁנָה שִׁבְעָה תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
+              "condition": "Shemini Atzeres / Simchas Torah"
+            },
+            {
+              "id": "seg-mch2-036",
+              "type": "rubric",
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'"
+            },
+            {
+              "id": "seg-mch2-037",
+              "type": "rubric",
+              "enText": "On Shabbos add here:",
+              "condition": "On Shabbos add here"
+            },
+            {
+              "id": "seg-mch2-038",
+              "type": "prayer",
+              "heText": "יִשְׂמְחוּ בְמַלְכוּתְךָ שׁוֹמְרֵי שַׁבָּת וְקוֹרְאֵי עֹנֶג, עַם מְקַדְּשֵׁי שְׁבִיעִי, כֻּלָּם יִשְׂבְּעוּ וְיִתְעַנְּגוּ מִטּוּבֶךָ, וּבַשְּׁבִיעִי רָצִיתָ בּוֹ וְקִדַּשְׁתּוֹ, חֶמְדַּת יָמִים אוֹתוֹ קָרָאתָ, זֵכֶר לְמַעֲשֵׂה בְרֵאשִׁית:",
+              "condition": "On Shabbos add"
+            },
+            {
+              "id": "seg-mch2-039",
+              "type": "commentary",
+              "enText": "יִשְׂמְחוּ בְמַלְכוּתְךָ—Those who observe Shabbos and realize what a delight it is to have the gift of Shabbos, they will be happy to have You, Hashem, as their ruler. The nation that sanctifies the Seventh Day (Bnei Yisrael, who make Shabbos a day of stepping back from day-to-day material pursuits) gains the ability to be satisfied with whatever good You give them. You made the Seventh Day unique; it is the most special of all days for it reminds us that You are the Creator of all."
+            },
+            {
+              "id": "seg-mch2-040",
+              "type": "rubric",
+              "enText": "On all days continue here:"
+            },
+            {
+              "id": "seg-mch2-041",
+              "type": "prayer",
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, מֶלֶךְ רַחֲמָן רַחֵם עָלֵינוּ, טוֹב וּמֵטִיב הִדָּרֶשׁ לָנוּ, שׁוּבָה אֵלֵינוּ בַּהֲמוֹן רַחֲמֶיךָ, בִּגְלַל אָבוֹת שֶׁעָשׂוּ רְצוֹנֶךָ. בְּנֵה בֵיתְךָ כְּבַתְּחִלָּה, וְכוֹנֵן מִקְדָּשְׁךָ עַל מְכוֹנוֹ, וְהַרְאֵנוּ בְּבִנְיָנוֹ, וְשַׂמְּחֵנוּ בְּתִקּוּנוֹ, וְהָשֵׁב כֹּהֲנִים לַעֲבוֹדָתָם, וּלְוִיִּם לְשִׁירָם וּלְזִמְרָם, וְהָשֵׁב יִשְׂרָאֵל לִנְוֵיהֶם, וְשָׁם נַעֲלֶה וְנֵרָאֶה וְנִשְׁתַּחֲוֶה לְפָנֶיךָ בְּשָׁלֹשׁ פַּעֲמֵי רְגָלֵינוּ, כַּכָּתוּב בְּתוֹרָתֶךָ, שָׁלוֹשׁ פְּעָמִים בַּשָּׁנָה יֵרָאֶה כָל זְכוּרְךָ אֶת פְּנֵי יְהֹוָה אֱלֹהֶיךָ בַּמָּקוֹם אֲשֶׁר יִבְחָר, בְּחַג הַמַּצּוֹת וּבְחַג הַשָּׁבֻעוֹת וּבְחַג הַסֻּכּוֹת, וְלֹא יֵרָאֶה אֶת פְּנֵי יְהֹוָה רֵיקָם: אִישׁ כְּמַתְּנַת יָדוֹ, כְּבִרְכַּת יְהֹוָה אֱלֹהֶיךָ אֲשֶׁר נָתַן לָךְ:"
+            },
+            {
+              "id": "seg-mch2-042",
+              "type": "commentary",
+              "enText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, our merciful King, please have mercy on us and respond to our call! Though we are not deserving, but in the merit of our Avos, please let us also see the rebuilding of the Beis Hamikdash with joy. Restore the avodah of the Kohanim and the singing of the Leviim, and we should all return to living in our Land. Then we will be able to fulfill the mitzvah of Aliyah LaRegel as the Torah commands: that we should come to appear before Hashem in the Beis Hamikdash, each person bringing donations and korbanos, on the abundance that Hashem has given each person."
+            },
+            {
+              "id": "seg-mch2-043",
+              "type": "prayer",
+              "heText": "וְהַשִּׂיאֵנוּ יְהֹוָה אֱלֹהֵינוּ אֶת בִּרְכַּת מוֹעֲדֶיךָ, לְחַיִּים וּלְשָׁלוֹם, לְשִׂמְחָה וּלְשָׂשׂוֹן, כַּאֲשֶׁר רָצִיתָ וְאָמַרְתָּ לְבָרְכֵנוּ:"
+            },
+            {
+              "id": "seg-mch2-044",
+              "type": "prayer",
+              "heText": "(לְשַׁבָּת אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ רְצֵה בִמְנוּחָתֵנוּ) קַדְּשֵׁנוּ בְּמִצְוֹתֶיךָ, וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ, שַׂבְּעֵנוּ מִטּוּבֶךָ, וְשַׂמְּחֵנוּ בִּישׁוּעָתֶךָ, וְטַהֵר לִבֵּנוּ לְעָבְדְּךָ בֶּאֱמֶת, וְהַנְחִילֵנוּ יְהֹוָה אֱלֹהֵינוּ (לְשַׁבָּת בְּאַהֲבָה וּבְרָצוֹן) בְּשִׂמְחָה וּבְשָׂשׂוֹן (לְשַׁבָּת שַׁבָּת וּ) מוֹעֲדֵי קָדְשֶׁךָ, וְיִשְׂמְחוּ בְךָ יִשְׂרָאֵל מְקַדְּשֵׁי שְׁמֶךָ: בָּרוּךְ אַתָּה יְהֹוָה, מְקַדֵּשׁ (לְשַׁבָּת הַשַּׁבָּת וְ) יִשְׂרָאֵל וְהַזְּמַנִּים:",
+              "condition": "Shabbos additions in parentheses"
+            },
+            {
+              "id": "seg-mch2-045",
+              "type": "commentary",
+              "enText": "וְהַשִּׂיאֵנוּ—Hashem, Who controls everything, please grant us the unique blessings of this Yom Tov for life, peace, gladness, and joy—which is what You promised us! *(On Shabbos add: Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, we hope You are pleased with our observance of this day of Shabbos.)* And *(even though we may not show this always in our daily lives, in truth we do want You to)* make us holy and special though Your mitzvos, help us find our unique connection to Your Torah, help us feel satisfied with the good You give to us, make us happy from Your salvation, and purify our hearts and desires *(since we live in such impure times and societies)*, so that we will be able to serve You sincerely and not superficially or hypocritically. And give us and all Jews *(on Shabbos add: this day of Shabbos and)* these Yamim Tovim as our unique inheritance, and may we, Bnei Yisrael, who sanctify Your Name, always be able to rejoice in our relationship with You! בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; מְקַדֵּשׁ (הַשַּׁבָּת וְ) יִשְׂרָאֵל וְהַזְּמַנִּים—Who has made the (Shabbos and) Bnei Yisrael and these Yamim Tovim kadosh, holy and unique."
+            },
+            {
+              "id": "seg-mch2-046",
+              "type": "header",
+              "enText": "Section 3—Thanks"
+            },
+            {
+              "id": "seg-mch2-047",
+              "type": "header",
+              "heText": "עֲבוֹדָה"
+            },
+            {
+              "id": "seg-mch2-048",
+              "type": "section_intro",
+              "enText": "Return the avodah in the Beis Hamikdash, for that is the only way to truly thank Hashem"
+            },
+            {
+              "id": "seg-mch2-049",
+              "type": "prayer",
+              "heText": "רְצֵה יְהֹוָה אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם, וְהָשֵׁב אֶת הָעֲבוֹדָה לִדְבִיר בֵּיתֶךָ, וְאִשֵּׁי יִשְׂרָאֵל וּתְפִלָּתָם בְּאַהֲבָה תְקַבֵּל בְּרָצוֹן, וּתְהִי לְרָצוֹן תָּמִיד עֲבוֹדַת יִשְׂרָאֵל עַמֶּךָ:"
+            },
+            {
+              "id": "seg-mch2-050",
+              "type": "commentary",
+              "enText": "רְצֵה יְהֹוָה אֱלֹהֵינוּ בְּעַמְּךָ יִשְׂרָאֵל וּבִתְפִלָּתָם—You, Hashem, Who controls everything, be pleased with Your nation, Bnei Yisrael, and listen to their tefillos; אֶת הָעֲבוֹדָה לִדְבִיר בֵּיתֶךָ וְהָשֵׁב—and bring back the avodah in the Beis Hamikdash and please accept their tefillos with love and favor; and all the mitzvos of Bnei Yisrael should always be favorable and acceptable to You."
+            },
+            {
+              "id": "seg-mch2-051",
+              "type": "prayer",
+              "heText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהֹוָה, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן:"
+            },
+            {
+              "id": "seg-mch2-052",
+              "type": "commentary",
+              "enText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים—May we personally merit seeing when Your Divine Presence returns to Zion; בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן—Who restores His Divine Presence to Zion. *(Notice again the present tense! Every step in our galus is part of that process!)*"
+            },
+            {
+              "id": "seg-mch2-053",
+              "type": "header",
+              "heText": "הוֹדָאָה"
+            },
+            {
+              "id": "seg-mch2-054",
+              "type": "section_intro",
+              "enText": "Thank You for everything—large and small!"
+            },
+            {
+              "id": "seg-mch2-055",
+              "type": "prayer",
+              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד, צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדוֹר: נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם: הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ:"
+            },
+            {
+              "id": "seg-mch2-056",
+              "type": "commentary",
+              "enText": "מוֹדִים אֲנַחְנוּ לָךְ—We thank You, Hashem, for You are our God. You control everything, and You have taken care of Bnei Yisrael throughout our history from the time of the Avos and for all time; צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ—You are the rock of our lives and the protector Whom we rely upon. נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ—We thank You and speak Your praises; עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ—for our lives, which are entrusted into Your hand, and our souls, which are in Your care; וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ—and for Your"
+            },
+            {
+              "id": "seg-1",
+              "type": "insight",
+              "enText": "By all other brachos of the Shemoneh Esrei, we simply respond \"Amen\" to the chazzan's brachah. Why here must we say our own \"Modim,\" as if an Amen is not sufficient? All other brachos are requests. When you are with someone else and they put in a request for something important, saying simply, \"And me too—I also agree!\" is fine. He represents you. That is Amen. But if someone is really bursting with gratitude, expressing gratitude to Hashem, for \"our lives, which are entrusted into Your Hand\" and \"for our miraculous survival till today,\" then Amen is impossible. No one can \"represent\" your inner feeling of gratitude! It must burst forth! Thus, Modim D'Rabbanan!"
+            },
+            {
+              "id": "seg-2",
+              "type": "commentary",
+              "enText": "*(hidden)* miracles that are with us every day *(and we do not even realize it!)*; and for Your wonders and Your acts of goodness that occur at all times; evening, morning, and afternoon *(literally, twenty-four hours a day, as well as figuratively, during the dark times in our lives, the clear bright times, and the hazy twilight times)*. הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ—You are the benevolent One, for Your compassion is never-ending; וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ—You are the merciful One, for Your loving-kindness is never exhausted; מֵעוֹלָם קִוִּינוּ לָךְ—From the beginning of time, we have placed our hope in You."
+            },
+            {
+              "id": "seg-3",
+              "type": "rubric",
+              "enText": "In a minyan: When the chazzan says Modim, we say the following:",
+              "heText": "מוֹדִים דְּרַבָּנָן"
+            },
+            {
+              "id": "seg-4",
+              "type": "transition",
+              "enText": "When thanking Hashem, an \"Amen\" is not sufficient!"
+            },
+            {
+              "id": "seg-5",
+              "type": "commentary",
+              "enText": "מוֹדִים אֲנַחְנוּ לָךְ—We thank You, Hashem, for You are our God. You control everything and have taken care of Bnei Yisrael throughout our history starting from the time of the Avos. You are the Creator of all humanity, of the entire universe, and You specifically formed us as Your nation—for which we thank You, and for our miraculous survival till today. *(And since we are so sure that Am Yisrael is eternal* כֵּן תְּחַיֵּנוּ*)*"
+            },
+            {
+              "id": "seg-6",
+              "type": "prayer",
+              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, אֱלֹהֵי כָל בָּשָׂר, יוֹצְרֵנוּ יוֹצֵר בְּרֵאשִׁית. בְּרָכוֹת וְהוֹדָאוֹת לְשִׁמְךָ הַגָּדוֹל וְהַקָּדוֹשׁ, עַל שֶׁהֶחֱיִיתָנוּ וְקִיַּמְתָּנוּ, כֵּן תְּחַיֵּנוּ וּתְקַיְּמֵנוּ, וְתֶאֱסֹף גָּלֻיּוֹתֵינוּ לְחַצְרוֹת קָדְשֶׁךָ, לִשְׁמֹר חֻקֶּיךָ וְלַעֲשׂוֹת רְצוֹנֶךָ וּלְעָבְדְּךָ בְּלֵבָב שָׁלֵם, עַל שֶׁאֲנַחְנוּ מוֹדִים לָךְ, בָּרוּךְ אֵל הַהוֹדָאוֹת:"
+            },
+            {
+              "id": "seg-7",
+              "type": "commentary",
+              "enText": "וּתְקַיְּמֵנוּ—we thank You now for the fact that we will continue to survive, and that You will bring all the exiles to *(the rebuilt)* Beis Hamikdash where we will all serve You with a complete heart *(with no doubts or questions)*. עַל שֶׁאֲנַחְנוּ מוֹדִים לָךְ—We thank You for instilling in us the concept and *(crucial)* character trait of gratitude! בָּרוּךְ אֵל הַהוֹדָאוֹת—You, Hashem, are the Source of everything, to Whom thanksgiving is due."
+            },
+            {
+              "id": "seg-8",
+              "type": "commentary",
+              "enText": "וְעַל כֻּלָּם—Our King, for all these things may Your Name be blessed and held in the highest esteem *(may everyone realize that You alone are the source of hidden miracles and loving-kindness)*, constantly, forever and ever."
+            },
+            {
+              "id": "seg-9",
+              "type": "commentary",
+              "enText": "וְכָל הַחַיִּים יוֹדוּךָ סֶּלָה—And all that live will thank You forever; וִיהַלְלוּ אֶת שִׁמְךָ—and sincerely praise all that You do; הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה—You are our salvation and everlasting help. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת—Your very essence is goodness and benevolence, and therefore it is *(always)* fitting to thank You *(in all circumstances of our lives, even if we cannot see the good at the moment)*."
+            },
+            {
+              "id": "seg-10",
+              "type": "prayer",
+              "heText": "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ מַלְכֵּנוּ תָּמִיד לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "seg-11",
+              "type": "prayer",
+              "heText": "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה: בָּרוּךְ אַתָּה יְהֹוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת:"
+            },
+            {
+              "id": "seg-12",
+              "type": "rubric",
+              "enText": "Birkas Kohanim is said by the chazzan (and in some places in Israel by Kohanim) during the repetition of the Shemoneh Esrei:"
+            },
+            {
+              "id": "seg-13",
+              "type": "commentary",
+              "enText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah written in the Torah that was said by the Kohanim:"
+            },
+            {
+              "id": "seg-14",
+              "type": "commentary",
+              "enText": "יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ—May Hashem bless you *(with material abundance)* and protect you *(from misusing it!)*. יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ—May Hashem grace you with sensitivity to spirituality so that you are able to see His providence *(in your life)*. יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם—May you feel the constant Presence of Hashem, and thus be at peace *(within yourself)*."
+            },
+            {
+              "id": "seg-15",
+              "type": "prayer",
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, בָּרְכֵנוּ בַבְּרָכָה הַמְשֻׁלֶּשֶׁת בַּתּוֹרָה, הַכְּתוּבָה עַל יְדֵי מֹשֶׁה עַבְדֶּךָ, הָאֲמוּרָה מִפִּי אַהֲרֹן וּבָנָיו, כֹּהֲנִים עַם קְדוֹשֶׁךָ, כָּאָמוּר:"
+            },
+            {
+              "id": "seg-16",
+              "type": "prayer",
+              "heText": "יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ: יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ: יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
+              "condition": "Said responsively, with the congregation saying after each verse:"
+            },
+            {
+              "id": "seg-17",
+              "type": "prayer",
+              "heText": "אַדִּיר בַּמָּרוֹם שׁוֹכֵן בִּגְבוּרָה, אַתָּה שָׁלוֹם וְשִׁמְךָ שָׁלוֹם, יְהִי רָצוֹן שֶׁתָּשִׂים עָלֵינוּ וְעַל כָּל עַמְּךָ בֵּית יִשְׂרָאֵל, חַיִּים וּבְרָכָה לְמִשְׁמֶרֶת שָׁלוֹם:",
+              "condition": "Quietly (הַקְּהָל)"
+            },
+            {
+              "id": "seg-18",
+              "type": "insight",
+              "enText": "Generally, we think of \"שָׁלוֹם—peace\" as meaning each person getting along with each other. But if so, then the third brachah should have said \"וְיָשֵׂם שָׁלוֹם—Hashem will give peace to you,\" plural, i.e., to the group. Why is the word \"לְךָ—to you,\" singular, used? The singular is used because you cannot get along with others if you first do not get along with yourself. Thus this brachah is to the individual—that each person should have inner serenity and peace. Only then can we live in peace with others."
+            },
+            {
+              "id": "seg-19",
+              "type": "header",
+              "heText": "שָׁלוֹם",
+              "enText": "Inner, outer, and communal peace"
+            },
+            {
+              "id": "seg-20",
+              "type": "commentary",
+              "enText": "שִׂים שָׁלוֹם טוֹבָה וּבְרָכָה, חֵן וָחֶסֶד וְרַחֲמִים *(Peace of mind, inner peace:)* Hashem, grant each of us a true sense of well-being *(by showering us with)* goodness, blessings, favor, loving-kindness, and compassion *(through which we can easily recognize the love You have for us; thus our soul will be at peace with You)*. And may this serenity extend to all members of Bnei Yisrael, Your nation."
+            },
+            {
+              "id": "seg-21",
+              "type": "commentary",
+              "enText": "בָּרְכֵנוּ אָבִינוּ, כֻּלָּנוּ כְּאֶחָד *(Peace between one another:)* Our Father, bless all of us together to become one unified nation, by allowing us to all equally see Your Presence *(and thanks to such clarity, discord will cease!)*. For You, Hashem, when we were in Your direct Divine Presence *(at Har Sinai)*, gave us a living Torah *(which teaches us how to live together in harmony)*, and You also gave us a love of doing kindness and righteousness. *(This all leads to everyone sharing)* their blessings with each other, living with compassion, and thus having a full life and living in peace *(by forgiving others)*."
+            },
+            {
+              "id": "seg-22",
+              "type": "commentary",
+              "enText": "וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת עַמְּךָ *(Peace from war and danger:)*—And may it be favorable in Your eyes to bless Your people, Bnei Yisrael, at all times and at every moment, with Your peace *(protection from wars and dangers)*."
+            },
+            {
+              "id": "seg-23",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם—You, Hashem, are the Source of everything; Who blesses His people, Bnei Yisrael, with *(all three forms of)* peace."
+            },
+            {
+              "id": "seg-24",
+              "type": "prayer",
+              "heText": "שִׂים שָׁלוֹם טוֹבָה וּבְרָכָה, חֵן וָחֶסֶד וְרַחֲמִים, עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל עַמֶּךָ: בָּרְכֵנוּ אָבִינוּ, כֻּלָּנוּ כְּאֶחָד בְּאוֹר פָּנֶיךָ, כִּי בְאוֹר פָּנֶיךָ נָתַתָּ לָּנוּ יְהֹוָה אֱלֹהֵינוּ, תּוֹרַת חַיִּים, וְאַהֲבַת חֶסֶד, וּצְדָקָה וּבְרָכָה וְרַחֲמִים, וְחַיִּים וְשָׁלוֹם: וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת עַמְּךָ יִשְׂרָאֵל בְּכָל עֵת וּבְכָל שָׁעָה בִּשְׁלוֹמֶךָ:"
+            },
+            {
+              "id": "seg-25",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם:"
+            },
+            {
+              "id": "seg-26",
+              "type": "header",
+              "enText": "Concluding Statements"
+            },
+            {
+              "id": "seg-27",
+              "type": "commentary",
+              "enText": "יִהְיוּ לְרָצוֹן אִמְרֵי פִי—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer."
+            },
+            {
+              "id": "seg-28",
+              "type": "prayer",
+              "heText": "יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ, יְהֹוָה צוּרִי וְגֹאֲלִי:"
+            },
+            {
+              "id": "seg-29",
+              "type": "commentary",
+              "enText": "אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
+            },
+            {
+              "id": "seg-30",
+              "type": "prayer",
+              "heText": "אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע, וּשְׂפָתַי מִדַּבֵּר מִרְמָה, וְלִמְקַלְלַי נַפְשִׁי תִדֹּם, וְנַפְשִׁי כֶּעָפָר לַכֹּל תִּהְיֶה, פְּתַח לִבִּי בְּתוֹרָתֶךָ, וּבְמִצְוֹתֶיךָ תִּרְדֹּף נַפְשִׁי: וְכָל הַחוֹשְׁבִים עָלַי רָעָה, מְהֵרָה הָפֵר עֲצָתָם וְקַלְקֵל מַחֲשַׁבְתָּם:"
+            },
+            {
+              "id": "seg-31",
+              "type": "rubric",
+              "enText": "Some add the following tefillah:",
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ"
+            },
+            {
+              "id": "seg-32",
+              "type": "prayer",
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁלֹּא תַעֲלֶה קִנְאַת אָדָם עָלַי, וְלֹא קִנְאָתִי עַל אֲחֵרִים, וְשֶׁלֹּא אֶכְעֹס הַיּוֹם וְשֶׁלֹּא אַכְעִיסֶךָּ, וְתַצִּילֵנִי מִיֵּצֶר הָרָע, וְתֵן בְּלִבִּי הַכְנָעָה וַעֲנָוָה, מַלְכֵּנוּ וֵאלֹהֵינוּ יַחֵד שִׁמְךָ בְּעוֹלָמֶךָ, בְּנֵה בֵיתֶךָ, יַסֵּד בֵּיתֶךָ, וְשַׁכְלֵל הֵיכָלֶךָ, וְקַבֵּץ קִבּוּץ גָּלֻיּוֹת, וּפְדֵה צֹאנֶךָ וְשַׂמַּח עֲדָתֶךָ:"
+            },
+            {
+              "id": "seg-33",
+              "type": "commentary",
+              "enText": "*Please, Hashem, may not one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble (despite my accomplishments today)* and not be arrogant. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim."
+            },
+            {
+              "id": "seg-34",
+              "type": "commentary",
+              "enText": "עֲשֵׂה לְמַעַן שְׁמֶךָ—Even though I may personally not be worthy, do this for the sake of Your holy Name and for the honor of Your Torah; because we are Your beloved children; therefore with strength and power save me and answer my requests. אִמְרֵי פִי—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer. עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו—May He who makes peace in the Heavens *(in the world of angels and in nature)*, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ—may He bring about peace upon us *(since we seem to have a hard time doing it ourselves, may Hashem impose peace upon us!)*; וְעַל כָּל יִשְׂרָאֵל—and upon all of Bnei Yisrael; *(and (may the two angels who accompany me through life and therefore have been listening to my tefillah, please respond and)* say Amen."
+            },
+            {
+              "id": "seg-35",
+              "type": "prayer",
+              "heText": "עֲשֵׂה לְמַעַן שְׁמֶךָ, עֲשֵׂה לְמַעַן יְמִינֶךָ, עֲשֵׂה לְמַעַן קְדֻשָּׁתֶךָ, עֲשֵׂה לְמַעַן תּוֹרָתֶךָ, לְמַעַן יֵחָלְצוּן יְדִידֶיךָ הוֹשִׁיעָה יְמִינְךָ וַעֲנֵנִי: יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ, יְהֹוָה צוּרִי וְגֹאֲלִי: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ, וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "seg-36",
+              "type": "rubric",
+              "enText": "Since tefillah was meant to take the place of korbanos, we add the following epilogue:"
+            },
+            {
+              "id": "seg-37",
+              "type": "commentary",
+              "enText": "יְהִי רָצוֹן מִלְּפָנֶיךָ—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that the Beis Hamikdash be rebuilt quickly in our days, and that we will find our unique connection to Your Torah, and there *(in the Beis Hamikdash)* we will be able to serve You with proper respect, as it was in the days of old. *(And when Mashiach arrives and rebuilds the Beis Hamikdash)*, then the korbanos of Yehudah and Yerushalayim will be accepted by Hashem, as it was in the days of old."
+            },
+            {
+              "id": "seg-38",
+              "type": "prayer",
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁיִּבָּנֶה בֵּית הַמִּקְדָּשׁ בִּמְהֵרָה בְיָמֵינוּ, וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ: וְשָׁם נַעֲבָדְךָ בְּיִרְאָה כִּימֵי עוֹלָם וּכְשָׁנִים קַדְמוֹנִיּוֹת: וְעָרְבָה לַיהֹוָה מִנְחַת יְהוּדָה וִירוּשָׁלָיִם, כִּימֵי עוֹלָם וּכְשָׁנִים קַדְמוֹנִיּוֹת:"
+            },
+            {
+              "id": "seg-39",
+              "type": "rubric",
+              "enText": "Continue with Full-Kaddish and Aleinu—page 104.",
+              "xref": "page 104"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

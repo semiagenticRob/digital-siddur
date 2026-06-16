@@ -17,7 +17,7 @@ test('listServices includes shacharit', () => {
 });
 
 test('listServices returns 4 services', () => {
-  expect(listServices()).toHaveLength(4);
+  expect(listServices()).toHaveLength(14);
 });
 
 test('shacharit has segments with heText', () => {

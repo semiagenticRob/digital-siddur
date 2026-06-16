@@ -1,0 +1,349 @@
+{
+  "id": "hallel",
+  "heTitle": "הַלֵּל",
+  "enTitle": "Hallel",
+  "groups": [
+    {
+      "id": "g-hallel",
+      "title": "Hallel",
+      "prayers": [
+        {
+          "id": "p-hallel",
+          "heTitle": "הַלֵּל",
+          "enTitle": "Hallel",
+          "segments": [
+            {
+              "id": "hallel-header",
+              "type": "header",
+              "heText": "הַלֵּל",
+              "enText": "Hallel"
+            },
+            {
+              "id": "hallel-section-intro",
+              "type": "section_intro",
+              "enText": "On Special Occasions, We Need to Say Special Praise and Thanks to Hashem for Our Miraculous Survival!"
+            },
+            {
+              "id": "hallel-intro-commentary",
+              "type": "commentary",
+              "enText": "We tend to forget that we were the first nation to have a publicly funded orchestra! The Leviim, who were supported by maaser, sang and played instruments in the Beis Hamikdash as part of the avodah. Hallel is the part of tefillah that gives us an opportunity to fulfill \"ivdu es Hashem b'simchah\": get in touch with the depth of our neshamah and sing out thanks to Hashem. I know that ALL of us have struggles and difficulties. Some more than others. But now is the time to focus on what we DO have, not what we are missing. As a speaker (who has no shortage of struggles) once said: \"If you focus on the good and not on the bad, you will end up being as happy, if not more so, than if you had done everything you wanted to do.\" Read that line again and then sing Hallel."
+            },
+            {
+              "id": "hallel-bracha-gloss",
+              "type": "commentary",
+              "enText": "*בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *אֱלֹהֵינוּ*—You take care of us; *מֶלֶךְ הָעוֹלָם*—and You rule the entire world; *אֲשֶׁר קִדְּשָׁנוּ*—You elevated us; *בְּמִצְוֹתָיו*—and through Your mitzvos You elevated us; *וְצִוָּנוּ לִקְרֹא אֶת הַהַלֵּל*—and You commanded us to recite the Hallel."
+            },
+            {
+              "id": "hallel-bracha",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לִקְרֹא אֶת הַהַלֵּל:"
+            },
+            {
+              "id": "tehillim-113-header",
+              "type": "header",
+              "heText": "תהילים קיג"
+            },
+            {
+              "id": "tehillim-113-focus",
+              "type": "commentary",
+              "enText": "The focus of this chapter is to emphasize the difference between our concept of God and that held by the rest of the world."
+            },
+            {
+              "id": "tehillim-113-gloss",
+              "type": "commentary",
+              "enText": "*הַלְלוּהוּ עַבְדֵי יְהֹוָה*—Let us, as loyal servants of Hashem, praise Him and all He does. From sunrise to sunset, from the beginning of time until eternity, all that Hashem does is for the good, and should be blessed. *(Even though)* He is high and mighty and beyond the Heavens *(which is what the nations of the world understand; we appreciate the fact that)* His Presence is also constant down here on earth, where He takes care of the most weak and defenseless and lifts them up out of their troubles. And therefore; *הַלְלוּיָהּ*—whatever happens, praise Hashem!"
+            },
+            {
+              "id": "tehillim-113-text",
+              "type": "prayer",
+              "heText": "הַלְלוּיָהּ הַלְלוּ עַבְדֵי יְהֹוָה, הַלְלוּ אֶת שֵׁם יְהֹוָה: יְהִי שֵׁם יְהֹוָה מְבֹרָךְ, מֵעַתָּה וְעַד עוֹלָם: מִמִּזְרַח שֶׁמֶשׁ עַד מְבוֹאוֹ, מְהֻלָּל שֵׁם יְהֹוָה: רָם עַל כָּל גּוֹיִם יְהֹוָה, עַל הַשָּׁמַיִם כְּבוֹדוֹ: מִי כַּיהֹוָה אֱלֹהֵינוּ, הַמַּגְבִּיהִי לָשָׁבֶת: הַמַּשְׁפִּילִי לִרְאוֹת, בַּשָּׁמַיִם וּבָאָרֶץ: מְקִימִי מֵעָפָר דָּל, מֵאַשְׁפֹּת יָרִים אֶבְיוֹן: לְהוֹשִׁיבִי עִם נְדִיבִים, עִם נְדִיבֵי עַמּוֹ: מוֹשִׁיבִי עֲקֶרֶת הַבַּיִת, אֵם הַבָּנִים שְׂמֵחָה הַלְלוּיָהּ:"
+            },
+            {
+              "id": "tehillim-114-header",
+              "type": "header",
+              "heText": "תהילים קיד"
+            },
+            {
+              "id": "tehillim-114-focus",
+              "type": "commentary",
+              "enText": "The focus of this chapter is that Hashem chose us as His nation, and thus we have a unique destiny."
+            },
+            {
+              "id": "tehillim-114-gloss",
+              "type": "commentary",
+              "enText": "*בְּצֵאת יִשְׂרָאֵל מִמִּצְרַיִם*—When Hashem took Bnei Yisrael out of Egypt with clear miracles, we became His chosen people, to live a life of holiness and purpose. The very natural order of the world was changed through those miracles; the sea split *(and even rocks gave forth water)*! This was a clear message to the world that *אֲרֹן חוּלִי אָרֶץ*—Hashem controls nature and *אֱלוֹהַּ יַעֲקֹב*—we are His unique people *(with unique responsibilities)*."
+            },
+            {
+              "id": "tehillim-114-text",
+              "type": "prayer",
+              "heText": "בְּצֵאת יִשְׂרָאֵל מִמִּצְרָיִם, בֵּית יַעֲקֹב מֵעַם לֹעֵז: הָיְתָה יְהוּדָה לְקָדְשׁוֹ, יִשְׂרָאֵל מַמְשְׁלוֹתָיו: הַיָּם רָאָה וַיָּנֹס, הַיַּרְדֵּן יִסֹּב לְאָחוֹר: הֶהָרִים רָקְדוּ כְאֵילִים, גְּבָעוֹת כִּבְנֵי צֹאן: מַה לְּךָ הַיָּם כִּי תָנוּס, הַיַּרְדֵּן תִּסֹּב לְאָחוֹר: הֶהָרִים תִּרְקְדוּ כְאֵילִים, גְּבָעוֹת כִּבְנֵי צֹאן: מִלִּפְנֵי אָדוֹן חוּלִי אָרֶץ, מִלִּפְנֵי אֱלוֹהַּ יַעֲקֹב: הַהֹפְכִי הַצּוּר אֲגַם מָיִם, חַלָּמִישׁ לְמַעְיְנוֹ מָיִם:"
+            },
+            {
+              "id": "tehillim-115-omit-rubric",
+              "type": "rubric",
+              "enText": "Omit the following on Rosh Chodesh, except for during Chanukah, and on the last six days of Pesach.",
+              "condition": "Omitted on Rosh Chodesh, except during Chanukah and on the last six days of Pesach"
+            },
+            {
+              "id": "tehillim-115a-header",
+              "type": "header",
+              "heText": "תהילים קטו"
+            },
+            {
+              "id": "tehillim-115a-focus",
+              "type": "commentary",
+              "enText": "The focus of the first half of this chapter is that when the nations are victorious over us, they attribute it to their false gods—which is a chillul Hashem."
+            },
+            {
+              "id": "tehillim-115a-gloss",
+              "type": "commentary",
+              "enText": "*לֹא לָנוּ*—Give us life and prosperity, but not so that we ourselves get recognition or glory, but rather, so that Your \"Name\"—Your power and providence—will get the recognition it is due! When we suffer, the nations gloat saying, \"Where is their God?\" We know the truth: that You are all-powerful, and their idols and the powers they rely upon are powerless! And each of us, with our own unique role; *בְּטַח בַּיהֹוָה*—trusts in You; and *עֶזְרָם וּמָגִנָּם הוּא*—You give each of us what we need to fulfill our potential, and You protect us from physical and spiritual harm."
+            },
+            {
+              "id": "tehillim-115a-text",
+              "type": "prayer",
+              "heText": "לֹא לָנוּ יְהֹוָה לֹא לָנוּ, כִּי לְשִׁמְךָ תֵּן כָּבוֹד, עַל חַסְדְּךָ עַל אֲמִתֶּךָ: לָמָּה יֹאמְרוּ הַגּוֹיִם, אַיֵּה נָא אֱלֹהֵיהֶם: וֵאלֹהֵינוּ בַשָּׁמָיִם, כֹּל אֲשֶׁר חָפֵץ עָשָׂה: עֲצַבֵּיהֶם כֶּסֶף וְזָהָב, מַעֲשֵׂה יְדֵי אָדָם: פֶּה לָהֶם וְלֹא יְדַבֵּרוּ, עֵינַיִם לָהֶם וְלֹא יִרְאוּ: אָזְנַיִם לָהֶם וְלֹא יִשְׁמָעוּ, אַף לָהֶם וְלֹא יְרִיחוּן: יְדֵיהֶם וְלֹא יְמִישׁוּן, רַגְלֵיהֶם וְלֹא יְהַלֵּכוּ, לֹא יֶהְגּוּ בִּגְרוֹנָם: כְּמוֹהֶם יִהְיוּ עֹשֵׂיהֶם, כֹּל אֲשֶׁר בֹּטֵחַ בָּהֶם: יִשְׂרָאֵל בְּטַח בַּיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא: בֵּית אַהֲרֹן בִּטְחוּ בַיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא: יִרְאֵי יְהֹוָה בִּטְחוּ בַיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא:"
+            },
+            {
+              "id": "tehillim-115b-focus",
+              "type": "commentary",
+              "enText": "The focus of the second half of this chapter is that we know that in truth, the providence of Hashem is everywhere."
+            },
+            {
+              "id": "tehillim-115b-gloss",
+              "type": "commentary",
+              "enText": "*יְהֹוָה זְכָרָנוּ יְבָרֵךְ*—Throughout our history we have never abandoned us. And we know that You will give blessing to each and every one of us, so that each of us can fulfill our God-given mission. *הַמֵּתִים לֹא יְהַלְלוּ יָהּ*—Those who have deadened their senses to growth in ruchniyus *(cannot see Your goodness, and therefore)* cannot praise You. *וַאֲנַחְנוּ*—But we; who see the Hand of Hashem everywhere and throughout history; *הַלְלוּיָהּ*—whatever happens, we praise Hashem!"
+            },
+            {
+              "id": "tehillim-115b-text",
+              "type": "prayer",
+              "heText": "יְהֹוָה זְכָרָנוּ יְבָרֵךְ, יְבָרֵךְ אֶת בֵּית יִשְׂרָאֵל, יְבָרֵךְ אֶת בֵּית אַהֲרֹן: יְבָרֵךְ יִרְאֵי יְהֹוָה, הַקְּטַנִּים עִם הַגְּדֹלִים: יֹסֵף יְהֹוָה עֲלֵיכֶם, עֲלֵיכֶם וְעַל בְּנֵיכֶם: בְּרוּכִים אַתֶּם לַיהֹוָה, עֹשֵׂה שָׁמַיִם וָאָרֶץ: הַשָּׁמַיִם שָׁמַיִם לַיהֹוָה, וְהָאָרֶץ נָתַן לִבְנֵי אָדָם: לֹא הַמֵּתִים יְהַלְלוּ יָהּ, וְלֹא כָּל יֹרְדֵי דוּמָה: וַאֲנַחְנוּ נְבָרֵךְ יָהּ, מֵעַתָּה וְעַד עוֹלָם, הַלְלוּיָהּ:"
+            },
+            {
+              "id": "hallel2-118-yisrael-prayer",
+              "type": "prayer",
+              "heText": "חזן. יֹאמַר נָא יִשְׂרָאֵל כִּי לְעוֹלָם חַסְדּוֹ:\nקהל. הוֹדוּ לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ:\nיֹאמְרוּ נָא בֵית אַהֲרֹן כִּי לְעוֹלָם חַסְדּוֹ:"
+            },
+            {
+              "id": "hallel2-118-yisrael-comm",
+              "type": "commentary",
+              "heText": "יֹאמַר נָא יִשְׂרָאֵל",
+              "enText": "*יֹאמַר נָא יִשְׂרָאֵל*—Especially us, Bnei Yisrael, who received so much goodness from Hashem, should proclaim; *כִּי לְעוֹלָם חַסְדּוֹ*—His kindness is eternal."
+            },
+            {
+              "id": "hallel2-118-aharon-prayer",
+              "type": "prayer",
+              "heText": "חזן. יֹאמְרוּ נָא בֵית אַהֲרֹן כִּי לְעוֹלָם חַסְדּוֹ:\nקהל. הוֹדוּ לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ:\nיֹאמְרוּ נָא יִרְאֵי יְהוָה כִּי לְעוֹלָם חַסְדּוֹ:"
+            },
+            {
+              "id": "hallel2-118-aharon-comm",
+              "type": "commentary",
+              "heText": "יֹאמְרוּ נָא בֵית אַהֲרֹן",
+              "enText": "*יֹאמְרוּ נָא בֵית אַהֲרֹן*—Even more so, the Kohanim, who now have extra mitzvos by serving in the rebuilt Beis Hamikdash, should proclaim; *כִּי לְעוֹלָם חַסְדּוֹ*—His kindness is eternal."
+            },
+            {
+              "id": "hallel2-118-yirei-prayer",
+              "type": "prayer",
+              "heText": "חזן. יֹאמְרוּ נָא יִרְאֵי יְהוָה כִּי לְעוֹלָם חַסְדּוֹ:\nקהל. הוֹדוּ לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ:"
+            },
+            {
+              "id": "hallel2-118-yirei-comm",
+              "type": "commentary",
+              "heText": "יֹאמְרוּ נָא יִרְאֵי יְהוָה",
+              "enText": "*יֹאמְרוּ נָא יִרְאֵי יְהוָה*—And especially all those who feared Hashem and did not waver, even in the most difficult times of our galus, should proclaim; *כִּי לְעוֹלָם חַסְדּוֹ*—His kindness is eternal."
+            },
+            {
+              "id": "hallel2-118a-header",
+              "type": "header",
+              "heText": "תְּהִלִּים קי\"ח"
+            },
+            {
+              "id": "hallel2-118a-intro",
+              "type": "section_intro",
+              "enText": "The focus of the next section of this chapter is Bnei Yisrael, at the end of days, looking back and thanking Hashem for protecting them (as a nation, and each Jew as an individual) through all the difficulties of galus."
+            },
+            {
+              "id": "hallel2-min-hametzar-prayer",
+              "type": "prayer",
+              "heText": "מִן הַמֵּצַר קָרָאתִי יָּהּ, עָנָנִי בַמֶּרְחָב יָהּ: יְהוָה לִי לֹא אִירָא, מַה יַּעֲשֶׂה לִי אָדָם: יְהוָה לִי בְּעֹזְרָי, וַאֲנִי אֶרְאֶה בְשֹׂנְאָי: טוֹב לַחֲסוֹת בַּיהוָה, מִבְּטֹחַ בָּאָדָם: טוֹב לַחֲסוֹת בַּיהוָה, מִבְּטֹחַ בִּנְדִיבִים: כָּל גּוֹיִם סְבָבוּנִי, בְּשֵׁם יְהוָה כִּי אֲמִילַם: סַבּוּנִי גַם סְבָבוּנִי, בְּשֵׁם יְהוָה כִּי אֲמִילַם: סַבּוּנִי כִדְבוֹרִים, דֹּעֲכוּ כְּאֵשׁ קוֹצִים, בְּשֵׁם יְהוָה כִּי אֲמִילַם: דָּחֹה דְחִיתַנִי לִנְפֹּל, וַיהוָה עֲזָרָנִי:"
+            },
+            {
+              "id": "hallel2-min-hametzar-comm",
+              "type": "commentary",
+              "heText": "מִן הַמֵּצַר קָרָאתִי יָּהּ",
+              "enText": "*מִן הַמֵּצַר קָרָאתִי יָּהּ*—Through all my difficulties, I called out to Hashem, and He answered and saved me. There is no reason to be afraid, for Hashem is always with me! It is clear that it is better to rely on Hashem than to trust in people or rulers. Throughout history, the nations surrounded me and attacked me like a swarm of bees, but Hashem drove them away. Though Hashem has punished and rebuked me *(for my good)*, He never abandoned me, and Bnei Yisrael live on and sing the praises of Hashem. The gates of the Beis Hamikdash open, and there we will praise Hashem."
+            },
+            {
+              "id": "hallel2-ozi-prayer",
+              "type": "prayer",
+              "heText": "עָזִּי וְזִמְרָת יָהּ, וַיְהִי לִי לִישׁוּעָה: קוֹל רִנָּה וִישׁוּעָה בְּאָהֳלֵי צַדִּיקִים, יְמִין יְהוָה עֹשָׂה חָיִל: יְמִין יְהוָה רוֹמֵמָה, יְמִין יְהוָה עֹשָׂה חָיִל: לֹא אָמוּת כִּי אֶחְיֶה, וַאֲסַפֵּר מַעֲשֵׂי יָהּ: יַסֹּר יִסְּרַנִּי יָּהּ, וְלַמָּוֶת לֹא נְתָנָנִי: פִּתְחוּ לִי שַׁעֲרֵי צֶדֶק, אָבֹא בָם אוֹדֶה יָהּ: זֶה הַשַּׁעַר לַיהוָה, צַדִּיקִים יָבֹאוּ בוֹ:"
+            },
+            {
+              "id": "hallel2-recited-twice-rubric",
+              "type": "rubric",
+              "enText": "Each of the following four pesukim is recited twice."
+            },
+            {
+              "id": "hallel2-odecha-prayer",
+              "type": "prayer",
+              "heText": "אוֹדְךָ כִּי עֲנִיתָנִי, וַתְּהִי לִי לִישׁוּעָה:"
+            },
+            {
+              "id": "hallel2-odecha-comm",
+              "type": "commentary",
+              "heText": "אוֹדְךָ כִּי עֲנִיתָנִי",
+              "enText": "*אוֹדְךָ כִּי עֲנִיתָנִי*—I thank You, Hashem, because You always answered; *וַתְּהִי לִי לִישׁוּעָה*—and You became my salvation. OR: *אוֹדְךָ כִּי עֲנִיתָנִי*—I thank You, Hashem, for having given me difficulties *(which I now see were for my good, because)*; *וַתְּהִי לִי לִישׁוּעָה*—they strengthened me and made me a better person."
+            },
+            {
+              "id": "hallel2-even-prayer",
+              "type": "prayer",
+              "heText": "אֶבֶן מָאֲסוּ הַבּוֹנִים, הָיְתָה לְרֹאשׁ פִּנָּה:"
+            },
+            {
+              "id": "hallel2-even-comm",
+              "type": "commentary",
+              "heText": "אֶבֶן מָאֲסוּ הַבּוֹנִים",
+              "enText": "*אֶבֶן מָאֲסוּ הַבּוֹנִים*—The \"stone\" that the \"builders\" despised *(Bnei Yisrael, who were despised by the nations of the world)*; *הָיְתָה לְרֹאשׁ פִּנָּה*—has become the main cornerstone *(and in the times of Mashiach will be recognized as the key to world history)*."
+            },
+            {
+              "id": "hallel2-meeis-prayer",
+              "type": "prayer",
+              "heText": "מֵאֵת יְהוָה הָיְתָה זֹּאת, הִיא נִפְלָאת בְּעֵינֵינוּ:"
+            },
+            {
+              "id": "hallel2-meeis-comm",
+              "type": "commentary",
+              "heText": "מֵאֵת יְהוָה הָיְתָה זֹּאת",
+              "enText": "*מֵאֵת יְהוָה הָיְתָה זֹּאת*—(And that did not happen thanks to our own strength, but rather) this came about through Hashem! *הִיא נִפְלָאת בְּעֵינֵינוּ*—It is clearly a miracle!"
+            },
+            {
+              "id": "hallel2-zeh-hayom-prayer",
+              "type": "prayer",
+              "heText": "זֶה הַיּוֹם עָשָׂה יְהוָה, נָגִילָה וְנִשְׂמְחָה בוֹ:"
+            },
+            {
+              "id": "hallel2-zeh-hayom-comm",
+              "type": "commentary",
+              "heText": "זֶה הַיּוֹם עָשָׂה יְהוָה",
+              "enText": "*זֶה הַיּוֹם עָשָׂה יְהוָה*—This day of geulah is made by Hashem Himself; *נָגִילָה וְנִשְׂמְחָה בוֹ*—therefore we will always rejoice in it *(since all that You, Hashem, do is permanent)*."
+            },
+            {
+              "id": "hallel2-ana-rubric",
+              "type": "rubric",
+              "enText": "The following four pesukim are said responsively, first by the chazzan, followed by the congregation."
+            },
+            {
+              "id": "hallel2-ana-hoshia-prayer",
+              "type": "prayer",
+              "heText": "אָנָּא יְהוָה הוֹשִׁיעָה נָּא:\nאָנָּא יְהוָה הוֹשִׁיעָה נָּא:"
+            },
+            {
+              "id": "hallel2-ana-hoshia-comm",
+              "type": "commentary",
+              "enText": "Please, Hashem, save us from all trouble and pain—now!"
+            },
+            {
+              "id": "hallel2-ana-hatzlicha-prayer",
+              "type": "prayer",
+              "heText": "אָנָּא יְהוָה הַצְלִיחָה נָּא:\nאָנָּא יְהוָה הַצְלִיחָה נָּא:"
+            },
+            {
+              "id": "hallel2-ana-hatzlicha-comm",
+              "type": "commentary",
+              "enText": "Please, Hashem, make us successful in all that we do—now!"
+            },
+            {
+              "id": "hallel2-118b-intro",
+              "type": "section_intro",
+              "enText": "The last four pesukim of this chapter describe Bnei Yisrael coming to the rebuilt Beis Hamikdash to thank Hashem for the final geulah."
+            },
+            {
+              "id": "hallel2-recited-twice-rubric2",
+              "type": "rubric",
+              "enText": "Each of the following four pesukim is recited twice."
+            },
+            {
+              "id": "hallel2-baruch-haba-prayer",
+              "type": "prayer",
+              "heText": "בָּרוּךְ הַבָּא בְּשֵׁם יְהוָה, בֵּרַכְנוּכֶם מִבֵּית יְהוָה:"
+            },
+            {
+              "id": "hallel2-baruch-haba-comm",
+              "type": "commentary",
+              "heText": "בָּרוּךְ הַבָּא בְּשֵׁם יְהוָה",
+              "enText": "*בָּרוּךְ הַבָּא בְּשֵׁם יְהוָה*—(The Kohanim come to greet those who have come to bring korbanos and say to them:) Blessed is the one who comes *(to the Beis Hamikdash bringing korbanos)* in order to praise Hashem for all He has done. *בֵּרַכְנוּכֶם מִבֵּית יְהוָה*—We are blessing you with the brachos that come from the kedushah of the Beis Hamikdash!"
+            },
+            {
+              "id": "hallel2-keil-prayer",
+              "type": "prayer",
+              "heText": "אֵל יְהוָה וַיָּאֶר לָנוּ, אִסְרוּ חַג בַּעֲבֹתִים, עַד קַרְנוֹת הַמִּזְבֵּחַ:"
+            },
+            {
+              "id": "hallel2-keil-comm",
+              "type": "commentary",
+              "heText": "אֵל יְהוָה וַיָּאֶר לָנוּ",
+              "enText": "*אֵל יְהוָה וַיָּאֶר לָנוּ*—(Those bringing the korbanos respond:) Hashem is our strength, and He has lit up the darkness of our galus. Therefore, *אִסְרוּ חַג בַּעֲבֹתִים, עַד קַרְנוֹת הַמִּזְבֵּחַ*—tie up your korban carefully *(so it should not run away)* until it is taken up to the Mizbeach."
+            },
+            {
+              "id": "hallel2-eili-prayer",
+              "type": "prayer",
+              "heText": "אֵלִי אַתָּה וְאוֹדֶךָּ, אֱלֹהַי אֲרוֹמְמֶךָּ:"
+            },
+            {
+              "id": "hallel2-eili-comm",
+              "type": "commentary",
+              "heText": "אֵלִי אַתָּה וְאוֹדֶךָּ",
+              "enText": "*אֵלִי אַתָּה וְאוֹדֶךָּ*—(And those bringing the korbanos continue and proclaim:) You, Hashem, were my constant strength *(even though during the difficult times of our galus we did not always realize it!)*, and therefore I thank You; *אֱלֹהַי אֲרוֹמְמֶךָּ*—You are my *(personal)* God and I praise You!"
+            },
+            {
+              "id": "hallel2-hodu-final-prayer",
+              "type": "prayer",
+              "heText": "הוֹדוּ לַיהוָה כִּי טוֹב, כִּי לְעוֹלָם חַסְדּוֹ:"
+            },
+            {
+              "id": "hallel2-hodu-final-comm",
+              "type": "commentary",
+              "heText": "הוֹדוּ לַיהוָה כִּי טוֹב",
+              "enText": "*הוֹדוּ לַיהוָה כִּי טוֹב*—Give thanks to Hashem, for all that He does is good; *כִּי לְעוֹלָם חַסְדּוֹ*—His kindness is eternal."
+            },
+            {
+              "id": "hallel2-yehalelucha-header",
+              "type": "header",
+              "enText": "Concluding Brachah:"
+            },
+            {
+              "id": "hallel2-yehalelucha-prayer",
+              "type": "prayer",
+              "heText": "יְהַלְלוּךָ יְהוָה אֱלֹהֵינוּ (עַל) כָּל מַעֲשֶׂיךָ, וַחֲסִידֶיךָ צַדִּיקִים עוֹשֵׂי רְצוֹנֶךָ, וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, בְּרִנָּה יוֹדוּ וִיבָרְכוּ וִישַׁבְּחוּ וִיפָאֲרוּ וִירוֹמְמוּ וְיַעֲרִיצוּ וְיַקְדִּישׁוּ וְיַמְלִיכוּ אֶת שִׁמְךָ מַלְכֵּנוּ תָּמִיד. כִּי לְךָ טוֹב לְהוֹדוֹת, וּלְשִׁמְךָ נָאֶה לְזַמֵּר, כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל: בָּרוּךְ אַתָּה יְהוָה מֶלֶךְ מְהֻלָּל בַּתִּשְׁבָּחוֹת:"
+            },
+            {
+              "id": "hallel2-yehalelucha-comm",
+              "type": "commentary",
+              "heText": "יְהַלְלוּךָ",
+              "enText": "*יְהַלְלוּךָ*—(In the time of the final geulah) all humanity and the entire universe will praise You, Hashem. And Your devoted ones, the tzaddikim, together with all of Bnei Yisrael, will thank You, praise You, and glorify You with songs of gladness; and proclaim to the world that You are our King! *לְהוֹדוֹת*—Because it is fitting and proper to thank You; *וּלְשִׁמְךָ נָאֶה לְזַמֵּר*—and sing praises for all You have done; *כִּי מֵעוֹלָם וְעַד עוֹלָם אַתָּה אֵל*—because You are eternally the only power Who controls the world; *בָּרוּךְ אַתָּה יְהוָה*—You, Hashem, are the Source of everything; *מֶלֶךְ מְהֻלָּל בַּתִּשְׁבָּחוֹת*—King, Whose praise is proclaimed through *(our)* songs of praises."
+            },
+            {
+              "id": "hallel2-veyikrosem-rubric",
+              "type": "rubric",
+              "enText": "Some say the following on Rosh Chodesh after Hallel, and it is auspicious for a long life.",
+              "condition": "Rosh Chodesh"
+            },
+            {
+              "id": "hallel2-veyikrosem-prayer",
+              "type": "prayer",
+              "heText": "וְאֶקְרָהֶם זְרַע אַבְרָהָם בָּא בַיָּמִים, וַיהוָה בֵּרַךְ אֶת אַבְרָהָם בַּכֹּל: זִכְרֵנוּ יִשְׁמְרֵנוּ וִיחַיֵּנוּ, כֵּן יְהִי רְצוֹן מַלְכֵנוּ, אֱלֹהִים חַיִּים וּמֶלֶךְ עוֹלָם וּמֶלֶךְ בְּיָדְךָ אֲשֶׁר נֶפֶשׁ כָּל חַי אָמֵן:",
+              "condition": "Rosh Chodesh"
+            },
+            {
+              "id": "hallel2-kaddish-rubric",
+              "type": "rubric",
+              "enText": "On Chol Hamoed and Rosh Chodesh, the chazzan says Full-Kaddish followed by Krias HaTorah—page 92. On Chanukah (except for Rosh Chodesh Teves), the chazzan says Half-Kaddish followed by Krias HaTorah—page 92.",
+              "xref": "page 92",
+              "condition": "Chol Hamoed, Rosh Chodesh, or Chanukah"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
