@@ -305,6 +305,32 @@
           "enTitle": "Hanachas Tefillin",
           "segments": [
             {
+              "id": "tefillin-header",
+              "type": "header",
+              "heText": "הֲנָחַת תְּפִילִּין",
+              "enText": "Hanachas Tefillin"
+            },
+            {
+              "id": "tefillin-intro-1",
+              "type": "section_intro",
+              "enText": "I dedicate my actions and thoughts to Hashem."
+            },
+            {
+              "id": "tefillin-intro-2",
+              "type": "section_intro",
+              "enText": "It is important to think a bit before one does a mitzvah so that one will be doing it for the correct reasons! This is especially true with the mitzvah of tefillin, which is an external symbol of an inner commitment! Therefore, many say the following paragraph before putting on their tefillin."
+            },
+            {
+              "id": "tefillin-lshem-yichud",
+              "type": "prayer",
+              "heText": "לְשֵׁם יִחוּד קוּדְשָׁא בְּרִיךְ הוּא וּשְׁכִינְתֵּהּ בִּדְחִילוּ וּרְחִימוּ, וּרְחִימוּ וּדְחִילוּ, לְיַחֵד שֵׁם י\"ה בְּו\"ה בְּיִחוּדָא שְׁלִים בְּשֵׁם כָּל יִשְׂרָאֵל. הִנְנִי מְכַוֵּן בַּהֲנָחַת תְּפִילִּין לְקַיֵּם מִצְוַת בּוֹרְאִי, שֶׁצִוָּנוּ לְהָנִיחַ תְּפִילִּין, כַּכָּתוּב בְּתוֹרָתוֹ וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ. וְהֵם אַרְבַּע פָּרְשִׁיּוֹת אֵלּוּ, שְׁמַע, וְהָיָה אִם שָׁמֹעַ, קַדֵּשׁ, וְהָיָה כִּי יְבִיאֲךָ, שֶׁיֵּשׁ בָּהֶם יִחוּדוֹ וְאַחְדּוּתוֹ יִתְבָּרַךְ שְׁמוֹ בָּעוֹלָם. וְשֶׁנִּזְכֹּר נִסִּים וְנִפְלָאוֹת שֶׁעָשָׂה עִמָּנוּ בְּהוֹצִיאָנוּ מִמִּצְרַיִם, וַאֲשֶׁר לוֹ הַכֹּחַ וְהַמֶּמְשָׁלָה בָּעֶלְיוֹנִים וּבַתַּחְתּוֹנִים לַעֲשׂוֹת בָּהֶם כִּרְצוֹנוֹ. וְצִוָּנוּ לְהָנִיחַ עַל הַיָּד לְזִכְרוֹן זְרוֹעַ הַנְּטוּיָה, וְשֶׁהִיא נֶגֶד הַלֵּב, לְשַׁעְבֵּד בָּזֶה תַּאֲוֹת וּמַחְשְׁבוֹת לִבֵּנוּ לַעֲבוֹדָתוֹ יִתְבָּרַךְ שְׁמוֹ. וְעַל הָרֹאשׁ נֶגֶד הַמֹּחַ, שֶׁהַנְּשָׁמָה שֶׁבְּמֹחִי עִם שְׁאָר חוּשַׁי וְכֹחוֹתַי כֻּלָּם יִהְיוּ מְשֻׁעְבָּדִים לַעֲבוֹדָתוֹ יִתְבָּרַךְ שְׁמוֹ. וּמִשֶּׁפַע מִצְוַת תְּפִילִּין יִתְמַשֵּׁךְ עָלַי לִהְיוֹת לִי חַיִּים אֲרוּכִים וְשֶׁפַע קֹדֶשׁ וּמַחְשָׁבוֹת קְדוֹשׁוֹת בְּלִי הִרְהוּר חֵטְא וְעָוֹן כְּלָל, וְלֹא יְפַתֵּנוּ וְלֹא יִתְגָּרֶה בָנוּ יֵצֶר הָרָע, וְיַנִּיחֵנוּ לַעֲבֹד אֶת יְהֹוָה כַּאֲשֶׁר עִם לְבָבֵנוּ."
+            },
+            {
+              "id": "tefillin-lshem-yichud-yehi-ratzon",
+              "type": "prayer",
+              "heText": "וִיהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁתְּהֵא חֲשׁוּבָה מִצְוַת הֲנָחַת תְּפִילִּין לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא כְּאִלּוּ קִיַּמְתִּיהָ בְּכָל פְּרָטֶיהָ וְדִקְדּוּקֶיהָ וְכַוָּנוֹתֶיהָ וְתַרְיַ\"ג מִצְוֹת הַתְּלוּיִם בָּהּ, אָמֵן סֶלָה."
+            },
+            {
               "id": "section_intro_lshem_yichud",
               "type": "commentary",
               "enText": "I am about to put on tefillin, with the intent to fulfill a mitzvah of the Torah. What is written in the tefillin reminds me of the great miracles of yetzias Mitzrayim, and that Hashem controls the world! By putting tefillin on my arm and opposite my heart, I dedicate my strengths and talents wholeheartedly to the service of Hashem. By putting tefillin on my head, I dedicate my intellectual powers and all my senses to the service of Hashem. In the merit of this mitzvah, may I live a long, productive, and spiritual life—free from improper thoughts. And may the yetzer hara not sway me to sin—rather it should allow me to serve You—which is really what my heart desires to do! And *(even though I know that I do not always do all the mitzvos perfectly and with the proper intentions)* may Hashem consider this mitzvah as if I did it 100 percent properly!"
