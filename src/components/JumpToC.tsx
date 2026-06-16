@@ -93,6 +93,7 @@ function makeStyles(c: ColorPalette) {
       flexDirection: 'row',
       justifyContent: 'space-between',
       alignItems: 'center',
+      gap: 10,
       paddingVertical: 11,
       paddingHorizontal: 12,
       marginHorizontal: 6,
@@ -104,6 +105,7 @@ function makeStyles(c: ColorPalette) {
       fontSize: 14,
       color: c.ink,
       flex: 1,
+      minWidth: 0,
     },
     prayerHe: {
       fontFamily: Fonts.hebrew,
@@ -111,6 +113,8 @@ function makeStyles(c: ColorPalette) {
       color: c.muted,
       textAlign: 'right' as const,
       writingDirection: 'rtl' as const,
+      flexShrink: 1,
+      maxWidth: '52%',
     },
     closeBtn: {
       margin: 16,
