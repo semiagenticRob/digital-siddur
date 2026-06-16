@@ -56,6 +56,17 @@ export function SegmentRenderer({
     return <RichText text={segment.enText ?? ''} style={s.sectionIntro} italicStyle={s.italicSpan} />;
   }
 
+  // Transition — rhetorical bridge between prayers; striking with underglow
+  if (segment.type === 'transition') {
+    if (displayMode === 'he') return null;
+    return (
+      <View style={s.transitionWrap}>
+        <Text style={s.transitionText}>{segment.enText}</Text>
+        <View style={s.transitionGlow} />
+      </View>
+    );
+  }
+
   // FAQ — collapsible, hide in Hebrew-only mode
   if (segment.type === 'faq') {
     if (displayMode === 'he') return null;
@@ -289,6 +300,35 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontStyle: 'italic',
       paddingHorizontal: 8,
       marginBottom: 10,
+    },
+    transitionWrap: {
+      alignItems: 'center',
+      marginVertical: 26,
+      paddingHorizontal: 12,
+    },
+    transitionText: {
+      fontFamily: Fonts.englishBold,
+      fontSize: enSize * 1.3,
+      lineHeight: enSize * 1.7,
+      color: c.accent,
+      textAlign: 'center',
+      letterSpacing: 0.2,
+      textShadowColor: c.accent,
+      textShadowOffset: { width: 0, height: 4 },
+      textShadowRadius: 18,
+    },
+    transitionGlow: {
+      marginTop: 14,
+      width: 130,
+      height: 7,
+      borderRadius: 7,
+      backgroundColor: c.gold,
+      opacity: 0.55,
+      shadowColor: c.gold,
+      shadowOpacity: 0.8,
+      shadowRadius: 14,
+      shadowOffset: { width: 0, height: 3 },
+      elevation: 6,
     },
     faqToggle: {
       marginTop: 8,

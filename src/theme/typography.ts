@@ -4,6 +4,7 @@ export const Fonts = {
   hebrewRegular: 'FrankRuhlLibre_400Regular',
   english: 'Newsreader_400Regular',
   englishItalic: 'Newsreader_400Regular_Italic',
+  englishBold: 'Newsreader_600SemiBold',
   ui: 'Inter_400Regular',
   uiMedium: 'Inter_500Medium',
   uiSemiBold: 'Inter_600SemiBold',

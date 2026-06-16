@@ -5,7 +5,8 @@ export type SegmentType =
   | 'insight'       // Expandable "Instant Insight" callout
   | 'faq'           // Margin FAQ/Answer box
   | 'header'        // Section heading (Hebrew, English, or both)
-  | 'section_intro';// Bold English preamble before a prayer group
+  | 'section_intro' // Bold English preamble before a prayer group
+  | 'transition';   // Rhetorical bridge line carrying you from one prayer to the next
 
 export interface Segment {
   id: string;
