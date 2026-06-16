@@ -4,78 +4,257 @@
   "enTitle": "Minchah",
   "groups": [
     {
-      "id": "g-ashrei",
-      "title": "Ashrei & Shemoneh Esrei",
+      "id": "g-minchah-main",
+      "title": "Minchah",
       "prayers": [
         {
-          "id": "p-ashrei",
-          "heTitle": "אַשְׁרֵי",
-          "enTitle": "Ashrei",
+          "id": "minchah_intro",
+          "heTitle": "מִנְחָה",
+          "enTitle": "Minchah",
           "segments": [
             {
-              "id": "ashrei-1",
-              "type": "prayer",
-              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה."
+              "id": "minchah_header_1",
+              "type": "header",
+              "heText": "מִנְחָה"
             },
             {
-              "id": "ashrei-2",
-              "type": "prayer",
-              "heText": "אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיְיָ אֱלֹהָיו."
+              "id": "minchah_intro_1",
+              "type": "section_intro",
+              "enText": "The Hardest Time to Daven Is When You Need to Daven the Most!"
             },
             {
-              "id": "ashrei-commentary",
+              "id": "minchah_intro_2",
               "type": "commentary",
-              "enText": "[Placeholder] Ashrei opens Minchah — we arrive in the middle of the day, catching our breath and returning to Hashem."
+              "enText": "Why is the afternoon tefillah called Minchah? Shacharis comes from שחר—morning, and Maariv comes from ערב—evening, but \"Minchah\" means a gift! (True, there was a מנחה/meal offering in the afternoon, but there was also one in the morning!) In addition, Chazal attach great importance to Minchah. Moshe successfully davened to Hashem to forgive the sin of the golden calf at Minchah time (FYI: על equals 103, and so does מנחה); and Eliyahu, in his battle against the idol worshippers, was also answered late afternoon at Minchah time. So what is the significance of Minchah and Minchah-time? (NOTE: Though technically one can daven Minchah once it is a halachic half-hour after noon, the \"tefillah of Minchah\" was set up parallel to the Tamid Shel Bein HaArbayim, the korban that was brought right before sunset as the day ended.)"
             },
             {
-              "id": "ashrei-insight",
-              "type": "insight",
-              "enText": "[Placeholder insight] Why do we say Ashrei three times a day? The Gemara teaches it guarantees a share in the World to Come — not because of magic, but because of what consistent gratitude does to a person over time."
+              "id": "minchah_intro_3",
+              "type": "commentary",
+              "enText": "Twilight represents a time of lack of clarity and vision. Most traffic accidents happen then! When it's dark, you have either your lights on, so either you turn on your headlights or you're more careful. In the morning, things are clear. But dusk/late afternoon is that in-between time. You think you can see, but it's not really that clear. We all have those times in our lives, and that is when we are most prone to stumbling and doing things we will be disappointed when about in the \"morning\" when we can look back with clarity. Thus \"Minchah-time\" is the time when we most need to reconnect to Hashem. And practically, it is usually at a very inconvenient part of the day when we are really busy with a million and one things. So emotionally, it's a hard time to connect, since we lack clarity; and practically, it is a hard time to connect, since we are so busy thinking about ourselves."
+            },
+            {
+              "id": "minchah_intro_4",
+              "type": "commentary",
+              "enText": "When we stop, step back, get ahold of ourselves, and proclaim our true feelings—that אשרי יושבי ביתך, those who are connected to the Presence of Hashem are the happiest people—we are giving a great gift, a מנחה, to Hashem, by acknowledging Him when it is hardest to do so. And really, we are giving ourselves a great gift—the peace of mind that we are not alone, no matter what is going on in our lives at this moment. The hardest time to daven is when you need to daven the most!"
+            },
+            {
+              "id": "minchah_intro_5",
+              "type": "section_intro",
+              "enText": "I Am Happy I Can Interrupt My Day and Daven to Hashem"
             }
           ]
         },
         {
-          "id": "p-shemoneh-esrei-minchah",
-          "heTitle": "שְׁמֹנֶה עֶשְׂרֵה",
-          "enTitle": "Shemoneh Esrei",
+          "id": "ashrei",
+          "heTitle": "אַשְׁרֵי",
+          "enTitle": "Ashrei",
           "segments": [
             {
-              "id": "minchah-se-opening",
-              "type": "prayer",
-              "heText": "אֲדֹנָי שְׂפָתַי תִּפְתָּח, וּפִי יַגִּיד תְּהִלָּתֶךָ."
+              "id": "ashrei_header_1",
+              "type": "header",
+              "heText": "אַשְׁרֵי"
             },
             {
-              "id": "minchah-se-rubric",
-              "type": "rubric",
-              "heText": "The Amidah follows — same text as Shacharis from Avos through the concluding brachos."
-            },
-            {
-              "id": "minchah-se-commentary",
+              "id": "ashrei_intro_1",
               "type": "commentary",
-              "enText": "[Placeholder] Minchah's Amidah is the same eighteen brachos as Shacharis. The Arizal teaches that Minchah is in some ways the most important tefillah of the day — it requires the most intention precisely because it interrupts the workday."
+              "enText": "אשרי follows the aleph-beis. The significance is that in all areas of our life (aleph to tav), personally and nationally, we need Hashem and His help, we are supported by Him, and His providence is constant. And this is true not only when our lives seem clear and bright (Shacharis—the morning), but also when things seem to be getting dark and not so bright or clear (Minchah—as the sun sets). Because of its importance, we will explain it line by line."
+            },
+            {
+              "id": "ashrei_intro_2",
+              "type": "rubric",
+              "enText": "For a different set of Instant Insights on Ashrei, please see the Ashrei of Shacharis."
+            },
+            {
+              "id": "ashrei_commentary_1",
+              "type": "commentary",
+              "enText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ—Happy are those who (wherever they are) are living in the house of Hashem (are living a meaningful and spiritually growing life); עוֹד יְהַלְלוּךָ סֶּלָה—they will constantly praise You (since they see all the circumstances of their life as opportunities for growth)."
+            },
+            {
+              "id": "ashrei_1",
+              "type": "prayer",
+              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה: אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיהוה אֱלֹהָיו:"
+            },
+            {
+              "id": "ashrei_commentary_2",
+              "type": "commentary",
+              "enText": "אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ—Happy and fortunate are we, the nation (Bnei Yisrael) that has all this (glorious history and great mission); אַשְׁרֵי הָעָם שֶׁיהוה אֱלֹהָיו—happy and fortunate are we, the nation (Bnei Yisrael) that has Hashem as our personal God Who takes care of us."
+            },
+            {
+              "id": "ashrei_commentary_3",
+              "type": "commentary",
+              "enText": "תְּהִלָּה לְדָוִד—A song of praise by David HaMelech (תהלים קמה); אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ—I will exalt and revere You (since I realize that the essence of Hashem as my personal God and Ruler of the entire universe is way beyond my human comprehension); וַאֲבָרְכָה שִׁמְךָ—and (at the same time) I thank You (in the following verses) for all that You have done and will do (for me personally and for our nation); לְעוֹלָם וָעֶד—since the beginning of time and until the end of days."
+            },
+            {
+              "id": "ashrei_2",
+              "type": "prayer",
+              "heText": "תְּהִלָּה לְדָוִד, אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ, וַאֲבָרְכָה שִׁמְךָ לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "ashrei_commentary_4",
+              "type": "commentary",
+              "enText": "בְּכָל יוֹם אֲבָרְכֶךָּ—(You are the Source of everything that happens to me each and every day, and) I thank You for it all (even though some of those things are hard to understand); וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד—and in the end of days, I will truly praise You (as all becomes clear)."
+            },
+            {
+              "id": "ashrei_3",
+              "type": "prayer",
+              "heText": "בְּכָל יוֹם אֲבָרְכֶךָּ, וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "ashrei_commentary_5",
+              "type": "commentary",
+              "enText": "גָּדוֹל יהוה וּמְהֻלָּל מְאֹד—(As much as we will thank and praise Hashem, and proclaim) Hashem is \"great\" and is \"extremely praised\"; וְלִגְדֻלָּתוֹ אֵין חֵקֶר—(the truth is that) the greatness of Hashem is beyond our real comprehension (\"the more you know, the more you realize that you don't know\")."
+            },
+            {
+              "id": "ashrei_4",
+              "type": "prayer",
+              "heText": "גָּדוֹל יהוה וּמְהֻלָּל מְאֹד, וְלִגְדֻלָּתוֹ אֵין חֵקֶר:"
+            },
+            {
+              "id": "ashrei_commentary_6",
+              "type": "commentary",
+              "enText": "דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ—Each generation will praise Your actions to the next generation; וּגְבוּרֹתֶיךָ יַגִּידוּ—and will tell them of Your (miraculous) mighty deeds (that they experienced)."
+            },
+            {
+              "id": "ashrei_5",
+              "type": "prayer",
+              "heText": "דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ, וּגְבוּרֹתֶיךָ יַגִּידוּ:"
+            },
+            {
+              "id": "ashrei_commentary_7",
+              "type": "commentary",
+              "enText": "הֲדַר כְּבוֹד הוֹדֶךָ—I will discuss (with everyone) the beauty of Your natural world; וְדִבְרֵי נִפְלְאֹתֶיךָ אָשִׂיחָה—as well as speak of Your wonders (which are beyond our comprehension)."
             }
           ]
         }
       ]
     },
     {
-      "id": "g-tachanun-minchah",
-      "title": "Tachanun & Aleinu",
+      "id": "g-minchah-concluding",
+      "title": "Minchah — concluding",
       "prayers": [
         {
-          "id": "p-aleinu-minchah",
-          "heTitle": "עָלֵינוּ",
-          "enTitle": "Aleinu",
+          "id": "shemoneh_esrei_modim_chanukah_purim",
+          "heTitle": "עַל הַנִּסִּים",
+          "enTitle": "Al HaNissim",
           "segments": [
             {
-              "id": "aleinu-minchah-1",
-              "type": "prayer",
-              "heText": "עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל, לָתֵת גְּדֻלָּה לְיוֹצֵר בְּרֵאשִׁית."
+              "id": "al_hanissim_rubric_1",
+              "type": "rubric",
+              "enText": "On Chanukah and Purim add the following special \"Thanks\": (If you forgot, see Appendix 12:7)",
+              "xref": "appendix:12:7"
             },
             {
-              "id": "aleinu-minchah-commentary",
+              "id": "al_hanissim_1",
+              "type": "prayer",
+              "heText": "(וֹ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה."
+            },
+            {
+              "id": "al_hanissim_commentary_1",
               "type": "commentary",
-              "enText": "[Placeholder] Aleinu closes every tefillah — a reminder that the goal of all our prayer is a world where Hashem's presence is universally recognized."
+              "enText": "We also thank You for Your miraculous rescue, for the mighty acts and victories, and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors on these days at this season."
+            },
+            {
+              "id": "al_hanissim_chanukah",
+              "type": "prayer",
+              "heText": "לְחֻנוּכָּה: בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנַאי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ, וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה, וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל.",
+              "condition": "chanukah"
+            },
+            {
+              "id": "al_hanissim_chanukah_commentary",
+              "type": "commentary",
+              "enText": "On Chanukah: In the days of the Kohen Gadol Matisyahu the Chashmonai and his children, the despotic Syrian-Greek empire rose up against Your people (Bnei Yisrael), to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few (army of the Chashmonaim) victorious over the stronger and more numerous (Greek army). You made the Jews who had remained pure from the immorality of the Greek culture (tehorim), who had remained righteous and loyal to Torah standards (tzadikim) and who remained diligent in the study of Torah (oskei torahcha) victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture (temei'im) and (resha'im), and deliberately tried to eradicate Torah study (zeidim). All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You.",
+              "condition": "chanukah"
+            },
+            {
+              "id": "al_hanissim_purim",
+              "type": "prayer",
+              "heText": "לְפוּרִים: בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ.",
+              "condition": "purim"
+            },
+            {
+              "id": "al_hanissim_purim_commentary",
+              "type": "commentary",
+              "enText": "On Purim: In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
+              "condition": "purim"
+            }
+          ]
+        },
+        {
+          "id": "shemoneh_esrei_modim_concl",
+          "heTitle": "מוֹדִים",
+          "enTitle": "Modim (conclusion)",
+          "segments": [
+            {
+              "id": "modim_concl_1",
+              "type": "prayer",
+              "heText": "וְעַל כֻּלָּם יִתְבָּרַךְ וְיִתְרוֹמַם שִׁמְךָ מַלְכֵּנוּ תָּמִיד לְעוֹלָם וָעֶד."
+            },
+            {
+              "id": "modim_concl_commentary_1",
+              "type": "commentary",
+              "enText": "Our King, for all these things may Your Name be blessed and held in the highest esteem (may everyone realize that You alone are the Source of hidden miracles and loving-kindness), constantly, forever and ever."
+            },
+            {
+              "id": "modim_concl_ayt_rubric",
+              "type": "rubric",
+              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)",
+              "condition": "aseres_yemei_teshuvah",
+              "xref": "appendix:12:2"
+            },
+            {
+              "id": "modim_concl_ayt_insert",
+              "type": "prayer",
+              "heText": "וּכְתֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶךָ.",
+              "condition": "aseres_yemei_teshuvah"
+            },
+            {
+              "id": "modim_concl_ayt_commentary",
+              "type": "commentary",
+              "enText": "And may all the children of Your covenant with the Avos (that's us!) be written for a good life.",
+              "condition": "aseres_yemei_teshuvah"
+            },
+            {
+              "id": "modim_concl_2",
+              "type": "prayer",
+              "heText": "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה: בָּרוּךְ אַתָּה יְהֹוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת."
+            },
+            {
+              "id": "modim_concl_commentary_2",
+              "type": "commentary",
+              "enText": "And all that live will thank You forever; and sincerely praise all that You do; You are our salvation and everlasting help. You, Hashem, are the Source of everything; Your very essence is goodness and benevolence, and therefore it is (always) fitting to thank You (in all circumstances of our lives, even if we cannot see the good at the moment)."
+            }
+          ]
+        },
+        {
+          "id": "birkas_kohanim",
+          "heTitle": "בִּרְכַּת כֹּהֲנִים",
+          "enTitle": "Birkas Kohanim",
+          "segments": [
+            {
+              "id": "birkas_kohanim_rubric_1",
+              "type": "rubric",
+              "enText": "On fast days, Birkas Kohanim is said here by the chazzan (and in some places in Israel by Kohanim).",
+              "condition": "fast_day"
+            },
+            {
+              "id": "birkas_kohanim_1",
+              "type": "prayer",
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, בָּרְכֵנוּ בַבְּרָכָה הַמְשֻׁלֶּשֶׁת בַּתּוֹרָה הַכְּתוּבָה עַל יְדֵי מֹשֶׁה עַבְדֶּךָ, הָאֲמוּרָה מִפִּי אַהֲרֹן וּבָנָיו, כֹּהֲנִים עַם קְדוֹשֶׁךָ, כָּאָמוּר:"
+            },
+            {
+              "id": "birkas_kohanim_commentary_1",
+              "type": "commentary",
+              "enText": "Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah written in the Torah that was said by the Kohanim:"
+            },
+            {
+              "id": "birkas_kohanim_2",
+              "type": "prayer",
+              "heText": "יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ:"
+            },
+            {
+              "id": "birkas_kohanim_commentary_2",
+              "type": "commentary",
+              "enText": "May Hashem ble"
             }
           ]
         }

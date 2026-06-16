@@ -1,0 +1,435 @@
+{
+  "pdf_page_35": [
+    {
+      "id": "yigdal_text",
+      "type": "prayer",
+      "heText": "יִגְדַּל אֱלֹהִים חַי וְיִשְׁתַּבַּח, נִמְצָא וְאֵין עֵת אֶל מְצִיאוּתוֹ: אֶחָד וְאֵין יָחִיד כְּיִחוּדוֹ, נֶעְלָם וְגַם אֵין סוֹף לְאַחְדּוּתוֹ: אֵין לוֹ דְמוּת הַגּוּף וְאֵינוֹ גוּף, לֹא נַעֲרֹךְ אֵלָיו קְדֻשָּׁתוֹ: קַדְמוֹן לְכָל דָּבָר אֲשֶׁר נִבְרָא, רִאשׁוֹן וְאֵין רֵאשִׁית לְרֵאשִׁיתוֹ: הִנּוֹ אֲדוֹן עוֹלָם לְכָל נוֹצָר, יוֹרֶה גְדֻלָּתוֹ וּמַלְכוּתוֹ: שֶׁפַע נְבוּאָתוֹ נְתָנוֹ, אֶל אַנְשֵׁי סְגֻלָּתוֹ וְתִפְאַרְתּוֹ: לֹא קָם בְּיִשְׂרָאֵל כְּמֹשֶׁה עוֹד, נָבִיא וּמַבִּיט אֶת תְּמוּנָתוֹ: תּוֹרַת אֱמֶת נָתַן לְעַמּוֹ אֵל, עַל יַד נְבִיאוֹ נֶאֱמַן בֵּיתוֹ: לֹא יַחֲלִיף הָאֵל וְלֹא יָמִיר דָּתוֹ, לְעוֹלָמִים לְזוּלָתוֹ: צוֹפֶה וְיוֹדֵעַ סְתָרֵינוּ, מַבִּיט לְסוֹף דָּבָר בְּקַדְמָתוֹ: גּוֹמֵל לְאִישׁ חֶסֶד כְּמִפְעָלוֹ, נוֹתֵן לְרָשָׁע רָע כְּרִשְׁעָתוֹ: יִשְׁלַח לְקֵץ יָמִין מְשִׁיחֵנוּ, לִפְדּוֹת מְחַכֵּי קֵץ יְשׁוּעָתוֹ: מֵתִים יְחַיֶּה אֵל בְּרֹב חַסְדּוֹ, בָּרוּךְ עֲדֵי עַד שֵׁם תְּהִלָּתוֹ:"
+    },
+    {
+      "id": "yigdal_commentary",
+      "type": "commentary",
+      "enText": "(The Thirteen Principles of Faith) (1) There exists a perfect God Who created everything. (2) God is One—there is only one God. (3) God cannot be viewed in bodily terms. (4) God is Eternal. (5) Jews pray directly to God with no intermediaries. (6) The prophets are true. (7) Moshe was the greatest prophet. (8) The entire Torah was given to Moshe. (9) The Torah is eternal and unchanging. (10) God knows what we do. (11) God rewards and punishes according to our actions. (12) Mashiach will come. (13) There will be Techiyas Hameisim."
+    },
+    {
+      "id": "header_fifteen_thank_yous",
+      "type": "header",
+      "enText": "But First—Fifteen Thank-Yous!"
+    },
+    {
+      "id": "header_birchos_hashachar",
+      "type": "header",
+      "heText": "בְּרָכוֹת הַשַּׁחַר"
+    },
+    {
+      "id": "bracha_sekvi_binah",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר נָתַן לַשֶּׂכְוִי בִינָה לְהַבְחִין בֵּין יוֹם וּבֵין לָיְלָה:"
+    },
+    {
+      "id": "bracha_sekvi_binah_commentary",
+      "type": "commentary",
+      "enText": "—אֲשֶׁר נָתַן לַשֶּׂכְוִי בִינָה — Thank You, for You give us the ability to understand the difference between day and night—meaning: good and bad, right and wrong."
+    },
+    {
+      "id": "faq_sekvi_life_stinks",
+      "type": "faq",
+      "enText": "FAQ: Thank you? For what? My life stinks! ANSWER: Good point! See Appendix 2."
+    },
+    {
+      "id": "insight_sekvi_rooster",
+      "type": "insight",
+      "enText": "Literally, שֶׂכְוִי could be translated as a rooster. The uniqueness of the rooster is that it starts to crow right before the light of dawn. Night/darkness represents a lack of clarity and a sense of hopelessness. In the morning light, we see that all is really not so bad. The rooster teaches us that even in the darkest time of night, we can see the light if we use the \"ability to understand\" that Hashem gave us! We thank Him for that ability."
+    }
+  ],
+
+  "pdf_page_36": [
+    {
+      "id": "bracha_lo_asani_goy",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁלֹּא עָשַׂנִי גּוֹי:"
+    },
+    {
+      "id": "bracha_lo_asani_goy_commentary",
+      "type": "commentary",
+      "enText": "—שֶׁלֹּא עָשַׂנִי גּוֹי — Thank You, for You did not create me a member of another nation (who have to go through an entire process if they want to join the Chosen People. I was given that as a gift at birth—thank You!)."
+    },
+    {
+      "id": "faq_chosen_people",
+      "type": "faq",
+      "enText": "FAQ: Chosen People? Doesn't this brachah sound racist? I mean, I know a lot of really nice non-Jews—and some \"not-so-great\" Jews! Is there really such a difference? ANSWER: Common misconception! See Appendix 4."
+    },
+    {
+      "id": "bracha_lo_asani_aved",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁלֹּא עָשַׂנִי עָבֶד:"
+    },
+    {
+      "id": "bracha_lo_asani_aved_commentary",
+      "type": "commentary",
+      "enText": "—שֶׁלֹּא עָשַׂנִי עָבֶד — Thank You, for You did not create me a servant (rather, I am free to make my own choices, be held responsible for them, and thus earn reward—thank You!)."
+    },
+    {
+      "id": "rubric_for_women",
+      "type": "rubric",
+      "enText": "For women:"
+    },
+    {
+      "id": "bracha_she_asani_kirtzono",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁעָשַׂנִי כִּרְצוֹנוֹ:"
+    },
+    {
+      "id": "bracha_she_asani_kirtzono_commentary",
+      "type": "commentary",
+      "enText": "—שֶׁעָשַׂנִי כִּרְצוֹנוֹ — Thank You, for You created me according to Your will (and thus I have a unique and crucial role to play, even though at times it seems unclear)."
+    },
+    {
+      "id": "rubric_for_men",
+      "type": "rubric",
+      "enText": "For men:"
+    },
+    {
+      "id": "bracha_lo_asani_isha",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁלֹּא עָשַׂנִי אִשָּׁה:"
+    },
+    {
+      "id": "bracha_lo_asani_isha_commentary",
+      "type": "commentary",
+      "enText": "—שֶׁלֹּא עָשַׂנִי אִשָּׁה — Thank You, for You did not create me a woman (and I am happy to have all those extra mitzvos!)."
+    },
+    {
+      "id": "faq_women_bracha",
+      "type": "faq",
+      "enText": "FAQ: This is not simply a FAQ—it is the FAQ. Is it so bad to be a woman that men thank Hashem that \"You did not create me a woman\"? And were men not created \"according to Your will\"?! ANSWER: Crucial question! The complexity of these two brachos touch on the understanding of each person's role as a contributing member of this great mission to the world called Am Yisrael. See Appendix 11—but read it all and read it slowly."
+    },
+    {
+      "id": "bracha_pokei_ah_ivrim",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, פּוֹקֵחַ עִוְרִים:"
+    },
+    {
+      "id": "bracha_pokeach_ivrim_commentary",
+      "type": "commentary",
+      "enText": "—פּוֹקֵחַ עִוְרִים — Thank You, for You open the eyes of the blind (and thus I am asking You to remove my blindness to the spiritual world)."
+    },
+    {
+      "id": "bracha_malbish_arumim",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, מַלְבִּישׁ עֲרֻמִּים:"
+    },
+    {
+      "id": "bracha_malbish_arumim_commentary",
+      "type": "commentary",
+      "enText": "—מַלְבִּישׁ עֲרֻמִּים — Thank You, for You provide clothing for the naked (we worry about the label and style—but we need to be happy that we have clothes to wear!)."
+    }
+  ],
+
+  "pdf_page_37": [
+    {
+      "id": "bracha_matir_asurim",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, מַתִּיר אֲסוּרִים:"
+    },
+    {
+      "id": "bracha_matir_asurim_commentary",
+      "type": "commentary",
+      "enText": "—מַתִּיר אֲסוּרִים — Thank You, for You free those imprisoned ((1) imprisoned in our bodies while sleeping, with no control over our actions and thoughts—by You waking us up we now have the ability to move about and make choices—thank You; (2) imprisoned in physical prisons; or (3) imprisoned in the \"prisons\" we create for ourselves by our own insecurities)."
+    },
+    {
+      "id": "bracha_zokef_kefufim",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, זוֹקֵף כְּפוּפִים:"
+    },
+    {
+      "id": "bracha_zokef_kefufim_commentary",
+      "type": "commentary",
+      "enText": "—זוֹקֵף כְּפוּפִים — Thank You, for You give those who are bent over (whether because of physical issues or from the difficulties and hardships in their lives) the ability to stand up straight (and deal with their struggles)."
+    },
+    {
+      "id": "faq_stand_up_straight",
+      "type": "faq",
+      "enText": "FAQ: But I can't \"stand up straight\"! I've tried, but I keep falling back down. All the stuff in my life is crushing me! ANSWER: OY! Difficult question! See Appendix 3."
+    },
+    {
+      "id": "faq_why_ask_hashem",
+      "type": "faq",
+      "enText": "FAQ: If that is true, then why should we ask Hashem for stuff? He gave me all I need! ANSWER: Good thinking! See Appendix 1."
+    },
+    {
+      "id": "bracha_rokea_ha_aretz",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, רוֹקַע הָאָרֶץ עַל הַמָּיִם:"
+    },
+    {
+      "id": "bracha_rokea_ha_aretz_commentary",
+      "type": "commentary",
+      "enText": "—רוֹקַע הָאָרֶץ עַל הַמָּיִם — Thank You, for You establish solid ground over the waters of the deep (so we have \"solid ground\" upon which to build our lives)."
+    },
+    {
+      "id": "bracha_she_asa_li_kol_tzorki",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁעָשָׂה לִי כָּל צָרְכִּי:"
+    },
+    {
+      "id": "bracha_she_asa_li_kol_tzorki_commentary",
+      "type": "commentary",
+      "enText": "—שֶׁעָשָׂה לִי כָּל צָרְכִּי — Thank You, for You have provided me with all my needs (whatever You have given me must be what I need—not more and not less—even though sometimes that is hard to understand)."
+    },
+    {
+      "id": "insight_kol_tzorki_singular",
+      "type": "insight",
+      "enText": "This brachah is in the singular—specifically about me (gave me all my needs), unlike so many other brachos. Why? Because I need to feel satisfied with what I have. But regarding others, my job is not to tell them, \"Don't worry—you have all you need,\" but to go help them!"
+    },
+    {
+      "id": "insight_kol_tzorki_challenges",
+      "type": "insight",
+      "enText": "This brachah can also be understood in the following manner: שֶׁעָשָׂה לִי כָּל צָרְכִּי—all the \"stuff\" in life that You have \"given\" to me, all the things that I am going through, as difficult as they may seem, I believe they are all צְרָכַי—things that I need to deal with in order to be the best \"me\" I can be (even if now I cannot see how). Thank You!"
+    }
+  ],
+
+  "pdf_page_38": [
+    {
+      "id": "bracha_hameichin_mitzadei",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַמֵּכִין מִצְעֲדֵי גָבֶר:"
+    },
+    {
+      "id": "bracha_hameichin_mitzadei_commentary",
+      "type": "commentary",
+      "enText": "—הַמֵּכִין מִצְעֲדֵי גָבֶר — Thank You, for You (1) direct our steps; and (2) support every step we choose to take. (Sometimes You set our path and direct us into certain circumstances that are growth opportunities for us, in order to help us fulfill our ultimate mission—thank You! And when we make our own free will choice/step when responding to those circumstances, You support and allow us to make those steps, for better or worse—thank You!)"
+    },
+    {
+      "id": "faq_steps_free_will",
+      "type": "faq",
+      "enText": "FAQ: Which \"steps\" does Hashem decide and set for us, and which do we choose on our own? ANSWER: That is a complex issue! See Appendix 5."
+    },
+    {
+      "id": "bracha_ozer_yisrael_bigevurah",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אוֹזֵר יִשְׂרָאֵל בִּגְבוּרָה:"
+    },
+    {
+      "id": "bracha_ozer_yisrael_bigevurah_commentary",
+      "type": "commentary",
+      "enText": "—אוֹזֵר יִשְׂרָאֵל בִּגְבוּרָה — Thank You, for You give us courage and strength (to utilize our talents for the good)."
+    },
+    {
+      "id": "bracha_oter_yisrael_betifara",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, עוֹטֵר יִשְׂרָאֵל בְּתִפְאָרָה:"
+    },
+    {
+      "id": "bracha_oter_yisrael_betifara_commentary",
+      "type": "commentary",
+      "enText": "—עוֹטֵר יִשְׂרָאֵל בְּתִפְאָרָה — Thank You, for You crown Bnei Yisrael with glory (by giving us the tools to give meaning and beauty to our lives)."
+    },
+    {
+      "id": "bracha_hanoten_layaef_koach",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַנּוֹתֵן לַיָּעֵף כֹּחַ:"
+    },
+    {
+      "id": "bracha_hanoten_layaef_koach_commentary",
+      "type": "commentary",
+      "enText": "—הַנּוֹתֵן לַיָּעֵף כֹּחַ — Thank You, for You give strength and energy to those of us who are either physically, emotionally, or spiritually exhausted (so that we can keep going and make it through another day)."
+    },
+    {
+      "id": "rubric_no_amen_long_bracha",
+      "type": "rubric",
+      "enText": "Do not answer Amen after this brachah, as it is one long brachah until the words עַמּוֹ יִשְׂרָאֵל."
+    },
+    {
+      "id": "bracha_hamavir_sheina",
+      "type": "prayer",
+      "heText": "בָּרוּךְ אַתָּה יְיָ אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַמַּעֲבִיר שֵׁנָה מֵעֵינַי וּתְנוּמָה מֵעַפְעַפַּי:"
+    },
+    {
+      "id": "bracha_hamavir_sheina_commentary",
+      "type": "commentary",
+      "enText": "—הַמַּעֲבִיר שֵׁנָה מֵעֵינַי — Thank You, for You woke me up physically and spiritually (for the purpose of sending me out into the world to fulfill the task You assigned to me)."
+    }
+  ],
+
+  "pdf_page_39": [
+    {
+      "id": "intro_yehi_ratzon",
+      "type": "section_intro",
+      "enText": "Now that I'm awake, with all the gifts and tools You have given me, I ask for help to conduct myself in a way that allows me to serve You to the utmost."
+    },
+    {
+      "id": "rubric_bein_adam_lamakom",
+      "type": "rubric",
+      "enText": "First: Bein Adam La'Makom"
+    },
+    {
+      "id": "yehi_ratzon_lamakom",
+      "type": "prayer",
+      "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁתַּרְגִּילֵנוּ בְּתוֹרָתֶךָ, וְדַבְּקֵנוּ בְּמִצְוֹתֶיךָ, וְאַל תְּבִיאֵנוּ לֹא לִידֵי חֵטְא, וְלֹא לִידֵי עֲבֵרָה וְעָוֹן, וְלֹא לִידֵי נִסָּיוֹן, וְלֹא לִידֵי בִּזָּיוֹן, וְאַל תַּשְׁלֶט בָּנוּ יֵצֶר הָרָע, וְהַרְחִיקֵנוּ מֵאָדָם רָע וּמֵחָבֵר רָע, וְדַבְּקֵנוּ בְּיֵצֶר הַטּוֹב וּבְמַעֲשִׂים טוֹבִים, וְכֹל יוֹם לְחֵן וּלְחֶסֶד וּלְרַחֲמִים בְּעֵינֶיךָ וּבְעֵינֵי כָּל רוֹאֵינוּ, וְתִגְמְלֵנוּ חֲסָדִים טוֹבִים: בָּרוּךְ אַתָּה יְיָ, הַגּוֹמֵל חֲסָדִים טוֹבִים לְעַמּוֹ יִשְׂרָאֵל:"
+    },
+    {
+      "id": "yehi_ratzon_lamakom_commentary",
+      "type": "commentary",
+      "enText": "—יְהִי רָצוֹן מִלְּפָנֶיךָ — May it be Your will, Hashem—Who controls everything and has taken care of Bnei Yisrael throughout history—that You make Torah study something comfortable and familiar to us; and make us feel a closeness and attachment to Your mitzvos. Do not bring us into situations and challenges that could lead us to sin or to be disappointed with ourselves; and do not allow the yetzer hara to get the better of us. Keep us far away from evil people and bad friends; and help us attach ourselves to our yetzer tov and to good friends. תֵּן לָנוּ אֶת יִצְרֵנוּ—Compel our creative powers to be used to serve You. And may we always find favor in Your eyes, and in the eyes of everyone we meet. And do for us good acts of kindness."
+    },
+    {
+      "id": "faq_yetzer_hara_free_will",
+      "type": "faq",
+      "enText": "FAQ: We say, \"Do not allow the yetzer hara to get the better of us,\" and \"Compel our creative powers to be used to serve You.\" But I thought this sounds like we are asking Hashem to eliminate our free will choices! ANSWER: Great question! See Appendix 6."
+    },
+    {
+      "id": "faq_good_acts_kindness",
+      "type": "faq",
+      "enText": "FAQ: \"Do for us good acts of kindness\"—What does that mean? Are there \"bad\" acts of kindness? ANSWER: Clever thinking! See Appendix 7."
+    },
+    {
+      "id": "rubric_bein_adam_lchavero",
+      "type": "rubric",
+      "enText": "Second: Bein Adam L'chavero"
+    },
+    {
+      "id": "yehi_ratzon_lchavero",
+      "type": "prayer",
+      "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹהֵי אֲבִי, שֶׁתַּצִּילֵנִי הַיּוֹם וּבְכָל יוֹם מֵעַזֵּי פָנִים וּמֵעַזּוּת פָּנִים, מֵאָדָם רָע, וּמֵחָבֵר רָע, וּמִשָּׁכֵן רָע, וּמִפֶּגַע רָע, וּמִשָּׁטָן הַמַּשְׁחִית. מִדִּין קָשֶׁה וּמִבַּעַל דִּין קָשֶׁה, בֵּין שֶׁהוּא בֶן בְּרִית, וּבֵין שֶׁאֵינוֹ בֶן בְּרִית:"
+    },
+    {
+      "id": "yehi_ratzon_lchavero_commentary",
+      "type": "commentary",
+      "enText": "(And may my dealings with people not impede my spiritual growth.)"
+    }
+  ],
+
+  "pdf_page_40": [
+    {
+      "id": "header_last_thoughts",
+      "type": "header",
+      "enText": "Last Thoughts before Pesukei D'Zimrah"
+    },
+    {
+      "id": "header_last_thoughts_hebrew",
+      "type": "header",
+      "heText": "עֲקֵידָה / לְעוֹלָם יְהֵא / שְׁמַע / אַתָּה הוּא / קַרְבָּנוֹת / רַבִּי יִשְׁמָעֵאֵל"
+    },
+    {
+      "id": "rubric_some_say_all",
+      "type": "rubric",
+      "enText": "Some say all, some say some, some say none"
+    },
+    {
+      "id": "header_vayehi",
+      "type": "header",
+      "heText": "וִיהִי אַחַר הַדְּבָרִים הָאֵלֶּה"
+    },
+    {
+      "id": "intro_akeidah",
+      "type": "section_intro",
+      "enText": "The Akeidah is a wonderful example of getting up early and setting out to do what Hashem commanded—even though we don't understand it. We daven that the zechus of the Akeidah should help us in any difficulties that will come up during the day."
+    },
+    {
+      "id": "akeidah_intro_prayer",
+      "type": "prayer",
+      "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, זָכְרֵנוּ בְּזִכָּרוֹן טוֹב מִלְּפָנֶיךָ, וּפָקְדֵנוּ בִּפְקֻדַּת יְשׁוּעָה וְרַחֲמִים מִשְּׁמֵי שְׁמֵי קֶדֶם, וּזְכָר לָנוּ יְיָ אֱלֹהֵינוּ אַהֲבַת הַקַּדְמוֹנִים אַבְרָהָם יִצְחָק וְיַעֲקֹב עֲבָדֶיךָ, אֶת הַבְּרִית וְאֶת הַחֶסֶד וְאֶת הַשְּׁבוּעָה שֶׁנִּשְׁבַּעְתָּ לְאַבְרָהָם אָבִינוּ בְּהַר הַמּוֹרִיָּה, וְאֶת הָעֲקֵדָה שֶׁעָקַד אֶת יִצְחָק בְּנוֹ עַל גַּבֵּי הַמִּזְבֵּחַ כַּכָּתוּב בְּתוֹרָתֶךָ:"
+    },
+    {
+      "id": "akeidah_narrative",
+      "type": "prayer",
+      "heText": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּנִי: וַיֹּאמֶר קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק וְלֶךְ לְךָ אֶל אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶהָרִים אֲשֶׁר אֹמַר אֵלֶיךָ: וַיַּשְׁכֵּם אַבְרָהָם בַּבֹּקֶר וַיַּחֲבֹשׁ אֶת חֲמֹרוֹ וַיִּקַּח אֶת שְׁנֵי נְעָרָיו אִתּוֹ וְאֵת יִצְחָק בְּנוֹ וַיְבַקַּע עֲצֵי עֹלָה וַיָּקָם וַיֵּלֶךְ אֶל הַמָּקוֹם אֲשֶׁר אָמַר לוֹ הָאֱלֹהִים: בַּיּוֹם הַשְּׁלִישִׁי וַיִּשָּׂא אַבְרָהָם אֶת עֵינָיו וַיַּרְא אֶת הַמָּקוֹם מֵרָחֹק: וַיֹּאמֶר אַבְרָהָם אֶל נְעָרָיו שְׁבוּ לָכֶם פֹּה עִם הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד כֹּה וְנִשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶם: וַיִּקַּח אַבְרָהָם אֶת עֲצֵי הָעֹלָה וַיָּשֶׂם עַל יִצְחָק בְּנוֹ וַיִּקַּח בְּיָדוֹ אֶת הָאֵשׁ וְאֶת הַמַּאֲכֶלֶת וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו: וַיֹּאמֶר יִצְחָק אֶל אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָה: וַיֹּאמֶר אַבְרָהָם אֱלֹהִים יִרְאֶה לּוֹ הַשֶּׂה לְעֹלָה בְּנִי וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו: וַיָּבֹאוּ אֶל הַמָּקוֹם אֲשֶׁר אָמַר לוֹ הָאֱלֹהִים וַיִּבֶן שָׁם אַבְרָהָם אֶת הַמִּזְבֵּחַ וַיַּעֲרֹךְ אֶת הָעֵצִים וַיַּעֲקֹד אֶת יִצְחָק בְּנוֹ וַיָּשֶׂם אֹתוֹ עַל הַמִּזְבֵּחַ מִמַּעַל לָעֵצִים: וַיִּשְׁלַח אַבְרָהָם אֶת יָדוֹ וַיִּקַּח אֶת הַמַּאֲכֶלֶת לִשְׁחֹט אֶת בְּנוֹ: וַיִּקְרָא אֵלָיו מַלְאַךְ יְיָ מִן הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּנִי: וַיֹּאמֶר אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר וְאַל תַּעַשׂ לוֹ מְאוּמָה כִּי עַתָּה יָדַעְתִּי כִּי יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידְךָ מִמֶּנִּי: וַיִּשָּׂא אַבְרָהָם אֶת עֵינָיו וַיַּרְא וְהִנֵּה אַיִל אַחַר נֶאֱחַז"
+    },
+    {
+      "id": "header_leolam_yehei_adam",
+      "type": "header",
+      "enText": "לְעוֹלָם יְהֵא אָדָם"
+    },
+    {
+      "id": "intro_leolam",
+      "type": "section_intro",
+      "enText": "We request the courage to stand up for what is right and be proud to publicly follow Torah and mitzvos."
+    },
+    {
+      "id": "leolam_yehei_adam",
+      "type": "prayer",
+      "heText": "לְעוֹלָם יְהֵא אָדָם יָרֵא שָׁמַיִם בַּסֵּתֶר וּמוֹדֶה עַל הָאֱמֶת בְּלִבּוֹ וְדוֹבֵר אֱמֶת בִּלְבָבוֹ וְיֹאמַר:"
+    },
+    {
+      "id": "ribono_kol_olamim",
+      "type": "prayer",
+      "heText": "רִבּוֹן כָּל הָעוֹלָמִים, לֹא עַל צִדְקוֹתֵינוּ אֲנַחְנוּ מַפִּילִים תַּחֲנוּנֵינוּ לְפָנֶיךָ, כִּי עַל רַחֲמֶיךָ הָרַבִּים: מָה אֲנַחְנוּ, מָה חַיֵּינוּ, מָה חַסְדֵּנוּ, מָה צִדְקוֹתֵינוּ, מָה כֹּחֵנוּ, מָה גְּבוּרָתֵנוּ: מָה נֹאמַר לְפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, הֲלֹא כָּל הַגִּבּוֹרִים כְּאַיִן לְפָנֶיךָ, וְאַנְשֵׁי הַשֵּׁם כְּלֹא הָיוּ, וַחֲכָמִים כִּבְלִי מַדָּע, וּנְבוֹנִים כִּבְלִי הַשְׂכֵּל, כִּי רֹב מַעֲשֵׂיהֶם תֹּהוּ, וִימֵי חַיֵּיהֶם הֶבֶל לְפָנֶיךָ, וּמוֹתַר הָאָדָם מִן הַבְּהֵמָה אַיִן, כִּי הַכֹּל הָבֶל:"
+    }
+  ],
+
+  "pdf_page_41": [
+    {
+      "id": "ribono_kol_olamim_continuation",
+      "type": "prayer",
+      "heText": "אֲבָל אֲנַחְנוּ עַמְּךָ בְּנֵי בְרִיתֶךָ, בְּנֵי אַבְרָהָם אֹהַבְךָ שֶׁנִּשְׁבַּעְתָּ לוֹ בְּהַר הַמּוֹרִיָּה, זֶרַע יִצְחָק יְחִידוֹ שֶׁנֶּעֱקַד עַל גַּבֵּי הַמִּזְבֵּחַ, עֲדַת יַעֲקֹב בִּנְךָ בְּכוֹרְךָ, שֶׁמֵּאַהֲבָתְךָ שֶׁאָהַבְתָּ אוֹתוֹ וּמִשִּׂמְחָתְךָ שֶׁשָּׂמַחְתָּ בּוֹ קָרָאתָ אֶת שְׁמוֹ יִשְׂרָאֵל:"
+    },
+    {
+      "id": "ribono_shel_olam_prayer",
+      "type": "prayer",
+      "heText": "רִבּוֹן שֶׁל עוֹלָם, יְהִי רָצוֹן מִלְּפָנֶיךָ יְיָ אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁתִּכְבּוֹשׁ אֶת רַחֲמֶיךָ אֶת כַּעַסְךָ מֵעָלֵינוּ, וְתִתְנַהֵג עִמָּנוּ בְּמִדַּת הָרַחֲמִים, וְתָגֵל מֵעָלֵינוּ רִין וְדִין לְפָנֶיךָ, וּבְטוּבְךָ הַגָּדוֹל יָשׁוּב חֲרוֹן אַפְּךָ מֵעַמְּךָ וּמֵעִירְךָ וּמֵאַרְצְךָ וּמִנַּחֲלָתְךָ, וְקַיֶּם לָנוּ יְיָ אֱלֹהֵינוּ אֶת הַדָּבָר שֶׁהִבְטַחְתָּנוּ בְּתוֹרָתֶךָ, עַל יְדֵי מֹשֶׁה עַבְדֶּךָ, מִפִּי כְּבוֹדֶךָ כָּאָמוּר: וְזָכַרְתִּי אֶת בְּרִיתִי יַעֲקוֹב, וְאַף אֶת בְּרִיתִי יִצְחָק, וְאַף אֶת בְּרִיתִי אַבְרָהָם אֶזְכֹּר, וְהָאָרֶץ אֶזְכֹּר:"
+    },
+    {
+      "id": "leolam_adam_conclusion",
+      "type": "prayer",
+      "heText": "לְפִיכָךְ אֲנַחְנוּ חַיָּבִים לְהוֹדוֹת לְךָ, וּלְשַׁבֵּחֲךָ, וּלְקַדֵּשׁ שִׁמְךָ לִשְׁמֶךָ: אַשְׁרֵינוּ מָה טוֹב חֶלְקֵנוּ, וּמַה נָּעִים גּוֹרָלֵנוּ, וּמַה יָּפָה יְרֻשָּׁתֵנוּ: אַשְׁרֵינוּ שֶׁאָנוּ מַשְׁכִּימִים וּמַעֲרִיבִים עֶרֶב וָבֹקֶר וְאוֹמְרִים בְּכָל יוֹם:"
+    }
+  ],
+
+  "pdf_page_42": [
+    {
+      "id": "leolam_adam_continuation",
+      "type": "prayer",
+      "heText": "בְּכוֹרֶיךָ, שֶׁמֵּאַהֲבָתְךָ שֶׁאָהַבְתּוֹ, וּמִשִּׂמְחָתְךָ שֶׁשָּׂמַחְתָּ בּוֹ, קָרָאתָ אֶת שְׁמוֹ יִשְׂרָאֵל:"
+    },
+    {
+      "id": "lefikach_prayer",
+      "type": "prayer",
+      "heText": "לְפִיכָךְ אֲנַחְנוּ חַיָּבִים לְהוֹדוֹת לְךָ, וּלְשַׁבֵּחֲךָ וּלְפָאֶרְךָ, וּלְבָרֵךְ וּלְקַדֵּשׁ אֶת שִׁמְךָ לִשְׁמֶךָ: אַשְׁרֵינוּ מָה טוֹב חֶלְקֵנוּ, וּמַה נָּעִים גּוֹרָלֵנוּ, וּמַה יָּפָה יְרֻשָּׁתֵנוּ: אַשְׁרֵינוּ שֶׁאָנוּ מַשְׁכִּימִים וּמַעֲרִיבִים עֶרֶב וָבֹקֶר וְאוֹמְרִים בְּכָל יוֹם:"
+    },
+    {
+      "id": "header_shema_yisrael_section",
+      "type": "header",
+      "enText": "שְׁמַע יִשְׂרָאֵל"
+    },
+    {
+      "id": "intro_shema_section",
+      "type": "section_intro",
+      "enText": "We proclaim to ourselves and the world our loyalty to Hashem. (And in case the time for the Shema will pass soon, we say it now to ensure we have said it in the proper time.)"
+    },
+    {
+      "id": "shema",
+      "type": "prayer",
+      "heText": "שְׁמַע יִשְׂרָאֵל יְיָ אֱלֹהֵינוּ יְיָ | אֶחָד:"
+    },
+    {
+      "id": "rubric_baruch_shem_whisper",
+      "type": "rubric",
+      "enText": "בלחש:"
+    },
+    {
+      "id": "baruch_shem",
+      "type": "prayer",
+      "heText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד:"
+    },
+    {
+      "id": "vahavta",
+      "type": "prayer",
+      "heText": "וְאָהַבְתָּ אֵת יְיָ אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:"
+    },
+    {
+      "id": "header_atah_hu",
+      "type": "header",
+      "enText": "אַתָּה הוּא"
+    },
+    {
+      "id": "intro_atah_hu",
+      "type": "section_intro",
+      "enText": "We declare that Hashem is Eternal, and request that everyone should see the truth."
+    },
+    {
+      "id": "atah_hu",
+      "type": "prayer",
+      "heText": "אַתָּה הוּא עַד שֶׁלֹּא נִבְרָא הָעוֹלָם, אַתָּה הוּא מִשֶּׁנִּבְרָא הָעוֹלָם הַזֶּה, וְאַתָּה הוּא לָעוֹלָם הַבָּא: קַדֵּשׁ אֶת שִׁמְךָ עַל מַקְדִּישֵׁי שְׁמֶךָ,"
+    }
+  ]
+}
