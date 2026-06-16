@@ -10,7 +10,7 @@ export const Fonts = {
   uiSemiBold: 'Inter_600SemiBold',
 } as const;
 
-export const BASE_HE_SIZE = 21;
+export const BASE_HE_SIZE = 24.15; // 21 × 1.15 — Hebrew default 15% larger
 export const BASE_EN_SIZE = 15.5;
 export const FONT_STEP_SCALE = 0.12;
 
