@@ -2181,6 +2181,89 @@
           ]
         },
         {
+          "id": "p-barchi-nafshi",
+          "heTitle": "בָּרְכִי נַפְשִׁי",
+          "enTitle": "Barchi Nafshi",
+          "segments": [
+            {
+              "id": "barchi_nafshi_header",
+              "type": "header",
+              "heText": "בָּרְכִי נַפְשִׁי",
+              "enText": "Barchi Nafshi"
+            },
+            {
+              "id": "barchi_nafshi_rubric",
+              "type": "rubric",
+              "enText": "On Rosh Chodesh, add Tehillim Chapter 104:",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_intro",
+              "type": "section_intro",
+              "enText": "The Majesty and Intricacy of the Creation Demonstrates the Power and Providence of Hashem!"
+            },
+            {
+              "id": "barchi_nafshi_commentary",
+              "type": "commentary",
+              "enText": "Speaking about the majesty of Hashem's Creation is very nice, but how is that relevant to Rosh Chodesh (besides the fact that the moon gets mentioned as part of the Creation)? Bnei Yisrael follow the lunar (moon) calendar and not the solar (sun) calendar. Why? Because the moon seems to get smaller and smaller and almost disappears. Then, suddenly, just when you think the moon is gone, it reappears and grows again. So too, Bnei Yisrael—there are many times when the nations of the world assume that we are done, finished, and will disappear, and then we pop up again and grow bright and strong. Every month, when that moon \"miraculously\" reappears, we read this chapter of Tehillim where David HaMelech describes for us the wonders of the created world—how Hashem takes care of the largest to the smallest, and thus takes care of each and every one of us, allowing us to pop back up when we're down."
+            },
+            {
+              "id": "barchi_nafshi_v1_4",
+              "type": "prayer",
+              "heText": "בָּרְכִי נַפְשִׁי אֶת־יְהֹוָה יְהֹוָה אֱלֹהַי גָּדַלְתָּ מְּאֹד הוֹד וְהָדָר לָבָֽשְׁתָּ׃ עֹֽטֶה־אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָֽה׃ הַמְקָרֶה בַמַּיִם עֲֽלִיּוֹתָיו הַשָּׂם־עָבִים רְכוּבוֹ הַֽמְהַלֵּךְ עַל־כַּנְפֵי־רֽוּחַ׃ עֹשֶׂה מַלְאָכָיו רוּחוֹת מְשָׁרְתָיו אֵשׁ לֹהֵֽט׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v5_8",
+              "type": "prayer",
+              "heText": "יָֽסַד־אֶרֶץ עַל־מְכוֹנֶיהָ בַּל־תִּמּוֹט עוֹלָם וָעֶֽד׃ תְּהוֹם כַּלְּבוּשׁ כִּסִּיתוֹ עַל־הָרִים יַעַמְדוּ־מָֽיִם׃ מִן־גַּעֲרָתְךָ יְנוּסוּן מִן־קוֹל רַעַמְךָ יֵחָפֵזֽוּן׃ יַעֲלוּ הָרִים יֵרְדוּ בְקָעוֹת אֶל־מְקוֹם זֶה יָסַדְתָּ לָהֶֽם׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v9_12",
+              "type": "prayer",
+              "heText": "גְּֽבוּל־שַׂמְתָּ בַּל־יַעֲבֹרוּן בַּל־יְשֻׁבוּן לְכַסּוֹת הָאָֽרֶץ׃ הַֽמְשַׁלֵּחַ מַעְיָנִים בַּנְּחָלִים בֵּין הָרִים יְהַלֵּכֽוּן׃ יַשְׁקוּ כׇּל־חַיְתוֹ שָׂדָי יִשְׁבְּרוּ פְרָאִים צְמָאָֽם׃ עֲלֵיהֶם עוֹף־הַשָּׁמַיִם יִשְׁכּוֹן מִבֵּין עֳפָאיִם יִתְּנוּ־קֽוֹל׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v13_16",
+              "type": "prayer",
+              "heText": "מַשְׁקֶה הָרִים מֵעֲלִיּוֹתָיו מִפְּרִי מַעֲשֶׂיךָ תִּשְׂבַּע הָאָֽרֶץ׃ מַצְמִיחַ חָצִיר לַבְּהֵמָה וְעֵשֶׂב לַעֲבֹדַת הָאָדָם לְהוֹצִיא לֶחֶם מִן־הָאָֽרֶץ׃ וְיַיִן יְשַׂמַּח לְֽבַב־אֱנוֹשׁ לְהַצְהִיל פָּנִים מִשָּׁמֶן וְלֶחֶם לְֽבַב־אֱנוֹשׁ יִסְעָֽד׃ יִשְׂבְּעוּ עֲצֵי יְהֹוָה אַֽרְזֵי לְבָנוֹן אֲשֶׁר נָטָֽע׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v17_20",
+              "type": "prayer",
+              "heText": "אֲשֶׁר־שָׁם צִפֳּרִים יְקַנֵּנוּ חֲסִידָה בְּרוֹשִׁים בֵּיתָֽהּ׃ הָרִים הַגְּבֹהִים לַיְּעֵלִים סְלָעִים מַחְסֶה לַֽשְׁפַנִּֽים׃ עָשָׂה יָרֵחַ לְמוֹעֲדִים שֶׁמֶשׁ יָדַע מְבוֹאֽוֹ׃ תָּֽשֶׁת־חֹשֶׁךְ וִיהִי לָיְלָה בּוֹ־תִרְמֹשׂ כׇּל־חַיְתוֹ־יָֽעַר׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v21_24",
+              "type": "prayer",
+              "heText": "הַכְּפִירִים שֹׁאֲגִים לַטָּרֶף וּלְבַקֵּשׁ מֵאֵל אׇכְלָֽם׃ תִּזְרַח הַשֶּׁמֶשׁ יֵאָסֵפוּן וְאֶל־מְעוֹנֹתָם יִרְבָּצֽוּן׃ יֵצֵא אָדָם לְפׇעֳלוֹ וְֽלַעֲבֹדָתוֹ עֲדֵי־עָֽרֶב׃ מָה־רַבּוּ מַעֲשֶׂיךָ יְֽהֹוָה כֻּלָּם בְּחׇכְמָה עָשִׂיתָ מָלְאָה הָאָרֶץ קִנְיָנֶֽךָ׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v25_28",
+              "type": "prayer",
+              "heText": "זֶה הַיָּם גָּדוֹל וּרְחַב יָדָיִם שָֽׁם־רֶמֶשׂ וְאֵין מִסְפָּר חַיּוֹת קְטַנּוֹת עִם־גְּדֹלֽוֹת׃ שָׁם אֳנִיּוֹת יְהַלֵּכוּן לִוְיָתָן זֶֽה־יָצַרְתָּ לְשַֽׂחֶק־בּֽוֹ׃ כֻּלָּם אֵלֶיךָ יְשַׂבֵּרוּן לָתֵת אׇכְלָם בְּעִתּֽוֹ׃ תִּתֵּן לָהֶם יִלְקֹטוּן תִּפְתַּח יָדְךָ יִשְׂבְּעוּן טֽוֹב׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v29_32",
+              "type": "prayer",
+              "heText": "תַּסְתִּיר פָּנֶיךָ יִֽבָּהֵלוּן תֹּסֵף רוּחָם יִגְוָעוּן וְֽאֶל־עֲפָרָם יְשׁוּבֽוּן׃ תְּשַׁלַּח רוּחֲךָ יִבָּרֵאוּן וּתְחַדֵּשׁ פְּנֵי אֲדָמָֽה׃ יְהִי כְבוֹד יְהֹוָה לְעוֹלָם יִשְׂמַח יְהֹוָה בְּמַעֲשָֽׂיו׃ הַמַּבִּיט לָאָרֶץ וַתִּרְעָד יִגַּע בֶּהָרִים וְֽיֶעֱשָֽׁנוּ׃",
+              "condition": "rosh_chodesh"
+            },
+            {
+              "id": "barchi_nafshi_v33_35",
+              "type": "prayer",
+              "heText": "אָשִׁירָה לַיהֹוָה בְּחַיָּי אֲזַמְּרָה לֵאלֹהַי בְּעוֹדִֽי׃ יֶעֱרַב עָלָיו שִׂיחִי אָנֹכִי אֶשְׂמַח בַּיהֹוָֽה׃ יִתַּמּוּ חַטָּאִים מִן־הָאָרֶץ וּרְשָׁעִים עוֹד אֵינָם בָּרְכִי נַפְשִׁי אֶת־יְהֹוָה הַֽלְלוּ־יָֽהּ׃ {פ}",
+              "condition": "rosh_chodesh"
+            }
+          ]
+        },
+        {
           "id": "p-ldovid-hashem-ori",
           "heTitle": "לְדָוִד ה' אוֹרִי",
           "enTitle": "L'Dovid Hashem Ori",
