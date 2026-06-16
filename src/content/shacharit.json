@@ -238,24 +238,24 @@
               "xref": "Appendix 11"
             },
             {
-              "id": "barchi_nafshi_commentary",
-              "type": "commentary",
-              "enText": "בָּרְכִי נַפְשִׁי—Just by looking at Your amazing creation, my soul calls out that You, Hashem, are the Source of it all! And *(though)* You are \"clothed in majesty and splendor\" and \"wrapped in light\" *(meaning, Hashem is beyond our comprehension)*, You are my personal God and You direct all that happens here on earth, even the Heavens."
-            },
-            {
               "id": "barchi_nafshi",
               "type": "prayer",
               "heText": "בָּרְכִי נַפְשִׁי אֶת יְהוָה, יְהוָה אֱלֹהַי גָּדַלְתָּ מְּאֹד הוֹד וְהָדָר לָבָשְׁתָּ: עֹטֶה אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָה:"
             },
             {
-              "id": "lshem_yichud_commentary",
+              "id": "barchi_nafshi_commentary",
               "type": "commentary",
-              "enText": "לְשֵׁם יִחוּד—Just as I am about to wrap myself in my tallis, so too may my neshamah be wrapped in the light of Hashem. And may the merit of this mitzvah protect me from all spiritual and physical dangers that I may encounter during the day. And *(even though I know that I do not always do all the mitzvos perfectly and with the proper intentions)* may Hashem consider this mitzvah as if I did it 100 percent properly!"
+              "enText": "בָּרְכִי נַפְשִׁי—Just by looking at Your amazing creation, my soul calls out that You, Hashem, are the Source of it all! And *(though)* You are \"clothed in majesty and splendor\" and \"wrapped in light\" *(meaning, Hashem is beyond our comprehension)*, You are my personal God and You direct all that happens here on earth, even the Heavens."
             },
             {
               "id": "lshem_yichud",
               "type": "prayer",
               "heText": "לְשֵׁם יִחוּד קוּדְשָׁא בְּרִיךְ הוּא וּשְׁכִינְתֵּהּ, בִּדְחִילוּ וּרְחִימוּ, לְיַחֵד שֵׁם י\"ה בְּו\"ה בְּיִחוּדָא שְׁלִים בְּשֵׁם כָּל יִשְׂרָאֵל, הֲרֵינִי מִתְעַטֵּף גּוּפִי בַּצִּיצִית, כֵּן תִּתְעַטֵּף נִשְׁמָתִי וּרְמַ\"ח אֵיבָרַי וּשְׁסָ\"ה גִּידַי בְּאוֹר הַצִּיצִית הָעוֹלֶה תַּרְיַ\"ג. וּכְשֵׁם שֶׁאֲנִי מִתְכַּסֶּה בְּטַלִּית בָּעוֹלָם הַזֶּה, כָּךְ אֶזְכֶּה לַחֲלוּקָא דְרַבָּנָן, וּלְטַלִּית נָאֶה לָעוֹלָם הַבָּא בְּגַן עֵדֶן. וְעַל יְדֵי מִצְוַת צִיצִית תִּנָּצֵל נַפְשִׁי וְרוּחִי וְנִשְׁמָתִי וּתְפִלָּתִי מִן הַחִיצוֹנִים, וְהַטַּלִּית יִפְרֹשׂ כְּנָפָיו עֲלֵיהֶם, וְיַצִּילֵם כְּנֶשֶׁר יָעִיר קִנּוֹ עַל גּוֹזָלָיו יְרַחֵף. וּתְהֵא חֲשׁוּבָה מִצְוַת צִיצִית לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא, כְּאִלּוּ קִיַּמְתִּיהָ בְּכָל פְּרָטֶיהָ וְדִקְדּוּקֶיהָ וְכַוָּנוֹתֶיהָ, וְתַרְיַ\"ג מִצְוֹת הַתְּלוּיוֹת בָּהּ, אָמֵן סֶלָה:"
+            },
+            {
+              "id": "lshem_yichud_commentary",
+              "type": "commentary",
+              "enText": "לְשֵׁם יִחוּד—Just as I am about to wrap myself in my tallis, so too may my neshamah be wrapped in the light of Hashem. And may the merit of this mitzvah protect me from all spiritual and physical dangers that I may encounter during the day. And *(even though I know that I do not always do all the mitzvos perfectly and with the proper intentions)* may Hashem consider this mitzvah as if I did it 100 percent properly!"
             },
             {
               "id": "hineni_muchan",
@@ -273,14 +273,14 @@
               "enText": "Brachah before putting on the tallis:"
             },
             {
-              "id": "bracha_commentary",
-              "type": "commentary",
-              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ לְהִתְעַטֵּף בַּצִּיצִית—and You commanded us to wrap ourselves in tzitzis."
-            },
-            {
               "id": "bracha_lehisateif",
               "type": "prayer",
               "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהִתְעַטֵּף בַּצִּיצִית:"
+            },
+            {
+              "id": "bracha_commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ לְהִתְעַטֵּף בַּצִּיצִית—and You commanded us to wrap ourselves in tzitzis."
             },
             {
               "id": "rubric_after",
@@ -288,14 +288,14 @@
               "enText": "After putting on the tallis:"
             },
             {
-              "id": "mah_yakar_commentary",
-              "type": "commentary",
-              "enText": "מַה יָּקָר חַסְדְּךָ—Hashem—Your loving-kindness is crucial for our welfare! We find security by placing ourselves under Your protection—for You are the Source of all spiritual and material abundance. Please continue to show us Your chessed and righteousness!"
-            },
-            {
               "id": "mah_yakar",
               "type": "prayer",
               "heText": "מַה יָּקָר חַסְדְּךָ אֱלֹהִים, וּבְנֵי אָדָם בְּצֵל כְּנָפֶיךָ יֶחֱסָיוּן: יִרְוְיֻן מִדֶּשֶׁן בֵּיתֶךָ וְנַחַל עֲדָנֶיךָ תַשְׁקֵם: כִּי עִמְּךָ מְקוֹר חַיִּים, בְּאוֹרְךָ נִרְאֶה אוֹר: מְשֹׁךְ חַסְדְּךָ לְיֹדְעֶיךָ וְצִדְקָתְךָ לְיִשְׁרֵי לֵב:"
+            },
+            {
+              "id": "mah_yakar_commentary",
+              "type": "commentary",
+              "enText": "מַה יָּקָר חַסְדְּךָ—Hashem—Your loving-kindness is crucial for our welfare! We find security by placing ourselves under Your protection—for You are the Source of all spiritual and material abundance. Please continue to show us Your chessed and righteousness!"
             }
           ]
         },
