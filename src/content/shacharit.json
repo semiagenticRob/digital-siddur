@@ -55,6 +55,369 @@
           ]
         },
         {
+          "id": "p-netilas-yadayim",
+          "heTitle": "עַל נְטִילַת יָדַיִם / אֲשֶׁר יָצַר",
+          "enTitle": "Al Netilas Yadayim / Asher Yatzar",
+          "segments": [
+            {
+              "id": "transition-tools",
+              "type": "transition",
+              "enText": "OK—but I need \"tools\" in order to apply all this wisdom and accomplish my goals!"
+            },
+            {
+              "id": "header-my-body-works",
+              "type": "header",
+              "heText": "עַל נְטִילַת יָדַיִם / אֲשֶׁר יָצַר",
+              "enText": "My Body Works!"
+            },
+            {
+              "id": "netilas-yadayim-bracha",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ עַל נְטִילַת יָדָיִם:"
+            },
+            {
+              "id": "netilas-yadayim-commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us, וְצִוָּנוּ עַל נְטִילַת יָדָיִם—and You commanded us to wash our hands *(and thus make sure we put meaning and thought into all we do)*."
+            },
+            {
+              "id": "asher-yatzar-bracha",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר יָצַר אֶת הָאָדָם בְּחָכְמָה, וּבָרָא בוֹ נְקָבִים נְקָבִים, חֲלוּלִים חֲלוּלִים. גָּלוּי וְיָדוּעַ לִפְנֵי כִסֵּא כְבוֹדֶךָ, שֶׁאִם יִפָּתֵחַ אֶחָד מֵהֶם אוֹ יִסָּתֵם אֶחָד מֵהֶם, אִי אֶפְשַׁר לְהִתְקַיֵּם וְלַעֲמוֹד לְפָנֶיךָ [אֲפִלּוּ שָׁעָה אֶחָת]. בָּרוּךְ אַתָּה יְהֹוָה, רוֹפֵא כָל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת:"
+            },
+            {
+              "id": "asher-yatzar-commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; You have formed humans with great wisdom *(as scientists are continually discovering)* and created within us all sorts of openings and cavities. It is quite obvious that even if just one of them would be torn or blocked—it would be impossible for us to survive and stand in front of You *(even for a second)*! אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; רוֹפֵא כָל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת—You heal all living things and perform constant miracles."
+            }
+          ]
+        },
+        {
+          "id": "p-elokai-neshama",
+          "heTitle": "אֱלֹהַי נְשָׁמָה",
+          "enTitle": "Elokai Neshama",
+          "segments": [
+            {
+              "id": "header-and-i-have-a-soul",
+              "type": "header",
+              "heText": "אֱלֹהַי נְשָׁמָה",
+              "enText": "And I Have a Soul!"
+            },
+            {
+              "id": "elokai-neshama-prayer",
+              "type": "prayer",
+              "heText": "אֱלֹהַי, נְשָׁמָה שֶׁנָּתַתָּ בִּי טְהוֹרָה הִיא: אַתָּה בְרָאתָהּ, אַתָּה יְצַרְתָּהּ, אַתָּה נְפַחְתָּהּ בִּי, וְאַתָּה מְשַׁמְּרָהּ בְּקִרְבִּי, וְאַתָּה עָתִיד לִטְּלָהּ מִמֶּנִּי, וּלְהַחֲזִירָהּ בִּי לֶעָתִיד לָבוֹא: כָּל זְמַן שֶׁהַנְּשָׁמָה"
+            },
+            {
+              "id": "elokai-neshama-commentary",
+              "type": "commentary",
+              "enText": "אֱלֹהַי—Hashem Who takes care of me—the neshamah that You personally placed in me is a pure neshamah! You formed it *(uniquely for me)*; You breathed it into me, You make sure it stays in me *(and keeps me alive)*, and I know that eventually You will take it back. *(Therefore, I must take advantage of it while I can!)* And I believe that You will return it to me"
+            },
+            {
+              "id": "elokai-neshama-text-cont",
+              "type": "prayer",
+              "heText": "בְּקִרְבִּי. מוֹדֶה אֲנִי לְפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, רִבּוֹן כָּל הַמַּעֲשִׂים, אֲדוֹן כָּל הַנְּשָׁמוֹת: בָּרוּךְ אַתָּה יְהֹוָה, הַמַּחֲזִיר נְשָׁמוֹת לִפְגָרִים מֵתִים:"
+            },
+            {
+              "id": "elokai-neshama-commentary-cont",
+              "type": "commentary",
+              "enText": "at Techiyas Hameisim. As long as my neshamah is in me, I thank You, Hashem, Who takes care of me and Bnei Yisrael throughout our history; You are the Master of all that happens and of all souls. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; הַמַּחֲזִיר נְשָׁמוֹת—Who restores the neshamahs לִפְגָרִים מֵתִים—to dead bodies."
+            },
+            {
+              "id": "elokai-neshama-to-torah-transition",
+              "type": "transition",
+              "enText": "OK—I have a body and a soul. What can I do to ensure they work together successfully?"
+            }
+          ]
+        },
+        {
+          "id": "p-birchos-hatorah",
+          "heTitle": "בִּרְכוֹת הַתּוֹרָה",
+          "enTitle": "Birchos HaTorah",
+          "segments": [
+            {
+              "id": "birchos-hatorah-header",
+              "type": "header",
+              "heText": "בִּרְכוֹת הַתּוֹרָה",
+              "enText": "I Have a Torah!"
+            },
+            {
+              "id": "laasok-bracha-text",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לַעֲסוֹק בְּדִבְרֵי תוֹרָה:"
+            },
+            {
+              "id": "laasok-bracha-commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ לַעֲסוֹק בְּדִבְרֵי תוֹרָה—and You commanded us to be continually involved with the words of Torah. *(Even though I do not always understand them or find them easy to apply.)*"
+            },
+            {
+              "id": "vehaarev-na-transition",
+              "type": "transition",
+              "enText": "But I know that Torah really IS sweet—and therefore I ask:"
+            },
+            {
+              "id": "vehaarev-na-text",
+              "type": "prayer",
+              "heText": "וְהַעֲרֶב נָא, יְהֹוָה אֱלֹהֵינוּ, אֶת דִּבְרֵי תוֹרָתְךָ בְּפִינוּ וּבְפִיּוֹת עַמְּךָ בֵּית יִשְׂרָאֵל, וְנִהְיֶה אֲנַחְנוּ וְצֶאֱצָאֵינוּ (וְצֶאֱצָאֵי צֶאֱצָאֵינוּ) וְצֶאֱצָאֵי עַמְּךָ בֵּית יִשְׂרָאֵל, כֻּלָּנוּ יוֹדְעֵי שְׁמֶךָ, וְלוֹמְדֵי תוֹרָתֶךָ לִשְׁמָהּ: בָּרוּךְ אַתָּה יְהֹוָה, הַמְלַמֵּד תּוֹרָה לְעַמּוֹ יִשְׂרָאֵל:"
+            },
+            {
+              "id": "vehaarev-na-commentary",
+              "type": "commentary",
+              "enText": "וְהַעֲרֶב נָא—Please, Hashem, make the words of Your Torah sweet *(enjoyable and understandable)* to us and to all Jews everywhere; so that all of us, and our children and our grandchildren, will acknowledge Your constant Presence *(in our lives)* and we will all study Your Torah for its own sake *(not just to get reward)*. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; הַמְלַמֵּד תּוֹרָה לְעַמּוֹ יִשְׂרָאֵל—Who personally teaches Torah to *(each member of)* His nation—Bnei Yisrael *(including me!)*."
+            },
+            {
+              "id": "transition-proud-mission",
+              "type": "transition",
+              "enText": "I don't like, \"Oh, my bad luck! I'm stuck with this Torah.\" Rather, I'm proud to be part of this great mission to the world—and therefore I proclaim:"
+            },
+            {
+              "id": "asher-bachar-banu-prayer",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר בָּחַר בָּנוּ מִכָּל הָעַמִּים וְנָתַן לָנוּ אֶת תּוֹרָתוֹ: בָּרוּךְ אַתָּה יְהוָה נוֹתֵן הַתּוֹרָה:"
+            },
+            {
+              "id": "asher-bachar-banu-gloss",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר בָּחַר בָּנוּ מִכָּל הָעַמִּים—(*we are so happy that*) You have chosen us, Bnei Yisrael, out of all the nations of the world; וְנָתַן לָנוּ אֶת תּוֹרָתוֹ—and have given us Your Torah; בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; נוֹתֵן הַתּוֹרָה—Who gives (*us*) the Torah."
+            },
+            {
+              "id": "faq-chosen-people",
+              "type": "faq",
+              "enText": "FAQ: But I do NOT understand the Torah, and to be honest, I am NOT happy that I was stuck being part of the Chosen People! What's so great about it? ANSWER: Famous question! See Appendix 4.",
+              "xref": "Appendix 4"
+            },
+            {
+              "id": "insight-bedrock-emunah",
+              "type": "insight",
+              "enText": "As much as we all wish that our daily experience of Torah and mitzvos be uplifting, meaningful, and exciting, the truth is that for many of us, at times in our lives it is not. But the bedrock of our emunah is that Hashem spoke at Har Sinai and chose us for a mission (which is borne out by our miraculous existence until today—to the consternation of much of the rest of the world!), and therefore, simply put, we must get with the program! That is the first brachah of לעסוק—you just have to do it to the best of your ability. You have questions? Fine. It will take a lifetime to ask all the questions and get answers, but until that happens, we must start with לעסוק—get involved with the Torah, get with the program, and do the best we can. As said earlier: שׁעֵרֵי—A good understanding of Torah is given—לכל עושיהם—to those who practice it. Despite this need to \"do it\" no matter what, since we all know deep down that there must be \"A Plan\" and that there is depth to Torah that we simply don't understand yet, we then ask Hashem—וְהַעֲרֵב נָא—please, make it sweet and understandable. Why? First of all, it is easier to \"take vitamins and medicine\" (it is Torah that keeps us spiritually healthy) that are sweet. But in addition, when we say וְהַעֲרֵב נָא וְנִהְיֶה אֲנַחְנוּ וְצֶאֱצָאֵינוּ—it will be easier for us to hand it down to OUR kids if we and they enjoy it! When we end the series of three brachos by proclaiming that as much as we do or don't understand—כִּי מֵאִתְּךָ —we thank Hashem בָּחַר בָּנוּ for choosing us for His great mission to the world."
+            },
+            {
+              "id": "header-learn-some-torah",
+              "type": "header",
+              "enText": "Now That We Said Birchos HaTorah—We Learn Some Torah!"
+            },
+            {
+              "id": "header-torah-learning-hebrew",
+              "type": "header",
+              "heText": "תּוֹרָה שֶׁבִּכְתָב—בִּרְכַּת כֹּהֲנִים / תּוֹרָה שֶׁבְּעַל פֶּה—מִשְׁנָה פֵּאָה, גְּמָרָא שַׁבָּת"
+            },
+            {
+              "id": "birkas-kohanim-prayer",
+              "type": "prayer",
+              "heText": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:"
+            },
+            {
+              "id": "eilu-devarim-prayer",
+              "type": "prayer",
+              "heText": "אֵלּוּ דְבָרִים שֶׁאֵין לָהֶם שִׁעוּר, הַפֵּאָה וְהַבִּכּוּרִים וְהָרֵאָיוֹן וּגְמִילוּת חֲסָדִים וְתַלְמוּד תּוֹרָה: אֵלּוּ דְבָרִים שֶׁאָדָם אוֹכֵל פֵּרוֹתֵיהֶם בָּעוֹלָם הַזֶּה וְהַקֶּרֶן קַיֶּמֶת לוֹ לָעוֹלָם הַבָּא, וְאֵלּוּ הֵן, כִּבּוּד אָב וָאֵם, וּגְמִילוּת חֲסָדִים, וְהַשְׁכָּמַת בֵּית הַמִּדְרָשׁ שַׁחֲרִית וְעַרְבִית, וְהַכְנָסַת אוֹרְחִים, וּבִקּוּר חוֹלִים, וְהַכְנָסַת כַּלָּה, וּלְוָיַת הַמֵּת, וְעִיּוּן תְּפִלָּה, וַהֲבָאַת שָׁלוֹם בֵּין אָדָם לַחֲבֵרוֹ וּבֵין אִישׁ לְאִשְׁתּוֹ, וְתַלְמוּד תּוֹרָה כְּנֶגֶד כֻּלָּם:"
+            }
+          ]
+        },
+        {
+          "id": "p-atifas-tallis",
+          "heTitle": "עֲטִיפַת טַלִּית",
+          "enTitle": "Atifas Tallis",
+          "segments": [
+            {
+              "id": "header",
+              "type": "header",
+              "heText": "עֲטִיפַת טַלִּית / הֲנָחַת תְּפִילִּין",
+              "enText": "And I Am Committed to Putting Torah into Practice"
+            },
+            {
+              "id": "header_tallis",
+              "type": "header",
+              "heText": "עֲטִיפַת טַלִּית",
+              "enText": "Atifas Tallis"
+            },
+            {
+              "id": "section_intro",
+              "type": "section_intro",
+              "enText": "I dedicate my body to serving Hashem, and I'm not afraid to stand up for the Torah because Hashem will always protect me!"
+            },
+            {
+              "id": "commentary_intro",
+              "type": "commentary",
+              "enText": "It is important to think a bit before one does a mitzvah so that one will be doing it for the correct reasons! This is especially true with the mitzvah of tallis, which is an external symbol of an inner commitment. Therefore, many say בָּרְכִי נַפְשִׁי and לְשֵׁם יִחוּד before putting on their tallis."
+            },
+            {
+              "id": "faq",
+              "type": "faq",
+              "enText": "FAQ: Women are also \"committed to putting Torah into practice,\" so how come they don't put on tallis and tefillin? ANSWER: Fair and honest question! See Appendix 11.",
+              "xref": "Appendix 11"
+            },
+            {
+              "id": "barchi_nafshi_commentary",
+              "type": "commentary",
+              "enText": "בָּרְכִי נַפְשִׁי—Just by looking at Your amazing creation, my soul calls out that You, Hashem, are the Source of it all! And *(though)* You are \"clothed in majesty and splendor\" and \"wrapped in light\" *(meaning, Hashem is beyond our comprehension)*, You are my personal God and You direct all that happens here on earth, even the Heavens."
+            },
+            {
+              "id": "barchi_nafshi",
+              "type": "prayer",
+              "heText": "בָּרְכִי נַפְשִׁי אֶת יְהוָה, יְהוָה אֱלֹהַי גָּדַלְתָּ מְּאֹד הוֹד וְהָדָר לָבָשְׁתָּ: עֹטֶה אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָה:"
+            },
+            {
+              "id": "lshem_yichud_commentary",
+              "type": "commentary",
+              "enText": "לְשֵׁם יִחוּד—Just as I am about to wrap myself in my tallis, so too may my neshamah be wrapped in the light of Hashem. And may the merit of this mitzvah protect me from all spiritual and physical dangers that I may encounter during the day. And *(even though I know that I do not always do all the mitzvos perfectly and with the proper intentions)* may Hashem consider this mitzvah as if I did it 100 percent properly!"
+            },
+            {
+              "id": "lshem_yichud",
+              "type": "prayer",
+              "heText": "לְשֵׁם יִחוּד קוּדְשָׁא בְּרִיךְ הוּא וּשְׁכִינְתֵּהּ, בִּדְחִילוּ וּרְחִימוּ, לְיַחֵד שֵׁם י\"ה בְּו\"ה בְּיִחוּדָא שְׁלִים בְּשֵׁם כָּל יִשְׂרָאֵל, הֲרֵינִי מִתְעַטֵּף גּוּפִי בַּצִּיצִית, כֵּן תִּתְעַטֵּף נִשְׁמָתִי וּרְמַ\"ח אֵיבָרַי וּשְׁסָ\"ה גִּידַי בְּאוֹר הַצִּיצִית הָעוֹלֶה תַּרְיַ\"ג. וּכְשֵׁם שֶׁאֲנִי מִתְכַּסֶּה בְּטַלִּית בָּעוֹלָם הַזֶּה, כָּךְ אֶזְכֶּה לַחֲלוּקָא דְרַבָּנָן, וּלְטַלִּית נָאֶה לָעוֹלָם הַבָּא בְּגַן עֵדֶן. וְעַל יְדֵי מִצְוַת צִיצִית תִּנָּצֵל נַפְשִׁי וְרוּחִי וְנִשְׁמָתִי וּתְפִלָּתִי מִן הַחִיצוֹנִים, וְהַטַּלִּית יִפְרֹשׂ כְּנָפָיו עֲלֵיהֶם, וְיַצִּילֵם כְּנֶשֶׁר יָעִיר קִנּוֹ עַל גּוֹזָלָיו יְרַחֵף. וּתְהֵא חֲשׁוּבָה מִצְוַת צִיצִית לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא, כְּאִלּוּ קִיַּמְתִּיהָ בְּכָל פְּרָטֶיהָ וְדִקְדּוּקֶיהָ וְכַוָּנוֹתֶיהָ, וְתַרְיַ\"ג מִצְוֹת הַתְּלוּיוֹת בָּהּ, אָמֵן סֶלָה:"
+            },
+            {
+              "id": "hineni_muchan",
+              "type": "prayer",
+              "heText": "הִנְנִי מְכַוֵּן לְהִתְעַטֵּף בַּצִּיצִית כְּדֵי שֶׁנִּזְכֹּר כָּל מִצְוֹתֶיךָ לַעֲשׂוֹתָם שֶׁנֶּאֱמַר: וּרְאִיתֶם אֹתוֹ וּזְכַרְתֶּם אֶת כָּל מִצְוֹת יְהוָה וַעֲשִׂיתֶם אֹתָם:"
+            },
+            {
+              "id": "hineni_muchan_commentary",
+              "type": "commentary",
+              "enText": "הִנְנִי מְכַוֵּן—I am now going to fulfill my Creator's commandment to wrap myself in tzitzis, whose purpose is to remind me of the 613 mitzvos."
+            },
+            {
+              "id": "rubric_before",
+              "type": "rubric",
+              "enText": "Brachah before putting on the tallis:"
+            },
+            {
+              "id": "bracha_commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ לְהִתְעַטֵּף בַּצִּיצִית—and You commanded us to wrap ourselves in tzitzis."
+            },
+            {
+              "id": "bracha_lehisateif",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ לְהִתְעַטֵּף בַּצִּיצִית:"
+            },
+            {
+              "id": "rubric_after",
+              "type": "rubric",
+              "enText": "After putting on the tallis:"
+            },
+            {
+              "id": "mah_yakar_commentary",
+              "type": "commentary",
+              "enText": "מַה יָּקָר חַסְדְּךָ—Hashem—Your loving-kindness is crucial for our welfare! We find security by placing ourselves under Your protection—for You are the Source of all spiritual and material abundance. Please continue to show us Your chessed and righteousness!"
+            },
+            {
+              "id": "mah_yakar",
+              "type": "prayer",
+              "heText": "מַה יָּקָר חַסְדְּךָ אֱלֹהִים, וּבְנֵי אָדָם בְּצֵל כְּנָפֶיךָ יֶחֱסָיוּן: יִרְוְיֻן מִדֶּשֶׁן בֵּיתֶךָ וְנַחַל עֲדָנֶיךָ תַשְׁקֵם: כִּי עִמְּךָ מְקוֹר חַיִּים, בְּאוֹרְךָ נִרְאֶה אוֹר: מְשֹׁךְ חַסְדְּךָ לְיֹדְעֶיךָ וְצִדְקָתְךָ לְיִשְׁרֵי לֵב:"
+            }
+          ]
+        },
+        {
+          "id": "p-hanachas-tefillin",
+          "heTitle": "הֲנָחַת תְּפִילִּין",
+          "enTitle": "Hanachas Tefillin",
+          "segments": [
+            {
+              "id": "section_intro_lshem_yichud",
+              "type": "commentary",
+              "enText": "I am about to put on tefillin, with the intent to fulfill a mitzvah of the Torah. What is written in the tefillin reminds me of the great miracles of yetzias Mitzrayim, and that Hashem controls the world! By putting tefillin on my arm and opposite my heart, I dedicate my strengths and talents wholeheartedly to the service of Hashem. By putting tefillin on my head, I dedicate my intellectual powers and all my senses to the service of Hashem. In the merit of this mitzvah, may I live a long, productive, and spiritual life—free from improper thoughts. And may the yetzer hara not sway me to sin—rather it should allow me to serve You—which is really what my heart desires to do! And *(even though I know that I do not always do all the mitzvos perfectly and with the proper intentions)* may Hashem consider this mitzvah as if I did it 100 percent properly!"
+            },
+            {
+              "id": "rubric_shel_yad",
+              "type": "rubric",
+              "enText": "Brachah before putting on the tefillin shel yad:"
+            },
+            {
+              "id": "bracha_shel_yad",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לְהָנִיחַ תְּפִילִּין:"
+            },
+            {
+              "id": "bracha_shel_yad_commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ לְהָנִיחַ תְּפִילִּין—and You commanded us to put on tefillin."
+            },
+            {
+              "id": "rubric_shel_rosh",
+              "type": "rubric",
+              "enText": "Brachah before putting on the tefillin shel rosh:"
+            },
+            {
+              "id": "bracha_shel_rosh",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ עַל מִצְוַת תְּפִילִּין:"
+            },
+            {
+              "id": "bracha_shel_rosh_commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; אֱלֹהֵינוּ—You take care of us; מֶלֶךְ הָעוֹלָם—and You rule the entire world; אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו—and through Your mitzvos You elevated us; וְצִוָּנוּ עַל מִצְוַת תְּפִילִּין—and You commanded us regarding the mitzvah of tefillin."
+            },
+            {
+              "id": "rubric_baruch_shem",
+              "type": "rubric",
+              "enText": "After adjusting the tefillin shel rosh say:"
+            },
+            {
+              "id": "baruch_shem",
+              "type": "prayer",
+              "heText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "baruch_shem_commentary",
+              "type": "commentary",
+              "enText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ—May the perception of Hashem's Presence and rulership be increased *(so all humans will recognize His existence and power)*, לְעוֹלָם וָעֶד—forever and ever."
+            },
+            {
+              "id": "rubric_then_say",
+              "type": "rubric",
+              "enText": "Then say:"
+            },
+            {
+              "id": "umchochmascha",
+              "type": "prayer",
+              "heText": "וּמֵחָכְמָתְךָ אֵל עֶלְיוֹן תַּאֲצִיל עָלַי, וּמִבִּינָתְךָ תְּבִינֵנִי, וּבְחַסְדְּךָ תַּגְדִּיל עָלַי, וּבִגְבוּרָתְךָ תַּצְמִית אוֹיְבַי וְקָמַי, וְשֶׁמֶן הַטּוֹב תָּרִיק עַל שִׁבְעָה קְנֵי הַמְּנוֹרָה, לְהַשְׁפִּיעַ טוּבְךָ לִבְרִיּוֹתֶיךָ: פּוֹתֵחַ אֶת יָדֶךָ וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:"
+            },
+            {
+              "id": "umchochmascha_commentary",
+              "type": "commentary",
+              "enText": "וּמֵחָכְמָתְךָ אֵל עֶלְיוֹן—Please, Hashem, grant me wisdom and understanding. May Your chessed always be with me, and please subdue all my enemies! And shower Your goodness on all Your creatures! פּוֹתֵחַ אֶת יָדֶךָ—You open Your Hand; וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן—and give each person what they need in order to be satisfied."
+            },
+            {
+              "id": "section_intro_veirastich",
+              "type": "section_intro",
+              "enText": "As we wind the tefillin on our fingers, we read from the Navi Hoshea, which describes how, in the end of days, the relationship between Hashem and Bnei Yisrael will be similar to that of a chassan and kallah."
+            },
+            {
+              "id": "veirastich",
+              "type": "prayer",
+              "heText": "וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם, וְאֵרַשְׂתִּיךְ לִי בְּצֶדֶק וּבְמִשְׁפָּט, וּבְחֶסֶד וּבְרַחֲמִים: וְאֵרַשְׂתִּיךְ לִי בֶּאֱמוּנָה, וְיָדַעַתְּ אֶת יְהוָה:"
+            },
+            {
+              "id": "veirastich_commentary",
+              "type": "commentary",
+              "enText": "Hashem declares: וְאֵרַשְׂתִּיךְ לִי—I will betroth you to Me forever *(our bond will never be broken)*. וְאֵרַשְׂתִּיךְ לִי—*(Regarding bein adam l'chaveiro,)* the basis of our bond is that you, Bnei Yisrael, will deal with others with מִשְׁפָּט—following the letter of the law and צֶדֶק—going even beyond the letter of the law; and in return I, Hashem, will show you חֶסֶד and רַחֲמִים. וְאֵרַשְׂתִּיךְ לִי—*(Regarding bein adam la'Makom,)* the basis of our bond is that you, Bnei Yisrael, will have pure אֱמוּנָה; and in return, וְיָדַעַתְּ אֶת יְהוָה—I, Hashem, will allow you to understand My ways and all will make sense."
+            },
+            {
+              "id": "header_kadeish_li",
+              "type": "header",
+              "heText": "קַדֶּשׁ לִי כָל בְּכוֹר"
+            },
+            {
+              "id": "section_intro_kadeish_li",
+              "type": "section_intro",
+              "enText": "Some have the custom to say the two (of the four) parshiyos that are in the tefillin shel rosh that appear in Chumash Shemos. (We will say the other two when we recite the Shema.)"
+            },
+            {
+              "id": "kadeish_li_parshiyos",
+              "type": "prayer",
+              "heText": "(שמות יב) וַיְדַבֵּר יְהוָה אֶל מֹשֶׁה לֵּאמֹר: קַדֶּשׁ לִי כָל בְּכוֹר פֶּטֶר כָּל רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הוּא: וַיֹּאמֶר מֹשֶׁה אֶל הָעָם זָכוֹר אֶת הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵץ: הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִיב: וְהָיָה כִי יְבִיאֲךָ יְהוָה אֶל אֶרֶץ הַכְּנַעֲנִי וְהַחִתִּי וְהָאֱמֹרִי וְהַחִוִּי וְהַיְבוּסִי אֲשֶׁר נִשְׁבַּע לַאֲבֹתֶיךָ לָתֶת לָךְ אֶרֶץ זָבַת חָלָב וּדְבָשׁ וְעָבַדְתָּ אֶת הָעֲבֹדָה הַזֹּאת בַּחֹדֶשׁ הַזֶּה: שִׁבְעַת יָמִים תֹּאכַל מַצֹּת וּבַיּוֹם הַשְּׁבִיעִי חַג לַיהוָה: מַצּוֹת יֵאָכֵל אֵת שִׁבְעַת הַיָּמִים וְלֹא יֵרָאֶה לְךָ חָמֵץ וְלֹא יֵרָאֶה לְךָ שְׂאֹר בְּכָל גְּבֻלֶךָ: וְהִגַּדְתָּ לְבִנְךָ בַּיּוֹם הַהוּא לֵאמֹר בַּעֲבוּר זֶה עָשָׂה יְהוָה לִי בְּצֵאתִי מִמִּצְרָיִם: וְהָיָה לְךָ לְאוֹת עַל יָדְךָ וּלְזִכָּרוֹן בֵּין עֵינֶיךָ לְמַעַן תִּהְיֶה תּוֹרַת יְהוָה בְּפִיךָ כִּי בְּיָד חֲזָקָה הוֹצִאֲךָ יְהוָה מִמִּצְרָיִם: וְשָׁמַרְתָּ אֶת הַחֻקָּה הַזֹּאת לְמוֹעֲדָהּ מִיָּמִים יָמִימָה: וְהָיָה כִּי יְבִאֲךָ יְהוָה אֶל אֶרֶץ הַכְּנַעֲנִי כַּאֲשֶׁר נִשְׁבַּע לְךָ וְלַאֲבֹתֶיךָ וּנְתָנָהּ לָךְ: וְהַעֲבַרְתָּ כָל פֶּטֶר רֶחֶם לַיהוָה וְכָל פֶּטֶר שֶׁגֶר בְּהֵמָה אֲשֶׁר יִהְיֶה לְךָ הַזְּכָרִים לַיהוָה: וְכָל פֶּטֶר חֲמֹר תִּפְדֶּה בְשֶׂה וְאִם לֹא תִפְדֶּה וַעֲרַפְתּוֹ וְכֹל בְּכוֹר אָדָם בְּבָנֶיךָ תִּפְדֶּה: וְהָיָה כִּי יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מַה זֹּאת וְאָמַרְתָּ אֵלָיו בְּחֹזֶק יָד הוֹצִיאָנוּ יְהוָה מִמִּצְרַיִם מִבֵּית עֲבָדִים: וַיְהִי כִּי הִקְשָׁה פַרְעֹה לְשַׁלְּחֵנוּ וַיַּהֲרֹג יְהוָה כָּל בְּכוֹר בְּאֶרֶץ מִצְרַיִם מִבְּכֹר אָדָם וְעַד בְּכוֹר בְּהֵמָה עַל כֵּן אֲנִי זֹבֵחַ לַיהוָה כָּל פֶּטֶר רֶחֶם הַזְּכָרִים וְכָל בְּכוֹר בָּנַי אֶפְדֶּה: וְהָיָה לְאוֹת עַל יָדְכָה וּלְטוֹטָפֹת בֵּין עֵינֶיךָ כִּי בְּחֹזֶק יָד הוֹצִיאָנוּ יְהוָה מִמִּצְרָיִם:",
+              "xref": "Shemos 13"
+            },
+            {
+              "id": "to_summarize",
+              "type": "insight",
+              "enText": "TO SUMMARIZE: I recognize and proclaim that: 1) Hashem woke me up because He thinks I have the ability to fulfill my mission; 2) I also have a working body and soul to use to accomplish that mission; 3) I have a Torah that guides me how to do it right; 4) I am proud to be part of this great mission; 5) I am dedicating myself to put the Torah into practice; and 6) I know Hashem will protect me while I am trying to accomplish my mission!"
+            }
+          ]
+        },
+        {
           "id": "p-birchos-hashachar",
           "heTitle": "בִּרְכוֹת הַשַּׁחַר",
           "enTitle": "Birchos HaShachar",
