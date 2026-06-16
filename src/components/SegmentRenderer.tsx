@@ -4,6 +4,7 @@ import { Segment } from '../content/types';
 import { DisplayMode } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../theme/typography';
+import { RichText } from './RichText';
 
 interface Props {
   segment: Segment;
@@ -52,7 +53,7 @@ export function SegmentRenderer({
   // Section intro — hide in Hebrew-only mode
   if (segment.type === 'section_intro') {
     if (displayMode === 'he') return null;
-    return <Text style={s.sectionIntro}>{segment.enText}</Text>;
+    return <RichText text={segment.enText ?? ''} style={s.sectionIntro} italicStyle={s.italicSpan} />;
   }
 
   // FAQ — collapsible, hide in Hebrew-only mode
@@ -72,7 +73,7 @@ export function SegmentRenderer({
         </Pressable>
         {showInsight && (
           <View style={s.faqBody}>
-            <Text style={s.faqText}>{segment.enText}</Text>
+            <RichText text={segment.enText ?? ''} style={s.faqText} italicStyle={s.italicSpan} />
           </View>
         )}
       </View>
@@ -94,7 +95,7 @@ export function SegmentRenderer({
     return (
       <View style={s.commentaryBlock}>
         <Text style={s.commentaryTag}>EXPLANATION</Text>
-        <Text style={s.commentaryText}>{segment.enText}</Text>
+        <RichText text={segment.enText ?? ''} style={s.commentaryText} italicStyle={s.italicSpan} />
       </View>
     );
   }
@@ -116,7 +117,7 @@ export function SegmentRenderer({
         </Pressable>
         {showInsight && (
           <View style={s.insightBody}>
-            <Text style={s.insightText}>{segment.enText}</Text>
+            <RichText text={segment.enText ?? ''} style={s.insightText} italicStyle={s.italicSpan} />
           </View>
         )}
       </View>
@@ -247,6 +248,10 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontSize: enSize,
       lineHeight: enSize * 1.62,
       color: c.ink,
+    },
+    italicSpan: {
+      fontFamily: Fonts.englishItalic,
+      fontStyle: 'italic' as const,
     },
     headerBlock: {
       marginTop: 20,

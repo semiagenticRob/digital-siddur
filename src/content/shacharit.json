@@ -9,23 +9,13 @@
       "prayers": [
         {
           "id": "modeh_ani",
-          "heTitle": "מוֹדֶה אֲנִי / רֵאשִׁית חָכְמָה / תּוֹרָה צִוָּה",
-          "enTitle": "Modeh Ani / Reishis Chochmah / Torah Tzivah",
+          "heTitle": "הַשְׁכָּמַת הַבֹּקֶר",
+          "enTitle": "Hashkamas HaBoker",
           "segments": [
-            {
-              "id": "modeh_ani_header_he",
-              "type": "header",
-              "heText": "הַשְׁכָּמַת הַבֹּקֶר"
-            },
             {
               "id": "modeh_ani_header_en",
               "type": "header",
               "enText": "I Woke Up!"
-            },
-            {
-              "id": "modeh_ani_subheader",
-              "type": "header",
-              "heText": "מוֹדֶה אֲנִי / רֵאשִׁית חָכְמָה / תּוֹרָה צִוָּה"
             },
             {
               "id": "modeh_ani_1",
@@ -35,7 +25,7 @@
             {
               "id": "modeh_ani_commentary_1",
               "type": "commentary",
-              "enText": "מוֹדֶה אֲנִי—Thank You, Hashem, for giving my neshamah back to me (which was a merciful thing to do since I have not yet lived up to my full potential, and therefore may not really deserve that); רַבָּה אֱמוּנָתֶךָ—Your belief in me is very great! (You believe I am important; my struggles are important; and You believe I can climb up to the next rung—which is why You woke me up. Thank You!)"
+              "enText": "מוֹדֶה אֲנִי—Thank You, Hashem, for giving my neshamah back to me *(which was a merciful thing to do since I have not yet lived up to my full potential, and therefore may not really deserve that)*; רַבָּה אֱמוּנָתֶךָ—Your belief in me is very great! *(You believe I am important; my struggles are important; and You believe I can climb up to the next rung—which is why You woke me up. Thank You!)*"
             },
             {
               "id": "modeh_ani_rubric_1",
@@ -50,7 +40,7 @@
             {
               "id": "modeh_ani_commentary_2",
               "type": "commentary",
-              "enText": "רֵאשִׁית חָכְמָה—The root of gaining wisdom is יִרְאַת הַשֵּׁם. (If we show Hashem that we are willing to follow the Torah even when we do NOT understand it—then He will reward us by giving us understanding!) A good understanding of Torah is given to those who put it into practice (rather than learn it just to get a good grade, impress others—or get into yeshiva or seminary!). The praise of such a person is eternal (it goes beyond the report card—it will help him navigate life!). We DO want to see Hashem in our lives, therefore we proclaim: May our perception of Hashem's Presence and rulership (שֵׁם כְּבוֹד מַלְכוּתוֹ) be increased (בָּרוּךְ) forever (לְעוֹלָם וָעֶד)!"
+              "enText": "רֵאשִׁית חָכְמָה—The root of gaining wisdom is יִרְאַת הַשֵּׁם. *(If we show Hashem that we are willing to follow the Torah even when we do NOT understand it—then He will reward us by giving us understanding!)* A good understanding of Torah is given to those who put it into practice *(rather than learn it just to get a good grade, impress others—or get into yeshiva or seminary!)*. The praise of such a person is eternal *(it goes beyond the report card—it will help him navigate life!)*. We DO want to see Hashem in our lives, therefore we proclaim: May our perception of Hashem's Presence and rulership (שֵׁם כְּבוֹד מַלְכוּתוֹ) be increased (בָּרוּךְ) forever (לְעוֹלָם וָעֶד)!"
             },
             {
               "id": "modeh_ani_3",
@@ -60,7 +50,7 @@
             {
               "id": "modeh_ani_commentary_3",
               "type": "commentary",
-              "enText": "תּוֹרָה צִוָּה—The very same Torah that Moshe commanded us (at Har Sinai) is the eternal inheritance of the entire Bnei Yisrael (including me!). Help me understand and to never abandon all that has been handed down to us throughout the generations. May the Torah be the bedrock of my faith and may Hashem assist me in my growth, because I know that those who remain firm and close to Hashem are the ones who are really alive today. Hashem! I look to You for help in dealing with all my struggles!"
+              "enText": "תּוֹרָה צִוָּה—The very same Torah that Moshe commanded us *(at Har Sinai)* is the eternal inheritance of the entire Bnei Yisrael *(including me!)*. Help me understand and to never abandon all that has been handed down to us throughout the generations. May the Torah be the bedrock of my faith and may Hashem assist me in my growth, because I know that those who remain firm and close to Hashem are the ones who are really alive today. Hashem! I look to You for help in dealing with all my struggles!"
             }
           ]
         },
