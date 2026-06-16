@@ -21,6 +21,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { usePreferencesStore } from '../src/store/preferences';
 import { DarkColors, LightColors } from '../src/theme/colors';
+import { AppendixModal } from '../src/components/AppendixModal';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -56,6 +57,7 @@ export default function RootLayout() {
         backgroundColor={colors.paper}
       />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: colors.paper } }} />
+      <AppendixModal />
     </>
   );
 }

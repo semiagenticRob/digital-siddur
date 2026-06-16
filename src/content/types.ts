@@ -36,3 +36,9 @@ export interface Service {
   enTitle: string;
   groups: Group[];
 }
+
+export interface Appendix {
+  number: number;
+  title: string;
+  segments: Segment[];
+}

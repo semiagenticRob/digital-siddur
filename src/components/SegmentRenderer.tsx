@@ -53,7 +53,7 @@ export function SegmentRenderer({
   // Section intro — hide in Hebrew-only mode
   if (segment.type === 'section_intro') {
     if (displayMode === 'he') return null;
-    return <RichText text={segment.enText ?? ''} style={s.sectionIntro} italicStyle={s.italicSpan} />;
+    return <RichText text={segment.enText ?? ''} style={s.sectionIntro} italicStyle={s.italicSpan} linkStyle={s.linkSpan} />;
   }
 
   // Transition — rhetorical bridge between prayers; striking with underglow
@@ -84,7 +84,7 @@ export function SegmentRenderer({
         </Pressable>
         {showInsight && (
           <View style={s.faqBody}>
-            <RichText text={segment.enText ?? ''} style={s.faqText} italicStyle={s.italicSpan} />
+            <RichText text={segment.enText ?? ''} style={s.faqText} italicStyle={s.italicSpan} linkStyle={s.linkSpan} />
           </View>
         )}
       </View>
@@ -106,7 +106,7 @@ export function SegmentRenderer({
     return (
       <View style={s.commentaryBlock}>
         <Text style={s.commentaryTag}>EXPLANATION</Text>
-        <RichText text={segment.enText ?? ''} style={s.commentaryText} italicStyle={s.italicSpan} />
+        <RichText text={segment.enText ?? ''} style={s.commentaryText} italicStyle={s.italicSpan} linkStyle={s.linkSpan} />
       </View>
     );
   }
@@ -128,7 +128,7 @@ export function SegmentRenderer({
         </Pressable>
         {showInsight && (
           <View style={s.insightBody}>
-            <RichText text={segment.enText ?? ''} style={s.insightText} italicStyle={s.italicSpan} />
+            <RichText text={segment.enText ?? ''} style={s.insightText} italicStyle={s.italicSpan} linkStyle={s.linkSpan} />
           </View>
         )}
       </View>
@@ -263,6 +263,11 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     italicSpan: {
       fontFamily: Fonts.englishItalic,
       fontStyle: 'italic' as const,
+    },
+    linkSpan: {
+      color: c.accent,
+      textDecorationLine: 'underline' as const,
+      fontFamily: Fonts.uiSemiBold,
     },
     headerBlock: {
       marginTop: 20,

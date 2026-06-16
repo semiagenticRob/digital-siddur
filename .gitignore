@@ -43,3 +43,5 @@ yarn-error.*
 # extraction intermediates
 scripts/chunks/
 scripts/sample_output/
+scripts/chunks2/
+scripts/chunks3/
