@@ -775,7 +775,8 @@
               "id": "bh2-header-last-thoughts",
               "type": "header",
               "enText": "Last Thoughts before Pesukei D'Zimrah",
-              "heText": "עֲקֵידָה / לְעוֹלָם יְהֵא / שְׁמַע / אַתָּה הוּא / קָרְבָּנוֹת / רַבִּי יִשְׁמָעֵאל"
+              "heText": "עֲקֵידָה / לְעוֹלָם יְהֵא / שְׁמַע / אַתָּה הוּא / קָרְבָּנוֹת / רַבִּי יִשְׁמָעֵאל",
+              "enPrimary": true
             },
             {
               "id": "bh2-rubric-somesayall",

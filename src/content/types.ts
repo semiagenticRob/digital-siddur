@@ -15,6 +15,7 @@ export interface Segment {
   enText?: string;   // English text — commentary, insight, faq, section_intro, header, English rubrics
   condition?: string; // e.g. "winter", "rosh_chodesh" — static label in v1, logic in v2
   xref?: string;     // e.g. "faq:3", "appendix:9" — captured now, navigable in v2
+  enPrimary?: boolean; // header only: render the English title above the Hebrew names line
 }
 
 export interface Prayer {

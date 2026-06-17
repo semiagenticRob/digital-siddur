@@ -35,16 +35,19 @@ export function SegmentRenderer({
 
   const s = makeStyles(colors, heSize, enSize);
 
-  // Header — always visible, language-aware
+  // Header — always visible, language-aware.
+  // enPrimary headers (English-titled sections with a Hebrew name-list) render
+  // the English title on top and the Hebrew names beneath; default is Hebrew-first.
   if (segment.type === 'header') {
+    const en = segment.enText && displayMode !== 'he' && (
+      <Text style={segment.enPrimary ? s.headerEnPrimary : s.headerEn}>{segment.enText}</Text>
+    );
+    const he = segment.heText && displayMode !== 'en' && (
+      <Text style={segment.enPrimary ? s.headerHeSub : s.headerHe}>{segment.heText}</Text>
+    );
     return (
       <View style={s.headerBlock}>
-        {segment.heText && displayMode !== 'en' && (
-          <Text style={s.headerHe}>{segment.heText}</Text>
-        )}
-        {segment.enText && displayMode !== 'he' && (
-          <Text style={s.headerEn}>{segment.enText}</Text>
-        )}
+        {segment.enPrimary ? <>{en}{he}</> : <>{he}{en}</>}
         <View style={s.headerRule} />
       </View>
     );
@@ -293,6 +296,22 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       textTransform: 'uppercase' as const,
       color: c.accent,
       textAlign: 'center',
+    },
+    headerEnPrimary: {
+      fontFamily: Fonts.uiSemiBold,
+      fontSize: enSize * 1.05,
+      letterSpacing: 1.4,
+      textTransform: 'uppercase' as const,
+      color: c.accent,
+      textAlign: 'center',
+    },
+    headerHeSub: {
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize * 0.7,
+      color: c.muted,
+      textAlign: 'center',
+      writingDirection: 'rtl' as const,
+      marginTop: 4,
     },
     headerRule: {
       height: 1,
