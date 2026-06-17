@@ -1394,20 +1394,21 @@
             },
             {
               "id": "pz1-rubric-2",
-              "type": "rubric",
+              "type": "section_intro",
               "enText": "NOTE: Even if rushed, it is best to not skip this tefillah because of its importance. Therefore, every pasuk is explained."
             },
             {
               "id": "pz1-rubric-3",
               "type": "rubric",
-              "enText": "*Omit on Erev Pesach, Chol Hamoed Pesach, and Erev Yom Kippur.*",
+              "enText": "Omit on Erev Pesach, Chol Hamoed Pesach, and Erev Yom Kippur.",
               "condition": "Omit on Erev Pesach, Chol Hamoed Pesach, and Erev Yom Kippur"
             },
             {
               "id": "pz1-rubric-4",
-              "type": "rubric",
+              "type": "header",
               "heText": "תְּהִלִּים ק",
-              "enText": "Tehillim 100"
+              "enText": "Tehillim 100",
+              "plain": true
             },
             {
               "id": "pz1-prayer-6",
