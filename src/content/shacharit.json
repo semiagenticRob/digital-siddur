@@ -1510,128 +1510,204 @@
               "enText": "The following is a preface to Tehillim 145, which begins below. These words express that it is a wonderful and joyous opportunity to praise Hashem and not, chas v'shalom, a burden!"
             },
             {
-              "id": "pz2-ashrei-1",
+              "id": "ashrei-1",
               "type": "prayer",
-              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה: אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיְהֹוָה אֱלֹהָיו:",
-              "enText": "*אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ*—Happy are those who *(wherever they are)* are living in the house of Hashem *(living a meaningful and spiritually growing life)*; *עוֹד יְהַלְלוּךָ סֶּלָה*—they will constantly praise You *(since they see all the circumstances of their life as opportunities for growth)*. *אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ*—Happy and fortunate are we, the nation *(Bnei Yisrael)* that has all this *(glorious history and great mission)*; *אַשְׁרֵי הָעָם שֶׁיְהֹוָה אֱלֹהָיו*—happy and fortunate are we, the nation *(Bnei Yisrael)* that has Hashem as our personal God Who takes care of us."
+              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה: אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיֱהֹוָה אֱלֹהָיו:"
             },
             {
-              "id": "pz2-ashrei-2",
-              "type": "prayer",
-              "heText": "תְּהִלָּה לְדָוִד, אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ, וַאֲבָרְכָה שִׁמְךָ לְעוֹלָם וָעֶד:",
-              "enText": "*תְּהִלָּה לְדָוִד*—A song of praise by David HaMelech *(תְּהִלִּים קמה)*: *אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ*—I will exalt and revere You *(since I realize that the essence of Hashem as my personal God and Ruler of the entire universe is way beyond our human comprehension)*; *וַאֲבָרְכָה שִׁמְךָ*—and *(at the same time)* I thank You *(in the following verses)* for all that You have done and will do *(for me personally and for our nation)*; *לְעוֹלָם וָעֶד*—since the beginning of time and until the end of days."
+              "id": "ashrei-2",
+              "type": "commentary",
+              "enText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ—Happy are those who (wherever they are) are living in the house of Hashem (living a meaningful and spiritually growing life); עוֹד יְהַלְלוּךָ סֶּלָה—they will constantly praise You (since they see all the circumstances of their life as opportunities for growth). אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ—Happy and fortunate are we, the nation (Bnei Yisrael) that has all this (glorious history and great mission); אַשְׁרֵי הָעָם שֶׁיֱהֹוָה אֱלֹהָיו—happy and fortunate are we, the nation (Bnei Yisrael) that has Hashem as our personal God Who takes care of us."
             },
             {
-              "id": "pz2-ashrei-3",
+              "id": "ashrei-3",
               "type": "prayer",
-              "heText": "בְּכָל יוֹם אֲבָרְכֶךָּ, וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד:",
-              "enText": "*בְּכָל יוֹם אֲבָרְכֶךָּ*—(You are the Source of everything that happens to me each and every day, and) I thank You for it all *(even though some of those things are hard to understand)*; *וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד*—and in the end of days, I will truly praise You *(as all becomes clear)*."
+              "heText": "תְּהִלָּה לְדָוִד, אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ, וַאֲבָרְכָה שִׁמְךָ לְעוֹלָם וָעֶד:"
             },
             {
-              "id": "pz2-ashrei-4",
-              "type": "prayer",
-              "heText": "גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד, וְלִגְדֻלָּתוֹ אֵין חֵקֶר:",
-              "enText": "*גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד*—(As much as we will thank and praise Hashem, and proclaim) Hashem is \"great\" and is \"extremely praised\"; *וְלִגְדֻלָּתוֹ אֵין חֵקֶר*—(the truth is that) the greatness of Hashem is beyond our real comprehension *(\"the more you know, the more you realize that you don't know\")*."
+              "id": "ashrei-4",
+              "type": "commentary",
+              "enText": "תְּהִלָּה לְדָוִד—A song of praise by David HaMelech (תְּהִלָּה לְדָוִד): אֲרוֹמִמְךָ אֱלוֹהַי הַמֶּלֶךְ—I will exalt and revere You (since I realize that the essence of Hashem as my personal God and Ruler of the entire universe is way beyond our human comprehension); וַאֲבָרְכָה שִׁמְךָ—and (at the same time) I thank You (in the following verses) for all that You have done and will do (for me personally and for our nation); לְעוֹלָם וָעֶד—since the beginning of time and until the end of days."
             },
             {
-              "id": "pz2-ashrei-5",
+              "id": "ashrei-5",
               "type": "prayer",
-              "heText": "דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ, וּגְבוּרֹתֶיךָ יַגִּידוּ:",
-              "enText": "*דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ*—Each generation will praise Your actions to the next generation; *וּגְבוּרֹתֶיךָ יַגִּידוּ*—and will tell them of Your *(miraculous)* mighty deeds *(that they experienced)*."
+              "heText": "בְּכָל יוֹם אֲבָרְכֶךָּ, וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד:"
             },
             {
-              "id": "pz2-ashrei-6",
-              "type": "prayer",
-              "heText": "הֲדַר כְּבוֹד הוֹדֶךָ, וְדִבְרֵי נִפְלְאֹתֶיךָ אָשִׂיחָה:",
-              "enText": "*הֲדַר כְּבוֹד הוֹדֶךָ*—I will discuss *(with everyone)* the beauty of Your natural world; *וְדִבְרֵי נִפְלְאֹתֶיךָ אָשִׂיחָה*—as well as speak of Your wonders *(which are beyond our comprehension)*."
+              "id": "ashrei-6",
+              "type": "commentary",
+              "enText": "בְּכָל יוֹם אֲבָרְכֶךָּ—(You are the Source of everything that happens to me each and every day, and) I thank You for it all (even though some of those things are hard to understand); וַאֲהַלְלָה שִׁמְךָ לְעוֹלָם וָעֶד—and in the end of days, I will truly praise You (as all becomes clear)."
             },
             {
-              "id": "pz2-ashrei-7",
+              "id": "ashrei-7",
               "type": "prayer",
-              "heText": "וֶעֱזוּז נוֹרְאֹתֶיךָ יֹאמֵרוּ, וּגְדֻלָּתְךָ אֲסַפְּרֶנָּה:",
-              "enText": "*וֶעֱזוּז נוֹרְאֹתֶיךָ יֹאמֵרוּ* (Says David HaMelech:) Others *(are impressed by and)* speak of Your miraculous wonders; *וּגְדֻלָּתְךָ אֲסַפְּרֶנָּה*—but I speak of Your constant and daily greatness *(which is no less miraculous)*!"
+              "heText": "גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד, וְלִגְדֻלָּתוֹ אֵין חֵקֶר:"
             },
             {
-              "id": "pz2-ashrei-8",
-              "type": "prayer",
-              "heText": "זֵכֶר רַב טוּבְךָ יַבִּיעוּ, וְצִדְקָתְךָ יְרַנֵּנוּ:",
-              "enText": "*זֵכֶר רַב טוּבְךָ יַבִּיעוּ*—They *(one generation passing down the heritage to the next)* will speak of Your abundant goodness *(notwithstanding whatever difficulties that generation may have endured)*; *וְצִדְקָתְךָ יְרַנֵּנוּ*—and they sing about Your generosity *(that Hashem blesses us with more than the strict letter of the law would dictate)*."
+              "id": "ashrei-8",
+              "type": "commentary",
+              "enText": "גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד—(As much as we will thank and praise Hashem, and proclaim) Hashem is \"great\" and is \"extremely praised\"; וְלִגְדֻלָּתוֹ אֵין חֵקֶר—(the truth is that) the greatness of Hashem is beyond our real comprehension (\"the more you know, the more you realize that you don't know\")."
             },
             {
-              "id": "pz2-ashrei-9",
+              "id": "ashrei-9",
               "type": "prayer",
-              "heText": "חַנּוּן וְרַחוּם יְהֹוָה, אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד:",
-              "enText": "*חַנּוּן וְרַחוּם יְהֹוָה*—Hashem is gracious *(giving us goodness more than we deserve)* and merciful; *(and that is apparent in the fact that He is)* *אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד*—slow to anger, and thus shows His true greatness through His abundant chessed."
+              "heText": "דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ, וּגְבוּרֹתֶיךָ יַגִּידוּ:"
             },
             {
-              "id": "pz2-ashrei-10",
-              "type": "prayer",
-              "heText": "טוֹב יְהֹוָה לַכֹּל, וְרַחֲמָיו עַל כָּל מַעֲשָׂיו:",
-              "enText": "*טוֹב יְהֹוָה לַכֹּל*—Hashem is good to all *(of humanity—even those who have not yet lived up to their potential)*; *וְרַחֲמָיו עַל כָּל מַעֲשָׂיו*—and His mercy extends to all that He has created *(even the smallest of the animal world)*."
+              "id": "ashrei-10",
+              "type": "commentary",
+              "enText": "דּוֹר לְדוֹר יְשַׁבַּח מַעֲשֶׂיךָ—Each generation will praise Your actions to the next generation; וּגְבוּרֹתֶיךָ יַגִּידוּ—and will tell them of Your (miraculous) mighty deeds (that they experienced)."
             },
             {
-              "id": "pz2-ashrei-11",
+              "id": "ashrei-11",
               "type": "prayer",
-              "heText": "יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ, וַחֲסִידֶיךָ יְבָרְכוּכָה:",
-              "enText": "*יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ*—All of Your creations will thank You *(for Your goodness)*; *וַחֲסִידֶיךָ יְבָרְכוּכָה*—but Your righteous ones *(who have used their God-given gifts to increase sanctity and goodness into the world)* will draw increased energy from You, the Source of all blessing, and in turn *(by their good deeds)* they will increase blessing in Your world."
+              "heText": "הֲדַר כְּבוֹד הוֹדֶךָ, וְדִבְרֵי נִפְלְאֹתֶיךָ אָשִׂיחָה:"
             },
             {
-              "id": "pz2-ashrei-insight-aleph-beis",
+              "id": "ashrei-12",
+              "type": "commentary",
+              "enText": "הֲדַר כְּבוֹד הוֹדֶךָ—I will discuss (with everyone) the beauty of Your natural world; וְדִבְרֵי נִפְלְאֹתֶיךָ אָשִׂיחָה—as well as speak of Your wonders (which are beyond our comprehension)."
+            },
+            {
+              "id": "ashrei-13",
+              "type": "prayer",
+              "heText": "וֶעֱזוּז נוֹרְאֹתֶיךָ יֹאמֵרוּ, וּגְדֻלָּתְךָ אֲסַפְּרֶנָּה:"
+            },
+            {
+              "id": "ashrei-14",
+              "type": "commentary",
+              "enText": "וֶעֱזוּז נוֹרְאֹתֶיךָ יֹאמֵרוּ—(Says David HaMelech:) Others (are impressed by and) speak of Your miraculous wonders; וּגְדֻלָּתְךָ אֲסַפְּרֶנָּה—but I speak of Your constant chesed and daily greatness (which is no less miraculous)!"
+            },
+            {
+              "id": "ashrei-15",
+              "type": "prayer",
+              "heText": "זֵכֶר רַב טוּבְךָ יַבִּיעוּ, וְצִדְקָתְךָ יְרַנֵּנוּ:"
+            },
+            {
+              "id": "ashrei-16",
+              "type": "commentary",
+              "enText": "זֵכֶר רַב טוּבְךָ יַבִּיעוּ—They (one generation passing down the heritage to the next) will speak of Your abundant goodness (notwithstanding whatever difficulties that generation may have endured); וְצִדְקָתְךָ יְרַנֵּנוּ—and they sing about Your generosity (that Hashem blesses us with more than the strict letter of the law would dictate)."
+            },
+            {
+              "id": "ashrei-17",
+              "type": "prayer",
+              "heText": "חַנּוּן וְרַחוּם יְהֹוָה, אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד:"
+            },
+            {
+              "id": "ashrei-18",
+              "type": "commentary",
+              "enText": "חַנּוּן וְרַחוּם יְהֹוָה—Hashem is gracious (giving us goodness more than we deserve) and merciful; (and that is apparent in the fact that He is) אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד—slow to anger, and thus shows His true greatness through His abundant chessed."
+            },
+            {
+              "id": "ashrei-19",
+              "type": "prayer",
+              "heText": "טוֹב יְהֹוָה לַכֹּל, וְרַחֲמָיו עַל כָּל מַעֲשָׂיו:"
+            },
+            {
+              "id": "ashrei-20",
+              "type": "commentary",
+              "enText": "טוֹב יְהֹוָה לַכֹּל—Hashem is good to all (*of humanity—even those who have not yet lived up to their potential*); וְרַחֲמָיו עַל כָּל מַעֲשָׂיו—and His mercy extends to all that He has created (*even the smallest of the animal world*)."
+            },
+            {
+              "id": "ashrei-21",
+              "type": "prayer",
+              "heText": "יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ, וַחֲסִידֶיךָ יְבָרְכוּכָה:"
+            },
+            {
+              "id": "ashrei-22",
+              "type": "commentary",
+              "enText": "יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ—All of Your creations will thank You (*for Your goodness*); וַחֲסִידֶיךָ יְבָרְכוּכָה—but Your righteous ones (*who have used their God-given gifts to increase sanctity and goodness into the world*) will draw increased energy from You, the Source of all blessing, and in turn (*by their good deeds*) they will increase blessing in Your world."
+            },
+            {
+              "id": "ashrei-23",
               "type": "insight",
-              "enText": "There is no א in Ashrei—why? The Maharal says that these pesukim, starting with the letters of the aleph-beis, express the inherent meaning *(based on Kabbalah)* of those letters. The inherent meaning of א is נְפִילָה—a falling. Here David HaMelech is describing what Hashem does, and Hashem does not cause our failings! Our mistakes are the result of our own poor choices! In the next verse we are told what Hashem does in regard to our failings *(סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים)*—He helps us get back up!"
+              "enText": "Instant Insight: There is no א in Ashrei—why? The Maharal says that these pesukim, starting with the letters of the aleph-beis, express the inherent meaning (based on Kabbalah) of those letters. The inherent meaning of א is נְפִילָה—a falling. Here David HaMelech is describing what Hashem does, and Hashem does not cause our failings! Our mistakes are the result of our own poor choices! In the next verse we are told what Hashem does in regard to our failings סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים—He helps us get back up!"
             },
             {
-              "id": "pz2-ashrei-12",
+              "id": "ashrei-24",
               "type": "prayer",
-              "heText": "כְּבוֹד מַלְכוּתְךָ יֹאמֵרוּ, וּגְבוּרָתְךָ יְדַבֵּרוּ:",
-              "enText": "*כְּבוֹד מַלְכוּתְךָ יֹאמֵרוּ*—They *(Your righteous ones)* will discuss the glory of Your Kingdom *(the Hand of Hashem as seen in the beauty and complexity of the natural world—which we take for granted, and therefore must be discussed a lot)*; *וּגְבוּרָתְךָ יְדַבֵּרוּ*—and they will also tell of Your mighty open miracles *(which are clear and do not need much discussion)*."
+              "heText": "כְּבוֹד מַלְכוּתְךָ יֹאמֵרוּ, וּגְבוּרָתְךָ יְדַבֵּרוּ:"
             },
             {
-              "id": "pz2-ashrei-13",
+              "id": "ashrei-25",
+              "type": "commentary",
+              "enText": "כְּבוֹד מַלְכוּתְךָ יֹאמֵרוּ—They (*Your righteous ones*) will discuss the glory of Your Kingdom (*the Hand of Hashem as seen in the beauty and complexity of the natural world—which we take for granted, and therefore must be discussed a lot*); וּגְבוּרָתְךָ יְדַבֵּרוּ—and they will also tell of Your mighty open miracles (*which are clear and do not need much discussion*)."
+            },
+            {
+              "id": "ashrei-26",
               "type": "prayer",
-              "heText": "לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו, וּכְבוֹד הֲדַר מַלְכוּתוֹ:",
-              "enText": "*לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו*—But when they speak to the common man, first they tell about Hashem's might and open miracles *(since that is easy for people to see)*; *וּכְבוֹד הֲדַר מַלְכוּתוֹ*—and *(from the open miracles they)* then explain to the common people how to see the Hand of Hashem in the daily miracles of \"nature.\""
+              "heText": "לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו, וּכְבוֹד הֲדַר מַלְכוּתוֹ:"
             },
             {
-              "id": "pz2-ashrei-14",
+              "id": "ashrei-27",
+              "type": "commentary",
+              "enText": "לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו—But when they speak to the common man, first they tell about Hashem's might and open miracles (*since that is easy for people to see*); וּכְבוֹד הֲדַר מַלְכוּתוֹ—and (*from the open miracles they*) then explain to the common people how to see the Hand of Hashem in the daily miracles of \"nature.\""
+            },
+            {
+              "id": "ashrei-28",
               "type": "prayer",
-              "heText": "מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים, וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר:",
-              "enText": "*מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים*—Your Kingship is over all the \"worlds\" *(the multitude of spiritual spheres and worlds that are beyond our comprehension)*; and *וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר*—Your rulership spans eternity and governs each unique generation *(in its own special role in Your master plan, all of which is also beyond our human comprehension)*."
+              "heText": "מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים, וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר:"
             },
             {
-              "id": "pz2-ashrei-15",
+              "id": "ashrei-29",
+              "type": "commentary",
+              "enText": "מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים—Your Kingship is over all the \"worlds\" (*the multitude of spiritual spheres and worlds that are beyond our comprehension*); and וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר—Your rulership spans eternity and governs each unique generation (*in its own special role in Your master plan, all of which is also beyond our human comprehension*)."
+            },
+            {
+              "id": "ashrei-30",
               "type": "prayer",
-              "heText": "סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים, וְזוֹקֵף לְכָל הַכְּפוּפִים:",
-              "enText": "*סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים*—(Though Hashem is \"busy\" ruling over the entire universe and eternity, yet still He looks after each and every one of us constantly, and) He supports every individual who has fallen *(spiritually or emotionally)*; *וְזוֹקֵף לְכָל הַכְּפוּפִים*—and He helps every person who is bent over *(from his struggles)* to get up *(and continue his climb toward personal perfection)*."
+              "heText": "סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים, וְזוֹקֵף לְכָל הַכְּפוּפִים:"
             },
             {
-              "id": "pz2-ashrei-insight-crucial",
+              "id": "ashrei-31",
+              "type": "commentary",
+              "enText": "סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים—(*Though Hashem is \"busy\" ruling over the entire universe and eternity, yet still He looks after each and every one of us constantly, and*) He supports every individual who has fallen (*spiritually or emotionally*); וְזוֹקֵף לְכָל הַכְּפוּפִים—and He helps every person who is bent over (*from his struggles*) to get up (*and continue his climb toward personal perfection*)."
+            },
+            {
+              "id": "ashrei-32",
+              "type": "prayer",
+              "heText": "עֵינֵי כֹל אֵלֶיךָ יְשַׂבֵּרוּ, וְאַתָּה נוֹתֵן לָהֶם אֶת אָכְלָם בְּעִתּוֹ:"
+            },
+            {
+              "id": "ashrei-33",
+              "type": "commentary",
+              "enText": "עֵינֵי כֹל אֵלֶיךָ יְשַׂבֵּרוּ—(*Therefore*) every creature, from the smallest to the greatest, looks to You with hope (*that You will take care of them*); וְאַתָּה נוֹתֵן לָהֶם אֶת אָכְלָם בְּעִתּוֹ—and You do give each one its (*physical, spiritual, and emotional*) sustenance—just at the time they really need it."
+            },
+            {
+              "id": "ashrei-34",
               "type": "insight",
-              "enText": "It does not say that Hashem is close to all who call to Him with honesty and integrity. Rather, אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת—who will call to Him with honesty, in the future tense. This means that if right now you have a very \"up and down\" relationship with Hashem, and you struggle with being 100 percent sincere, 100 percent of the time, and at times you are a bit of a hypocrite from what you end up doing—still, as long as you are committed to being יִקְרָאֻהוּ בֶאֱמֶת—your goal is to be completely sincere, honest, and genuine in your relationship with Hashem—then already now He will listen to your requests for help to get there!"
+              "enText": "Crucial Instant Insight: It does not say that Hashem is close to all קוֹרְאָיו—who now call to Him with honesty and integrity. Rather, אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת—who will call to Him with honesty, in the future tense. This means that if right now you have a very \"up and down\" relationship with Hashem, and you struggle with being 100 percent sincere, 100 percent of the time, and at times you are a bit of a hypocrite from what you end up doing—still, as long as you are committed to being יִקְרָאֻהוּ בֶאֱמֶת—your goal is to be completely sincere, honest, and genuine in your relationship with Hashem—then already now He will listen to your requests for help to get there!"
             },
             {
-              "id": "pz2-ashrei-16",
+              "id": "ashrei-35",
               "type": "prayer",
-              "heText": "עֵינֵי כֹל אֵלֶיךָ יְשַׂבֵּרוּ, וְאַתָּה נוֹתֵן לָהֶם אֶת אָכְלָם בְּעִתּוֹ:",
-              "enText": "*עֵינֵי כֹל אֵלֶיךָ יְשַׂבֵּרוּ*—(Therefore) every creature, from the smallest to the biggest, looks to You with hope *(that You will take care of them)*; *וְאַתָּה נוֹתֵן לָהֶם אֶת אָכְלָם בְּעִתּוֹ*—and You do give each one its *(physical, spiritual, and emotional)* sustenance—just at the time they really need it."
+              "heText": "פּוֹתֵחַ אֶת יָדֶךָ, וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:"
             },
             {
-              "id": "pz2-ashrei-17",
-              "type": "prayer",
-              "heText": "פּוֹתֵחַ אֶת יָדֶךָ, וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:",
-              "enText": "*פּוֹתֵחַ אֶת יָדֶךָ*—(Thus we proclaim emphatically that) You open Your Hand; *וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן*—and give each person what they need in order to be satisfied. *(If you feel you are not getting what you need—focus on the next verse...)*"
+              "id": "ashrei-36",
+              "type": "commentary",
+              "enText": "פּוֹתֵחַ אֶת יָדֶךָ—(*Thus we proclaim emphatically that*) You open Your Hand; וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן—and give each person what they need in order to be satisfied. (*If you feel you are not getting what you need—focus on the next verse...*)"
             },
             {
-              "id": "pz2-ashrei-18",
+              "id": "ashrei-37",
               "type": "prayer",
-              "heText": "צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו, וְחָסִיד בְּכָל מַעֲשָׂיו:",
-              "enText": "*צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו*—All that Hashem does is just and righteous *(even though as humans it does not always appear that way to us)*; *וְחָסִיד בְּכָל מַעֲשָׂיו*—and He applies that justice with great kindness."
+              "heText": "צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו, וְחָסִיד בְּכָל מַעֲשָׂיו:"
             },
             {
-              "id": "pz2-ashrei-19",
+              "id": "ashrei-38",
+              "type": "commentary",
+              "enText": "צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו—All that Hashem does is just and righteous (*even though as humans it does not always appear that way to us*); וְחָסִיד בְּכָל מַעֲשָׂיו—and He applies that justice with great kindness."
+            },
+            {
+              "id": "ashrei-39",
               "type": "prayer",
-              "heText": "קָרוֹב יְהֹוָה לְכָל קֹרְאָיו, לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת:",
-              "enText": "*קָרוֹב יְהֹוָה לְכָל קֹרְאָיו*—(In truth,) Hashem is close to all who call to Him; *לְכֹל אֲשֶׁר יִקְרָאֻהוּ* *בֶאֱמֶת*—but one must call out to Hashem with emes—honesty and sincerity. *(This means that (1) you do not say one thing in your tefillos but then by your actions distance yourself from Hashem; (2) in general, whenever you speak it is with honesty, i.e., you are a \"man of your word\" and sincere; and (3) it is clear from your actions that you are sincere in your requests from Hashem, since you are doing whatever you personally can do to achieve those goals.)*"
+              "heText": "קָרוֹב יְהֹוָה לְכָל קֹרְאָיו, לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת:"
+            },
+            {
+              "id": "ashrei-40",
+              "type": "commentary",
+              "enText": "קָרוֹב יְהֹוָה לְכָל קֹרְאָיו—(*In truth*) Hashem is close to all who call to Him; לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת—but one must call out to Hashem with emes—honesty and sincerity. (*This means that (1) you do not say one thing in your tefillos but then by your actions distance yourself from Hashem; (2) in general, whenever you speak it is with honesty, i.e., you are a \"man of your word\" and sincere; and (3) it is clear from your actions that you are sincere in your requests from Hashem, since you are doing whatever you personally can do to achieve those goals.*)"
             },
             {
               "id": "pz3-145-cont-p1",
