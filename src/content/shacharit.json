@@ -1170,39 +1170,69 @@
               "heText": "קַדִּישׁ דְּרַבָּנָן"
             },
             {
-              "id": "kaddish_drabbanan_text",
+              "id": "kaddish-drab-1",
               "type": "prayer",
-              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא, בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח, וְיִתְפָּאַר וְיִתְרוֹמַם, וְיִתְנַשֵּׂא וְיִתְהַדָּר, וְיִתְעַלֶּה וְיִתְהַלָּל, שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא: לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי\"ת לְעֵלָּא לְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא וְאִמְרוּ אָמֵן: עַל יִשְׂרָאֵל וְעַל רַבָּנָן, וְעַל תַּלְמִידֵיהוֹן וְעַל כָּל תַּלְמִידֵי תַלְמִידֵיהוֹן, וְעַל כָּל מָאן דְּעָסְקִין בְּאוֹרַיְתָא, דִּי בְאַתְרָא (בא\"י קַדִּישָׁא) הָדֵין וְדִי בְכָל אֲתַר וַאֲתַר: יְהֵא לְהוֹן וּלְכוֹן שְׁלָמָא רַבָּא חִנָּא וְחִסְדָּא וְרַחֲמִין וְחַיִּין אֲרִיכִין וּמְזוֹנֵי רְוִיחֵי וּפֻרְקָנָא מִן קֳדָם אֲבוּהוֹן דִּי בִשְׁמַיָּא (וְאַרְעָא) וְאִמְרוּ אָמֵן: יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים (טוֹבִים) עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְאִמְרוּ אָמֵן: עֹשֶׂה שָׁלוֹם (בעשי\"ת הַשָּׁלוֹם) בִּמְרוֹמָיו הוּא (בְּרַחֲמָיו) יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְאִמְרוּ אָמֵן:"
+              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא, בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן."
             },
             {
-              "id": "kaddish_commentary_yisgadal",
+              "id": "kaddish-drab-2",
               "type": "commentary",
-              "enText": "(The person saying Kaddish proclaims our hope that) soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done."
+              "enText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא—(The person saying Kaddish proclaims our hope that) soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done."
             },
             {
-              "id": "kaddish_commentary_yehei_shmei",
-              "type": "commentary",
-              "enText": "(We all enthusiastically respond:) Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
+              "id": "kaddish-drab-3",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא."
             },
             {
-              "id": "kaddish_commentary_yisbarach",
+              "id": "kaddish-drab-4",
               "type": "commentary",
-              "enText": "(The person saying Kaddish then points out that) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: Absolutely correct!"
+              "enText": "אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא—(We all enthusiastically respond:) Absolutely correct! May everyone (*including me!*), everywhere, and forever, see that all His actions are great and deserving of praise!"
             },
             {
-              "id": "kaddish_commentary_al_yisrael",
-              "type": "commentary",
-              "enText": "(The person saying Kaddish requests:) May there be abundant peace, mercy, kindness, long life, and material abundance—from our Father in Heaven—upon all of Bnei Yisrael, and specifically upon our teachers, their students, and all who study Torah—here and everywhere! And to that we respond: Absolutely, we agree!"
+              "id": "kaddish-drab-5",
+              "type": "prayer",
+              "heText": "יִתְבָּרַךְ, וְיִשְׁתַּבַּח, וְיִתְפָּאַר, וְיִתְרוֹמַם, וְיִתְנַשֵּׂא, וְיִתְהַדָּר, וְיִתְעַלֶּה, וְיִתְהַלָּל, שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא."
             },
             {
-              "id": "kaddish_commentary_yehei_shlama",
+              "id": "kaddish-drab-6",
               "type": "commentary",
-              "enText": "(The person saying Kaddish requests:) May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael! And to that we respond: Absolutely, we agree!"
+              "enText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח—(The person saying Kaddish then points out that) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: אָמֵן—Absolutely correct!"
             },
             {
-              "id": "kaddish_commentary_oseh_shalom",
+              "id": "kaddish-drab-7",
+              "type": "prayer",
+              "heText": "לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי\"ת לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן."
+            },
+            {
+              "id": "kaddish-drab-8",
+              "type": "prayer",
+              "heText": "עַל יִשְׂרָאֵל וְעַל רַבָּנָן, וְעַל תַּלְמִידֵיהוֹן וְעַל כָּל תַּלְמִידֵי תַלְמִידֵיהוֹן, וְעַל כָּל מָאן דְּעָסְקִין בְּאוֹרַיְתָא, דִּי בְאַתְרָא (בא\"י קַדִּישָׁא) הָדֵין וְדִי בְכָל אֲתַר וַאֲתַר. יְהֵא לְהוֹן וּלְכוֹן שְׁלָמָא רַבָּא חִנָּא וְחִסְדָּא וְרַחֲמִין וְחַיִּין אֲרִיכִין וּמְזוֹנָא רְוִיחָא וּפֻרְקָנָא מִן קֳדָם אֲבוּהוֹן דְּבִשְׁמַיָּא (וְאַרְעָא), וְאִמְרוּ אָמֵן."
+            },
+            {
+              "id": "kaddish-drab-9",
               "type": "commentary",
-              "enText": "(The person saying Kaddish requests:) May He Who makes peace in the Heavens bring about peace upon us and upon all of Yisrael! And to that we respond: Absolutely, we agree!"
+              "enText": "עַל יִשְׂרָאֵל וְעַל רַבָּנָן—(The person saying Kaddish requests:) May there be abundant peace, mercy, kindness, long life, and material abundance—from our Father in Heaven—upon all of Bnei Yisrael, and specifically upon our teachers, their students, and all who study Torah—here and everywhere! And to that we respond: אָמֵן—Absolutely, we agree!"
+            },
+            {
+              "id": "kaddish-drab-10",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים (טוֹבִים) עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן."
+            },
+            {
+              "id": "kaddish-drab-11",
+              "type": "commentary",
+              "enText": "יְהֵא שְׁלָמָא רַבָּא—(The person saying Kaddish requests:) May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael! And to that we respond: אָמֵן—Absolutely, we agree!"
+            },
+            {
+              "id": "kaddish-drab-12",
+              "type": "prayer",
+              "heText": "עֹשֶׂה שָׁלוֹם (בעשי\"ת הַשָּׁלוֹם) בִּמְרוֹמָיו הוּא (בְּרַחֲמָיו) יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן."
+            },
+            {
+              "id": "kaddish-drab-13",
+              "type": "commentary",
+              "enText": "עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו—(The person saying Kaddish requests:) May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: אָמֵן—Absolutely, we agree!"
             }
           ]
         }
