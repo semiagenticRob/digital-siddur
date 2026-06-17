@@ -90,7 +90,7 @@ export function SegmentRenderer({
           accessibilityLabel={showInsight ? 'Hide FAQ' : 'Show FAQ'}
         >
           <Text style={s.faqToggleText}>
-            {showInsight ? '▲ Hide FAQ' : '? FAQ'}
+            {showInsight ? '▲ Hide FAQ' : 'FAQ'}
           </Text>
         </Pressable>
         {showInsight && (
