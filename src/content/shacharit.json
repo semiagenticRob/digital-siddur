@@ -785,7 +785,7 @@
             },
             {
               "id": "bh2-prayer-akeidah-intro-heb",
-              "type": "prayer",
+              "type": "header",
               "heText": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה"
             },
             {
