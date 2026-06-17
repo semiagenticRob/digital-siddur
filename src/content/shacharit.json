@@ -542,6 +542,11 @@
               "enText": "*שֶׁלֹּא עָשַׂנִי עָבֶד*—Thank You, for You did not create me a servant (rather, I am free to make my own choices, be held responsible for them, and thus earn reward—thank You!)."
             },
             {
+              "id": "bracha-shelo-asani-isha-label",
+              "type": "rubric",
+              "enText": "For men:"
+            },
+            {
               "id": "bracha-shelo-asani-isha",
               "type": "prayer",
               "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁלֹּא עָשַׂנִי אִשָּׁה:",
@@ -552,6 +557,11 @@
               "type": "commentary",
               "enText": "*שֶׁלֹּא עָשַׂנִי אִשָּׁה*—Thank You, for You did not create me a woman (and I am happy to have all those extra mitzvos!).",
               "condition": "For men"
+            },
+            {
+              "id": "bracha-sheasani-kirtzono-label",
+              "type": "rubric",
+              "enText": "For women:"
             },
             {
               "id": "bracha-sheasani-kirtzono",
