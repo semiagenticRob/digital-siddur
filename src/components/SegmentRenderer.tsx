@@ -39,16 +39,14 @@ export function SegmentRenderer({
   // enPrimary headers (English-titled sections with a Hebrew name-list) render
   // the English title on top and the Hebrew names beneath; default is Hebrew-first.
   if (segment.type === 'header') {
-    const en = segment.enText && displayMode !== 'he' && (
-      <Text style={segment.enPrimary ? s.headerEnPrimary : s.headerEn}>{segment.enText}</Text>
-    );
-    const he = segment.heText && displayMode !== 'en' && (
-      <Text style={segment.enPrimary ? s.headerHeSub : s.headerHe}>{segment.heText}</Text>
-    );
+    const heStyle = segment.plain ? s.headerHePlain : segment.enPrimary ? s.headerHeSub : s.headerHe;
+    const enStyle = segment.plain ? s.headerEnPlain : segment.enPrimary ? s.headerEnPrimary : s.headerEn;
+    const en = segment.enText && displayMode !== 'he' && <Text style={enStyle}>{segment.enText}</Text>;
+    const he = segment.heText && displayMode !== 'en' && <Text style={heStyle}>{segment.heText}</Text>;
     return (
       <View style={s.headerBlock}>
         {segment.enPrimary ? <>{en}{he}</> : <>{he}{en}</>}
-        <View style={s.headerRule} />
+        {!segment.plain && <View style={s.headerRule} />}
       </View>
     );
   }
@@ -312,6 +310,19 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       textAlign: 'center',
       writingDirection: 'rtl' as const,
       marginTop: 4,
+    },
+    headerHePlain: {
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize * 0.95,
+      color: c.ink,
+      textAlign: 'center',
+      writingDirection: 'rtl' as const,
+    },
+    headerEnPlain: {
+      fontFamily: Fonts.english,
+      fontSize: enSize,
+      color: c.ink,
+      textAlign: 'center',
     },
     headerRule: {
       height: 1,
