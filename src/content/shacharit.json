@@ -928,8 +928,9 @@
             },
             {
               "id": "korb1-008",
-              "type": "rubric",
-              "heText": "פָּרָשַׁת הַכִּיּוֹר"
+              "type": "header",
+              "heText": "פָּרָשַׁת הַכִּיּוֹר",
+              "plain": true
             },
             {
               "id": "korb1-009",
@@ -938,8 +939,9 @@
             },
             {
               "id": "korb1-010",
-              "type": "rubric",
-              "heText": "פָּרָשַׁת תְּרוּמַת הַדֶּשֶׁן"
+              "type": "header",
+              "heText": "פָּרָשַׁת תְּרוּמַת הַדֶּשֶׁן",
+              "plain": true
             },
             {
               "id": "korb1-011",
@@ -948,8 +950,9 @@
             },
             {
               "id": "korb1-012",
-              "type": "rubric",
-              "heText": "פָּרָשַׁת קָרְבַּן תָּמִיד"
+              "type": "header",
+              "heText": "פָּרָשַׁת קָרְבַּן תָּמִיד",
+              "plain": true
             },
             {
               "id": "korb1-013",
@@ -978,8 +981,9 @@
             },
             {
               "id": "korb2-004",
-              "type": "rubric",
-              "heText": "פָּרָשַׁת הַקְּטֹרֶת"
+              "type": "header",
+              "heText": "פָּרָשַׁת הַקְּטֹרֶת",
+              "plain": true
             },
             {
               "id": "korb2-005",
@@ -1023,8 +1027,9 @@
             },
             {
               "id": "seder_hamaarachah_rubric",
-              "type": "rubric",
-              "heText": "סֵדֶר הַמַּעֲרָכָה"
+              "type": "header",
+              "heText": "סֵדֶר הַמַּעֲרָכָה",
+              "plain": true
             },
             {
               "id": "abaye_havah_mesader",
@@ -1135,8 +1140,9 @@
             },
             {
               "id": "braisa_drabi_yishmael_rubric",
-              "type": "rubric",
-              "heText": "בְּרַיְתָא דְרַבִּי יִשְׁמָעֵאל"
+              "type": "header",
+              "heText": "בְּרַיְתָא דְרַבִּי יִשְׁמָעֵאל",
+              "plain": true
             },
             {
               "id": "rabbi_yishmael_omer",
