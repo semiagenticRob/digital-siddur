@@ -1747,7 +1747,7 @@
             {
               "id": "pz3-145-cont-c5",
               "type": "commentary",
-              "enText": "*(And to sum up that entire Chapter 145 in one sentence:)* וַאֲנַחְנוּ נְבָרֵךְ יָהּ—And each of us *(in our way, based on our own life experiences,)* will thank Hashem and see Him as the Source of blessing in our individual lives; מֵעַתָּה וְעַד עוֹלָם—now and forever *(no matter what will happen! To sum it all up in one word:)*; הַלְלוּיָהּ—whatever happens, praise Hashem!"
+              "enText": "(And to sum up that entire Chapter 145 in one sentence:) וַאֲנַחְנוּ נְבָרֵךְ יָהּ—And each of us *(in our way, based on our own life experiences,)* will thank Hashem and see Him as the Source of blessing in our individual lives; מֵעַתָּה וְעַד עוֹלָם—now and forever *(no matter what will happen! To sum it all up in one word:)*; הַלְלוּיָהּ—whatever happens, praise Hashem!"
             },
             {
               "id": "pz3-146-header",
@@ -1876,128 +1876,188 @@
               "enText": "בָּרוּךְ יְהֹוָה לְעוֹלָם אָמֵן וְאָמֵן—I am absolutely certain that Hashem is the Source of all that was and all that will be. שֹׁכֵן יְרוּשָׁלָיִם—And that Hashem is the Source of our eternal connection to Eretz Yisrael and Yerushalayim. *(And therefore)*; הַלְלוּיָהּ—whatever happens, praise Hashem! בָּרוּךְ יְהֹוָה אֱלֹהִים אֱלֹהֵי יִשְׂרָאֵל—Hashem, the Source of everything, Who has taken care of us, Bnei Yisrael; עֹשֵׂה נִפְלָאוֹת לְבַדּוֹ—He alone performs wonderous miracles! וּבָרוּךְ שֵׁם כְּבוֹדוֹ לְעוֹלָם—And may the perception of Hashem's Presence be increased forever; וְיִמָּלֵא כְבוֹדוֹ אֶת כָּל הָאָרֶץ—and may the perception of Hashem's Presence be felt by everyone, over the entire earth. אָמֵן וְאָמֵן—This is the absolute truth, and I hope it will happen soon!"
             },
             {
-              "id": "pz4-hdr-shiras-intro",
+              "id": "azyashir-1",
               "type": "header",
               "enText": "Introduction to Shiras Ha'yam",
               "heText": "וַיְבָרֶךְ דָּוִד / וּכְרוֹת עִמּוֹ הַבְּרִית"
             },
             {
-              "id": "pz4-cmt-intro-1",
+              "id": "azyashir-2",
               "type": "section_intro",
               "enText": "Before we start asking Hashem for the stuff (we think) we need (in Shemoneh Esrei), we say Pesukei D'Zimrah to thank Him for what we **do** have, and to emphasize our awareness and belief that it is Hashem alone Who controls our circumstances. But why do we want all this stuff in the first place? The answer should be, because we want all the tools possible to fulfill our part of this great mission to the world called Am Yisrael!"
             },
             {
-              "id": "pz4-cmt-intro-2",
+              "id": "azyashir-3",
               "type": "section_intro",
-              "enText": "Therefore, the climax of Pesukei D'Zimrah will be the Shiras Ha'yam—the praise Bnei Yisrael sang when Hashem clearly showed us and the world that we are His special nation with a special mission. This Shiras Ha'yam is introduced with the following two paragraphs. The first (וַיְבָרֶךְ דָּוִד) is David Hamelech speaking to the entire nation at the end of his life. He handed over to his son Shlomo all that he had collected for the building of the Beis Hamikdash (which he knew he would not live to see) and looks back at all he went through and expresses his hopes for the future. The second (אַתָּה הוּא) was said by the Navi Nechemiah when that Beis Hamikdash lay in ruins! Now Bnei Yisrael are being urged to come back and make the sacrifices necessary to rebuild the Beis Hamikdash in particular, and the overall glory of our mission."
+              "enText": "Therefore, the climax of Pesukei D'Zimrah will be the Shiras Ha'yam—the praise Bnei Yisrael sang when Hashem clearly showed us and the world that we are His special nation with a special mission. This Shiras Ha'yam is introduced with the following two paragraphs. The first (*וַיְבָרֶךְ דָּוִד*) is David Hamelech speaking to the entire nation at the end of his life. He handed over to his son Shlomo all that he had collected for the building of the Beis Hamikdash (which he knew he would not live to see) and looks back at all he went through and expresses his hopes for the future. The second (*אַתָּה הוּא*) was said by the Navi Nechemiah when that Beis Hamikdash lay in ruins! Now Bnei Yisrael are being urged to come back and make the sacrifices necessary to rebuild the Beis Hamikdash in particular, and the overall glory of our mission."
             },
             {
-              "id": "pz4-cmt-intro-3",
+              "id": "azyashir-4",
               "type": "section_intro",
               "enText": "The message: Whether we feel we have worked hard, accomplished much, and have great hopes for the future, or we feel that all has come crashing down and we are looking for the energy to climb back up—we simply praise Hashem for what we do have. Most importantly, we focus on the fact that we just need to do the best we can, and the final outcome is in the Hands of Hashem."
             },
             {
-              "id": "pz4-faq-1",
+              "id": "azyashir-5",
               "type": "faq",
               "enText": "FAQ: Well, to be honest, I just want all this stuff because—I want it! Is that so bad? ANSWER: Honest question! See Appendix B.",
               "xref": "Appendix B"
             },
             {
-              "id": "pz4-rubric-stand-barchu",
+              "id": "azyashir-6",
               "type": "rubric",
               "enText": "Stand until after Barchu"
             },
             {
-              "id": "pz4-cmt-vayivarech",
-              "type": "commentary",
-              "enText": "וַיְבָרֶךְ דָּוִד—David HaMelech proclaims publicly: Hashem—You are the Source of everything *(that I have achieved)*—all greatness, power, wealth, and rulership is Yours, Hashem. You have the power to give us the strength *(to become great and fulfill our mission)*. And we thank You for all You have done!"
-            },
-            {
-              "id": "pz4-insight-vayivarech",
-              "type": "insight",
-              "enText": "The first letters of the opening four words—חֲבָר\"ך—spell חבר—\"חבר,\" \"חַבָּר,\" one of the Names of Hashem, which represents His attribute of certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
-            },
-            {
-              "id": "pz4-pry-vayivarech",
+              "id": "azyashir-7",
               "type": "prayer",
-              "heText": "וַיְבָרֶךְ דָּוִד אֶת יְהֹוָה לְעֵינֵי כָּל הַקָּהָל, וַיֹּאמֶר דָּוִד בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל אָבִינוּ, מֵעוֹלָם וְעַד עוֹלָם: לְךָ יְהֹוָה הַגְּדֻלָּה, וְהַגְּבוּרָה, וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד, כִּי כֹל בַּשָּׁמַיִם וּבָאָרֶץ, לְךָ יְהֹוָה הַמַּמְלָכָה וְהַמִּתְנַשֵּׂא לְכֹל לְרֹאשׁ:"
+              "heText": "וַיְבָרֶךְ דָּוִיד אֶת יְהוָה לְעֵינֵי כָּל הַקָּהָל, וַיֹּאמֶר דָּוִיד: בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָבִינוּ, מֵעוֹלָם וְעַד עוֹלָם: לְךָ יְהוָה הַגְּדֻלָּה, וְהַגְּבוּרָה, וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד, כִּי כֹל בַּשָּׁמַיִם וּבָאָרֶץ, לְךָ יְהוָה הַמַּמְלָכָה וְהַמִּתְנַשֵּׂא לְכֹל לְרֹאשׁ:"
             },
             {
-              "id": "pz4-rubric-bow",
+              "id": "azyashir-8",
+              "type": "commentary",
+              "enText": "וַיְבָרֶךְ דָּוִד—David HaMelech proclaims publicly: Hashem—You are the Source of everything (*that I have achieved*)—all greatness, power, wealth, and rulership are Yours, Hashem. You have the power to give us the strength (*to become great and fulfill our mission*). And we thank You for all You have done!"
+            },
+            {
+              "id": "azyashir-9",
+              "type": "insight",
+              "enText": "The opening letters of the opening four words—הרהנ—spell הזה הר ,ויאר, one of the Names of Hashem, which attribute certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
+            },
+            {
+              "id": "azyashir-10",
               "type": "rubric",
-              "heText": "נוֹהֲגִים לִכְרוֹעַ צֶדֶק)",
-              "enText": "(it is customary to bow)"
+              "heText": "נוֹהֲגִים לִכְרוֹעַ לִתֵּת צְדָקָה",
+              "enText": "It is customary to bow and give tzedakah"
             },
             {
-              "id": "pz4-pry-vehaosher",
+              "id": "azyashir-11",
               "type": "prayer",
               "heText": "וְהָעֹשֶׁר וְהַכָּבוֹד מִלְּפָנֶיךָ, וְאַתָּה מוֹשֵׁל בַּכֹּל, וּבְיָדְךָ כֹּחַ וּגְבוּרָה, וּבְיָדְךָ לְגַדֵּל וּלְחַזֵּק לַכֹּל: וְעַתָּה אֱלֹהֵינוּ מוֹדִים אֲנַחְנוּ לָךְ, וּמְהַלְלִים לְשֵׁם תִּפְאַרְתֶּךָ:"
             },
             {
-              "id": "pz4-cmt-atahu-1",
-              "type": "commentary",
-              "enText": "אַתָּה הוּא—The Navi Nechemiah proclaims: You, Hashem, alone, created the entire universe, and You chose Avraham! You saved him from Ur Kasdim;"
-            },
-            {
-              "id": "pz4-cmt-atahu-2",
-              "type": "commentary",
-              "enText": "וְכָרוֹת הַבְּרִית—and You established an everlasting covenant to give Eretz Yisrael to his descendants *(that's us!)*. You saw the suffering of Bnei Yisrael in Egypt, and You performed great public miracles—culminating with splitting the sea in order to save us, Your nation *(for a great mission to the world)*."
-            },
-            {
-              "id": "pz4-pry-atahu",
+              "id": "azyashir-13",
               "type": "prayer",
-              "heText": "אַתָּה הוּא יְהֹוָה לְבַדֶּךָ, אַתָּה עָשִׂיתָ אֶת הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל צְבָאָם, הָאָרֶץ וְכָל אֲשֶׁר עָלֶיהָ, הַיַּמִּים וְכָל אֲשֶׁר בָּהֶם, וְאַתָּה מְחַיֶּה אֶת כֻּלָּם, וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִים: אַתָּה הוּא יְהֹוָה הָאֱלֹהִים, אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם, וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים, וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָם: וּמָצָאתָ אֶת לְבָבוֹ נֶאֱמָן לְפָנֶיךָ:"
+              "heText": "אַתָּה הוּא יְהוָה לְבַדֶּךָ, אַתָּה עָשִׂיתָ אֶת הַשָּׁמַיִם, שְׁמֵי הַשָּׁמַיִם וְכָל צְבָאָם, הָאָרֶץ וְכָל אֲשֶׁר עָלֶיהָ, הַיַּמִּים וְכָל אֲשֶׁר בָּהֶם, וְאַתָּה מְחַיֶּה אֶת כֻּלָּם, וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִים: אַתָּה הוּא יְהוָה הָאֱלֹהִים, אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם, וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים, וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָם: וּמָצָאתָ אֶת לְבָבוֹ נֶאֱמָן לְפָנֶיךָ:"
             },
             {
-              "id": "pz4-pry-vecharos",
+              "id": "azyashir-12",
+              "type": "commentary",
+              "enText": "אַתָּה הוּא—The Navi Nechemiah proclaims: You, Hashem, alone, created the entire universe, and You chose Avraham! You saved him from Ur Kasdim; *כְּרוֹת עִמּוֹ הַבְּרִית*—and You established an everlasting covenant with his descendants (*that's us!*). You saw the suffering of Bnei Yisrael in Egypt, and You performed great public miracles—culminating with splitting the sea in order to save us, Your nation (*for a great mission to the world*)."
+            },
+            {
+              "id": "azyashir-14",
               "type": "prayer",
-              "heText": "וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי לָתֵת לְזַרְעוֹ, וַתָּקֶם אֶת דְּבָרֶיךָ כִּי צַדִּיק אָתָּה: וַתֵּרֶא אֶת עֳנִי אֲבֹתֵינוּ בְּמִצְרָיִם, וְאֶת זַעֲקָתָם שָׁמַעְתָּ עַל יַם סוּף: וַתִּתֵּן אֹתֹת וּמֹפְתִים בְּפַרְעֹה וּבְכָל עֲבָדָיו וּבְכָל עַם אַרְצוֹ, כִּי יָדַעְתָּ כִּי הֵזִידוּ עֲלֵיהֶם, וַתַּעַשׂ לְךָ שֵׁם כְּהַיּוֹם הַזֶּה: וְהַיָּם בָּקַעְתָּ לִפְנֵיהֶם, וַיַּעַבְרוּ בְתוֹךְ הַיָּם בַּיַּבָּשָׁה, וְאֶת רֹדְפֵיהֶם הִשְׁלַכְתָּ בִמְצוֹלֹת כְּמוֹ אֶבֶן בְּמַיִם עַזִּים:"
+              "heText": "וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי, לָתֵת לְזַרְעוֹ, וַתָּקֶם אֶת דְּבָרֶיךָ, כִּי צַדִּיק אָתָּה: וַתֵּרֶא אֶת עֳנִי אֲבֹתֵינוּ בְּמִצְרָיִם, וְאֶת זַעֲקָתָם שָׁמַעְתָּ עַל יַם סוּף: וַתִּתֵּן אֹתֹת וּמֹפְתִים בְּפַרְעֹה וּבְכָל עֲבָדָיו וּבְכָל עַם אַרְצוֹ, כִּי יָדַעְתָּ כִּי הֵזִידוּ עֲלֵיהֶם, וַתַּעַשׂ לְךָ שֵׁם כְּהַיּוֹם הַזֶּה: וְהַיָּם בָּקַעְתָּ לִפְנֵיהֶם, וַיַּעַבְרוּ בְתוֹךְ הַיָּם בַּיַּבָּשָׁה, וְאֶת רֹדְפֵיהֶם הִשְׁלַכְתָּ בִמְצוֹלֹת, כְּמוֹ אֶבֶן בְּמַיִם עַזִּים:"
             },
             {
-              "id": "pz4-hdr-shiras-hayam",
+              "id": "azyashir-15",
               "type": "header",
               "enText": "Shiras Ha'yam—Conclusion of Pesukei D'Zimrah",
-              "heText": "וַיּוֹשַׁע יְהֹוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר"
+              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר"
             },
             {
-              "id": "pz4-pry-vayosha",
+              "id": "azyashir-16",
               "type": "prayer",
-              "heText": "וַיּוֹשַׁע יְהֹוָה בַּיּוֹם הַהוּא אֶת יִשְׂרָאֵל מִיַּד מִצְרָיִם, וַיַּרְא יִשְׂרָאֵל אֶת מִצְרַיִם מֵת עַל שְׂפַת הַיָּם: וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה יְהֹוָה בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת יְהֹוָה, וַיַּאֲמִינוּ בַּיהֹוָה וּבְמֹשֶׁה עַבְדּוֹ:"
+              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא אֶת יִשְׂרָאֵל מִיַּד מִצְרָיִם, וַיַּרְא יִשְׂרָאֵל אֶת מִצְרַיִם מֵת עַל שְׂפַת הַיָּם: וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה יְהוָה בְּמִצְרַיִם, וַיִּירְאוּ הָעָם אֶת יְהוָה, וַיַּאֲמִינוּ בַּיהוָה וּבְמֹשֶׁה עַבְדּוֹ:"
             },
             {
-              "id": "pz4-cmt-vayosha",
+              "id": "azyashir-17",
               "type": "commentary",
-              "enText": "As the Torah tells us: וַיּוֹשַׁע—On that day Hashem rescued Bnei Yisrael from Egypt, and Bnei Yisrael personally saw all the Egyptians dead on the seashore. Bnei Yisrael saw the great power that Hashem unleashed against Egypt; the people were in awe of Hashem; they trusted Hashem and believed in His servant Moshe."
+              "enText": "וַיּוֹשַׁע—As the Torah tells us: On that day Hashem rescued Bnei Yisrael from Egypt, and Bnei Yisrael personally saw all the Egyptians dead on the seashore. Bnei Yisrael saw the great power that Hashem unleashed against Egypt; the people were in awe of Hashem; they trusted Hashem and believed in His servant Moshe."
             },
             {
-              "id": "pz4-cmt-azyashir-1",
-              "type": "commentary",
-              "enText": "אָז יָשִׁיר מֹשֶׁה—Then Moshe and Bnei Yisrael chose to sing this Shirah to Hashem and said: I will sing to Hashem for He has triumphed over the haughty *(Egyptians)*; His strength and power saved me. This is my God *(I will create my own personal relationship with Hashem)*, and He is the God of my father *(and that unique relationship will be built on the foundations of our ancestors)*. Hashem cast Pharaoh's chariots and army into the sea and they all drowned; at the same time the flowing waters stood like walls *(to save us)*. The enemy said, \"I will chase them, overtake them, and obliterate them!\" You made the wind blow, and the sea covered them, and they sank like lead!"
-            },
-            {
-              "id": "pz4-cmt-azyashir-2",
-              "type": "commentary",
-              "enText": "מִי כָמֹכָה בָּאֵלִם יְהֹוָה—Among all the powers *(powers of nature, powers of humans)*, who is equal to You, Hashem?; מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ—Who is like You, powerful but with purity of purpose?; נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא—Our songs praising You instill in us awe of Your wondrous deeds, which are in truth beyond our comprehension. All the nations of the world shuddered with fear *(when they heard of this great miracle)*. May dread and fear fall upon them until Your nation crosses over *(into Eretz Yisrael)*, the place Your Presence is most felt."
-            },
-            {
-              "id": "pz4-pry-azyashir",
+              "id": "azyashir-18",
               "type": "prayer",
-              "heText": "אָז יָשִׁיר מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת הַשִּׁירָה הַזֹּאת לַיהֹוָה, וַיֹּאמְרוּ לֵאמֹר, אָשִׁירָה לַיהֹוָה כִּי גָאֹה גָּאָה, סוּס וְרֹכְבוֹ רָמָה בַיָּם: עָזִּי וְזִמְרָת יָהּ וַיְהִי לִי לִישׁוּעָה, זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹהֵי אָבִי וַאֲרֹמְמֶנְהוּ: יְהֹוָה אִישׁ מִלְחָמָה, יְהֹוָה שְׁמוֹ: מַרְכְּבֹת פַּרְעֹה וְחֵילוֹ יָרָה בַיָּם, וּמִבְחַר שָׁלִשָׁיו טֻבְּעוּ בְיַם סוּף: תְּהֹמֹת יְכַסְיֻמוּ, יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָבֶן: יְמִינְךָ יְהֹוָה נֶאְדָּרִי בַּכֹּחַ, יְמִינְךָ יְהֹוָה תִּרְעַץ אוֹיֵב: וּבְרֹב גְּאוֹנְךָ תַּהֲרֹס קָמֶיךָ, תְּשַׁלַּח חֲרֹנְךָ יֹאכְלֵמוֹ כַּקַּשׁ: וּבְרוּחַ אַפֶּיךָ נֶעֶרְמוּ מַיִם, נִצְּבוּ כְמוֹ נֵד נֹזְלִים, קָפְאוּ תְהֹמֹת בְּלֶב יָם: אָמַר אוֹיֵב אֶרְדֹּף אַשִּׂיג אֲחַלֵּק שָׁלָל תִּמְלָאֵמוֹ נַפְשִׁי, אָרִיק חַרְבִּי תּוֹרִישֵׁמוֹ יָדִי: נָשַׁפְתָּ בְרוּחֲךָ כִּסָּמוֹ יָם, צָלֲלוּ כַּעוֹפֶרֶת בְּמַיִם אַדִּירִים: מִי כָמֹכָה בָּאֵלִם יְהֹוָה, מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ, נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא: נָטִיתָ יְמִינְךָ תִּבְלָעֵמוֹ אָרֶץ: נָחִיתָ בְחַסְדְּךָ עַם זוּ גָּאָלְתָּ, נֵהַלְתָּ בְעָזְּךָ אֶל נְוֵה קָדְשֶׁךָ: שָׁמְעוּ עַמִּים יִרְגָּזוּן, חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת:"
+              "heText": "אָז יָשִׁיר מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת הַשִּׁירָה הַזֹּאת לַיהוָה, וַיֹּאמְרוּ לֵאמֹר: אָשִׁירָה לַיהוָה כִּי גָאֹה גָּאָה, סוּס וְרֹכְבוֹ רָמָה בַיָּם:"
             },
             {
-              "id": "pz4-cmt-az-nivhalu-1",
+              "id": "azyashir-19",
               "type": "commentary",
-              "enText": "יְהֹוָה יִמְלֹךְ לְעֹלָם וָעֶד—*(Just as we have seen the rulership of Hashem here at the sea, so too for all future times)* Hashem will reign forever and ever!"
+              "enText": "אָז יָשִׁיר מֹשֶׁה—Then Moshe and Bnei Yisrael chose to sing this Shirah to Hashem and said: I will sing to Hashem for He has triumphed over the haughty (*Egyptians*); His strength and power saved me."
             },
             {
-              "id": "pz4-cmt-az-nivhalu-2",
-              "type": "commentary",
-              "enText": "כִּי לַיהֹוָה הַמְּלוּכָה וּמֹשֵׁל בַּגּוֹיִם—*(Once Mashiach comes)* the entire world will recognize Hashem as the King of His nation, Bnei Yisrael, and the ruler over all nations. On that day, Hashem will be recognized as the sole power, and His Presence will be felt by all."
-            },
-            {
-              "id": "pz4-pry-az-nivhalu",
+              "id": "azyashir-20",
               "type": "prayer",
-              "heText": "אָז נִבְהֲלוּ אַלּוּפֵי אֱדוֹם, אֵילֵי מוֹאָב יֹאחֲזֵמוֹ רָעַד, נָמֹגוּ כֹּל יֹשְׁבֵי כְנָעַן: תִּפֹּל עֲלֵיהֶם אֵימָתָה וָפַחַד, בִּגְדֹל זְרוֹעֲךָ יִדְּמוּ כָּאָבֶן, עַד יַעֲבֹר עַמְּךָ יְהֹוָה, עַד יַעֲבֹר עַם זוּ קָנִיתָ: תְּבִאֵמוֹ וְתִטָּעֵמוֹ בְּהַר נַחֲלָתְךָ, מָכוֹן לְשִׁבְתְּךָ פָּעַלְתָּ יְהֹוָה, מִקְּדָשׁ אֲדֹנָי כּוֹנֲנוּ יָדֶיךָ: יְהֹוָה יִמְלֹךְ לְעֹלָם וָעֶד: יְהֹוָה מַלְכוּתֵהּ קָאֵם לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: כִּי בָא סוּס פַּרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו בַּיָּם, וַיָּשֶׁב יְהֹוָה עֲלֵהֶם אֶת מֵי הַיָּם, וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם: כִּי לַיהֹוָה הַמְּלוּכָה, וּמֹשֵׁל בַּגּוֹיִם: וְעָלוּ מוֹשִׁיעִים בְּהַר צִיּוֹן לִשְׁפֹּט אֶת הַר עֵשָׂו, וְהָיְתָה לַיהֹוָה הַמְּלוּכָה: וְהָיָה יְהֹוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהֹוָה אֶחָד וּשְׁמוֹ אֶחָד:"
+              "heText": "עָזִּי וְזִמְרָת יָהּ וַיְהִי לִי לִישׁוּעָה, זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹהֵי אָבִי וַאֲרֹמְמֶנְהוּ:"
+            },
+            {
+              "id": "azyashir-21",
+              "type": "commentary",
+              "enText": "This is my God (*I will create my own personal relationship with Hashem*); and He is the God of my father (*and that unique relationship will be built on the foundations of our ancestors*)."
+            },
+            {
+              "id": "azyashir-22",
+              "type": "prayer",
+              "heText": "יְהוָה אִישׁ מִלְחָמָה, יְהוָה שְׁמוֹ: מַרְכְּבֹת פַּרְעֹה וְחֵילוֹ יָרָה בַיָּם, וּמִבְחַר שָׁלִשָׁיו טֻבְּעוּ בְיַם סוּף: תְּהֹמֹת יְכַסְיֻמוּ, יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָבֶן:"
+            },
+            {
+              "id": "azyashir-23",
+              "type": "commentary",
+              "enText": "Hashem cast Pharaoh's chariots and army into the sea and they all drowned; at the same time the flowing waters stood like walls (*to save us*)."
+            },
+            {
+              "id": "azyashir-24",
+              "type": "prayer",
+              "heText": "יְמִינְךָ יְהוָה נֶאְדָּרִי בַּכֹּחַ, יְמִינְךָ יְהוָה תִּרְעַץ אוֹיֵב: וּבְרֹב גְּאוֹנְךָ תַּהֲרֹס קָמֶיךָ, תְּשַׁלַּח חֲרֹנְךָ יֹאכְלֵמוֹ כַּקַּשׁ:"
+            },
+            {
+              "id": "azyashir-25",
+              "type": "prayer",
+              "heText": "וּבְרוּחַ אַפֶּיךָ נֶעֶרְמוּ מַיִם, נִצְּבוּ כְמוֹ נֵד נֹזְלִים, קָפְאוּ תְהֹמֹת בְּלֶב יָם:"
+            },
+            {
+              "id": "azyashir-26",
+              "type": "commentary",
+              "enText": "The enemy said, \"I will chase them, overtake them, and obliterate them!\" You made the wind blow, and the sea covered them, and they sank like lead!"
+            },
+            {
+              "id": "azyashir-27",
+              "type": "prayer",
+              "heText": "אָמַר אוֹיֵב אֶרְדֹּף אַשִּׂיג אֲחַלֵּק שָׁלָל, תִּמְלָאֵמוֹ נַפְשִׁי, אָרִיק חַרְבִּי, תּוֹרִישֵׁמוֹ יָדִי: נָשַׁפְתָּ בְרוּחֲךָ כִּסָּמוֹ יָם, צָלֲלוּ כַּעוֹפֶרֶת בְּמַיִם אַדִּירִים:"
+            },
+            {
+              "id": "azyashir-28",
+              "type": "prayer",
+              "heText": "מִי כָמֹכָה בָּאֵלִם יְהוָה, מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ, נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא:"
+            },
+            {
+              "id": "azyashir-29",
+              "type": "commentary",
+              "enText": "מִי כָמֹכָה בָּאֵלִם יְהוָה—Among all the powers (*powers of nature, powers of humans*), who is equal to You, Hashem?; *מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ*—Who is like You, powerful but with purity of purpose?; *נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא*—Our songs praising Hashem instill in us awe of Your wondrous deeds, which are in truth beyond our comprehension. All the nations of the world shuddered with fear (*when they heard of this great miracle*). May dread and fear fall upon them until Your nation crosses over (*into Eretz Yisrael*), the place Your Presence is most felt."
+            },
+            {
+              "id": "azyashir-30",
+              "type": "prayer",
+              "heText": "נָטִיתָ יְמִינְךָ תִּבְלָעֵמוֹ אָרֶץ: נָחִיתָ בְחַסְדְּךָ עַם זוּ גָּאָלְתָּ, נֵהַלְתָּ בְעָזְּךָ אֶל נְוֵה קָדְשֶׁךָ: שָׁמְעוּ עַמִּים יִרְגָּזוּן, חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת:"
+            },
+            {
+              "id": "azyashir-31",
+              "type": "prayer",
+              "heText": "אָז נִבְהֲלוּ אַלּוּפֵי אֱדוֹם, אֵילֵי מוֹאָב יֹאחֲזֵמוֹ רָעַד, נָמֹגוּ כֹּל יֹשְׁבֵי כְנָעַן: תִּפֹּל עֲלֵיהֶם אֵימָתָה וָפַחַד, בִּגְדֹל זְרוֹעֲךָ יִדְּמוּ כָּאָבֶן, עַד יַעֲבֹר עַמְּךָ יְהוָה, עַד יַעֲבֹר עַם זוּ קָנִיתָ:"
+            },
+            {
+              "id": "azyashir-32",
+              "type": "prayer",
+              "heText": "תְּבִאֵמוֹ וְתִטָּעֵמוֹ בְּהַר נַחֲלָתְךָ, מָכוֹן לְשִׁבְתְּךָ פָּעַלְתָּ יְהוָה, מִקְּדָשׁ אֲדֹנָי כּוֹנְנוּ יָדֶיךָ: יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד:"
+            },
+            {
+              "id": "azyashir-34",
+              "type": "prayer",
+              "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד: יְהוָה מַלְכוּתֵהּ קָאֵם לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:"
+            },
+            {
+              "id": "azyashir-33",
+              "type": "commentary",
+              "enText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד—Just as we have seen the rulership of Hashem here at the sea, so too for all future times Hashem will reign forever and ever!"
+            },
+            {
+              "id": "azyashir-36",
+              "type": "prayer",
+              "heText": "כִּי בָא סוּס פַּרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו בַּיָּם, וַיָּשֶׁב יְהוָה עֲלֵהֶם אֶת מֵי הַיָּם, וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם: כִּי לַיהוָה הַמְּלוּכָה, וּמֹשֵׁל בַּגּוֹיִם: וְעָלוּ מוֹשִׁיעִים בְּהַר צִיּוֹן לִשְׁפֹּט אֶת הַר עֵשָׂו, וְהָיְתָה לַיהוָה הַמְּלוּכָה: וְהָיָה יְהוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהוָה אֶחָד וּשְׁמוֹ אֶחָד:"
+            },
+            {
+              "id": "azyashir-35",
+              "type": "commentary",
+              "enText": "כִּי בָא—Once Mashiach comes the entire world will recognize Hashem as the King of His nation, Bnei Yisrael, and the ruler over all nations. On that day, Hashem will be recognized as the sole power, and His Presence will be felt by all."
             },
             {
               "id": "pz4-hdr-yishtabach",
