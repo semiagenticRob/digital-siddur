@@ -69,6 +69,7 @@ export function AppendixModal() {
                   text={seg.enText ?? ''}
                   style={[s.prose, { color: colors.ink }]}
                   italicStyle={s.italic}
+                  boldStyle={s.bold}
                   linkStyle={s.link}
                 />
               );
@@ -104,6 +105,7 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     },
     prose: { fontFamily: Fonts.english, fontSize: enSize, lineHeight: enSize * 1.62, marginBottom: 12 },
     italic: { fontFamily: Fonts.englishItalic, fontStyle: 'italic' as const },
+    bold: { fontFamily: Fonts.englishBold, fontWeight: '600' as const },
     link: { color: c.accent, textDecorationLine: 'underline' as const, fontFamily: Fonts.uiSemiBold },
   });
 }

@@ -9,53 +9,66 @@ function isolateHebrew(text: string): string {
   return text.replace(/[֐-׿]+(?:[ ֐-׿]*[֐-׿])?/g, (run) => '⁧' + run + '⁩');
 }
 
+// Matches **bold** (greedy-safe) or *italic* spans.
+const SPAN_RE = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
 const APPENDIX_RE = /(Appendix\s+\d+)/g;
 
 interface Props {
   text: string;
   style?: StyleProp<TextStyle>;
   italicStyle?: StyleProp<TextStyle>;
+  boldStyle?: StyleProp<TextStyle>;
   linkStyle?: StyleProp<TextStyle>;
 }
 
-// Renders commentary/insight/faq text with: *markdown* italics, correct inline
-// Hebrew placement, and tappable "Appendix N" cross-reference links.
-export function RichText({ text, style, italicStyle, linkStyle }: Props) {
-  const open = useAppendixStore((s) => s.open);
+// Render a leaf string: linkify "Appendix N" and isolate inline Hebrew.
+function renderLeaf(
+  text: string,
+  keyBase: string,
+  spanStyle: StyleProp<TextStyle> | undefined,
+  open: (n: number) => void,
+  linkStyle: StyleProp<TextStyle> | undefined
+): React.ReactNode[] {
+  return text.split(APPENDIX_RE).map((part, j) => {
+    const m = part.match(/^Appendix\s+(\d+)$/);
+    if (m) {
+      const n = parseInt(m[1], 10);
+      return (
+        <Text
+          key={`${keyBase}-${j}`}
+          style={[spanStyle, linkStyle]}
+          onPress={() => open(n)}
+          accessibilityRole="link"
+          accessibilityLabel={`Open Appendix ${n}`}
+        >
+          {part}
+        </Text>
+      );
+    }
+    const content = isolateHebrew(part);
+    return spanStyle ? (
+      <Text key={`${keyBase}-${j}`} style={spanStyle}>{content}</Text>
+    ) : (
+      content
+    );
+  });
+}
 
-  // Split into italic / non-italic spans (odd indices are italic).
-  const italicParts = text.split(/\*([^*]+)\*/g);
+// Renders commentary/insight/faq text with **bold**, *italic*, correct inline
+// Hebrew placement, and tappable "Appendix N" cross-reference links.
+export function RichText({ text, style, italicStyle, boldStyle, linkStyle }: Props) {
+  const open = useAppendixStore((s) => s.open);
 
   return (
     <Text style={style}>
-      {italicParts.map((part, i) => {
-        const isItalic = i % 2 === 1;
-        const baseStyle = isItalic ? italicStyle : undefined;
-        // Within each span, split out "Appendix N" references.
-        const refParts = part.split(APPENDIX_RE);
-        return refParts.map((rp, j) => {
-          const m = rp.match(/^Appendix\s+(\d+)$/);
-          if (m) {
-            const n = parseInt(m[1], 10);
-            return (
-              <Text
-                key={`${i}-${j}`}
-                style={[baseStyle, linkStyle]}
-                onPress={() => open(n)}
-                accessibilityRole="link"
-                accessibilityLabel={`Open Appendix ${n}`}
-              >
-                {rp}
-              </Text>
-            );
-          }
-          const content = isolateHebrew(rp);
-          return isItalic ? (
-            <Text key={`${i}-${j}`} style={baseStyle}>{content}</Text>
-          ) : (
-            content
-          );
-        });
+      {text.split(SPAN_RE).map((part, i) => {
+        if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+          return renderLeaf(part.slice(2, -2), `b${i}`, boldStyle, open, linkStyle);
+        }
+        if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
+          return renderLeaf(part.slice(1, -1), `i${i}`, italicStyle, open, linkStyle);
+        }
+        return renderLeaf(part, `p${i}`, undefined, open, linkStyle);
       })}
     </Text>
   );
