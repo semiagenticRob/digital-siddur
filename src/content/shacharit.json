@@ -1501,7 +1501,8 @@
               "id": "pz2-ashrei-header-145",
               "type": "header",
               "heText": "תְּהִלִּים קמה",
-              "enText": ""
+              "enText": "",
+              "plain": true
             },
             {
               "id": "pz2-ashrei-intro-145",
@@ -1680,7 +1681,8 @@
             {
               "id": "pz3-146-header",
               "type": "header",
-              "heText": "תְּהִלִּים קמו"
+              "heText": "תְּהִלִּים קמו",
+              "plain": true
             },
             {
               "id": "pz3-146-intro",
@@ -1705,7 +1707,8 @@
             {
               "id": "pz3-147-header",
               "type": "header",
-              "heText": "תְּהִלִּים קמז"
+              "heText": "תְּהִלִּים קמז",
+              "plain": true
             },
             {
               "id": "pz3-147-intro",
@@ -1735,7 +1738,8 @@
             {
               "id": "pz3-148-header",
               "type": "header",
-              "heText": "תְּהִלִּים קמח"
+              "heText": "תְּהִלִּים קמח",
+              "plain": true
             },
             {
               "id": "pz3-148-intro",
@@ -1760,7 +1764,8 @@
             {
               "id": "pz3-149-header",
               "type": "header",
-              "heText": "תְּהִלִּים קמט"
+              "heText": "תְּהִלִּים קמט",
+              "plain": true
             },
             {
               "id": "pz3-149-intro",
@@ -1785,7 +1790,8 @@
             {
               "id": "pz3-150-header",
               "type": "header",
-              "heText": "תְּהִלִּים קנ"
+              "heText": "תְּהִלִּים קנ",
+              "plain": true
             },
             {
               "id": "pz3-150-intro",
