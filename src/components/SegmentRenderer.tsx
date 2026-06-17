@@ -51,10 +51,20 @@ export function SegmentRenderer({
     );
   }
 
-  // Section intro — hide in Hebrew-only mode
+  // Section intro — hide in Hebrew-only mode. Bulleted intros render left-aligned
+  // (a plain list, like the print) rather than centered italic.
   if (segment.type === 'section_intro') {
     if (displayMode === 'he') return null;
-    return <RichText text={segment.enText ?? ''} style={s.sectionIntro} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} />;
+    const bulleted = /(^|\n)\s*•/.test(segment.enText ?? '');
+    return (
+      <RichText
+        text={segment.enText ?? ''}
+        style={bulleted ? s.sectionIntroList : s.sectionIntro}
+        italicStyle={s.italicSpan}
+        boldStyle={s.boldSpan}
+        linkStyle={s.linkSpan}
+      />
+    );
   }
 
   // Transition — rhetorical bridge between prayers; striking with underglow
@@ -338,6 +348,15 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       textAlign: 'center',
       fontStyle: 'italic',
       paddingHorizontal: 8,
+      marginBottom: 10,
+    },
+    sectionIntroList: {
+      fontFamily: Fonts.english,
+      fontSize: enSize,
+      lineHeight: enSize * 1.62,
+      color: c.ink,
+      textAlign: 'left',
+      paddingHorizontal: 6,
       marginBottom: 10,
     },
     transitionWrap: {
