@@ -485,9 +485,13 @@
               "enText": "*יִגְדַּל*—(The Thirteen Principles of Faith) (1) There exists a perfect God Who created everything. (2) God is One—there is only one God. (3) God cannot be viewed in bodily terms. (4) God is Eternal. (5) Jews pray directly to God with no intermediaries. (6) The prophets are true. (7) Moshe was the greatest prophet. (8) The entire Torah was given to Moshe. (9) The Torah is eternal and unchanging. (10) God knows what we do. (11) God rewards and punishes according to our actions. (12) Mashiach will come. (13) There will be Techiyas Hameisim."
             },
             {
-              "id": "header-fifteen-thank-yous",
+              "id": "but-first-transition",
+              "type": "transition",
+              "enText": "But First—Fifteen Thank-Yous!"
+            },
+            {
+              "id": "birchos-hashachar-he-header",
               "type": "header",
-              "enText": "But First—Fifteen Thank-Yous!",
               "heText": "בִּרְכוֹת הַשַּׁחַר"
             },
             {
@@ -496,15 +500,15 @@
               "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר נָתַן לַשֶּׂכְוִי בִינָה לְהַבְחִין בֵּין יוֹם וּבֵין לָיְלָה:"
             },
             {
+              "id": "bracha-sechvi-commentary",
+              "type": "commentary",
+              "enText": "*אֲשֶׁר נָתַן לַשֶּׂכְוִי בִינָה*—Thank You, for You give us the ability to understand the difference between day and night—meaning: good and bad, right and wrong."
+            },
+            {
               "id": "faq-sechvi",
               "type": "faq",
               "enText": "FAQ: Thank you? For what? My life stinks! ANSWER: Good point! See Appendix 2",
               "xref": "Appendix 2"
-            },
-            {
-              "id": "bracha-sechvi-commentary",
-              "type": "commentary",
-              "enText": "*אֲשֶׁר נָתַן לַשֶּׂכְוִי בִינָה*—Thank You, for You give us the ability to understand the difference between day and night—meaning: good and bad, right and wrong."
             },
             {
               "id": "insight-sechvi",
@@ -603,15 +607,15 @@
               "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, זוֹקֵף כְּפוּפִים:"
             },
             {
+              "id": "bracha-zokef-kefufim-commentary",
+              "type": "commentary",
+              "enText": "*זוֹקֵף כְּפוּפִים*—Thank You, for You give those who are bent over (whether because of physical issues or from the difficulties and hardships in their lives) the ability to stand up straight (and deal with their struggles)."
+            },
+            {
               "id": "faq-stand-up-straight",
               "type": "faq",
               "enText": "FAQ: But I can't \"stand up straight\"! I've tried, but keep falling back down. All the stuff in my life is crushing me! ANSWER: OY! Difficult question! See Appendix 3.",
               "xref": "Appendix 3"
-            },
-            {
-              "id": "bracha-zokef-kefufim-commentary",
-              "type": "commentary",
-              "enText": "*זוֹקֵף כְּפוּפִים*—Thank You, for You give those who are bent over (whether because of physical issues or from the difficulties and hardships in their lives) the ability to stand up straight (and deal with their struggles)."
             },
             {
               "id": "bracha-roka-haaretz",
@@ -629,15 +633,15 @@
               "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁעָשָׂה לִי כָּל צָרְכִּי:"
             },
             {
+              "id": "bracha-sheasa-li-kol-tzorki-commentary",
+              "type": "commentary",
+              "enText": "*שֶׁעָשָׂה לִי כָּל צָרְכִּי*—Thank You, for You have provided me with all my needs (whatever You have given me must be what I need—not more and not less—even though sometimes that is hard to understand)."
+            },
+            {
               "id": "faq-good-for-stuff",
               "type": "faq",
               "enText": "FAQ: If that is true, then why should we ask Hashem for stuff? He gave me all I need! ANSWER: Good thinking! See Appendix 1.",
               "xref": "Appendix 1"
-            },
-            {
-              "id": "bracha-sheasa-li-kol-tzorki-commentary",
-              "type": "commentary",
-              "enText": "*שֶׁעָשָׂה לִי כָּל צָרְכִּי*—Thank You, for You have provided me with all my needs (whatever You have given me must be what I need—not more and not less—even though sometimes that is hard to understand)."
             },
             {
               "id": "insight-kol-tzorki-1",
@@ -1658,11 +1662,6 @@
               "enText": "The focus of this chapter is on Am Yisrael as a whole, and on the dawn of Era of Mashiach—when the power and providence of Hashem in our individual and national lives will finally begin to become clear."
             },
             {
-              "id": "pz3-147-insight",
-              "type": "insight",
-              "enText": "הַלְלוּיָהּ, כִּי טוֹב זַמְּרָה literally translates as, \"Hashem is building Yerushalayim\"—present tense—even though in context it is referring to the Era of Mashiach. That is telling us that in truth, every single thing that happened and happens to us as individuals and as a nation is part of the process needed to build Yerushalayim. Thus all through our galus, all that Hashem has sent our way is part of a continuous building of Yerushalayim. Once Mashiach comes, that will all be clear."
-            },
-            {
               "id": "pz3-147-c1",
               "type": "commentary",
               "enText": "הַלְלוּיָהּ, כִּי טוֹב זַמְּרָה—As the Era of Mashiach dawns, and all confusion begins to clear, it will be pleasant and enjoyable to sing out and praise Hashem! Hashem **is** the builder of Yerushalayim, and He will gather in all the exiles, and heal all the broken bodies and souls. Hashem, Who controls the vastness of nature, views each individual Jew like a star, and each one is beloved by Hashem. Thus everyone will sing praises to Hashem. *(Unlike now, in the Era of Mashiach)* the borders of Eretz Yisrael will be secure, the gates of Yerushalayim will be strong—we will realize that our true ultimate protection is from Hashem."
@@ -1671,6 +1670,11 @@
               "id": "pz3-147-c2",
               "type": "commentary",
               "enText": "לֹא עָשָׂה כֵן לְכָל גּוֹי—Such unique providence and miraculous continuity was not shown to any other nation; וּמִשְׁפָּטִים בַּל יְדָעוּם—and only we are entrusted with His Torah and Divine laws *(and therefore)*; הַלְלוּיָהּ—whatever happens, praise Hashem!"
+            },
+            {
+              "id": "pz3-147-insight",
+              "type": "insight",
+              "enText": "הַלְלוּיָהּ, כִּי טוֹב זַמְּרָה literally translates as, \"Hashem is building Yerushalayim\"—present tense—even though in context it is referring to the Era of Mashiach. That is telling us that in truth, every single thing that happened and happens to us as individuals and as a nation is part of the process needed to build Yerushalayim. Thus all through our galus, all that Hashem has sent our way is part of a continuous building of Yerushalayim. Once Mashiach comes, that will all be clear."
             },
             {
               "id": "pz3-147-p1",
@@ -1785,12 +1789,6 @@
               "enText": "Before we start asking Hashem for the stuff (we think) we need (in Shemoneh Esrei), we say Pesukei D'Zimrah to thank Him for what we **do** have, and to emphasize our awareness and belief that it is Hashem alone Who controls our circumstances. But why do we want all this stuff in the first place? The answer should be, because we want all the tools possible to fulfill our part of this great mission to the world called Am Yisrael!"
             },
             {
-              "id": "pz4-faq-1",
-              "type": "faq",
-              "enText": "FAQ: Well, to be honest, I just want all this stuff because—I want it! Is that so bad? ANSWER: Honest question! See Appendix B.",
-              "xref": "Appendix B"
-            },
-            {
               "id": "pz4-cmt-intro-2",
               "type": "commentary",
               "enText": "Therefore, the climax of Pesukei D'Zimrah will be the Shiras Ha'yam—the praise Bnei Yisrael sang when Hashem clearly showed us and the world that we are His special nation with a special mission. This Shiras Ha'yam is introduced with the following two paragraphs. The first (וַיְבָרֶךְ דָּוִד) is David Hamelech speaking to the entire nation at the end of his life. He handed over to his son Shlomo all that he had collected for the building of the Beis Hamikdash (which he knew he would not live to see) and looks back at all he went through and expresses his hopes for the future. The second (אַתָּה הוּא) was said by the Navi Nechemiah when that Beis Hamikdash lay in ruins! Now Bnei Yisrael are being urged to come back and make the sacrifices necessary to rebuild the Beis Hamikdash in particular, and the overall glory of our mission."
@@ -1801,19 +1799,25 @@
               "enText": "The message: Whether we feel we have worked hard, accomplished much, and have great hopes for the future, or we feel that all has come crashing down and we are looking for the energy to climb back up—we simply praise Hashem for what we do have. Most importantly, we focus on the fact that we just need to do the best we can, and the final outcome is in the Hands of Hashem."
             },
             {
+              "id": "pz4-faq-1",
+              "type": "faq",
+              "enText": "FAQ: Well, to be honest, I just want all this stuff because—I want it! Is that so bad? ANSWER: Honest question! See Appendix B.",
+              "xref": "Appendix B"
+            },
+            {
               "id": "pz4-rubric-stand-barchu",
               "type": "rubric",
               "enText": "Stand until after Barchu"
             },
             {
-              "id": "pz4-insight-vayivarech",
-              "type": "insight",
-              "enText": "The first letters of the opening four words—חֲבָר\"ך—spell חבר—\"חבר,\" \"חַבָּר,\" one of the Names of Hashem, which represents His attribute of certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
-            },
-            {
               "id": "pz4-cmt-vayivarech",
               "type": "commentary",
               "enText": "וַיְבָרֶךְ דָּוִד—David HaMelech proclaims publicly: Hashem—You are the Source of everything *(that I have achieved)*—all greatness, power, wealth, and rulership is Yours, Hashem. You have the power to give us the strength *(to become great and fulfill our mission)*. And we thank You for all You have done!"
+            },
+            {
+              "id": "pz4-insight-vayivarech",
+              "type": "insight",
+              "enText": "The first letters of the opening four words—חֲבָר\"ך—spell חבר—\"חבר,\" \"חַבָּר,\" one of the Names of Hashem, which represents His attribute of certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
             },
             {
               "id": "pz4-pry-vayivarech",
@@ -1919,15 +1923,15 @@
               "heText": "יִשְׁתַּבַּח שִׁמְךָ לָעַד מַלְכֵּנוּ, הָאֵל הַמֶּלֶךְ הַגָּדוֹל וְהַקָּדוֹשׁ בַּשָּׁמַיִם וּבָאָרֶץ, כִּי לְךָ נָאֶה, יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שִׁיר וּשְׁבָחָה, הַלֵּל וְזִמְרָה, עֹז וּמֶמְשָׁלָה, נֶצַח, גְּדֻלָּה וּגְבוּרָה, תְּהִלָּה וְתִפְאֶרֶת, קְדֻשָּׁה וּמַלְכוּת, בְּרָכוֹת וְהוֹדָאוֹת, מֵעַתָּה וְעַד עוֹלָם:"
             },
             {
+              "id": "pz4-cmt-baruch-atah",
+              "type": "commentary",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֵל מֶלֶךְ גָּדוֹל בַּתִּשְׁבָּחוֹת—all-powerful King Who is greater than any praises *(that we mere humans can say)*; אֵל הַהוֹדָאוֹת—to Whom all thanksgiving is due; אֲדוֹן הַנִּפְלָאוֹת—Master of wonders; הַבּוֹחֵר בְּשִׁירֵי זִמְרָה—Who takes pleasure in songs of praise; מֶלֶךְ אֵל חֵי הָעוֹלָמִים—You are the King Who gives life to the world."
+            },
+            {
               "id": "pz4-faq-yishtabach",
               "type": "faq",
               "enText": "FAQ: What does it mean that Hashem takes pleasure in songs of praise? Is the בּוֹחֵר בְּשִׁירֵי takes pleasure—Hashem is not human; what does it mean that He takes pleasure? ANSWER: Good question! See Appendix 10.",
               "xref": "Appendix 10"
-            },
-            {
-              "id": "pz4-cmt-baruch-atah",
-              "type": "commentary",
-              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֵל מֶלֶךְ גָּדוֹל בַּתִּשְׁבָּחוֹת—all-powerful King Who is greater than any praises *(that we mere humans can say)*; אֵל הַהוֹדָאוֹת—to Whom all thanksgiving is due; אֲדוֹן הַנִּפְלָאוֹת—Master of wonders; הַבּוֹחֵר בְּשִׁירֵי זִמְרָה—Who takes pleasure in songs of praise; מֶלֶךְ אֵל חֵי הָעוֹלָמִים—You are the King Who gives life to the world."
             },
             {
               "id": "pz4-pry-baruch-atah",
@@ -2580,14 +2584,14 @@
               "heText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן: בָּרוּךְ אַתָּה יְהֹוָה, מָגֵן אַבְרָהָם:"
             },
             {
-              "id": "se1-insight-magen",
-              "type": "insight",
-              "enText": "The terms מוֹשִׁיעַ, עוֹזֵר, and מָגֵן represent three levels of help that we need in our lives—from the least to the most. עוֹזֵר—\"help,\" is when we are on the right track, doing what we need to do in the best way possible, and we ask Hashem to please help us that all should work out, since nothing will come to fruition without His help. מוֹשִׁיעַ—\"salvation,\" is when we are completely at a loss; we throw up our hands and say to Hashem, \"Save me, I have no idea what to do next!\" The third and highest level, מָגֵן—\"protect,\" is when we think we're on the right track and think we know what we're doing, but in truth we are completely off base! We ask Hashem, \"If I'm going in the wrong direction—מָגֵן—protect me from myself!\""
-            },
-            {
               "id": "se1-commentary-magen",
               "type": "commentary",
               "enText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן—You are our King, You have the power to help us through our difficulties, to save us *(from our physical and spiritual enemies)*, and to protect us *(from evil)*. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; מָגֵן אַבְרָהָם—You are the Protector of Avraham *(and us, his descendants)*."
+            },
+            {
+              "id": "se1-insight-magen",
+              "type": "insight",
+              "enText": "The terms מוֹשִׁיעַ, עוֹזֵר, and מָגֵן represent three levels of help that we need in our lives—from the least to the most. עוֹזֵר—\"help,\" is when we are on the right track, doing what we need to do in the best way possible, and we ask Hashem to please help us that all should work out, since nothing will come to fruition without His help. מוֹשִׁיעַ—\"salvation,\" is when we are completely at a loss; we throw up our hands and say to Hashem, \"Save me, I have no idea what to do next!\" The third and highest level, מָגֵן—\"protect,\" is when we think we're on the right track and think we know what we're doing, but in truth we are completely off base! We ask Hashem, \"If I'm going in the wrong direction—מָגֵן—protect me from myself!\""
             },
             {
               "id": "se1-header-gevuros",
