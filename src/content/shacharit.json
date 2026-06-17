@@ -884,28 +884,16 @@
             {
               "id": "bh3-atahu-prayer",
               "type": "prayer",
-              "heText": "אַתָּה הוּא עַד שֶׁלֹּא נִבְרָא הָעוֹלָם, אַתָּה הוּא מִשֶּׁנִּבְרָא הָעוֹלָם, אַתָּה הוּא בָּעוֹלָם הַזֶּה, וְאַתָּה הוּא לָעוֹלָם הַבָּא: קַדֵּשׁ אֶת שִׁמְךָ עַל מַקְדִּישֵׁי שְׁמֶךָ,"
-            }
-          ]
-        },
-        {
-          "id": "p-korbanos",
-          "heTitle": "קָרְבָּנוֹת",
-          "enTitle": "Korbanos",
-          "segments": [
-            {
-              "id": "korb1-001",
-              "type": "prayer",
-              "heText": "וְקַדֵּשׁ אֶת שִׁמְךָ בְּעוֹלָמֶךָ, וּבִישׁוּעָתְךָ תָּרִים וְתַגְבִּיהַּ קַרְנֵנוּ: בָּרוּךְ אַתָּה יְהֹוָה, הַמְקַדֵּשׁ אֶת שִׁמְךָ בָּרַבִּים:"
+              "heText": "אַתָּה הוּא עַד שֶׁלֹּא נִבְרָא הָעוֹלָם, אַתָּה הוּא מִשֶּׁנִּבְרָא הָעוֹלָם, אַתָּה הוּא בָּעוֹלָם הַזֶּה, וְאַתָּה הוּא לָעוֹלָם הַבָּא: קַדֵּשׁ אֶת שִׁמְךָ עַל מַקְדִּישֵׁי שְׁמֶךָ, וְקַדֵּשׁ אֶת שִׁמְךָ בְּעוֹלָמֶךָ, וּבִישׁוּעָתְךָ תָּרִים וְתַגְבִּיהַּ קַרְנֵנוּ: בָּרוּךְ אַתָּה יְהֹוָה, הַמְקַדֵּשׁ אֶת שִׁמְךָ בָּרַבִּים:"
             },
             {
               "id": "korb1-002",
-              "type": "rubric",
+              "type": "header",
               "heText": "אַתָּה הוּא יְהֹוָה אֱלֹהֵינוּ"
             },
             {
               "id": "korb1-003",
-              "type": "transition",
+              "type": "section_intro",
               "enText": "Though we will be spending the day taking care of our personal needs, we declare that we long for the time when all Jews will return to Eretz Yisrael, the Beis Hamikdash will be rebuilt, and the world will recognize the truth. And this leads into the recitation of Korbanos."
             },
             {
@@ -917,7 +905,14 @@
               "id": "korb1-005",
               "type": "commentary",
               "enText": "*Really? Am I supposed to wake up each morning and say to myself: \"I sooo wish I could go bring an animal sacrifice this morning\"? How are we supposed to relate to a concept that seems so foreign to us?* (FAQ) — *Valid question! See Appendix 9.* (ANSWER)"
-            },
+            }
+          ]
+        },
+        {
+          "id": "p-korbanos",
+          "heTitle": "קָרְבָּנוֹת",
+          "enTitle": "Korbanos",
+          "segments": [
             {
               "id": "korb1-006",
               "type": "header",
