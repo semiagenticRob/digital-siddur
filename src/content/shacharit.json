@@ -1134,9 +1134,14 @@
               "enText": "Because Torah study is so central to our lives—and we might not have a lot of time for learning during our busy day, we \"learn\" the preceding Mishnah, and conclude with \"learning\" the following Beraisa."
             },
             {
-              "id": "rabbi_yishmael_faq",
-              "type": "faq",
-              "enText": "FAQ: Why conclude with this particular Beraisa? ANSWER: One reason is that יִשְׁמָעֵאל (as in רַבִּי יִשְׁמָעֵאל אוֹמֵר) means \"Hashem will hear.\" As we now begin the core of Shacharis, we need to reinforce in ourselves that Hashem DOES hear our tefillos, even though there are times in our lives when it seems to us that He does not. According to Kabbalah, the Thirteen Middos of Torah interpretation, as set down by Rabbi Yishmael, are parallel to the Thirteen Middos Ha'rachamim (Hashem, Hashem, Kel Rachum…) of Hashem. So by committing ourselves to studying Torah and applying it to our lives, Hashem will deal with us today, and always, based on His middah of Mercy and Forgiveness, rather than His middah of Strict Judgment."
+              "id": "rabbi-yishmael-intro-q",
+              "type": "section_intro",
+              "enText": "Why conclude with this particular Beraisa?"
+            },
+            {
+              "id": "rabbi-yishmael-explanation",
+              "type": "commentary",
+              "enText": "One reason is that יִשְׁמָעֵאל (as in רַבִּי יִשְׁמָעֵאל אוֹמֵר) means \"Hashem will hear.\" As we now begin the core of Shacharis, we need to reinforce in ourselves that Hashem DOES hear our tefillos, even though there are times in our lives when it seems to us that He does not. According to Kabbalah, the Thirteen Middos of Torah interpretation, as set down by Rabbi Yishmael, are parallel to the Thirteen Middos Ha'rachamim (Hashem, Hashem, Kel Rachum…) of Hashem. So by committing ourselves to studying Torah and applying it to our lives, Hashem will deal with us today, and always, based on His middah of Mercy and Forgiveness, rather than His middah of Strict Judgment."
             },
             {
               "id": "braisa_drabi_yishmael_rubric",
