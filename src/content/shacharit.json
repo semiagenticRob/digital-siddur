@@ -904,8 +904,9 @@
             },
             {
               "id": "korb1-005",
-              "type": "commentary",
-              "enText": "*Really? Am I supposed to wake up each morning and say to myself: \"I sooo wish I could go bring an animal sacrifice this morning\"? How are we supposed to relate to a concept that seems so foreign to us?* (FAQ) — *Valid question! See Appendix 9.* (ANSWER)"
+              "type": "faq",
+              "enText": "FAQ: Really? Am I supposed to wake up each morning and say to myself: \"I sooo wish I could go bring an animal sacrifice this morning\"? How are we supposed to relate to a concept that seems so foreign to us? ANSWER: Valid question! See Appendix 9.",
+              "xref": "appendix:9"
             }
           ]
         },
