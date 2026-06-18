@@ -9,7 +9,8 @@ import { SegmentRenderer } from './SegmentRenderer';
 
 type ListItem =
   | { kind: 'prayerHeader'; prayerId: string; heTitle: string; enTitle: string; groupTitle: string }
-  | { kind: 'segment'; segment: Segment; prayerId: string };
+  | { kind: 'segment'; segment: Segment; prayerId: string }
+  | { kind: 'optionalGroup'; segments: Segment[]; prayerId: string };
 
 function flattenService(service: Service): ListItem[] {
   const items: ListItem[] = [];
@@ -22,8 +23,19 @@ function flattenService(service: Service): ListItem[] {
         enTitle: prayer.enTitle,
         groupTitle: group.title,
       });
-      for (const seg of prayer.segments) {
-        items.push({ kind: 'segment', segment: seg, prayerId: prayer.id });
+      // Contiguous runs of optional segments collapse into one shaded box,
+      // mirroring the print's gray block for passages said only at certain times.
+      const segs = prayer.segments;
+      let i = 0;
+      while (i < segs.length) {
+        if (segs[i].optional) {
+          const run: Segment[] = [];
+          while (i < segs.length && segs[i].optional) run.push(segs[i++]);
+          items.push({ kind: 'optionalGroup', segments: run, prayerId: prayer.id });
+        } else {
+          items.push({ kind: 'segment', segment: segs[i], prayerId: prayer.id });
+          i++;
+        }
       }
     }
   }
@@ -70,6 +82,8 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
         keyExtractor={(item, i) =>
           item.kind === 'prayerHeader'
             ? `header-${item.prayerId}`
+            : item.kind === 'optionalGroup'
+            ? `optgroup-${item.segments[0].id}`
             : `seg-${item.segment.id}-${i}`
         }
         renderItem={({ item }) => {
@@ -82,20 +96,24 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
               </View>
             );
           }
-          return (
-            <View style={s.segmentWrapper}>
+          const renderSegment = (segment: Segment) => (
+            <View key={segment.id} style={s.segmentWrapper}>
               <SegmentRenderer
-                segment={item.segment}
+                segment={segment}
                 displayMode={displayMode}
                 fontStep={fontStep}
                 colors={colors}
-                isHighlighted={isHighlighted(item.segment.id)}
-                notes={getNotes(item.segment.id)}
-                onToggleHighlight={() => onToggleHighlight(item.segment.id)}
-                onAddNote={(text) => onAddNote(item.segment.id, text)}
+                isHighlighted={isHighlighted(segment.id)}
+                notes={getNotes(segment.id)}
+                onToggleHighlight={() => onToggleHighlight(segment.id)}
+                onAddNote={(text) => onAddNote(segment.id, text)}
               />
             </View>
           );
+          if (item.kind === 'optionalGroup') {
+            return <View style={s.optionalBox}>{item.segments.map(renderSegment)}</View>;
+          }
+          return renderSegment(item.segment);
         }}
         contentContainerStyle={s.listContent}
       />
@@ -131,5 +149,14 @@ function makeStyles(c: ColorPalette) {
       color: c.muted,
     },
     segmentWrapper: { paddingVertical: 2 },
+    optionalBox: {
+      backgroundColor: c.optionalShade,
+      borderWidth: 1,
+      borderColor: c.optionalBorder,
+      borderRadius: 14,
+      paddingHorizontal: 12,
+      paddingVertical: 8,
+      marginVertical: 10,
+    },
   });
 }

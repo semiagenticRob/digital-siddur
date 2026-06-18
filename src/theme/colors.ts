@@ -9,6 +9,8 @@ export const LightColors = {
   gold: '#D9A53B',
   goldFill: 'rgba(217,165,59,0.30)',
   rubric: '#897640',
+  optionalShade: '#ECE8DC',
+  optionalBorder: '#DAD3C2',
 } as const;
 
 export const DarkColors = {
@@ -22,6 +24,8 @@ export const DarkColors = {
   gold: '#E6B651',
   goldFill: 'rgba(230,182,81,0.20)',
   rubric: '#BBA877',
+  optionalShade: '#171B24',
+  optionalBorder: '#2A2F3C',
 } as const;
 
 export type ColorPalette = typeof LightColors | typeof DarkColors;

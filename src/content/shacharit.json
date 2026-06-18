@@ -1913,16 +1913,6 @@
               "heText": "וַיְבָרֶךְ דָּוִיד אֶת יְהוָה לְעֵינֵי כָּל הַקָּהָל, וַיֹּאמֶר דָּוִיד: בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָבִינוּ, מֵעוֹלָם וְעַד עוֹלָם: לְךָ יְהוָה הַגְּדֻלָּה, וְהַגְּבוּרָה, וְהַתִּפְאֶרֶת וְהַנֵּצַח וְהַהוֹד, כִּי כֹל בַּשָּׁמַיִם וּבָאָרֶץ, לְךָ יְהוָה הַמַּמְלָכָה וְהַמִּתְנַשֵּׂא לְכֹל לְרֹאשׁ:"
             },
             {
-              "id": "azyashir-8",
-              "type": "commentary",
-              "enText": "וַיְבָרֶךְ דָּוִד—David HaMelech proclaims publicly: Hashem—You are the Source of everything (*that I have achieved*)—all greatness, power, wealth, and rulership are Yours, Hashem. You have the power to give us the strength (*to become great and fulfill our mission*). And we thank You for all You have done!"
-            },
-            {
-              "id": "azyashir-9",
-              "type": "insight",
-              "enText": "The opening letters of the opening four words—הרהנ—spell הזה הר ,ויאר, one of the Names of Hashem, which attribute certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
-            },
-            {
               "id": "azyashir-10",
               "type": "rubric",
               "heText": "נוֹהֲגִים לִכְרוֹעַ לִתֵּת צְדָקָה",
@@ -1934,6 +1924,16 @@
               "heText": "וְהָעֹשֶׁר וְהַכָּבוֹד מִלְּפָנֶיךָ, וְאַתָּה מוֹשֵׁל בַּכֹּל, וּבְיָדְךָ כֹּחַ וּגְבוּרָה, וּבְיָדְךָ לְגַדֵּל וּלְחַזֵּק לַכֹּל: וְעַתָּה אֱלֹהֵינוּ מוֹדִים אֲנַחְנוּ לָךְ, וּמְהַלְלִים לְשֵׁם תִּפְאַרְתֶּךָ:"
             },
             {
+              "id": "azyashir-8",
+              "type": "commentary",
+              "enText": "וַיְבָרֶךְ דָּוִד—David HaMelech proclaims publicly: Hashem—You are the Source of everything (*that I have achieved*)—all greatness, power, wealth, and rulership are Yours, Hashem. You have the power to give us the strength (*to become great and fulfill our mission*). And we thank You for all You have done!"
+            },
+            {
+              "id": "azyashir-9",
+              "type": "insight",
+              "enText": "The first letters of the opening four words—ויברך דוד את ה'—spell ודאי, one of the Names of Hashem, which represents His attribute of certainty and reliability. Notwithstanding all the difficulties in his life, David HaMelech always lived with the belief that Hashem can be relied on to take care of him."
+            },
+            {
               "id": "azyashir-13",
               "type": "prayer",
               "heText": "אַתָּה הוּא יְהוָה לְבַדֶּךָ, אַתָּה עָשִׂיתָ אֶת הַשָּׁמַיִם, שְׁמֵי הַשָּׁמַיִם וְכָל צְבָאָם, הָאָרֶץ וְכָל אֲשֶׁר עָלֶיהָ, הַיַּמִּים וְכָל אֲשֶׁר בָּהֶם, וְאַתָּה מְחַיֶּה אֶת כֻּלָּם, וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִים: אַתָּה הוּא יְהוָה הָאֱלֹהִים, אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם, וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים, וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָם: וּמָצָאתָ אֶת לְבָבוֹ נֶאֱמָן לְפָנֶיךָ:"
@@ -1941,12 +1941,18 @@
             {
               "id": "azyashir-12",
               "type": "commentary",
-              "enText": "אַתָּה הוּא—The Navi Nechemiah proclaims: You, Hashem, alone, created the entire universe, and You chose Avraham! You saved him from Ur Kasdim; *כְּרוֹת עִמּוֹ הַבְּרִית*—and You established an everlasting covenant with his descendants (*that's us!*). You saw the suffering of Bnei Yisrael in Egypt, and You performed great public miracles—culminating with splitting the sea in order to save us, Your nation (*for a great mission to the world*)."
+              "enText": "אַתָּה הוּא—The Navi Nechemiah proclaims: You, Hashem, alone, created the entire universe, and You chose Avraham! You saved him from Ur Kasdim."
             },
             {
               "id": "azyashir-14",
               "type": "prayer",
               "heText": "וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי, לָתֵת לְזַרְעוֹ, וַתָּקֶם אֶת דְּבָרֶיךָ, כִּי צַדִּיק אָתָּה: וַתֵּרֶא אֶת עֳנִי אֲבֹתֵינוּ בְּמִצְרָיִם, וְאֶת זַעֲקָתָם שָׁמַעְתָּ עַל יַם סוּף: וַתִּתֵּן אֹתֹת וּמֹפְתִים בְּפַרְעֹה וּבְכָל עֲבָדָיו וּבְכָל עַם אַרְצוֹ, כִּי יָדַעְתָּ כִּי הֵזִידוּ עֲלֵיהֶם, וַתַּעַשׂ לְךָ שֵׁם כְּהַיּוֹם הַזֶּה: וְהַיָּם בָּקַעְתָּ לִפְנֵיהֶם, וַיַּעַבְרוּ בְתוֹךְ הַיָּם בַּיַּבָּשָׁה, וְאֶת רֹדְפֵיהֶם הִשְׁלַכְתָּ בִמְצוֹלֹת, כְּמוֹ אֶבֶן בְּמַיִם עַזִּים:"
+            },
+            {
+              "id": "azyashir-12b",
+              "type": "commentary",
+              "heText": "",
+              "enText": "וְכָרוֹת עִמּוֹ הַבְּרִית—and You established an everlasting covenant with his descendants (*that's us!*). You saw the suffering of Bnei Yisrael in Egypt, and You performed great public miracles—culminating with splitting the sea in order to save us, Your nation (*for a great mission to the world*)."
             },
             {
               "id": "azyashir-15",
@@ -1967,97 +1973,35 @@
             {
               "id": "azyashir-18",
               "type": "prayer",
-              "heText": "אָז יָשִׁיר מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת הַשִּׁירָה הַזֹּאת לַיהוָה, וַיֹּאמְרוּ לֵאמֹר: אָשִׁירָה לַיהוָה כִּי גָאֹה גָּאָה, סוּס וְרֹכְבוֹ רָמָה בַיָּם:"
+              "heText": "אָז יָשִׁיר מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת הַשִּׁירָה הַזֹּאת לַיהוָה, וַיֹּאמְרוּ לֵאמֹר: אָשִׁירָה לַיהוָה כִּי גָאֹה גָּאָה, סוּס וְרֹכְבוֹ רָמָה בַיָּם: עָזִּי וְזִמְרָת יָהּ וַיְהִי לִי לִישׁוּעָה, זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹהֵי אָבִי וַאֲרֹמְמֶנְהוּ: יְהוָה אִישׁ מִלְחָמָה, יְהוָה שְׁמוֹ: מַרְכְּבֹת פַּרְעֹה וְחֵילוֹ יָרָה בַיָּם, וּמִבְחַר שָׁלִשָׁיו טֻבְּעוּ בְיַם סוּף: תְּהֹמֹת יְכַסְיֻמוּ, יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָבֶן: יְמִינְךָ יְהוָה נֶאְדָּרִי בַּכֹּחַ, יְמִינְךָ יְהוָה תִּרְעַץ אוֹיֵב: וּבְרֹב גְּאוֹנְךָ תַּהֲרֹס קָמֶיךָ, תְּשַׁלַּח חֲרֹנְךָ יֹאכְלֵמוֹ כַּקַּשׁ: וּבְרוּחַ אַפֶּיךָ נֶעֶרְמוּ מַיִם, נִצְּבוּ כְמוֹ נֵד נֹזְלִים, קָפְאוּ תְהֹמֹת בְּלֶב יָם: אָמַר אוֹיֵב אֶרְדֹּף אַשִּׂיג אֲחַלֵּק שָׁלָל, תִּמְלָאֵמוֹ נַפְשִׁי, אָרִיק חַרְבִּי, תּוֹרִישֵׁמוֹ יָדִי: נָשַׁפְתָּ בְרוּחֲךָ כִּסָּמוֹ יָם, צָלֲלוּ כַּעוֹפֶרֶת בְּמַיִם אַדִּירִים:"
             },
             {
               "id": "azyashir-19",
               "type": "commentary",
-              "enText": "אָז יָשִׁיר מֹשֶׁה—Then Moshe and Bnei Yisrael chose to sing this Shirah to Hashem and said: I will sing to Hashem for He has triumphed over the haughty (*Egyptians*); His strength and power saved me."
-            },
-            {
-              "id": "azyashir-20",
-              "type": "prayer",
-              "heText": "עָזִּי וְזִמְרָת יָהּ וַיְהִי לִי לִישׁוּעָה, זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹהֵי אָבִי וַאֲרֹמְמֶנְהוּ:"
-            },
-            {
-              "id": "azyashir-21",
-              "type": "commentary",
-              "enText": "This is my God (*I will create my own personal relationship with Hashem*); and He is the God of my father (*and that unique relationship will be built on the foundations of our ancestors*)."
-            },
-            {
-              "id": "azyashir-22",
-              "type": "prayer",
-              "heText": "יְהוָה אִישׁ מִלְחָמָה, יְהוָה שְׁמוֹ: מַרְכְּבֹת פַּרְעֹה וְחֵילוֹ יָרָה בַיָּם, וּמִבְחַר שָׁלִשָׁיו טֻבְּעוּ בְיַם סוּף: תְּהֹמֹת יְכַסְיֻמוּ, יָרְדוּ בִמְצוֹלֹת כְּמוֹ אָבֶן:"
-            },
-            {
-              "id": "azyashir-23",
-              "type": "commentary",
-              "enText": "Hashem cast Pharaoh's chariots and army into the sea and they all drowned; at the same time the flowing waters stood like walls (*to save us*)."
-            },
-            {
-              "id": "azyashir-24",
-              "type": "prayer",
-              "heText": "יְמִינְךָ יְהוָה נֶאְדָּרִי בַּכֹּחַ, יְמִינְךָ יְהוָה תִּרְעַץ אוֹיֵב: וּבְרֹב גְּאוֹנְךָ תַּהֲרֹס קָמֶיךָ, תְּשַׁלַּח חֲרֹנְךָ יֹאכְלֵמוֹ כַּקַּשׁ:"
-            },
-            {
-              "id": "azyashir-25",
-              "type": "prayer",
-              "heText": "וּבְרוּחַ אַפֶּיךָ נֶעֶרְמוּ מַיִם, נִצְּבוּ כְמוֹ נֵד נֹזְלִים, קָפְאוּ תְהֹמֹת בְּלֶב יָם:"
-            },
-            {
-              "id": "azyashir-26",
-              "type": "commentary",
-              "enText": "The enemy said, \"I will chase them, overtake them, and obliterate them!\" You made the wind blow, and the sea covered them, and they sank like lead!"
-            },
-            {
-              "id": "azyashir-27",
-              "type": "prayer",
-              "heText": "אָמַר אוֹיֵב אֶרְדֹּף אַשִּׂיג אֲחַלֵּק שָׁלָל, תִּמְלָאֵמוֹ נַפְשִׁי, אָרִיק חַרְבִּי, תּוֹרִישֵׁמוֹ יָדִי: נָשַׁפְתָּ בְרוּחֲךָ כִּסָּמוֹ יָם, צָלֲלוּ כַּעוֹפֶרֶת בְּמַיִם אַדִּירִים:"
+              "heText": "",
+              "enText": "אָז יָשִׁיר מֹשֶׁה—Then Moshe and Bnei Yisrael chose to sing this Shirah to Hashem and said: I will sing to Hashem for He has triumphed over the haughty (*Egyptians*); His strength and power saved me. This is my God (*I will create my own personal relationship with Hashem*); and He is the God of my father (*and that unique relationship will be built on the foundations of our ancestors*). Hashem cast Pharaoh's chariots and army into the sea and they all drowned; at the same time the flowing waters stood like walls (*to save us*). The enemy said, \"I will chase them, overtake them, and obliterate them!\" You made the wind blow, and the sea covered them, and they sank like lead!"
             },
             {
               "id": "azyashir-28",
               "type": "prayer",
-              "heText": "מִי כָמֹכָה בָּאֵלִם יְהוָה, מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ, נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא:"
+              "heText": "מִי כָמֹכָה בָּאֵלִם יְהוָה, מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ, נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא: נָטִיתָ יְמִינְךָ תִּבְלָעֵמוֹ אָרֶץ: נָחִיתָ בְחַסְדְּךָ עַם זוּ גָּאָלְתָּ, נֵהַלְתָּ בְעָזְּךָ אֶל נְוֵה קָדְשֶׁךָ: שָׁמְעוּ עַמִּים יִרְגָּזוּן, חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת: אָז נִבְהֲלוּ אַלּוּפֵי אֱדוֹם, אֵילֵי מוֹאָב יֹאחֲזֵמוֹ רָעַד, נָמֹגוּ כֹּל יֹשְׁבֵי כְנָעַן: תִּפֹּל עֲלֵיהֶם אֵימָתָה וָפַחַד, בִּגְדֹל זְרוֹעֲךָ יִדְּמוּ כָּאָבֶן, עַד יַעֲבֹר עַמְּךָ יְהוָה, עַד יַעֲבֹר עַם זוּ קָנִיתָ: תְּבִאֵמוֹ וְתִטָּעֵמוֹ בְּהַר נַחֲלָתְךָ, מָכוֹן לְשִׁבְתְּךָ פָּעַלְתָּ יְהוָה, מִקְּדָשׁ אֲדֹנָי כּוֹנְנוּ יָדֶיךָ:"
             },
             {
               "id": "azyashir-29",
               "type": "commentary",
-              "enText": "מִי כָמֹכָה בָּאֵלִם יְהוָה—Among all the powers (*powers of nature, powers of humans*), who is equal to You, Hashem?; *מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ*—Who is like You, powerful but with purity of purpose?; *נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא*—Our songs praising Hashem instill in us awe of Your wondrous deeds, which are in truth beyond our comprehension. All the nations of the world shuddered with fear (*when they heard of this great miracle*). May dread and fear fall upon them until Your nation crosses over (*into Eretz Yisrael*), the place Your Presence is most felt."
-            },
-            {
-              "id": "azyashir-30",
-              "type": "prayer",
-              "heText": "נָטִיתָ יְמִינְךָ תִּבְלָעֵמוֹ אָרֶץ: נָחִיתָ בְחַסְדְּךָ עַם זוּ גָּאָלְתָּ, נֵהַלְתָּ בְעָזְּךָ אֶל נְוֵה קָדְשֶׁךָ: שָׁמְעוּ עַמִּים יִרְגָּזוּן, חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת:"
-            },
-            {
-              "id": "azyashir-31",
-              "type": "prayer",
-              "heText": "אָז נִבְהֲלוּ אַלּוּפֵי אֱדוֹם, אֵילֵי מוֹאָב יֹאחֲזֵמוֹ רָעַד, נָמֹגוּ כֹּל יֹשְׁבֵי כְנָעַן: תִּפֹּל עֲלֵיהֶם אֵימָתָה וָפַחַד, בִּגְדֹל זְרוֹעֲךָ יִדְּמוּ כָּאָבֶן, עַד יַעֲבֹר עַמְּךָ יְהוָה, עַד יַעֲבֹר עַם זוּ קָנִיתָ:"
-            },
-            {
-              "id": "azyashir-32",
-              "type": "prayer",
-              "heText": "תְּבִאֵמוֹ וְתִטָּעֵמוֹ בְּהַר נַחֲלָתְךָ, מָכוֹן לְשִׁבְתְּךָ פָּעַלְתָּ יְהוָה, מִקְּדָשׁ אֲדֹנָי כּוֹנְנוּ יָדֶיךָ: יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד:"
+              "heText": "",
+              "enText": "מִי כָמֹכָה בָּאֵלִם יְהוָה—Among all the powers (*powers of nature, powers of humans*), who is equal to You, Hashem?; מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ—Who is like You, powerful but with purity of purpose?; נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא—Our songs praising You instill in us awe of Your wondrous deeds, which are in truth beyond our comprehension. All the nations of the world shuddered with fear (*when they heard of this great miracle*). May dread and fear fall upon them until Your nation crosses over (*into Eretz Yisrael*), the place Your Presence is most felt."
             },
             {
               "id": "azyashir-34",
               "type": "prayer",
-              "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד: יְהוָה מַלְכוּתֵהּ קָאֵם לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:"
+              "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד: יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד: (יְהוָה מַלְכוּתֵהּ קָאֵם לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:) כִּי בָא סוּס פַּרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו בַּיָּם, וַיָּשֶׁב יְהוָה עֲלֵהֶם אֶת מֵי הַיָּם, וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם: כִּי לַיהוָה הַמְּלוּכָה, וּמֹשֵׁל בַּגּוֹיִם: וְעָלוּ מוֹשִׁיעִים בְּהַר צִיּוֹן לִשְׁפֹּט אֶת הַר עֵשָׂו, וְהָיְתָה לַיהוָה הַמְּלוּכָה: וְהָיָה יְהוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהוָה אֶחָד וּשְׁמוֹ אֶחָד:"
             },
             {
               "id": "azyashir-33",
               "type": "commentary",
-              "enText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד—Just as we have seen the rulership of Hashem here at the sea, so too for all future times Hashem will reign forever and ever!"
-            },
-            {
-              "id": "azyashir-36",
-              "type": "prayer",
-              "heText": "כִּי בָא סוּס פַּרְעֹה בְּרִכְבּוֹ וּבְפָרָשָׁיו בַּיָּם, וַיָּשֶׁב יְהוָה עֲלֵהֶם אֶת מֵי הַיָּם, וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם: כִּי לַיהוָה הַמְּלוּכָה, וּמֹשֵׁל בַּגּוֹיִם: וְעָלוּ מוֹשִׁיעִים בְּהַר צִיּוֹן לִשְׁפֹּט אֶת הַר עֵשָׂו, וְהָיְתָה לַיהוָה הַמְּלוּכָה: וְהָיָה יְהוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהוָה אֶחָד וּשְׁמוֹ אֶחָד:"
-            },
-            {
-              "id": "azyashir-35",
-              "type": "commentary",
-              "enText": "כִּי בָא—Once Mashiach comes the entire world will recognize Hashem as the King of His nation, Bnei Yisrael, and the ruler over all nations. On that day, Hashem will be recognized as the sole power, and His Presence will be felt by all."
+              "heText": "",
+              "enText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד—(*Just as we have seen the rulership of Hashem here at the sea, so too for all future times*) Hashem will reign forever and ever! כִּי לַיהוָה הַמְּלוּכָה וּמֹשֵׁל בַּגּוֹיִם—(*Once Mashiach comes*) the entire world will recognize Hashem as the King of His nation, Bnei Yisrael, and the ruler over all nations. On that day, Hashem will be recognized as the sole power, and His Presence will be felt by all."
             },
             {
               "id": "pz4-hdr-yishtabach",
@@ -2078,13 +2022,7 @@
             {
               "id": "pz4-cmt-yishtabach",
               "type": "commentary",
-              "enText": "יִשְׁתַּבַּח שִׁמְךָ לָעַד מַלְכֵּנוּ—Hashem our King, Who is קָדוֹשׁ *(above all rules of nature)* and is King of the entire Heavens and earth, May the impact of all You do *(שֶׁבַר)* be praised forever. For specifically to You, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout history, is it fitting to offer all praises and thanksgiving, now and forever. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֵל מֶלֶךְ גָּדוֹל בַּתִּשְׁבָּחוֹת—all-powerful King Who is greater than any praises *(that we mere humans can say)*; אֵל הַהוֹדָאוֹת—to Whom all thanksgiving is due; אֲדוֹן הַנִּפְלָאוֹת—Master of wonders; הַבּוֹחֵר בְּשִׁירֵי זִמְרָה—Who takes pleasure in songs of praise; מֶלֶךְ אֵל חֵי הָעוֹלָמִים—You are the King Who gives life to the world."
-            },
-            {
-              "id": "pz4-faq-yishtabach",
-              "type": "faq",
-              "enText": "FAQ: What does it mean that Hashem takes pleasure in songs of praise? Is the בּוֹחֵר בְּשִׁירֵי takes pleasure—Hashem is not human; what does it mean that He takes pleasure? ANSWER: Good question! See Appendix 10.",
-              "xref": "Appendix 10"
+              "enText": "יִשְׁתַּבַּח שִׁמְךָ לָעַד מַלְכֵּנוּ—Hashem our King, Who is קָדוֹשׁ *(above all rules of nature)* and is King of the entire Heavens and earth, May the impact of all You do *(שִׁמְךָ)* be praised forever. For specifically to You, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout history, is it fitting to offer all praises and thanksgiving, now and forever."
             },
             {
               "id": "pz4-pry-baruch-atah",
@@ -2092,34 +2030,51 @@
               "heText": "בָּרוּךְ אַתָּה יְהֹוָה, אֵל מֶלֶךְ גָּדוֹל בַּתִּשְׁבָּחוֹת, אֵל הַהוֹדָאוֹת, אֲדוֹן הַנִּפְלָאוֹת, הַבּוֹחֵר בְּשִׁירֵי זִמְרָה, מֶלֶךְ אֵל חֵי הָעוֹלָמִים:"
             },
             {
+              "id": "pz4-cmt-baruch-atah",
+              "type": "commentary",
+              "heText": "",
+              "enText": "בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֵל מֶלֶךְ גָּדוֹל בַּתִּשְׁבָּחוֹת—all-powerful King Who is greater than any praises *(that we mere humans can say)*; אֵל הַהוֹדָאוֹת—to Whom all thanksgiving is due; אֲדוֹן הַנִּפְלָאוֹת—Master of wonders; הַבּוֹחֵר בְּשִׁירֵי זִמְרָה—Who takes pleasure in songs of praise; מֶלֶךְ אֵל חֵי הָעוֹלָמִים—You are the King Who gives life to the world."
+            },
+            {
+              "id": "pz4-faq-yishtabach",
+              "type": "faq",
+              "enText": "FAQ: What does it mean that Hashem הַבּוֹחֵר בְּשִׁירֵי זִמְרָה—takes pleasure in songs of praise? Hashem is not human; what does it mean that He takes pleasure? ANSWER: Good question! See Appendix 10.",
+              "xref": "Appendix 10"
+            },
+            {
               "id": "pz-t130-rubric",
               "type": "rubric",
               "enText": "During Aseres Yemei Teshuvah, some add",
-              "condition": "aseres_yemei_teshuvah"
+              "condition": "aseres_yemei_teshuvah",
+              "optional": true
             },
             {
               "id": "pz-t130-header",
               "type": "header",
               "heText": "תְּהִלִּים קל",
-              "plain": true
+              "plain": true,
+              "optional": true
             },
             {
               "id": "pz4-cmt-shir-hamaalos-1",
               "type": "section_intro",
               "enText": "The focus of this chapter is that even when we are מִמַּעֲמַקִּים—*(note that it is plural, meaning \"depths\")* experiencing either the depths of misfortune and difficulties or the depths of feelings of guilt because we know we have messed up; no matter what, we can turn to Hashem because He is full of chessed, and the הַרְבֵּה עִמּוֹ פְדוּת—His power to redeem and forgive us is great.",
-              "condition": "During Aseres Yemei Teshuvah"
+              "condition": "During Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "pz4-pry-shir-hamaalos",
               "type": "prayer",
               "heText": "שִׁיר הַמַּעֲלוֹת, מִמַּעֲמַקִּים קְרָאתִיךָ יְהֹוָה: אֲדֹנָי שִׁמְעָה בְקוֹלִי, תִּהְיֶינָה אָזְנֶיךָ קַשֻּׁבוֹת לְקוֹל תַּחֲנוּנָי: אִם עֲוֹנוֹת תִּשְׁמָר יָהּ, אֲדֹנָי מִי יַעֲמֹד: כִּי עִמְּךָ הַסְּלִיחָה, לְמַעַן תִּוָּרֵא: קִוִּיתִי יְהֹוָה קִוְּתָה נַפְשִׁי, וְלִדְבָרוֹ הוֹחָלְתִּי: נַפְשִׁי לַאדֹנָי, מִשֹּׁמְרִים לַבֹּקֶר, שֹׁמְרִים לַבֹּקֶר: יַחֵל יִשְׂרָאֵל אֶל יְהֹוָה, כִּי עִם יְהֹוָה הַחֶסֶד, וְהַרְבֵּה עִמּוֹ פְדוּת: וְהוּא יִפְדֶּה אֶת יִשְׂרָאֵל, מִכֹּל עֲוֹנֹתָיו:",
-              "condition": "During Aseres Yemei Teshuvah"
+              "condition": "During Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "pz4-cmt-shir-hamaalos-2",
               "type": "commentary",
               "enText": "שִׁיר הַמַּעֲלוֹת, מִמַּעֲמַקִּים—I know that I have not lived up to my potential, and I accept that if You would judge me by the strict letter of law, I could not survive! But I do want to create a relationship with You. And thus I turn to You, Hashem, for You are the Source of loving-kindness and forgiveness, and ask that You give me another chance to prove myself.",
-              "condition": "During Aseres Yemei Teshuvah"
+              "condition": "During Aseres Yemei Teshuvah",
+              "optional": true
             }
           ]
         }
@@ -2154,7 +2109,7 @@
               "id": "kaddish_1_gloss",
               "type": "commentary",
               "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא",
-              "enText": "(The chazzan proclaims our hope that) soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all, and will see the sanctity, perfection, and purpose of all He has done."
+              "enText": "*(The chazzan proclaims our hope that)* soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all, and will see the sanctity, perfection, and purpose of all He has done."
             },
             {
               "id": "kaddish_2",
@@ -2165,7 +2120,7 @@
               "id": "kaddish_2_gloss",
               "type": "commentary",
               "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ",
-              "enText": "(We all enthusiastically respond:) Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
+              "enText": "*(We all enthusiastically respond:)* Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
             },
             {
               "id": "kaddish_3",
@@ -2176,7 +2131,7 @@
               "id": "kaddish_3_gloss",
               "type": "commentary",
               "heText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח",
-              "enText": "(The chazzan then points out that) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: אָמֵן — Absolutely correct!"
+              "enText": "*(The chazzan then points out that)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: אָמֵן — Absolutely correct!"
             },
             {
               "id": "kaddish_4",
@@ -2190,22 +2145,34 @@
               "heText": "בָּרְכוּ"
             },
             {
+              "id": "barchu_chazzan_label",
+              "type": "rubric",
+              "enText": "Chazzan:"
+            },
+            {
               "id": "barchu_chazzan",
               "type": "prayer",
-              "heText": "בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ:",
-              "enText": "חזן"
+              "heText": "בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ:"
+            },
+            {
+              "id": "barchu_kahal_label",
+              "type": "rubric",
+              "enText": "Congregation:"
             },
             {
               "id": "barchu_kahal",
               "type": "prayer",
-              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:",
-              "enText": "קהל"
+              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
+            },
+            {
+              "id": "barchu_chazzan_repeat_label",
+              "type": "rubric",
+              "enText": "Chazzan repeats:"
             },
             {
               "id": "barchu_chazzan_repeat",
               "type": "prayer",
-              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:",
-              "enText": "חזן"
+              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
             },
             {
               "id": "barchu_gloss_1",
@@ -2408,7 +2375,7 @@
             {
               "id": "shema_header",
               "type": "header",
-              "heText": "קְרִיאַת שְׁמַע / עַל מַלְכוּת שָׁמַיִם",
+              "heText": "קְרִיאַת שְׁמַע / עַל מַלְכוּת שָׁמַיִם\nשְׁמַע / בָּרוּךְ שֵׁם / וְאָהַבְתָּ / וְהָיָה / וַיֹּאמֶר",
               "enText": "OK, I'll Do It!"
             },
             {
@@ -2474,6 +2441,21 @@
               "enText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ—May the perception of Hashem's Presence and rulership be increased (so all humans will recognize His existence and power); לְעוֹלָם וָעֶד—forever and ever."
             },
             {
+              "id": "insight_ol",
+              "type": "insight",
+              "enText": "The idea of an עֹל—\"yoke,\" as in the concept of עֹל מַלְכוּת—accepting the yoke of the Kingdom of Heaven, seems to carry an image of mitzvos being a heavy, difficult burden that we shlep around on our backs our whole life. True, at times mitzvos seem \"heavy\" and difficult, and we are obligated to persevere. But the choice of the term עֹל carries a profound message. As I heard from Rav Matisyahu Solomon, shlita, a yoke is simply a tool that allows the animal to do its job in the most efficient and easy way possible. How else could it pull the wagon if it did not have a yoke? So too, when we proclaim the Shema and publicly accept עֹל מַלְכוּת שָׁמַיִם, the yoke of the Kingdom of Heaven, we must realize that the mitzvos are perfectly crafted, precise tools that allow us to do OUR job here on earth! How would we manage without them?"
+            },
+            {
+              "id": "insight_backward_letters",
+              "type": "insight",
+              "enText": "The letters of the Shema that begin with ש-מ-ע are the same as the letters that spell the words עַל מַלְכוּת but backward! The message is that even when Torah laws and values seem \"backward\" to us—as if they make no sense—nevertheless we accept that in truth they are the tools for our success."
+            },
+            {
+              "id": "insight_ayin_dalet",
+              "type": "insight",
+              "enText": "In the Torah, the pasuk of the Shema has the letters ע and ד (which spell עֵד—witness) enlarged. The very miracle of our survival—that after all these years Jews all over the world are united in their proclamation of the Shema—is witness to the truth of the Torah!"
+            },
+            {
               "id": "vahavta_intro",
               "type": "section_intro",
               "enText": "Next, the Torah describes the obligation of each individual:"
@@ -2521,14 +2503,18 @@
             {
               "id": "emes_vyatziv_header",
               "type": "header",
-              "heText": "הַשַּׁ\"ץ חוֹזֵר וְאוֹמֵר: יְהוָה אֱלֹהֵיכֶם אֱמֶת:",
               "enText": "All the Above Is Absolute Solid Truth!"
             },
             {
               "id": "emes_vyatziv_chazan_rubric",
               "type": "rubric",
               "heText": "הַשַּׁ\"ץ חוֹזֵר וְאוֹמֵר:",
-              "enText": "The chazan repeats and says: יְהוָה אֱלֹהֵיכֶם אֱמֶת"
+              "enText": "The chazzan repeats and says:"
+            },
+            {
+              "id": "emes_vyatziv_chazan_line",
+              "type": "prayer",
+              "heText": "יְהוָה אֱלֹהֵיכֶם אֱמֶת:"
             },
             {
               "id": "emes_vyatziv_subheader",
@@ -2620,21 +2606,6 @@
               "id": "tzur_yisrael_gloss",
               "type": "commentary",
               "enText": "צוּר יִשְׂרָאֵל—(And therefore we ask that just like You miraculously saved us then from the Egyptians and we sang Shirah, so too now) Hashem, our Redeemer, once again rise up and save us, and bring Mashiach as You promised. בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; גָּאַל יִשְׂרָאֵל—Who has redeemed Bnei Yisrael (from Egypt, and will redeem us in the future)."
-            },
-            {
-              "id": "insight_ol",
-              "type": "insight",
-              "enText": "The idea of an עֹל—\"yoke,\" as in the concept of עֹל מַלְכוּת—accepting the yoke of the Kingdom of Heaven, seems to carry an image of mitzvos being a heavy, difficult burden that we shlep around on our backs our whole life. True, at times mitzvos seem \"heavy\" and difficult, and we are obligated to persevere. But the choice of the term עֹל carries a profound message. As I heard from Rav Matisyahu Solomon, shlita, a yoke is simply a tool that allows the animal to do its job in the most efficient and easy way possible. How else could it pull the wagon if it did not have a yoke? So too, when we proclaim the Shema and publicly accept עֹל מַלְכוּת שָׁמַיִם, the yoke of the Kingdom of Heaven, we must realize that the mitzvos are perfectly crafted, precise tools that allow us to do OUR job here on earth! How would we manage without them?"
-            },
-            {
-              "id": "insight_backward_letters",
-              "type": "insight",
-              "enText": "The letters of the Shema that begin with ש-מ-ע are the same as the letters that spell the words עַל מַלְכוּת but backward! The message is that even when Torah laws and values seem \"backward\" to us—as if they make no sense—nevertheless we accept that in truth they are the tools for our success."
-            },
-            {
-              "id": "insight_ayin_dalet",
-              "type": "insight",
-              "enText": "In the Torah, the pasuk of the Shema has the letters ע and ד (which spell עֵד—witness) enlarged. The very miracle of our survival—that after all these years Jews all over the world are united in their proclamation of the Shema—is witness to the truth of the Torah!"
             }
           ]
         }
