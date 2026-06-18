@@ -2103,41 +2103,12 @@
             {
               "id": "kaddish_1",
               "type": "prayer",
-              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל. בַּעֲגָלָא וּבִזְמַן קָרִיב וְאִמְרוּ אָמֵן:"
+              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ וְיַמְלִיךְ מַלְכוּתֵהּ בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל. בַּעֲגָלָא וּבִזְמַן קָרִיב וְאִמְרוּ אָמֵן: יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא: יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא. לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי״ת לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא תֻּשְׁבְּחָתָא וְנֶחֱמָתָא דַּאֲמִירָן בְּעָלְמָא וְאִמְרוּ אָמֵן:"
             },
             {
               "id": "kaddish_1_gloss",
               "type": "commentary",
-              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא",
-              "enText": "*(The chazzan proclaims our hope that)* soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all, and will see the sanctity, perfection, and purpose of all He has done."
-            },
-            {
-              "id": "kaddish_2",
-              "type": "prayer",
-              "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:"
-            },
-            {
-              "id": "kaddish_2_gloss",
-              "type": "commentary",
-              "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ",
-              "enText": "*(We all enthusiastically respond:)* Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
-            },
-            {
-              "id": "kaddish_3",
-              "type": "prayer",
-              "heText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדָּר וְיִתְעַלֶּה וְיִתְהַלָּל שְׁמֵהּ דְּקֻדְשָׁא בְּרִיךְ הוּא."
-            },
-            {
-              "id": "kaddish_3_gloss",
-              "type": "commentary",
-              "heText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח",
-              "enText": "*(The chazzan then points out that)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: אָמֵן — Absolutely correct!"
-            },
-            {
-              "id": "kaddish_4",
-              "type": "prayer",
-              "heText": "לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי״ת לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא תֻּשְׁבְּחָתָא וְנֶחֱמָתָא דַּאֲמִירָן בְּעָלְמָא וְאִמְרוּ אָמֵן:",
-              "condition": "aseres_yemei_teshuva"
+              "enText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא—*(The chazzan proclaims our hope that)* soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all, and will see the sanctity, perfection, and purpose of all He has done. אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא—*(We all enthusiastically respond:)* Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise! יִתְבָּרַךְ וְיִשְׁתַּבַּח—*(The chazzan then points out that)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: אָמֵן — Absolutely correct!"
             },
             {
               "id": "barchu_header",
@@ -2177,14 +2148,12 @@
             {
               "id": "barchu_gloss_1",
               "type": "commentary",
-              "heText": "בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ",
-              "enText": "(The chazzan calls us to action and says to us:) We must make the world realize (by how we speak and how we conduct ourselves daily) that Hashem is the Source of all, and that everything He does is perfect and for the ultimate best."
+              "enText": "בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ—*(The chazzan calls us to action and says to us:)* We must make the world realize (by how we speak and how we conduct ourselves daily) that Hashem is the Source of all, and that everything He does is perfect and for the ultimate best."
             },
             {
               "id": "barchu_gloss_2",
               "type": "commentary",
-              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד",
-              "enText": "(And we respond, followed by the chazzan himself:) Yes, we pledge to make the world realize (by how we speak and how we conduct ourselves daily) that Hashem is the Source of all, and that everything He does is perfect and for the ultimate best — for all eternity!"
+              "enText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד—*(And we respond, followed by the chazzan himself:)* Yes, we pledge to make the world realize (by how we speak and how we conduct ourselves daily) that Hashem is the Source of all, and that everything He does is perfect and for the ultimate best — for all eternity!"
             },
             {
               "id": "kaddish_insight",
@@ -3690,6 +3659,213 @@
       "id": "g-tachanun",
       "title": "Tachanun & supplications",
       "prayers": [
+        {
+          "id": "p-vidui",
+          "heTitle": "וִדּוּי",
+          "enTitle": "Vidui",
+          "segments": [
+            {
+              "id": "vidui-1",
+              "type": "rubric",
+              "enText": "Some add the following before Tachanun:"
+            },
+            {
+              "id": "vidui-2",
+              "type": "prayer",
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, תָּבוֹא לְפָנֶיךָ תְּפִלָּתֵנוּ, וְאַל תִּתְעַלַּם מִתְּחִנָּתֵנוּ, שֶׁאֵין אָנוּ עַזֵּי פָנִים וּקְשֵׁי עֹרֶף לוֹמַר לְפָנֶיךָ יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ, אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ:"
+            },
+            {
+              "id": "vidui-3",
+              "type": "commentary",
+              "enText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ—You control everything, and have taken care of Bnei Yisrael throughout history starting from the time of the Avos. Please accept our tefillos, and do not turn away from us, for we are not arrogant hypocrites claiming that we are perfect. Rather, we are being honest *(with You and with ourselves)*, and we admit that we have not lived up to our potential!"
+            },
+            {
+              "id": "vidui-4",
+              "type": "prayer",
+              "heText": "אָשַׁמְנוּ. בָּגַדְנוּ. גָּזַלְנוּ. דִּבַּרְנוּ דֹפִי. הֶעֱוִינוּ. וְהִרְשַׁעְנוּ. זַדְנוּ. חָמַסְנוּ. טָפַלְנוּ שֶׁקֶר. יָעַצְנוּ רָע. כִּזַּבְנוּ. לַצְנוּ. מָרַדְנוּ. נִאַצְנוּ. סָרַרְנוּ. עָוִינוּ. פָּשַׁעְנוּ. צָרַרְנוּ. קִשִּׁינוּ עֹרֶף. רָשַׁעְנוּ. שִׁחַתְנוּ. תִּעַבְנוּ. תָּעִינוּ. תִּעְתָּעְנוּ:"
+            },
+            {
+              "id": "vidui-5",
+              "type": "commentary",
+              "enText": "אָשַׁמְנוּ—This list of transgressions follows the order of the aleph-beis. Each of the letters from א to ת is meant to help us think of specific areas that we need to work on. If Hebrew does not \"work\" for you, then simply think of specific things in both Hebrew (or English) that you need to work on."
+            },
+            {
+              "id": "vidui-6",
+              "type": "prayer",
+              "heText": "סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים וְלֹא שָׁוָה לָנוּ. וְאַתָּה צַדִּיק עַל כָּל הַבָּא עָלֵינוּ, כִּי אֱמֶת עָשִׂיתָ, וַאֲנַחְנוּ הִרְשָׁעְנוּ:"
+            },
+            {
+              "id": "vidui-7",
+              "type": "commentary",
+              "enText": "סַרְנוּ מִמִּצְוֹתֶיךָ—We have strayed from Your mitzvos, which we know are good, and those inappropriate activities are truly above such actions *(which is why we are asking for time to improve so that we can live up to our true potential!)*."
+            },
+            {
+              "id": "vidui-8",
+              "type": "prayer",
+              "heText": "אֵל אֶרֶךְ אַפַּיִם אַתָּה וּבַעַל הָרַחֲמִים נִקְרֵאתָ, וְדֶרֶךְ תְּשׁוּבָה הוֹרֵיתָ, גְּדֻלַּת רַחֲמֶיךָ וַחֲסָדֶיךָ תִּזְכּוֹר הַיּוֹם וּבְכָל יוֹם לְזֶרַע יְדִידֶיךָ: תֵּפֶן אֵלֵינוּ בְּרַחֲמִים, כִּי אַתָּה הוּא בַּעַל הָרַחֲמִים: בְּתַחֲנוּן וּבִתְפִלָּה פָּנֶיךָ נְקַדֵּם, כְּהוֹדַעְתָּ לֶעָנָיו מִקֶּדֶם, מֵחֲרוֹן אַפְּךָ שׁוּב, כְּמוֹ בְּתוֹרָתְךָ כָּתוּב, וּבְצֵל כְּנָפֶיךָ נֶחֱסֶה וְנִתְלוֹנָן, כְּיוֹם וַיֵּרֶד יְהוָה בֶּעָנָן, תַּעֲבוֹר עַל פֶּשַׁע וְתִמְחֶה אָשָׁם, כְּיוֹם וַיִּתְיַצֵּב עִמּוֹ שָׁם, תַּאֲזִין שַׁוְעָתֵנוּ וְתַקְשִׁיב מֶנּוּ מַאֲמָר, כְּיוֹם וַיִּקְרָא בְשֵׁם יְהוָה, וְשָׁם נֶאֱמַר:"
+            },
+            {
+              "id": "vidui-9",
+              "type": "commentary",
+              "enText": "אֵל אֶרֶךְ אַפַּיִם—Your thirteen attributes of mercy *(which are spelled out below)* are introduced here. We ask Hashem to relate to us with these attributes—to be patient, to remember the greatness of His mercy and kindness, and to give us another chance, as it says in the Torah."
+            },
+            {
+              "id": "vidui-10",
+              "type": "rubric",
+              "enText": "The following is only said with a minyan:"
+            },
+            {
+              "id": "vidui-11",
+              "type": "prayer",
+              "heText": "וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא:"
+            },
+            {
+              "id": "vidui-12",
+              "type": "commentary",
+              "enText": "וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא—And Hashem passed before Moshe and Hashem called out *(that we should say the following in our tefillos)*."
+            },
+            {
+              "id": "vidui-13",
+              "type": "prayer",
+              "heText": "יְהוָה."
+            },
+            {
+              "id": "vidui-14",
+              "type": "commentary",
+              "enText": "יְהוָה—He is compassionate before one has sinned. We need Hashem's mercy even before we ever sin, for Hashem owes us nothing! All that we have is only due to His mercy and compassion."
+            },
+            {
+              "id": "vidui-15",
+              "type": "prayer",
+              "heText": "יְהוָה."
+            },
+            {
+              "id": "vidui-16",
+              "type": "commentary",
+              "enText": "יְהוָה—He is compassionate after one has sinned and done teshuvah. Unlike human beings, who tend to distance themselves from those who have wronged them, Hashem's closeness to us remains even after we have sinned *(even seriously)* against Him."
+            },
+            {
+              "id": "vidui-17",
+              "type": "prayer",
+              "heText": "אֵל."
+            },
+            {
+              "id": "vidui-18",
+              "type": "commentary",
+              "enText": "אֵל—Hashem compassionately uses His might to restrain His anger and arouse His mercy."
+            },
+            {
+              "id": "vidui-19",
+              "type": "prayer",
+              "heText": "רַחוּם."
+            },
+            {
+              "id": "vidui-20",
+              "type": "commentary",
+              "enText": "רַחוּם—He eases the punishment of sinners when they call out to Him."
+            },
+            {
+              "id": "vidui-21",
+              "type": "prayer",
+              "heText": "וְחַנּוּן."
+            },
+            {
+              "id": "vidui-22",
+              "type": "commentary",
+              "enText": "וְחַנּוּן—He acts charitably to those who ask for it, even if they are unworthy."
+            },
+            {
+              "id": "vidui-23",
+              "type": "prayer",
+              "heText": "אֶרֶךְ אַפַּיִם."
+            },
+            {
+              "id": "vidui-24",
+              "type": "commentary",
+              "enText": "אֶרֶךְ אַפַּיִם—He is slow to anger and does not punish us immediately—in the hope that we will improve."
+            },
+            {
+              "id": "vidui-25",
+              "type": "prayer",
+              "heText": "וְרַב חֶסֶד."
+            },
+            {
+              "id": "vidui-26",
+              "type": "commentary",
+              "enText": "וְרַב חֶסֶד—He shows great chesed to those who need it but do not necessarily deserve it by their own merit."
+            },
+            {
+              "id": "vidui-27",
+              "type": "prayer",
+              "heText": "וֶאֱמֶת."
+            },
+            {
+              "id": "vidui-28",
+              "type": "commentary",
+              "enText": "וֶאֱמֶת—He is faithful to generously reward those who do His will."
+            },
+            {
+              "id": "vidui-29",
+              "type": "prayer",
+              "heText": "נֹצֵר חֶסֶד לָאֲלָפִים."
+            },
+            {
+              "id": "vidui-30",
+              "type": "commentary",
+              "enText": "נֹצֵר חֶסֶד לָאֲלָפִים—He extends the reward for mitzvos that a person does for two thousand generations *(for the benefit of his descendants)*."
+            },
+            {
+              "id": "vidui-31",
+              "type": "prayer",
+              "heText": "נֹשֵׂא עָוֹן."
+            },
+            {
+              "id": "vidui-32",
+              "type": "commentary",
+              "enText": "נֹשֵׂא עָוֹן—He forgives deliberate sins."
+            },
+            {
+              "id": "vidui-33",
+              "type": "prayer",
+              "heText": "וָפֶשַׁע."
+            },
+            {
+              "id": "vidui-34",
+              "type": "commentary",
+              "enText": "וָפֶשַׁע—He forgives rebellious sins."
+            },
+            {
+              "id": "vidui-35",
+              "type": "prayer",
+              "heText": "וְחַטָּאָה."
+            },
+            {
+              "id": "vidui-36",
+              "type": "commentary",
+              "enText": "וְחַטָּאָה—He forgives unintentional sins."
+            },
+            {
+              "id": "vidui-37",
+              "type": "prayer",
+              "heText": "וְנַקֵּה."
+            },
+            {
+              "id": "vidui-38",
+              "type": "commentary",
+              "enText": "וְנַקֵּה—He cleanses those who do teshuvah and gives them a fresh start!"
+            },
+            {
+              "id": "vidui-39",
+              "type": "prayer",
+              "heText": "וְסָלַחְתָּ לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ: סְלַח לָנוּ אָבִינוּ כִּי חָטָאנוּ, מְחַל לָנוּ מַלְכֵּנוּ כִּי פָשָׁעְנוּ, כִּי אַתָּה אֲדֹנָי טוֹב וְסַלָּח וְרַב חֶסֶד לְכָל קֹרְאֶיךָ:"
+            },
+            {
+              "id": "vidui-40",
+              "type": "commentary",
+              "enText": "וְסָלַחְתָּ לַעֲוֹנֵנוּ—Please forgive our sins—and keep us as Your special and eternal nation—for You are full of kindness to all who call to You."
+            }
+          ]
+        },
         {
           "id": "avinu_malkeinu",
           "heTitle": "אָבִינוּ מַלְכֵּנוּ",
