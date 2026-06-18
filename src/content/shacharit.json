@@ -2118,7 +2118,7 @@
             {
               "id": "barchu_chazzan_label",
               "type": "rubric",
-              "enText": "Chazzan:"
+              "heText": "חַזָּן:"
             },
             {
               "id": "barchu_chazzan",
@@ -2128,7 +2128,7 @@
             {
               "id": "barchu_kahal_label",
               "type": "rubric",
-              "enText": "Congregation:"
+              "heText": "קָהָל:"
             },
             {
               "id": "barchu_kahal",
@@ -2138,7 +2138,7 @@
             {
               "id": "barchu_chazzan_repeat_label",
               "type": "rubric",
-              "enText": "Chazzan repeats:"
+              "heText": "חַזָּן:"
             },
             {
               "id": "barchu_chazzan_repeat",
