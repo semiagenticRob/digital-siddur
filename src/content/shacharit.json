@@ -2116,34 +2116,19 @@
               "heText": "בָּרְכוּ"
             },
             {
-              "id": "barchu_chazzan_label",
-              "type": "rubric",
-              "heText": "חַזָּן:"
-            },
-            {
               "id": "barchu_chazzan",
               "type": "prayer",
-              "heText": "בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ:"
-            },
-            {
-              "id": "barchu_kahal_label",
-              "type": "rubric",
-              "heText": "קָהָל:"
+              "heText": "חזן: בָּרְכוּ אֶת יְהוָֹה הַמְּבֹרָךְ:"
             },
             {
               "id": "barchu_kahal",
               "type": "prayer",
-              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
-            },
-            {
-              "id": "barchu_chazzan_repeat_label",
-              "type": "rubric",
-              "heText": "חַזָּן:"
+              "heText": "קהל: בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
             },
             {
               "id": "barchu_chazzan_repeat",
               "type": "prayer",
-              "heText": "בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
+              "heText": "חזן: בָּרוּךְ יְהוָֹה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
             },
             {
               "id": "barchu_gloss_1",
