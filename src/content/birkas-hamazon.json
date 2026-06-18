@@ -21,7 +21,7 @@
             {
               "id": "hazan_commentary",
               "type": "commentary",
-              "enText": "בָּרוּךְ אַתָּה—You, Hashem, are the Source of everything; You take care of us and You rule the entire world; and You provide all the needs for the entire world with kindness and compassion (even when we are not so deserving!). You provide food to all living things, thanks to Your good chessed. And because of Your constant goodness, we have never lacked food, and we will never lack anything, for You feed all, sustain all, do good for all the creatures You have created. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; אֶת הַכֹּל—Who provides food for all."
+              "enText": "**בָּרוּךְ אַתָּה**—You, Hashem, are the Source of everything; You take care of us and You rule the entire world; and You provide all the needs for the entire world with kindness and compassion (even when we are not so deserving!). You provide food to all living things, thanks to Your good chessed. And because of Your constant goodness, we have never lacked food, and we will never lack anything, for You feed all, sustain all, do good for all the creatures You have created. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֶת הַכֹּל**—Who provides food for all."
             },
             {
               "id": "hazan_prayer",
@@ -50,7 +50,7 @@
             {
               "id": "nodeh_commentary",
               "type": "commentary",
-              "enText": "נוֹדֶה לְּךָ—We thank You, Hashem, for: giving us a wonderful and spacious land; taking us out of Egypt and freeing us from slavery; giving us the mitzvah of bris milah; for Your Torah that You taught us; for Your mitzvos that You gave us; for life, goodness, and kindness that You granted us; and for continually taking care of us, constantly!"
+              "enText": "**נוֹדֶה לְּךָ**—We thank You, Hashem, for: giving us a wonderful and spacious land; taking us out of Egypt and freeing us from slavery; giving us the mitzvah of bris milah; for Your Torah that You taught us; for Your mitzvos that You gave us; for life, goodness, and kindness that You granted us; and for continually taking care of us, constantly!"
             },
             {
               "id": "nodeh_prayer",
@@ -66,7 +66,7 @@
             {
               "id": "al_hanissim_commentary",
               "type": "commentary",
-              "enText": "(וְ)עַל הַנִּסִּים—(We also thank You) for our miraculous rescue; for the mighty acts and victories; and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors in those days at this season."
+              "enText": "(וְ)**עַל הַנִּסִּים**—(We also thank You) for our miraculous rescue; for the mighty acts and victories; and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors in those days at this season."
             },
             {
               "id": "al_hanissim_prayer",
@@ -77,7 +77,7 @@
             {
               "id": "al_hanissim_chanukah_commentary",
               "type": "commentary",
-              "enText": "On Chanukah: בִּימֵי מַתִּתְיָהוּ—In the days of the Kohen Gadol Matisyahu and his children, the despotic Syrian-Greek empire rose up against Your people (Bnei Yisrael), to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few (army of the Chashmonaim) victorious over the stronger and more numerous (Greek army). You made the Jews who had remained pure from the immorality of the Greek culture (טְהוֹרִים), who had remained righteous and loyal to Torah standards (צַדִּיקִים) and who remained diligent in the study of Torah (עוֹסְקֵי תוֹרָתֶךָ) victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture (טְמֵאִים and רְשָׁעִים), and deliberately tried to eradicate Torah study (זֵדִים). All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You.",
+              "enText": "On Chanukah: **בִּימֵי מַתִּתְיָהוּ**—In the days of the Kohen Gadol Matisyahu and his children, the despotic Syrian-Greek empire rose up against Your people (Bnei Yisrael), to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few (army of the Chashmonaim) victorious over the stronger and more numerous (Greek army). You made the Jews who had remained pure from the immorality of the Greek culture (טְהוֹרִים), who had remained righteous and loyal to Torah standards (צַדִּיקִים) and who remained diligent in the study of Torah (עוֹסְקֵי תוֹרָתֶךָ) victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture (טְמֵאִים and רְשָׁעִים), and deliberately tried to eradicate Torah study (זֵדִים). All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You.",
               "condition": "chanukah"
             },
             {
@@ -89,7 +89,7 @@
             {
               "id": "al_hanissim_purim_commentary",
               "type": "commentary",
-              "enText": "On Purim: בִּימֵי מָרְדְּכַי וְאֶסְתֵּר—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
+              "enText": "On Purim: **בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
               "condition": "purim"
             },
             {
@@ -204,7 +204,7 @@
             {
               "id": "hatov_en",
               "type": "commentary",
-              "enText": "You, Hashem, are the Source of everything; You take care of us; and You rule the entire world; You are our Father, our King, our mighty One, our Creator, our Redeemer, and You have shaped us (into our nation). You are קָדוֹשׁ—separate and far removed from this physical world; we too are also \"קְדוֹשִׁים\"—we are separate and removed from the values and the \"norms\" of the material world (look at the miracle of our survival!). You are our Shepherd (Who has guided us through our miraculous history). You are the Good King Who does good to everyone; שֶׁבְּכָל יוֹם וָיוֹם הוּא הֵיטִיב הוּא מֵטִיב הוּא יֵיטִיב לָנוּ—for each and every day (whether we realize it or not) Hashem Himself has done good for us (in the past); Hashem Himself does good for us (now); and (and we believe that in the future) Hashem Himself will (continue to) do good for us—granting us chessed and kindness (helping us even when we do not deserve all this good), prosperity, success, relief from our troubles, salvation, support, a livelihood, and a life of peace and many other things! וּמִכָּל טוּב לְעוֹלָם אַל יְחַסְּרֵנוּ—May He never cause us to lack any good things!"
+              "enText": "You, Hashem, are the Source of everything; You take care of us; and You rule the entire world; You are our Father, our King, our mighty One, our Creator, our Redeemer, and You have shaped us (into our nation). You are **קָדוֹשׁ**—separate and far removed from this physical world; we too are also \"קְדוֹשִׁים\"—we are separate and removed from the values and the \"norms\" of the material world (look at the miracle of our survival!). You are our Shepherd (Who has guided us through our miraculous history). You are the Good King Who does good to everyone; **שֶׁבְּכָל יוֹם וָיוֹם הוּא הֵיטִיב הוּא מֵטִיב הוּא יֵיטִיב לָנוּ**—for each and every day (whether we realize it or not) Hashem Himself has done good for us (in the past); Hashem Himself does good for us (now); and (and we believe that in the future) Hashem Himself will (continue to) do good for us—granting us chessed and kindness (helping us even when we do not deserve all this good), prosperity, success, relief from our troubles, salvation, support, a livelihood, and a life of peace and many other things! **וּמִכָּל טוּב לְעוֹלָם אַל יְחַסְּרֵנוּ**—May He never cause us to lack any good things!"
             },
             {
               "id": "hatov_faq",
@@ -256,7 +256,7 @@
             {
               "id": "harachaman_en_3",
               "type": "commentary",
-              "enText": "May Hashem, Who is compassionate, bless (my father, my teacher) the master of this house; and (my mother, my teacher) the mistress of this house; them, their household, their children, and all that is theirs; (If you are at your own table:) me (and my wife/husband and my children and grandchildren) and all that is ours; (and all who ate at this table)—Just as He blessed our Avos, Avraham, Yitzchak, and Yaakov, so may He bless all of us together with a perfect brachah and let us all say: אָמֵן—that is absolutely true, and I hope it will happen soon!"
+              "enText": "May Hashem, Who is compassionate, bless (my father, my teacher) the master of this house; and (my mother, my teacher) the mistress of this house; them, their household, their children, and all that is theirs; (If you are at your own table:) me (and my wife/husband and my children and grandchildren) and all that is ours; (and all who ate at this table)—Just as He blessed our Avos, Avraham, Yitzchak, and Yaakov, so may He bless all of us together with a perfect brachah and let us all say: **אָמֵן**—that is absolutely true, and I hope it will happen soon!"
             },
             {
               "id": "harachaman_he_4",
@@ -363,7 +363,7 @@
             {
               "id": "harachaman_en_5",
               "type": "commentary",
-              "enText": "May Hashem, Who is compassionate, grant us the privilege of reaching the days of the Mashiach and the life in Olam Haba. Hashem Who gives great victories to His king (David HaMelech) and shows kindness to him and his descendants (that's us!) forever. May He Who makes peace in the Heavens (in the world of angels—and in nature) bring about peace upon us (since we seem to have a hard time doing it ourselves) and upon all of Bnei Yisrael, and let us all say: אָמֵן—that is absolutely true, and I hope it will happen soon!"
+              "enText": "May Hashem, Who is compassionate, grant us the privilege of reaching the days of the Mashiach and the life in Olam Haba. Hashem Who gives great victories to His king (David HaMelech) and shows kindness to him and his descendants (that's us!) forever. May He Who makes peace in the Heavens (in the world of angels—and in nature) bring about peace upon us (since we seem to have a hard time doing it ourselves) and upon all of Bnei Yisrael, and let us all say: **אָמֵן**—that is absolutely true, and I hope it will happen soon!"
             },
             {
               "id": "yiru_he",
