@@ -56,7 +56,7 @@
             {
               "id": "seg-rubric-shehecheyanu",
               "type": "rubric",
-              "enText": "*If this is the first time doing the mitzvah of the Arba'ah Minim this year, say the following to thank Hashem for this opportunity:*",
+              "enText": "If this is the first time doing the mitzvah of the Arba'ah Minim this year, say the following to thank Hashem for this opportunity:",
               "condition": "first time doing the mitzvah of the Arba'ah Minim this year"
             },
             {

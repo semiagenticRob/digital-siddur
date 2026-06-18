@@ -94,7 +94,7 @@
             {
               "id": "seg-rubric-additional-kavanah",
               "type": "rubric",
-              "enText": "*In addition, one should have in mind:*"
+              "enText": "In addition, one should have in mind:"
             },
             {
               "id": "seg-commentary-shema-2",
@@ -104,7 +104,7 @@
             {
               "id": "seg-rubric-quietly",
               "type": "rubric",
-              "enText": "*Quietly*"
+              "enText": "Quietly"
             },
             {
               "id": "seg-commentary-baruch-shem",

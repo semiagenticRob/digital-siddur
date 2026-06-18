@@ -46,7 +46,7 @@
             {
               "id": "s-am-rubric-shabbos",
               "type": "rubric",
-              "enText": "*On Shabbos:* Please refresh and fortify us on this day of Shabbos.",
+              "enText": "On Shabbos: Please refresh and fortify us on this day of Shabbos.",
               "condition": "On Shabbos"
             },
             {
@@ -58,7 +58,7 @@
             {
               "id": "s-am-rubric-roshchodesh",
               "type": "rubric",
-              "enText": "*On Rosh Chodesh:* Remember us for good on this day of Rosh Chodesh.",
+              "enText": "On Rosh Chodesh: Remember us for good on this day of Rosh Chodesh.",
               "condition": "On Rosh Chodesh"
             },
             {
@@ -70,7 +70,7 @@
             {
               "id": "s-am-rubric-yomtov",
               "type": "rubric",
-              "enText": "*On Yom Tov:* Grant us simchah on this day of Pesach/Sukkos/Shavuos.",
+              "enText": "On Yom Tov: Grant us simchah on this day of Pesach/Sukkos/Shavuos.",
               "condition": "On Yom Tov"
             },
             {

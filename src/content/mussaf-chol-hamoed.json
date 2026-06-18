@@ -132,7 +132,7 @@
             {
               "id": "mch1-tal-rubric",
               "type": "rubric",
-              "enText": "*In Israel on Chol Hamoed Pesach and Sukkos:*",
+              "enText": "In Israel on Chol Hamoed Pesach and Sukkos:",
               "condition": "In Israel on Chol Hamoed Pesach and Sukkos"
             },
             {
@@ -271,7 +271,7 @@
             {
               "id": "mch1-kedushah-conclude-rubric",
               "type": "rubric",
-              "enText": "*The chazzan concludes:*"
+              "enText": "The chazzan concludes:"
             },
             {
               "id": "mch1-kedushah-prayer7",
@@ -394,7 +394,7 @@
             {
               "id": "seg-mch2-010",
               "type": "rubric",
-              "enText": "*Pesach—the first (and second) day of Yom Tov:*",
+              "enText": "Pesach—the first (and second) day of Yom Tov:",
               "condition": "Pesach, first and second day of Yom Tov"
             },
             {
@@ -412,7 +412,7 @@
             {
               "id": "seg-mch2-013",
               "type": "rubric",
-              "enText": "*Pesach—Chol Hamoed and the last day(s) of Yom Tov:*",
+              "enText": "Pesach—Chol Hamoed and the last day(s) of Yom Tov:",
               "condition": "Pesach, Chol Hamoed and the last days of Yom Tov"
             },
             {
@@ -430,7 +430,7 @@
             {
               "id": "seg-mch2-016",
               "type": "rubric",
-              "enText": "*Shavuos:*",
+              "enText": "Shavuos:",
               "condition": "Shavuos"
             },
             {
@@ -448,7 +448,7 @@
             {
               "id": "seg-mch2-019",
               "type": "rubric",
-              "enText": "*Sukkos—the first (and second) day of Yom Tov:*",
+              "enText": "Sukkos—the first (and second) day of Yom Tov:",
               "condition": "Sukkos, first and second day of Yom Tov"
             },
             {
@@ -466,7 +466,7 @@
             {
               "id": "seg-mch2-022",
               "type": "rubric",
-              "enText": "*Sukkos—First day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשֵּׁנִי *Sukkos—First day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַשֵּׁנִי *and* וּבַיּוֹם הַשְּׁלִישִׁי",
+              "enText": "Sukkos—First day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשֵּׁנִי Sukkos—First day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַשֵּׁנִי and וּבַיּוֹם הַשְּׁלִישִׁי",
               "condition": "Sukkos, First day Chol Hamoed"
             },
             {
@@ -478,7 +478,7 @@
             {
               "id": "seg-mch2-024",
               "type": "rubric",
-              "enText": "*Sukkos—Second day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשְּׁלִישִׁי *Sukkos—Second day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַשְּׁלִישִׁי *and* וּבַיּוֹם הָרְבִיעִי",
+              "enText": "Sukkos—Second day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשְּׁלִישִׁי Sukkos—Second day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַשְּׁלִישִׁי and וּבַיּוֹם הָרְבִיעִי",
               "condition": "Sukkos, Second day Chol Hamoed"
             },
             {
@@ -490,7 +490,7 @@
             {
               "id": "seg-mch2-026",
               "type": "rubric",
-              "enText": "*Sukkos—Third day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הָרְבִיעִי *Sukkos—Third day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הָרְבִיעִי *and* וּבַיּוֹם הַחֲמִישִׁי",
+              "enText": "Sukkos—Third day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הָרְבִיעִי Sukkos—Third day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הָרְבִיעִי and וּבַיּוֹם הַחֲמִישִׁי",
               "condition": "Sukkos, Third day Chol Hamoed"
             },
             {
@@ -502,7 +502,7 @@
             {
               "id": "seg-mch2-028",
               "type": "rubric",
-              "enText": "*Sukkos—Fourth day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַחֲמִישִׁי *Sukkos—Fourth day Chol Hamoed in chutz la'aretz, say* וּבַיּוֹם הַחֲמִישִׁי *and* וּבַיּוֹם הַשִּׁשִּׁי",
+              "enText": "Sukkos—Fourth day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַחֲמִישִׁי Sukkos—Fourth day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַחֲמִישִׁי and וּבַיּוֹם הַשִּׁשִּׁי",
               "condition": "Sukkos, Fourth day Chol Hamoed"
             },
             {
@@ -514,7 +514,7 @@
             {
               "id": "seg-mch2-030",
               "type": "rubric",
-              "enText": "*Sukkos—Fifth day Chol Hamoed in Eretz Yisrael, say* וּבַיּוֹם הַשִּׁשִּׁי *Sukkos—Hoshana Rabbah in chutz la'aretz, say* וּבַיּוֹם הַשִּׁשִּׁי *and* וּבַיּוֹם הַשְּׁבִיעִי",
+              "enText": "Sukkos—Fifth day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשִּׁשִּׁי Sukkos—Hoshana Rabbah in chutz la'aretz, say וּבַיּוֹם הַשִּׁשִּׁי and וּבַיּוֹם הַשְּׁבִיעִי",
               "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz"
             },
             {
@@ -526,7 +526,7 @@
             {
               "id": "seg-mch2-032",
               "type": "rubric",
-              "enText": "*Sukkos—Hoshana Rabbah in Eretz Yisrael, say* וּבַיּוֹם הַשְּׁבִיעִי",
+              "enText": "Sukkos—Hoshana Rabbah in Eretz Yisrael, say וּבַיּוֹם הַשְּׁבִיעִי",
               "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael"
             },
             {
@@ -538,7 +538,7 @@
             {
               "id": "seg-mch2-034",
               "type": "rubric",
-              "enText": "*Shemini Atzeres/Simchas Torah:*",
+              "enText": "Shemini Atzeres/Simchas Torah:",
               "condition": "Shemini Atzeres / Simchas Torah"
             },
             {

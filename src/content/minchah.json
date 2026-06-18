@@ -807,7 +807,7 @@
             {
               "id": "min2-commentary-refuah",
               "type": "commentary",
-              "enText": "*רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא*—Hashem, please heal us, and then we will be truly healed; *הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה*—save us, and then we will be truly saved; *כִּי תְהִלָּתֵנוּ אָתָּה*—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses (physical and emotional).* For You, Hashem, are a faithful and merciful Healer. *בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל*—Who heals the sick of His nation, Bnei Yisrael."
+              "enText": "*רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא*—Hashem, please heal us, and then we will be truly healed; *הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה*—save us, and then we will be truly saved; *כִּי תְהִלָּתֵנוּ אָתָּה*—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses (physical and emotional). For You, Hashem, are a faithful and merciful Healer. *בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל*—Who heals the sick of His nation, Bnei Yisrael."
             },
             {
               "id": "min2-rubric-refuah-insert",
@@ -824,7 +824,7 @@
             {
               "id": "min2-commentary-refuah-insert",
               "type": "commentary",
-              "enText": "*One may insert now a tefillah for people who are ill: Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to (name) son/daughter of (mother's name) among the others of Bnei Yisrael who are in need of recovery.",
+              "enText": "One may insert now a tefillah for people who are ill: Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to (name) son/daughter of (mother's name) among the others of Bnei Yisrael who are in need of recovery.",
               "condition": "When inserting a tefillah for the ill"
             },
             {
@@ -847,7 +847,7 @@
             {
               "id": "min3-birkas-hashanim-mistake",
               "type": "rubric",
-              "enText": "*If you made a mistake regarding טַל וּמָטָר, see Appendix 12:4*",
+              "enText": "If you made a mistake regarding טַל וּמָטָר, see Appendix 12:4",
               "xref": "Appendix 12:4"
             },
             {
@@ -953,7 +953,7 @@
             {
               "id": "min3-yerushalayim-nachem-forgot",
               "type": "rubric",
-              "enText": "*If you forgot to add, do not go back or repeat Shemoneh Esrei.*"
+              "enText": "If you forgot to add, do not go back or repeat Shemoneh Esrei."
             },
             {
               "id": "min3-malchus-beis-david-header",
@@ -990,7 +990,7 @@
             {
               "id": "min3-shema-koleinu-requests-rubric",
               "type": "rubric",
-              "enText": "*(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now, Hashem understands all languages and He listens!)*"
+              "enText": "(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now, Hashem understands all languages and He listens!)"
             },
             {
               "id": "min3-shema-koleinu-aneinu-rubric",
@@ -1065,7 +1065,7 @@
             {
               "id": "min3-avodah-yaaleh-veyavo-rubric",
               "type": "rubric",
-              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo: *(If you forgot, see Appendix 12:6)*",
+              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo: (If you forgot, see Appendix 12:6)",
               "condition": "On Rosh Chodesh and Chol Hamoed",
               "xref": "Appendix 12:6"
             },
@@ -1422,7 +1422,7 @@
             {
               "id": "am-2-rubric",
               "type": "rubric",
-              "enText": "*(During Aseres Yemei Teshuvah say:)*",
+              "enText": "(During Aseres Yemei Teshuvah say:)",
               "condition": "Aseres Yemei Teshuvah"
             },
             {
@@ -1440,7 +1440,7 @@
             {
               "id": "am-3-rubric",
               "type": "rubric",
-              "enText": "*(On fast days say:)*",
+              "enText": "(On fast days say:)",
               "condition": "fast days"
             },
             {
@@ -1558,7 +1558,7 @@
             {
               "id": "am-14-rubric",
               "type": "rubric",
-              "enText": "*(The following nine are said responsively—first by the chazzan:)*"
+              "enText": "(The following nine are said responsively—first by the chazzan:)"
             },
             {
               "id": "am-14-he",
@@ -1603,7 +1603,7 @@
             {
               "id": "am-18-rubric",
               "type": "rubric",
-              "enText": "*The following five are said during Aseres Yemei Teshuvah:*",
+              "enText": "The following five are said during Aseres Yemei Teshuvah:",
               "condition": "Aseres Yemei Teshuvah"
             },
             {
@@ -1670,7 +1670,7 @@
             {
               "id": "am-23-rubric",
               "type": "rubric",
-              "enText": "*The following five are said on fast days:*",
+              "enText": "The following five are said on fast days:",
               "condition": "fast days"
             },
             {
@@ -1970,7 +1970,7 @@
             {
               "id": "tach-omit-rubric",
               "type": "rubric",
-              "enText": "*For a list of when Tachanun is omitted, see Appendix 12:9.*",
+              "enText": "For a list of when Tachanun is omitted, see Appendix 12:9.",
               "xref": "Appendix 12:9"
             },
             {

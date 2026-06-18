@@ -183,7 +183,7 @@
             {
               "id": "mv1-s034",
               "type": "rubric",
-              "enText": "*If you are davening without a minyan, add the following three words:*"
+              "enText": "If you are davening without a minyan, add the following three words:"
             },
             {
               "id": "mv1-s035",
@@ -220,7 +220,7 @@
             {
               "id": "mv1-s041",
               "type": "rubric",
-              "enText": "*In addition, one should have in mind:*"
+              "enText": "In addition, one should have in mind:"
             },
             {
               "id": "mv1-s042",
@@ -799,7 +799,7 @@
             {
               "id": "mv3-c-refua",
               "type": "commentary",
-              "enText": "*רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא*—Hashem, please heal us, and then we will be truly healed; *הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה*—save us, and then we will be truly saved; *כִּי תְהִלָּתֵנוּ אָתָּה*—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses *(physical and emotional)*.* For You, Hashem, are a faithful and merciful Healer. *בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל*—Who heals the sick of His nation, Bnei Yisrael."
+              "enText": "*רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא*—Hashem, please heal us, and then we will be truly healed; *הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה*—save us, and then we will be truly saved; *כִּי תְהִלָּתֵנוּ אָתָּה*—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses *(physical and emotional)*. For You, Hashem, are a faithful and merciful Healer. *בָּרוּךְ אַתָּה יְהֹוָה*—You, Hashem, are the Source of everything; *רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל*—Who heals the sick of His nation, Bnei Yisrael."
             },
             {
               "id": "mv3-r-refua-cholim",
@@ -831,7 +831,7 @@
             {
               "id": "mv3-r-birkas-hashanim-mistake",
               "type": "rubric",
-              "enText": "*If you made a mistake regarding טל ומטר or ותן ברכה, see Appendix 12:4*",
+              "enText": "If you made a mistake regarding טל ומטר or ותן ברכה, see Appendix 12:4",
               "xref": "Appendix 12:4"
             },
             {
