@@ -35,7 +35,12 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "jest",
+    "lint:content": "python3 scripts/lint_content.py",
+    "lint:content:strict": "python3 scripts/lint_content.py --strict --errors",
+    "check": "npm run typecheck && npm run lint:content:strict && npm run test"
   },
   "private": true,
   "jest": {

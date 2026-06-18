@@ -1,0 +1,10 @@
+#!/bin/sh
+# Content rendering-contract gate. Blocks commits that introduce error-severity
+# content bugs (stranded Hebrew, literal '*' in rubrics, unbalanced markdown).
+# Bypass with: git commit --no-verify
+python3 scripts/lint_content.py --strict --errors || {
+  echo ""
+  echo "pre-commit: content linter found error-severity issues (see above)."
+  echo "Fix them, or bypass with: git commit --no-verify"
+  exit 1
+}
