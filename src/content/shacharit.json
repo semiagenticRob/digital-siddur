@@ -2836,7 +2836,7 @@
             {
               "id": "se1-section-intro-kedushah",
               "type": "section_intro",
-              "enText": "Unlike angels who have a higher understanding of Hashem, we humans cannot understand \"Who\" Hashem is—His very essence (represented by the word \"אַתָּה\"). All we can perceive is what He does—referred to as \"אַתָּה\". Nevertheless, in Kedushah we will praise Hashem like the angels do. Since we can only do this when we are at the level of a tzibbur—a unified community—we therefore only say this with a minyan."
+              "enText": "Unlike angels who have a higher understanding of Hashem, we humans cannot understand \"Who\" Hashem is—His very essence (represented by the word \"אוֹתוֹ\"). All we can perceive is what He does—referred to as \"שֵׁם\". Nevertheless, in Kedushah we will praise Hashem like the angels do. Since we can only do this when we are at the level of a tzibbur—a unified community—we therefore only say this with a minyan."
             },
             {
               "id": "se1-prayer-nekadeish",
@@ -2846,7 +2846,7 @@
             {
               "id": "se1-commentary-nekadeish",
               "type": "commentary",
-              "enText": "נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם—just like the angels declare the kedushah of \"אַתָּה\"—the essence of Hashem. וְקָרָא זֶה אֶל זֶה וְאָמַר—As the Navi tells us; *(so that they all praise Hashem in unison)* and say:"
+              "enText": "נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם—just like the angels declare the kedushah of \"אוֹתוֹ\"—the essence of Hashem. וְקָרָא זֶה אֶל זֶה וְאָמַר—As the Navi tells us; *(so that they all praise Hashem in unison)* and say:"
             },
             {
               "id": "se1-prayer-kadosh",
@@ -3026,17 +3026,12 @@
             {
               "id": "se1-commentary-geulah",
               "type": "commentary",
-              "enText": "רְאֵה נָא בְעָנְיֵנוּ—Hashem, look at our suffering, defend our cause, and redeem us soon for the glory of Your Name *(because when Bnei Yisrael suffer and are ridiculed, it*"
-            },
-            {
-              "id": "se2-geulah-commentary-end",
-              "type": "commentary",
-              "enText": "*is a chillul Hashem*), for You are a powerful Redeemer. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; גֹּאֵל יִשְׂרָאֵל—Who constantly redeems Bnei Yisrael."
+              "enText": "רְאֵה נָא בְעָנְיֵנוּ—Hashem, look at our suffering, defend our cause, and redeem us soon for the glory of Your Name *(because when Bnei Yisrael suffer and are ridiculed, it is a chillul Hashem)*, for You are a powerful Redeemer. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; גֹּאֵל יִשְׂרָאֵל—Who constantly redeems Bnei Yisrael."
             },
             {
               "id": "se2-aneinu-rubric",
               "type": "rubric",
-              "enText": "*On fast days, the chazzan adds the following in his repetition of the Shemoneh Esrei:*",
+              "enText": "On fast days, the chazzan adds the following in his repetition of the Shemoneh Esrei:",
               "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei"
             },
             {
@@ -3077,12 +3072,12 @@
             {
               "id": "se2-refuah-commentary",
               "type": "commentary",
-              "enText": "רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא—Hashem, please heal us, and then we will be truly healed; הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה—save us, and then we will be truly saved; כִּי תְהִלָּתֵנוּ אָתָּה—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses (*physical and emotional*).* For You, Hashem, are a faithful and merciful Healer. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל—Who heals the sick of His nation, Bnei Yisrael."
+              "enText": "רְפָאֵנוּ יְהֹוָה וְנֵרָפֵא—Hashem, please heal us, and then we will be truly healed; הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה—save us, and then we will be truly saved; כִּי תְהִלָּתֵנוּ אָתָּה—for we understand that the true praise for our recovery is due to You. And bring a complete healing to all our illnesses (*physical and emotional*). For You, Hashem, are a faithful and merciful Healer. בָּרוּךְ אַתָּה יְהֹוָה—You, Hashem, are the Source of everything; רוֹפֵא חוֹלֵי עַמּוֹ יִשְׂרָאֵל—Who heals the sick of His nation, Bnei Yisrael."
             },
             {
               "id": "se2-refuah-insert-rubric",
               "type": "rubric",
-              "heText": "*הָרוֹצֶה לְהִתְפַּלֵּל בְּעַד הַחוֹלֶה יֹאמַר בָּעֵר זֶה תְּחִנָּה זוֹ: יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁתִּשְׁלַח מְהֵרָה רְפוּאָה שְׁלֵמָה מִן הַשָּׁמַיִם, רְפוּאַת הַנֶּפֶשׁ וּרְפוּאַת הַגּוּף לְחוֹלֶה (פב\"פ) בְּתוֹךְ שְׁאָר חוֹלֵי יִשְׂרָאֵל:*",
+              "heText": "הָרוֹצֶה לְהִתְפַּלֵּל בְּעַד הַחוֹלֶה יֹאמַר כָּאן תְּחִנָּה זוֹ: יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁתִּשְׁלַח מְהֵרָה רְפוּאָה שְׁלֵמָה מִן הַשָּׁמַיִם, רְפוּאַת הַנֶּפֶשׁ וּרְפוּאַת הַגּוּף לְחוֹלֶה (פב\"פ) בְּתוֹךְ שְׁאָר חוֹלֵי יִשְׂרָאֵל:",
               "condition": "One may insert this tefillah for people who are ill"
             },
             {
@@ -3110,7 +3105,7 @@
             {
               "id": "se2-shanim-mistake-rubric",
               "type": "rubric",
-              "enText": "*If you made a mistake regarding טַל וּמָטָר, see Appendix 12:4*",
+              "enText": "If you made a mistake regarding טַל וּמָטָר, see Appendix 12:4",
               "xref": "Appendix 12:4"
             },
             {
@@ -3149,7 +3144,7 @@
             {
               "id": "se2-mishpat-mistake-rubric",
               "type": "rubric",
-              "enText": "*(If you made a mistake, see Appendix 12:5)*",
+              "enText": "(If you made a mistake, see Appendix 12:5)",
               "xref": "Appendix 12:5"
             },
             {
@@ -3245,7 +3240,7 @@
             {
               "id": "se2-personal-requests-rubric",
               "type": "rubric",
-              "enText": "*(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now. Hashem understands all languages and He listens!)*"
+              "enText": "(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now. Hashem understands all languages and He listens!)"
             },
             {
               "id": "se2-shema-koleinu-insert-rubric",
@@ -3256,7 +3251,7 @@
             {
               "id": "se2-shema-koleinu-insert-prayer",
               "type": "prayer",
-              "heText": "אָנָּא יְהֹוָה חַטָּאתִי, עָוִיתִי, וּפָשַׁעְתִּי לְפָנֶיךָ, מִיּוֹם הֱיוֹתִי עַל הָאֲדָמָה עַד הַיּוֹם הַזֶּה (ובפרט בחטא פלוני): אָנָּא יְהֹוָה, עֲשֵׂה לְמַעַן שִׁמְךָ הַגָּדוֹל, וְתִכָּפֵר לִי עַל חֲטָאַי וַעֲוֹנַי וּפְשָׁעַי, שֶׁחָטָאתִי, וְשֶׁעָוִיתִי, וְשֶׁפָּשַׁעְתִּי לְפָנֶיךָ, מִנְּעוּרַי עַד הַיּוֹם הַזֶּה, וְתִמְחֹל וְתִסְלַח לְכָל הַשֵּׁמוֹת שֶׁעָבַרְתִּי בִּשְׁמֶךָ הַגָּדוֹל: אַתָּה הוּא יְהֹוָה הָאֱלֹהִים, הַזָּן וּמְפַרְנֵס וּמְכַלְכֵּל מִקַּרְנֵי רְאֵמִים עַד בֵּיצֵי כִנִּים: הַשִּׂיבֵנִי לֶחֶם חֻקִּי, וְהַמְצֵא לִי וּלְכָל בְּנֵי בֵיתִי מְזוֹנוֹתַי קֹדֶם שֶׁאֶצְטָרֵךְ לָהֶם, בְּנַחַת וְלֹא בְצַעַר, בְּהֶתֵּר וְלֹא בְאִסּוּר, בְּכָבוֹד וְלֹא בְבִזָּיוֹן, לְחַיִּים וּלְשָׁלוֹם, מִשֶּׁפַע בְּרָכָה וְהַצְלָחָה, וּמִשֶּׁפַע בְּרָכָה עֶלְיוֹנָה, כְּדֵי שֶׁאוּכַל לַעֲשׂוֹת רְצוֹנֶךָ, וְלַעֲסֹק בְּתוֹרָתֶךָ, וּלְקַיֵּם מִצְוֹתֶיךָ: וְאַל תַּצְרִיכֵנִי לִידֵי מַתְּנַת בָּשָׂר וָדָם, וִיקֻיַּם בִּי מִקְרָא שֶׁכָּתוּב: פּוֹתֵחַ אֶת יָדֶךָ, וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:",
+              "heText": "אָנָּא יְהֹוָה חַטָּאתִי, עָוִיתִי, וּפָשַׁעְתִּי לְפָנֶיךָ, מִיּוֹם הֱיוֹתִי עַל הָאֲדָמָה עַד הַיּוֹם הַזֶּה (ובפרט בחטא פלוני): אָנָּא יְהֹוָה, עֲשֵׂה לְמַעַן שִׁמְךָ הַגָּדוֹל, וְתִכָּפֵר לִי עַל חֲטָאַי וַעֲוֹנַי וּפְשָׁעַי, שֶׁחָטָאתִי, וְשֶׁעָוִיתִי, וְשֶׁפָּשַׁעְתִּי לְפָנֶיךָ, מִנְּעוּרַי עַד הַיּוֹם הַזֶּה, וְתִמְחֹל וְתִסְלַח לְכָל הַשֵּׁמוֹת שֶׁעָבַרְתִּי בִּשְׁמֶךָ הַגָּדוֹל: אַתָּה הוּא יְהֹוָה הָאֱלֹהִים, הַזָּן וּמְפַרְנֵס וּמְכַלְכֵּל מִקַּרְנֵי רְאֵמִים עַד בֵּיצֵי כִנִּים: הַטְרִיפֵנִי לֶחֶם חֻקִּי, וְהַמְצֵא לִי וּלְכָל בְּנֵי בֵיתִי מְזוֹנוֹתַי קֹדֶם שֶׁאֶצְטָרֵךְ לָהֶם, בְּנַחַת וְלֹא בְצַעַר, בְּהֶתֵּר וְלֹא בְאִסּוּר, בְּכָבוֹד וְלֹא בְבִזָּיוֹן, לְחַיִּים וּלְשָׁלוֹם, מִשֶּׁפַע בְּרָכָה וְהַצְלָחָה, מִשֶּׁפַע בְּרָכָה עֶלְיוֹנָה, כְּדֵי שֶׁאוּכַל לַעֲשׂוֹת רְצוֹנֶךָ, וְלַעֲסֹק בְּתוֹרָתֶךָ, וּלְקַיֵּם מִצְוֹתֶיךָ: וְאַל תַּצְרִיכֵנִי לִידֵי מַתְּנַת בָּשָׂר וָדָם, וִיקֻיַּם בִּי מִקְרָא שֶׁכָּתוּב: פּוֹתֵחַ אֶת יָדֶךָ, וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:",
               "condition": "Some say this tefillah here"
             },
             {
@@ -3332,15 +3327,15 @@
               "enText": "Retzei"
             },
             {
+              "id": "se3-prayer-vsechezenah",
+              "type": "prayer",
+              "heText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהוָה, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן:"
+            },
+            {
               "id": "se3-commentary-vsechezenah",
               "type": "commentary",
               "heText": "וְתֶחֱזֶינָה עֵינֵינוּ",
               "enText": "May we personally merit seeing when Your Divine Presence returns to Zion. בָּרוּךְ אַתָּה יְהוָה—You, Hashem, are the Source of everything; הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן—Who restores His Divine Presence to Zion. *(Notice again the present tense! Every step in our galus is part of that process!)*"
-            },
-            {
-              "id": "se3-prayer-vsechezenah",
-              "type": "prayer",
-              "heText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהוָה, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן:"
             },
             {
               "id": "se3-header-modim",
@@ -3354,26 +3349,26 @@
               "enText": "Thank You for everything—large and small!"
             },
             {
+              "id": "se3-prayer-modim",
+              "type": "prayer",
+              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד: צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדֹר: נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל"
+            },
+            {
               "id": "se3-commentary-modim",
               "type": "commentary",
               "heText": "מוֹדִים אֲנַחְנוּ לָךְ",
               "enText": "We thank You, Hashem, for You are our God. You control everything and have taken care of Bnei Yisrael throughout our history from the time of the Avos and forever and all time; צוּר חַיֵּינוּ מָגֵן יִשְׁעֵנוּ—You are the rock of our lives and the protector Whom we rely upon. נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ—We thank You and speak Your praises; עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ—for our lives, which"
             },
             {
-              "id": "se3-prayer-modim",
+              "id": "se3-prayer-modim-cont",
               "type": "prayer",
-              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד: צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדֹר: נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל"
+              "heText": "יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם: הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ:"
             },
             {
               "id": "se3-commentary-modim-cont",
               "type": "commentary",
               "heText": "וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ … וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ",
               "enText": "are entrusted into Your Hand, and our souls, which are in Your care; וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ—and for Your *(hidden)* miracles that are with us every day *(and we do not even realize it!)*; and for Your wonders and Your acts of goodness that occur at all times, evening, morning, and afternoon *(literally, twenty-four hours a day, as well as figuratively, during the dark times in our lives, the clear bright times, and the hazy twilight times)*. הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ—You are the Benevolent One, for Your compassion is never-ending; וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ—You are the Merciful One, for Your loving-kindness is never exhausted; מֵעוֹלָם קִוִּינוּ לָךְ—From the beginning of time, we have placed our hope in You."
-            },
-            {
-              "id": "se3-prayer-modim-cont",
-              "type": "prayer",
-              "heText": "יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם: הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ:"
             },
             {
               "id": "se3-insight-amen-modim",
@@ -3411,7 +3406,7 @@
             {
               "id": "se3-rubric-al-hanissim",
               "type": "rubric",
-              "enText": "On Chanukah and Purim add the following special \"Thanks\":",
+              "enText": "On Chanukah and Purim add the following special \"Thanks\": (If you forgot, see Appendix 12:7)",
               "xref": "If you forgot, see Appendix 12:7",
               "condition": "On Chanukah and Purim"
             },
@@ -3476,7 +3471,7 @@
             {
               "id": "se3-rubric-uchsov",
               "type": "rubric",
-              "enText": "During Aseres Yemei Teshuvah add:",
+              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)",
               "xref": "If you forgot, see Appendix 12:2",
               "condition": "During Aseres Yemei Teshuvah"
             },
@@ -3562,16 +3557,16 @@
               "enText": "*(Peace from war and danger:)* וְטוֹב בְּעֵינֶיךָ לְבָרֵךְ אֶת עַמְּךָ—And may it be favorable in Your eyes to bless Your people, Bnei Yisrael, at all times and at every moment, with Your peace *(protection from wars and dangers).*"
             },
             {
+              "id": "se4-sim-shalom-teshuvah-rubric",
+              "type": "rubric",
+              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)"
+            },
+            {
               "id": "se4-sim-shalom-teshuvah-insert",
               "type": "prayer",
               "heText": "בְּסֵפֶר חַיִּים, בְּרָכָה וְשָׁלוֹם, וּפַרְנָסָה טוֹבָה, נִזָּכֵר וְנִכָּתֵב לְפָנֶיךָ, אֲנַחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, לְחַיִּים טוֹבִים וּלְשָׁלוֹם:",
               "condition": "During Aseres Yemei Teshuvah",
               "xref": "Appendix 12:2"
-            },
-            {
-              "id": "se4-sim-shalom-teshuvah-rubric",
-              "type": "rubric",
-              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)"
             },
             {
               "id": "se4-sim-shalom-teshuvah-c",
@@ -3614,15 +3609,15 @@
               "enText": "אֱלֹהַי, נְצוֹר לְשׁוֹנִי מֵרָע—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
             },
             {
+              "id": "se4-elokai-netzor-tefillah-rubric",
+              "type": "rubric",
+              "enText": "Some add the following tefillah:"
+            },
+            {
               "id": "se4-elokai-netzor-tefillah-insert",
               "type": "prayer",
               "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁלֹּא תַעֲלֶה קִנְאַת אָדָם עָלַי, וְלֹא קִנְאָתִי עַל אֲחֵרִים, וְשֶׁלֹּא אֶכְעוֹס הַיּוֹם וְשֶׁלֹּא אַכְעִיסֶךָ, וְתַצִּילֵנִי מִיֵּצֶר הָרָע, וְתֵן בְּלִבִּי הַכְנָעָה וַעֲנָוָה, מַלְכֵּנוּ וֵאלֹהֵינוּ, יַחֵד שִׁמְךָ בְּעוֹלָמֶךָ, בְּנֵה עִירְךָ, יַסֵּד בֵּיתֶךָ, וְשַׁכְלֵל הֵיכָלֶךָ, וְקַבֵּץ קִבּוּץ גָּלֻיּוֹת, וּפְדֵה צֹאנֶךָ וְשַׂמַּח עֲדָתֶךָ:",
               "condition": "Some add the following tefillah"
-            },
-            {
-              "id": "se4-elokai-netzor-tefillah-rubric",
-              "type": "rubric",
-              "enText": "Some add the following tefillah:"
             },
             {
               "id": "se4-elokai-netzor-tefillah-c",
@@ -3930,7 +3925,7 @@
             {
               "id": "tach1-s8",
               "type": "rubric",
-              "enText": "*For a list of when Tachanun is omitted, see Appendix 12:9.*",
+              "enText": "For a list of when Tachanun is omitted, see Appendix 12:9.",
               "xref": "Appendix 12:9"
             },
             {
@@ -3946,7 +3941,7 @@
             {
               "id": "tach1-s11",
               "type": "rubric",
-              "enText": "*On all other weekdays, begin with \"Short Tachanun\" on page 87.*",
+              "enText": "On all other weekdays, begin with \"Short Tachanun\" on page 87.",
               "condition": "On all other weekdays, begin with Short Tachanun on page 87"
             },
             {
