@@ -85,15 +85,30 @@ a **renderer change** (small-label/parenthetical span inside a display
 verse). Also note an app-vs-print content diff: app has `הָאֵל הַקָּדוֹשׁ
 (בעשי״ת …)` but the print sets `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ` — rav/content call.
 
-### Header order — DONE for SE (heTop applied)
-The bracha sub-headers (רְפוּאָה, בִּרְכַּת הַשָּׁנִים, …) are **Hebrew-on-top**
-in the print (verified at 300 DPI); `heTop` applied to all 11 dual-language
-SE sub-headers. OUR REQUESTS stays English-on-top (matches print).
-APP-WIDE IMPLICATION: the global English-on-top default (set earlier) is
-wrong for the ~80 other bracha/section sub-headers across Maariv/Minchah/
-Mussaf/Shacharis — the print sets those Hebrew-on-top too. Either re-tag
-them `heTop` per section as proofed, or revert the global default to
-Hebrew-on-top and `enTop` the few major dividers (cleaner). Decide.
+### Header order — re-architected to be PDF-deterministic (commit 32bc4f1)
+No global default may contradict the PDF. Default is now **Hebrew-on-top**
+(the print's majority — every transliteration/description sub-header);
+**`enTop`** explicitly marks English-on-top headers. `heTop` removed.
+Verified at the PDF: catchy English **title/sentence** = English-on-top
+(My Body Works!, OUR REQUESTS, food-brachos, bentching brachah titles,
+Travel Safe!, etc.); transliteration ("Ashrei", "Korbanos") / bracha-
+description ("Give me healing") = Hebrew-on-top. 30 title-headers tagged
+`enTop` app-wide by this rule.
+
+CONFIDENCE: SE (verified at 300 DPI per header) + My Body Works are
+directly PDF-verified. The other-service title-headers (bentching, food
+brachos, bedtime, sefiras, tefillas-haderech, Aleinu sentence-headers,
+mussaf korbanos) were tagged by the **verified rule**, not each visually
+confirmed — worth a spot-check pass.
+
+FLAGGED — left on the Hebrew-on-top default, NOT guessed (need a visual
+check; they're spelled-out service titles / labels, ambiguous under the
+rule): `mch1-header` "Mussaf for Chol Hamoed", `s-header` "Mussaf for
+Rosh Chodesh", shacharit `header_aleinu` "Shacharis • Aleinu", shacharit
+`header_sunday/monday/tuesday/wednesday` day-of-week labels. Also the main
+service transliteration headers (Maariv, Minchah, Hallel, Tachanun, the
+Kaddish variants) default Hebrew-on-top by rule — confirm if any are set
+English-first in the print.
 
 ### Blocked on a clean Hebrew source + renderer support
 - **Inline Kedushah speaker tags** (חזן / קו״ח / קו״ש before לְעֻמָּתָם i=44,
