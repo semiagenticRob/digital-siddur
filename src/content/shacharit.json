@@ -2584,7 +2584,7 @@
             {
               "id": "se1-faq-1",
               "type": "faq",
-              "enText": "FAQ: Honestly, I don't really care that much about my unique mission in this world—I just daven here because I need stuff from Hashem. Is that so bad? ANSWER: Very honest question! See Appendix 8.",
+              "enText": "FAQ: Honestly, I don't really care that much about my unique mission in this world—I just daven because I need stuff from Hashem. Is that so bad? ANSWER: Very honest question! See Appendix 8.",
               "xref": "Appendix 8"
             },
             {
@@ -2616,7 +2616,7 @@
             {
               "id": "se1-faq-3",
               "type": "faq",
-              "enText": "FAQ: Why should I bother making requests from Hashem? I've asked Him many times before for all kinds of stuff and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael!! See Appendix 1.",
+              "enText": "FAQ: Why should I bother making requests from Hashem? I've asked Him many times before for stuff and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael! See Appendix 1.",
               "xref": "Appendix 1"
             },
             {
@@ -2660,7 +2660,7 @@
             {
               "id": "se1-commentary-zachreinu",
               "type": "commentary",
-              "enText": "**מֶלֶךְ חָפֵץ**—Please, Hashem, remember us for life; **וְכָתְבֵנוּ בְּסֵפֶר**—for You are our King Who desires life; **הַחַיִּים**—and write us in the book of life; **לְמַעַנְךָ אֱלֹהִים חַיִּים**—so that we may be able to continue to serve You and live up to our potential.",
+              "enText": "**זָכְרֵנוּ לְחַיִּים**—Please, Hashem, remember us for life; **מֶלֶךְ חָפֵץ בַּחַיִּים**—for You are our King Who desires life; **וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים**—and write us in the book of life; **לְמַעַנְךָ אֱלֹהִים חַיִּים**—so that we may be able to continue to serve You and live up to our potential.",
               "condition": "Aseres Yemei Teshuvah"
             },
             {
@@ -2719,7 +2719,7 @@
             {
               "id": "se1-rubric-summer",
               "type": "rubric",
-              "enText": "In Israel the summer add:",
+              "enText": "In Israel in the summer add:",
               "condition": "summer in Israel"
             },
             {
@@ -2766,7 +2766,7 @@
             {
               "id": "se1-commentary-mi-chamocha",
               "type": "commentary",
-              "enText": "**מִי כָמוֹךָ אָב הָרַחֲמִים, זוֹכֵר יְצוּרָיו**—There is no one like You, our merciful Father; Who remembers us, His creations, for life; **לְחַיִּים בְּרַחֲמִים**—with mercy.",
+              "enText": "**מִי כָמוֹךָ אָב הָרַחֲמִים, זוֹכֵר יְצוּרָיו**—There is no one like You, our merciful Father; **לְחַיִּים**—Who remembers us, His creations, for life; **בְּרַחֲמִים**—with mercy.",
               "condition": "Aseres Yemei Teshuvah"
             },
             {
@@ -2802,7 +2802,7 @@
             {
               "id": "se1-commentary-nekadeish",
               "type": "commentary",
-              "enText": "**נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם**—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; **כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם**—just like the angels declare the kedushah of \"אוֹתוֹ\"—the essence of Hashem. **וְקָרָא זֶה אֶל זֶה וְאָמַר**—As the Navi tells us; *(so that they all praise Hashem in unison)* and say:"
+              "enText": "**נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם**—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; **כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם**—just like the angels declare the kedushah of \"אוֹתוֹ\"—the essence of Hashem. **כַּכָּתוּב עַל יַד נְבִיאֶךָ**—As the Navi tells us; **וְקָרָא זֶה אֶל זֶה וְאָמַר**—that one angel calls to the other *(so that they all praise Hashem in unison)* and say:"
             },
             {
               "id": "se1-prayer-kadosh",
@@ -2813,7 +2813,7 @@
             {
               "id": "se1-commentary-kadosh",
               "type": "commentary",
-              "enText": "**קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת**—The sanctity of Hashem can be felt in all worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere *(though it requires effort and diligence in order to tap into it through Torah and mitzvos)*."
+              "enText": "**קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת**—The sanctity of Hashem can be felt in **all** worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere *(though it requires effort and diligence in order to tap into it through Torah and mitzvos)*."
             },
             {
               "id": "se1-prayer-leumasam",
@@ -3136,7 +3136,7 @@
             {
               "id": "se2-tzadikim-commentary",
               "type": "commentary",
-              "enText": "**עַל הַצַּדִּיקִים וְעַל הַחֲסִידִים**—You, Hashem, Who controls everything, may Your mercy be aroused on all the tzaddikim, and on all the elders and leaders of Your nation, Bnei Yisrael, and also on all the righteous converts, and also on us! **וְתֵן שָׂכָר טוֹב לְכָל הַבּוֹטְחִים בְּשִׁמְךָ בֶּאֱמֶת**—And grant great reward to all who sincerely trust in You, and include us (*who sometimes struggle with our bitachon*) together with all of them; **וְלֹא נֵבוֹשׁ**—and may we never feel embarrassed (*to do the right thing*), for we put our trust in You! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מִשְׁעָן וּמִבְטָח לַצַּדִּיקִים**—Who is the support and Source of trust for the tzaddikim."
+              "enText": "**עַל הַצַּדִּיקִים וְעַל הַחֲסִידִים**—You, Hashem, Who controls everything, may Your mercy be aroused on all the tzaddikim, and on all the elders and leaders of Your nation, Bnei Yisrael, and also on all the righteous converts, and also on us! **וְתֵן שָׂכָר טוֹב לְכָל הַבּוֹטְחִים בְּשִׁמְךָ בֶּאֱמֶת**—And grant great reward to all who sincerely trust in You, and include us (*who sometimes struggle with our bitachon*) together with all of them; **וְלֹא נֵבוֹשׁ כִּי בְךָ בָּטָחְנוּ**—and may we never feel embarrassed (*to do the right thing*), for we put our trust in You! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מִשְׁעָן וּמִבְטָח לַצַּדִּיקִים**—Who is the support and Source of trust for the tzaddikim."
             },
             {
               "id": "se2-yerushalayim-header",
@@ -3152,7 +3152,7 @@
             {
               "id": "se2-yerushalayim-commentary",
               "type": "commentary",
-              "enText": "**וְלִירוּשָׁלַיִם**—Hashem, even if we are not deserving, please return to Your city of Yerushalayim; and let Your Presence be felt there as You have promised; and rebuild it (*the city and the Beis Hamikdash*) soon, in our days, as an everlasting structure; and please (*speedily*) reestablish within it the throne of David HaMelech. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **בּוֹנֵה יְרוּשָׁלַיִם**—Who builds Yerushalayim (*present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim*)."
+              "enText": "**וְלִירוּשָׁלַיִם עִירְךָ בְּרַחֲמִים תָּשׁוּב**—Hashem, even if we are not deserving, please return to Your city of Yerushalayim; and let Your Presence be felt there as You have promised; and rebuild it (*the city and the Beis Hamikdash*) soon, in our days, as an everlasting structure; and please (*speedily*) reestablish within it the throne of David HaMelech. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **בּוֹנֵה יְרוּשָׁלַיִם**—Who builds Yerushalayim (*present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim*)."
             },
             {
               "id": "se2-david-header",
@@ -3247,7 +3247,7 @@
             {
               "id": "se3-rubric-yaaleh-veyavo",
               "type": "rubric",
-              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo:",
+              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo: (If you forgot, see Appendix 12:6)",
               "xref": "If you forgot, see Appendix 12:6",
               "condition": "On Rosh Chodesh and Chol Hamoed"
             },
@@ -3540,7 +3540,7 @@
             {
               "id": "se4-sim-shalom-bracha-c",
               "type": "commentary",
-              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בְּשָׁלוֹם**—Who blesses His people, Bnei Yisrael, with *(all three forms of)* peace."
+              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם**—Who blesses His people, Bnei Yisrael, with *(all three forms of)* peace."
             },
             {
               "id": "se4-concluding-header",
@@ -3560,12 +3560,12 @@
             {
               "id": "se4-elokai-netzor-text",
               "type": "prayer",
-              "heText": "אֱלֹהַי, נְצוֹר לְשׁוֹנִי מֵרָע וּשְׂפָתַי מִדַּבֵּר מִרְמָה, וְלִמְקַלְלַי נַפְשִׁי תִדּוֹם, וְנַפְשִׁי כֶּעָפָר לַכֹּל תִּהְיֶה: פְּתַח לִבִּי בְּתוֹרָתֶךָ, וּבְמִצְוֹתֶיךָ תִּרְדּוֹף נַפְשִׁי: וְכָל הַחוֹשְׁבִים עָלַי רָעָה, מְהֵרָה הָפֵר עֲצָתָם וְקַלְקֵל מַחֲשַׁבְתָּם:"
+              "heText": "אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע וּשְׂפָתַי מִדַּבֵּר מִרְמָה, וְלִמְקַלְלַי נַפְשִׁי תִדּוֹם, וְנַפְשִׁי כֶּעָפָר לַכֹּל תִּהְיֶה: פְּתַח לִבִּי בְּתוֹרָתֶךָ, וּבְמִצְוֹתֶיךָ תִּרְדּוֹף נַפְשִׁי: וְכָל הַחוֹשְׁבִים עָלַי רָעָה, מְהֵרָה הָפֵר עֲצָתָם וְקַלְקֵל מַחֲשַׁבְתָּם:"
             },
             {
               "id": "se4-elokai-netzor-c",
               "type": "commentary",
-              "enText": "**אֱלֹהַי, נְצוֹר לְשׁוֹנִי מֵרָע**—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
+              "enText": "**אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע**—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
             },
             {
               "id": "se4-elokai-netzor-tefillah-rubric",
@@ -3591,7 +3591,7 @@
             {
               "id": "se4-aseh-lemaan-c",
               "type": "commentary",
-              "enText": "**עֲשֵׂה לְמַעַן שְׁמֶךָ**—Even though I may personally not be worthy, do this for the sake of Your holy Name and for the honor of Your Torah; because we are Your beloved children; therefore give me strength and power save me and answer my requests."
+              "enText": "**עֲשֵׂה לְמַעַן שְׁמֶךָ**—Even though I may personally not be worthy, do this for the sake of Your holy Name and for the honor of Your Torah; because we are Your beloved children; therefore with strength and power save me and answer my requests."
             },
             {
               "id": "se4-yihyu-leratzon-2",
