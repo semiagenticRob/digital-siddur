@@ -37,7 +37,9 @@ export function SegmentRenderer({
 
   // Header — always visible, language-aware.
   // enPrimary headers (English-titled sections with a Hebrew name-list) render
-  // the English title on top and the Hebrew names beneath; default is Hebrew-first.
+  // the English title on top and the Hebrew names beneath, in title/subtitle
+  // sizing; default is Hebrew-first. enTop flips to English-on-top but keeps the
+  // default sizing (English caps label above a prominent Hebrew title).
   if (segment.type === 'header') {
     const heStyle = segment.plain ? s.headerHePlain : segment.enPrimary ? s.headerHeSub : s.headerHe;
     const enStyle = segment.plain ? s.headerEnPlain : segment.enPrimary ? s.headerEnPrimary : s.headerEn;
@@ -45,7 +47,7 @@ export function SegmentRenderer({
     const he = segment.heText && displayMode !== 'en' && <Text style={heStyle}>{segment.heText}</Text>;
     return (
       <View style={s.headerBlock}>
-        {segment.enPrimary ? <>{en}{he}</> : <>{he}{en}</>}
+        {segment.enPrimary || segment.enTop ? <>{en}{he}</> : <>{he}{en}</>}
         {!segment.plain && <View style={s.headerRule} />}
       </View>
     );

@@ -16,6 +16,8 @@ export interface Segment {
   condition?: string; // e.g. "winter", "rosh_chodesh" — static label in v1, logic in v2
   xref?: string;     // e.g. "faq:3", "appendix:9" — captured now, navigable in v2
   enPrimary?: boolean; // header only: render the English title above the Hebrew names line
+  enTop?: boolean;     // header only: English caps label on top, prominent Hebrew title
+                       // beneath (default sizing, just order-flipped — e.g. שמנה עשרה / OUR REQUESTS)
   plain?: boolean;     // header only: centered in ink color, no accent/rule (a quiet incipit)
   optional?: boolean;  // segment belongs to an optional passage — rendered inside a shaded box
                        // (a contiguous run of optional segments forms one box, as in the print)
