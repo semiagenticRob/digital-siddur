@@ -2332,7 +2332,8 @@
               "id": "shema_header",
               "type": "header",
               "heText": "קְרִיאַת שְׁמַע / עַל מַלְכוּת שָׁמַיִם\nשְׁמַע / בָּרוּךְ שֵׁם / וְאָהַבְתָּ / וְהָיָה / וַיֹּאמֶר",
-              "enText": "OK, I'll Do It!"
+              "enText": "OK, I'll Do It!",
+              "enPrimary": true
             },
             {
               "id": "shema_intro",
