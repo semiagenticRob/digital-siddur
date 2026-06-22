@@ -71,28 +71,35 @@ Full 16-page print-vs-app formatting audit. Safe fixes applied in
 chasimos i=16/35/175, heTop on transliteration headers, lemma spellings,
 refuah-insert italics, epilogue bridge). Held items below.
 
-### Framework chasimah enlargement — needs segment splits (structural)
+### Framework chasimah enlargement — DONE except Kedushas Hashem
 The print sets the chasimah (בָּרוּךְ אַתָּה ה׳…) of the **six framework
-brachos** oversized + centered; the 13 middle requests stay normal. Three
-are whole-segment and already flagged `display`. The remaining four bundle
-the enlarged chasimah with normal-size opening text, so enlarging only the
-chasimah requires splitting the segment (chasimah → own `display` prayer):
-- **i=53** se1-prayer-ledor-vador — only `…הָאֵל הַקָּדוֹשׁ` enlarged
-- **i=57** se1-prayer-kedushas-hashem — only `…הָאֵל הַקָּדוֹשׁ` enlarged
-- **i=131** se3-prayer-vsechezenah — likely only the chasimah line (verify extent)
-- **i=159** se3-prayer-vchol-hachaim — only `…הַטּוֹב שִׁמְךָ…` enlarged
-NOTE: the vision agents under-detected this dimension (false "normal" on
-i=35/46/50/159 at page resolution) — verify each by high-DPI crop.
+brachos** oversized + centered; the 13 middle requests stay normal.
+APPLIED: `display` on i=16 (Avos), i=35 (Gevuros), i=131 (Retzei),
+i=175 (Sim Shalom); Modim split — i=159 keeps the normal opening,
+`se3-prayer-modim-chasimah` carries the enlarged chasimah.
+HELD — **i=53 / i=57 (Kedushas Hashem)**: the chasimah is enlarged but
+carries the small AYT parenthetical `(בעשי״ת הַמֶּלֶךְ הַקָּדוֹשׁ)`, which the
+print keeps small *inside* the enlarged line. A whole-segment `display`
+would enlarge the parenthetical too, so this can't match the print without
+a **renderer change** (small-label/parenthetical span inside a display
+verse). Also note an app-vs-print content diff: app has `הָאֵל הַקָּדוֹשׁ
+(בעשי״ת …)` but the print sets `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ` — rav/content call.
 
-### Missing liturgy / structural (see also earlier SE-audit section)
-- **Inline Kedushah speaker tags** — print prints חזן / קו"ח / קו"ש inline
-  before לְעֻמָּתָם (i=44), בָּרוּךְ כְּבוֹד (i=46), וּבְדִבְרֵי (i=48),
-  יִמְלֹךְ (i=50); the app omits them. Add inline or confirm intentional.
-- **Adir Bamarom** congregational response after i=165 — still missing
-  (already queued under "new liturgy / rav sign-off").
+### Header order — DONE for SE (heTop applied)
+The bracha sub-headers (רְפוּאָה, בִּרְכַּת הַשָּׁנִים, …) are **Hebrew-on-top**
+in the print (verified at 300 DPI); `heTop` applied to all 11 dual-language
+SE sub-headers. OUR REQUESTS stays English-on-top (matches print).
+APP-WIDE IMPLICATION: the global English-on-top default (set earlier) is
+wrong for the ~80 other bracha/section sub-headers across Maariv/Minchah/
+Mussaf/Shacharis — the print sets those Hebrew-on-top too. Either re-tag
+them `heTop` per section as proofed, or revert the global default to
+Hebrew-on-top and `enTop` the few major dividers (cleaner). Decide.
 
-### House-style — header order for description headers
-The bracha sub-headers (רְפוּאָה / "Give me healing", etc.) now render
-English-on-top per the global default. Vision agents disagreed on whether
-the print sets these Hebrew-on-top; if it does, they'd need `heTop` too.
-Decide whether description-headers follow print order or app default.
+### Blocked on a clean Hebrew source + renderer support
+- **Inline Kedushah speaker tags** (חזן / קו״ח / קו״ש before לְעֻמָּתָם i=44,
+  בָּרוּךְ כְּבוֹד i=46, וּבְדִבְרֵי i=48, יִמְלֹךְ i=50). Same renderer limit as
+  i=53/57: the labels on i=46/i=50 sit on `display` verses, so adding them
+  inline would enlarge the label. Needs a small-label-prefix renderer span.
+- **Adir Bamarom** congregational response after i=165 — new liturgy, rav
+  sign-off. pdftotext extraction fragments the nikud (אַדִּ יר), so it can't
+  be added accurately without a clean digital source or rav-verified text.
