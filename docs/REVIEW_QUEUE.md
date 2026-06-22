@@ -101,14 +101,28 @@ brachos, bedtime, sefiras, tefillas-haderech, Aleinu sentence-headers,
 mussaf korbanos) were tagged by the **verified rule**, not each visually
 confirmed — worth a spot-check pass.
 
-FLAGGED — left on the Hebrew-on-top default, NOT guessed (need a visual
-check; they're spelled-out service titles / labels, ambiguous under the
-rule): `mch1-header` "Mussaf for Chol Hamoed", `s-header` "Mussaf for
-Rosh Chodesh", shacharit `header_aleinu` "Shacharis • Aleinu", shacharit
-`header_sunday/monday/tuesday/wednesday` day-of-week labels. Also the main
-service transliteration headers (Maariv, Minchah, Hallel, Tachanun, the
-Kaddish variants) default Hebrew-on-top by rule — confirm if any are set
-English-first in the print.
+FLAGGED ITEMS — VERIFIED at the PDF (all Hebrew-on-top → correctly on the
+default, no change needed):
+- `s-header` "Mussaf for Rosh Chodesh" — print title is מוסף לראש חודש
+  (Hebrew on top); the catchy "Another Month—Another Chance!" is a separate
+  subtitle segment, and "Mussaf for Rosh Chodesh" is an app-added
+  transliteration. He-top. ✓ (pdf-verified)
+- `mch1-header` "Mussaf for Chol Hamoed" — same structure. He-top. ✓
+- `header_sunday/monday/tuesday/...` — Hebrew day-name (שיר של יום …) on
+  top, "(Tuesday, Chapter 82)" label below. He-top. ✓ (pdf-verified)
+- `header_aleinu` "Shacharis • Aleinu" — that enText is the running-page-
+  header text; the section title in print is Hebrew עָלֵינוּ. He-top. ✓
+
+CONFIRMED RULE LOGIC: the Mussaf case validated it — a transliteration
+header is He-top even when a catchy English subtitle sits nearby (the
+subtitle is a separate segment, not the header's enText).
+
+STILL RULE-BASED (not each visually confirmed; PDF page-location in this
+environment is unreliable): the catchy-title enTop tags in the food-
+brachos, bentching, bedtime, sefiras, tefillas-haderech, Aleinu-sentence,
+and pesukei-dzimrah/kt title headers. The rule is verified on diverse
+samples (My Body Works, OUR REQUESTS at 300 DPI) and consistent; for
+absolute per-instance certainty, eyeball the rendered sections.
 
 ### Blocked on a clean Hebrew source + renderer support
 - **Inline Kedushah speaker tags** (חזן / קו״ח / קו״ש before לְעֻמָּתָם i=44,
