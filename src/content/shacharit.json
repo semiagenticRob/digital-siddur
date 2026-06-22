@@ -2584,8 +2584,7 @@
               "id": "se1-header-our-requests",
               "type": "header",
               "heText": "שְׁמֹנֶה עֶשְׂרֵה",
-              "enText": "OUR REQUESTS",
-              "enTop": true
+              "enText": "OUR REQUESTS"
             },
             {
               "id": "se1-rubric-opening-statement",

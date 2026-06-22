@@ -25,7 +25,7 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 | `section_intro` | `enText` (RichText) | `heText` | **centered**; the bridge/preamble style |
 | `transition` | `enText` | `heText` | centered, glowing bridge |
 | `rubric` | `heText` if present else `enText` — **plain `Text`, NOT markdown** | the other field | a rubric with both fields only shows in "both" mode |
-| `header` | `heText` and/or `enText` | — | `plain`/`enPrimary` variants |
+| `header` | `heText` and/or `enText` | — | **English caps label on top, Hebrew title beneath** (default). `enPrimary` = big English title over small Hebrew subtitle. `heTop` = keep Hebrew first (English is a mere transliteration). `plain` = quiet incipit. |
 
 ## Conventions (matched to the print)
 
