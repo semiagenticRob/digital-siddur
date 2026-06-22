@@ -2538,7 +2538,8 @@
             {
               "id": "hashem_yimloch",
               "type": "prayer",
-              "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד:"
+              "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד:",
+              "display": true
             },
             {
               "id": "hashem_yimloch_gloss",
