@@ -244,7 +244,7 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     heText: {
       fontFamily: Fonts.hebrew,
       fontSize: heSize,
-      lineHeight: heSize * 1.95,
+      lineHeight: heSize * 1.5,
       color: c.ink,
       textAlign: 'right',
       writingDirection: 'rtl' as const,
