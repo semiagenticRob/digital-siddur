@@ -435,12 +435,7 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       textAlign: 'right',
       writingDirection: 'rtl' as const,
       marginVertical: 6,
-      paddingVertical: 5,
-      paddingHorizontal: 10,
-      borderRightWidth: 3,
-      borderRightColor: c.rubric,
-      backgroundColor: c.accentSoft,
-      borderRadius: 10,
+      paddingVertical: 4,
     },
     rubricEn: {
       fontFamily: Fonts.englishItalic,
