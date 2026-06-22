@@ -63,3 +63,36 @@ Segment indices are into `g-shemoneh-esrei` prayer[0].segments.
 - Header/rubric nikud consistency group: i=116, 121, 127, 141.
 - קו"ח (kal va-chomer) labels — formatting convention.
 - Punctuation review in i=183.
+
+## Shemoneh Esrei (Shacharis) — formatting scan 2026-06-22
+
+Full 16-page print-vs-app formatting audit. Safe fixes applied in
+`scripts/fix_se_formatting_scan.py` (display on whole-segment framework
+chasimos i=16/35/175, heTop on transliteration headers, lemma spellings,
+refuah-insert italics, epilogue bridge). Held items below.
+
+### Framework chasimah enlargement — needs segment splits (structural)
+The print sets the chasimah (בָּרוּךְ אַתָּה ה׳…) of the **six framework
+brachos** oversized + centered; the 13 middle requests stay normal. Three
+are whole-segment and already flagged `display`. The remaining four bundle
+the enlarged chasimah with normal-size opening text, so enlarging only the
+chasimah requires splitting the segment (chasimah → own `display` prayer):
+- **i=53** se1-prayer-ledor-vador — only `…הָאֵל הַקָּדוֹשׁ` enlarged
+- **i=57** se1-prayer-kedushas-hashem — only `…הָאֵל הַקָּדוֹשׁ` enlarged
+- **i=131** se3-prayer-vsechezenah — likely only the chasimah line (verify extent)
+- **i=159** se3-prayer-vchol-hachaim — only `…הַטּוֹב שִׁמְךָ…` enlarged
+NOTE: the vision agents under-detected this dimension (false "normal" on
+i=35/46/50/159 at page resolution) — verify each by high-DPI crop.
+
+### Missing liturgy / structural (see also earlier SE-audit section)
+- **Inline Kedushah speaker tags** — print prints חזן / קו"ח / קו"ש inline
+  before לְעֻמָּתָם (i=44), בָּרוּךְ כְּבוֹד (i=46), וּבְדִבְרֵי (i=48),
+  יִמְלֹךְ (i=50); the app omits them. Add inline or confirm intentional.
+- **Adir Bamarom** congregational response after i=165 — still missing
+  (already queued under "new liturgy / rav sign-off").
+
+### House-style — header order for description headers
+The bracha sub-headers (רְפוּאָה / "Give me healing", etc.) now render
+English-on-top per the global default. Vision agents disagreed on whether
+the print sets these Hebrew-on-top; if it does, they'd need `heTop` too.
+Decide whether description-headers follow print order or app default.
