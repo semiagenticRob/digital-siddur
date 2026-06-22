@@ -16,7 +16,8 @@
               "id": "s-bn-header",
               "type": "header",
               "heText": "בּוֹרֵא נְפָשׁוֹת",
-              "enText": "You Had a Glass of Water? It's Also a Miracle Like Manna from Heaven! Say Thank You!"
+              "enText": "You Had a Glass of Water? It's Also a Miracle Like Manna from Heaven! Say Thank You!",
+              "enTop": true
             },
             {
               "id": "s-bn-intro",

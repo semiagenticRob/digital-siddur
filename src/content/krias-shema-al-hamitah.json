@@ -43,7 +43,8 @@
               "id": "seg-header-hamapil",
               "type": "header",
               "heText": "בִּרְכַּת הַמַּפִּיל",
-              "enText": "You Control Our Sleep—and Waking Up!"
+              "enText": "You Control Our Sleep—and Waking Up!",
+              "enTop": true
             },
             {
               "id": "seg-prayer-hamapil",

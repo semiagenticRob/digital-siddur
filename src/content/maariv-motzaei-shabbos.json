@@ -16,7 +16,8 @@
               "id": "seg-header",
               "type": "header",
               "heText": "מַעֲרִיב לְמוֹצָאֵי שַׁבָּת",
-              "enText": "We Must Carry the Serenity, Kedushah, and Security of Shabbos into the Workweek"
+              "enText": "We Must Carry the Serenity, Kedushah, and Security of Shabbos into the Workweek",
+              "enTop": true
             },
             {
               "id": "seg-subheader",

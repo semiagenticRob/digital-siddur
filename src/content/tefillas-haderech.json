@@ -16,7 +16,8 @@
               "id": "s-th-header",
               "type": "header",
               "heText": "תְּפִלַּת הַדֶּרֶךְ",
-              "enText": "Travel Safe!"
+              "enText": "Travel Safe!",
+              "enTop": true
             },
             {
               "id": "s-th-prayer",

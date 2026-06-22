@@ -346,7 +346,8 @@
               "id": "min2-header-our-requests",
               "type": "header",
               "enText": "OUR REQUESTS",
-              "heText": "שְׁמֹנֶה עֶשְׂרֵה"
+              "heText": "שְׁמֹנֶה עֶשְׂרֵה",
+              "enTop": true
             },
             {
               "id": "min2-transition-success",
@@ -2099,7 +2100,8 @@
               "id": "min6-header",
               "type": "header",
               "heText": "עָלֵינוּ",
-              "enText": "We Have a Unique Relationship with Hashem—and We Hope Soon All Mankind Will Also Recognize Hashem"
+              "enText": "We Have a Unique Relationship with Hashem—and We Hope Soon All Mankind Will Also Recognize Hashem",
+              "enTop": true
             },
             {
               "id": "min6-aleinu-1",

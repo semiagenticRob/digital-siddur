@@ -35,20 +35,23 @@ export function SegmentRenderer({
 
   const s = makeStyles(colors, heSize, enSize);
 
-  // Header — always visible, language-aware.
-  // Default: English caps label on top, prominent Hebrew title beneath (matching
-  // the print's section headers). enPrimary keeps English-on-top but in
-  // title/subtitle sizing (big English title over a small Hebrew name-list).
-  // heTop flips back to Hebrew-first for headers where the English is a mere
-  // transliteration that reads better below the Hebrew.
+  // Header — always visible, language-aware. Order must match the print PER
+  // HEADER, never a blanket default that contradicts it. The print's majority
+  // is Hebrew-on-top (every transliteration/description sub-header), so that is
+  // the default; English-on-top is opt-in and explicit:
+  //   enTop      — English caps label on top, prominent Hebrew title beneath
+  //   enPrimary  — English-on-top in title/subtitle sizing (big English title
+  //                over a small Hebrew name-list)
+  // Each enTop/enPrimary header is verified English-on-top against the PDF.
   if (segment.type === 'header') {
+    const enFirst = segment.enTop || segment.enPrimary;
     const heStyle = segment.plain ? s.headerHePlain : segment.enPrimary ? s.headerHeSub : s.headerHe;
     const enStyle = segment.plain ? s.headerEnPlain : segment.enPrimary ? s.headerEnPrimary : s.headerEn;
     const en = segment.enText && displayMode !== 'he' && <Text style={enStyle}>{segment.enText}</Text>;
     const he = segment.heText && displayMode !== 'en' && <Text style={heStyle}>{segment.heText}</Text>;
     return (
       <View style={s.headerBlock}>
-        {segment.heTop ? <>{he}{en}</> : <>{en}{he}</>}
+        {enFirst ? <>{en}{he}</> : <>{he}{en}</>}
         {!segment.plain && <View style={s.headerRule} />}
       </View>
     );

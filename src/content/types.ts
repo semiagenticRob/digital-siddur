@@ -16,8 +16,9 @@ export interface Segment {
   condition?: string; // e.g. "winter", "rosh_chodesh" — static label in v1, logic in v2
   xref?: string;     // e.g. "faq:3", "appendix:9" — captured now, navigable in v2
   enPrimary?: boolean; // header only: big English title above a small Hebrew name-list (subtitle sizing)
-  heTop?: boolean;     // header only: keep Hebrew on top (default is English caps label above the
-                       // Hebrew title). Use when the English is a mere transliteration (e.g. Ashrei).
+  enTop?: boolean;     // header only: English caps label on top, Hebrew title beneath. Default is
+                       // Hebrew-on-top (the print's majority); set enTop ONLY for headers the PDF
+                       // sets English-first (e.g. שְׁמֹנֶה עֶשְׂרֵה / OUR REQUESTS). Verify per PDF.
   plain?: boolean;     // header only: centered in ink color, no accent/rule (a quiet incipit)
   optional?: boolean;  // segment belongs to an optional passage — rendered inside a shaded box
                        // (a contiguous run of optional segments forms one box, as in the print)

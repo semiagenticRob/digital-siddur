@@ -16,7 +16,8 @@
               "id": "s-am-header",
               "type": "header",
               "heText": "בְּרָכָה מֵעֵין שָׁלֹשׁ—עַל הַמִּחְיָה",
-              "enText": "You Ate a Piece of Cake, Had Some Wine, and/or Fruit from the Seven Species? It's Also a Miracle like Manna from Heaven! Say Thank You!"
+              "enText": "You Ate a Piece of Cake, Had Some Wine, and/or Fruit from the Seven Species? It's Also a Miracle like Manna from Heaven! Say Thank You!",
+              "enTop": true
             },
             {
               "id": "s-am-intro",

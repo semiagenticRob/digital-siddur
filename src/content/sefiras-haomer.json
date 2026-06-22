@@ -33,7 +33,8 @@
               "id": "seg-004",
               "type": "header",
               "heText": "סְפִירַת הָעוֹמֶר",
-              "enText": "Counting Up to Kabbalas HaTorah"
+              "enText": "Counting Up to Kabbalas HaTorah",
+              "enTop": true
             },
             {
               "id": "seg-005",

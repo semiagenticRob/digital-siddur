@@ -68,7 +68,8 @@
               "id": "header-my-body-works",
               "type": "header",
               "heText": "עַל נְטִילַת יָדַיִם / אֲשֶׁר יָצַר",
-              "enText": "My Body Works!"
+              "enText": "My Body Works!",
+              "enTop": true
             },
             {
               "id": "netilas-yadayim-bracha",
@@ -101,7 +102,8 @@
               "id": "header-and-i-have-a-soul",
               "type": "header",
               "heText": "אֱלֹהַי נְשָׁמָה",
-              "enText": "And I Have a Soul!"
+              "enText": "And I Have a Soul!",
+              "enTop": true
             },
             {
               "id": "elokai-neshama-prayer",
@@ -129,7 +131,8 @@
               "id": "birchos-hatorah-header",
               "type": "header",
               "heText": "בִּרְכוֹת הַתּוֹרָה",
-              "enText": "I Have a Torah!"
+              "enText": "I Have a Torah!",
+              "enTop": true
             },
             {
               "id": "laasok-bracha-text",
@@ -213,7 +216,8 @@
               "id": "header",
               "type": "header",
               "heText": "עֲטִיפַת טַלִּית / הֲנָחַת תְּפִילִּין",
-              "enText": "And I Am Committed to Putting Torah into Practice"
+              "enText": "And I Am Committed to Putting Torah into Practice",
+              "enTop": true
             },
             {
               "id": "header_tallis",
@@ -447,7 +451,8 @@
               "id": "header-ready-to-daven",
               "type": "header",
               "enText": "Now I'm Ready to Daven",
-              "heText": "מַה טֹבוּ / אֲדוֹן עוֹלָם / יִגְדַּל"
+              "heText": "מַה טֹבוּ / אֲדוֹן עוֹלָם / יִגְדַּל",
+              "enTop": true
             },
             {
               "id": "hareini-mekabel",
@@ -1450,7 +1455,8 @@
               "id": "pz2-header-yehi-khvod",
               "type": "header",
               "heText": "יְהִי כָבוֹד",
-              "enText": "Hashem as Master of Nature, Hashem as Master of History"
+              "enText": "Hashem as Master of Nature, Hashem as Master of History",
+              "enTop": true
             },
             {
               "id": "pz2-yehi-khvod-faq",
@@ -1479,7 +1485,8 @@
               "id": "pz2-header-last-six",
               "type": "header",
               "heText": "אַשְׁרֵי / הַלְלוּיָהּ: הַלְלִי נַפְשִׁי/ כִּי טוֹב/ הַלְלוּ אֶת יְהֹוָה/ שִׁירוּ לַיהֹוָה/ הַלְלוּ יָהּ אֵל",
-              "enText": "Last Six Chapters of Tehillim—the Core of Pesukei D'Zimrah"
+              "enText": "Last Six Chapters of Tehillim—the Core of Pesukei D'Zimrah",
+              "enTop": true
             },
             {
               "id": "pz2-header-ashrei",
@@ -1863,7 +1870,8 @@
               "id": "pz3-baruch-header",
               "type": "header",
               "enText": "And to Sum Up Pesukei D'Zimrah",
-              "heText": "בָּרוּךְ יְהֹוָה לְעוֹלָם"
+              "heText": "בָּרוּךְ יְהֹוָה לְעוֹלָם",
+              "enTop": true
             },
             {
               "id": "pz3-baruch-p1",
@@ -1879,7 +1887,8 @@
               "id": "azyashir-1",
               "type": "header",
               "enText": "Introduction to Shiras Ha'yam",
-              "heText": "וַיְבָרֶךְ דָּוִד / וּכְרוֹת עִמּוֹ הַבְּרִית"
+              "heText": "וַיְבָרֶךְ דָּוִד / וּכְרוֹת עִמּוֹ הַבְּרִית",
+              "enTop": true
             },
             {
               "id": "azyashir-2",
@@ -1958,7 +1967,8 @@
               "id": "azyashir-15",
               "type": "header",
               "enText": "Shiras Ha'yam—Conclusion of Pesukei D'Zimrah",
-              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר"
+              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר",
+              "enTop": true
             },
             {
               "id": "azyashir-16",
@@ -2007,7 +2017,8 @@
               "id": "pz4-hdr-yishtabach",
               "type": "header",
               "enText": "Concluding Brachah of Pesukei D'Zimrah",
-              "heText": "יִשְׁתַּבַּח"
+              "heText": "יִשְׁתַּבַּח",
+              "enTop": true
             },
             {
               "id": "pz4-secintro-yishtabach",
@@ -2584,7 +2595,8 @@
               "id": "se1-header-our-requests",
               "type": "header",
               "heText": "שְׁמֹנֶה עֶשְׂרֵה",
-              "enText": "OUR REQUESTS"
+              "enText": "OUR REQUESTS",
+              "enTop": true
             },
             {
               "id": "se1-rubric-opening-statement",
@@ -3004,8 +3016,7 @@
               "id": "se2-refuah-header",
               "type": "header",
               "heText": "רְפוּאָה",
-              "enText": "Give me physical and emotional health",
-              "heTop": true
+              "enText": "Give me physical and emotional health"
             },
             {
               "id": "se2-refuah-faq-1",
@@ -3045,8 +3056,7 @@
               "id": "se2-shanim-header",
               "type": "header",
               "heText": "בִּרְכַּת הַשָּׁנִים",
-              "enText": "Provide me with material abundance",
-              "heTop": true
+              "enText": "Provide me with material abundance"
             },
             {
               "id": "se2-shanim-prayer",
@@ -3068,8 +3078,7 @@
               "id": "se2-kibbutz-header",
               "type": "header",
               "heText": "קִבּוּץ גָּלֻיּוֹת",
-              "enText": "Bring us all back to our Land",
-              "heTop": true
+              "enText": "Bring us all back to our Land"
             },
             {
               "id": "se2-kibbutz-prayer",
@@ -3085,8 +3094,7 @@
               "id": "se2-mishpat-header",
               "type": "header",
               "heText": "מִשְׁפָּט",
-              "enText": "Restore our Torah justice system",
-              "heTop": true
+              "enText": "Restore our Torah justice system"
             },
             {
               "id": "se2-mishpat-prayer",
@@ -3109,8 +3117,7 @@
               "id": "se2-minim-header",
               "type": "header",
               "heText": "הַמִּינִים",
-              "enText": "Destroy those who attempt to (physically or spiritually) destroy us",
-              "heTop": true
+              "enText": "Destroy those who attempt to (physically or spiritually) destroy us"
             },
             {
               "id": "se2-minim-prayer",
@@ -3126,8 +3133,7 @@
               "id": "se2-tzadikim-header",
               "type": "header",
               "heText": "הַצַּדִּיקִים",
-              "enText": "Preserve and strengthen those who spiritually sustain us",
-              "heTop": true
+              "enText": "Preserve and strengthen those who spiritually sustain us"
             },
             {
               "id": "se2-tzadikim-prayer",
@@ -3143,8 +3149,7 @@
               "id": "se2-yerushalayim-header",
               "type": "header",
               "heText": "יְרוּשָׁלַיִם",
-              "enText": "Rebuild Yerushalayim and the Beis Hamikdash",
-              "heTop": true
+              "enText": "Rebuild Yerushalayim and the Beis Hamikdash"
             },
             {
               "id": "se2-yerushalayim-prayer",
@@ -3160,8 +3165,7 @@
               "id": "se2-david-header",
               "type": "header",
               "heText": "מַלְכוּת בֵּית דָּוִד",
-              "enText": "Bring Mashiach",
-              "heTop": true
+              "enText": "Bring Mashiach"
             },
             {
               "id": "se2-david-prayer",
@@ -3177,8 +3181,7 @@
               "id": "se2-shema-koleinu-header",
               "type": "header",
               "heText": "שְׁמַע קוֹלֵנוּ",
-              "enText": "Accept our tefillos",
-              "heTop": true
+              "enText": "Accept our tefillos"
             },
             {
               "id": "se2-shema-koleinu-prayer-1",
@@ -3236,8 +3239,7 @@
               "id": "se2-avodah-header",
               "type": "header",
               "heText": "עֲבוֹדָה",
-              "enText": "Return the avodah to the Beis Hamikdash, for that is the only way to truly thank Hashem",
-              "heTop": true
+              "enText": "Return the avodah to the Beis Hamikdash, for that is the only way to truly thank Hashem"
             },
             {
               "id": "se2-avodah-prayer",
@@ -3288,8 +3290,7 @@
               "id": "se3-header-retzei",
               "type": "header",
               "heText": "רְצֵה",
-              "enText": "Retzei",
-              "heTop": true
+              "enText": "Retzei"
             },
             {
               "id": "se3-prayer-vsechezenah",
@@ -3307,8 +3308,7 @@
               "id": "se3-header-modim",
               "type": "header",
               "heText": "הוֹדָאָה",
-              "enText": "Modim",
-              "heTop": true
+              "enText": "Modim"
             },
             {
               "id": "se3-transition-modim",
@@ -3352,8 +3352,7 @@
               "id": "se3-header-modim-drabbanan",
               "type": "header",
               "heText": "מוֹדִים דְּרַבָּנָן",
-              "enText": "Modim D'Rabbanan",
-              "heTop": true
+              "enText": "Modim D'Rabbanan"
             },
             {
               "id": "se3-transition-modim-drabbanan",
@@ -3508,8 +3507,7 @@
               "id": "se4-sim-shalom-header",
               "type": "header",
               "heText": "שָׁלוֹם",
-              "enText": "Inner, outer, and communal peace",
-              "heTop": true
+              "enText": "Inner, outer, and communal peace"
             },
             {
               "id": "se4-sim-shalom-text",
@@ -4481,7 +4479,8 @@
               "id": "kt1-header",
               "type": "header",
               "heText": "סֵדֶר קְרִיאַת הַתּוֹרָה",
-              "enText": "Now Let's Learn Some Torah!"
+              "enText": "Now Let's Learn Some Torah!",
+              "enTop": true
             },
             {
               "id": "kt1-intro",
@@ -4868,7 +4867,8 @@
               "id": "kt2-header-returning-torah",
               "type": "header",
               "heText": "הַכְנָסַת סֵפֶר תּוֹרָה",
-              "enText": "Returning the Torah"
+              "enText": "Returning the Torah",
+              "enTop": true
             },
             {
               "id": "kt2-subheader-hallelu",
@@ -4934,7 +4934,8 @@
               "id": "kt2-header-take-home",
               "type": "header",
               "heText": "אַשְׁרֵי—וּבָא לְצִיּוֹן—עָלֵינוּ",
-              "enText": "LET'S TAKE ALL THIS HOME!"
+              "enText": "LET'S TAKE ALL THIS HOME!",
+              "enTop": true
             },
             {
               "id": "kt2-subheader-ashrei-section",
@@ -5629,7 +5630,8 @@
               "id": "header_title",
               "type": "header",
               "heText": "לְדָוִד ה' אוֹרִי",
-              "enText": "Just Ask Hashem for Help in Your Teshuvah Process—His Light Is There If You Look for It!"
+              "enText": "Just Ask Hashem for Help in Your Teshuvah Process—His Light Is There If You Look for It!",
+              "enTop": true
             },
             {
               "id": "commentary_1",
@@ -5739,7 +5741,8 @@
               "id": "header",
               "type": "header",
               "heText": "שֵׁשׁ זְכִירוֹת",
-              "enText": "As You Go through Your Day, Don't Forget!"
+              "enText": "As You Go through Your Day, Don't Forget!",
+              "enTop": true
             },
             {
               "id": "section_intro",
@@ -5817,7 +5820,8 @@
               "id": "header",
               "type": "header",
               "heText": "שְׁלֹשָׁה עָשָׂר עִקָּרִים",
-              "enText": "No Matter What Happens, No Matter Where We Are, This Is What We Believe!"
+              "enText": "No Matter What Happens, No Matter Where We Are, This Is What We Believe!",
+              "enTop": true
             },
             {
               "id": "section_intro",

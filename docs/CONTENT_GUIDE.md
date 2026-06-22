@@ -25,7 +25,7 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 | `section_intro` | `enText` (RichText) | `heText` | **centered**; the bridge/preamble style |
 | `transition` | `enText` | `heText` | centered, glowing bridge |
 | `rubric` | `heText` if present else `enText` — **plain `Text`, NOT markdown** | the other field | a rubric with both fields only shows in "both" mode |
-| `header` | `heText` and/or `enText` | — | **English caps label on top, Hebrew title beneath** (default). `enPrimary` = big English title over small Hebrew subtitle. `heTop` = keep Hebrew first (English is a mere transliteration). `plain` = quiet incipit. |
+| `header` | `heText` and/or `enText` | — | **Hebrew-on-top by default** (the print's majority — every transliteration/description sub-header). Order is per-header from the PDF, never a blanket default. `enTop` = English caps label on top, Hebrew title beneath — set ONLY for headers the PDF prints English-first (e.g. שְׁמֹנֶה עֶשְׂרֵה / OUR REQUESTS), each verified. `enPrimary` = big English title over small Hebrew subtitle. `plain` = quiet incipit. |
 
 ## Conventions (matched to the print)
 
