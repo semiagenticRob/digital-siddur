@@ -2659,7 +2659,8 @@
             {
               "id": "se1-prayer-magen",
               "type": "prayer",
-              "heText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן: בָּרוּךְ אַתָּה יְהֹוָה, מָגֵן אַבְרָהָם:"
+              "heText": "מֶלֶךְ עוֹזֵר וּמוֹשִׁיעַ וּמָגֵן: בָּרוּךְ אַתָּה יְהֹוָה, מָגֵן אַבְרָהָם:",
+              "display": true
             },
             {
               "id": "se1-commentary-magen",
@@ -2765,7 +2766,8 @@
             {
               "id": "se1-prayer-gevuros-3",
               "type": "prayer",
-              "heText": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים: בָּרוּךְ אַתָּה יְהֹוָה, מְחַיֵּה הַמֵּתִים:"
+              "heText": "וְנֶאֱמָן אַתָּה לְהַחֲיוֹת מֵתִים: בָּרוּךְ אַתָּה יְהֹוָה, מְחַיֵּה הַמֵּתִים:",
+              "display": true
             },
             {
               "id": "se1-commentary-gevuros-3",
@@ -2978,7 +2980,7 @@
             {
               "id": "se1-commentary-geulah",
               "type": "commentary",
-              "enText": "**רְאֵה נָא בְעָנְיֵנוּ**—Hashem, look at our suffering, defend our cause, and redeem us soon for the glory of Your Name *(because when Bnei Yisrael suffer and are ridiculed, it is a chillul Hashem)*, for You are a powerful Redeemer. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **גֹּאֵל יִשְׂרָאֵל**—Who constantly redeems Bnei Yisrael."
+              "enText": "**רְאֵה נָא בְעָנְיֵנוּ**—Hashem, look at our suffering, defend our cause, and redeem us soon for the glory of Your Name *(because when Bnei Yisrael suffer and are ridiculed, it is a chillul Hashem)*, for You are a powerful Redeemer. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **גּוֹאֵל יִשְׂרָאֵל**—Who constantly redeems Bnei Yisrael."
             },
             {
               "id": "se2-aneinu-rubric",
@@ -3035,7 +3037,7 @@
             {
               "id": "se2-refuah-insert-commentary",
               "type": "commentary",
-              "enText": "*One may insert now a tefillah for people who are ill: Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to (name) son/daughter of (mother's name) among the others of Bnei Yisrael who are in need of recovery.*",
+              "enText": "*One may insert now a tefillah for people who are ill:* Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to *(name)* son/daughter of *(mother's name)* among the others of Bnei Yisrael who are in need of recovery.",
               "condition": "One may insert this tefillah for people who are ill"
             },
             {
@@ -3145,7 +3147,7 @@
             {
               "id": "se2-yerushalayim-commentary",
               "type": "commentary",
-              "enText": "**וְלִירוּשָׁלַיִם עִירְךָ בְּרַחֲמִים תָּשׁוּב**—Hashem, even if we are not deserving, please return to Your city of Yerushalayim; and let Your Presence be felt there as You have promised; and rebuild it (*the city and the Beis Hamikdash*) soon, in our days, as an everlasting structure; and please (*speedily*) reestablish within it the throne of David HaMelech. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **בּוֹנֵה יְרוּשָׁלַיִם**—Who builds Yerushalayim (*present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim*)."
+              "enText": "**וְלִירוּשָׁלַיִם עִירְךָ בְּרַחֲמִים תָּשׁוּב**—Hashem, even if we are not deserving, please return to Your city of Yerushalayim; and let Your Presence be felt there as You have promised; and rebuild it (*the city and the Beis Hamikdash*) soon, in our days, as an everlasting structure; and please (*speedily*) reestablish within it the throne of David HaMelech. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **בּוֹנֵה יְרוּשָׁלָיִם**—Who builds Yerushalayim (*present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim*)."
             },
             {
               "id": "se2-david-header",
@@ -3276,7 +3278,8 @@
               "id": "se3-header-retzei",
               "type": "header",
               "heText": "רְצֵה",
-              "enText": "Retzei"
+              "enText": "Retzei",
+              "heTop": true
             },
             {
               "id": "se3-prayer-vsechezenah",
@@ -3293,7 +3296,8 @@
               "id": "se3-header-modim",
               "type": "header",
               "heText": "הוֹדָאָה",
-              "enText": "Modim"
+              "enText": "Modim",
+              "heTop": true
             },
             {
               "id": "se3-transition-modim",
@@ -3337,7 +3341,8 @@
               "id": "se3-header-modim-drabbanan",
               "type": "header",
               "heText": "מוֹדִים דְּרַבָּנָן",
-              "enText": "Modim D'Rabbanan"
+              "enText": "Modim D'Rabbanan",
+              "heTop": true
             },
             {
               "id": "se3-transition-modim-drabbanan",
@@ -3528,7 +3533,8 @@
             {
               "id": "se4-sim-shalom-bracha",
               "type": "prayer",
-              "heText": "בָּרוּךְ אַתָּה יְהֹוָה, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם:"
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה, הַמְבָרֵךְ אֶת עַמּוֹ יִשְׂרָאֵל בַּשָּׁלוֹם:",
+              "display": true
             },
             {
               "id": "se4-sim-shalom-bracha-c",
@@ -3609,7 +3615,7 @@
             },
             {
               "id": "se4-epilogue-rubric",
-              "type": "rubric",
+              "type": "transition",
               "enText": "Since tefillah was meant to take the place of korbanos, we add the following epilogue:"
             },
             {
