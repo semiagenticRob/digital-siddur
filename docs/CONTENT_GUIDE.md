@@ -9,7 +9,7 @@ file and the linter together.
 
 `Service → Group → Prayer → Segment[]` (appendices hold `Segment[]` directly).
 A `Segment` has a `type` and the fields `heText` / `enText` (plus `condition`,
-`xref`, `enPrimary`, `plain`, `optional`).
+`xref`, `enPrimary`, `plain`, `optional`, `display`).
 
 ## What each segment type actually renders
 
@@ -18,7 +18,7 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 
 | type | renders | ignores | notes |
 |---|---|---|---|
-| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL |
+| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL. With `display: true` → oversized & centered (Kedushah climax verses) |
 | `commentary` | `enText` only (RichText) | **`heText`** | hidden in Hebrew-only; the EXPLANATION box |
 | `insight` | `enText` (RichText) | `heText` | collapsible "Insight" |
 | `faq` | `enText` (RichText) | `heText` | collapsible "FAQ" |

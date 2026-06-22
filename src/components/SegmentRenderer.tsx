@@ -157,7 +157,7 @@ export function SegmentRenderer({
         accessibilityRole="text"
         accessibilityLabel={segment.heText}
       >
-        <Text style={s.heText}>{segment.heText}</Text>
+        <Text style={segment.display ? s.heTextDisplay : s.heText}>{segment.heText}</Text>
       </Pressable>
 
       {selectionVisible && (
@@ -248,6 +248,16 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       color: c.ink,
       textAlign: 'right',
       writingDirection: 'rtl' as const,
+    },
+    heTextDisplay: {
+      // Kedushah climax verses: oversized & centered, mirroring the print
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize * 1.5,
+      lineHeight: heSize * 1.5 * 1.6,
+      color: c.ink,
+      textAlign: 'center',
+      writingDirection: 'rtl' as const,
+      paddingVertical: 6,
     },
     commentaryBlock: {
       marginTop: 12,

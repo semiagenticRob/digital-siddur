@@ -577,7 +577,8 @@
             {
               "id": "min2-prayer-kadosh",
               "type": "prayer",
-              "heText": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:"
+              "heText": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:",
+              "display": true
             },
             {
               "id": "min2-commentary-kadosh",
@@ -597,7 +598,8 @@
             {
               "id": "min2-prayer-baruch-kevod",
               "type": "prayer",
-              "heText": "בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:"
+              "heText": "בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:",
+              "display": true
             },
             {
               "id": "min2-commentary-baruch-kevod",
@@ -617,7 +619,8 @@
             {
               "id": "min2-prayer-yimloch",
               "type": "prayer",
-              "heText": "יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:"
+              "heText": "יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:",
+              "display": true
             },
             {
               "id": "min2-commentary-yimloch",

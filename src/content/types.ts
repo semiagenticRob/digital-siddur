@@ -19,6 +19,8 @@ export interface Segment {
   plain?: boolean;     // header only: centered in ink color, no accent/rule (a quiet incipit)
   optional?: boolean;  // segment belongs to an optional passage — rendered inside a shaded box
                        // (a contiguous run of optional segments forms one box, as in the print)
+  display?: boolean;   // prayer only: render as a large, centered display verse (the Kedushah
+                       // climaxes — קדוש / ברוך כבוד / ימלך — which the print sets oversized & centered)
 }
 
 export interface Prayer {
