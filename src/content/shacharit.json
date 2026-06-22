@@ -3004,7 +3004,8 @@
               "id": "se2-refuah-header",
               "type": "header",
               "heText": "רְפוּאָה",
-              "enText": "Give me physical and emotional health"
+              "enText": "Give me physical and emotional health",
+              "heTop": true
             },
             {
               "id": "se2-refuah-faq-1",
@@ -3044,7 +3045,8 @@
               "id": "se2-shanim-header",
               "type": "header",
               "heText": "בִּרְכַּת הַשָּׁנִים",
-              "enText": "Provide me with material abundance"
+              "enText": "Provide me with material abundance",
+              "heTop": true
             },
             {
               "id": "se2-shanim-prayer",
@@ -3066,7 +3068,8 @@
               "id": "se2-kibbutz-header",
               "type": "header",
               "heText": "קִבּוּץ גָּלֻיּוֹת",
-              "enText": "Bring us all back to our Land"
+              "enText": "Bring us all back to our Land",
+              "heTop": true
             },
             {
               "id": "se2-kibbutz-prayer",
@@ -3082,7 +3085,8 @@
               "id": "se2-mishpat-header",
               "type": "header",
               "heText": "מִשְׁפָּט",
-              "enText": "Restore our Torah justice system"
+              "enText": "Restore our Torah justice system",
+              "heTop": true
             },
             {
               "id": "se2-mishpat-prayer",
@@ -3105,7 +3109,8 @@
               "id": "se2-minim-header",
               "type": "header",
               "heText": "הַמִּינִים",
-              "enText": "Destroy those who attempt to (physically or spiritually) destroy us"
+              "enText": "Destroy those who attempt to (physically or spiritually) destroy us",
+              "heTop": true
             },
             {
               "id": "se2-minim-prayer",
@@ -3121,7 +3126,8 @@
               "id": "se2-tzadikim-header",
               "type": "header",
               "heText": "הַצַּדִּיקִים",
-              "enText": "Preserve and strengthen those who spiritually sustain us"
+              "enText": "Preserve and strengthen those who spiritually sustain us",
+              "heTop": true
             },
             {
               "id": "se2-tzadikim-prayer",
@@ -3137,7 +3143,8 @@
               "id": "se2-yerushalayim-header",
               "type": "header",
               "heText": "יְרוּשָׁלַיִם",
-              "enText": "Rebuild Yerushalayim and the Beis Hamikdash"
+              "enText": "Rebuild Yerushalayim and the Beis Hamikdash",
+              "heTop": true
             },
             {
               "id": "se2-yerushalayim-prayer",
@@ -3153,7 +3160,8 @@
               "id": "se2-david-header",
               "type": "header",
               "heText": "מַלְכוּת בֵּית דָּוִד",
-              "enText": "Bring Mashiach"
+              "enText": "Bring Mashiach",
+              "heTop": true
             },
             {
               "id": "se2-david-prayer",
@@ -3169,7 +3177,8 @@
               "id": "se2-shema-koleinu-header",
               "type": "header",
               "heText": "שְׁמַע קוֹלֵנוּ",
-              "enText": "Accept our tefillos"
+              "enText": "Accept our tefillos",
+              "heTop": true
             },
             {
               "id": "se2-shema-koleinu-prayer-1",
@@ -3227,7 +3236,8 @@
               "id": "se2-avodah-header",
               "type": "header",
               "heText": "עֲבוֹדָה",
-              "enText": "Return the avodah to the Beis Hamikdash, for that is the only way to truly thank Hashem"
+              "enText": "Return the avodah to the Beis Hamikdash, for that is the only way to truly thank Hashem",
+              "heTop": true
             },
             {
               "id": "se2-avodah-prayer",
@@ -3284,7 +3294,8 @@
             {
               "id": "se3-prayer-vsechezenah",
               "type": "prayer",
-              "heText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהוָה, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן:"
+              "heText": "וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהוָה, הַמַּחֲזִיר שְׁכִינָתוֹ לְצִיּוֹן:",
+              "display": true
             },
             {
               "id": "se3-commentary-vsechezenah",
@@ -3446,7 +3457,13 @@
             {
               "id": "se3-prayer-vchol-hachaim",
               "type": "prayer",
-              "heText": "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה: בָּרוּךְ אַתָּה יְהוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת:"
+              "heText": "וְכֹל הַחַיִּים יוֹדוּךָ סֶּלָה, וִיהַלְלוּ אֶת שִׁמְךָ בֶּאֱמֶת, הָאֵל יְשׁוּעָתֵנוּ וְעֶזְרָתֵנוּ סֶלָה:"
+            },
+            {
+              "id": "se3-prayer-modim-chasimah",
+              "type": "prayer",
+              "heText": "בָּרוּךְ אַתָּה יְהוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת:",
+              "display": true
             },
             {
               "id": "se3-commentary-vchol-hachaim",
@@ -3491,7 +3508,8 @@
               "id": "se4-sim-shalom-header",
               "type": "header",
               "heText": "שָׁלוֹם",
-              "enText": "Inner, outer, and communal peace"
+              "enText": "Inner, outer, and communal peace",
+              "heTop": true
             },
             {
               "id": "se4-sim-shalom-text",
