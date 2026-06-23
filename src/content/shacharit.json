@@ -5784,6 +5784,61 @@
               "id": "prayer_aleinu_3_supplement",
               "type": "prayer",
               "heText": "אַל תִּירָא מִפַּחַד פִּתְאֹם וּמִשֹּׁאַת רְשָׁעִים כִּי תָבֹא. עֻצוּ עֵצָה וְתֻפָר, דַּבְּרוּ דָבָר וְלֹא יָקוּם, כִּי עִמָּנוּ אֵל. וְעַד זִקְנָה אֲנִי הוּא, וְעַד שֵׂיבָה אֲנִי אֶסְבֹּל, אֲנִי עָשִׂיתִי וַאֲנִי אֶשָּׂא, וַאֲנִי אֶסְבֹּל וַאֲמַלֵּט."
+            },
+            {
+              "id": "aleinu_kaddish_header",
+              "type": "header",
+              "heText": "קַדִּישׁ יָתוֹם"
+            },
+            {
+              "id": "aleinu_kaddish_comm_1",
+              "type": "commentary",
+              "enText": "**יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא**—*(The person saying Kaddish proclaims our hope that)* soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done."
+            },
+            {
+              "id": "aleinu_kaddish_1",
+              "type": "prayer",
+              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, וְיַצְמַח פֻּרְקָנֵהּ וִיקָרֵב מְשִׁיחֵהּ. בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב, וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "aleinu_kaddish_comm_2",
+              "type": "commentary",
+              "enText": "*(We all enthusiastically respond:)* Absolutely correct! May everyone *(including me)* everywhere, and forever, see that all His actions are great and deserving of praise!"
+            },
+            {
+              "id": "aleinu_kaddish_2",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:"
+            },
+            {
+              "id": "aleinu_kaddish_comm_3",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish then says:)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "aleinu_kaddish_3",
+              "type": "prayer",
+              "heText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵהּ דְּקֻדְשָׁא, בְּרִיךְ הוּא. לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי\"ת לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא, וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "aleinu_kaddish_comm_4",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish requests:)* May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "aleinu_kaddish_4",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא, וְחַיִּים עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "aleinu_kaddish_comm_5",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish requests:)* May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "aleinu_kaddish_5",
+              "type": "prayer",
+              "heText": "עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:"
             }
           ]
         },
