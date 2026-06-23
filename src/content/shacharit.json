@@ -2525,15 +2525,11 @@
               "enText": "**וַיֹּאמֶר יְהוָה אֶל מֹשֶׁה לֵּאמֹר**—Moshe was told by Hashem to tell Bnei Yisrael: You must place tzitzis at the edges of your four-cornered garments and put on each corner one techeiles-colored string. **וּרְאִיתֶם אֹתוֹ**—By looking at it *(techeiles is the color of the sea, which is similar to the sky, which looks like a sapphire, which will remind you of the throne of Hashem—a lesson that spiritual growth is a slow, step-by-step process!)* you will think about the mitzvos and do them. **וְלֹא תָתוּרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם**—Do not be swayed by the temptations or doubts that arise in your heart, or by immoral thoughts that are triggered by watching things one should not be watching! **לְמַעַן תִּזְכְּרוּ וַעֲשִׂיתֶם אֶת כָּל מִצְוֹתָי**—Be constantly aware of what is proper, and fulfill all My mitzvos; **וִהְיִיתֶם קְדֹשִׁים לֵאלֹהֵיכֶם**—and this will elevate and sanctify your life. I am Hashem, Who takes care of you and miraculously took you out of Egypt to be your personal God. **אֲנִי יְהוָה אֱלֹהֵיכֶם**—I (the same God Who did all those public, overt miracles in Egypt) am Your God now (even though at times My Presence is hidden); **אֱמֶת**—and that is the truth!"
             },
             {
-              "id": "emes_vyatziv_chazan_rubric",
-              "type": "rubric",
-              "heText": "הַשַּׁ\"ץ חוֹזֵר וְאוֹמֵר:",
-              "enText": "The chazzan repeats and says:"
-            },
-            {
               "id": "emes_vyatziv_chazan_line",
               "type": "prayer",
-              "heText": "יְהוָה אֱלֹהֵיכֶם אֱמֶת:"
+              "heText": "יְהוָה אֱלֹהֵיכֶם אֱמֶת:",
+              "inlineRubric": "הַשַּׁ\"ץ חוֹזֵר וְאוֹמֵר:",
+              "display": true
             },
             {
               "id": "emes_vyatziv_header",

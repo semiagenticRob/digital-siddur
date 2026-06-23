@@ -163,7 +163,14 @@ export function SegmentRenderer({
         accessibilityRole="text"
         accessibilityLabel={segment.heText}
       >
-        <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText}>{segment.heText}</Text>
+        {segment.inlineRubric ? (
+          <Text style={s.heTextDisplay}>
+            <Text style={s.inlineRubricHe}>{segment.inlineRubric} </Text>
+            {segment.heText}
+          </Text>
+        ) : (
+          <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText}>{segment.heText}</Text>
+        )}
       </Pressable>
 
       {selectionVisible && (
@@ -452,6 +459,12 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       writingDirection: 'rtl' as const,
       marginVertical: 6,
       paddingVertical: 4,
+    },
+    inlineRubricHe: {
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize * 0.72,
+      color: c.rubric,
+      fontStyle: 'italic',
     },
     rubricEn: {
       fontFamily: Fonts.englishItalic,

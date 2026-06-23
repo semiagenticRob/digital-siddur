@@ -26,6 +26,9 @@ export interface Segment {
                        // climaxes — קדוש / ברוך כבוד / ימלך — which the print sets oversized & centered)
   center?: boolean;    // prayer only: centered at normal size (verses the print centers without
                        // enlarging, e.g. the Amidah opening אֲדֹנָי שְׂפָתַי)
+  inlineRubric?: string; // prayer only: small rubric text rendered inline (smaller, italic) on the
+                         // same centered line before the main heText — matches the print's layout
+                         // where a chazzan cue sits inline at smaller size on the same line
 }
 
 export interface Prayer {
