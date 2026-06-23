@@ -2606,7 +2606,8 @@
             {
               "id": "se1-prayer-adonai-sefasai",
               "type": "prayer",
-              "heText": "אֲדֹנָי, שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ:"
+              "heText": "אֲדֹנָי, שְׂפָתַי תִּפְתָּח וּפִי יַגִּיד תְּהִלָּתֶךָ:",
+              "center": true
             },
             {
               "id": "se1-commentary-adonai-sefasai",
@@ -2616,12 +2617,7 @@
             {
               "id": "se1-faq-2",
               "type": "faq",
-              "enText": "FAQ: Why am I asking Hashem for stuff? Hashem knows what I want, and He also knows what I really need. If I really need it and am supposed to have it, He would have given it to me!"
-            },
-            {
-              "id": "se1-faq-3",
-              "type": "faq",
-              "enText": "FAQ: Why should I bother making requests from Hashem? I've asked Him many times before for stuff and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael! See Appendix 1.",
+              "enText": "FAQ: Why am I asking Hashem for stuff? Hashem knows what I want, and He also knows what I really need. If I really need it and am supposed to have it, He would have given it to me! FAQ: Why should I bother making requests from Hashem? I've asked Him many times before for stuff and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael! See Appendix 1.",
               "xref": "Appendix 1"
             },
             {

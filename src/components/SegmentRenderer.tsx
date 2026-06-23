@@ -163,7 +163,7 @@ export function SegmentRenderer({
         accessibilityRole="text"
         accessibilityLabel={segment.heText}
       >
-        <Text style={segment.display ? s.heTextDisplay : s.heText}>{segment.heText}</Text>
+        <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText}>{segment.heText}</Text>
       </Pressable>
 
       {selectionVisible && (
@@ -253,6 +253,16 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       lineHeight: heSize * 1.5,
       color: c.ink,
       textAlign: 'right',
+      writingDirection: 'rtl' as const,
+    },
+    heTextCenter: {
+      // normal size, centered — verses the print centers without enlarging
+      // (e.g. the Amidah's opening אֲדֹנָי שְׂפָתַי under "Opening Statement")
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize,
+      lineHeight: heSize * 1.5,
+      color: c.ink,
+      textAlign: 'center',
       writingDirection: 'rtl' as const,
     },
     heTextDisplay: {

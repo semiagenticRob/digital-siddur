@@ -24,6 +24,8 @@ export interface Segment {
                        // (a contiguous run of optional segments forms one box, as in the print)
   display?: boolean;   // prayer only: render as a large, centered display verse (the Kedushah
                        // climaxes — קדוש / ברוך כבוד / ימלך — which the print sets oversized & centered)
+  center?: boolean;    // prayer only: centered at normal size (verses the print centers without
+                       // enlarging, e.g. the Amidah opening אֲדֹנָי שְׂפָתַי)
 }
 
 export interface Prayer {
