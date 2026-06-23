@@ -164,7 +164,11 @@ export function SegmentRenderer({
         accessibilityLabel={segment.heText}
       >
         {segment.inlineRubric ? (
-          <Text style={s.heTextDisplay}>
+          <Text
+            style={s.heTextDisplayInline}
+            adjustsFontSizeToFit
+            numberOfLines={1}
+          >
             <Text style={s.inlineRubricHe}>{segment.inlineRubric} </Text>
             {segment.heText}
           </Text>
@@ -277,6 +281,17 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontFamily: Fonts.hebrew,
       fontSize: heSize * 1.5,
       lineHeight: heSize * 1.5 * 1.6,
+      color: c.ink,
+      textAlign: 'center',
+      writingDirection: 'rtl' as const,
+      paddingVertical: 6,
+    },
+    heTextDisplayInline: {
+      // display verse with inlineRubric: slightly smaller than full display so
+      // the rubric + verse combined fit on one line at normal font size
+      fontFamily: Fonts.hebrew,
+      fontSize: heSize * 1.1,
+      lineHeight: heSize * 1.1 * 1.6,
       color: c.ink,
       textAlign: 'center',
       writingDirection: 'rtl' as const,
