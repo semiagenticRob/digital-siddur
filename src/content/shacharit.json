@@ -5688,14 +5688,14 @@
               "heText": "צִדְקָתְךָ צֶדֶק לְעוֹלָם, וְתוֹרָתְךָ אֱמֶת: תִּתֵּן אֱמֶת לְיַעֲקֹב, חֶסֶד לְאַבְרָהָם, אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתֵינוּ מִימֵי קֶדֶם: בָּרוּךְ אֲדֹנָי יוֹם יוֹם, יַעֲמָס לָנוּ הָאֵל יְשׁוּעָתֵנוּ סֶלָה: יְהֹוָה צְבָאוֹת עִמָּנוּ, מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה: יְהֹוָה צְבָאוֹת, אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ: יְהֹוָה הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ:"
             },
             {
-              "id": "kt3-uva-comm-5",
-              "type": "commentary",
-              "enText": "**בָּרוּךְ הוּא אֱלֹהֵינוּ שֶׁבְּרָאָנוּ לִכְבוֹדוֹ** — Thank You for creating us for Your unique nation and giving us a Torah of truth. Open our hearts to Your Torah and inspire us to do the right things! And may we live to see the coming of Mashiach. **בָּרוּךְ הַגֶּבֶר אֲשֶׁר יִבְטַח** — Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best *(even if it is hard to see)*. Hashem never abandons those who seek Him."
-            },
-            {
               "id": "kt3-uva-6",
               "type": "prayer",
               "heText": "בָּרוּךְ הוּא אֱלֹהֵינוּ שֶׁבְּרָאָנוּ לִכְבוֹדוֹ, וְהִבְדִּילָנוּ מִן הַתּוֹעִים, וְנָתַן לָנוּ תּוֹרַת אֱמֶת, וְחַיֵּי עוֹלָם נָטַע בְּתוֹכֵנוּ: הוּא יִפְתַּח לִבֵּנוּ בְּתוֹרָתוֹ, וְיָשֵׂם בְּלִבֵּנוּ אַהֲבָתוֹ וְיִרְאָתוֹ וְלַעֲשׂוֹת רְצוֹנוֹ וּלְעָבְדוֹ בְּלֵבָב שָׁלֵם, לְמַעַן לֹא נִיגַע לָרִיק, וְלֹא נֵלֵד לַבֶּהָלָה: יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁנִּשְׁמֹר חֻקֶּיךָ בָּעוֹלָם הַזֶּה, וְנִזְכֶּה וְנִחְיֶה וְנִרְאֶה וְנִירַשׁ טוֹבָה וּבְרָכָה, לִשְׁנֵי יְמוֹת הַמָּשִׁיחַ וּלְחַיֵּי הָעוֹלָם הַבָּא: לְמַעַן יְזַמֶּרְךָ כָבוֹד וְלֹא יִדֹּם, יְהֹוָה אֱלֹהַי לְעוֹלָם אוֹדֶךָּ: בָּרוּךְ הַגֶּבֶר אֲשֶׁר יִבְטַח בַּיהֹוָה, וְהָיָה יְהֹוָה מִבְטַחוֹ: בִּטְחוּ בַיהֹוָה עֲדֵי עַד, כִּי בְּיָהּ יְהֹוָה צוּר עוֹלָמִים: וְיִבְטְחוּ בְךָ יוֹדְעֵי שְׁמֶךָ, כִּי לֹא עָזַבְתָּ דֹרְשֶׁיךָ יְהֹוָה: יְהֹוָה חָפֵץ לְמַעַן צִדְקוֹ, יַגְדִּיל תּוֹרָה וְיַאְדִּיר:"
+            },
+            {
+              "id": "kt3-uva-comm-5",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ הוּא אֱלֹהֵינוּ שֶׁבְּרָאָנוּ לִכְבוֹדוֹ** — Thank You for creating us for Your unique nation and giving us a Torah of truth. Open our hearts to Your Torah and inspire us to do the right things! And may we live to see the coming of Mashiach. **בָּרוּךְ הַגֶּבֶר אֲשֶׁר יִבְטַח** — Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best *(even if it is hard to see)*. Hashem never abandons those who seek Him."
             },
             {
               "id": "kt3-uva-rubric-kaddish-locator",
@@ -6172,8 +6172,7 @@
             {
               "id": "rubric_kaddish",
               "type": "rubric",
-              "heText": "קדיש יתום",
-              "enText": "Mourner's Kaddish"
+              "heText": "קדיש יתום"
             }
           ]
         },
@@ -6236,6 +6235,87 @@
               "id": "hebrew_amar_elazar",
               "type": "prayer",
               "heText": "אָמַר רַבִּי אֶלְעָזָר אָמַר רַבִּי חֲנִינָא, תַּלְמִידֵי חֲכָמִים מַרְבִּים שָׁלוֹם בָּעוֹלָם, שֶׁנֶּאֱמַר: וְכָל בָּנַיִךְ לִמּוּדֵי יְהֹוָה וְרַב שְׁלוֹם בָּנָיִךְ: אַל תִּקְרֵי בָּנָיִךְ אֶלָּא בּוֹנָיִךְ: שָׁלוֹם רָב לְאֹהֲבֵי תוֹרָתֶךָ, וְאֵין לָמוֹ מִכְשׁוֹל: יְהִי שָׁלוֹם בְּחֵילֵךְ, שַׁלְוָה בְּאַרְמְנוֹתָיִךְ: לְמַעַן אַחַי וְרֵעָי אֲדַבְּרָה נָּא שָׁלוֹם בָּךְ: לְמַעַן בֵּית יְהֹוָה אֱלֹהֵינוּ אֲבַקְשָׁה טוֹב לָךְ: יְהֹוָה עֹז לְעַמּוֹ יִתֵּן, יְהֹוָה יְבָרֵךְ אֶת עַמּוֹ בַשָּׁלוֹם:"
+            },
+            {
+              "id": "pitum_kaddish_drabbanan_header",
+              "type": "header",
+              "heText": "קַדִּישׁ דְּרַבָּנָן",
+              "enText": "Kaddish D'Rabbanan"
+            },
+            {
+              "id": "pitum_kdr_comm_1",
+              "type": "commentary",
+              "enText": "**יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא**—*(The person saying Kaddish proclaims our hope that)* soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done."
+            },
+            {
+              "id": "pitum_kdr_1",
+              "type": "prayer",
+              "heText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא. בְּעָלְמָא דִּי בְרָא כִרְעוּתֵהּ, וְיַמְלִיךְ מַלְכוּתֵהּ, בְּחַיֵּיכוֹן וּבְיוֹמֵיכוֹן וּבְחַיֵּי דְכָל בֵּית יִשְׂרָאֵל, בַּעֲגָלָא וּבִזְמַן קָרִיב. וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "pitum_kdr_comm_2",
+              "type": "commentary",
+              "enText": "*(We all enthusiastically respond:)* Absolutely correct! May everyone *(including me)* everywhere, and forever, see that all His actions are great and deserving of praise!"
+            },
+            {
+              "id": "pitum_kdr_2",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא:"
+            },
+            {
+              "id": "pitum_kdr_comm_3",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish then says:)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "pitum_kdr_3",
+              "type": "prayer",
+              "heText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח וְיִתְפָּאַר וְיִתְרוֹמַם וְיִתְנַשֵּׂא וְיִתְהַדַּר וְיִתְעַלֶּה וְיִתְהַלַּל שְׁמֵהּ דְּקֻדְשָׁא, בְּרִיךְ הוּא. לְעֵלָּא מִן כָּל בִּרְכָתָא (בעשי\"ת לְעֵלָּא וּלְעֵלָּא מִכָּל בִּרְכָתָא) וְשִׁירָתָא, תֻּשְׁבְּחָתָא וְנֶחֱמָתָא, דַּאֲמִירָן בְּעָלְמָא. וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "pitum_kdr_comm_4",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish requests:)* May Hashem grant peace, grace, loving-kindness, compassion, long life, ample sustenance, and salvation to all Torah scholars, their students, and all those engaged in Torah study — here and everywhere. And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "pitum_kdr_4",
+              "type": "prayer",
+              "heText": "עַל יִשְׂרָאֵל וְעַל רַבָּנָן וְעַל תַּלְמִידֵיהוֹן וְעַל כָּל תַּלְמִידֵי תַלְמִידֵיהוֹן, וְעַל כָּל מַאן דְּעָסְקִין בְּאוֹרַיְתָא, דִּי בְאַתְרָא הָדֵין וְדִי בְכָל אֲתַר וַאֲתַר. יְהֵא לְהוֹן וּלְכוֹן שְׁלָמָא רַבָּא, חִנָּא וְחִסְדָּא וְרַחֲמִין וְחַיִּין אֲרִיכִין וּמְזוֹנָא רְוִיחָא וּפֻרְקָנָא מִן קֳדָם אֲבוּהוֹן דִּי בִשְׁמַיָּא. וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "pitum_kdr_comm_5",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish requests:)* May there be abundant peace, that comes from Heaven, and a good life, upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "pitum_kdr_5",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא, וְחַיִּים טוֹבִים עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל. וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "pitum_kdr_comm_6",
+              "type": "commentary",
+              "enText": "*(The person saying Kaddish requests:)* May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+            },
+            {
+              "id": "pitum_kdr_6",
+              "type": "prayer",
+              "heText": "עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל. וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "pitum_kdr_rubric_israel",
+              "type": "rubric",
+              "enText": "In Israel, on days when the Torah is not read, some have the custom of saying Barchu:"
+            },
+            {
+              "id": "pitum_kdr_barchu_call",
+              "type": "prayer",
+              "heText": "בָּרְכוּ אֶת יְהֹוָה הַמְּבֹרָךְ:"
+            },
+            {
+              "id": "pitum_kdr_barchu_response",
+              "type": "prayer",
+              "heText": "בָּרוּךְ יְהֹוָה הַמְּבֹרָךְ לְעוֹלָם וָעֶד:"
             }
           ]
         },
