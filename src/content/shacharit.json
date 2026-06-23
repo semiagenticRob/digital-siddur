@@ -272,6 +272,12 @@
               "enText": "**הִנְנִי מְכַוֵּן**—I am now going to fulfill my Creator's commandment to wrap myself in tzitzis, whose purpose is to remind me of the 613 mitzvos."
             },
             {
+              "id": "vihi_noam",
+              "type": "prayer",
+              "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:",
+              "optional": true
+            },
+            {
               "id": "rubric_before",
               "type": "rubric",
               "enText": "Brachah before putting on the tallis:"
