@@ -4056,6 +4056,396 @@
               "id": "avinu_malkeinu_commentary_8",
               "type": "commentary",
               "enText": "Our Father, our King, destroy all those who attack and oppress us."
+            },
+            {
+              "id": "avinu_malkeinu_9",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ מְנַע מַגֵּפָה מִנַּחֲלָתֶךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_9",
+              "type": "commentary",
+              "enText": "Our Father, our King, keep plagues away from Your heritage."
+            },
+            {
+              "id": "avinu_malkeinu_10",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ סְלַח וּמְחַל לְכָל עֲוֹנוֹתֵינוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_10",
+              "type": "commentary",
+              "enText": "Our Father, our King, forgive and pardon all our sins."
+            },
+            {
+              "id": "avinu_malkeinu_11",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ מְחֵה וְהַעֲבֵר פְּשָׁעֵינוּ וְחַטֹּאתֵינוּ מִנֶּגֶד עֵינֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_11",
+              "type": "commentary",
+              "enText": "Our Father, our King, wipe away and remove from Your sight all the sins we did on purpose, and those we did by mistake."
+            },
+            {
+              "id": "avinu_malkeinu_12",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ מְחֵה בְּרַחֲמֶיךָ הָרַבִּים כָּל שִׁטְרֵי חוֹבוֹתֵינוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_12",
+              "type": "commentary",
+              "enText": "Our Father, our King, with Your great compassion, erase all records of our sins."
+            },
+            {
+              "id": "avinu_malkeinu_rubric_responsive",
+              "type": "rubric",
+              "enText": "(The following nine are said responsively — first by the chazzan:)"
+            },
+            {
+              "id": "avinu_malkeinu_13",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ הֲשִׁיבֵנוּ בִּתְשׁוּבָה שְׁלֵמָה לְפָנֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_13",
+              "type": "commentary",
+              "enText": "Our Father, our King, cause us *(help us and motivate us)* to return to You with proper teshuvah."
+            },
+            {
+              "id": "avinu_malkeinu_14",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ שְׁלַח רְפוּאָה שְׁלֵמָה לַחוֹלֵי עַמֶּךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_14",
+              "type": "commentary",
+              "enText": "Our Father, our King, send a complete recovery to the members of Your nation who are sick."
+            },
+            {
+              "id": "avinu_malkeinu_15",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ קְרַע רֹועַ גְּזַר דִּינֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_15",
+              "type": "commentary",
+              "enText": "Our Father, our King, tear up the evil decree of our judgment."
+            },
+            {
+              "id": "avinu_malkeinu_16",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ בְּזִכְרוֹן טוֹב לְפָנֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_16",
+              "type": "commentary",
+              "enText": "Our Father, our King, recall the memory of our good deeds."
+            },
+            {
+              "id": "avinu_malkeinu_rubric_ayt",
+              "type": "rubric",
+              "enText": "During Aseres Yemei Teshuvah say:"
+            },
+            {
+              "id": "avinu_malkeinu_ayt_1",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_ayt_1",
+              "type": "commentary",
+              "enText": "Our Father, our King, write us in the book of good life."
+            },
+            {
+              "id": "avinu_malkeinu_ayt_2",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר גְּאֻלָּה וִישׁוּעָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_ayt_2",
+              "type": "commentary",
+              "enText": "Our Father, our King, write us in the book of those who will see the geulah and be saved."
+            },
+            {
+              "id": "avinu_malkeinu_ayt_3",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_ayt_3",
+              "type": "commentary",
+              "enText": "Our Father, our King, write us for a livelihood and material sustenance."
+            },
+            {
+              "id": "avinu_malkeinu_ayt_4",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר זְכֻיּוֹת:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_ayt_4",
+              "type": "commentary",
+              "enText": "Our Father, our King, write us in the book of merits."
+            },
+            {
+              "id": "avinu_malkeinu_ayt_5",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר סְלִיחָה וּמְחִילָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_ayt_5",
+              "type": "commentary",
+              "enText": "Our Father, our King, write us in the book of those who will be pardoned and forgiven."
+            },
+            {
+              "id": "avinu_malkeinu_rubric_fast",
+              "type": "rubric",
+              "enText": "On fast days say:"
+            },
+            {
+              "id": "avinu_malkeinu_fast_1",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לְחַיִּים טוֹבִים:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_fast_1",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember us for a good life."
+            },
+            {
+              "id": "avinu_malkeinu_fast_2",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִגְאֻלָּה וִישׁוּעָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_fast_2",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember us and bring the geulah and save us."
+            },
+            {
+              "id": "avinu_malkeinu_fast_3",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_fast_3",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember us and ensure we have a livelihood and material sustenance."
+            },
+            {
+              "id": "avinu_malkeinu_fast_4",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִזְכֻיּוֹת:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_fast_4",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember us for merits."
+            },
+            {
+              "id": "avinu_malkeinu_fast_5",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִסְלִיחָה וּמְחִילָה:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_fast_5",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember us and pardon and forgive us."
+            },
+            {
+              "id": "avinu_malkeinu_insight_merits",
+              "type": "insight",
+              "enText": "Regarding the \"book of merits\" or remembering us \"for merits\": Either one has merits or they do not. If they do, they are in the book, and if not, what is Hashem supposed to do? What does this mean? The idea here is that Hashem could arrange your life so that it's easy for you to pick up merits and good deeds *(someone in front of you drops something and you pick it up)* or the opposite — you simply do not have easy opportunities to do good deeds. We are asking Hashem to please remember us and write us in the book of those who will have many opportunities to do mitzvos."
+            },
+            {
+              "id": "avinu_malkeinu_17",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ הַצְמַח לָנוּ יְשׁוּעָה בְּקָרוֹב:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_17",
+              "type": "commentary",
+              "enText": "Our Father, our King, let our salvation come very soon!"
+            },
+            {
+              "id": "avinu_malkeinu_18",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ הָרֵם קֶרֶן יִשְׂרָאֵל עַמֶּךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_18",
+              "type": "commentary",
+              "enText": "Our Father, our King, raise up high the honor of Your nation Bnei Yisrael."
+            },
+            {
+              "id": "avinu_malkeinu_19",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ הָרֵם קֶרֶן מְשִׁיחֶךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_19",
+              "type": "commentary",
+              "enText": "Our Father, our King, raise up high the honor of the Mashiach."
+            },
+            {
+              "id": "avinu_malkeinu_20",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ מַלֵּא יָדֵינוּ מִבִּרְכוֹתֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_20",
+              "type": "commentary",
+              "enText": "Our Father, our King, fill up our hands with Your blessings."
+            },
+            {
+              "id": "avinu_malkeinu_21",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ מַלֵּא אֲסָמֵינוּ שָׂבַע:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_21",
+              "type": "commentary",
+              "enText": "Our Father, our King, fill up our storehouses with abundance."
+            },
+            {
+              "id": "avinu_malkeinu_22",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ שְׁמַע קוֹלֵנוּ חוּס וְרַחֵם עָלֵינוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_22",
+              "type": "commentary",
+              "enText": "Our Father, our King, hear our voice, spare us and have compassion on us."
+            },
+            {
+              "id": "avinu_malkeinu_23",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ קַבֵּל בְּרַחֲמִים וּבְרָצוֹן אֶת תְּפִלָּתֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_23",
+              "type": "commentary",
+              "enText": "Our Father, our King, accept our tefillos with compassion and favor."
+            },
+            {
+              "id": "avinu_malkeinu_24",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ פְּתַח שַׁעֲרֵי שָׁמַיִם לִתְפִלָּתֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_24",
+              "type": "commentary",
+              "enText": "Our Father, our King, open the gates of Heaven to our tefillos."
+            },
+            {
+              "id": "avinu_malkeinu_25",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכוֹר כִּי עָפָר אֲנָחְנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_25",
+              "type": "commentary",
+              "enText": "Our Father, our King, remember that we are *(simply humans who come from)* dust."
+            },
+            {
+              "id": "avinu_malkeinu_26",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ נָא אַל תְּשִׁיבֵנוּ רֵיקָם מִלְּפָנֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_26",
+              "type": "commentary",
+              "enText": "Our Father, our King, please do not let us come away from You empty-handed."
+            },
+            {
+              "id": "avinu_malkeinu_27",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ תְּהֵא הַשָּׁעָה הַזֹּאת שַׁעַת רַחֲמִים וְעֵת רָצוֹן מִלְּפָנֶיךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_27",
+              "type": "commentary",
+              "enText": "Our Father, our King, may this moment — right now — be a time of compassion and favor before You."
+            },
+            {
+              "id": "avinu_malkeinu_28",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ חֲמוֹל עָלֵינוּ וְעַל עוֹלָלֵינוּ וְטַפֵּנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_28",
+              "type": "commentary",
+              "enText": "Our Father, our King, have pity on us, on our children and our infants."
+            },
+            {
+              "id": "avinu_malkeinu_29",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן הֲרוּגִים עַל שֵׁם קָדְשֶׁךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_29",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the sake of those who were murdered at kiddush Hashem."
+            },
+            {
+              "id": "avinu_malkeinu_30",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן טְבוּחִים עַל יִחוּדֶךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_30",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the sake of those who were slaughtered for proclaiming the Oneness of Hashem."
+            },
+            {
+              "id": "avinu_malkeinu_31",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן בָּאֵי בָאֵשׁ וּבַמַּיִם עַל קִדּוּשׁ שְׁמֶךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_31",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the sake of those who went through fire and water at kiddush Hashem."
+            },
+            {
+              "id": "avinu_malkeinu_32",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ נְקֹם לְעֵינֵינוּ נִקְמַת דַּם עֲבָדֶיךָ הַשָּׁפוּךְ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_32",
+              "type": "commentary",
+              "enText": "Our Father, our King, let us live to see as You avenge the spilled blood of Your servants."
+            },
+            {
+              "id": "avinu_malkeinu_33",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַנְךָ אִם לֹא לְמַעֲנֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_33",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for Your sake."
+            },
+            {
+              "id": "avinu_malkeinu_34",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַנְךָ וְהוֹשִׁיעֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_34",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for Your sake — and save us!"
+            },
+            {
+              "id": "avinu_malkeinu_35",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן רַחֲמֶיךָ הָרַבִּים:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_35",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us because of Your abundant compassion."
             }
           ]
         },
@@ -5330,6 +5720,21 @@
               "id": "kt3-kaddish-rubric-end",
               "type": "rubric",
               "heText": "עַד כָּאן חֲצִי קַדִּישׁ"
+            },
+            {
+              "id": "kt3-kaddish-2",
+              "type": "prayer",
+              "heText": "תִּתְקַבֵּל צְלוֹתְהוֹן וּבָעוּתְהוֹן דְּכָל בֵּית יִשְׂרָאֵל קֳדָם אֲבוּהוֹן דִּי בִשְׁמַיָּא וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "kt3-kaddish-3",
+              "type": "prayer",
+              "heText": "יְהֵא שְׁלָמָא רַבָּא מִן שְׁמַיָּא וְחַיִּים עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "kt3-kaddish-4",
+              "type": "prayer",
+              "heText": "עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל וְאִמְרוּ אָמֵן:"
             }
           ]
         }
@@ -5519,6 +5924,58 @@
               "type": "rubric",
               "heText": "קַדִּישׁ יָתוֹם",
               "xref": "Mourner's Kaddish"
+            },
+            {
+              "id": "header_thursday",
+              "type": "header",
+              "heText": "שִׁיר שֶׁל יוֹם חֲמִישִׁי",
+              "enText": "Thursday (Chapter 81)"
+            },
+            {
+              "id": "rubric_thursday",
+              "type": "rubric",
+              "heText": "הַיּוֹם, יוֹם חֲמִישִׁי בַּשַּׁבָּת, שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית הַמִּקְדָּשׁ:"
+            },
+            {
+              "id": "commentary_thursday",
+              "type": "commentary",
+              "enText": "**לַמְנַצֵּחַ עַל הַגִּתִּית לְאָסָף**—Speaking to His nation, Hashem proclaims: \"I took you out of Egypt and saved you through the desert and took You as a nation, but you do not follow My laws! If only You would listen to Me and not follow false gods, I would fulfill all your requests!\""
+            },
+            {
+              "id": "prayer_thursday",
+              "type": "prayer",
+              "heText": "לַמְנַצֵּחַ עַל הַגִּתִּית לְאָסָף: הַרְנִינוּ לֵאלֹהִים עוּזֵּנוּ הָרִיעוּ לֵאלֹהֵי יַעֲקֹב: שְׂאוּ זִמְרָה וּתְנוּ תֹף כִּנּוֹר נָעִים עִם נָבֶל: תִּקְעוּ בַחֹדֶשׁ שׁוֹפָר בַּכֶּסֶה לְיוֹם חַגֵּנוּ: כִּי חֹק לְיִשְׂרָאֵל הוּא מִשְׁפָּט לֵאלֹהֵי יַעֲקֹב: עֵדוּת בִּיהוֹסֵף שָׂמוֹ בְּצֵאתוֹ עַל אֶרֶץ מִצְרָיִם שְׂפַת לֹא יָדַעְתִּי אֶשְׁמָע: הֲסִירוֹתִי מִסֵּבֶל שִׁכְמוֹ כַּפָּיו מִדּוּד תַּעֲבֹרְנָה: בַּצָּרָה קָרָאתָ וָאֲחַלְּצֶךָּ אֶעֶנְךָ בְּסֵתֶר רַעַם אֶבְחָנְךָ עַל מֵי מְרִיבָה סֶלָה: שְׁמַע עַמִּי וְאָעִידָה בָּךְ יִשְׂרָאֵל אִם תִּשְׁמַע לִי: לֹא יִהְיֶה בְךָ אֵל זָר וְלֹא תִשְׁתַּחֲוֶה לְאֵל נֵכָר: אָנֹכִי יהוה אֱלֹהֶיךָ הַמַּעַלְךָ מֵאֶרֶץ מִצְרָיִם הַרְחֶב פִּיךָ וַאֲמַלְאֵהוּ: וְלֹא שָׁמַע עַמִּי לְקוֹלִי וְיִשְׂרָאֵל לֹא אָבָה לִי: וָאֲשַׁלְּחֵהוּ בִּשְׁרִירוּת לִבָּם יֵלְכוּ בְּמוֹעֲצוֹתֵיהֶם: לוּ עַמִּי שֹׁמֵעַ לִי יִשְׂרָאֵל בִּדְרָכַי יְהַלֵּכוּ: כִּמְעַט אוֹיְבֵיהֶם אַכְנִיעַ וְעַל צָרֵיהֶם אָשִׁיב יָדִי: מְשַׂנְאֵי יהוה יְכַחֲשׁוּ לוֹ וִיהִי עִתָּם לְעוֹלָם: וַיַּאֲכִילֵהוּ מֵחֵלֶב חִטָּה וּמִצּוּר דְּבַשׁ אַשְׂבִּיעֶךָ:"
+            },
+            {
+              "id": "rubric_thursday_close",
+              "type": "rubric",
+              "heText": "קַדִּישׁ יָתוֹם"
+            },
+            {
+              "id": "header_friday",
+              "type": "header",
+              "heText": "שִׁיר שֶׁל יוֹם שִׁשִּׁי",
+              "enText": "Friday (Chapter 93)"
+            },
+            {
+              "id": "rubric_friday",
+              "type": "rubric",
+              "heText": "הַיּוֹם, יוֹם שִׁשִּׁי בַּשַּׁבָּת, שֶׁבּוֹ הָיוּ הַלְוִיִּם אוֹמְרִים בְּבֵית הַמִּקְדָּשׁ:"
+            },
+            {
+              "id": "commentary_friday",
+              "type": "commentary",
+              "enText": "**יהוה מָלָךְ**—We await the time when the Kingship of Hashem will be recognized by all, evil will be washed away, and the Beis Hamikdash will be rebuilt and last forever."
+            },
+            {
+              "id": "prayer_friday",
+              "type": "prayer",
+              "heText": "יהוה מָלָךְ גֵּאוּת לָבֵשׁ, לָבֵשׁ יהוה עֹז הִתְאַזָּר, אַף תִּכּוֹן תֵּבֵל בַּל תִּמּוֹט: נָכוֹן כִּסְאֲךָ מֵאָז, מֵעוֹלָם אָתָּה: נָשְׂאוּ נְהָרוֹת יהוה, נָשְׂאוּ נְהָרוֹת קוֹלָם, יִשְׂאוּ נְהָרוֹת דָּכְיָם: מִקֹּלוֹת מַיִם רַבִּים, אַדִּירִים מִשְׁבְּרֵי יָם, אַדִּיר בַּמָּרוֹם יהוה: עֵדֹתֶיךָ נֶאֶמְנוּ מְאֹד, לְבֵיתְךָ נַאֲוָה קֹדֶשׁ, יהוה לְאֹרֶךְ יָמִים:"
+            },
+            {
+              "id": "rubric_friday_close",
+              "type": "rubric",
+              "heText": "קַדִּישׁ יָתוֹם"
             }
           ]
         },
