@@ -3994,6 +3994,11 @@
               "enText": "Our Father, our King, (even though we may not be personally deserving, but please) deal kindly with us, for the sake of Your Name (so that we will have the ability to fulfill our mission and sanctify Your Name)."
             },
             {
+              "id": "avinu_malkeinu_rubric_ayt_4",
+              "type": "rubric",
+              "enText": "During Aseres Yemei Teshuvah say:"
+            },
+            {
               "id": "avinu_malkeinu_4a",
               "type": "prayer",
               "heText": "אָבִינוּ מַלְכֵּנוּ חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה:",
@@ -4004,6 +4009,11 @@
               "type": "commentary",
               "enText": "Our Father, our King, initiate for us a good new year.",
               "condition": "aseres_yemei_teshuvah"
+            },
+            {
+              "id": "avinu_malkeinu_rubric_fast_4",
+              "type": "rubric",
+              "enText": "On fast days say:"
             },
             {
               "id": "avinu_malkeinu_4b",
