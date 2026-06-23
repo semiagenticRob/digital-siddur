@@ -102,7 +102,8 @@
               "id": "header-and-i-have-a-soul",
               "type": "header",
               "heText": "אֱלֹהַי נְשָׁמָה",
-              "enText": "And I Have a Soul!"
+              "enText": "And I Have a Soul!",
+              "enTop": true
             },
             {
               "id": "elokai-neshama-prayer",
@@ -130,7 +131,8 @@
               "id": "birchos-hatorah-header",
               "type": "header",
               "heText": "בִּרְכוֹת הַתּוֹרָה",
-              "enText": "I Have a Torah!"
+              "enText": "I Have a Torah!",
+              "enTop": true
             },
             {
               "id": "laasok-bracha-text",
