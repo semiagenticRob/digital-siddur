@@ -81,32 +81,21 @@ or PDF verification.
 - ✅ **Kaddish Yasom after Aleinu: added** (11 segs, full prayer+commentary structure).
 - ✅ **Avinu Malkeinu 4a/4b variant rubrics added** (prints p. 79: AYT / fast-day labels).
 
-### Still held
+### All items resolved — 2026-06-23
 
-- **Pitum HaKetores: rubric_in_israel removed but correct home not wired.** The "In
-  Israel, the following is added: בָּרְכוּ..." rubric belongs to Kaddish D'Rabbanan
-  (print p. 139). That section may be absent from the app. Confirm and add if needed.
+- ✅ **Pitum + Kaddish D'Rabbanan**: full D'Rabbanan added (16 segs); In-Israel Barchu included.
+- ✅ **avinu_malkeinu_title display: true** → CLEAN (verified NO at 300 DPI; header treatment only).
+- ✅ **kt3-uva-comm-5 ordering**: swapped with kt3-uva-6 (commentary now follows its prayer).
+- ✅ **L'Dovid rubric_kaddish**: removed enText; standardized with Shir shel Yom pattern.
 
-### Needs PDF verification before applying
+### v2 / deferred (not textual errors)
 
-- **avinu_malkeinu_title (i=13): display: true?** Vision agent noted the title
-  "אָבִינוּ מַלְכֵּנוּ" appears larger on print p. 102. Verify at 300 DPI — may just be
-  the header font size (the `header` type already renders at heading size), not
-  a `display`-tier verse.
-
-- **kt3-uva-comm-5 (i=159 in KT): commentary references next prayer's text.** The
-  commentary discusses בָּרוּךְ הוּא אֱלֹהֵינוּ (i=160) but is placed before that prayer.
-  Verify print layout — if it introduces the next prayer, current position is correct.
-
-### Minor house-style
-
-- **L'Dovid i=7 (rubric_kaddish): English text inconsistency.** This rubric has both
-  `heText: "קדיש יתום"` and `enText: "Mourner's Kaddish"`. All Shir shel Yom Kaddish
-  close rubrics use only `heText`. Verify print and standardize.
-
-- **Barchi Nafshi: Rosh Chodesh conditional.** The prayer is said only on Rosh Chodesh
-  but has no `optional: true` or condition tag. Consider whether the app needs it for
-  conditional display.
+- **Barchi Nafshi: Rosh Chodesh conditional display.** The prayer (Tehillim 104) is
+  a Rosh Chodesh addition; the app always shows it. The rubric says "On Rosh Chodesh,
+  add Tehillim Chapter 104:" — informing the user. Hiding it conditionally requires a
+  v2 conditional-display system (the v1 `optional: true` only adds a shaded box,
+  doesn't hide). Text is correct; this is a feature-completeness item, not a content
+  error. Hold for v2 conditional display.
 
 ## Shemoneh Esrei (Shacharis) — formatting scan 2026-06-22
 
