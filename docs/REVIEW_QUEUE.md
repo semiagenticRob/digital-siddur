@@ -64,6 +64,76 @@ Segment indices are into `g-shemoneh-esrei` prayer[0].segments.
 - קו"ח (kal va-chomer) labels — formatting convention.
 - Punctuation review in i=183.
 
+## Shacharis post-SE sections — audit 2026-06-23
+
+Parallel vision audit of print pages 84-142 (siddur 60-118). Confirmed fixes applied in
+`scripts/fix_post_se_audit.py` (21 fixes: parenthetical format, header enTop, nikud,
+segment type, text accuracy, Ikarim ordering, L'Dovid artifact removal, Pitum rubric).
+The following were surfaced but HELD — they require new Hebrew content, content additions,
+or PDF verification.
+
+### Missing content — requires dedicated content-addition pass
+
+- **Avinu Malkeinu (pp. 80-82 / PDF 104-106): ~30 lines missing.** The app has only
+  lines 1-8 (i=18–35 in avinu_malkeinu). The print has ~40 lines total. All content
+  from "כַּלֵּה מַגֵּפָה" through the "even if we are not deserving" closing lines (siddur
+  pp. 80-82) is absent. Source: the print pages; add as prayer+commentary pairs.
+  Note: the "book of life" columns on pp. 80-81 have a three-column variant structure
+  (chaim/chaim tov/zechus) — needs `optional: true` + variant rubrics.
+
+- **Shir shel Yom: Thursday (Ch. 81) and Friday (Ch. 93) missing.** The app has
+  Sunday–Wednesday only (p-shir-shel-yom, 24 segments). Print pp. 132 shows both
+  Thursday (מִזְמוֹר לְאָסָף / Ch. 81) and Friday (יְהוָה מָלָךְ / Ch. 93) with full
+  psalm text + commentary + Kaddish Yasom close. Add as header → rubric → commentary
+  → prayer(s) → rubric_kaddish per the Sun–Wed pattern. Assign IDs consistently
+  (header_thursday, header_friday, etc.).
+
+- **Kaddish Shalem: missing last 3 paragraphs.** kt3-kaddish-1 (i=165 of KT) ends
+  after "וְאִמְרוּ אָמֵן" (the יִתְבָּרַךְ paragraph). Print p. 128 continues with:
+    - תִּתְקַבֵּל צְלוֹתְהוֹן וּבָעוּתְהוֹן... וְאִמְרוּ אָמֵן (chazzan only)
+    - יְהֵא שְׁלָמָא רַבָּא... וְאִמְרוּ אָמֵן (congregation)
+    - עֹשֶׂה שָׁלוֹם... וְאִמְרוּ אָמֵן (3 steps back)
+  Add as additional prayer+commentary segments after i=165, before kt3-kaddish-rubric-end.
+
+- **Kaddish Yasom after Aleinu: missing.** Print p. 130 shows full Kaddish Yasom
+  following Aleinu (p-aleinu.json currently ends at 7 segments). Add the same
+  קַדִּישׁ יָתוֹם structure used elsewhere (header + prayer + commentary).
+
+- **Pitum HaKetores: rubric_in_israel removed but its correct home not yet wired.**
+  The "In Israel, the following is added: בָּרְכוּ..." rubric belongs to the Kaddish
+  D'Rabbanan section on print p. 139. That section may be entirely absent from the app.
+  Confirm whether a Kaddish D'Rabbanan prayer is needed and where it belongs.
+
+### Needs PDF verification before applying
+
+- **avinu_malkeinu_title (i=13): display: true?** Vision agent says "אָבִינוּ מַלְכֵּנוּ"
+  in the header block appears noticeably larger on print p. 102. Verify at 300 DPI
+  whether this is truly display-sized (like framework chasimos) or just a large header
+  font. If the header type already renders this at heading size, display: true may not
+  be needed.
+
+- **avinu_malkeinu 4a/4b (i=24-27): missing variant rubrics.** The AYT/fast-day
+  lines have no rubric labels in the app; print pp. 79-80 shows "During Aseres Yemei
+  Teshuvah say:" / "On fast days say:" before each variant. Add `optional: true`
+  and the appropriate rubric labels.
+
+- **kt3-uva-comm-5 (i=159 in KT): commentary references next prayer's text.** The
+  commentary at i=159 (kt3-uva-comm-5) discusses בָּרוּךְ הוּא אֱלֹהֵינוּ but is placed
+  before that prayer (i=160, kt3-uva-6). Verify print layout — if commentary is meant
+  to introduce the following prayer rather than explain the preceding one, this is
+  correct; if it's meant to follow i=160, swap order.
+
+### Minor house-style
+
+- **L'Dovid i=7 (rubric_kaddish): English text inconsistency.** This rubric has both
+  `heText: "קדיש יתום"` and `enText: "Mourner's Kaddish"`. All Shir shel Yom Kaddish
+  close rubrics use only `heText`. Verify print convention and standardize.
+
+- **Barchi Nafshi: Rosh Chodesh conditional.** The entire p-barchi-nafshi prayer is
+  said only on Rosh Chodesh (rubric says "On Rosh Chodesh, add Tehillim Chapter 104:").
+  Consider whether the prayer itself needs an `optional: true` top-level flag or
+  `condition: "rosh_chodesh"`, so the app can conditionally show/hide it.
+
 ## Shemoneh Esrei (Shacharis) — formatting scan 2026-06-22
 
 Full 16-page print-vs-app formatting audit. Safe fixes applied in
