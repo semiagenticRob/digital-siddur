@@ -95,11 +95,36 @@ Travel Safe!, etc.); transliteration ("Ashrei", "Korbanos") / bracha-
 description ("Give me healing") = Hebrew-on-top. 30 title-headers tagged
 `enTop` app-wide by this rule.
 
-CONFIDENCE: SE (verified at 300 DPI per header) + My Body Works are
-directly PDF-verified. The other-service title-headers (bentching, food
-brachos, bedtime, sefiras, tefillas-haderech, Aleinu sentence-headers,
-mussaf korbanos) were tagged by the **verified rule**, not each visually
-confirmed — worth a spot-check pass.
+RULE TURNED OUT UNRELIABLE — now verified-only. TOC-based per-header
+checks (pdf = siddur + 24) showed the "catchy English title = English-on-
+top" rule is wrong ~40% of the time: sections with a prominent **formal
+Hebrew name** put the Hebrew on top with the English as a *subtitle*
+(מַעֲרִיב לְמוֹצָאֵי שַׁבָּת, שְׁלֹשָׁה עָשָׂר עִיקָרִים, שֵׁשׁ זְכִירוֹת, לְדָוִד ה׳ אוֹרִי,
+מוּסָף), while only some re-titled sections are English-on-top. There is NO
+derivable rule — each header must be checked at its TOC page.
+
+`enTop` is now set ONLY on the 6 directly PDF-verified English-on-top
+headers: My Body Works! (siddur 3), OUR REQUESTS (shacharit 60 + minchah
+138), Al Ha'michyah "You Ate a Piece of Cake" (129), Borei Nefashos "You
+Had a Glass of Water" (130), Travel Safe! / Tefillas Ha'derech (131).
+Already-fixed Hebrew-on-top (enTop removed): Maariv Motzaei (189), 13
+Ikarim (117), Shesh Zechiros (116), L'Dovid (111).
+
+STILL TO VERIFY (reverted to the Hebrew-on-top default; check each at its
+TOC page, set enTop only if the PDF shows English on top):
+- And I Have a Soul! (siddur ~4), I Have a Torah! (~9), And I Am Committed
+  (~5), Now I'm Ready to Daven (~7)
+- Pesukei D'Zimrah: Hashem as Master of Nature (35), Last Six Chapters
+  (36), And to Sum Up (44), Introduction to Shiras Ha'yam (45), Shiras
+  Ha'yam Conclusion (46), Concluding Brachah/Yishtabach (48)
+- Krias HaTorah: Now Let's Learn Some Torah! (91), Returning the Torah
+  (97), LET'S TAKE ALL THIS HOME! (~98)
+- Aleinu "We Have a Unique Relationship": shacharit (105), minchah (162),
+  maariv (186)
+- Bentching brachah titles: First/Second (122), Third (124), Fourth (126)
+- Counting Up to Kabbalas HaTorah / Sefiras (191)
+- You Control Our Sleep / Hamapil (196)
+- The Korbanos of the Festival / Mussaf Chol Hamoed (~224)
 
 FLAGGED ITEMS — VERIFIED at the PDF (all Hebrew-on-top → correctly on the
 default, no change needed):

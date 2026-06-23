@@ -102,8 +102,7 @@
               "id": "header-and-i-have-a-soul",
               "type": "header",
               "heText": "אֱלֹהַי נְשָׁמָה",
-              "enText": "And I Have a Soul!",
-              "enTop": true
+              "enText": "And I Have a Soul!"
             },
             {
               "id": "elokai-neshama-prayer",
@@ -131,8 +130,7 @@
               "id": "birchos-hatorah-header",
               "type": "header",
               "heText": "בִּרְכוֹת הַתּוֹרָה",
-              "enText": "I Have a Torah!",
-              "enTop": true
+              "enText": "I Have a Torah!"
             },
             {
               "id": "laasok-bracha-text",
@@ -216,8 +214,7 @@
               "id": "header",
               "type": "header",
               "heText": "עֲטִיפַת טַלִּית / הֲנָחַת תְּפִילִּין",
-              "enText": "And I Am Committed to Putting Torah into Practice",
-              "enTop": true
+              "enText": "And I Am Committed to Putting Torah into Practice"
             },
             {
               "id": "header_tallis",
@@ -451,8 +448,7 @@
               "id": "header-ready-to-daven",
               "type": "header",
               "enText": "Now I'm Ready to Daven",
-              "heText": "מַה טֹבוּ / אֲדוֹן עוֹלָם / יִגְדַּל",
-              "enTop": true
+              "heText": "מַה טֹבוּ / אֲדוֹן עוֹלָם / יִגְדַּל"
             },
             {
               "id": "hareini-mekabel",
@@ -1455,8 +1451,7 @@
               "id": "pz2-header-yehi-khvod",
               "type": "header",
               "heText": "יְהִי כָבוֹד",
-              "enText": "Hashem as Master of Nature, Hashem as Master of History",
-              "enTop": true
+              "enText": "Hashem as Master of Nature, Hashem as Master of History"
             },
             {
               "id": "pz2-yehi-khvod-faq",
@@ -1485,8 +1480,7 @@
               "id": "pz2-header-last-six",
               "type": "header",
               "heText": "אַשְׁרֵי / הַלְלוּיָהּ: הַלְלִי נַפְשִׁי/ כִּי טוֹב/ הַלְלוּ אֶת יְהֹוָה/ שִׁירוּ לַיהֹוָה/ הַלְלוּ יָהּ אֵל",
-              "enText": "Last Six Chapters of Tehillim—the Core of Pesukei D'Zimrah",
-              "enTop": true
+              "enText": "Last Six Chapters of Tehillim—the Core of Pesukei D'Zimrah"
             },
             {
               "id": "pz2-header-ashrei",
@@ -1870,8 +1864,7 @@
               "id": "pz3-baruch-header",
               "type": "header",
               "enText": "And to Sum Up Pesukei D'Zimrah",
-              "heText": "בָּרוּךְ יְהֹוָה לְעוֹלָם",
-              "enTop": true
+              "heText": "בָּרוּךְ יְהֹוָה לְעוֹלָם"
             },
             {
               "id": "pz3-baruch-p1",
@@ -1887,8 +1880,7 @@
               "id": "azyashir-1",
               "type": "header",
               "enText": "Introduction to Shiras Ha'yam",
-              "heText": "וַיְבָרֶךְ דָּוִד / וּכְרוֹת עִמּוֹ הַבְּרִית",
-              "enTop": true
+              "heText": "וַיְבָרֶךְ דָּוִד / וּכְרוֹת עִמּוֹ הַבְּרִית"
             },
             {
               "id": "azyashir-2",
@@ -1967,8 +1959,7 @@
               "id": "azyashir-15",
               "type": "header",
               "enText": "Shiras Ha'yam—Conclusion of Pesukei D'Zimrah",
-              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר",
-              "enTop": true
+              "heText": "וַיּוֹשַׁע יְהוָה בַּיּוֹם הַהוּא / אָז יָשִׁיר"
             },
             {
               "id": "azyashir-16",
@@ -2017,8 +2008,7 @@
               "id": "pz4-hdr-yishtabach",
               "type": "header",
               "enText": "Concluding Brachah of Pesukei D'Zimrah",
-              "heText": "יִשְׁתַּבַּח",
-              "enTop": true
+              "heText": "יִשְׁתַּבַּח"
             },
             {
               "id": "pz4-secintro-yishtabach",
@@ -4479,8 +4469,7 @@
               "id": "kt1-header",
               "type": "header",
               "heText": "סֵדֶר קְרִיאַת הַתּוֹרָה",
-              "enText": "Now Let's Learn Some Torah!",
-              "enTop": true
+              "enText": "Now Let's Learn Some Torah!"
             },
             {
               "id": "kt1-intro",
@@ -4867,8 +4856,7 @@
               "id": "kt2-header-returning-torah",
               "type": "header",
               "heText": "הַכְנָסַת סֵפֶר תּוֹרָה",
-              "enText": "Returning the Torah",
-              "enTop": true
+              "enText": "Returning the Torah"
             },
             {
               "id": "kt2-subheader-hallelu",
@@ -4934,8 +4922,7 @@
               "id": "kt2-header-take-home",
               "type": "header",
               "heText": "אַשְׁרֵי—וּבָא לְצִיּוֹן—עָלֵינוּ",
-              "enText": "LET'S TAKE ALL THIS HOME!",
-              "enTop": true
+              "enText": "LET'S TAKE ALL THIS HOME!"
             },
             {
               "id": "kt2-subheader-ashrei-section",
@@ -5630,8 +5617,7 @@
               "id": "header_title",
               "type": "header",
               "heText": "לְדָוִד ה' אוֹרִי",
-              "enText": "Just Ask Hashem for Help in Your Teshuvah Process—His Light Is There If You Look for It!",
-              "enTop": true
+              "enText": "Just Ask Hashem for Help in Your Teshuvah Process—His Light Is There If You Look for It!"
             },
             {
               "id": "commentary_1",
@@ -5741,8 +5727,7 @@
               "id": "header",
               "type": "header",
               "heText": "שֵׁשׁ זְכִירוֹת",
-              "enText": "As You Go through Your Day, Don't Forget!",
-              "enTop": true
+              "enText": "As You Go through Your Day, Don't Forget!"
             },
             {
               "id": "section_intro",
@@ -5820,8 +5805,7 @@
               "id": "header",
               "type": "header",
               "heText": "שְׁלֹשָׁה עָשָׂר עִקָּרִים",
-              "enText": "No Matter What Happens, No Matter Where We Are, This Is What We Believe!",
-              "enTop": true
+              "enText": "No Matter What Happens, No Matter Where We Are, This Is What We Believe!"
             },
             {
               "id": "section_intro",
