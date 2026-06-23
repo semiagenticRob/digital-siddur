@@ -18,7 +18,7 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 
 | type | renders | ignores | notes |
 |---|---|---|---|
-| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL. With `display: true` → oversized & centered (Kedushah climax verses) |
+| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL. `display: true` → oversized & centered (Kedushah/chasimah climaxes); `center: true` → centered at normal size (verses the print centers but doesn't enlarge, e.g. the Amidah opening אֲדֹנָי שְׂפָתַי) |
 | `commentary` | `enText` only (RichText) | **`heText`** | hidden in Hebrew-only; the EXPLANATION box |
 | `insight` | `enText` (RichText) | `heText` | collapsible "Insight" |
 | `faq` | `enText` (RichText) | `heText` | collapsible "FAQ" |
