@@ -110,21 +110,35 @@ Had a Glass of Water" (130), Travel Safe! / Tefillas Ha'derech (131).
 Already-fixed Hebrew-on-top (enTop removed): Maariv Motzaei (189), 13
 Ikarim (117), Shesh Zechiros (116), L'Dovid (111).
 
-STILL TO VERIFY (reverted to the Hebrew-on-top default; check each at its
-TOC page, set enTop only if the PDF shows English on top):
-- And I Have a Soul! (siddur ~4), I Have a Torah! (~9), And I Am Committed
-  (~5), Now I'm Ready to Daven (~7)
-- Pesukei D'Zimrah: Hashem as Master of Nature (35), Last Six Chapters
-  (36), And to Sum Up (44), Introduction to Shiras Ha'yam (45), Shiras
-  Ha'yam Conclusion (46), Concluding Brachah/Yishtabach (48)
-- Krias HaTorah: Now Let's Learn Some Torah! (91), Returning the Torah
-  (97), LET'S TAKE ALL THIS HOME! (~98)
-- Aleinu "We Have a Unique Relationship": shacharit (105), minchah (162),
-  maariv (186)
-- Bentching brachah titles: First/Second (122), Third (124), Fourth (126)
-- Counting Up to Kabbalas HaTorah / Sefiras (191)
-- You Control Our Sleep / Hamapil (196)
-- The Korbanos of the Festival / Mussaf Chol Hamoed (~224)
+RESOLVED (2026-06-23). Each remaining header checked at its TOC page.
+The refined "formal Hebrew name = Hebrew-on-top" pattern is ALSO not
+reliable — Yishtabach (formal name יִשְׁתַּבַּח) and Shiras Ha'yam are
+English-on-top. Confirmed: there is no rule; verify each.
+
+PDF-VERIFIED English-on-top (enTop), this round:
+- And I Have a Soul! (siddur 3), I Have a Torah! (4) — above אֱלֹהַי נְשָׁמָה /
+  בִּרְכוֹת הַתּוֹרָה.
+- Concluding Brachah of Pesukei D'Zimrah / Yishtabach (48), Shiras Ha'yam—
+  Conclusion (46) — English title above ישתבח / ויושע.
+
+APPLIED BY THE VERIFIED PATTERN (English title-on-top; Robert approved
+applying the pattern to clear cases — teaching/descriptive English titles —
+NOT each pixel-verified, worth a later spot-check): And I Am Committed,
+Now I'm Ready to Daven, Hashem as Master of Nature, Last Six Chapters,
+And to Sum Up, Introduction to Shiras Ha'yam, Returning the Torah, LET'S
+TAKE ALL THIS HOME!, the 4 bentching brachah titles, You Control Our
+Sleep, The Korbanos of the Festival.
+
+PDF-VERIFIED Hebrew-on-top (stay on default, no enTop):
+- Aleinu "We Have a Unique Relationship" (×3: shacharit 105, minchah,
+  maariv) — עָלֵינוּ on top.
+- Counting Up to Kabbalas HaTorah / Sefiras (191) — סְפִירַת הָעוֹמֶר on top.
+
+UNRESOLVED — `kt1-header` "Now Let's Learn Some Torah!" / Krias HaTorah
+(siddur 91): the section opens with חֲצִי קַדִּישׁ; no distinct printed
+header found for this enText on siddur 90–91 (text layer also can't find
+it). Left on the Hebrew-on-top default; confirm against the physical book
+whether this header exists in print as English-on-top.
 
 FLAGGED ITEMS — VERIFIED at the PDF (all Hebrew-on-top → correctly on the
 default, no change needed):

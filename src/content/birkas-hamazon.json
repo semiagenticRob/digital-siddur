@@ -16,7 +16,8 @@
               "id": "first_brachah_header",
               "type": "header",
               "heText": "בָּרְכַת הַזָּן",
-              "enText": "The First Brachah: Nourishment! Hashem Provides Us with All We Need"
+              "enText": "The First Brachah: Nourishment! Hashem Provides Us with All We Need",
+              "enTop": true
             },
             {
               "id": "hazan_commentary",
@@ -45,7 +46,8 @@
               "id": "second_brachah_header",
               "type": "header",
               "heText": "בָּרְכַת הָאָרֶץ",
-              "enText": "The Second Brachah: Eretz Yisrael!"
+              "enText": "The Second Brachah: Eretz Yisrael!",
+              "enTop": true
             },
             {
               "id": "nodeh_commentary",
@@ -109,7 +111,8 @@
               "id": "header_third_brachah",
               "type": "header",
               "heText": "בִּרְכַּת יְרוּשָׁלַיִם",
-              "enText": "The Third Brachah: Yerushalayim"
+              "enText": "The Third Brachah: Yerushalayim",
+              "enTop": true
             },
             {
               "id": "rachem_he",
@@ -194,7 +197,8 @@
               "id": "header_fourth_brachah",
               "type": "header",
               "heText": "הַטּוֹב וְהַמֵּטִיב",
-              "enText": "The Fourth Brachah: Hashem's Constant Goodness"
+              "enText": "The Fourth Brachah: Hashem's Constant Goodness",
+              "enTop": true
             },
             {
               "id": "hatov_he",
