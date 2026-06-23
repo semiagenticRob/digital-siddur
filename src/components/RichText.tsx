@@ -3,11 +3,14 @@ import { Text, StyleProp, TextStyle } from 'react-native';
 import { useAppendixStore } from '../store/appendix';
 import { useSectionModalStore } from '../store/sectionModal';
 
-// Wrap each maximal run of Hebrew (letters + nikkud + internal spaces) in
+// Wrap each maximal run of Hebrew (letters + nikkud + internal spaces/commas) in
 // Unicode directional isolates (RLI U+2067 … PDI U+2069) so inline Hebrew sits
 // correctly inside LTR text instead of being reordered against punctuation.
+// Commas are included so comma-separated Hebrew phrases (e.g. bold lemmas citing
+// multiple psalm clauses) form one RTL isolate instead of several, which would
+// cause the bidi algorithm to reverse their visual order.
 function isolateHebrew(text: string): string {
-  return text.replace(/[֐-׿]+(?:[ ֐-׿]*[֐-׿])?/g, (run) => '⁧' + run + '⁩');
+  return text.replace(/[֐-׿]+(?:[, ֐-׿]*[֐-׿])?/g, (run) => '⁧' + run + '⁩');
 }
 
 // Matches **bold** (greedy-safe) or *italic* spans.
