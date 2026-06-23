@@ -72,67 +72,41 @@ segment type, text accuracy, Ikarim ordering, L'Dovid artifact removal, Pitum ru
 The following were surfaced but HELD — they require new Hebrew content, content additions,
 or PDF verification.
 
-### Missing content — requires dedicated content-addition pass
+### Missing content — RESOLVED in session 2026-06-23
 
-- **Avinu Malkeinu (pp. 80-82 / PDF 104-106): ~30 lines missing.** The app has only
-  lines 1-8 (i=18–35 in avinu_malkeinu). The print has ~40 lines total. All content
-  from "כַּלֵּה מַגֵּפָה" through the "even if we are not deserving" closing lines (siddur
-  pp. 80-82) is absent. Source: the print pages; add as prayer+commentary pairs.
-  Note: the "book of life" columns on pp. 80-81 have a three-column variant structure
-  (chaim/chaim tov/zechus) — needs `optional: true` + variant rubrics.
+- ✅ **Avinu Malkeinu: ~30 missing lines added** (`scripts/add_shacharis_missing_content.py`).
+  Lines 9-35, AYT/fast two-column variants, Insight box, responsive rubric. Now 116 segs.
+- ✅ **Shir shel Yom: Thursday + Friday added** (Psalm 81, Psalm 93; now 34 segs).
+- ✅ **Kaddish Shalem: 3 closing paragraphs added** (תִּתְקַבֵּל, יְהֵא שְׁלָמָא, עֹשֶׂה שָׁלוֹם).
+- ✅ **Kaddish Yasom after Aleinu: added** (11 segs, full prayer+commentary structure).
+- ✅ **Avinu Malkeinu 4a/4b variant rubrics added** (prints p. 79: AYT / fast-day labels).
 
-- **Shir shel Yom: Thursday (Ch. 81) and Friday (Ch. 93) missing.** The app has
-  Sunday–Wednesday only (p-shir-shel-yom, 24 segments). Print pp. 132 shows both
-  Thursday (מִזְמוֹר לְאָסָף / Ch. 81) and Friday (יְהוָה מָלָךְ / Ch. 93) with full
-  psalm text + commentary + Kaddish Yasom close. Add as header → rubric → commentary
-  → prayer(s) → rubric_kaddish per the Sun–Wed pattern. Assign IDs consistently
-  (header_thursday, header_friday, etc.).
+### Still held
 
-- **Kaddish Shalem: missing last 3 paragraphs.** kt3-kaddish-1 (i=165 of KT) ends
-  after "וְאִמְרוּ אָמֵן" (the יִתְבָּרַךְ paragraph). Print p. 128 continues with:
-    - תִּתְקַבֵּל צְלוֹתְהוֹן וּבָעוּתְהוֹן... וְאִמְרוּ אָמֵן (chazzan only)
-    - יְהֵא שְׁלָמָא רַבָּא... וְאִמְרוּ אָמֵן (congregation)
-    - עֹשֶׂה שָׁלוֹם... וְאִמְרוּ אָמֵן (3 steps back)
-  Add as additional prayer+commentary segments after i=165, before kt3-kaddish-rubric-end.
-
-- **Kaddish Yasom after Aleinu: missing.** Print p. 130 shows full Kaddish Yasom
-  following Aleinu (p-aleinu.json currently ends at 7 segments). Add the same
-  קַדִּישׁ יָתוֹם structure used elsewhere (header + prayer + commentary).
-
-- **Pitum HaKetores: rubric_in_israel removed but its correct home not yet wired.**
-  The "In Israel, the following is added: בָּרְכוּ..." rubric belongs to the Kaddish
-  D'Rabbanan section on print p. 139. That section may be entirely absent from the app.
-  Confirm whether a Kaddish D'Rabbanan prayer is needed and where it belongs.
+- **Pitum HaKetores: rubric_in_israel removed but correct home not wired.** The "In
+  Israel, the following is added: בָּרְכוּ..." rubric belongs to Kaddish D'Rabbanan
+  (print p. 139). That section may be absent from the app. Confirm and add if needed.
 
 ### Needs PDF verification before applying
 
-- **avinu_malkeinu_title (i=13): display: true?** Vision agent says "אָבִינוּ מַלְכֵּנוּ"
-  in the header block appears noticeably larger on print p. 102. Verify at 300 DPI
-  whether this is truly display-sized (like framework chasimos) or just a large header
-  font. If the header type already renders this at heading size, display: true may not
-  be needed.
-
-- **avinu_malkeinu 4a/4b (i=24-27): missing variant rubrics.** The AYT/fast-day
-  lines have no rubric labels in the app; print pp. 79-80 shows "During Aseres Yemei
-  Teshuvah say:" / "On fast days say:" before each variant. Add `optional: true`
-  and the appropriate rubric labels.
+- **avinu_malkeinu_title (i=13): display: true?** Vision agent noted the title
+  "אָבִינוּ מַלְכֵּנוּ" appears larger on print p. 102. Verify at 300 DPI — may just be
+  the header font size (the `header` type already renders at heading size), not
+  a `display`-tier verse.
 
 - **kt3-uva-comm-5 (i=159 in KT): commentary references next prayer's text.** The
-  commentary at i=159 (kt3-uva-comm-5) discusses בָּרוּךְ הוּא אֱלֹהֵינוּ but is placed
-  before that prayer (i=160, kt3-uva-6). Verify print layout — if commentary is meant
-  to introduce the following prayer rather than explain the preceding one, this is
-  correct; if it's meant to follow i=160, swap order.
+  commentary discusses בָּרוּךְ הוּא אֱלֹהֵינוּ (i=160) but is placed before that prayer.
+  Verify print layout — if it introduces the next prayer, current position is correct.
 
 ### Minor house-style
 
 - **L'Dovid i=7 (rubric_kaddish): English text inconsistency.** This rubric has both
   `heText: "קדיש יתום"` and `enText: "Mourner's Kaddish"`. All Shir shel Yom Kaddish
-  close rubrics use only `heText`. Verify print convention and standardize.
+  close rubrics use only `heText`. Verify print and standardize.
 
-- **Barchi Nafshi: Rosh Chodesh conditional.** The entire p-barchi-nafshi prayer is
-  said only on Rosh Chodesh (rubric says "On Rosh Chodesh, add Tehillim Chapter 104:").
-  Consider whether the prayer itself needs an `optional: true` top-level flag or
-  `condition: "rosh_chodesh"`, so the app can conditionally show/hide it.
+- **Barchi Nafshi: Rosh Chodesh conditional.** The prayer is said only on Rosh Chodesh
+  but has no `optional: true` or condition tag. Consider whether the app needs it for
+  conditional display.
 
 ## Shemoneh Esrei (Shacharis) — formatting scan 2026-06-22
 
