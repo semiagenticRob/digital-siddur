@@ -11,7 +11,7 @@ This project is on **Expo SDK 56 / React Native 0.85 / React 19 / Expo Router v4
 A free, offline-first iOS/Android siddur for the *Feigenbaum Weekday Siddur* (Cohen Family Edition, Nusach Ashkenaz). Built for teens, with Hebrew / Both / English display modes, inline commentary, highlights, and notes. GitHub: `semiagenticRob/digital-siddur`.
 
 There are **two tracks**, and most work is on the first:
-- **Content** (the hard part): faithfully digitizing the print siddur from `feigenbaum-siddur-original.pdf` into structured JSON, then proofing it section-by-section against the print. Content fidelity is the highest-stakes risk — no real liturgical text ships without author + rav sign-off.
+- **Content** (the hard part): faithfully digitizing the print siddur from `feigenbaum-siddur-original.pdf` into structured JSON, then proofing it section-by-section against the print. Content fidelity is the highest-stakes risk — verify every change against the actual page (the print PDF is the sole authority).
 - **App**: the Expo reading client that renders that JSON.
 
 ## Commands
@@ -66,7 +66,7 @@ The full contract, conventions, and proofing workflow are in **`docs/CONTENT_GUI
 - **Edit JSON via deterministic Python scripts in `scripts/`**, not by hand — each asserts its target exists before editing, so a stale assumption fails loudly instead of corrupting text. Verify formatting changes by stripping markdown (`**`/`*`) and diffing against the current text so wording can't drift. The many `fix_*.py` scripts are the record of past section fixes; follow their pattern.
 - **Proactive per-section audit** before asking for human review: `python3 scripts/audit_prep.py <file.json> <prayer-id> <siddur-start> <siddur-end>` renders the print pages and dumps segments, then dispatch vision subagents to diff app-vs-print. **Vision agents are unreliable for two dimensions specifically — visual size (`display`) and header order — they both over- and under-report there.** Verify every display-flag and header-order call, plus all Hebrew-letter/word changes, **by hand at 300 DPI** on the TOC-located page. Treat agent output as a lead, not a verdict.
 - **Editing Hebrew: derive by slicing, match nikud-insensitively.** When splitting/relocating a lemma or chasimah, slice it from the existing string (retyping drops nikud). To locate a split/replace point in vocalized Hebrew, match on the **consonant skeleton** (strip U+0591–U+05C7) and map back to the raw index — typed nikud rarely byte-matches the stored text.
-- **`docs/REVIEW_QUEUE.md`** tracks intentionally-deferred items (e.g. the siddur-wide Divine Name spelling, held for rav sign-off; masoretic maqaf in Torah passages). Check it before "finishing" a section.
+- **`docs/REVIEW_QUEUE.md`** tracks intentionally-deferred items (e.g. the siddur-wide Divine Name spelling decision; masoretic maqaf in Torah passages). Check it before "finishing" a section.
 - **`docs/solutions/`** — documented solutions to past problems (bugs, conventions, workflow patterns), organized by category with YAML frontmatter (`module`, `tags`, `problem_type`). Relevant when implementing or debugging in a documented area.
 
 ## Plan

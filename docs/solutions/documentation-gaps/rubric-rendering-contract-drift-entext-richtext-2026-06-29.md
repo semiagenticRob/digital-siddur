@@ -74,7 +74,7 @@ if (t in RICHTEXT_TYPES or t == 'rubric') and en:
 
 ## Why This Matters
 
-Content fidelity is this project's highest-stakes risk — no liturgical text ships without human/rav sign-off — so a silently-drifted contract is dangerous in three ways:
+Content fidelity is this project's highest-stakes risk — so a silently-drifted contract is dangerous in three ways:
 
 - **False errors:** the linter rejects valid `enText` markdown/links, blocking commits or pushing an editor to strip formatting the renderer actually supports.
 - **False passes:** a linter blind to rubric `enText` lets unbalanced markdown reach users.

@@ -2,8 +2,8 @@
 
 7 checks vs. the print PDF, both layers. ✓ = pass. Checks 1-6 verified vs. print for ALL
 prayers; display (7) verified on-device across all 14 services (133 screens) + the one (formerly-suspected)
-render anomaly (commentary_shabbos) resolved — it renders edge-to-edge with NATURAL text once the FlashList cell settles; the earlier clip was a capture-timing artifact, line-break workaround reverted. PDF-extracted Hebrew carries
-the universal rav ship-gate (project policy, every prayer).
+render anomaly (commentary_shabbos) resolved — it renders edge-to-edge with NATURAL text once the FlashList cell settles; the earlier clip was a capture-timing artifact, line-break workaround reverted. PDF-extracted Hebrew has
+open nikud TODOs (build items, listed in REVIEW_QUEUE).
 
 | service | prayer | pdf | 1 ttl | 2 heb | 3 eng | 4 rub | 5 ord | 6 intro | 7 disp | status |
 |---|---|---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|---|
@@ -71,5 +71,5 @@ the universal rav ship-gate (project policy, every prayer).
 RUNNING COVERAGE: 60/60 prayers pass all 7 checks on both layers.
 Checks 1-6: verified vs print. Check 7: verified clean (1 render-clip fixed via line-break
 workaround on commentary_shabbos — remove when the renderer is fixed natively, REVIEW_QUEUE).
-STANDING SHIP-GATE (policy, not an audit discrepancy): rav nikud sign-off on all content,
-with PDF-extracted insertions spot-listed in REVIEW_QUEUE.
+OPEN NIKUD TODOs (build items, not audit discrepancies): PDF-extracted insertions still need
+nikud verification/completion — spot-listed in REVIEW_QUEUE.

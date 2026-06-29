@@ -1,9 +1,9 @@
-# Review queue — deferred / sign-off items
+# Review queue — deferred items
 
 Items surfaced by the proactive print-vs-app audit that are intentionally NOT
 auto-applied. Track them here so they aren't lost.
 
-## Needs rav sign-off
+## Nikud / spelling decisions (build TODOs)
 
 - **Divine Name spelling (siddur-wide).** The print spells the Tetragrammaton
   **יְהוָֹה** (cholam over the vav, U+05B9); many segments dropped it and store
@@ -11,7 +11,7 @@ auto-applied. Track them here so they aren't lost.
   present). Bare-`יְהוָה` counts: shacharit 159, hallel 28, birkas-hamazon 15,
   krias-shema-al-hamitah 14, maariv-motzaei-shabbos 12, minchah 6,
   netilas-lulav 6. The brachos before the Shema already use the cholam form.
-  → Hold for rav; then mechanical full-token replace `יְהוָה`→`יְהוָֹה`
+  → Pending decision; then mechanical full-token replace `יְהוָה`→`יְהוָֹה`
   (strip-diff verified). Decided 2026-06-18.
 
 ## Needs a careful dedicated pass
@@ -46,7 +46,7 @@ Segment indices are into `g-shemoneh-esrei` prayer[0].segments.
   line; the print sets a header there.
 - **i=130** — possible extra/duplicate Retzei header; verify against print.
 
-### New Hebrew / new liturgy (needs rav sign-off)
+### New Hebrew / new liturgy
 - **Missing "Adir bamarom" congregational response** after i=165 (the Kedushah
   area) — not present in the app; print includes the קהל response. New liturgy.
 - **i=189** — add optional Aseres Yemei Teshuvah parenthetical
@@ -116,7 +116,7 @@ print keeps small *inside* the enlarged line. A whole-segment `display`
 would enlarge the parenthetical too, so this can't match the print without
 a **renderer change** (small-label/parenthetical span inside a display
 verse). Also note an app-vs-print content diff: app has `הָאֵל הַקָּדוֹשׁ
-(בעשי״ת …)` but the print sets `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ` — rav/content call.
+(בעשי״ת …)` but the print sets `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ` — content/house-style call.
 
 ### Header order — re-architected to be PDF-deterministic (commit 32bc4f1)
 No global default may contradict the PDF. Default is now **Hebrew-on-top**
@@ -201,9 +201,9 @@ absolute per-instance certainty, eyeball the rendered sections.
   בָּרוּךְ כְּבוֹד i=46, וּבְדִבְרֵי i=48, יִמְלֹךְ i=50). Same renderer limit as
   i=53/57: the labels on i=46/i=50 sit on `display` verses, so adding them
   inline would enlarge the label. Needs a small-label-prefix renderer span.
-- **Adir Bamarom** congregational response after i=165 — new liturgy, rav
-  sign-off. pdftotext extraction fragments the nikud (אַדִּ יר), so it can't
-  be added accurately without a clean digital source or rav-verified text.
+- **Adir Bamarom** congregational response after i=165 — new liturgy.
+  pdftotext extraction fragments the nikud (אַדִּ יר), so it can't
+  be added accurately without a clean vocalized source.
 
 ## Display residual — short Hebrew-lemma commentary clipping (audit 2026-06-25)
 
@@ -235,7 +235,7 @@ out of RichText's first span. Hold as its own focused task.
 These passages are printed in the siddur but ABSENT from the app, and the Hebrew
 exists nowhere in src/content/ to slice from. Retyping is forbidden (drops nikud)
 and the PDF text layer is corrupted (spurious intra-word spaces), so they need a
-trusted vocalized source (e.g. Sefaria) + rav sign-off before insertion.
+trusted vocalized source (e.g. Sefaria) before insertion.
 
 - **Hallel — Tehillim 116 (אָהַבְתִּי) and 117 (הַלְלוּ אֶת ה׳ כָּל גּוֹיִם), and 118:1
   (הוֹדוּ … כִּי טוֹב).** The app jumps 115→118:2; verified against print pp.206–207.
@@ -272,7 +272,7 @@ removing the text layer's spurious intra-word spaces. Outcome is MIXED:
 - **Tehillim 116 — extractable but with sporadic per-line defects** (one line lost
   all word-spaces, a line-break cut a word, RTL colon misplacement, block-order
   jumbling across the 2 pages). Needs careful per-line assembly + image verify.
-- **Sefiras Omer 45–49 — count phrases extract clean** (e.g. `הַיּוֹם חֲמִשָּׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעֹמֶר:`) BUT the **month name סיון comes out bare/nikud-dropped** — the one genuinely-blocked token is STILL not cleanly recoverable. Also `בָּעֹמֶר` (chaser) vs the app's `בָּעוֹמֶר` (malei) — a normalization the rav must settle.
+- **Sefiras Omer 45–49 — count phrases extract clean** (e.g. `הַיּוֹם חֲמִשָּׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעֹמֶר:`) BUT the **month name סיון comes out bare/nikud-dropped** — the one genuinely-blocked token is STILL not cleanly recoverable. Also `בָּעֹמֶר` (chaser) vs the app's `בָּעוֹמֶר` (malei) — a normalization still to settle.
 
 CONCLUSION: PDF extraction partially works but cannot reliably produce all the
 missing nikud (Sivan, and 116's defect lines). A clean vocalized source (Sefaria)
@@ -284,7 +284,7 @@ Extractor + clean 117 text are preserved here for whoever completes it.
 Tehillim 116, 117, and 118:1 (הוֹדוּ) are now in hallel.json (after 115b) via
 scripts/fix_hallel_116_117_118.py — Hebrew PDF-extracted (PyMuPDF + geometry
 de-spacing, scripts/extract_pdf_hebrew.py), consonant-skeleton verified verse by
-verse. *** RAV MUST VERIFY NIKUD before shipping. *** Known open spots:
+verse. *** NIKUD TODO — verify/complete the vocalization. *** Known open spots:
 116:9 אֶתְהַלֵךְ (Masoretic has dagesh: אֶתְהַלֵּךְ); 118 header now appears before
 הוֹדוּ while a second 118 sub-header (hallel2-118a-header) remains later in the
 section — confirm the 118 header structure. Focus-commentaries / per-verse glosses
@@ -297,14 +297,14 @@ month nikud), Birkas Hamazon Zimun (Tehillim 137) + Ve-al-hakol closing, ג״פ 
 
 Every source-needed passage has been extracted from the print PDF (pipeline:
 scripts/extract_pdf_hebrew.py) and inserted, consonant-skeleton verified. *** ALL
-require rav nikud verification before shipping. *** Scripts:
+still need nikud verification/completion (build TODO). *** Scripts:
 - Hallel Tehillim 116, 117, 118:1 — scripts/fix_hallel_116_117_118.py
-- Sefiras Omer days 45-49 — scripts/fix_omer_45_49.py (Sivan inserted UNVOCALIZED — rav to add nikud)
+- Sefiras Omer days 45-49 — scripts/fix_omer_45_49.py (Sivan inserted UNVOCALIZED — TODO: add nikud)
 - Birkas HaMazon Zimun (Tehillim 137 + call-response invitation) — scripts/fix_zimun.py
 - Birkas HaMazon Ve-al-hakol closing — scripts/fix_velahakol_and_gimelpe.py
 - Krias Shema al Ha'mitah ג״פ rubrics (verses 8-11) — scripts/fix_velahakol_and_gimelpe.py
 
-RAV-VERIFY checklist (known/likely nikud spots):
+NIKUD TODO checklist (known/likely spots to verify/complete):
 - Hallel 116:9 אֶתְהַלֵךְ (Masoretic אֶתְהַלֵּךְ)
 - Omer 45-49 month name סיון (bare — standard סִיוָן)
 - Zimun role labels (הַמְזַמֵּן אוֹמֵר etc.) and the בעשרה inline conditional; nikud throughout Tehillim 137
@@ -337,11 +337,11 @@ clips across 133 screens (all 14 services). Check 7 now passes for all 60 prayer
 → CLEANUP TASK (not blocking): when the underlying RN/iOS FlashList Text-measurement bug is
   fixed natively, REMOVE the manual breaks from commentary_shabbos so it reflows naturally.
 
-## REMAINING STANDING ITEM: rav sign-off (universal policy)
-Not an audit discrepancy — the project ships no liturgical text without rav sign-off. The
-PDF-extracted insertions (Hallel 116/117/118:1, Omer 45-49, Zimun/Tehillim 137, Ve-al-hakol)
-are consonant-verified vs the print + nikud spot-checked; specific nikud spots for the rav's
-confirmation are listed above (e.g. Hallel 116:9 dagesh, Omer month-name vocalization).
+## Nikud status — PDF-extracted insertions
+The PDF-extracted insertions (Hallel 116/117/118:1, Omer 45-49, Zimun/Tehillim 137, Ve-al-hakol)
+are consonant-verified vs the print and nikud spot-checked; the specific nikud spots still to
+verify/complete are in the NIKUD TODO checklist above (e.g. Hallel 116:9 dagesh, Omer
+month-name vocalization).
 
 ## DISPLAY RESIDUAL — RESOLVED & root cause corrected (2026-06-26 final)
 The commentary_shabbos "clip" was NOT a persistent content/renderer bug — it was a FlashList
