@@ -67,6 +67,7 @@ The full contract, conventions, and proofing workflow are in **`docs/CONTENT_GUI
 - **Proactive per-section audit** before asking for human review: `python3 scripts/audit_prep.py <file.json> <prayer-id> <siddur-start> <siddur-end>` renders the print pages and dumps segments, then dispatch vision subagents to diff app-vs-print. **Vision agents are unreliable for two dimensions specifically — visual size (`display`) and header order — they both over- and under-report there.** Verify every display-flag and header-order call, plus all Hebrew-letter/word changes, **by hand at 300 DPI** on the TOC-located page. Treat agent output as a lead, not a verdict.
 - **Editing Hebrew: derive by slicing, match nikud-insensitively.** When splitting/relocating a lemma or chasimah, slice it from the existing string (retyping drops nikud). To locate a split/replace point in vocalized Hebrew, match on the **consonant skeleton** (strip U+0591–U+05C7) and map back to the raw index — typed nikud rarely byte-matches the stored text.
 - **`docs/REVIEW_QUEUE.md`** tracks intentionally-deferred items (e.g. the siddur-wide Divine Name spelling, held for rav sign-off; masoretic maqaf in Torah passages). Check it before "finishing" a section.
+- **`docs/solutions/`** — documented solutions to past problems (bugs, conventions, workflow patterns), organized by category with YAML frontmatter (`module`, `tags`, `problem_type`). Relevant when implementing or debugging in a documented area.
 
 ## Plan
 
