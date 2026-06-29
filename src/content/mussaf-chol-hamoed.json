@@ -369,13 +369,15 @@
             {
               "id": "seg-mch2-005",
               "type": "commentary",
-              "enText": "*On Shabbos add:* —**וּבְיוֹם הַשַּׁבָּת**—This is a quote from the Torah describing the Shabbos korbanos that were brought, besides the daily Korban Tamid."
+              "enText": "*On Shabbos add:* —**וּבְיוֹם הַשַּׁבָּת**—This is a quote from the Torah describing the Shabbos korbanos that were brought, besides the daily Korban Tamid.",
+              "optional": true
             },
             {
               "id": "seg-mch2-006",
               "type": "prayer",
               "heText": "וּבְיוֹם הַשַּׁבָּת, שְׁנֵי כְבָשִׂים בְּנֵי שָׁנָה תְּמִימִם, וּשְׁנֵי עֶשְׂרֹנִים סֹלֶת מִנְחָה בְּלוּלָה בַשֶּׁמֶן וְנִסְכּוֹ: עֹלַת שַׁבַּת בְּשַׁבַּתּוֹ, עַל עֹלַת הַתָּמִיד וְנִסְכָּהּ: (זֶה קָרְבַּן שַׁבָּת. וְקָרְבַּן הַיּוֹם כָּאָמוּר:)",
-              "condition": "On Shabbos add"
+              "condition": "On Shabbos add",
+              "optional": true
             },
             {
               "id": "seg-mch2-007",
@@ -399,157 +401,183 @@
               "id": "seg-mch2-010",
               "type": "rubric",
               "enText": "Pesach—the first (and second) day of Yom Tov:",
-              "condition": "Pesach, first and second day of Yom Tov"
+              "condition": "Pesach, first and second day of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-011",
               "type": "prayer",
               "heText": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה, פֶּסַח לַיהֹוָה: וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַזֶּה חָג, שִׁבְעַת יָמִים מַצּוֹת יֵאָכֵל: בַּיּוֹם הָרִאשׁוֹן מִקְרָא קֹדֶשׁ, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם אִשֶּׁה עֹלָה לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם, וְאַיִל אֶחָד, וְשִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה, תְּמִימִם יִהְיוּ לָכֶם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Pesach, first and second day of Yom Tov"
+              "condition": "Pesach, first and second day of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-012",
               "type": "rubric",
               "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
-              "condition": "On Shabbos"
+              "condition": "On Shabbos",
+              "optional": true
             },
             {
               "id": "seg-mch2-013",
               "type": "rubric",
               "enText": "Pesach—Chol Hamoed and the last day(s) of Yom Tov:",
-              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov"
+              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-014",
               "type": "prayer",
               "heText": "וְהִקְרַבְתֶּם אִשֶּׁה עֹלָה לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם וְאַיִל אֶחָד, וְשִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה, תְּמִימִם יִהְיוּ לָכֶם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov"
+              "condition": "Pesach, Chol Hamoed and the last days of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-015",
               "type": "rubric",
               "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
-              "condition": "On Shabbos"
+              "condition": "On Shabbos",
+              "optional": true
             },
             {
               "id": "seg-mch2-016",
               "type": "rubric",
               "enText": "Shavuos:",
-              "condition": "Shavuos"
+              "condition": "Shavuos",
+              "optional": true
             },
             {
               "id": "seg-mch2-017",
               "type": "prayer",
               "heText": "וּבְיוֹם הַבִּכּוּרִים, בְּהַקְרִיבְכֶם מִנְחָה חֲדָשָׁה לַיהֹוָה, בְּשָׁבֻעֹתֵיכֶם מִקְרָא קֹדֶשׁ יִהְיֶה לָכֶם, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם עֹלָה לְרֵיחַ נִיחֹחַ לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁנַיִם, אַיִל אֶחָד, שִׁבְעָה כְבָשִׂים בְּנֵי שָׁנָה: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Shavuos"
+              "condition": "Shavuos",
+              "optional": true
             },
             {
               "id": "seg-mch2-018",
               "type": "rubric",
               "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
-              "condition": "On Shabbos"
+              "condition": "On Shabbos",
+              "optional": true
             },
             {
               "id": "seg-mch2-019",
               "type": "rubric",
               "enText": "Sukkos—the first (and second) day of Yom Tov:",
-              "condition": "Sukkos, first and second day of Yom Tov"
+              "condition": "Sukkos, first and second day of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-020",
               "type": "prayer",
               "heText": "וּבַחֲמִשָּׁה עָשָׂר יוֹם לַחֹדֶשׁ הַשְּׁבִיעִי, מִקְרָא קֹדֶשׁ יִהְיֶה לָכֶם כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ, וְחַגֹּתֶם חַג לַיהֹוָה שִׁבְעַת יָמִים: וְהִקְרַבְתֶּם עֹלָה אִשֵּׁה רֵיחַ נִיחֹחַ לַיהֹוָה, פָּרִים בְּנֵי בָקָר שְׁלֹשָׁה עָשָׂר, אֵילִם שְׁנַיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם יִהְיוּ: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, first and second day of Yom Tov"
+              "condition": "Sukkos, first and second day of Yom Tov",
+              "optional": true
             },
             {
               "id": "seg-mch2-021",
               "type": "rubric",
               "heText": "(לְשַׁבָּת, יִשְׂמְחוּ) אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ וְכוּ'",
-              "condition": "On Shabbos"
+              "condition": "On Shabbos",
+              "optional": true
             },
             {
               "id": "seg-mch2-022",
               "type": "rubric",
               "enText": "Sukkos—First day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשֵּׁנִי Sukkos—First day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַשֵּׁנִי and וּבַיּוֹם הַשְּׁלִישִׁי",
-              "condition": "Sukkos, First day Chol Hamoed"
+              "condition": "Sukkos, First day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-023",
               "type": "prayer",
               "heText": "וּבַיּוֹם הַשֵּׁנִי, פָּרִים בְּנֵי בָקָר שְׁנֵים עָשָׂר, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, First day Chol Hamoed"
+              "condition": "Sukkos, First day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-024",
               "type": "rubric",
               "enText": "Sukkos—Second day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשְּׁלִישִׁי Sukkos—Second day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַשְּׁלִישִׁי and וּבַיּוֹם הָרְבִיעִי",
-              "condition": "Sukkos, Second day Chol Hamoed"
+              "condition": "Sukkos, Second day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-025",
               "type": "prayer",
               "heText": "וּבַיּוֹם הַשְּׁלִישִׁי, פָּרִים עַשְׁתֵּי עָשָׂר, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, Second day Chol Hamoed"
+              "condition": "Sukkos, Second day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-026",
               "type": "rubric",
               "enText": "Sukkos—Third day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הָרְבִיעִי Sukkos—Third day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הָרְבִיעִי and וּבַיּוֹם הַחֲמִישִׁי",
-              "condition": "Sukkos, Third day Chol Hamoed"
+              "condition": "Sukkos, Third day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-027",
               "type": "prayer",
               "heText": "וּבַיּוֹם הָרְבִיעִי, פָּרִים עֲשָׂרָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, Third day Chol Hamoed"
+              "condition": "Sukkos, Third day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-028",
               "type": "rubric",
               "enText": "Sukkos—Fourth day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַחֲמִישִׁי Sukkos—Fourth day Chol Hamoed in chutz la'aretz, say וּבַיּוֹם הַחֲמִישִׁי and וּבַיּוֹם הַשִּׁשִּׁי",
-              "condition": "Sukkos, Fourth day Chol Hamoed"
+              "condition": "Sukkos, Fourth day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-029",
               "type": "prayer",
               "heText": "וּבַיּוֹם הַחֲמִישִׁי, פָּרִים תִּשְׁעָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, Fourth day Chol Hamoed"
+              "condition": "Sukkos, Fourth day Chol Hamoed",
+              "optional": true
             },
             {
               "id": "seg-mch2-030",
               "type": "rubric",
               "enText": "Sukkos—Fifth day Chol Hamoed in Eretz Yisrael, say וּבַיּוֹם הַשִּׁשִּׁי Sukkos—Hoshana Rabbah in chutz la'aretz, say וּבַיּוֹם הַשִּׁשִּׁי and וּבַיּוֹם הַשְּׁבִיעִי",
-              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz"
+              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz",
+              "optional": true
             },
             {
               "id": "seg-mch2-031",
               "type": "prayer",
               "heText": "וּבַיּוֹם הַשִּׁשִּׁי, פָּרִים שְׁמֹנָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz"
+              "condition": "Sukkos, Fifth day Chol Hamoed / Hoshana Rabbah in chutz la'aretz",
+              "optional": true
             },
             {
               "id": "seg-mch2-032",
               "type": "rubric",
               "enText": "Sukkos—Hoshana Rabbah in Eretz Yisrael, say וּבַיּוֹם הַשְּׁבִיעִי",
-              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael"
+              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael",
+              "optional": true
             },
             {
               "id": "seg-mch2-033",
               "type": "prayer",
               "heText": "וּבַיּוֹם הַשְּׁבִיעִי, פָּרִים שִׁבְעָה, אֵילִם שְׁנָיִם, כְּבָשִׂים בְּנֵי שָׁנָה אַרְבָּעָה עָשָׂר תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael"
+              "condition": "Sukkos, Hoshana Rabbah in Eretz Yisrael",
+              "optional": true
             },
             {
               "id": "seg-mch2-034",
               "type": "rubric",
               "enText": "Shemini Atzeres/Simchas Torah:",
-              "condition": "Shemini Atzeres / Simchas Torah"
+              "condition": "Shemini Atzeres / Simchas Torah",
+              "optional": true
             },
             {
               "id": "seg-mch2-035",
               "type": "prayer",
               "heText": "בַּיּוֹם הַשְּׁמִינִי, עֲצֶרֶת תִּהְיֶה לָכֶם, כָּל מְלֶאכֶת עֲבֹדָה לֹא תַעֲשׂוּ: וְהִקְרַבְתֶּם עֹלָה אִשֵּׁה רֵיחַ נִיחֹחַ לַיהֹוָה, פַּר אֶחָד, אַיִל אֶחָד, כְּבָשִׂים בְּנֵי שָׁנָה שִׁבְעָה תְּמִימִם: וּמִנְחָתָם וְנִסְכֵּיהֶם כִּמְדֻבָּר, שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר, וּשְׁנֵי עֶשְׂרֹנִים לָאָיִל, וְעִשָּׂרוֹן לַכֶּבֶשׂ, וְיַיִן כְּנִסְכּוֹ, וְשָׂעִיר לְכַפֵּר, וּשְׁנֵי תְמִידִים כְּהִלְכָתָם:",
-              "condition": "Shemini Atzeres / Simchas Torah"
+              "condition": "Shemini Atzeres / Simchas Torah",
+              "optional": true
             },
             {
               "id": "seg-mch2-036",
@@ -560,18 +588,21 @@
               "id": "seg-mch2-037",
               "type": "rubric",
               "enText": "On Shabbos add here:",
-              "condition": "On Shabbos add here"
+              "condition": "On Shabbos add here",
+              "optional": true
             },
             {
               "id": "seg-mch2-038",
               "type": "prayer",
               "heText": "יִשְׂמְחוּ בְמַלְכוּתְךָ שׁוֹמְרֵי שַׁבָּת וְקוֹרְאֵי עֹנֶג, עַם מְקַדְּשֵׁי שְׁבִיעִי, כֻּלָּם יִשְׂבְּעוּ וְיִתְעַנְּגוּ מִטּוּבֶךָ, וּבַשְּׁבִיעִי רָצִיתָ בּוֹ וְקִדַּשְׁתּוֹ, חֶמְדַּת יָמִים אוֹתוֹ קָרָאתָ, זֵכֶר לְמַעֲשֵׂה בְרֵאשִׁית:",
-              "condition": "On Shabbos add"
+              "condition": "On Shabbos add",
+              "optional": true
             },
             {
               "id": "seg-mch2-039",
               "type": "commentary",
-              "enText": "**יִשְׂמְחוּ בְמַלְכוּתְךָ**—Those who observe Shabbos and realize what a delight it is to have the gift of Shabbos, they will be happy to have You, Hashem, as their ruler. The nation that sanctifies the Seventh Day (Bnei Yisrael, who make Shabbos a day of stepping back from day-to-day material pursuits) gains the ability to be satisfied with whatever good You give them. You made the Seventh Day unique; it is the most special of all days for it reminds us that You are the Creator of all."
+              "enText": "**יִשְׂמְחוּ בְמַלְכוּתְךָ**—Those who observe Shabbos and realize what a delight it is to have the gift of Shabbos, they will be happy to have You, Hashem, as their ruler. The nation that sanctifies the Seventh Day (Bnei Yisrael, who make Shabbos a day of stepping back from day-to-day material pursuits) gains the ability to be satisfied with whatever good You give them. You made the Seventh Day unique; it is the most special of all days for it reminds us that You are the Creator of all.",
+              "optional": true
             },
             {
               "id": "seg-mch2-040",
@@ -812,17 +843,20 @@
               "id": "seg-31",
               "type": "rubric",
               "enText": "Some add the following tefillah:",
-              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ"
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ",
+              "optional": true
             },
             {
               "id": "seg-32",
               "type": "prayer",
-              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁלֹּא תַעֲלֶה קִנְאַת אָדָם עָלַי, וְלֹא קִנְאָתִי עַל אֲחֵרִים, וְשֶׁלֹּא אֶכְעֹס הַיּוֹם וְשֶׁלֹּא אַכְעִיסֶךָּ, וְתַצִּילֵנִי מִיֵּצֶר הָרָע, וְתֵן בְּלִבִּי הַכְנָעָה וַעֲנָוָה, מַלְכֵּנוּ וֵאלֹהֵינוּ יַחֵד שִׁמְךָ בְּעוֹלָמֶךָ, בְּנֵה בֵיתֶךָ, יַסֵּד בֵּיתֶךָ, וְשַׁכְלֵל הֵיכָלֶךָ, וְקַבֵּץ קִבּוּץ גָּלֻיּוֹת, וּפְדֵה צֹאנֶךָ וְשַׂמַּח עֲדָתֶךָ:"
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁלֹּא תַעֲלֶה קִנְאַת אָדָם עָלַי, וְלֹא קִנְאָתִי עַל אֲחֵרִים, וְשֶׁלֹּא אֶכְעֹס הַיּוֹם וְשֶׁלֹּא אַכְעִיסֶךָּ, וְתַצִּילֵנִי מִיֵּצֶר הָרָע, וְתֵן בְּלִבִּי הַכְנָעָה וַעֲנָוָה, מַלְכֵּנוּ וֵאלֹהֵינוּ יַחֵד שִׁמְךָ בְּעוֹלָמֶךָ, בְּנֵה בֵיתֶךָ, יַסֵּד בֵּיתֶךָ, וְשַׁכְלֵל הֵיכָלֶךָ, וְקַבֵּץ קִבּוּץ גָּלֻיּוֹת, וּפְדֵה צֹאנֶךָ וְשַׂמַּח עֲדָתֶךָ:",
+              "optional": true
             },
             {
               "id": "seg-33",
               "type": "commentary",
-              "enText": "*Please, Hashem, may not one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble (despite my accomplishments today)* and not be arrogant. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim."
+              "enText": "*Please, Hashem, may not one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble (despite my accomplishments today)* and not be arrogant. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim.",
+              "optional": true
             },
             {
               "id": "seg-34",

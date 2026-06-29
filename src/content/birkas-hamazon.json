@@ -21,17 +21,20 @@
             {
               "id": "zimun-137-rubric",
               "type": "rubric",
-              "enText": "On weekdays, some recite Tehillim 137 before bentching:"
+              "enText": "On weekdays, some recite Tehillim 137 before bentching:",
+              "optional": true
             },
             {
               "id": "zimun-137-header",
               "type": "header",
-              "heText": "תהילים קלז"
+              "heText": "תהילים קלז",
+              "optional": true
             },
             {
               "id": "zimun-137-prayer",
               "type": "prayer",
-              "heText": "עַל נַהֲרוֹת בָּבֶל, שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ, בְּזָכְרֵנוּ אֶת צִיּוֹן: עַל עֲרָבִים בְּתוֹכָהּ, תָּלִינוּ כִּנֹּרוֹתֵינוּ: כִּי שָׁם שְׁאֵלוּנוּ שׁוֹבֵינוּ דִּבְרֵי שִׁיר, וְתוֹלָלֵינוּ שִׂמְחָה, שִׁירוּ לָנוּ מִשִּׁיר צִיּוֹן: אֵיךְ נָשִׁיר אֶת שִׁיר יְהֹוָה, עַל אַדְמַת נֵכָר: אִם אֶשְׁכָּחֵךְ יְרוּשָׁלִָם, תִּשְׁכַּח יְמִינִי: תִּדְבַּק לְשׁוֹנִי לְחִכִּי, אִם לֹא אֶזְכְּרֵכִי, אִם לֹא אַעֲלֶה אֶת יְרוּשָׁלִַם עַל רֹאשׁ שִׂמְחָתִי: זְכֹר יְהֹוָה לִבְנֵי אֱדוֹם אֵת יוֹם יְרוּשָׁלִָם, הָאֹמְרִים עָרוּ עָרוּ עַד הַיְסוֹד בָּהּ: בַּת בָּבֶל הַשְּׁדוּדָה אַשְׁרֵי שֶׁיְשַׁלֶּם לָךְ אֶת גְּמוּלֵךְ שֶׁגָּמַלְתְּ לָנוּ: אַשְׁרֵי שֶׁיֹּאחֵז וְנִפֵּץ אֶת עֹלָלַיִךְ אֶל הַסָּלַע:"
+              "heText": "עַל נַהֲרוֹת בָּבֶל, שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ, בְּזָכְרֵנוּ אֶת צִיּוֹן: עַל עֲרָבִים בְּתוֹכָהּ, תָּלִינוּ כִּנֹּרוֹתֵינוּ: כִּי שָׁם שְׁאֵלוּנוּ שׁוֹבֵינוּ דִּבְרֵי שִׁיר, וְתוֹלָלֵינוּ שִׂמְחָה, שִׁירוּ לָנוּ מִשִּׁיר צִיּוֹן: אֵיךְ נָשִׁיר אֶת שִׁיר יְהֹוָה, עַל אַדְמַת נֵכָר: אִם אֶשְׁכָּחֵךְ יְרוּשָׁלִָם, תִּשְׁכַּח יְמִינִי: תִּדְבַּק לְשׁוֹנִי לְחִכִּי, אִם לֹא אֶזְכְּרֵכִי, אִם לֹא אַעֲלֶה אֶת יְרוּשָׁלִַם עַל רֹאשׁ שִׂמְחָתִי: זְכֹר יְהֹוָה לִבְנֵי אֱדוֹם אֵת יוֹם יְרוּשָׁלִָם, הָאֹמְרִים עָרוּ עָרוּ עַד הַיְסוֹד בָּהּ: בַּת בָּבֶל הַשְּׁדוּדָה אַשְׁרֵי שֶׁיְשַׁלֶּם לָךְ אֶת גְּמוּלֵךְ שֶׁגָּמַלְתְּ לָנוּ: אַשְׁרֵי שֶׁיֹּאחֵז וְנִפֵּץ אֶת עֹלָלַיִךְ אֶל הַסָּלַע:",
+              "optional": true
             },
             {
               "id": "zimun-invite-header",
@@ -167,42 +170,49 @@
               "id": "al_hanissim_rubric",
               "type": "rubric",
               "enText": "On Chanukah and Purim add the following special \"Thanks\": (If you forgot, see Appendix 12:8)",
-              "xref": "appendix:12:8"
+              "xref": "appendix:12:8",
+              "optional": true
             },
             {
               "id": "al_hanissim_prayer",
               "type": "prayer",
               "heText": "(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה:",
-              "condition": "chanukah"
+              "condition": "chanukah",
+              "optional": true
             },
             {
               "id": "al_hanissim_commentary",
               "type": "commentary",
-              "enText": "(וְ)**עַל הַנִּסִּים**—(We also thank You) for our miraculous rescue; for the mighty acts and victories; and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors in those days at this season."
+              "enText": "(וְ)**עַל הַנִּסִּים**—(We also thank You) for our miraculous rescue; for the mighty acts and victories; and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors in those days at this season.",
+              "optional": true
             },
             {
               "id": "al_hanissim_chanukah_prayer",
               "type": "prayer",
               "heText": "לַחֲנֻכָּה. בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ, וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה, וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל:",
-              "condition": "chanukah"
+              "condition": "chanukah",
+              "optional": true
             },
             {
               "id": "al_hanissim_chanukah_commentary",
               "type": "commentary",
               "enText": "On Chanukah: **בִּימֵי מַתִּתְיָהוּ**—In the days of the Kohen Gadol Matisyahu and his children, the despotic Syrian-Greek empire rose up against Your people (Bnei Yisrael), to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few (army of the Chashmonaim) victorious over the stronger and more numerous (Greek army). You made the Jews who had remained pure from the immorality of the Greek culture (טְהוֹרִים), who had remained righteous and loyal to Torah standards (צַדִּיקִים) and who remained diligent in the study of Torah (עוֹסְקֵי תוֹרָתֶךָ) victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture (טְמֵאִים and רְשָׁעִים), and deliberately tried to eradicate Torah study (זֵדִים). All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You.",
-              "condition": "chanukah"
+              "condition": "chanukah",
+              "optional": true
             },
             {
               "id": "al_hanissim_purim_prayer",
               "type": "prayer",
               "heText": "לַפּוּרִים. בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ:",
-              "condition": "purim"
+              "condition": "purim",
+              "optional": true
             },
             {
               "id": "al_hanissim_purim_commentary",
               "type": "commentary",
               "enText": "On Purim: **בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
-              "condition": "purim"
+              "condition": "purim",
+              "optional": true
             },
             {
               "id": "nodeh_veal_hakol_prayer",
@@ -239,19 +249,22 @@
               "heText": "בְּשַׁבָּת מוֹסִיפִים:",
               "enText": "On Shabbos add the following: (If you forgot, see Appendix 12:8)",
               "condition": "shabbos",
-              "xref": "appendix:12:8"
+              "xref": "appendix:12:8",
+              "optional": true
             },
             {
               "id": "retzeh_he",
               "type": "prayer",
               "heText": "רְצֵה וְהַחֲלִיצֵנוּ יְהוָה אֱלֹהֵינוּ בְּמִצְוֹתֶיךָ, וּבְמִצְוַת יוֹם הַשְּׁבִיעִי הַשַּׁבָּת הַגָּדוֹל וְהַקָּדוֹשׁ הַזֶּה, כִּי יוֹם זֶה גָּדוֹל וְקָדוֹשׁ הוּא לְפָנֶיךָ, לִשְׁבָּת בּוֹ וְלָנוּחַ בּוֹ בְּאַהֲבָה כְּמִצְוַת רְצוֹנֶךָ, וּבִרְצוֹנְךָ הָנִיחַ לָנוּ יְהוָה אֱלֹהֵינוּ, שֶׁלֹּא תְהֵא צָרָה וְיָגוֹן וַאֲנָחָה בְּיוֹם מְנוּחָתֵנוּ, וְהַרְאֵנוּ יְהוָה אֱלֹהֵינוּ בְּנֶחָמַת צִיּוֹן עִירֶךָ, וּבְבִנְיַן יְרוּשָׁלַיִם עִיר קָדְשֶׁךָ, כִּי אַתָּה הוּא בַּעַל הַיְשׁוּעוֹת וּבַעַל הַנֶּחָמוֹת:",
-              "condition": "shabbos"
+              "condition": "shabbos",
+              "optional": true
             },
             {
               "id": "retzeh_en",
               "type": "commentary",
               "enText": "May it please You, Hashem, to strengthen us through Your mitzvos, and through the mitzvah of Shabbos. For this mitzvah is great, separate and unique, when we refrain from work and we rest, an act of love (for the Shabbos), just as You commanded us. May it be Your will to grant us tranquility, so that there shall be no distress, sadness, or sorrow on the day of our rest. And let us see the consolation of Zion, Your city, and the rebuilding of Yerushalayim, for You control all deliverance and consolation.",
-              "condition": "shabbos"
+              "condition": "shabbos",
+              "optional": true
             },
             {
               "id": "yaaleh_rubric",
@@ -259,31 +272,36 @@
               "heText": "בְּראשׁ חֹדֶשׁ וְחֹל הַמּוֹעֵד מוֹסִיפִים:",
               "enText": "On Rosh Chodesh and Chol Hamoed, add Yaaleh V'Yavo: (If you forgot, see Appendix 12:8)",
               "condition": "rosh_chodesh",
-              "xref": "appendix:12:8"
+              "xref": "appendix:12:8",
+              "optional": true
             },
             {
               "id": "yaaleh_he",
               "type": "prayer",
               "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, יַעֲלֶה וְיָבֹא, וְיַגִּיעַ וְיֵרָאֶה וְיֵרָצֶה וְיִשָּׁמַע, וְיִפָּקֵד וְיִזָּכֵר זִכְרוֹנֵנוּ וּפִקְדוֹנֵנוּ, וְזִכְרוֹן אֲבוֹתֵינוּ, וְזִכְרוֹן מָשִׁיחַ בֶּן דָּוִד עַבְדֶּךָ, וְזִכְרוֹן יְרוּשָׁלַיִם עִיר קָדְשֶׁךָ, וְזִכְרוֹן כָּל עַמְּךָ בֵּית יִשְׂרָאֵל לְפָנֶיךָ, לִפְלֵיטָה, לְטוֹבָה, לְחֵן וּלְחֶסֶד וּלְרַחֲמִים לְחַיִּים וּלְשָׁלוֹם בְּיוֹם",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "yaaleh_occasion_rubric",
               "type": "rubric",
               "heText": "בְּראשׁ חֹדֶשׁ: רֹאשׁ הַחֹדֶשׁ. בְּחוֹל הַמּוֹעֵד פֶּסַח: חַג הַמַּצּוֹת. בְּחוֹל הַמּוֹעֵד סֻכּוֹת: חַג הַסֻּכּוֹת.",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "yaaleh_he_2",
               "type": "prayer",
               "heText": "הַזֶּה: זָכְרֵנוּ יְהוָה אֱלֹהֵינוּ בּוֹ לְטוֹבָה, וּפָקְדֵנוּ בּוֹ לִבְרָכָה, וְהוֹשִׁיעֵנוּ בּוֹ לְחַיִּים, וּבִדְבַר יְשׁוּעָה וְרַחֲמִים, חוּס וְחָנֵּנוּ וְרַחֵם עָלֵינוּ וְהוֹשִׁיעֵנוּ, כִּי אֵלֶיךָ עֵינֵינוּ, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה:",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "yaaleh_en",
               "type": "commentary",
               "enText": "Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please view us favorably, and take into account our special relationship with You, and the promises You made to our ancestors: the promise to bring Mashiach and to rebuild Yerushalayim and restore its holiness, and to remember all of Bnei Yisrael everywhere, to deliver us from our exiles (physical and spiritual), and to grant our requests and have mercy on us (even if we are not deserving), and to give us all life and peace on this day of: Rosh Chodesh/Pesach/Sukkos. Give us all goodness, blessings, and life (even if we are not deserving), show compassion on us, because we have turned to You for help because we know that You, Hashem, control everything, and You are a compassionate and merciful King.",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "uvneh_he",
@@ -386,76 +404,88 @@
               "type": "rubric",
               "heText": "בְּשַׁבָּת.",
               "enText": "On Shabbos:",
-              "condition": "shabbos"
+              "condition": "shabbos",
+              "optional": true
             },
             {
               "id": "harachaman_shabbos_he",
               "type": "prayer",
               "heText": "הָרַחֲמָן הוּא יַנְחִילֵנוּ יוֹם שֶׁכֻּלּוֹ שַׁבָּת וּמְנוּחָה לְחַיֵּי הָעוֹלָמִים:",
-              "condition": "shabbos"
+              "condition": "shabbos",
+              "optional": true
             },
             {
               "id": "harachaman_shabbos_en",
               "type": "commentary",
               "enText": "May Hashem, Who is compassionate, let us inherit that time (when Mashiach comes), which will be entirely Shabbos and a rest for life everlasting.",
-              "condition": "shabbos"
+              "condition": "shabbos",
+              "optional": true
             },
             {
               "id": "harachaman_rc_rubric",
               "type": "rubric",
               "heText": "בְּראשׁ חֹדֶשׁ.",
               "enText": "On Rosh Chodesh:",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "harachaman_rc_he",
               "type": "prayer",
               "heText": "הָרַחֲמָן הוּא יְחַדֵּשׁ עָלֵינוּ אֶת הַחֹדֶשׁ הַזֶּה לְטוֹבָה וְלִבְרָכָה:",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "harachaman_rc_en",
               "type": "commentary",
               "enText": "May Hashem, Who is compassionate, renew this coming month for us for good and for blessing.",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "harachaman_yt_rubric",
               "type": "rubric",
               "heText": "בְּיוֹם טוֹב.",
               "enText": "On Yom Tov:",
-              "condition": "yom_tov"
+              "condition": "yom_tov",
+              "optional": true
             },
             {
               "id": "harachaman_yt_he",
               "type": "prayer",
               "heText": "הָרַחֲמָן הוּא יַנְחִילֵנוּ יוֹם שֶׁכֻּלּוֹ טוֹב:",
-              "condition": "yom_tov"
+              "condition": "yom_tov",
+              "optional": true
             },
             {
               "id": "harachaman_yt_en",
               "type": "commentary",
               "enText": "May Hashem, Who is compassionate, let us inherit that time (when Mashiach comes), which is all good.",
-              "condition": "yom_tov"
+              "condition": "yom_tov",
+              "optional": true
             },
             {
               "id": "harachaman_sukkos_rubric",
               "type": "rubric",
               "heText": "בְּסֻכּוֹת.",
               "enText": "On Sukkos:",
-              "condition": "sukkos"
+              "condition": "sukkos",
+              "optional": true
             },
             {
               "id": "harachaman_sukkos_he",
               "type": "prayer",
               "heText": "הָרַחֲמָן הוּא יָקִים לָנוּ אֶת סֻכַּת דָּוִד הַנּוֹפָלֶת:",
-              "condition": "sukkos"
+              "condition": "sukkos",
+              "optional": true
             },
             {
               "id": "harachaman_sukkos_en",
               "type": "commentary",
               "enText": "May Hashem, Who is compassionate, restore for us the fallen sukkah of David HaMelech.",
-              "condition": "sukkos"
+              "condition": "sukkos",
+              "optional": true
             },
             {
               "id": "harachaman_he_5",
