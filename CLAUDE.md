@@ -48,7 +48,7 @@ The critical, non-obvious rule: **each segment `type` renders only some of its f
 | `prayer` | `heText` only (Hebrew, RTL) | `enText` |
 | `commentary` / `insight` / `faq` | `enText` only (RichText markdown) | **`heText`** |
 | `section_intro` / `transition` | `enText`, centered | `heText` |
-| `rubric` | `heText` else `enText` — **plain text, NOT markdown** (`*` shows literally) | the other field |
+| `rubric` | `heText` plain text (`*` literal) in he/both; else `enText` via **RichText** (markdown + links) in en | the other field |
 | `header` | `heText` and/or `enText` | — |
 
 Header order and display verses are **per-PDF, never a blanket default**:
@@ -61,7 +61,7 @@ The full contract, conventions, and proofing workflow are in **`docs/CONTENT_GUI
 
 ## Content tooling & workflow
 
-- **Linter** (`scripts/lint_content.py`) encodes the table above. Errors (block commits): stranded `commentary.heText`, `*` in rubrics, unbalanced markdown, empty `prayer.heText`. Warnings are advisory (unbolded lemma, lemma-not-found-in-prayer garble detector, etc.).
+- **Linter** (`scripts/lint_content.py`) encodes the table above. Errors (block commits): stranded `commentary.heText`, `*` in rubric.heText, unbalanced markdown (incl. rubric `enText`), empty `prayer.heText`. Warnings are advisory (unbolded lemma, lemma-not-found-in-prayer garble detector, etc.).
 - **Pre-commit gate**: `scripts/hooks/pre-commit` runs the strict linter. Wired via `core.hooksPath` — **new clones must run `git config core.hooksPath scripts/hooks` once.** Bypass with `git commit --no-verify`.
 - **Edit JSON via deterministic Python scripts in `scripts/`**, not by hand — each asserts its target exists before editing, so a stale assumption fails loudly instead of corrupting text. Verify formatting changes by stripping markdown (`**`/`*`) and diffing against the current text so wording can't drift. The many `fix_*.py` scripts are the record of past section fixes; follow their pattern.
 - **Proactive per-section audit** before asking for human review: `python3 scripts/audit_prep.py <file.json> <prayer-id> <siddur-start> <siddur-end>` renders the print pages and dumps segments, then dispatch vision subagents to diff app-vs-print. **Vision agents are unreliable for two dimensions specifically — visual size (`display`) and header order — they both over- and under-report there.** Verify every display-flag and header-order call, plus all Hebrew-letter/word changes, **by hand at 300 DPI** on the TOC-located page. Treat agent output as a lead, not a verdict.

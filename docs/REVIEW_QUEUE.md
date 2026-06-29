@@ -204,3 +204,186 @@ absolute per-instance certainty, eyeball the rendered sections.
 - **Adir Bamarom** congregational response after i=165 — new liturgy, rav
   sign-off. pdftotext extraction fragments the nikud (אַדִּ יר), so it can't
   be added accurately without a clean digital source or rav-verified text.
+
+## Display residual — short Hebrew-lemma commentary clipping (audit 2026-06-25)
+
+A commentary/insight that **leads with a short Hebrew lemma** and whose total
+text is short (~1–2 lines) still clips on the right edge in the reader (e.g.
+Shesh Zechiros `commentary_shabbos`: "**שַׁבָּת**—…to remain spiritually strong
+during the week." renders "…to rem" off-screen). Long Hebrew-lemma commentaries
+(e.g. `מרים`, `מעשה עמלק`) and all pure-English commentaries wrap correctly.
+
+Root cause: RN/iOS measures a `<Text>` whose content begins with an RTL run at
+its intrinsic single-line width when the content is short, overflowing the
+container. **Four fixes tried and ruled out** (verified on device): concrete
+`itemRoot` width (ServiceScroll), `width:'100%'`+`alignSelf:'stretch'` on the
+commentary containers, concrete `maxWidth` on the text style, and a leading LRM
+(U+200E) prefix in RichText. None re-wrap the short RTL-leading line.
+
+NOTE: the user's originally-reported clipping (the pure-English Shloshah Asar
+Ikarim *principle* boxes) **is fixed** by the `itemRoot` concrete-width change —
+confirmed wrapping on device after a clean reload. Only the short-Hebrew-lemma
+case remains.
+
+→ Needs a deeper structural fix, e.g. render the leading lemma as its own
+element so the paragraph Text does not start with an RTL isolate, or replace the
+FlashList cell measurement path. Candidate, not yet attempted: split the lemma
+out of RichText's first span. Hold as its own focused task.
+
+## Missing liturgy needing a clean nikud source — full-siddur audit 2026-06-25
+
+These passages are printed in the siddur but ABSENT from the app, and the Hebrew
+exists nowhere in src/content/ to slice from. Retyping is forbidden (drops nikud)
+and the PDF text layer is corrupted (spurious intra-word spaces), so they need a
+trusted vocalized source (e.g. Sefaria) + rav sign-off before insertion.
+
+- **Hallel — Tehillim 116 (אָהַבְתִּי) and 117 (הַלְלוּ אֶת ה׳ כָּל גּוֹיִם), and 118:1
+  (הוֹדוּ … כִּי טוֹב).** The app jumps 115→118:2; verified against print pp.206–207.
+  Also the second "Omit the following on Rosh Chodesh…" rubric before 116. This is
+  a major Hallel gap — full chapters of liturgy missing.
+- **Sefiras HaOmer — days 45–49 (1–5 Sivan).** App now has days 1–44 (Day 44 was
+  added by fragment-assembly and hand-verified against print p.195). Days 45–49
+  need only the month name **סִיוָן** with nikud (the rest is composable from
+  existing day entries); that token is absent from the app. Verified print p.195.
+- **Birkas Ha'mazon — the Zimun** (weekday intro + Tehillim 137 על נהרות בבל + the
+  invitation), print pp.119–121; and the **Ve-al-hakol closing** of Birkas
+  Ha'aretz (וְעַל הַכֹּל … בָּרוּךְ אַתָּה ה׳, עַל הָאָרֶץ וְעַל הַמָּזוֹן), print p.124.
+- **Krias Shema al Ha'mitah — the ג״פ (×3) recitation rubric** Hebrew label to
+  precede ksm2-prayer-8/9/11, print p.225 (small, but needs correct nikud form).
+
+(English fixes, markdown, dedups, and reconcile items sliceable from existing app
+text were auto-applied in this audit — see scripts/fix_audit*.py.)
+
+  UPDATE 2026-06-26: 7th fix attempt (concrete `width` on the text instead of
+  maxWidth) also failed — short Hebrew-lemma commentary still clips when centered.
+  Confirmed intractable via style/layout props; needs a rendering-architecture
+  change (e.g. render leading lemma outside the paragraph, or replace FlashList
+  cell measurement). Left as documented residual.
+
+## PDF-extraction attempt results (2026-06-26) — partial
+
+Built a working extractor (`scripts/extract_pdf_hebrew.py`, needs PyMuPDF venv):
+filters to the prayer-text column and re-inserts word breaks from glyph geometry,
+removing the text layer's spurious intra-word spaces. Outcome is MIXED:
+
+- **Tehillim 117 — extracts PERFECTLY** (verified vs print p.207):
+  `הַלְלוּ אֶת יְהֹוָה כָּל גּוֹיִם, שַׁבְּחוּהוּ כָּל הָאֻמִּים: כִּי גָבַר עָלֵינוּ חַסְדּוֹ, וֶאֱמֶת יְהֹוָה לְעוֹלָם, הַלְלוּיָהּ:`
+  (Can't insert alone — Tehillim 116 must precede it.)
+- **Tehillim 116 — extractable but with sporadic per-line defects** (one line lost
+  all word-spaces, a line-break cut a word, RTL colon misplacement, block-order
+  jumbling across the 2 pages). Needs careful per-line assembly + image verify.
+- **Sefiras Omer 45–49 — count phrases extract clean** (e.g. `הַיּוֹם חֲמִשָּׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעֹמֶר:`) BUT the **month name סיון comes out bare/nikud-dropped** — the one genuinely-blocked token is STILL not cleanly recoverable. Also `בָּעֹמֶר` (chaser) vs the app's `בָּעוֹמֶר` (malei) — a normalization the rav must settle.
+
+CONCLUSION: PDF extraction partially works but cannot reliably produce all the
+missing nikud (Sivan, and 116's defect lines). A clean vocalized source (Sefaria)
+remains the safe path for the Hallel psalms, the Omer Sivan days, and the Zimun.
+Extractor + clean 117 text are preserved here for whoever completes it.
+
+## UPDATE 2026-06-26 — Hallel 116/117/118:1 INSERTED (PDF-extracted)
+
+Tehillim 116, 117, and 118:1 (הוֹדוּ) are now in hallel.json (after 115b) via
+scripts/fix_hallel_116_117_118.py — Hebrew PDF-extracted (PyMuPDF + geometry
+de-spacing, scripts/extract_pdf_hebrew.py), consonant-skeleton verified verse by
+verse. *** RAV MUST VERIFY NIKUD before shipping. *** Known open spots:
+116:9 אֶתְהַלֵךְ (Masoretic has dagesh: אֶתְהַלֵּךְ); 118 header now appears before
+הוֹדוּ while a second 118 sub-header (hallel2-118a-header) remains later in the
+section — confirm the 118 header structure. Focus-commentaries / per-verse glosses
+for 116 & 117 are NOT yet added (English enhancement, follow-up).
+
+STILL needing a clean source (PDF extraction insufficient): Omer 45-49 (Sivan
+month nikud), Birkas Hamazon Zimun (Tehillim 137) + Ve-al-hakol closing, ג״פ rubric.
+
+## UPDATE 2026-06-26 (2) — ALL missing-liturgy gaps now INSERTED (PDF-extracted)
+
+Every source-needed passage has been extracted from the print PDF (pipeline:
+scripts/extract_pdf_hebrew.py) and inserted, consonant-skeleton verified. *** ALL
+require rav nikud verification before shipping. *** Scripts:
+- Hallel Tehillim 116, 117, 118:1 — scripts/fix_hallel_116_117_118.py
+- Sefiras Omer days 45-49 — scripts/fix_omer_45_49.py (Sivan inserted UNVOCALIZED — rav to add nikud)
+- Birkas HaMazon Zimun (Tehillim 137 + call-response invitation) — scripts/fix_zimun.py
+- Birkas HaMazon Ve-al-hakol closing — scripts/fix_velahakol_and_gimelpe.py
+- Krias Shema al Ha'mitah ג״פ rubrics (verses 8-11) — scripts/fix_velahakol_and_gimelpe.py
+
+RAV-VERIFY checklist (known/likely nikud spots):
+- Hallel 116:9 אֶתְהַלֵךְ (Masoretic אֶתְהַלֵּךְ)
+- Omer 45-49 month name סיון (bare — standard סִיוָן)
+- Zimun role labels (הַמְזַמֵּן אוֹמֵר etc.) and the בעשרה inline conditional; nikud throughout Tehillim 137
+
+REMAINING (enhancements / not blocking liturgy):
+- Focus-commentaries + per-verse glosses (English) for Hallel 116 & 117
+- Zimun Shabbos alternative (Tehillim 126) — not yet added
+- 118 header structure (a second 118 sub-header remains mid-section)
+- DISPLAY residual: short Hebrew-lemma commentary clip (7 fixes failed; needs renderer-architecture change)
+
+## DISPLAY RESIDUAL — FINAL determination (2026-06-26)
+9 distinct fixes attempted & ruled out on device for the short-Hebrew-lemma commentary
+clip: (1) itemRoot concrete width, (2) container width:'100%'+alignSelf:stretch,
+(3) text maxWidth, (4) text concrete width, (5) container concrete width, (6) LRM
+(U+200E) prefix, (7) remove writingDirection:'ltr', (8) alignSelf:flex-start,
+(9) remove the RLI/PDI directional isolate. The Text renders at its intrinsic
+single-line width and overflows its (correctly-sized) container regardless — an
+RN/iOS Text-layout limitation for short content beginning with an RTL run.
+A React-level cure requires either a native measurement fix / RN upgrade, or a
+flex-wrapped word-layout rewrite of RichText (which would break inline bidi ordering
+for multi-word inline Hebrew — a regression across the whole siddur). NOT fixable by
+a safe, parsimonious agent edit. Scoped as a dedicated renderer task.
+
+## DISPLAY RESIDUAL — RESOLVED via workaround (2026-06-26 final)
+commentary_shabbos (the one confirmed render-clip) now displays fully: applied explicit
+display line-breaks (~30 chars/line, robust across font steps -2…+4) via
+scripts/fix_shabbos_display_breaks.py — word content identical to print, breaks only.
+Verified on-device: all 6 lines visible, no clip. Display verifiers found no other real
+clips across 133 screens (all 14 services). Check 7 now passes for all 60 prayers.
+→ CLEANUP TASK (not blocking): when the underlying RN/iOS FlashList Text-measurement bug is
+  fixed natively, REMOVE the manual breaks from commentary_shabbos so it reflows naturally.
+
+## REMAINING STANDING ITEM: rav sign-off (universal policy)
+Not an audit discrepancy — the project ships no liturgical text without rav sign-off. The
+PDF-extracted insertions (Hallel 116/117/118:1, Omer 45-49, Zimun/Tehillim 137, Ve-al-hakol)
+are consonant-verified vs the print + nikud spot-checked; specific nikud spots for the rav's
+confirmation are listed above (e.g. Hallel 116:9 dagesh, Omer month-name vocalization).
+
+## DISPLAY RESIDUAL — RESOLVED & root cause corrected (2026-06-26 final)
+The commentary_shabbos "clip" was NOT a persistent content/renderer bug — it was a FlashList
+measurement-SETTLE delay: every "clip" screenshot this session was taken ~1s after a swipe,
+catching the cell mid-measurement. With the NATURAL text (no manual breaks) and a proper
+settle (~5s, no swipe immediately before capture), the box wraps EDGE-TO-EDGE correctly,
+identical to the other EXPLANATION boxes (verified on-device). The earlier manual-line-break
+workaround was the WRONG fix (made it wrap early / inconsistent) and has been REVERTED to the
+natural print-faithful sentence. NO renderer change or content workaround is needed.
+(Minor: a fast scroller may briefly see the transient mid-measure state before it settles —
+standard FlashList behavior, self-correcting, not a content defect.)
+
+## Mid-scroll Hebrew word-break artifact — FIXED siddur-wide (2026-06-26)
+User reported a prayer line rendering with an orphaned final letter (e.g. modeh_ani_3:
+"…אֱלֹהֵיכֶם" briefly showing "ם," alone on the next line). Audited ALL shacharit Hebrew DATA:
+clean — no hidden/directional chars, no genuine word-splits, no internal-space defects (the
+only scan hits were legitimate masoretic maqaf in Barchi Nafshi + intentional rubric/bullet
+spacing). Root cause was a transient FlashList async-measurement state during scroll (the same
+class as the earlier commentary_shabbos "clip"). FIX: set drawDistance={1000} on the
+ServiceScroll FlashList so cells finish measuring/settle off-screen before they scroll into
+view. Verified: the reported line now renders correctly even on a quick scroll-capture.
+This supersedes/closes the commentary_shabbos render-clip too (natural text + drawDistance).
+
+## Code-review deferred items (2026-06-29, ce-code-review after /simplify)
+The /simplify refactor reviewed clean. Two P0 contract-sync gaps were FIXED this pass (rubric
+`enText` renders via RichText — CLAUDE.md + CONTENT_GUIDE.md + lint_content.py now document/enforce
+it; the `prayer:`/`section:`/`Appendix N:M` link schemes are documented in CONTENT_GUIDE convention 8).
+Also applied: typed-href in RichText (dropped `as never`), an `initialPrayer` re-fire guard, the
+`useImperativeHandle([items])` dep, and an a11y label on the selection ✕. Three items DEFERRED — all
+pre-existing, none blocking:
+
+1. **Deep-link / ToC scroll readiness (P1).** `app/daven/[service].tsx` still uses a fixed 350ms
+   `setTimeout` before `scrollToPrayer`; it races FlashList initial layout on slow/cold loads and can
+   silently no-op (FlashList 2.x `scrollToIndex` has no FlatList-style failure callback to bolt on
+   safely). Proper fix: expose an `onLoad`/ready signal from `ServiceScroll` and gate the scroll on it
+   instead of a magic delay. `drawDistance={1000}` already mitigates in practice.
+2. **Same-service `prayer:` link stacks a duplicate screen (P2).** `RichText` `prayer:` links always
+   `router.push`, so a link whose target service == the current screen pushes a second reader instance
+   instead of scrolling in place. Fix needs a `scrollToPrayer` handle threaded to RichText (context or
+   prop): same-service → scroll; cross-service → push.
+3. **No unit tests for pure render-logic (P1).** `flattenService` pos classification (solo/start/mid/end),
+   the `prayer:` link regex in `renderLeaf`, and the bilingual-rubric display-mode branch are untested.
+   Blocked on harness setup: these live inside components, and importing them pulls FlashList/expo-router;
+   `CONTENT_WIDTH` also resolves to -32 under Jest's node env. Cleanest path is to extract the pure helpers
+   (flattenService, renderLeaf parsing) into standalone modules, then unit-test those.

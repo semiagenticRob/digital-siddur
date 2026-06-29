@@ -250,7 +250,7 @@
             {
               "id": "mv1-s047",
               "type": "insight",
-              "enText": "In the Torah, the pasuk of the Shema has the letter ע and ד (which spell עֵד) enlarged. The very miracle of our survival—that after all these years Jews all over the world are united in their proclamation of the Shema—is itself witness to the truth of the Torah!"
+              "enText": "In the Torah, the pasuk of the Shema has the letters ע and ד (which spell עֵד) enlarged. The very miracle of our survival—that after all these years Jews all over the world are united in their proclamation of the Shema—is itself witness to the truth of the Torah!"
             },
             {
               "id": "mv1-s048",
@@ -341,7 +341,7 @@
             {
               "id": "mv1-s065",
               "type": "commentary",
-              "enText": "**מִי כָמֹכָה בָּאֵלִם יְהֹוָה**—Among all the powers *(powers of nature, powers of humans)*, who is equal to You, Hashem? **נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא**—Who is like You, powerful but with purity of purpose? Our songs praising You instill in us awe of Your wondrous deeds, which are all beyond our comprehension."
+              "enText": "**מִי כָמֹכָה בָּאֵלִם יְהֹוָה**—Among all the powers *(powers of nature, powers of humans)*, who is equal to You, Hashem? **מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶש**—Who is like You, powerful but with purity of purpose? **נוֹרָא תְהִלֹּת עֹשֵׂה פֶלֶא**—Our songs praising You instill in us awe of Your wondrous deeds, which are all beyond our comprehension."
             },
             {
               "id": "mv1-s066",
@@ -542,7 +542,7 @@
             {
               "id": "mv2-avos-zochreinu-comm",
               "type": "commentary",
-              "enText": "**מֶלֶךְ חָפֵץ בַּחַיִּים**—Please, Hashem, remember us for life; **מֶלֶךְ חָפֵץ בַּחַיִּים**—for You are our King Who desires life; **וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים**—and write us in the book of life; **לְמַעַנְךָ אֱלֹהִים חַיִּים**—so that we may be able to continue to serve You and live up to our potential.",
+              "enText": "**זָכְרֵנוּ לְחַיִּים מֶלֶךְ חָפֵץ**—Please, Hashem, remember us for life; **מֶלֶךְ חָפֵץ בַּחַיִּים**—for You are our King Who desires life; **וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים**—and write us in the book of life; **לְמַעַנְךָ אֱלֹהִים חַיִּים**—so that we may be able to continue to serve You and live up to our potential.",
               "condition": "Aseres Yemei Teshuvah"
             },
             {
@@ -745,7 +745,7 @@
             {
               "id": "mv2-teshuvah-comm",
               "type": "commentary",
-              "enText": "**הֲשִׁיבֵנוּ אָבִינוּ לְתוֹרָתֶךָ**—Hashem, our Father, please lead us back to Your Torah; our King, please show us how to be able to serve You, and help us return to You with sincere and complete teshuvah. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָרוֹצֶה בִּתְשׁוּבָה**—Who wants us to do (*real and sincere*) teshuvah."
+              "enText": "**הֲשִׁיבֵנוּ אָבִינוּ לְתוֹרָתֶךָ**—Hashem, our Father, please lead us back to Your Torah; our King, please draw us close to be able to serve You, and help us return to You with sincere and complete teshuvah. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָרוֹצֶה בִּתְשׁוּבָה**—Who wants us to do (*real and sincere*) teshuvah."
             },
             {
               "id": "mv3-h-selicha",
@@ -917,11 +917,6 @@
               "enText": "**וְלִירוּשָׁלַיִם עִירְךָ בְּרַחֲמִים תָּשׁוּב**—Hashem, even if we are not deserving, please return to Your city of Yerushalayim; and let Your Presence be felt there as You have promised; and rebuild it *(the city and the Beis Hamikdash)* soon, in our days, as an everlasting structure; and please *(speedily)* reestablish within it the throne of David HaMelech. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **בּוֹנֵה יְרוּשָׁלַיִם**—Who builds Yerushalayim *(present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim)*."
             },
             {
-              "id": "mv3-i-yerushalayim",
-              "type": "insight",
-              "enText": "Why do we say \"listen to our voice\" (שְׁמַע קוֹלֵנוּ)? Shouldn't we ask Hashem to listen to the words we say? What we are asking Hashem is: \"I may not be so articulate and may not know how to say what I really feel. But I hope You can tell from the sound of my voice that I am doing the best I can to communicate with You!\""
-            },
-            {
               "id": "mv3-h-malchus-beis-david",
               "type": "header",
               "heText": "מַלְכוּת בֵּית דָּוִד",
@@ -935,7 +930,7 @@
             {
               "id": "mv3-c-malchus-beis-david",
               "type": "commentary",
-              "enText": "**אֶת צֶמַח דָּוִד עַבְדְּךָ מְהֵרָה תַצְמִיחַ**—May Mashiach speedily appear; and may his power and glory be recognized by all thanks to Your salvation, for we await and hope for Your salvation all day and every day. **בָּרוּךְ אַתָּה**—You, Hashem, are the Source of everything; **מַצְמִיחַ קֶרֶן יְשׁוּעָה**—Who makes the power and glory of our salvation appear *(present tense—just like the previous brachah)*."
+              "enText": "**אֶת צֶמַח דָּוִד עַבְדְּךָ מְהֵרָה תַצְמִיחַ**—May Mashiach speedily appear; and may his power and glory be recognized by all thanks to Your salvation, for we await and hope for Your salvation all day and every day. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מַצְמִיחַ קֶרֶן יְשׁוּעָה**—Who makes the power and glory of our salvation appear *(present tense—just like the previous brachah)*."
             },
             {
               "id": "mv3-h-shema-koleinu",
@@ -952,6 +947,11 @@
               "id": "mv3-c-shema-koleinu",
               "type": "commentary",
               "enText": "**שְׁמַע קוֹלֵנוּ**—You, Hashem, Who controls everything, please listen to our voice, spare us, and have compassion on us; and accept our tefillos with mercy *(if we are not really deserving)*; and with favor *(if we are deserving)*; for You, Hashem, listen to tefillos and pleadings; **וּמִלְּפָנֶיךָ מַלְכֵּנוּ רֵיקָם אַל תְּשִׁיבֵנוּ**—Do not turn us away empty-handed from You, our King!"
+            },
+            {
+              "id": "mv3-i-yerushalayim",
+              "type": "insight",
+              "enText": "Why do we say \"listen to our voice\" (שְׁמַע קוֹלֵנוּ)? Shouldn't we ask Hashem to listen to the words we say? What we are asking Hashem is: \"I may not be so articulate and may not know how to say what I really feel. But I hope You can tell from the sound of my voice that I am doing the best I can to communicate with You!\""
             },
             {
               "id": "mv3-i-shema-koleinu",
@@ -981,14 +981,14 @@
               "enText": "*One may add here any personal requests in the space of שׁוֹמֵעַ תְּפִלָּה.* Hashem... [personal supplication for forgiveness of sins from the day one was born until today, especially a particular sin, asking Hashem to act for the sake of His great Name and suppress one's sins, and to fill all the Names that were blemished through one's sins.]"
             },
             {
-              "id": "mv3-c-shomea-tefillah-close",
-              "type": "commentary",
-              "enText": "**כִּי אַתָּה שׁוֹמֵעַ תְּפִלַּת עַמְּךָ יִשְׂרָאֵל בְּרַחֲמִים**—For You, Hashem, listen with compassion to the tefillos of Your nation Bnei Yisrael *(including me!)*. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **שׁוֹמֵעַ תְּפִלָּה**—Who listens to tefillah."
-            },
-            {
               "id": "mv3-p-shomea-tefillah-close",
               "type": "prayer",
               "heText": "כִּי אַתָּה שׁוֹמֵעַ תְּפִלַּת עַמְּךָ יִשְׂרָאֵל בְּרַחֲמִים: בָּרוּךְ אַתָּה יְהֹוָה, שׁוֹמֵעַ תְּפִלָּה:"
+            },
+            {
+              "id": "mv3-c-shomea-tefillah-close",
+              "type": "commentary",
+              "enText": "**כִּי אַתָּה שׁוֹמֵעַ תְּפִלַּת עַמְּךָ יִשְׂרָאֵל בְּרַחֲמִים**—For You, Hashem, listen with compassion to the tefillos of Your nation Bnei Yisrael *(including me!)*. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **שׁוֹמֵעַ תְּפִלָּה**—Who listens to tefillah."
             },
             {
               "id": "mv3-h-section3-thanks",
@@ -1458,6 +1458,58 @@
               "id": "mv4-seg-074",
               "type": "commentary",
               "enText": "**עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו**—May He who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely, we agree!"
+            }
+          ]
+        },
+        {
+          "id": "p-ldovid-maariv",
+          "heTitle": "לְדָוִד ה' אוֹרִי",
+          "enTitle": "L'Dovid Hashem Ori",
+          "segments": [
+            {
+              "id": "mv5-ldovid-rubric",
+              "type": "rubric",
+              "heText": "תהילים כז",
+              "enText": "From Rosh Chodesh Elul through Hoshana Rabbah add:",
+              "optional": true,
+              "cond": "From Rosh Chodesh Elul through Hoshana Rabbah"
+            },
+            {
+              "id": "mv5-ldovid-header",
+              "type": "header",
+              "heText": "לְדָוִד ה' אוֹרִי",
+              "enText": "Just Ask Hashem for Help in Your Teshuva Process—His Light Is There If You Look for It!",
+              "optional": true
+            },
+            {
+              "id": "mv5-ldovid-comm-1",
+              "type": "commentary",
+              "enText": "**לְדָוִד יְהוָה אוֹרִי וְיִשְׁעִי**—Hashem is always there for me, He is my guiding light and my Source of strength! Therefore, I have nothing to fear in life, not human enemies and physical war, nor spiritual battles and the yetzer hara, because שְׁאֵלְתִּי מֵאֵת יְהוָה אוֹתָהּ אֲבַקֵּשׁ (though I have asked Hashem for all sorts of things that I feel I need, in truth) I have one overall goal for my life: **שִׁבְתִּי בְּבֵית יְהוָה כָּל יְמֵי חַיַּי**—**לַחֲזוֹת בְּנֹעַם יְהוָה וּלְבַקֵּר בְּהֵיכָלוֹ**—that \"my house,\" meaning, all that I do and how I run my life, should be based on the values of Torah, thus making \"my house\" a house of Hashem. (Since I have total free will over my moral choices, no enemy can rob me of my ability to create a Torah life, no matter what my circumstances are! Therefore, by trusting in Hashem and following His light) I am safe and will always be able to rise above my physical and spiritual enemies.",
+              "optional": true
+            },
+            {
+              "id": "mv5-ldovid-comm-2",
+              "type": "commentary",
+              "enText": "**אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי**—Please, Hashem, do not hide Your Presence and light from me! **הוֹרֵנִי יְהוָה דַּרְכֶּךָ**—Show me the right path and help me make the correct decisions.",
+              "optional": true
+            },
+            {
+              "id": "mv5-ldovid-comm-3",
+              "type": "commentary",
+              "enText": "(Proclaims David HaMelech:) \"Put your trust in Hashem; (and) חֲזַק וְיַאֲמֵץ לִבֶּךָ that itself will give you the courage and strength to persevere! (And if Hashem has not yet given you what you asked for;) **וְקַוֵּה אֶל יְהוָה**—continue to place your trust in Hashem (for all that He does is for your best).\"",
+              "optional": true
+            },
+            {
+              "id": "mv5-ldovid-prayer",
+              "type": "prayer",
+              "heText": "לְדָוִד, יְהוָה אוֹרִי וְיִשְׁעִי מִמִּי אִירָא, יְהוָה מָעוֹז חַיַּי מִמִּי אֶפְחָד: בִּקְרֹב עָלַי מְרֵעִים לֶאֱכֹל אֶת בְּשָׂרִי, צָרַי וְאֹיְבַי לִי, הֵמָּה כָשְׁלוּ וְנָפָלוּ: אִם תַּחֲנֶה עָלַי מַחֲנֶה לֹא יִירָא לִבִּי, אִם תָּקוּם עָלַי מִלְחָמָה בְּזֹאת אֲנִי בוֹטֵחַ: אַחַת שָׁאַלְתִּי מֵאֵת יְהוָה אוֹתָהּ אֲבַקֵּשׁ, שִׁבְתִּי בְּבֵית יְהוָה כָּל יְמֵי חַיַּי, לַחֲזוֹת בְּנֹעַם יְהוָה וּלְבַקֵּר בְּהֵיכָלוֹ: כִּי יִצְפְּנֵנִי בְּסֻכֹּה בְּיוֹם רָעָה, יַסְתִּרֵנִי בְּסֵתֶר אָהֳלוֹ, בְּצוּר יְרוֹמְמֵנִי: וְעַתָּה יָרוּם רֹאשִׁי עַל אֹיְבַי סְבִיבוֹתַי, וְאֶזְבְּחָה בְאָהֳלוֹ זִבְחֵי תְרוּעָה, אָשִׁירָה וַאֲזַמְּרָה לַיהוָה: שְׁמַע יְהוָה קוֹלִי אֶקְרָא, וְחָנֵּנִי וַעֲנֵנִי: לְךָ אָמַר לִבִּי בַּקְּשׁוּ פָנָי, אֶת פָּנֶיךָ יְהוָה אֲבַקֵּשׁ: אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי, אַל תַּט בְּאַף עַבְדֶּךָ, עֶזְרָתִי הָיִיתָ, אַל תִּטְּשֵׁנִי וְאַל תַּעַזְבֵנִי אֱלֹהֵי יִשְׁעִי: כִּי אָבִי וְאִמִּי עֲזָבוּנִי, וַיהוָה יַאַסְפֵנִי: הוֹרֵנִי יְהוָה דַּרְכֶּךָ, וּנְחֵנִי בְּאֹרַח מִישׁוֹר לְמַעַן שׁוֹרְרָי: אַל תִּתְּנֵנִי בְּנֶפֶשׁ צָרָי, כִּי קָמוּ בִי עֵדֵי שֶׁקֶר וִיפֵחַ חָמָס: לוּלֵא הֶאֱמַנְתִּי לִרְאוֹת בְּטוּב יְהוָה בְּאֶרֶץ חַיִּים: קַוֵּה אֶל יְהוָה, חֲזַק וְיַאֲמֵץ לִבֶּךָ, וְקַוֵּה אֶל יְהוָה:",
+              "optional": true
+            },
+            {
+              "id": "mv5-ldovid-kaddish",
+              "type": "rubric",
+              "heText": "קדיש יתום",
+              "optional": true
             }
           ]
         }

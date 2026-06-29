@@ -293,6 +293,12 @@
       "title": "The Positive Power of Making Mistakes",
       "segments": [
         {
+          "id": "a3-header-0",
+          "type": "header",
+          "heText": "",
+          "enText": "APPENDIX 3"
+        },
+        {
           "id": "a3-header-1",
           "type": "header",
           "enText": "THE POSITIVE POWER OF MAKING MISTAKES"
@@ -319,9 +325,9 @@
         },
         {
           "id": "a3-prayer-1",
-          "type": "prayer",
-          "enText": "*Thank You, Hashem, for giving my neshamah back to me* (which was a merciful thing to do, since I have not yet lived up to my full potential, and therefore may not really deserve that); *Your belief in me is very great!* (You believe I am important; my struggles are important; and You believe I can climb up to the next rung—that is why You woke me up. Thank You!)",
-          "heText": "מודה אני … רבה אמונתך"
+          "type": "commentary",
+          "enText": "**מודה אני**—*Thank You, Hashem, for giving my neshamah back to me* (which was a merciful thing to do, since I have not yet lived up to my full potential, and therefore may not really deserve that); **רבה אמונתך**—*Your belief in me is very great!* (You believe I am important; my struggles are important; and You believe I can climb up to the next rung—that is why You woke me up. Thank You!)",
+          "heText": ""
         },
         {
           "id": "a3-commentary-5",
@@ -360,6 +366,11 @@
       "title": "Am Segulah/Am Nivchar — the Chosen People",
       "segments": [
         {
+          "id": "a4-header-appendix",
+          "type": "header",
+          "enText": "Appendix 4"
+        },
+        {
           "id": "a4-header",
           "type": "header",
           "enText": "AM SEGULAH/AM NIVCHAR—THE CHOSEN PEOPLE"
@@ -377,7 +388,7 @@
         {
           "id": "a4-p1",
           "type": "commentary",
-          "enText": "Simply put, the fact that Hashem took us out of Egypt, and three million people all heard Him speak at Har Sinai—choosing us as His nation and giving us His Torah and a mission to the world—that is a historical reality! And just like you had no choice as to your complexion, height, or parents, you had no choice whether to be born as part of Klal Yisrael or not. You get what you get—deal with it!"
+          "enText": "Simply put, the fact that Hashem took us out of Egypt, and three million Jews all heard Him speak at Har Sinai—choosing us as His nation and giving us His Torah and a mission to the world—that is a historical reality! And just like you had no choice as to your complexion, height, or parents, you had no choice whether to be born as part of Klal Yisrael or not. You get what you get—deal with it!"
         },
         {
           "id": "a4-p2",
@@ -467,6 +478,11 @@
       "title": "Siyata D'Shmaya — Asking for Divine Assistance",
       "segments": [
         {
+          "id": "a6-header-appendix",
+          "type": "header",
+          "enText": "Appendix 6"
+        },
+        {
           "id": "a6-header",
           "type": "header",
           "enText": "Siyata D'Shmaya — Asking for Divine Assistance"
@@ -492,6 +508,11 @@
       "number": 7,
       "title": "All Hashem Does Is Good",
       "segments": [
+        {
+          "id": "a7-header-appendix",
+          "type": "header",
+          "enText": "Appendix 7"
+        },
         {
           "id": "a7-header",
           "type": "header",
@@ -519,9 +540,14 @@
       "title": "Our Material World",
       "segments": [
         {
+          "id": "a8-header-appendix",
+          "type": "header",
+          "enText": "Appendix 8"
+        },
+        {
           "id": "a8-header",
           "type": "header",
-          "enText": "Appendix 8: Our Material World"
+          "enText": "Our Material World"
         },
         {
           "id": "a8-faq-1",
@@ -536,7 +562,7 @@
         {
           "id": "a8-p1",
           "type": "commentary",
-          "enText": "In the fifth chapter of *Shemoneh Perakim*, the *Rambam* describes the ideal approach a person should take to running their lives, based on the Mishnah: \"*V'chol maasecha yiheyu l'shem Shamayim*—Everything you do or say, everything we buy, and how we spend every minute of the day should all be based on what will maximize our *avodas Hashem*. In theory, why would we want something that will not help us in serving Hashem and help us in fulfilling our mission? What purpose would it serve? But the *Rambam* himself says that this is a very high level of running one's life, which is reached only by a select few and only after many years of work. But it is important to understand the concept and to have something to aim for."
+          "enText": "In the fifth chapter of *Shemoneh Perakim*, the *Rambam* describes the ideal approach a person should take to running their lives, based on the Mishnah: \"*V'chol maasecha yiheyu l'shem Shamayim*—Everything you do should be for the sake of Heaven. In theory, why would we want something that will not help us in serving Hashem and help us in fulfilling our mission? What purpose would it serve? But the *Rambam* himself says that this is a very high level of running one's life, which is reached only by a select few and only after many years of work. But it is important to understand the concept and to have something to aim for."
         },
         {
           "id": "a8-p2",
@@ -779,7 +805,7 @@
         {
           "id": "a12-c3",
           "type": "commentary",
-          "enText": "If you made a mistake and said הקדוש הא-ל, then it depends: If you remembered immediately (the time it takes to say the phrase “שלום עליך רבי”), then quickly correct yourself and say המלך הקדוש. But if more time has passed, you must start your *Shemoneh Esrei* over again from the beginning. If you are not sure what you said, we assume you said what is normally said during the year, and thus you must go back and start *Shemoneh Esrei* over again."
+          "enText": "If you made a mistake and said הא-ל הקדוש, then it depends: If you remembered immediately (the time it takes to say the phrase “שלום עליך רבי”), then quickly correct yourself and say המלך הקדוש. But if more time has passed, you must start your *Shemoneh Esrei* over again from the beginning. If you are not sure what you said, we assume you said what is normally said during the year, and thus you must go back and start *Shemoneh Esrei* over again."
         },
         {
           "id": "a12-rubric-4",
@@ -833,7 +859,7 @@
           "id": "a12-rubric-7",
           "type": "rubric",
           "enText": "12:4",
-          "heText": "וְתֵן טַל וּמָטָר/\nAוְתֵן טַל וּמָטָר\nAלִבְרָכָה"
+          "heText": "וְתֵן בְּרָכָה/\nAוְתֵן טַל וּמָטָר\nAלִבְרָכָה"
         },
         {
           "id": "a12-c10",
@@ -843,7 +869,7 @@
         {
           "id": "a12-c11",
           "type": "commentary",
-          "enText": "**In the summer:** If you said ומטר instead of טל ברכה, you must go back to ברך עלינו. If you have already finished *Shemoneh Esrei* (by saying the words יהיו לרצון אמרי פי), you must start *Shemoneh Esrei* over again."
+          "enText": "**In the summer:** If you said ותן טל ומטר instead of ותן ברכה, you must go back to ברך עלינו. If you have already finished *Shemoneh Esrei* (by saying the words יהיו לרצון אמרי פי), you must start *Shemoneh Esrei* over again."
         },
         {
           "id": "a12-c12",
@@ -942,15 +968,15 @@
           "enText": "**On Chol Hamoed**: If you forgot to say יעלה ויבא, you do not need to go back."
         },
         {
+          "id": "a12-c24",
+          "type": "commentary",
+          "enText": "If you are not sure if you said יעלה ויבא, then we assume you did not!"
+        },
+        {
           "id": "a12-rubric-14",
           "type": "rubric",
           "enText": "12:9",
           "heText": "When תַּחֲנוּן is omitted"
-        },
-        {
-          "id": "a12-c24",
-          "type": "commentary",
-          "enText": "If you are not sure if you said יעלה ויבא, then we assume you did not!"
         },
         {
           "id": "a12-c25",

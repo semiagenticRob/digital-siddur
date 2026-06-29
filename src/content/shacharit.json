@@ -84,7 +84,7 @@
             {
               "id": "asher-yatzar-bracha",
               "type": "prayer",
-              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר יָצַר אֶת הָאָדָם בְּחָכְמָה, וּבָרָא בוֹ נְקָבִים נְקָבִים, חֲלוּלִים חֲלוּלִים. גָּלוּי וְיָדוּעַ לִפְנֵי כִסֵּא כְבוֹדֶךָ, שֶׁאִם יִפָּתֵחַ אֶחָד מֵהֶם אוֹ יִסָּתֵם אֶחָד מֵהֶם, אִי אֶפְשַׁר לְהִתְקַיֵּם וְלַעֲמוֹד לְפָנֶיךָ [אֲפִלּוּ שָׁעָה אֶחָת]. בָּרוּךְ אַתָּה יְהֹוָה, רוֹפֵא כָל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת:"
+              "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר יָצַר אֶת הָאָדָם בְּחָכְמָה, וּבָרָא בוֹ נְקָבִים נְקָבִים, חֲלוּלִים חֲלוּלִים. גָּלוּי וְיָדוּעַ לִפְנֵי כִסֵּא כְבוֹדֶךָ, שֶׁאִם יִפָּתֵחַ אֶחָד מֵהֶם אוֹ יִסָּתֵם אֶחָד מֵהֶם, אִי אֶפְשַׁר לְהִתְקַיֵּים וְלַעֲמוֹד לְפָנֶיךָ [אֲפִילּוּ שָׁעָה אֶחָת]. בָּרוּךְ אַתָּה יְהֹוָה, רוֹפֵא כָל בָּשָׂר וּמַפְלִיא לַעֲשׂוֹת:"
             },
             {
               "id": "asher-yatzar-commentary",
@@ -183,7 +183,7 @@
             {
               "id": "insight-bedrock-emunah",
               "type": "insight",
-              "enText": "As much as we all wish that our daily experience of Torah and mitzvos be uplifting, meaningful, and exciting, the truth is that for many of us, at times in our lives it is not. But the bedrock of our emunah is that Hashem spoke at Har Sinai and chose us for a mission (which is borne out by our miraculous existence until today—to the consternation of much of the rest of the world!), and therefore, simply put, we must get with the program! That is the first brachah of **לעסוק**—you just have to do it to the best of your ability. You have questions? Fine. It will take a lifetime to ask all the questions and get answers, but until that happens, we must start with **לעסוק**—get involved with the Torah, get with the program, and do the best we can. As said earlier: **שׁעֵרֵי**—A good understanding of Torah is given—**לכל עושיהם**—to those who practice it. Despite this need to \"do it\" no matter what, since we all know deep down that there must be \"A Plan\" and that there is depth to Torah that we simply don't understand yet, we then ask Hashem—**וְהַעֲרֵב נָא**—please, make it sweet and understandable. Why? First of all, it is easier to \"take vitamins and medicine\" (it is Torah that keeps us spiritually healthy) that are sweet. But in addition, when we say **וְהַעֲרֵב נָא וְנִהְיֶה אֲנַחְנוּ וְצֶאֱצָאֵינוּ**—it will be easier for us to hand it down to OUR kids if we and they enjoy it! When we end the series of three brachos by proclaiming that as much as we do or don't understand—**כִּי מֵאִתְּךָ** —we thank Hashem בָּחַר בָּנוּ for choosing us for His great mission to the world."
+              "enText": "As much as we all wish that our daily experience of Torah and mitzvos be uplifting, meaningful, and exciting, the truth is that for many of us, at times in our lives it is not. But the bedrock of our emunah is that Hashem spoke at Har Sinai and chose us for a mission (which is borne out by our miraculous existence until today—to the consternation of much of the rest of the world!), and therefore, simply put, we must get with the program! That is the first brachah of **לעסוק**—you just have to do it to the best of your ability. You have questions? Fine. It will take a lifetime to ask all the questions and get answers, but until that happens, we must start with **לעסוק**—get involved with the Torah, get with the program, and do the best we can. As said earlier: **שֵׂכֶל**—A good understanding of Torah is given—**לכל עושיהם**—to those who practice it. Despite this need to \"do it\" no matter what, since we all know deep down that there must be \"A Plan\" and that there is depth to Torah that we simply don't understand yet, we then ask Hashem—**וְהַעֲרֵב נָא**—please, make it sweet and understandable. Why? First of all, it is easier to \"take vitamins and medicine\" (it is Torah that keeps us spiritually healthy) that are sweet. But in addition, when we say **וְהַעֲרֵב נָא וְנִהְיֶה אֲנַחְנוּ וְצֶאֱצָאֵינוּ**—it will be easier for us to hand it down to OUR kids if we and they enjoy it! When we end the series of three brachos by proclaiming that as much as we do or don't understand—**כִּי מֵאִתְּךָ** —we thank Hashem בָּחַר בָּנוּ for choosing us for His great mission to the world."
             },
             {
               "id": "header-learn-some-torah",
@@ -274,8 +274,7 @@
             {
               "id": "vihi_noam",
               "type": "prayer",
-              "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:",
-              "optional": true
+              "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:"
             },
             {
               "id": "rubric_before",
@@ -620,7 +619,7 @@
             {
               "id": "bracha-matir-asurim-commentary",
               "type": "commentary",
-              "enText": "**מַתִּיר אֲסוּרִים**—Thank You, for You free those imprisoned ((1) imprisoned in our bodies while sleeping, with no control over our actions and thoughts—by waking us up we now have the ability to move about and make choices—thank You; (2) imprisoned in physical prisons; or (3) imprisoned in the \"prisons\" we create for ourselves by our own insecurities)."
+              "enText": "**מַתִּיר אֲסוּרִים**—Thank You, for You free those imprisoned ((1) imprisoned in our bodies while sleeping, with no control over our actions and thoughts—by You waking us up we now have the ability to move about and make choices—thank You; (2) imprisoned in physical prisons; or (3) imprisoned in the \"prisons\" we create for ourselves by our own insecurities)."
             },
             {
               "id": "bracha-zokef-kefufim",
@@ -753,7 +752,7 @@
             {
               "id": "bh2-comm-yehiratzon-lamakom",
               "type": "commentary",
-              "enText": "**וִיהִי רָצוֹן מִלְּפָנֶיךָ** — May it be Your will, Hashem — Who controls everything and has taken care of Bnei Yisrael throughout history — that You make Torah study something comfortable and familiar to us; and make us feel a closeness and attachment to Your mitzvos. Do not bring us into situations and challenges that could lead us to sin or to be disappointed with ourselves; and do not allow the yetzer hara to get the better of us. Keep us far away from evil people and bad friends; and help us attach ourselves to our yetzer tov and to good friends. **וְכֹף אֶת יִצְרֵנוּ** — Compel our creative powers to be used to serve You. And may we always find favor in Your eyes, and in the eyes of everyone we meet. And do for us good acts of kindness. **הַגּוֹמֵל** — You, Hashem, are the Source of everything; **בָּרוּךְ אַתָּה יהוה** — **חֲסָדִים טוֹבִים לְעַמּוֹ יִשְׂרָאֵל** — Who does good acts of kindness to His nation, Bnei Yisrael."
+              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ** — May it be Your will, Hashem — Who controls everything and has taken care of Bnei Yisrael throughout history — that You make Torah study something comfortable and familiar to us; and make us feel a closeness and attachment to Your mitzvos. Do not bring us into situations and challenges that could lead us to sin or to be disappointed with ourselves; and do not allow the yetzer hara to get the better of us. Keep us far away from evil people and bad friends; and help us attach ourselves to our yetzer tov and to good friends. **וְכֹף אֶת יִצְרֵנוּ** — Compel our creative powers to be used to serve You. And may we always find favor in Your eyes, and in the eyes of everyone we meet. And do for us good acts of kindness. **הַגּוֹמֵל** — You, Hashem, are the Source of everything; **בָּרוּךְ אַתָּה יהוה** — **חֲסָדִים טוֹבִים לְעַמּוֹ יִשְׂרָאֵל** — Who does good acts of kindness to His nation, Bnei Yisrael."
             },
             {
               "id": "bh2-faq-yetzer-hara",
@@ -935,7 +934,7 @@
             {
               "id": "korb1-007",
               "type": "section_intro",
-              "enText": "This section of davening is basically an overview of the daily avodah in the Beis Hamikdash, and of all korbanos. We say this to show that we understand that our tefillos are merely a substitute for the real service of Hashem, which in the Beis Hamikdash with korbanos. We express our hope that we will soon have the opportunity to do that again!"
+              "enText": "This section of davening is basically an overview of the daily avodah in the Beis Hamikdash, and of all korbanos. We say this to show that we understand that our tefillos are merely a substitute for the real service of Hashem, which was done in the Beis Hamikdash through korbanos. We express our hope that we will soon have the opportunity to do that again!"
             },
             {
               "id": "korb1-008",
@@ -1126,6 +1125,12 @@
               "id": "ribon_haolamim_korban_tamid",
               "type": "prayer",
               "heText": "רִבּוֹן הָעוֹלָמִים, אַתָּה צִוִּיתָנוּ לְהַקְרִיב קָרְבַּן הַתָּמִיד בְּמוֹעֲדוֹ, וְלִהְיוֹת כֹּהֲנִים בַּעֲבוֹדָתָם, וּלְוִיִּם בְּדוּכָנָם, וְיִשְׂרָאֵל בְּמַעֲמָדָם: וְעַתָּה בַּעֲוֹנוֹתֵינוּ חָרַב בֵּית הַמִּקְדָּשׁ וּבָטֵל הַתָּמִיד, וְאֵין לָנוּ לֹא כֹהֵן בַּעֲבוֹדָתוֹ וְלֹא לֵוִי בְּדוּכָנוֹ, וְלֹא יִשְׂרָאֵל בְּמַעֲמָדוֹ: וְאַתָּה אָמַרְתָּ, וּנְשַׁלְּמָה פָרִים שְׂפָתֵינוּ: לָכֵן יְהִי רָצוֹן מִלְּפָנֶיךָ יְהוה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁיְּהֵא שִׂיחַ שִׂפְתוֹתֵינוּ חָשׁוּב וּמְקֻבָּל וּמְרֻצֶּה לְפָנֶיךָ כְּאִלּוּ הִקְרַבְנוּ קָרְבַּן הַתָּמִיד בְּמוֹעֲדוֹ וּבִמְקוֹמוֹ וּכְהִלְכָתוֹ:"
+            },
+            {
+              "id": "rubric_rosh_chodesh_uvroshei",
+              "type": "rubric",
+              "condition": "rosh_chodesh",
+              "heText": "לר\"ח"
             },
             {
               "id": "uvroshei_chodsheichem",
@@ -1327,7 +1332,7 @@
               "id": "pz1-header-1",
               "type": "header",
               "heText": "פסוקי דזמרה",
-              "enText": "Pesukei DZimrah"
+              "enText": "Pesukei D'Zimrah"
             },
             {
               "id": "pz1-insight-1",
@@ -1358,7 +1363,7 @@
             {
               "id": "pz1-commentary-1",
               "type": "commentary",
-              "enText": "—*מִזְמוֹר שִׁיר חֲנֻכַּת הַבַּיִת* A song composed by David HaMelech to be used in the eventual dedication of the Beis Hamikdash—I praise You because You have raised me up from the depths of all my difficulties—and You did not let my enemies (*real or imagined*) triumph over me. I called out to You and You healed me; You brought me back up when I was down. I should always be singing Your praises because Your \"anger\" is only for a moment—and its purpose is really to improve our lives! Though **בְּרֶגַע**—in \"dark times\" (*when we are in pain*) we do not understand the purpose of our pain, we are confident that **לַבֹּקֶר**—\"in the morning\" (*when all is clear*), we will be joyful. **וַאֲנִי אָמַרְתִּי בְשַׁלְוִי**—When all is calm and my body healthy, I think **בַּל אֶמּוֹט לְעוֹלָם**—that state is natural and will last forever. But I know that it is You, Hashem, Who keeps me strong. If You would chas v'shalom \"turn away from me\"—all would fall apart. Therefore, I turn to You for help; it is to You I call out and proclaim: \"My goal is to accomplish the mission You gave me.\" Therefore, I need Your (*material and emotional*) support to allow me to do that! **הָפַכְתָּ מִסְפְּדִי לְמָחוֹל לִי**—So many times You turn my difficulties into growth opportunities (*even though I do not always realize that at the moment*)—all in order for me to accomplish my mission. Hashem Who takes care of me—in all circumstances I will praise You!"
+              "enText": "**מִזְמוֹר שִׁיר חֲנֻכַּת הַבַּיִת**—A song composed by David HaMelech to be used in the eventual dedication of the Beis Hamikdash—I praise You because You have raised me up from the depths of all my difficulties—and You did not let my enemies (*real or imagined*) triumph over me. I called out to You and You healed me; You brought me back up when I was down. I should always be singing Your praises because Your \"anger\" is only for a moment—and its purpose is really to improve our lives! Though **בְּרֶגַע**—in \"dark times\" (*when we are in pain*) we do not understand the purpose of our pain, we are confident that **לַבֹּקֶר**—\"in the morning\" (*when all is clear*), we will be joyful. **וַאֲנִי אָמַרְתִּי בְשַׁלְוִי**—When all is calm and my body healthy, I think **בַּל אֶמּוֹט לְעוֹלָם**—that state is natural and will last forever. But I know that it is You, Hashem, Who keeps me strong. If You would chas v'shalom \"turn away from me\"—all would fall apart. Therefore, I turn to You for help; it is to You I call out and proclaim: \"My goal is to accomplish the mission You gave me.\" Therefore, I need Your (*material and emotional*) support to allow me to do that! **הָפַכְתָּ מִסְפְּדִי לְמָחוֹל לִי**—So many times You turn my difficulties into growth opportunities (*even though I do not always realize that at the moment*)—all in order for me to accomplish my mission. Hashem Who takes care of me—in all circumstances I will praise You!"
             },
             {
               "id": "pz1-insight-2",
@@ -1379,7 +1384,7 @@
             {
               "id": "pz1-commentary-2",
               "type": "commentary",
-              "enText": "יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא (*The person saying Kaddish proclaims our hope that*) soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done. *אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא* (*We all enthusiastically respond:*) Absolutely correct! May everyone (*including me!*), everywhere, and forever, see that all His actions are great and deserving of praise! *יִתְבָּרַךְ וְיִשְׁתַּבַּח* (*The person saying Kaddish then points out that*) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct! *יְהֵא שְׁלָמָא רַבָּא* (*The person saying Kaddish requests:*) May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael. And to that we respond: **אָמֵן**—Absolutely, we agree! *עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו* (*The person saying Kaddish requests:*) May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely, we agree!",
+              "enText": "**יִתְגַּדַּל וְיִתְקַדַּשׁ שְׁמֵהּ רַבָּא** (*The person saying Kaddish proclaims our hope that*) soon, in our lifetime, the entire world, which Hashem created precisely according to His Will, will recognize Hashem as the Source of all and will see the sanctity, perfection, and purpose of all He has done. **אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא** (*We all enthusiastically respond:*) Absolutely correct! May everyone (*including me!*), everywhere, and forever, see that all His actions are great and deserving of praise! **יִתְבָּרַךְ וְיִשְׁתַּבַּח** (*The person saying Kaddish then points out that*) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct! **יְהֵא שְׁלָמָא רַבָּא** (*The person saying Kaddish requests:*) May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael. And to that we respond: **אָמֵן**—Absolutely, we agree! **עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו** (*The person saying Kaddish requests:*) May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely, we agree!",
               "condition": "On בעשי\"ת (Aseres Yemei Teshuvah) say לְעֵלָּא וּלְעֵלָּא and הַשָּׁלוֹם"
             },
             {
@@ -1437,9 +1442,15 @@
               "heText": "הוֹדוּ לַיהֹוָה קִרְאוּ בִשְׁמוֹ, הוֹדִיעוּ בָעַמִּים עֲלִילוֹתָיו: שִׁירוּ לוֹ זַמְּרוּ לוֹ, שִׂיחוּ בְּכָל נִפְלְאוֹתָיו: הִתְהַלְלוּ בְּשֵׁם קָדְשׁוֹ, יִשְׂמַח לֵב מְבַקְשֵׁי יְהֹוָה: דִּרְשׁוּ יְהֹוָה וְעֻזּוֹ, בַּקְּשׁוּ פָנָיו תָּמִיד: זִכְרוּ נִפְלְאוֹתָיו אֲשֶׁר עָשָׂה, מֹפְתָיו וּמִשְׁפְּטֵי פִיהוּ: זֶרַע יִשְׂרָאֵל עַבְדּוֹ, בְּנֵי יַעֲקֹב בְּחִירָיו: הוּא יְהֹוָה אֱלֹהֵינוּ, בְּכָל הָאָרֶץ מִשְׁפָּטָיו: זִכְרוּ לְעוֹלָם בְּרִיתוֹ, דָּבָר צִוָּה לְאֶלֶף דּוֹר: אֲשֶׁר כָּרַת אֶת אַבְרָהָם, וּשְׁבוּעָתוֹ לְיִצְחָק: וַיַּעֲמִידֶהָ לְיַעֲקֹב לְחֹק, לְיִשְׂרָאֵל בְּרִית עוֹלָם: לֵאמֹר, לְךָ אֶתֵּן אֶרֶץ כְּנָעַן, חֶבֶל נַחֲלַתְכֶם: בִּהְיוֹתְכֶם מְתֵי מִסְפָּר, כִּמְעַט וְגָרִים בָּהּ: וַיִּתְהַלְּכוּ מִגּוֹי אֶל גּוֹי, וּמִמַּמְלָכָה אֶל עַם אַחֵר: לֹא הִנִּיחַ לְאִישׁ לְעָשְׁקָם, וַיּוֹכַח עֲלֵיהֶם מְלָכִים: אַל תִּגְּעוּ בִּמְשִׁיחָי, וּבִנְבִיאַי אַל תָּרֵעוּ: שִׁירוּ לַיהֹוָה כָּל הָאָרֶץ, בַּשְּׂרוּ מִיּוֹם אֶל יוֹם יְשׁוּעָתוֹ: סַפְּרוּ בַגּוֹיִם אֶת כְּבוֹדוֹ, בְּכָל הָעַמִּים נִפְלְאוֹתָיו: כִּי גָדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד, וְנוֹרָא הוּא עַל כָּל אֱלֹהִים: כִּי כָּל אֱלֹהֵי הָעַמִּים אֱלִילִים, וַיהֹוָה שָׁמַיִם עָשָׂה: הוֹד וְהָדָר לְפָנָיו, עֹז וְחֶדְוָה בִּמְקוֹמוֹ: הָבוּ לַיהֹוָה מִשְׁפְּחוֹת עַמִּים, הָבוּ לַיהֹוָה כָּבוֹד וָעֹז: הָבוּ לַיהֹוָה כְּבוֹד שְׁמוֹ, שְׂאוּ מִנְחָה וּבֹאוּ לְפָנָיו, הִשְׁתַּחֲווּ לַיהֹוָה בְּהַדְרַת קֹדֶשׁ: חִילוּ מִלְּפָנָיו כָּל הָאָרֶץ, אַף תִּכּוֹן תֵּבֵל בַּל תִּמּוֹט: יִשְׂמְחוּ הַשָּׁמַיִם וְתָגֵל הָאָרֶץ, וְיֹאמְרוּ בַגּוֹיִם יְהֹוָה מָלָךְ: יִרְעַם הַיָּם וּמְלֹאוֹ, יַעֲלֹץ הַשָּׂדֶה וְכָל אֲשֶׁר בּוֹ: אָז יְרַנְּנוּ עֲצֵי הַיָּעַר, מִלִּפְנֵי יְהֹוָה כִּי בָא לִשְׁפּוֹט אֶת הָאָרֶץ:"
             },
             {
+              "id": "pz1-rubric-pause",
+              "type": "rubric",
+              "heText": "(כאן צריך להפסיק מעט)",
+              "enText": "Pause slightly here"
+            },
+            {
               "id": "pz1-commentary-4",
               "type": "commentary",
-              "enText": "**הוֹדוּ**—Even though I am now going to personally praise Hashem for all He does, and focus on His power in nature and history (*which will lead me to personally accept His sovereignty on praying—the Shema*), really the entire world should acknowledge the power of Hashem and praise Him. Hashem chose our Avos and Imahos, turned them into a great nation and miraculously gave us Eretz Yisrael (*and we are the center of world attention*). No power throughout history has been able to destroy us. (*Our very centrality on the world stage is itself the greatest proof of Hashem's power and our special bond with Him.*) For that we praise Hashem, and it provides us with a sense of security and joy. *שִׁירוּ לַיהֹוָה ... בַּשְּׂרוּ מִיּוֹם אֶל יוֹם יְשׁוּעָתוֹ*—We await the day (*when Mashiach comes*) and the entire world will acknowledge the truth, and see the power of Hashem in history and in the beauty and majesty of nature. And the entire Creation will proclaim:",
+              "enText": "**הוֹדוּ**—Even though I am now going to personally praise Hashem for all He does, and focus on His power in nature and history (*which will lead me to personally accept His sovereignty on praying—the Shema*), really the entire world should acknowledge the power of Hashem and praise Him. Hashem chose our Avos and Imahos, turned them into a great nation and miraculously gave us Eretz Yisrael (*and we are the center of world attention*). No power throughout history has been able to destroy us. (*Our very centrality on the world stage is itself the greatest proof of Hashem's power and our special bond with Him.*) For that we praise Hashem, and it provides us with a sense of security and joy. **שִׁירוּ לַיהֹוָה ... בַּשְּׂרוּ מִיּוֹם אֶל יוֹם יְשׁוּעָתוֹ**—We await the day (*when Mashiach comes*) and the entire world will acknowledge the truth, and see the power of Hashem in history and in the beauty and majesty of nature. And the entire Creation will proclaim:",
               "condition": "(כאן צריך להפסיק מעט) Pause slightly here"
             },
             {
@@ -1450,7 +1461,7 @@
             {
               "id": "pz1-commentary-5",
               "type": "commentary",
-              "enText": "**הוֹדוּ לַיהֹוָה כִּי טוֹב**—Praise and thank Hashem, for ALL that He does is good (*even though now it is hard for us to see that*); **כִּי לְעוֹלָם חַסְדּוֹ**—His kindness and care for us is eternal. *וְהִשְׁתַּחֲווּ לַהֲדֹם רַגְלָיו ... קָדוֹשׁ*—Redeem us from our (*physical and spiritual*) galus so that we may serve You in the Beis Hamikdash; forgive us our sins; and raise our esteem among the nations. We place our complete faith and trust in You that You will save us from all misfortunes and give us the ability to fulfill our mission to the world. Just as You took us out of Egypt (*and chose us as Your nation*), we are confident that You will accomplish all our prayers. **אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ**—Happy and fortunate are we, the nation (*Bnei Yisrael*) that has all this glorious history and great mission. **אַשְׁרֵי הָעָם שֶׁיֲהֹוָה אֱלֹהָיו**—Happy and fortunate are we, the nation (*Bnei Yisrael*) that has Hashem as our personal God Who takes care of us. **וַאֲנִי בְּחַסְדְּךָ בָטַחְתִּי**—(*Even though life is dark for me now,*) I have complete trust in Your kindness; **יָגֵל לִבִּי בִּישׁוּעָתֶךָ**—(*I am confident that in the end when all becomes clear*) my heart will rejoice because of Your salvation. **אָשִׁירָה לַיהֹוָה כִּי גָמַל עָלָי**—(*And I am so confident that it is for the good, that right now—even in my darkness*) I will sing to Hashem, because I know that all He does to me is for my good."
+              "enText": "**הוֹדוּ לַיהֹוָה כִּי טוֹב**—Praise and thank Hashem, for ALL that He does is good (*even though now it is hard for us to see that*); **כִּי לְעוֹלָם חַסְדּוֹ**—His kindness and care for us is eternal. **וְהִשְׁתַּחֲווּ לַהֲדֹם רַגְלָיו ... קָדוֹשׁ**—Redeem us from our (*physical and spiritual*) galus so that we may serve You in the Beis Hamikdash; forgive us our sins; and raise our esteem among the nations. We place our complete faith and trust in You that You will save us from all misfortunes and give us the ability to fulfill our mission to the world. Just as You took us out of Egypt (*and chose us as Your nation*), we are confident that You will accomplish all our prayers. **אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ**—Happy and fortunate are we, the nation (*Bnei Yisrael*) that has all this glorious history and great mission. **אַשְׁרֵי הָעָם שֶׁיֲהֹוָה אֱלֹהָיו**—Happy and fortunate are we, the nation (*Bnei Yisrael*) that has Hashem as our personal God Who takes care of us. **וַאֲנִי בְּחַסְדְּךָ בָטַחְתִּי**—(*Even though life is dark for me now,*) I have complete trust in Your kindness; **יָגֵל לִבִּי בִּישׁוּעָתֶךָ**—(*I am confident that in the end when all becomes clear*) my heart will rejoice because of Your salvation. **אָשִׁירָה לַיהֹוָה כִּי גָמַל עָלָי**—(*And I am so confident that it is for the good, that right now—even in my darkness*) I will sing to Hashem, because I know that all He does to me is for my good."
             },
             {
               "id": "pz1-header-10",
@@ -1535,7 +1546,7 @@
             {
               "id": "pz2-yehi-khvod-1-commentary",
               "type": "commentary",
-              "enText": "*יְהִי כְבוֹד יְהֹוָה*—May the Presence of Hashem be felt and seen clearly in the world; *(that way it will be easier for us to act appropriately)* and thus Hashem will be pleased with us—His creations. From the East to the West—the entire world, the Heavens and the earth and all the nations proclaim the glory of Hashem and His absolute and eternal rulership over \"nature\" and the course of world history—from the beginning of time till the end of days. *רַבּוֹת מַחֲשָׁבוֹת בְּלֶב אִישׁ*—Humans have many plans, thoughts and intentions; *וַעֲצַת יְהֹוָה הִיא תָקוּם*—but in the end, only the plan of Hashem will prevail. The \"plan\" Hashem has for history is eternal and spans all generations *(which is why we have difficulty grasping its entirety).*"
+              "enText": "**יְהִי כְבוֹד יְהֹוָה**—May the Presence of Hashem be felt and seen clearly in the world; *(that way it will be easier for us to act appropriately)* and thus Hashem will be pleased with us—His creations. From the East to the West—the entire world, the Heavens and the earth and all the nations proclaim the glory of Hashem and His absolute and eternal rulership over \"nature\" and the course of world history—from the beginning of time till the end of days. **רַבּוֹת מַחֲשָׁבוֹת בְּלֶב אִישׁ**—Humans have many plans, thoughts and intentions; **וַעֲצַת יְהֹוָה הִיא תָקוּם**—but in the end, only the plan of Hashem will prevail. The \"plan\" Hashem has for history is eternal and spans all generations *(which is why we have difficulty grasping its entirety).*"
             },
             {
               "id": "pz2-yehi-khvod-2",
@@ -1545,7 +1556,7 @@
             {
               "id": "pz2-yehi-khvod-2-commentary",
               "type": "commentary",
-              "enText": "*כִּי בָחַר יְהֹוָה בְּצִיּוֹן*—Hashem has chosen Eretz Yisrael as His special land, and us, Bnei Yisrael, as His *(סְגֻלָּה)* special treasure. *כִּי לֹא יִטֹּשׁ יְהֹוָה עַמּוֹ*—and He will never destroy Bnei Yisrael or abandon His land. *וְהוּא רַחוּם יְכַפֵּר עָוֹן וְלֹא יַשְׁחִית* (Even if we mess up,) He will forgive our sins, give us another chance; *הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם* *קָרְאֵנוּ*—Hashem, please *(continue)* to save us and answer our tefillos whenever we call out to You."
+              "enText": "**כִּי בָחַר יְהֹוָה בְּצִיּוֹן**—Hashem has chosen Eretz Yisrael as His special land, and us, Bnei Yisrael, as His *(סְגֻלָּה)* special treasure. **כִּי לֹא יִטֹּשׁ יְהֹוָה עַמּוֹ**—and He will never destroy Bnei Yisrael or abandon His land. **וְהוּא רַחוּם יְכַפֵּר עָוֹן וְלֹא יַשְׁחִית** (Even if we mess up,) He will forgive our sins, give us another chance; **הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ**—Hashem, please *(continue)* to save us and answer our tefillos whenever we call out to You."
             },
             {
               "id": "pz2-header-last-six",
@@ -2678,18 +2689,14 @@
             },
             {
               "id": "se1-rubric-section1",
-              "type": "rubric",
+              "type": "section_intro",
               "enText": "Section 1—Praises"
             },
             {
               "id": "se1-header-avos",
               "type": "header",
-              "heText": "אָבוֹת"
-            },
-            {
-              "id": "se1-rubric-avos",
-              "type": "rubric",
-              "enText": "Hashem took care of us from the beginning:"
+              "heText": "אָבוֹת",
+              "enText": "Hashem took care of us from the beginning"
             },
             {
               "id": "se1-prayer-avos",
@@ -2706,19 +2713,22 @@
               "type": "rubric",
               "enText": "During Aseres Yemei Teshuvah add: (If you forgot—see Appendix 12:1)",
               "condition": "Aseres Yemei Teshuvah",
-              "xref": "Appendix 12:1"
+              "xref": "Appendix 12:1",
+              "optional": true
             },
             {
               "id": "se1-prayer-zachreinu",
               "type": "prayer",
               "heText": "זָכְרֵנוּ לְחַיִּים, מֶלֶךְ חָפֵץ בַּחַיִּים, וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים, לְמַעַנְךָ אֱלֹהִים חַיִּים:",
-              "condition": "Aseres Yemei Teshuvah"
+              "condition": "Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "se1-commentary-zachreinu",
               "type": "commentary",
               "enText": "**זָכְרֵנוּ לְחַיִּים**—Please, Hashem, remember us for life; **מֶלֶךְ חָפֵץ בַּחַיִּים**—for You are our King Who desires life; **וְכָתְבֵנוּ בְּסֵפֶר הַחַיִּים**—and write us in the book of life; **לְמַעַנְךָ אֱלֹהִים חַיִּים**—so that we may be able to continue to serve You and live up to our potential.",
-              "condition": "Aseres Yemei Teshuvah"
+              "condition": "Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "se1-prayer-magen",
@@ -2739,12 +2749,8 @@
             {
               "id": "se1-header-gevuros",
               "type": "header",
-              "heText": "גְּבוּרוֹת"
-            },
-            {
-              "id": "se1-rubric-gevuros",
-              "type": "rubric",
-              "enText": "Hashem is all-powerful:"
+              "heText": "גְּבוּרוֹת",
+              "enText": "Hashem is all-powerful"
             },
             {
               "id": "se1-prayer-gevuros-1",
@@ -2813,19 +2819,22 @@
               "type": "rubric",
               "enText": "During Aseres Yemei Teshuvah add: (If you forgot—see Appendix 12:1)",
               "condition": "Aseres Yemei Teshuvah",
-              "xref": "Appendix 12:1"
+              "xref": "Appendix 12:1",
+              "optional": true
             },
             {
               "id": "se1-prayer-mi-chamocha",
               "type": "prayer",
               "heText": "מִי כָמוֹךָ אָב הָרַחֲמִים, זוֹכֵר יְצוּרָיו לְחַיִּים בְּרַחֲמִים:",
-              "condition": "Aseres Yemei Teshuvah"
+              "condition": "Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "se1-commentary-mi-chamocha",
               "type": "commentary",
               "enText": "**מִי כָמוֹךָ אָב הָרַחֲמִים, זוֹכֵר יְצוּרָיו**—There is no one like You, our merciful Father; **לְחַיִּים**—Who remembers us, His creations, for life; **בְּרַחֲמִים**—with mercy.",
-              "condition": "Aseres Yemei Teshuvah"
+              "condition": "Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "se1-prayer-gevuros-3",
@@ -2841,11 +2850,7 @@
             {
               "id": "se1-header-kedushah",
               "type": "header",
-              "heText": "קְדוּשָׁה"
-            },
-            {
-              "id": "se1-rubric-kedushah",
-              "type": "rubric",
+              "heText": "קְדוּשָׁה",
               "enText": "Let us praise Hashem like the angels do!"
             },
             {
@@ -2875,6 +2880,11 @@
               "enText": "**קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת**—The sanctity of Hashem can be felt in **all** worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere *(though it requires effort and diligence in order to tap into it through Torah and mitzvos)*."
             },
             {
+              "id": "se1-rubric-chazan-leumasam",
+              "type": "rubric",
+              "heText": "חזן:"
+            },
+            {
               "id": "se1-prayer-leumasam",
               "type": "prayer",
               "heText": "לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ:"
@@ -2883,6 +2893,11 @@
               "id": "se1-commentary-leumasam",
               "type": "commentary",
               "enText": "**לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ**—Correspondingly, other angels offer praise and declare *(as we do now also):*"
+            },
+            {
+              "id": "se1-rubric-kahal-baruch-kvod",
+              "type": "rubric",
+              "heText": "קר״ח:"
             },
             {
               "id": "se1-prayer-baruch-kvod",
@@ -2896,6 +2911,11 @@
               "enText": "**בָּרוּךְ כְּבוֹד יְהֹוָה**—The essence of Hashem is completely beyond us *(even the highest angels)*; it is **מִמְּקוֹמוֹ**—from His place *(up there, it all makes sense!)*."
             },
             {
+              "id": "se1-rubric-chazan-uvdivrei",
+              "type": "rubric",
+              "heText": "חזן:"
+            },
+            {
               "id": "se1-prayer-uvdivrei",
               "type": "prayer",
               "heText": "וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:"
@@ -2904,6 +2924,11 @@
               "id": "se1-commentary-uvdivrei",
               "type": "commentary",
               "enText": "**וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר**—In addition, it is written in Your holy words:"
+            },
+            {
+              "id": "se1-rubric-kahal-yimloch",
+              "type": "rubric",
+              "heText": "קר״ח:"
             },
             {
               "id": "se1-prayer-yimloch",
@@ -2936,17 +2961,13 @@
             {
               "id": "se1-header-kedushas-hashem",
               "type": "header",
-              "heText": "קְדוּשַׁת הַשֵּׁם"
-            },
-            {
-              "id": "se1-rubric-kedushas-hashem",
-              "type": "rubric",
+              "heText": "קְדוּשַׁת הַשֵּׁם",
               "enText": "Hashem is Kadosh"
             },
             {
               "id": "se1-prayer-kedushas-hashem",
               "type": "prayer",
-              "heText": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ (בעשי\"ת הַמֶּלֶךְ הַקָּדוֹשׁ):"
+              "heText": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ: (בעשי״ת הַמֶּלֶךְ הַקָּדוֹשׁ)"
             },
             {
               "id": "se1-commentary-kedushas-hashem",
@@ -2957,17 +2978,13 @@
             },
             {
               "id": "se1-rubric-section2",
-              "type": "rubric",
+              "type": "section_intro",
               "enText": "Section 2—Requests"
             },
             {
               "id": "se1-header-binah",
               "type": "header",
-              "heText": "בִּינָה"
-            },
-            {
-              "id": "se1-rubric-binah",
-              "type": "rubric",
+              "heText": "בִּינָה",
               "enText": "Help me understand"
             },
             {
@@ -2983,11 +3000,7 @@
             {
               "id": "se1-header-teshuvah",
               "type": "header",
-              "heText": "תְּשׁוּבָה"
-            },
-            {
-              "id": "se1-rubric-teshuvah",
-              "type": "rubric",
+              "heText": "תְּשׁוּבָה",
               "enText": "Help me get close to You"
             },
             {
@@ -3003,11 +3016,7 @@
             {
               "id": "se1-header-selichah",
               "type": "header",
-              "heText": "סְלִיחָה"
-            },
-            {
-              "id": "se1-rubric-selichah",
-              "type": "rubric",
+              "heText": "סְלִיחָה",
               "enText": "Give me another chance"
             },
             {
@@ -3029,11 +3038,7 @@
             {
               "id": "se1-header-geulah",
               "type": "header",
-              "heText": "גְּאֻלָּה"
-            },
-            {
-              "id": "se1-rubric-geulah",
-              "type": "rubric",
+              "heText": "גְּאֻלָּה",
               "enText": "Alleviate my suffering"
             },
             {
@@ -3050,19 +3055,22 @@
               "id": "se2-aneinu-rubric",
               "type": "rubric",
               "enText": "On fast days, the chazzan adds the following in his repetition of the Shemoneh Esrei:",
-              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei"
+              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei",
+              "optional": true
             },
             {
               "id": "se2-aneinu-prayer",
               "type": "prayer",
               "heText": "עֲנֵנוּ יְהֹוָה עֲנֵנוּ בְּיוֹם צוֹם תַּעֲנִיתֵנוּ, כִּי בְצָרָה גְדוֹלָה אֲנָחְנוּ, אַל תֵּפֶן אֶל רִשְׁעֵנוּ, וְאַל תַּסְתֵּר פָּנֶיךָ מִמֶּנּוּ, וְאַל תִּתְעַלַּם מִתְּחִנָּתֵנוּ, הֱיֵה נָא קָרוֹב לְשַׁוְעָתֵנוּ, יְהִי נָא חַסְדְּךָ לְנַחֲמֵנוּ, טֶרֶם נִקְרָא אֵלֶיךָ עֲנֵנוּ, כַּדָּבָר שֶׁנֶּאֱמַר: וְהָיָה טֶרֶם יִקְרָאוּ וַאֲנִי אֶעֱנֶה, עוֹד הֵם מְדַבְּרִים וַאֲנִי אֶשְׁמָע, כִּי אַתָּה יְהֹוָה הָעוֹנֶה בְּעֵת צָרָה פּוֹדֶה וּמַצִּיל בְּכָל עֵת צָרָה וְצוּקָה: בָּרוּךְ אַתָּה יְהֹוָה הָעוֹנֶה בְּעֵת צָרָה:",
-              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei"
+              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei",
+              "optional": true
             },
             {
               "id": "se2-aneinu-commentary",
               "type": "commentary",
               "enText": "**עֲנֵנוּ**—Please answer us on the day of public fasting for we are in great distress. We know we have not lived up to our potential, but please do not turn away from us! Rather, let Your great chessed be a comfort to us. Answer us even before we call out to You, as the pasuk says *(when describing the end of days)*: \"I *(Hashem)* answer their requests *(that are in their hearts)* even before they articulate them!\" For You are the One Who answers us in times of our distress; You save and rescue us in all our times of trouble! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָעוֹנֶה בְּעֵת צָרָה**—Who answers in times of our distress.",
-              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei"
+              "condition": "On fast days, the chazzan adds this in his repetition of the Shemoneh Esrei",
+              "optional": true
             },
             {
               "id": "se2-refuah-header",
@@ -3156,14 +3164,8 @@
             {
               "id": "se2-mishpat-commentary",
               "type": "commentary",
-              "enText": "**הָשִׁיבָה שׁוֹפְטֵינוּ**—Restore our judges and those who guide us, as in earlier times, and remove from us sorrow and worry and confusion, and may You, Hashem alone, rule over us and guide us with kindness and compassion, and vindicate us in our judgment. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מֶלֶךְ אוֹהֵב צְדָקָה וּמִשְׁפָּט**—the King Who loves righteousness and justice. (*During Aseres Yemei Teshuvah say instead:* **הַמֶּלֶךְ הַמִּשְׁפָּט**—the King of justice.)",
+              "enText": "**הָשִׁיבָה שׁוֹפְטֵינוּ**—Restore our judges and those who guide us, as in earlier times, and remove from us sorrow and worry and confusion, and may You, Hashem alone, rule over us and guide us with kindness and compassion, and vindicate us in our judgment. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מֶלֶךְ אוֹהֵב צְדָקָה וּמִשְׁפָּט**—the King Who loves righteousness and justice. (*During Aseres Yemei Teshuvah say instead:* **הַמֶּלֶךְ הַמִּשְׁפָּט**—the King of justice.)\n*(If you made a mistake, see Appendix 12:5)*",
               "condition": "During Aseres Yemei Teshuvah say הַמֶּלֶךְ הַמִּשְׁפָּט instead"
-            },
-            {
-              "id": "se2-mishpat-mistake-rubric",
-              "type": "rubric",
-              "enText": "(If you made a mistake, see Appendix 12:5)",
-              "xref": "Appendix 12:5"
             },
             {
               "id": "se2-minim-header",
@@ -3257,20 +3259,22 @@
             },
             {
               "id": "se2-personal-requests-rubric",
-              "type": "rubric",
+              "type": "section_intro",
               "enText": "(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now. Hashem understands all languages and He listens!)"
             },
             {
               "id": "se2-shema-koleinu-insert-rubric",
               "type": "rubric",
               "heText": "יֵשׁ אוֹמְרִים כָּאן תְּפִלָּה זוֹ:",
-              "condition": "Some say this tefillah here"
+              "condition": "Some say this tefillah here",
+              "optional": true
             },
             {
               "id": "se2-shema-koleinu-insert-prayer",
               "type": "prayer",
               "heText": "אָנָּא יְהֹוָה חַטָּאתִי, עָוִיתִי, וּפָשַׁעְתִּי לְפָנֶיךָ, מִיּוֹם הֱיוֹתִי עַל הָאֲדָמָה עַד הַיּוֹם הַזֶּה (ובפרט בחטא פלוני): אָנָּא יְהֹוָה, עֲשֵׂה לְמַעַן שִׁמְךָ הַגָּדוֹל, וְתִכָּפֵר לִי עַל חֲטָאַי וַעֲוֹנַי וּפְשָׁעַי, שֶׁחָטָאתִי, וְשֶׁעָוִיתִי, וְשֶׁפָּשַׁעְתִּי לְפָנֶיךָ, מִנְּעוּרַי עַד הַיּוֹם הַזֶּה, וְתִמְחֹל וְתִסְלַח לְכָל הַשֵּׁמוֹת שֶׁעָבַרְתִּי בִּשְׁמֶךָ הַגָּדוֹל: אַתָּה הוּא יְהֹוָה הָאֱלֹהִים, הַזָּן וּמְפַרְנֵס וּמְכַלְכֵּל מִקַּרְנֵי רְאֵמִים עַד בֵּיצֵי כִנִּים: הַטְרִיפֵנִי לֶחֶם חֻקִּי, וְהַמְצֵא לִי וּלְכָל בְּנֵי בֵיתִי מְזוֹנוֹתַי קֹדֶם שֶׁאֶצְטָרֵךְ לָהֶם, בְּנַחַת וְלֹא בְצַעַר, בְּהֶתֵּר וְלֹא בְאִסּוּר, בְּכָבוֹד וְלֹא בְבִזָּיוֹן, לְחַיִּים וּלְשָׁלוֹם, מִשֶּׁפַע בְּרָכָה וְהַצְלָחָה, מִשֶּׁפַע בְּרָכָה עֶלְיוֹנָה, כְּדֵי שֶׁאוּכַל לַעֲשׂוֹת רְצוֹנֶךָ, וְלַעֲסֹק בְּתוֹרָתֶךָ, וּלְקַיֵּם מִצְוֹתֶיךָ: וְאַל תַּצְרִיכֵנִי לִידֵי מַתְּנַת בָּשָׂר וָדָם, וִיקֻיַּם בִּי מִקְרָא שֶׁכָּתוּב: פּוֹתֵחַ אֶת יָדֶךָ, וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן:",
-              "condition": "Some say this tefillah here"
+              "condition": "Some say this tefillah here",
+              "optional": true
             },
             {
               "id": "se2-shema-koleinu-prayer-2",
@@ -3308,41 +3312,34 @@
               "type": "rubric",
               "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo: (If you forgot, see Appendix 12:6)",
               "xref": "If you forgot, see Appendix 12:6",
-              "condition": "On Rosh Chodesh and Chol Hamoed"
+              "condition": "On Rosh Chodesh and Chol Hamoed",
+              "optional": true
             },
             {
               "id": "se3-prayer-yaaleh-veyavo",
               "type": "prayer",
-              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, יַעֲלֶה וְיָבֹא, וְיַגִּיעַ וְיֵרָאֶה וְיֵרָצֶה, וְיִשָּׁמַע, וְיִפָּקֵד וְיִזָּכֵר זִכְרוֹנֵנוּ וּפִקְדוֹנֵנוּ, וְזִכְרוֹן אֲבוֹתֵינוּ, וְזִכְרוֹן מָשִׁיחַ בֶּן דָּוִד עַבְדֶּךָ, וְזִכְרוֹן יְרוּשָׁלַיִם עִיר קָדְשֶׁךָ, וְזִכְרוֹן כָּל עַמְּךָ בֵּית יִשְׂרָאֵל לְפָנֶיךָ, לִפְלֵיטָה לְטוֹבָה, לְחֵן וּלְחֶסֶד וּלְרַחֲמִים לְחַיִּים וּלְשָׁלוֹם בְּיוֹם"
-            },
-            {
-              "id": "se3-commentary-yaaleh-veyavo",
-              "type": "commentary",
-              "heText": "",
-              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please view us favorably, and take into account our special relationship with You and the promises You made to our ancestors: the promise to bring Mashiach and to rebuild Yerushalayim and restore its holiness, and to remember all of Bnei Yisrael everywhere, to deliver us from our exiles *(physical and spiritual)*, and to grant our requests and have mercy on us *(even if we are not deserving)*, and to give us all life and peace on this day of:"
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, יַעֲלֶה וְיָבֹא, וְיַגִּיעַ וְיֵרָאֶה וְיֵרָצֶה, וְיִשָּׁמַע, וְיִפָּקֵד וְיִזָּכֵר זִכְרוֹנֵנוּ וּפִקְדוֹנֵנוּ, וְזִכְרוֹן אֲבוֹתֵינוּ, וְזִכְרוֹן מָשִׁיחַ בֶּן דָּוִד עַבְדֶּךָ, וְזִכְרוֹן יְרוּשָׁלַיִם עִיר קָדְשֶׁךָ, וְזִכְרוֹן כָּל עַמְּךָ בֵּית יִשְׂרָאֵל לְפָנֶיךָ, לִפְלֵיטָה לְטוֹבָה, לְחֵן וּלְחֶסֶד וּלְרַחֲמִים לְחַיִּים וּלְשָׁלוֹם בְּיוֹם",
+              "optional": true
             },
             {
               "id": "se3-rubric-rosh-chodesh-insert",
-              "type": "rubric",
+              "type": "prayer",
               "heText": "בְּרֹאשׁ חֹדֶשׁ:    רֹאשׁ הַחֹדֶשׁ הַזֶּה\nבְּחוֹל הַמּוֹעֵד פֶּסַח:    חַג הַמַּצּוֹת הַזֶּה\nבְּחוֹל הַמּוֹעֵד סֻכּוֹת:    חַג הַסֻּכּוֹת הַזֶּה",
-              "enText": "On Rosh Chodesh / On Chol Hamoed Pesach / On Chol Hamoed Sukkos",
-              "condition": "Choose the appropriate occasion"
+              "condition": "Choose the appropriate occasion",
+              "optional": true,
+              "center": true
             },
             {
               "id": "se3-prayer-yaaleh-veyavo-cont",
               "type": "prayer",
-              "heText": "זָכְרֵנוּ יְהוָה אֱלֹהֵינוּ בּוֹ לְטוֹבָה, וּפָקְדֵנוּ בוֹ לִבְרָכָה, וְהוֹשִׁיעֵנוּ בוֹ לְחַיִּים, וּבִדְבַר יְשׁוּעָה וְרַחֲמִים, חוּס וְחָנֵּנוּ וְרַחֵם עָלֵינוּ וְהוֹשִׁיעֵנוּ, כִּי אֵלֶיךָ עֵינֵינוּ, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה."
+              "heText": "זָכְרֵנוּ יְהוָה אֱלֹהֵינוּ בּוֹ לְטוֹבָה, וּפָקְדֵנוּ בוֹ לִבְרָכָה, וְהוֹשִׁיעֵנוּ בוֹ לְחַיִּים, וּבִדְבַר יְשׁוּעָה וְרַחֲמִים, חוּס וְחָנֵּנוּ וְרַחֵם עָלֵינוּ וְהוֹשִׁיעֵנוּ, כִּי אֵלֶיךָ עֵינֵינוּ, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה.",
+              "optional": true
             },
             {
               "id": "se3-commentary-rosh-chodesh-occasions",
               "type": "commentary",
-              "enText": "Rosh Chodesh/Pesach/Sukkos. Give us all goodness, blessings, and life *(even if we are not deserving)*, show compassion on us, because we have turned to You for help, because we know that You, Hashem, control everything, and You are a compassionate and merciful King."
-            },
-            {
-              "id": "se3-header-retzei",
-              "type": "header",
-              "heText": "רְצֵה",
-              "enText": "Retzei"
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please view us favorably, and take into account our special relationship with You and the promises You made to our ancestors: the promise to bring Mashiach and to rebuild Yerushalayim and restore its holiness, and to remember all of Bnei Yisrael everywhere, to deliver us from our exiles *(physical and spiritual)*, and to grant our requests and have mercy on us *(even if we are not deserving)*, and to give us all life and peace on this day of: Rosh Chodesh/Pesach/Sukkos. Give us all goodness, blessings, and life *(even if we are not deserving)*, show compassion on us, because we have turned to You for help, because we know that You, Hashem, control everything, and You are a compassionate and merciful King.",
+              "optional": true
             },
             {
               "id": "se3-prayer-vsechezenah",
@@ -3360,34 +3357,18 @@
               "id": "se3-header-modim",
               "type": "header",
               "heText": "הוֹדָאָה",
-              "enText": "Modim"
-            },
-            {
-              "id": "se3-transition-modim",
-              "type": "transition",
               "enText": "Thank You for everything—large and small!"
             },
             {
               "id": "se3-prayer-modim",
               "type": "prayer",
-              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד: צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדֹר: נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל"
+              "heText": "מוֹדִים אֲנַחְנוּ לָךְ, שָׁאַתָּה הוּא יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ לְעוֹלָם וָעֶד: צוּר חַיֵּינוּ, מָגֵן יִשְׁעֵנוּ אַתָּה הוּא לְדוֹר וָדֹר: נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ, עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ, וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ, וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם: הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ:"
             },
             {
               "id": "se3-commentary-modim",
               "type": "commentary",
               "heText": "",
-              "enText": "**מוֹדִים אֲנַחְנוּ לָךְ**—We thank You, Hashem, for You are our God. You control everything and have taken care of Bnei Yisrael throughout our history from the time of the Avos and forever and all time; **צוּר חַיֵּינוּ מָגֵן יִשְׁעֵנוּ**—You are the rock of our lives and the protector Whom we rely upon. **נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ**—We thank You and speak Your praises; **עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ**—for our lives, which"
-            },
-            {
-              "id": "se3-prayer-modim-cont",
-              "type": "prayer",
-              "heText": "יוֹם עִמָּנוּ, וְעַל נִפְלְאוֹתֶיךָ וְטוֹבוֹתֶיךָ שֶׁבְּכָל עֵת, עֶרֶב וָבֹקֶר וְצָהֳרָיִם: הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ, וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ, מֵעוֹלָם קִוִּינוּ לָךְ:"
-            },
-            {
-              "id": "se3-commentary-modim-cont",
-              "type": "commentary",
-              "heText": "",
-              "enText": "**וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ … וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ**—are entrusted into Your Hand, and our souls, which are in Your care; **וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ**—and for Your *(hidden)* miracles that are with us every day *(and we do not even realize it!)*; and for Your wonders and Your acts of goodness that occur at all times, evening, morning, and afternoon *(literally, twenty-four hours a day, as well as figuratively, during the dark times in our lives, the clear bright times, and the hazy twilight times)*. **הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ**—You are the Benevolent One, for Your compassion is never-ending; **וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ**—You are the Merciful One, for Your loving-kindness is never exhausted; **מֵעוֹלָם קִוִּינוּ לָךְ**—From the beginning of time, we have placed our hope in You."
+              "enText": "**מוֹדִים אֲנַחְנוּ לָךְ**—We thank You, Hashem, for You are our God. You control everything and have taken care of Bnei Yisrael throughout our history from the time of the Avos and forever and all time; **צוּר חַיֵּינוּ מָגֵן יִשְׁעֵנוּ**—You are the rock of our lives and the protector Whom we rely upon. **נוֹדֶה לְּךָ וּנְסַפֵּר תְּהִלָּתֶךָ**—We thank You and speak Your praises; **עַל חַיֵּינוּ הַמְּסוּרִים בְּיָדֶךָ**—for our lives, which are entrusted into Your Hand; **וְעַל נִשְׁמוֹתֵינוּ הַפְּקוּדוֹת לָךְ**—and our souls, which are in Your care; **וְעַל נִסֶּיךָ שֶׁבְּכָל יוֹם עִמָּנוּ**—and for Your *(hidden)* miracles that are with us every day *(and we do not even realize it!)*; and for Your wonders and Your acts of goodness that occur at all times, evening, morning, and afternoon *(literally, twenty-four hours a day, as well as figuratively, during the dark times in our lives, the clear bright times, and the hazy twilight times)*. **הַטּוֹב, כִּי לֹא כָלוּ רַחֲמֶיךָ**—You are the Benevolent One, for Your compassion is never-ending; **וְהַמְרַחֵם, כִּי לֹא תַמּוּ חֲסָדֶיךָ**—You are the Merciful One, for Your loving-kindness is never exhausted; **מֵעוֹלָם קִוִּינוּ לָךְ**—From the beginning of time, we have placed our hope in You."
             },
             {
               "id": "se3-insight-amen-modim",
@@ -3404,12 +3385,7 @@
               "id": "se3-header-modim-drabbanan",
               "type": "header",
               "heText": "מוֹדִים דְּרַבָּנָן",
-              "enText": "Modim D'Rabbanan"
-            },
-            {
-              "id": "se3-transition-modim-drabbanan",
-              "type": "transition",
-              "enText": "When thanking Hashem, an \"Amen\" is not sufficient!"
+              "enText": "When thanking Hashem, an “Amen” is not sufficient!"
             },
             {
               "id": "se3-prayer-modim-drabbanan",
@@ -3427,54 +3403,63 @@
               "type": "rubric",
               "enText": "On Chanukah and Purim add the following special \"Thanks\": (If you forgot, see Appendix 12:7)",
               "xref": "If you forgot, see Appendix 12:7",
-              "condition": "On Chanukah and Purim"
+              "condition": "On Chanukah and Purim",
+              "optional": true
             },
             {
               "id": "se3-prayer-al-hanissim",
               "type": "prayer",
-              "heText": "(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה:"
+              "heText": "(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה:",
+              "optional": true
             },
             {
               "id": "se3-commentary-al-hanissim",
               "type": "commentary",
               "heText": "",
-              "enText": "**(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן**—*(We also thank You)* for our miraculous rescue, for the mighty acts and victories, and for the battles *(from which You allowed us to emerge victorious)* that You performed for our ancestors in those days at this season."
+              "enText": "**(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן**—*(We also thank You)* for our miraculous rescue, for the mighty acts and victories, and for the battles *(from which You allowed us to emerge victorious)* that You performed for our ancestors in those days at this season.",
+              "optional": true
             },
             {
               "id": "se3-rubric-chanukah",
               "type": "rubric",
               "heText": "לַחֲנֻכָּה",
               "enText": "On Chanukah:",
-              "condition": "On Chanukah"
+              "condition": "On Chanukah",
+              "optional": true
             },
             {
               "id": "se3-prayer-bimei-matisyahu",
               "type": "prayer",
-              "heText": "בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ: וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ: וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה: וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל:"
+              "heText": "בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ: וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ: וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה: וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל:",
+              "optional": true
             },
             {
               "id": "se3-commentary-chanukah",
               "type": "commentary",
               "heText": "",
-              "enText": "**בִּימֵי מַתִּתְיָהוּ**—In the days of the Kohen Gadol Matisyahu the Chashmonai and his children, the despotic Syrian-Greek empire rose up against Your people *(Bnei Yisrael)*, to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few *(army of the Chashmonaim)* victorious over the stronger and more numerous *(Greek army)*. You made the Jews who had remained pure from the immorality of the Greek culture *(טְהוֹרִים)*, who had remained righteous and loyal to Torah standards *(צַדִּיקִים)*, and who remained diligent in the study of Torah *(עוֹסְקֵי תוֹרָתֶךָ)* victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture *(טְמֵאִים)* and *(רְשָׁעִים)*, and deliberately tried to eradicate Torah study *(זֵדִים)*. All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You."
+              "enText": "**בִּימֵי מַתִּתְיָהוּ**—In the days of the Kohen Gadol Matisyahu the Chashmonai and his children, the despotic Syrian-Greek empire rose up against Your people *(Bnei Yisrael)*, to try to make them forget Your Torah and abandon the Torah way of life. But You, in Your great mercy, stood by the Torah-true Jews in their time of distress and championed their cause, defended their rights, and avenged the wrongs done to them. You made the weak and few *(army of the Chashmonaim)* victorious over the stronger and more numerous *(Greek army)*. You made the Jews who had remained pure from the immorality of the Greek culture *(טְהוֹרִים)*, who had remained righteous and loyal to Torah standards *(צַדִּיקִים)*, and who remained diligent in the study of Torah *(עוֹסְקֵי תוֹרָתֶךָ)* victorious over the Jews who had taken the side of the Greeks, adopted the immorality of Greek culture *(טְמֵאִים)* and *(רְשָׁעִים)*, and deliberately tried to eradicate Torah study *(זֵדִים)*. All the world recognized Your power and greatness, and You brought about a great liberating victory for Your nation. Then Your children cleaned up and purified the Beis Hamikdash and lit the Menorah and instituted these eight days of Chanukah for giving thanks and praise to You.",
+              "optional": true
             },
             {
               "id": "se3-rubric-purim",
               "type": "rubric",
               "heText": "לְפוּרִים",
               "enText": "On Purim:",
-              "condition": "On Purim"
+              "condition": "On Purim",
+              "optional": true
             },
             {
               "id": "se3-prayer-bimei-mordechai",
               "type": "prayer",
-              "heText": "בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז: וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ:"
+              "heText": "בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז: וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ:",
+              "optional": true
             },
             {
               "id": "se3-commentary-purim",
               "type": "commentary",
               "heText": "",
-              "enText": "**בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows."
+              "enText": "**בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
+              "optional": true
             },
             {
               "id": "se3-prayer-veal-kulam",
@@ -3492,18 +3477,21 @@
               "type": "rubric",
               "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)",
               "xref": "If you forgot, see Appendix 12:2",
-              "condition": "During Aseres Yemei Teshuvah"
+              "condition": "During Aseres Yemei Teshuvah",
+              "optional": true
             },
             {
               "id": "se3-prayer-uchsov",
               "type": "prayer",
-              "heText": "וּכְתֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶךָ:"
+              "heText": "וּכְתֹב לְחַיִּים טוֹבִים כָּל בְּנֵי בְרִיתֶךָ:",
+              "optional": true
             },
             {
               "id": "se3-commentary-uchsov",
               "type": "commentary",
               "heText": "",
-              "enText": "**וּכְתֹב לְחַיִּים טוֹבִים**—And may all the children of Your covenant with the Avos *(that's us!)* be written for a good life."
+              "enText": "**וּכְתֹב לְחַיִּים טוֹבִים**—And may all the children of Your covenant with the Avos *(that's us!)* be written for a good life.",
+              "optional": true
             },
             {
               "id": "se3-prayer-vchol-hachaim",
@@ -3513,8 +3501,7 @@
             {
               "id": "se3-prayer-modim-chasimah",
               "type": "prayer",
-              "heText": "בָּרוּךְ אַתָּה יְהוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת:",
-              "display": true
+              "heText": "בָּרוּךְ אַתָּה יְהוָה, הַטּוֹב שִׁמְךָ וּלְךָ נָאֶה לְהוֹדוֹת:"
             },
             {
               "id": "se3-commentary-vchol-hachaim",
@@ -3543,6 +3530,17 @@
               "id": "se3-prayer-birkas-kohanim",
               "type": "prayer",
               "heText": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ: יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:"
+            },
+            {
+              "id": "se3-rubric-kahal",
+              "type": "rubric",
+              "heText": "הַקָּהָל:",
+              "enText": ""
+            },
+            {
+              "id": "se3-prayer-adir-bamarom",
+              "type": "prayer",
+              "heText": "אָדִיר בַּמָּרוֹם שׁוֹכֵן בִּגְבוּרָה אַתָּה שָׁלוֹם וְשִׁמְךָ שָׁלוֹם. יְהִי רָצוֹן שֶׁתָּשִׂים עָלֵינוּ וְעַל כָּל עַמְּךָ בֵּית יִשְׂרָאֵל, חַיִּים וּבְרָכָה לְמִשְׁמֶרֶת שָׁלוֹם:"
             },
             {
               "id": "se3-commentary-birkas-kohanim",
@@ -3584,19 +3582,22 @@
             {
               "id": "se4-sim-shalom-teshuvah-rubric",
               "type": "rubric",
-              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)"
+              "enText": "During Aseres Yemei Teshuvah add: (If you forgot, see Appendix 12:2)",
+              "optional": true
             },
             {
               "id": "se4-sim-shalom-teshuvah-insert",
               "type": "prayer",
               "heText": "בְּסֵפֶר חַיִּים, בְּרָכָה וְשָׁלוֹם, וּפַרְנָסָה טוֹבָה, נִזָּכֵר וְנִכָּתֵב לְפָנֶיךָ, אֲנַחְנוּ וְכָל עַמְּךָ בֵּית יִשְׂרָאֵל, לְחַיִּים טוֹבִים וּלְשָׁלוֹם:",
               "condition": "During Aseres Yemei Teshuvah",
-              "xref": "Appendix 12:2"
+              "xref": "Appendix 12:2",
+              "optional": true
             },
             {
               "id": "se4-sim-shalom-teshuvah-c",
               "type": "commentary",
-              "enText": "**בְּסֵפֶר חַיִּים**—May we and Your entire nation, the family of Bnei Yisrael, be remembered and written in the book of life, brachah, peace, and prosperity, for a good life and for peace."
+              "enText": "**בְּסֵפֶר חַיִּים**—May we and Your entire nation, the family of Bnei Yisrael, be remembered and written in the book of life, brachah, peace, and prosperity, for a good life and for peace.",
+              "optional": true
             },
             {
               "id": "se4-sim-shalom-bracha",
@@ -3637,18 +3638,22 @@
             {
               "id": "se4-elokai-netzor-tefillah-rubric",
               "type": "rubric",
-              "enText": "Some add the following tefillah:"
+              "enText": "Some add the following tefillah:",
+              "optional": true,
+              "heText": "יֵשׁ אוֹמְרִים כָּאן תְּפִלָּה זוֹ:"
             },
             {
               "id": "se4-elokai-netzor-tefillah-insert",
               "type": "prayer",
               "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי, שֶׁלֹּא תַעֲלֶה קִנְאַת אָדָם עָלַי, וְלֹא קִנְאָתִי עַל אֲחֵרִים, וְשֶׁלֹּא אֶכְעוֹס הַיּוֹם וְשֶׁלֹּא אַכְעִיסֶךָ, וְתַצִּילֵנִי מִיֵּצֶר הָרָע, וְתֵן בְּלִבִּי הַכְנָעָה וַעֲנָוָה, מַלְכֵּנוּ וֵאלֹהֵינוּ, יַחֵד שִׁמְךָ בְּעוֹלָמֶךָ, בְּנֵה עִירְךָ, יַסֵּד בֵּיתֶךָ, וְשַׁכְלֵל הֵיכָלֶךָ, וְקַבֵּץ קִבּוּץ גָּלֻיּוֹת, וּפְדֵה צֹאנֶךָ וְשַׂמַּח עֲדָתֶךָ:",
-              "condition": "Some add the following tefillah"
+              "condition": "Some add the following tefillah",
+              "optional": true
             },
             {
               "id": "se4-elokai-netzor-tefillah-c",
               "type": "commentary",
-              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—Please, Hashem, let no one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble *(despite my accomplishments today)*. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim."
+              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—Please, Hashem, let no one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble *(despite my accomplishments today)*. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim.",
+              "optional": true
             },
             {
               "id": "se4-aseh-lemaan-text",
@@ -3699,13 +3704,13 @@
             {
               "id": "se4-end-rubric",
               "type": "rubric",
-              "enText": "On Rosh Chodesh, Chanukah, and Chol Hamoed, Say Hallel—page 204.",
+              "enText": "On Rosh Chodesh, Chanukah, and Chol Hamoed, Say Hallel.",
               "xref": "page 204"
             },
             {
               "id": "se4-tachanun-xref-rubric",
               "type": "rubric",
-              "enText": "Tachanun—page 83; Avinu Malkeinu—page 78.",
+              "enText": "[Tachanun](prayer:shacharit/p-tachanun); [Avinu Malkeinu](prayer:shacharit/avinu_malkeinu)",
               "xref": "page 83; page 78"
             }
           ]
@@ -3724,202 +3729,242 @@
             {
               "id": "vidui-1",
               "type": "rubric",
-              "enText": "Some add the following before Tachanun:"
+              "enText": "Some add the following before Tachanun:",
+              "optional": true
             },
             {
               "id": "vidui-2",
               "type": "prayer",
-              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, תָּבוֹא לְפָנֶיךָ תְּפִלָּתֵנוּ, וְאַל תִּתְעַלַּם מִתְּחִנָּתֵנוּ, שֶׁאֵין אָנוּ עַזֵּי פָנִים וּקְשֵׁי עֹרֶף לוֹמַר לְפָנֶיךָ יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ, אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ:"
+              "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, תָּבוֹא לְפָנֶיךָ תְּפִלָּתֵנוּ, וְאַל תִּתְעַלַּם מִתְּחִנָּתֵנוּ, שֶׁאֵין אָנוּ עַזֵּי פָנִים וּקְשֵׁי עֹרֶף לוֹמַר לְפָנֶיךָ יְהוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ צַדִּיקִים אֲנַחְנוּ וְלֹא חָטָאנוּ, אֲבָל אֲנַחְנוּ וַאֲבוֹתֵינוּ חָטָאנוּ:",
+              "optional": true
             },
             {
               "id": "vidui-3",
               "type": "commentary",
-              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—You control everything, and have taken care of Bnei Yisrael throughout history starting from the time of the Avos. Please accept our tefillos, and do not turn away from us, for we are not arrogant hypocrites claiming that we are perfect. Rather, we are being honest *(with You and with ourselves)*, and we admit that we have not lived up to our potential!"
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—You control everything, and have taken care of Bnei Yisrael throughout history starting from the time of the Avos. Please accept our tefillos, and do not turn away from us, for we are not arrogant hypocrites claiming that we are perfect. Rather, we are being honest *(with You and with ourselves)*, and we admit that we have not lived up to our potential!",
+              "optional": true
             },
             {
               "id": "vidui-4",
               "type": "prayer",
-              "heText": "אָשַׁמְנוּ. בָּגַדְנוּ. גָּזַלְנוּ. דִּבַּרְנוּ דֹפִי. הֶעֱוִינוּ. וְהִרְשַׁעְנוּ. זַדְנוּ. חָמַסְנוּ. טָפַלְנוּ שֶׁקֶר. יָעַצְנוּ רָע. כִּזַּבְנוּ. לַצְנוּ. מָרַדְנוּ. נִאַצְנוּ. סָרַרְנוּ. עָוִינוּ. פָּשַׁעְנוּ. צָרַרְנוּ. קִשִּׁינוּ עֹרֶף. רָשַׁעְנוּ. שִׁחַתְנוּ. תִּעַבְנוּ. תָּעִינוּ. תִּעְתָּעְנוּ:"
+              "heText": "אָשַׁמְנוּ. בָּגַדְנוּ. גָּזַלְנוּ. דִּבַּרְנוּ דֹפִי. הֶעֱוִינוּ. וְהִרְשַׁעְנוּ. זַדְנוּ. חָמַסְנוּ. טָפַלְנוּ שֶׁקֶר. יָעַצְנוּ רָע. כִּזַּבְנוּ. לַצְנוּ. מָרַדְנוּ. נִאַצְנוּ. סָרַרְנוּ. עָוִינוּ. פָּשַׁעְנוּ. צָרַרְנוּ. קִשִּׁינוּ עֹרֶף. רָשַׁעְנוּ. שִׁחַתְנוּ. תִּעַבְנוּ. תָּעִינוּ. תִּעְתָּעְנוּ:",
+              "optional": true
             },
             {
               "id": "vidui-5",
               "type": "commentary",
-              "enText": "**אָשַׁמְנוּ**—This list of transgressions follows the order of the aleph-beis. Each of the letters from א to ת is meant to help us think of specific areas that we need to work on. If Hebrew does not \"work\" for you, then simply think of specific things in both Hebrew (or English) that you need to work on."
+              "enText": "**אָשַׁמְנוּ. בָּגַדְנוּ**—This list of transgressions follows the order of the aleph-beis. Each of the letters from א to ת is meant to help us think of specific areas that we need to work on. If Hebrew does not “work” for you, then simply think of specific things in both bein adam l’chaveiro *(friends, parents)* and bein adam la’Makom *(tefillah, what you read, watch, and listen to)* and talk to Hashem! Simply explain to Him that you are aware of what you need to work on and will try the best you can! And then say the next paragraph.",
+              "optional": true
             },
             {
               "id": "vidui-6",
               "type": "prayer",
-              "heText": "סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים וְלֹא שָׁוָה לָנוּ. וְאַתָּה צַדִּיק עַל כָּל הַבָּא עָלֵינוּ, כִּי אֱמֶת עָשִׂיתָ, וַאֲנַחְנוּ הִרְשָׁעְנוּ:"
+              "heText": "סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים וְלֹא שָׁוָה לָנוּ. וְאַתָּה צַדִּיק עַל כָּל הַבָּא עָלֵינוּ, כִּי אֱמֶת עָשִׂיתָ, וַאֲנַחְנוּ הִרְשָׁעְנוּ:",
+              "optional": true
             },
             {
               "id": "vidui-7",
               "type": "commentary",
-              "enText": "**סַרְנוּ מִמִּצְוֹתֶיךָ**—We have strayed from Your mitzvos, which we know are good, and those inappropriate activities are truly above such actions *(which is why we are asking for time to improve so that we can live up to our true potential!)*."
+              "enText": "**סַרְנוּ מִמִּצְוֹתֶיךָ וּמִמִּשְׁפָּטֶיךָ הַטּוֹבִים**—We have strayed from Your mitzvos, which we know You gave us for our own good; **וְלֹא שָׁוָה לָנוּ**—and those inappropriate activities are not befitting who we really are, for we are truly above such actions *(which is why we are asking for time to improve so that we can live up to our true potential!)*.",
+              "optional": true
             },
             {
               "id": "vidui-8",
               "type": "prayer",
-              "heText": "אֵל אֶרֶךְ אַפַּיִם אַתָּה וּבַעַל הָרַחֲמִים נִקְרֵאתָ, וְדֶרֶךְ תְּשׁוּבָה הוֹרֵיתָ, גְּדֻלַּת רַחֲמֶיךָ וַחֲסָדֶיךָ תִּזְכּוֹר הַיּוֹם וּבְכָל יוֹם לְזֶרַע יְדִידֶיךָ: תֵּפֶן אֵלֵינוּ בְּרַחֲמִים, כִּי אַתָּה הוּא בַּעַל הָרַחֲמִים: בְּתַחֲנוּן וּבִתְפִלָּה פָּנֶיךָ נְקַדֵּם, כְּהוֹדַעְתָּ לֶעָנָיו מִקֶּדֶם, מֵחֲרוֹן אַפְּךָ שׁוּב, כְּמוֹ בְּתוֹרָתְךָ כָּתוּב, וּבְצֵל כְּנָפֶיךָ נֶחֱסֶה וְנִתְלוֹנָן, כְּיוֹם וַיֵּרֶד יְהוָה בֶּעָנָן, תַּעֲבוֹר עַל פֶּשַׁע וְתִמְחֶה אָשָׁם, כְּיוֹם וַיִּתְיַצֵּב עִמּוֹ שָׁם, תַּאֲזִין שַׁוְעָתֵנוּ וְתַקְשִׁיב מֶנּוּ מַאֲמָר, כְּיוֹם וַיִּקְרָא בְשֵׁם יְהוָה, וְשָׁם נֶאֱמַר:"
+              "heText": "אֵל אֶרֶךְ אַפַּיִם אַתָּה וּבַעַל הָרַחֲמִים נִקְרֵאתָ, וְדֶרֶךְ תְּשׁוּבָה הוֹרֵיתָ, גְּדֻלַּת רַחֲמֶיךָ וַחֲסָדֶיךָ תִּזְכּוֹר הַיּוֹם וּבְכָל יוֹם לְזֶרַע יְדִידֶיךָ: תֵּפֶן אֵלֵינוּ בְּרַחֲמִים, כִּי אַתָּה הוּא בַּעַל הָרַחֲמִים: בְּתַחֲנוּן וּבִתְפִלָּה פָּנֶיךָ נְקַדֵּם, כְּהוֹדַעְתָּ לֶעָנָיו מִקֶּדֶם, מֵחֲרוֹן אַפְּךָ שׁוּב, כְּמוֹ בְּתוֹרָתְךָ כָּתוּב, וּבְצֵל כְּנָפֶיךָ נֶחֱסֶה וְנִתְלוֹנָן, כְּיוֹם וַיֵּרֶד יְהוָה בֶּעָנָן, תַּעֲבוֹר עַל פֶּשַׁע וְתִמְחֶה אָשָׁם, כְּיוֹם וַיִּתְיַצֵּב עִמּוֹ שָׁם, תַּאֲזִין שַׁוְעָתֵנוּ וְתַקְשִׁיב מֶנּוּ מַאֲמָר, כְּיוֹם וַיִּקְרָא בְשֵׁם יְהוָה, וְשָׁם נֶאֱמַר:",
+              "optional": true
             },
             {
               "id": "vidui-9",
               "type": "commentary",
-              "enText": "**אֵל אֶרֶךְ אַפַּיִם**—Your thirteen attributes of mercy *(which are spelled out below)* are introduced here. We ask Hashem to relate to us with these attributes—to be patient, to remember the greatness of His mercy and kindness, and to give us another chance, as it says in the Torah."
+              "enText": "**אֵל אֶרֶךְ אַפַּיִם**—You are slow to anger and full of compassion *(and thus we ask for time to get back on track)*. Please show us compassion and listen to our requests *(for help in returning to You and living up to our true potential)*. You Yourself taught Moshe that we should proclaim Your thirteen attributes of mercy *(יג מדות הרחמים)*, and You will listen to our requests, forgive our mistakes, and give us another chance, as it says in the Torah.",
+              "optional": true
             },
             {
               "id": "vidui-10",
               "type": "rubric",
-              "enText": "The following is only said with a minyan:"
+              "enText": "The following is only said with a minyan:",
+              "optional": true
             },
             {
               "id": "vidui-11",
               "type": "prayer",
-              "heText": "וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא:"
+              "heText": "וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא:",
+              "optional": true
             },
             {
               "id": "vidui-12",
               "type": "commentary",
-              "enText": "**וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא**—And Hashem passed before Moshe and Hashem called out *(that we should say the following in our tefillos)*."
+              "enText": "**וַיַּעֲבֹר יְהוָה עַל פָּנָיו וַיִּקְרָא**—And Hashem passed before Moshe and Hashem called out *(that we should say the following in our tefillos)*.",
+              "optional": true
             },
             {
               "id": "vidui-13",
               "type": "prayer",
-              "heText": "יְהוָה."
+              "heText": "יְהוָה.",
+              "optional": true
             },
             {
               "id": "vidui-14",
               "type": "commentary",
-              "enText": "**יְהוָה**—He is compassionate before one has sinned. We need Hashem's mercy even before we ever sin, for Hashem owes us nothing! All that we have is only due to His mercy and compassion."
+              "enText": "**יְהוָה**—He is compassionate before one has sinned. We need Hashem's mercy even before we ever sin, for Hashem owes us nothing! All that we have is only due to His mercy and compassion.",
+              "optional": true
             },
             {
               "id": "vidui-15",
               "type": "prayer",
-              "heText": "יְהוָה."
+              "heText": "יְהוָה.",
+              "optional": true
             },
             {
               "id": "vidui-16",
               "type": "commentary",
-              "enText": "**יְהוָה**—He is compassionate after one has sinned and done teshuvah. Unlike human beings, who tend to distance themselves from those who have wronged them, Hashem's closeness to us remains even after we have sinned *(even seriously)* against Him."
+              "enText": "**יְהוָה**—He is compassionate after one has sinned and done teshuvah. Unlike human beings, who tend to distance themselves from those who have wronged them, Hashem's closeness to us remains even after we have sinned *(even seriously)* against Him.",
+              "optional": true
             },
             {
               "id": "vidui-17",
               "type": "prayer",
-              "heText": "אֵל."
+              "heText": "אֵל.",
+              "optional": true
             },
             {
               "id": "vidui-18",
               "type": "commentary",
-              "enText": "**אֵל**—Hashem compassionately uses His might to restrain His anger and arouse His mercy."
+              "enText": "**אֵל**—Hashem compassionately uses His might to restrain His anger and arouse His mercy.",
+              "optional": true
             },
             {
               "id": "vidui-19",
               "type": "prayer",
-              "heText": "רַחוּם."
+              "heText": "רַחוּם.",
+              "optional": true
             },
             {
               "id": "vidui-20",
               "type": "commentary",
-              "enText": "**רַחוּם**—He eases the punishment of sinners when they call out to Him."
+              "enText": "**רַחוּם**—He eases the punishment of sinners when they call out to Him.",
+              "optional": true
             },
             {
               "id": "vidui-21",
               "type": "prayer",
-              "heText": "וְחַנּוּן."
+              "heText": "וְחַנּוּן.",
+              "optional": true
             },
             {
               "id": "vidui-22",
               "type": "commentary",
-              "enText": "**וְחַנּוּן**—He acts charitably to those who ask for it, even if they are unworthy."
+              "enText": "**וְחַנּוּן**—He acts charitably to those who ask for it, even if they are unworthy.",
+              "optional": true
             },
             {
               "id": "vidui-23",
               "type": "prayer",
-              "heText": "אֶרֶךְ אַפַּיִם."
+              "heText": "אֶרֶךְ אַפַּיִם.",
+              "optional": true
             },
             {
               "id": "vidui-24",
               "type": "commentary",
-              "enText": "**אֶרֶךְ אַפַּיִם**—He is slow to anger and does not punish us immediately—in the hope that we will improve."
+              "enText": "**אֶרֶךְ אַפַּיִם**—He is slow to anger and does not punish us immediately—in the hope that we will improve.",
+              "optional": true
             },
             {
               "id": "vidui-25",
               "type": "prayer",
-              "heText": "וְרַב חֶסֶד."
+              "heText": "וְרַב חֶסֶד.",
+              "optional": true
             },
             {
               "id": "vidui-26",
               "type": "commentary",
-              "enText": "**וְרַב חֶסֶד**—He shows great chesed to those who need it but do not necessarily deserve it by their own merit."
+              "enText": "**וְרַב חֶסֶד**—He shows great chesed to those who need it but do not necessarily deserve it by their own merit.",
+              "optional": true
             },
             {
               "id": "vidui-27",
               "type": "prayer",
-              "heText": "וֶאֱמֶת."
+              "heText": "וֶאֱמֶת.",
+              "optional": true
             },
             {
               "id": "vidui-28",
               "type": "commentary",
-              "enText": "**וֶאֱמֶת**—He is faithful to generously reward those who do His will."
+              "enText": "**וֶאֱמֶת**—He is faithful to generously reward those who do His will.",
+              "optional": true
             },
             {
               "id": "vidui-29",
               "type": "prayer",
-              "heText": "נֹצֵר חֶסֶד לָאֲלָפִים."
+              "heText": "נֹצֵר חֶסֶד לָאֲלָפִים.",
+              "optional": true
             },
             {
               "id": "vidui-30",
               "type": "commentary",
-              "enText": "**נֹצֵר חֶסֶד לָאֲלָפִים**—He extends the reward for mitzvos that a person does for two thousand generations *(for the benefit of his descendants)*."
+              "enText": "**נֹצֵר חֶסֶד לָאֲלָפִים**—He extends the reward for mitzvos that a person does for two thousand generations *(for the benefit of his descendants)*.",
+              "optional": true
             },
             {
               "id": "vidui-31",
               "type": "prayer",
-              "heText": "נֹשֵׂא עָוֹן."
+              "heText": "נֹשֵׂא עָוֹן.",
+              "optional": true
             },
             {
               "id": "vidui-32",
               "type": "commentary",
-              "enText": "**נֹשֵׂא עָוֹן**—He forgives deliberate sins."
+              "enText": "**נֹשֵׂא עָוֹן**—He forgives deliberate sins.",
+              "optional": true
             },
             {
               "id": "vidui-33",
               "type": "prayer",
-              "heText": "וָפֶשַׁע."
+              "heText": "וָפֶשַׁע.",
+              "optional": true
             },
             {
               "id": "vidui-34",
               "type": "commentary",
-              "enText": "**וָפֶשַׁע**—He forgives rebellious sins."
+              "enText": "**וָפֶשַׁע**—He forgives rebellious sins.",
+              "optional": true
             },
             {
               "id": "vidui-35",
               "type": "prayer",
-              "heText": "וְחַטָּאָה."
+              "heText": "וְחַטָּאָה.",
+              "optional": true
             },
             {
               "id": "vidui-36",
               "type": "commentary",
-              "enText": "**וְחַטָּאָה**—He forgives unintentional sins."
+              "enText": "**וְחַטָּאָה**—He forgives unintentional sins.",
+              "optional": true
             },
             {
               "id": "vidui-37",
               "type": "prayer",
-              "heText": "וְנַקֵּה."
+              "heText": "וְנַקֵּה.",
+              "optional": true
             },
             {
               "id": "vidui-38",
               "type": "commentary",
-              "enText": "**וְנַקֵּה**—He cleanses those who do teshuvah and gives them a fresh start!"
+              "enText": "**וְנַקֵּה**—He cleanses those who do teshuvah and gives them a fresh start!",
+              "optional": true
             },
             {
               "id": "vidui-39",
               "type": "prayer",
-              "heText": "וְסָלַחְתָּ לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ: סְלַח לָנוּ אָבִינוּ כִּי חָטָאנוּ, מְחַל לָנוּ מַלְכֵּנוּ כִּי פָשָׁעְנוּ, כִּי אַתָּה אֲדֹנָי טוֹב וְסַלָּח וְרַב חֶסֶד לְכָל קֹרְאֶיךָ:"
+              "heText": "וְסָלַחְתָּ לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ: סְלַח לָנוּ אָבִינוּ כִּי חָטָאנוּ, מְחַל לָנוּ מַלְכֵּנוּ כִּי פָשָׁעְנוּ, כִּי אַתָּה אֲדֹנָי טוֹב וְסַלָּח וְרַב חֶסֶד לְכָל קֹרְאֶיךָ:",
+              "optional": true
             },
             {
               "id": "vidui-40",
               "type": "commentary",
-              "enText": "**וְסָלַחְתָּ לַעֲוֹנֵנוּ**—Please forgive our sins—and keep us as Your special and eternal nation—for You are full of kindness to all who call to You."
+              "enText": "**וְסָלַחְתָּ לַעֲוֹנֵנוּ**—Please forgive our sins—and keep us as Your special and eternal nation—for You are full of kindness to all who call to You.",
+              "optional": true
             }
           ]
         },
@@ -3928,66 +3973,6 @@
           "heTitle": "אָבִינוּ מַלְכֵּנוּ",
           "enTitle": "Avinu Malkeinu",
           "segments": [
-            {
-              "id": "avinu_malkeinu_intro_continued_1",
-              "type": "prayer",
-              "heText": "נֹצֵר חֶסֶד לָאֲלָפִים."
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_1",
-              "type": "commentary",
-              "enText": "He extends the reward for mitzvos that a person does for two thousand generations (for the benefit of his descendants)."
-            },
-            {
-              "id": "avinu_malkeinu_intro_continued_2",
-              "type": "prayer",
-              "heText": "נֹשֵׂא עָוֹן."
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_2",
-              "type": "commentary",
-              "enText": "He forgives deliberate sins."
-            },
-            {
-              "id": "avinu_malkeinu_intro_continued_3",
-              "type": "prayer",
-              "heText": "וָפֶשַׁע."
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_3",
-              "type": "commentary",
-              "enText": "He forgives rebellious sins."
-            },
-            {
-              "id": "avinu_malkeinu_intro_continued_4",
-              "type": "prayer",
-              "heText": "וְחַטָּאָה."
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_4",
-              "type": "commentary",
-              "enText": "He forgives unintentional sins."
-            },
-            {
-              "id": "avinu_malkeinu_intro_continued_5",
-              "type": "prayer",
-              "heText": "וְנַקֵּה:"
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_5",
-              "type": "commentary",
-              "enText": "He cleanses those who do teshuvah and gives them a fresh start!"
-            },
-            {
-              "id": "avinu_malkeinu_intro_continued_6",
-              "type": "prayer",
-              "heText": "וְסָלַחְתָּ לַעֲוֹנֵנוּ וּלְחַטָּאתֵנוּ וּנְחַלְתָּנוּ: סְלַח לָנוּ אָבִינוּ כִּי חָטָאנוּ, מְחַל לָנוּ מַלְכֵּנוּ כִּי פָשָׁעְנוּ, כִּי אַתָּה אֲדֹנָי טוֹב וְסַלָּח וְרַב חֶסֶד לְכָל קֹרְאֶיךָ:"
-            },
-            {
-              "id": "avinu_malkeinu_intro_commentary_6",
-              "type": "commentary",
-              "enText": "Please forgive our sins—and keep us as Your special and eternal nation—for You are full of kindness to all who call to You."
-            },
             {
               "id": "avinu_malkeinu_header",
               "type": "header",
@@ -4037,7 +4022,7 @@
             {
               "id": "avinu_malkeinu_commentary_2",
               "type": "commentary",
-              "enText": "Our Father, our King, (even though we may not be personally deserving, but please) we have no King besides You!"
+              "enText": "Our Father, our King, (even though we may have messed up, still we accept and publicly proclaim that) we have no King besides You!"
             },
             {
               "id": "avinu_malkeinu_3",
@@ -4058,13 +4043,15 @@
               "id": "avinu_malkeinu_4a",
               "type": "prayer",
               "heText": "אָבִינוּ מַלְכֵּנוּ חַדֵּשׁ עָלֵינוּ שָׁנָה טוֹבָה:",
-              "condition": "aseres_yemei_teshuvah"
+              "condition": "aseres_yemei_teshuvah",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_4a",
               "type": "commentary",
               "enText": "Our Father, our King, initiate for us a good new year.",
-              "condition": "aseres_yemei_teshuvah"
+              "condition": "aseres_yemei_teshuvah",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_rubric_fast_4",
@@ -4075,13 +4062,15 @@
               "id": "avinu_malkeinu_4b",
               "type": "prayer",
               "heText": "אָבִינוּ מַלְכֵּנוּ בָּרֵךְ עָלֵינוּ שָׁנָה טוֹבָה:",
-              "condition": "fast_day"
+              "condition": "fast_day",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_4b",
               "type": "commentary",
               "enText": "Our Father, our King, bless us with a good year.",
-              "condition": "fast_day"
+              "condition": "fast_day",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_5",
@@ -4122,6 +4111,26 @@
               "id": "avinu_malkeinu_commentary_8",
               "type": "commentary",
               "enText": "Our Father, our King, destroy all those who attack and oppress us."
+            },
+            {
+              "id": "avinu_malkeinu_8b",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ סְתֹם פִּיּוֹת מַשְׂטִינֵינוּ וּמְקַטְרִיגֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_8b",
+              "type": "commentary",
+              "enText": "Our Father, our King, close up the mouths of our adversaries and accusers."
+            },
+            {
+              "id": "avinu_malkeinu_8c",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ כַּלֵּה דֶּבֶר וְחֶרֶב וְרָעָב וּשְׁבִי וּמַשְׁחִית וְעָוֹן וּשְׁמַד מִבְּנֵי בְרִיתֶךָ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_8c",
+              "type": "commentary",
+              "enText": "Our Father, our King, get rid of all diseases, wars, hunger, captivity, destruction, evildoing, and negative spiritual influences from Your nation."
             },
             {
               "id": "avinu_malkeinu_9",
@@ -4216,52 +4225,62 @@
             {
               "id": "avinu_malkeinu_ayt_1",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר חַיִּים טוֹבִים:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_ayt_1",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of good life."
+              "enText": "Our Father, our King, write us in the book of good life.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_ayt_2",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר גְּאֻלָּה וִישׁוּעָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר גְּאֻלָּה וִישׁוּעָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_ayt_2",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of those who will see the geulah and be saved."
+              "enText": "Our Father, our King, write us in the book of those who will see the geulah and be saved.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_ayt_3",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_ayt_3",
               "type": "commentary",
-              "enText": "Our Father, our King, write us for a livelihood and material sustenance."
+              "enText": "Our Father, our King, write us for a livelihood and material sustenance.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_ayt_4",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר זְכֻיּוֹת:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר זְכֻיּוֹת:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_ayt_4",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of merits."
+              "enText": "Our Father, our King, write us in the book of merits.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_ayt_5",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר סְלִיחָה וּמְחִילָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ כָּתְבֵנוּ בְּסֵפֶר סְלִיחָה וּמְחִילָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_ayt_5",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of those who will be pardoned and forgiven."
+              "enText": "Our Father, our King, write us in the book of those who will be pardoned and forgiven.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_rubric_fast",
@@ -4271,52 +4290,62 @@
             {
               "id": "avinu_malkeinu_fast_1",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לְחַיִּים טוֹבִים:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לְחַיִּים טוֹבִים:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_fast_1",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us for a good life."
+              "enText": "Our Father, our King, remember us for a good life.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_fast_2",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִגְאֻלָּה וִישׁוּעָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִגְאֻלָּה וִישׁוּעָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_fast_2",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us and bring the geulah and save us."
+              "enText": "Our Father, our King, remember us and bring the geulah and save us.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_fast_3",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִפַּרְנָסָה וְכַלְכָּלָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_fast_3",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us and ensure we have a livelihood and material sustenance."
+              "enText": "Our Father, our King, remember us and ensure we have a livelihood and material sustenance.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_fast_4",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִזְכֻיּוֹת:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִזְכֻיּוֹת:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_fast_4",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us for merits."
+              "enText": "Our Father, our King, remember us for merits.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_fast_5",
               "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִסְלִיחָה וּמְחִילָה:"
+              "heText": "אָבִינוּ מַלְכֵּנוּ זָכְרֵנוּ לִסְלִיחָה וּמְחִילָה:",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_commentary_fast_5",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us and pardon and forgive us."
+              "enText": "Our Father, our King, remember us and pardon and forgive us.",
+              "optional": true
             },
             {
               "id": "avinu_malkeinu_insight_merits",
@@ -4461,7 +4490,7 @@
             {
               "id": "avinu_malkeinu_commentary_30",
               "type": "commentary",
-              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the sake of those who were slaughtered for proclaiming the Oneness of Hashem."
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the sake of those who were slaughtered for proclaiming the Oneness of Hashem *(as expressed in the Shema)*."
             },
             {
               "id": "avinu_malkeinu_31",
@@ -4512,6 +4541,26 @@
               "id": "avinu_malkeinu_commentary_35",
               "type": "commentary",
               "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us because of Your abundant compassion."
+            },
+            {
+              "id": "avinu_malkeinu_36",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן שְׁמָךְ הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא שֶׁנִּקְרָא עָלֵינוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_36",
+              "type": "commentary",
+              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the glory of Your great and awesome Name that the world intuitively knows rests on us, Your people."
+            },
+            {
+              "id": "avinu_malkeinu_37",
+              "type": "prayer",
+              "heText": "אָבִינוּ מַלְכֵּנוּ חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:"
+            },
+            {
+              "id": "avinu_malkeinu_commentary_37",
+              "type": "commentary",
+              "enText": "Our Father, our King, be kind to us and answer us, even though we do not have good deeds; treat us with leniency and loving-kindness and save us."
             }
           ]
         },
@@ -4520,26 +4569,6 @@
           "heTitle": "תַּחֲנוּן",
           "enTitle": "Tachanun",
           "segments": [
-            {
-              "id": "tach1-s1",
-              "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ עֲשֵׂה לְמַעַן שְׁמָךְ הַגָּדוֹל הַגִּבּוֹר וְהַנּוֹרָא שֶׁנִּקְרָא עָלֵינוּ:"
-            },
-            {
-              "id": "tach1-s2",
-              "type": "commentary",
-              "enText": "Our Father, our King, *(even if we are not deserving)* act with mercy toward us for the glory of Your great and awesome Name that the world intuitively knows rests on us, Your people."
-            },
-            {
-              "id": "tach1-s3",
-              "type": "prayer",
-              "heText": "אָבִינוּ מַלְכֵּנוּ חָנֵּנוּ וַעֲנֵנוּ כִּי אֵין בָּנוּ מַעֲשִׂים עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ:"
-            },
-            {
-              "id": "tach1-s4",
-              "type": "commentary",
-              "enText": "Our Father, our King, be kind to us and answer us, even though we do not have good deeds; treat us with leniency and loving-kindness and save us."
-            },
             {
               "id": "tach1-s5",
               "type": "header",
@@ -4568,6 +4597,18 @@
               "enText": "There is a very tricky and delicate balance needed in proper, healthy avodas Hashem, which is reflected in our tefillos. On one hand, we need to admit (to Hashem and to ourselves!) that we have made mistakes and are not completely living up to our potential. In terms of strict justice and the letter of the law, we are not really worthy of all the bounty that Hashem gives us. There are even times that we use His gifts against Him! And that is the major focus of Tachanun. But on the other hand, the goal of saying Tachanun is not to give up and say, \"OK—so I'm just a big loser—forget it!\" As we explained earlier, by Modeh Ani—clearly Hashem believes in you! He woke you up. He believes you are important and that you CAN correct your mistakes in order to reach greater heights! But if you avoid confronting your mistakes and tell yourself, \"I'm doing just fine and I have nothing to improve,\" you'll never aspire to be the greatest \"you\" you can be. Be honest about your faults, and then believe in yourself as much as Hashem believes in you!"
             },
             {
+              "id": "tach1-s15",
+              "type": "commentary",
+              "enText": "*NOTE:* The general custom is that women do not say Tachanun (neither the \"long Tachanun\" nor the \"short Tachanun\"). Why? The most common explanation is that Tachanun, similar to Maariv, was originally an optional tefillah that women did not accept upon themselves.",
+              "condition": "Women do not say Tachanun"
+            },
+            {
+              "id": "tach1-s16",
+              "type": "faq",
+              "enText": "FAQ: But why? Why the differences in tefillah (and practices) between men and women? ANSWER: Very complicated question! See Appendix 11.",
+              "xref": "Appendix 11"
+            },
+            {
               "id": "tach1-s10",
               "type": "section_intro",
               "enText": "**\"Long Tachanun\" (only on Mondays and Thursdays)**"
@@ -4594,18 +4635,6 @@
               "enText": "Since the wording of the seven paragraphs of \"long Tachanun\" is quite straightforward and understandable, we will simply point out the key themes of each paragraph."
             },
             {
-              "id": "tach1-s15",
-              "type": "commentary",
-              "enText": "*NOTE:* The general custom is that women do not say Tachanun (neither the \"long Tachanun\" nor the \"short Tachanun\"). Why? The most common explanation is that Tachanun, similar to Maariv, was originally an optional tefillah that women did not accept upon themselves.",
-              "condition": "Women do not say Tachanun"
-            },
-            {
-              "id": "tach1-s16",
-              "type": "faq",
-              "enText": "FAQ: But why? Why the differences in tefillah (and practices) between men and women? ANSWER: Very complicated question! See Appendix 11.",
-              "xref": "Appendix 11"
-            },
-            {
               "id": "tach1-s17",
               "type": "prayer",
               "heText": "וְהוּא רַחוּם יְכַפֵּר עָוֹן וְלֹא יַשְׁחִית, וְהִרְבָּה לְהָשִׁיב אַפּוֹ וְלֹא יָעִיר כָּל חֲמָתוֹ: אַתָּה יְהֹוָה, לֹא תִכְלָא רַחֲמֶיךָ מִמֶּנִּי, חַסְדְּךָ וַאֲמִתְּךָ תָּמִיד יִצְּרוּנִי: הוֹשִׁיעֵנוּ יְהֹוָה אֱלֹהֵינוּ וְקַבְּצֵנוּ מִן הַגּוֹיִם, לְהֹדוֹת לְשֵׁם קָדְשֶׁךָ, לְהִשְׁתַּבֵּחַ בִּתְהִלָּתֶךָ: אִם עֲוֹנוֹת תִּשְׁמָר יָהּ, אֲדֹנָי מִי יַעֲמֹד: כִּי עִמְּךָ הַסְּלִיחָה לְמַעַן תִּוָּרֵא: לֹא כַחֲטָאֵינוּ תַּעֲשֶׂה לָּנוּ וְלֹא כַעֲוֹנֹתֵינוּ תִּגְמֹל עָלֵינוּ: אִם עֲוֹנֵינוּ עָנוּ בָנוּ, יְהֹוָה, עֲשֵׂה לְמַעַן שְׁמֶךָ: זְכֹר רַחֲמֶיךָ יְהֹוָה וַחֲסָדֶיךָ כִּי מֵעוֹלָם הֵמָּה: יַעַנְךָ יְהֹוָה בְּיוֹם צָרָה, יְשַׂגֶּבְךָ שֵׁם אֱלֹהֵי יַעֲקֹב: יְהֹוָה הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ: אָבִינוּ מַלְכֵּנוּ חָנֵּנוּ וַעֲנֵנוּ, כִּי אֵין בָּנוּ מַעֲשִׂים, עֲשֵׂה עִמָּנוּ צְדָקָה וָחֶסֶד וְהוֹשִׁיעֵנוּ: וַאֲנַחְנוּ לֹא נֵדַע מַה נַּעֲשֶׂה, כִּי עָלֶיךָ עֵינֵינוּ: זְכֹר רַחֲמֶיךָ יְהֹוָה וַחֲסָדֶיךָ, כִּי מֵעוֹלָם הֵמָּה: יְהִי חַסְדְּךָ יְהֹוָה עָלֵינוּ, כַּאֲשֶׁר יִחַלְנוּ לָךְ: אַל תִּזְכָּר לָנוּ עֲוֹנֹת רִאשׁוֹנִים, מַהֵר יְקַדְּמוּנוּ רַחֲמֶיךָ, כִּי דַלּוֹנוּ מְאֹד: חָנֵּנוּ יְהֹוָה חָנֵּנוּ, כִּי רַב שָׂבַעְנוּ בוּז: בְּרֹגֶז רַחֵם תִּזְכּוֹר:"
@@ -4613,7 +4642,7 @@
             {
               "id": "tach1-s18",
               "type": "commentary",
-              "enText": "*וְהוּא **רַחוּם יְכַפֵּר עָוֹן**—*We admit that it is because of our own sins that we, Your nation, and Your holy city Yerushalayim have become an object of scorn among the nations *(which is a huge chillul Hashem).* We ask that You save us and Your city in the merit of our ancestors and because Your kindness is eternal."
+              "enText": "**וְהוּא רַחוּם יְכַפֵּר עָוֹן**—We admit that it is because of our own sins that we, Your nation, and Your holy city Yerushalayim have become an object of scorn among the nations *(which is a huge chillul Hashem).* We ask that You save us and Your city in the merit of our ancestors and because Your kindness is eternal."
             },
             {
               "id": "tach1-s19",
@@ -4623,7 +4652,7 @@
             {
               "id": "tach1-s20",
               "type": "commentary",
-              "enText": "*הַטֵּה **אֱלֹהַי אָזְנְךָ וּשְׁמָע**—*See our desolation and the desolation of Your city Yerushalayim. Though all of that is our own fault, still, if Your nation would perish and if Your city would fall, then the nations of the world would say, \"Where is their God?\"—which would be a huge chillul Hashem! Therefore, please save us and rebuild Yerushalayim so that everyone will recognize You and Your providence."
+              "enText": "**הַטֵּה אֱלֹהַי אָזְנְךָ וּשְׁמָע**—See our desolation and the desolation of Your city Yerushalayim. Though all of that is our own fault, still, if Your nation would perish and if Your city would fall, then the nations of the world would say, \"Where is their God?\"—which would be a huge chillul Hashem! Therefore, please save us and rebuild Yerushalayim so that everyone will recognize You and Your providence."
             },
             {
               "id": "tach1-s21",
@@ -4633,7 +4662,7 @@
             {
               "id": "tach1-s22",
               "type": "commentary",
-              "enText": "*הַבֶּט **נָא רַחֶם נָא**—*Save us and have compassion on us in the merit of the promise *(ברית)* You made to the Avos that we would be Your eternal nation."
+              "enText": "**הַבֶּט נָא רַחֶם נָא**—Save us and have compassion on us in the merit of the promise *(ברית)* You made to the Avos that we would be Your eternal nation."
             },
             {
               "id": "tach1-s23",
@@ -4643,7 +4672,7 @@
             {
               "id": "tach1-s24",
               "type": "commentary",
-              "enText": "*אָנָּא **מֶלֶךְ חַנּוּן וְרַחוּם**—*Do not forsake us and do not be far away from us; see all that we have suffered throughout our history. Save us in the merit of the Bris Bein Habesarim and in the merit of Akeidas Yitzchak."
+              "enText": "**אָנָּא מֶלֶךְ חַנּוּן וְרַחוּם**—Do not forsake us and do not be far away from us; see all that we have suffered throughout our history. Save us in the merit of the Bris Bein Habesarim and in the merit of Akeidas Yitzchak."
             },
             {
               "id": "tach1-s25",
@@ -4653,7 +4682,7 @@
             {
               "id": "tach1-s26",
               "type": "commentary",
-              "enText": "*אַל **רַחוּם וְחַנּוּן**—*Please forgive our sins and save us from all our troubles and sorrows, for You are full of mercy and compassion. The world knows we are Your nation, and the nations recognize Your power by what happens to us!"
+              "enText": "**אַל רַחוּם וְחַנּוּן**—Please forgive our sins and save us from all our troubles and sorrows, for You are full of mercy and compassion. The world knows we are Your nation, and the nations recognize Your power by what happens to us!"
             },
             {
               "id": "tach1-s27",
@@ -4663,7 +4692,7 @@
             {
               "id": "tach1-s28",
               "type": "commentary",
-              "enText": "*אֵין **כָּמוֹךָ חַנּוּן וְרַחוּם**—*We will examine our actions, try to improve, and return to You—for You, Hashem, are always open to accepting our teshuvah. Help us achieve our teshuvah and save us from our troubles, for it is only You, Hashem, that we turn to for help."
+              "enText": "**אֵין כָּמוֹךָ חַנּוּן וְרַחוּם**—We will examine our actions, try to improve, and return to You—for You, Hashem, are always open to accepting our teshuvah. Help us achieve our teshuvah and save us from our troubles, for it is only You, Hashem, that we turn to for help."
             },
             {
               "id": "tach1-s29",
@@ -4679,7 +4708,7 @@
               "id": "tach2-s2",
               "type": "commentary",
               "heText": "",
-              "enText": "**הַפּוֹתֵחַ יָד בִּתְשׁוּבָה**—Though we have not lived up to our potential, please remember the bris with the Avos and our daily proclamations of the Shema, which is our acceptance of You as our only God. Have mercy on Your land and on Your nation, and show Your power over Your enemies. And show favor to us, the nation who, with constant love, proclaim twice a day: *שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד!*"
+              "enText": "**הַפּוֹתֵחַ יָד בִּתְשׁוּבָה**—Though we have not lived up to our potential, please remember the bris with the Avos and our daily proclamations of the Shema, which is our acceptance of You as our only God. Have mercy on Your land and on Your children, and show Your power over Your enemies. And show favor to us, the nation who, with constant love, proclaim twice a day: **שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד!**"
             },
             {
               "id": "tach2-s3",
@@ -4733,7 +4762,7 @@
               "id": "tach2-s12",
               "type": "commentary",
               "heText": "",
-              "enText": "**יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל**—As Moshe said to Hashem after the sin of the golden calf, when asking Him to forgive Bnei Yisrael) Hashem, turn back from Your fierce anger; **וְהִנָּחֵם עַל הָרָעָה לְעַמֶּךָ**—and soften the harsh punishment You intended to inflict on Your people."
+              "enText": "**יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל**—As Moshe said to Hashem after the sin of the golden calf, when asking Him to forgive Bnei Yisrael, Hashem, turn back from Your fierce anger; **וְהִנָּחֵם עַל הָרָעָה לְעַמֶּךָ**—and soften the harsh punishment You intended to inflict on Your people."
             },
             {
               "id": "tach2-s13",
@@ -4744,14 +4773,14 @@
             {
               "id": "tach2-s14",
               "type": "commentary",
-              "enText": "We now describe our nation's state of suffering—each followed by the above plea *יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל הָרָעָה לְעַמֶּךָ* that Hashem should soften His punishment of us.",
+              "enText": "We now describe our nation's state of suffering—each followed by the above plea **יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל הָרָעָה לְעַמֶּךָ** that Hashem should soften His punishment of us.",
               "condition": "On Mondays and Thursdays"
             },
             {
               "id": "tach2-s15",
               "type": "commentary",
               "heText": "",
-              "enText": "**הַבֵּט מִשָּׁמַיִם וּרְאֵה**—We are despised by the nations of the world and are viewed as sheep to be led to the slaughter, to be killed and humiliated. And yet, despite this, we have not forgotten You and Your laws; please do not forget us! *אֱלֹהֵי יִשְׂרָאֵל...*",
+              "enText": "**הַבֵּט מִשָּׁמַיִם וּרְאֵה**—We are despised by the nations of the world and are viewed as sheep to be led to the slaughter, to be killed and humiliated. And yet, despite this, we have not forgotten You and Your laws; please do not forget us! **אֱלֹהֵי יִשְׂרָאֵל...**",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -4764,7 +4793,7 @@
               "id": "tach2-s17",
               "type": "commentary",
               "heText": "",
-              "enText": "**זָרִים אוֹמְרִים אֵין תּוֹחֶלֶת וְתִקְוָה**—The world says Bnei Yisrael have no future! But we place our hope with You—that Your compassion will suppress Your anger against us. *יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...*",
+              "enText": "**זָרִים אוֹמְרִים אֵין תּוֹחֶלֶת וְתִקְוָה**—The world says Bnei Yisrael have no future! But we place our hope with You—that Your compassion will suppress Your anger against us. **יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...**",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -4777,7 +4806,7 @@
               "id": "tach2-s19",
               "type": "commentary",
               "heText": "",
-              "enText": "**חוּסָה יְהֹוָה עָלֵינוּ**—The hostile masses treat us with cruelty and they gloat, saying, \"Where is their God?\" For the glory of Your name, deal kindly with us. *יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...*",
+              "enText": "**חוּסָה יְהֹוָה עָלֵינוּ**—The hostile masses treat us with cruelty and they gloat, saying, \"Where is their God?\" For the glory of Your name, deal kindly with us. **יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...**",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -4790,7 +4819,7 @@
               "id": "tach2-s21",
               "type": "commentary",
               "heText": "",
-              "enText": "**קוֹלֵנוּ תִשְׁמַע וְתָחֹן**—Do not leave us in the hands of our enemies who want to wipe us out! Remember Your promise to the Avos that we would be as numerous as the stars, yet now we are only a small group among the nations of the world. And yet despite this, we have not forgotten You and Your laws; please do not forget us! *יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...*",
+              "enText": "**קוֹלֵנוּ תִשְׁמַע וְתָחֹן**—Do not leave us in the hands of our enemies who want to wipe us out! Remember Your promise to the Avos that we would be as numerous as the stars, yet now we are only a small group among the nations of the world. And yet despite this, we have not forgotten You and Your laws; please do not forget us! **יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...**",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -4803,7 +4832,7 @@
               "id": "tach2-s23",
               "type": "commentary",
               "heText": "",
-              "enText": "**עָזְרֵנוּ אֱלֹהֵי יִשְׁעֵנוּ**—Save us and pardon our sins, for it is through our miraculous survival in history that the world recognizes Your power! *יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...*",
+              "enText": "**עָזְרֵנוּ אֱלֹהֵי יִשְׁעֵנוּ**—Save us and pardon our sins, for it is through our miraculous survival in history that the world recognizes Your power! **יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל...**",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -4826,7 +4855,7 @@
               "id": "tach2-s27",
               "type": "commentary",
               "heText": "",
-              "enText": "**שׁוֹמֵר יִשְׂרָאֵל**—You are the guardian of Yisrael; do not let Yisrael perish—in the merit that we say daily *שְׁמַע יִשְׂרָאֵל!*"
+              "enText": "**שׁוֹמֵר יִשְׂרָאֵל**—You are the guardian of Yisrael; do not let Yisrael perish—in the merit that we say daily **שְׁמַע יִשְׂרָאֵל!**"
             },
             {
               "id": "tach2-s28",
@@ -4837,7 +4866,7 @@
               "id": "tach2-s29",
               "type": "commentary",
               "heText": "",
-              "enText": "**שׁוֹמֵר גּוֹי אֶחָד**—You are the guardian of the one and only (*אֶחָד*) unique nation; do not let that one and only (*אֶחָד*) unique nation perish—in the merit that we say daily that Hashem is *אֶחָד!*"
+              "enText": "**שׁוֹמֵר גּוֹי אֶחָד**—You are the guardian of the one and only (*אֶחָד*) unique nation; do not let that one and only (*אֶחָד*) unique nation perish—in the merit that we say daily that Hashem is **אֶחָד!**"
             },
             {
               "id": "tach2-s30",
@@ -4848,7 +4877,7 @@
               "id": "tach2-s31",
               "type": "commentary",
               "heText": "",
-              "enText": "**שׁוֹמֵר גּוֹי קָדוֹשׁ**—You are the guardian of the separate and elevated (*קָדוֹשׁ*) nation; do not let that separate and elevated (*קָדוֹשׁ*) nation perish—in the merit that we (*like the angels*) declare daily *קָדוֹשׁ!*"
+              "enText": "**שׁוֹמֵר גּוֹי קָדוֹשׁ**—You are the guardian of the separate and elevated (*קָדוֹשׁ*) nation; do not let that separate and elevated (*קָדוֹשׁ*) nation perish—in the merit that we (*like the angels*) declare daily **קָדוֹשׁ!**"
             },
             {
               "id": "tach2-s32",
@@ -4913,7 +4942,7 @@
             {
               "id": "chatzi_kaddish_torah_commentary_3",
               "type": "commentary",
-              "enText": "יִתְבָּרַךְ וְיִשְׁתַּבַּח (The person saying Kaddish then points out that) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן** — Absolutely correct!"
+              "enText": "**יִתְבָּרַךְ וְיִשְׁתַּבַּח** (The person saying Kaddish then points out that) in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן** — Absolutely correct!"
             },
             {
               "id": "chatzi_kaddish_torah_3",
@@ -5239,7 +5268,7 @@
             {
               "id": "kt1-chatzi-kaddish-commentary-2",
               "type": "commentary",
-              "enText": "*אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא*—(We all enthusiastically respond:) Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
+              "enText": "**אָמֵן. יְהֵא שְׁמֵהּ רַבָּא מְבָרַךְ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא**—(We all enthusiastically respond:) Absolutely correct! May everyone (including me!), everywhere, and forever, see that all His actions are great and deserving of praise!"
             },
             {
               "id": "kt1-chatzi-kaddish-commentary-3",
@@ -5834,7 +5863,7 @@
             {
               "id": "commentary_aleinu_1",
               "type": "commentary",
-              "enText": "**עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל**—We feel that it is our obligation to praise Hashem, the Creator of the world, for giving us a unique position among all peoples of the world! We have a very special relationship with Hashem, a unique mission with a clear set of responsibilities and a unique eternal destiny, which no other nation has! They serve gods and powers that are empty and ineffective; **וַאֲנַחְנוּ כּוֹרְעִים וּמִשְׁתַּחֲוִים וּמוֹדִים**—while we submit ourselves to the King of all Kings; **הַקָּדוֹשׁ בָּרוּךְ הוּא**—Who is both our understanding; **הַקָּדוֹשׁ בָּרוּךְ הוּא**—His Presence in the Heavens) and at the same time, He is also the Source of everything here on earth (בָּרוּךְ הוּא)! **הוּא אֱלֹהֵינוּ אֵין עוֹד**—Hashem is OUR personal God, there is no other power that controls us; **אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ**—Hashem our King is true, there is nothing beside Him. As the pasuk says: \"You must know today and take to heart that Hashem alone is our God; in the Heavens above and on the earth below; **אֵין עוֹד**—there is nothing else (but Hashem)!\""
+              "enText": "**עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל**—We feel that it is our obligation to praise Hashem, the Creator of the world, for giving us a unique position among all peoples of the world! We have a very special relationship with Hashem, a unique mission with a clear set of responsibilities and a unique eternal destiny, which no other nation has! They serve gods and powers that are empty and ineffective; **וַאֲנַחְנוּ כּוֹרְעִים וּמִשְׁתַּחֲוִים וּמוֹדִים**—while we submit ourselves to the King of all Kings; **הַקָּדוֹשׁ**—(Who is both our understanding of the transcendence of Hashem beyond this world — His Presence in the Heavens) and at the same time, He is also the Source of everything here on earth (**בָּרוּךְ הוּא**)! **הוּא אֱלֹהֵינוּ אֵין עוֹד**—Hashem is OUR personal God, there is no other power that controls us; **אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ**—Hashem our King is true, there is nothing beside Him. As the pasuk says: \"You must know today and take to heart that Hashem alone is our God; in the Heavens above and on the earth below; **אֵין עוֹד**—there is nothing else (but Hashem)!\""
             },
             {
               "id": "prayer_aleinu_2",
@@ -5879,7 +5908,7 @@
             {
               "id": "aleinu_kaddish_comm_3",
               "type": "commentary",
-              "enText": "*(The person saying Kaddish then says:)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct!"
+              "enText": "*(The person saying Kaddish then points out that)* in reality, the true greatness and power of Hashem far exceeds any praises that we mere humans could say. And to that we respond: **אָמֵן**—Absolutely correct!"
             },
             {
               "id": "aleinu_kaddish_3",
@@ -5972,17 +6001,12 @@
             {
               "id": "commentary_monday",
               "type": "commentary",
-              "enText": "**שִׁיר מִזְמוֹר לִבְנֵי קֹרַח**—The city of Yerushalayim was chosen by Hashem as His special place where He will reveal His greatness to the nations of the world. And just as Yerushalayim (with its unique kedushah and beauty) is to be an example to us of how to conduct our lives, so, too, we are to be a model for others to emulate. And as the unique status of"
+              "enText": "**שִׁיר מִזְמוֹר לִבְנֵי קֹרַח**—The city of Yerushalayim was chosen by Hashem as His special place where He will reveal His greatness to the nations of the world. And just as Yerushalayim (with its unique kedushah and beauty) is to be an example to us of how to conduct our lives, so, too, we are to be a model for others to emulate. And as the unique status of Yerushalayim is eternal, so, too, our unique relationship with Hashem is eternal."
             },
             {
               "id": "prayer_monday",
               "type": "prayer",
               "heText": "שִׁיר מִזְמוֹר לִבְנֵי קֹרַח, גָּדוֹל יהוה וּמְהֻלָּל מְאֹד, בְּעִיר אֱלֹהֵינוּ הַר קָדְשׁוֹ: יְפֵה נוֹף מְשׂוֹשׂ כָּל הָאָרֶץ הַר צִיּוֹן יַרְכְּתֵי צָפוֹן, קִרְיַת מֶלֶךְ רָב: אֱלֹהִים בְּאַרְמְנוֹתֶיהָ נוֹדַע לְמִשְׂגָּב: כִּי הִנֵּה הַמְּלָכִים נוֹעֲדוּ, עָבְרוּ יַחְדָּו: הֵמָּה רָאוּ כֵּן תָּמָהוּ, נִבְהֲלוּ נֶחְפָּזוּ: רְעָדָה אֲחָזָתַם שָׁם, חִיל כַּיּוֹלֵדָה: בְּרוּחַ קָדִים תְּשַׁבֵּר אֳנִיּוֹת תַּרְשִׁישׁ: כַּאֲשֶׁר שָׁמַעְנוּ כֵּן רָאִינוּ בְּעִיר יהוה צְבָאוֹת בְּעִיר אֱלֹהֵינוּ, אֱלֹהִים יְכוֹנְנֶהָ עַד עוֹלָם סֶלָה: דִּמִּינוּ אֱלֹהִים חַסְדֶּךָ, בְּקֶרֶב הֵיכָלֶךָ: כְּשִׁמְךָ אֱלֹהִים כֵּן תְּהִלָּתְךָ עַל קַצְוֵי אֶרֶץ, צֶדֶק מָלְאָה יְמִינֶךָ: יִשְׂמַח הַר צִיּוֹן תָּגֵלְנָה בְּנוֹת יְהוּדָה, לְמַעַן מִשְׁפָּטֶיךָ: סֹבּוּ צִיּוֹן וְהַקִּיפוּהָ, סִפְרוּ מִגְדָּלֶיהָ: שִׁיתוּ לִבְּכֶם לְחֵילָה, פַּסְּגוּ אַרְמְנוֹתֶיהָ, לְמַעַן תְּסַפְּרוּ לְדוֹר אַחֲרוֹן: כִּי זֶה אֱלֹהִים אֱלֹהֵינוּ עוֹלָם וָעֶד, הוּא יְנַהֲגֵנוּ עַל מוּת:"
-            },
-            {
-              "id": "commentary_monday_cont",
-              "type": "commentary",
-              "enText": "Yerushalayim is eternal, so, too, our unique relationship with Hashem is eternal."
             },
             {
               "id": "rubric_monday_close",
@@ -6115,71 +6139,83 @@
               "id": "barchi_nafshi_rubric",
               "type": "rubric",
               "enText": "On Rosh Chodesh, add Tehillim Chapter 104:",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_intro",
               "type": "section_intro",
-              "enText": "The Majesty and Intricacy of the Creation Demonstrates the Power and Providence of Hashem!"
+              "enText": "The Majesty and Intricacy of the Creation Demonstrates the Power and Providence of Hashem!",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_commentary",
               "type": "commentary",
-              "enText": "Speaking about the majesty of Hashem's Creation is very nice, but how is that relevant to Rosh Chodesh (besides the fact that the moon gets mentioned as part of the Creation)? Bnei Yisrael follow the lunar (moon) calendar and not the solar (sun) calendar. Why? Because the moon seems to get smaller and smaller and almost disappears. Then, suddenly, just when you think the moon is gone, it reappears and grows again. So too, Bnei Yisrael—there are many times when the nations of the world assume that we are done, finished, and will disappear, and then we pop up again and grow bright and strong. Every month, when that moon \"miraculously\" reappears, we read this chapter of Tehillim where David HaMelech describes for us the wonders of the created world—how Hashem takes care of the largest to the smallest, and thus takes care of each and every one of us, allowing us to pop back up when we're down."
+              "enText": "Speaking about the majesty of Hashem's Creation is very nice, but how is that relevant to Rosh Chodesh (besides the fact that the moon gets mentioned as part of the Creation)? Bnei Yisrael follow the lunar (moon) calendar and not the solar (sun) calendar. Why? Because the moon seems to get smaller and smaller and almost disappears. Then, suddenly, just when you think the moon is gone, it reappears and grows again. So too, Bnei Yisrael—there are many times when the nations of the world assume that we are done, finished, and will disappear, and then we pop up again and grow bright and strong. The same is true with each of us. We've all had times when we feel we're not growing; we've become insignificant and are losing our \"light.\" But we always have the ability to pop back, just like the moon does every month. And why is that? Because the \"laws of nature\" and \"rules of politics and sociology\" are controlled by the Master Creator! But sometimes that's hard to see. So every month, when that moon \"miraculously\" reappears, we read this chapter of Tehillim where David HaMelech describes for us the wonders of the created world—how Hashem takes care of the largest to the smallest, and thus takes care of each and every one of us, allowing us to pop back up when we're down.",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v1_4",
               "type": "prayer",
               "heText": "בָּרְכִי נַפְשִׁי אֶת־יְהֹוָה יְהֹוָה אֱלֹהַי גָּדַלְתָּ מְּאֹד הוֹד וְהָדָר לָבָֽשְׁתָּ׃ עֹֽטֶה־אוֹר כַּשַּׂלְמָה נוֹטֶה שָׁמַיִם כַּיְרִיעָֽה׃ הַמְקָרֶה בַמַּיִם עֲֽלִיּוֹתָיו הַשָּׂם־עָבִים רְכוּבוֹ הַֽמְהַלֵּךְ עַל־כַּנְפֵי־רֽוּחַ׃ עֹשֶׂה מַלְאָכָיו רוּחוֹת מְשָׁרְתָיו אֵשׁ לֹהֵֽט׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v5_8",
               "type": "prayer",
               "heText": "יָֽסַד־אֶרֶץ עַל־מְכוֹנֶיהָ בַּל־תִּמּוֹט עוֹלָם וָעֶֽד׃ תְּהוֹם כַּלְּבוּשׁ כִּסִּיתוֹ עַל־הָרִים יַעַמְדוּ־מָֽיִם׃ מִן־גַּעֲרָתְךָ יְנוּסוּן מִן־קוֹל רַעַמְךָ יֵחָפֵזֽוּן׃ יַעֲלוּ הָרִים יֵרְדוּ בְקָעוֹת אֶל־מְקוֹם זֶה יָסַדְתָּ לָהֶֽם׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v9_12",
               "type": "prayer",
               "heText": "גְּֽבוּל־שַׂמְתָּ בַּל־יַעֲבֹרוּן בַּל־יְשֻׁבוּן לְכַסּוֹת הָאָֽרֶץ׃ הַֽמְשַׁלֵּחַ מַעְיָנִים בַּנְּחָלִים בֵּין הָרִים יְהַלֵּכֽוּן׃ יַשְׁקוּ כׇּל־חַיְתוֹ שָׂדָי יִשְׁבְּרוּ פְרָאִים צְמָאָֽם׃ עֲלֵיהֶם עוֹף־הַשָּׁמַיִם יִשְׁכּוֹן מִבֵּין עֳפָאיִם יִתְּנוּ־קֽוֹל׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v13_16",
               "type": "prayer",
               "heText": "מַשְׁקֶה הָרִים מֵעֲלִיּוֹתָיו מִפְּרִי מַעֲשֶׂיךָ תִּשְׂבַּע הָאָֽרֶץ׃ מַצְמִיחַ חָצִיר לַבְּהֵמָה וְעֵשֶׂב לַעֲבֹדַת הָאָדָם לְהוֹצִיא לֶחֶם מִן־הָאָֽרֶץ׃ וְיַיִן יְשַׂמַּח לְֽבַב־אֱנוֹשׁ לְהַצְהִיל פָּנִים מִשָּׁמֶן וְלֶחֶם לְֽבַב־אֱנוֹשׁ יִסְעָֽד׃ יִשְׂבְּעוּ עֲצֵי יְהֹוָה אַֽרְזֵי לְבָנוֹן אֲשֶׁר נָטָֽע׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v17_20",
               "type": "prayer",
               "heText": "אֲשֶׁר־שָׁם צִפֳּרִים יְקַנֵּנוּ חֲסִידָה בְּרוֹשִׁים בֵּיתָֽהּ׃ הָרִים הַגְּבֹהִים לַיְּעֵלִים סְלָעִים מַחְסֶה לַֽשְׁפַנִּֽים׃ עָשָׂה יָרֵחַ לְמוֹעֲדִים שֶׁמֶשׁ יָדַע מְבוֹאֽוֹ׃ תָּֽשֶׁת־חֹשֶׁךְ וִיהִי לָיְלָה בּוֹ־תִרְמֹשׂ כׇּל־חַיְתוֹ־יָֽעַר׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v21_24",
               "type": "prayer",
               "heText": "הַכְּפִירִים שֹׁאֲגִים לַטָּרֶף וּלְבַקֵּשׁ מֵאֵל אׇכְלָֽם׃ תִּזְרַח הַשֶּׁמֶשׁ יֵאָסֵפוּן וְאֶל־מְעוֹנֹתָם יִרְבָּצֽוּן׃ יֵצֵא אָדָם לְפׇעֳלוֹ וְֽלַעֲבֹדָתוֹ עֲדֵי־עָֽרֶב׃ מָה־רַבּוּ מַעֲשֶׂיךָ יְֽהֹוָה כֻּלָּם בְּחׇכְמָה עָשִׂיתָ מָלְאָה הָאָרֶץ קִנְיָנֶֽךָ׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v25_28",
               "type": "prayer",
               "heText": "זֶה הַיָּם גָּדוֹל וּרְחַב יָדָיִם שָֽׁם־רֶמֶשׂ וְאֵין מִסְפָּר חַיּוֹת קְטַנּוֹת עִם־גְּדֹלֽוֹת׃ שָׁם אֳנִיּוֹת יְהַלֵּכוּן לִוְיָתָן זֶֽה־יָצַרְתָּ לְשַֽׂחֶק־בּֽוֹ׃ כֻּלָּם אֵלֶיךָ יְשַׂבֵּרוּן לָתֵת אׇכְלָם בְּעִתּֽוֹ׃ תִּתֵּן לָהֶם יִלְקֹטוּן תִּפְתַּח יָדְךָ יִשְׂבְּעוּן טֽוֹב׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v29_32",
               "type": "prayer",
               "heText": "תַּסְתִּיר פָּנֶיךָ יִֽבָּהֵלוּן תֹּסֵף רוּחָם יִגְוָעוּן וְֽאֶל־עֲפָרָם יְשׁוּבֽוּן׃ תְּשַׁלַּח רוּחֲךָ יִבָּרֵאוּן וּתְחַדֵּשׁ פְּנֵי אֲדָמָֽה׃ יְהִי כְבוֹד יְהֹוָה לְעוֹלָם יִשְׂמַח יְהֹוָה בְּמַעֲשָֽׂיו׃ הַמַּבִּיט לָאָרֶץ וַתִּרְעָד יִגַּע בֶּהָרִים וְֽיֶעֱשָֽׁנוּ׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             },
             {
               "id": "barchi_nafshi_v33_35",
               "type": "prayer",
               "heText": "אָשִׁירָה לַיהֹוָה בְּחַיָּי אֲזַמְּרָה לֵאלֹהַי בְּעוֹדִֽי׃ יֶעֱרַב עָלָיו שִׂיחִי אָנֹכִי אֶשְׂמַח בַּיהֹוָֽה׃ יִתַּמּוּ חַטָּאִים מִן־הָאָרֶץ וּרְשָׁעִים עוֹד אֵינָם בָּרְכִי נַפְשִׁי אֶת־יְהֹוָה הַֽלְלוּ־יָֽהּ׃",
-              "condition": "rosh_chodesh"
+              "condition": "rosh_chodesh",
+              "optional": true
             }
           ]
         },
@@ -6193,37 +6229,43 @@
               "type": "rubric",
               "heText": "תהילים כז",
               "enText": "From Rosh Chodesh Elul through Hoshana Rabbah add:",
-              "condition": "From Rosh Chodesh Elul through Hoshana Rabbah"
+              "condition": "From Rosh Chodesh Elul through Hoshana Rabbah",
+              "optional": true
             },
             {
               "id": "header_title",
               "type": "header",
               "heText": "לְדָוִד ה' אוֹרִי",
-              "enText": "Just Ask Hashem for Help in Your Teshuva Process—His Light Is There If You Look for It!"
+              "enText": "Just Ask Hashem for Help in Your Teshuva Process—His Light Is There If You Look for It!",
+              "optional": true
             },
             {
               "id": "commentary_1",
               "type": "commentary",
               "heText": "",
-              "enText": "**לְדָוִד יְהוָה אוֹרִי וְיִשְׁעִי**—Hashem is always there for me, He is my guiding light and my Source of strength! Therefore, I have nothing to fear in life, not human enemies and physical war, nor spiritual battles and the yetzer hara, because שְׁאֵלְתִּי מֵאֵת יְהוָה אוֹתָהּ אֲבַקֵּשׁ (though I have asked Hashem for all sorts of things that I feel I need, in truth) I have one overall goal for my life: **שִׁבְתִּי בְּבֵית יְהוָה כָּל יְמֵי חַיַּי**—**לַחֲזוֹת בְּנֹעַם יְהוָה וּלְבַקֵּר בְּהֵיכָלוֹ**—that \"my house,\" meaning, all that I do and how I run my life, should be based on the values of Torah, thus making \"my house\" a house of Hashem. (Since I have total free will over my moral choices, no enemy can rob me of my ability to create a Torah life, no matter what my circumstances are! Therefore, by trusting in Hashem and following His light) I am safe and will always be able to rise above my physical and spiritual enemies."
+              "enText": "**לְדָוִד יְהוָה אוֹרִי וְיִשְׁעִי**—Hashem is always there for me, He is my guiding light and my Source of strength! Therefore, I have nothing to fear in life, not human enemies and physical war, nor spiritual battles and the yetzer hara, because שְׁאֵלְתִּי מֵאֵת יְהוָה אוֹתָהּ אֲבַקֵּשׁ (though I have asked Hashem for all sorts of things that I feel I need, in truth) I have one overall goal for my life: **שִׁבְתִּי בְּבֵית יְהוָה כָּל יְמֵי חַיַּי**—**לַחֲזוֹת בְּנֹעַם יְהוָה וּלְבַקֵּר בְּהֵיכָלוֹ**—that \"my house,\" meaning, all that I do and how I run my life, should be based on the values of Torah, thus making \"my house\" a house of Hashem. (Since I have total free will over my moral choices, no enemy can rob me of my ability to create a Torah life, no matter what my circumstances are! Therefore, by trusting in Hashem and following His light) I am safe and will always be able to rise above my physical and spiritual enemies.",
+              "optional": true
             },
             {
               "id": "commentary_2",
               "type": "commentary",
               "heText": "",
-              "enText": "**אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי**—Please, Hashem, do not hide Your Presence and light from me! **הוֹרֵנִי יְהוָה דַּרְכֶּךָ**—Show me the right path and help me make the correct decisions."
+              "enText": "**אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי**—Please, Hashem, do not hide Your Presence and light from me! **הוֹרֵנִי יְהוָה דַּרְכֶּךָ**—Show me the right path and help me make the correct decisions.",
+              "optional": true
             },
             {
               "id": "commentary_3",
               "type": "commentary",
               "heText": "",
-              "enText": "(Proclaims David HaMelech:) \"Put your trust in Hashem; (and) חֲזַק וְיַאֲמֵץ לִבֶּךָ that itself will give you the courage and strength to persevere! (And if Hashem has not yet given you what you asked for;) **וְקַוֵּה אֶל יְהוָה**—continue to place your trust in Hashem (for all that He does is for your best).\""
+              "enText": "(Proclaims David HaMelech:) \"Put your trust in Hashem; (and) חֲזַק וְיַאֲמֵץ לִבֶּךָ that itself will give you the courage and strength to persevere! (And if Hashem has not yet given you what you asked for;) **וְקַוֵּה אֶל יְהוָה**—continue to place your trust in Hashem (for all that He does is for your best).\"",
+              "optional": true
             },
             {
               "id": "prayer_body",
               "type": "prayer",
               "heText": "לְדָוִד, יְהוָה אוֹרִי וְיִשְׁעִי מִמִּי אִירָא, יְהוָה מָעוֹז חַיַּי מִמִּי אֶפְחָד: בִּקְרֹב עָלַי מְרֵעִים לֶאֱכֹל אֶת בְּשָׂרִי, צָרַי וְאֹיְבַי לִי, הֵמָּה כָשְׁלוּ וְנָפָלוּ: אִם תַּחֲנֶה עָלַי מַחֲנֶה לֹא יִירָא לִבִּי, אִם תָּקוּם עָלַי מִלְחָמָה בְּזֹאת אֲנִי בוֹטֵחַ: אַחַת שָׁאַלְתִּי מֵאֵת יְהוָה אוֹתָהּ אֲבַקֵּשׁ, שִׁבְתִּי בְּבֵית יְהוָה כָּל יְמֵי חַיַּי, לַחֲזוֹת בְּנֹעַם יְהוָה וּלְבַקֵּר בְּהֵיכָלוֹ: כִּי יִצְפְּנֵנִי בְּסֻכֹּה בְּיוֹם רָעָה, יַסְתִּרֵנִי בְּסֵתֶר אָהֳלוֹ, בְּצוּר יְרוֹמְמֵנִי: וְעַתָּה יָרוּם רֹאשִׁי עַל אֹיְבַי סְבִיבוֹתַי, וְאֶזְבְּחָה בְאָהֳלוֹ זִבְחֵי תְרוּעָה, אָשִׁירָה וַאֲזַמְּרָה לַיהוָה: שְׁמַע יְהוָה קוֹלִי אֶקְרָא, וְחָנֵּנִי וַעֲנֵנִי: לְךָ אָמַר לִבִּי בַּקְּשׁוּ פָנָי, אֶת פָּנֶיךָ יְהוָה אֲבַקֵּשׁ: אַל תַּסְתֵּר פָּנֶיךָ מִמֶּנִּי, אַל תַּט בְּאַף עַבְדֶּךָ, עֶזְרָתִי הָיִיתָ, אַל תִּטְּשֵׁנִי וְאַל תַּעַזְבֵנִי אֱלֹהֵי יִשְׁעִי: כִּי אָבִי וְאִמִּי עֲזָבוּנִי, וַיהוָה יַאַסְפֵנִי: הוֹרֵנִי יְהוָה דַּרְכֶּךָ, וּנְחֵנִי בְּאֹרַח מִישׁוֹר לְמַעַן שׁוֹרְרָי: אַל תִּתְּנֵנִי בְּנֶפֶשׁ צָרָי, כִּי קָמוּ בִי עֵדֵי שֶׁקֶר וִיפֵחַ חָמָס: לוּלֵא הֶאֱמַנְתִּי לִרְאוֹת בְּטוּב יְהוָה בְּאֶרֶץ חַיִּים: קַוֵּה אֶל יְהוָה, חֲזַק וְיַאֲמֵץ לִבֶּךָ, וְקַוֵּה אֶל יְהוָה:",
-              "enText": ""
+              "enText": "",
+              "optional": true
             },
             {
               "id": "rubric_kaddish",
@@ -6331,7 +6373,7 @@
             {
               "id": "pitum_kdr_comm_4",
               "type": "commentary",
-              "enText": "*(The person saying Kaddish requests:)* May Hashem grant peace, grace, loving-kindness, compassion, long life, ample sustenance, and salvation to all Torah scholars, their students, and all those engaged in Torah study — here and everywhere. And to that we respond: **אָמֵן**—Absolutely correct!"
+              "enText": "**עַל יִשְׂרָאֵל וְעַל רַבָּנָן**—(The person saying Kaddish requests:) May there be abundant peace, mercy, kindness, long life, and material abundance—from our Father in Heaven—upon all of Bnei Yisrael, and specifically upon our teachers, their students, and all who study Torah—here and everywhere! And to that we respond: **אָמֵן**—Absolutely, we agree!"
             },
             {
               "id": "pitum_kdr_4",
@@ -6341,7 +6383,7 @@
             {
               "id": "pitum_kdr_comm_5",
               "type": "commentary",
-              "enText": "*(The person saying Kaddish requests:)* May there be abundant peace, that comes from Heaven, and a good life, upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+              "enText": "**יְהֵא שְׁלָמָא רַבָּא**—*(The person saying Kaddish requests:)* May there be abundant peace, that comes from Heaven, and life, upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely, we agree!"
             },
             {
               "id": "pitum_kdr_5",
@@ -6351,12 +6393,12 @@
             {
               "id": "pitum_kdr_comm_6",
               "type": "commentary",
-              "enText": "*(The person saying Kaddish requests:)* May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely correct!"
+              "enText": "**עֹשֶׂה שָׁלוֹם (בעשי\"ת הַשָּׁלוֹם) בִּמְרוֹמָיו**—*(The person saying Kaddish requests:)* May He Who makes peace in the Heavens bring about peace upon us and upon all of Bnei Yisrael! And to that we respond: **אָמֵן**—Absolutely, we agree!"
             },
             {
               "id": "pitum_kdr_6",
               "type": "prayer",
-              "heText": "עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל. וְאִמְרוּ אָמֵן:"
+              "heText": "עֹשֶׂה שָׁלוֹם (בעשי\"ת הַשָּׁלוֹם) בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ וְעַל כָּל יִשְׂרָאֵל. וְאִמְרוּ אָמֵן:"
             },
             {
               "id": "pitum_kdr_rubric_israel",
@@ -6367,6 +6409,11 @@
               "id": "pitum_kdr_barchu_call",
               "type": "prayer",
               "heText": "בָּרְכוּ אֶת יְהֹוָה הַמְּבֹרָךְ:"
+            },
+            {
+              "id": "pitum_kdr_barchu_rubric",
+              "type": "rubric",
+              "heText": "קהל וחזן:"
             },
             {
               "id": "pitum_kdr_barchu_response",
@@ -6450,7 +6497,7 @@
             {
               "id": "commentary_shabbos",
               "type": "commentary",
-              "enText": "**שַׁבָּת**—We must remember that it is the power and sanctity of Shabbos that gives us the \"energy\" to remain spiritually strong during the week."
+              "enText": "**שַׁבָּת**—We must remember that it is the power and sanctity of Shabbos that gives us the “energy” to remain spiritually strong during the week."
             }
           ]
         },
@@ -6614,7 +6661,7 @@
             {
               "id": "insight_lishuosecha",
               "type": "insight",
-              "enText": "The context of \"**קִוִּיתִי יְהֹוָה לִישׁוּעָתְךָ**—For Your salvation I hope, Hashem!\" is the conclusion of Yaakov Avinu's brachah to Dan. Yaakov blessed the tribe of Dan, and specifically their famous descendant Shimshon, with great military strength and cunning, and that the shevet as a whole and Shimshon in particular should be victorious in the many battles against the Philistines. Nevertheless, Yaakov concluded his brachah by proclaiming that it is only \"for Your salvation I hope, Hashem.\" No matter how strong we are and no matter how great our material blessings (and no matter how many of this morning's requests Hashem grants us!), we must put our trust only in Hashem, and never forget that our success is in His Hands!"
+              "enText": "The context of \"**לִישׁוּעָתְךָ קִוִּיתִי יְהֹוָה**—For Your salvation I hope, Hashem!\" is the conclusion of Yaakov Avinu's brachah to Dan. Yaakov blessed the tribe of Dan, and specifically their famous descendant Shimshon, with great military strength and cunning, and that the shevet as a whole and Shimshon in particular should be victorious in the many battles against the Philistines. Nevertheless, Yaakov concluded his brachah by proclaiming that it is only \"for Your salvation I hope, Hashem.\" No matter how strong we are and no matter how great our material blessings (and no matter how many of this morning's requests Hashem grants us!), we must put our trust only in Hashem, and never forget that our success is in His Hands!"
             }
           ]
         }

@@ -1,9 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal } from 'react-native';
 import { Segment } from '../content/types';
 import { DisplayMode } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../theme/typography';
+// CONTENT_WIDTH is the list's visible content width, applied as a maxWidth clamp
+// on the English text blocks. The clamp is the load-bearing constraint: inside a
+// FlashList cell that can size to its own content, a short commentary leading
+// with an RTL Hebrew lemma would otherwise claim its intrinsic single-line width
+// and overflow the right edge — maxWidth caps it so the text wraps instead.
+import { CONTENT_WIDTH } from '../theme/layout';
 import { RichText } from './RichText';
 
 interface Props {
@@ -33,7 +39,7 @@ export function SegmentRenderer({
   const heSize = hebrewFontSize(fontStep);
   const enSize = englishFontSize(fontStep);
 
-  const s = makeStyles(colors, heSize, enSize);
+  const s = useMemo(() => makeStyles(colors, heSize, enSize), [colors, heSize, enSize]);
 
   // Header — always visible, language-aware. Order must match the print PER
   // HEADER, never a blanket default that contradicts it. The print's majority
@@ -108,13 +114,31 @@ export function SegmentRenderer({
     );
   }
 
-  // Rubric — Hebrew rubric hides in English-only; English rubric hides in Hebrew-only
+  // Rubric — bilingual (both fields set): heText in he/both, enText in en.
+  // Single-field: Hebrew rubric hides in English-only; English rubric hides in Hebrew-only.
   if (segment.type === 'rubric') {
+    if (segment.heText && segment.enText) {
+      if (displayMode === 'en') {
+        return (
+          <RichText
+            text={segment.enText}
+            style={s.rubricEn}
+            linkStyle={s.linkSpan}
+          />
+        );
+      }
+      return <Text style={s.rubricHe}>{segment.heText}</Text>;
+    }
     if (segment.heText && displayMode === 'en') return null;
     if (segment.enText && displayMode === 'he') return null;
-    return segment.heText
-      ? <Text style={s.rubricHe}>{segment.heText}</Text>
-      : <Text style={s.rubricEn}>{segment.enText}</Text>;
+    if (segment.heText) return <Text style={s.rubricHe}>{segment.heText}</Text>;
+    return (
+      <RichText
+        text={segment.enText ?? ''}
+        style={s.rubricEn}
+        linkStyle={s.linkSpan}
+      />
+    );
   }
 
   // Commentary
@@ -194,6 +218,8 @@ export function SegmentRenderer({
           <Pressable
             style={s.selectionBtn}
             onPress={() => setSelectionVisible(false)}
+            accessibilityRole="button"
+            accessibilityLabel="Dismiss"
           >
             <Text style={s.selectionBtnText}>✕</Text>
           </Pressable>
@@ -298,6 +324,8 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       paddingVertical: 6,
     },
     commentaryBlock: {
+      width: '100%',
+      alignSelf: 'stretch',
       marginTop: 12,
       paddingVertical: 12,
       paddingHorizontal: 14,
@@ -318,6 +346,9 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontSize: enSize,
       lineHeight: enSize * 1.62,
       color: c.ink,
+      writingDirection: 'ltr' as const,
+      textAlign: 'left' as const,
+      maxWidth: CONTENT_WIDTH,
     },
     italicSpan: {
       fontFamily: Fonts.englishItalic,
@@ -452,6 +483,8 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       color: c.gold,
     },
     faqBody: {
+      width: '100%',
+      alignSelf: 'stretch',
       marginTop: 6,
       padding: 10,
       borderRadius: 10,
@@ -464,6 +497,9 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontSize: enSize * 0.9,
       lineHeight: enSize * 1.5,
       color: c.ink,
+      writingDirection: 'ltr' as const,
+      textAlign: 'left' as const,
+      maxWidth: CONTENT_WIDTH,
     },
     rubricHe: {
       fontFamily: Fonts.hebrew,
@@ -505,6 +541,8 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       color: c.accent,
     },
     insightBody: {
+      width: '100%',
+      alignSelf: 'stretch',
       marginTop: 8,
       padding: 11,
       borderRadius: 10,
@@ -517,6 +555,9 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       fontSize: enSize,
       lineHeight: enSize * 1.6,
       color: c.ink,
+      writingDirection: 'ltr' as const,
+      textAlign: 'left' as const,
+      maxWidth: CONTENT_WIDTH,
     },
     selectionBar: {
       flexDirection: 'row',

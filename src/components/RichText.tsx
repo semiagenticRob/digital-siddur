@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, StyleProp, TextStyle } from 'react-native';
+import { router } from 'expo-router';
 import { useAppendixStore } from '../store/appendix';
 import { useSectionModalStore } from '../store/sectionModal';
 
@@ -15,9 +16,9 @@ function isolateHebrew(text: string): string {
 
 // Matches **bold** (greedy-safe) or *italic* spans.
 const SPAN_RE = /(\*\*[^*]+\*\*|\*[^*]+\*)/g;
-const APPENDIX_RE = /(Appendix\s+\d+)/g;
-// [label](section:key) — inline section links
-const SECTION_LINK_RE = /(\[[^\]]+\]\(section:[^)]+\))/g;
+const APPENDIX_RE = /(Appendix\s+\d+(?::\d+)?)/g;
+// Matches [label](section:key) and [label](prayer:serviceId/prayerId) inline links
+const INLINE_LINK_RE = /(\[[^\]]+\]\((?:section|prayer):[^)]+\))/g;
 
 interface Props {
   text: string;
@@ -36,8 +37,8 @@ function renderLeaf(
   openSection: (key: string) => void,
   linkStyle: StyleProp<TextStyle> | undefined
 ): React.ReactNode[] {
-  // First split on section links, then on Appendix references
-  const parts = text.split(SECTION_LINK_RE);
+  // First split on inline links (section: and prayer:), then on Appendix references
+  const parts = text.split(INLINE_LINK_RE);
   return parts.flatMap((part, j) => {
     // [label](section:key)
     const sectionMatch = part.match(/^\[([^\]]+)\]\(section:([^)]+)\)$/);
@@ -56,9 +57,26 @@ function renderLeaf(
       )];
     }
 
+    // [label](prayer:serviceId/prayerId) — navigate to a prayer in a service
+    const prayerMatch = part.match(/^\[([^\]]+)\]\(prayer:([^/]+)\/([^)]+)\)$/);
+    if (prayerMatch) {
+      const [, label, serviceId, prayerId] = prayerMatch;
+      return [(
+        <Text
+          key={`${keyBase}-r${j}`}
+          style={[spanStyle, linkStyle]}
+          onPress={() => router.push({ pathname: '/daven/[service]', params: { service: serviceId, initialPrayer: prayerId } })}
+          accessibilityRole="link"
+          accessibilityLabel={`Go to ${label}`}
+        >
+          {label}
+        </Text>
+      )];
+    }
+
     // Appendix N links
     return part.split(APPENDIX_RE).map((chunk, k) => {
-      const m = chunk.match(/^Appendix\s+(\d+)$/);
+      const m = chunk.match(/^Appendix\s+(\d+)(?::\d+)?$/);
       if (m) {
         const n = parseInt(m[1], 10);
         return (
@@ -74,10 +92,8 @@ function renderLeaf(
         );
       }
       const content = isolateHebrew(chunk);
-      return spanStyle ? (
+      return (
         <Text key={`${keyBase}-${j}-${k}`} style={spanStyle}>{content}</Text>
-      ) : (
-        content
       );
     });
   });
@@ -91,7 +107,7 @@ export function RichText({ text, style, italicStyle, boldStyle, linkStyle }: Pro
 
   return (
     <Text style={style}>
-      {text.split(SPAN_RE).map((part, i) => {
+      {text.split(SPAN_RE).flatMap((part, i) => {
         if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
           return renderLeaf(part.slice(2, -2), `b${i}`, boldStyle, openAppendix, openSection, linkStyle);
         }

@@ -24,7 +24,7 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 | `faq` | `enText` (RichText) | `heText` | collapsible "FAQ" |
 | `section_intro` | `enText` (RichText) | `heText` | **centered**; the bridge/preamble style |
 | `transition` | `enText` | `heText` | centered, glowing bridge |
-| `rubric` | `heText` if present else `enText` — **plain `Text`, NOT markdown** | the other field | a rubric with both fields only shows in "both" mode |
+| `rubric` | `heText` (plain `Text`) in he/both; `enText` (RichText) in en | the other field, per mode | `heText` is plain (`*` literal); `enText` renders markdown + inline links like commentary (see convention 8). Bilingual rubric shows heText in he/both, enText in en |
 | `header` | `heText` and/or `enText` | — | **Hebrew-on-top by default** (the print's majority — every transliteration/description sub-header). Order is per-header from the PDF, never a blanket default. `enTop` = English caps label on top, Hebrew title beneath — set ONLY for headers the PDF prints English-first (e.g. שְׁמֹנֶה עֶשְׂרֵה / OUR REQUESTS), each verified. `enPrimary` = big English title over small Hebrew subtitle. `plain` = quiet incipit. |
 
 ## Conventions (matched to the print)
@@ -41,13 +41,24 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 4. **Bridges are `section_intro`, not `commentary`.** A connective line ("Next,
    the Torah tells us:", "…Therefore, we continue:") is centered in the print,
    not a boxed explanation.
-5. **Rubrics carry no markdown.** They render as plain text, so `*…*` shows
-   literal asterisks. Hebrew speaker labels stay Hebrew (חזן / קהל), set inline
-   in the prayer's `heText` where the print does (cf. Barchu, Hallel).
+5. **Rubric `heText` is plain; rubric `enText` is RichText.** A Hebrew rubric
+   renders as plain text, so `*…*` shows literal asterisks — keep markdown out of
+   `heText`. An English rubric renders through RichText (markdown + inline links,
+   like commentary), so instructional rubrics may carry `Appendix N` references
+   and `[label](…)` links (see convention 8). Hebrew speaker labels stay Hebrew
+   (חזן / קהל), set inline in the prayer's `heText` where the print does (cf.
+   Barchu, Hallel).
 6. **Derive Hebrew, never retype it.** When splitting/moving a lemma, slice it
    from the existing prayer string. Retyping drops nikud/letters (the Atah Hu
    missing-vav bug).
 7. **PDF page = siddur page + 24.** `pdftoppm -png -r 300 -f N -l N file.pdf out`.
+8. **Inline links (RichText fields only).** In any RichText-rendered field
+   (`commentary` / `insight` / `faq` / `section_intro`, and rubric `enText`):
+   - `Appendix N` / `Appendix N:M` auto-linkify to the appendix modal (the `:M`
+     sub-section is displayed, but navigation opens Appendix N).
+   - `[label](section:key)` opens the named section modal.
+   - `[label](prayer:serviceId/prayerId)` jumps to that prayer in that service
+     (deep-links to `/daven/<serviceId>?initialPrayer=<prayerId>`).
 
 ## The linter
 
@@ -55,8 +66,8 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 
 - `npm run lint:content` — full report (errors + advisory warnings).
 - `npm run lint:content:strict` — exit 1 on error-severity findings (the gate).
-- Errors (block commits): stranded `commentary.heText`, `*` in rubrics,
-  unbalanced markdown, empty `prayer.heText`.
+- Errors (block commits): stranded `commentary.heText`, `*` in rubric.heText,
+  unbalanced markdown (incl. rubric `enText`), empty `prayer.heText`.
 - Warnings (advisory): unbolded lemma, lemma-not-found-in-prayer (garble
   detector — consonant-level), bridge-looks-like-commentary, dead `prayer.enText`.
 

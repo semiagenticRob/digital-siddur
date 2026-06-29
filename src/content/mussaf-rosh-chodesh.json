@@ -372,13 +372,14 @@
             {
               "id": "mrc2-s006",
               "type": "commentary",
-              "enText": "*אֱלֹהֵינוּ **וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history,* renew this coming month for us for good and for blessing, for joy and for gladness, for salvation and for consolation, for material and economic stability, for life and for peace, for pardon of unintentional sin and for forgiveness of intentional sin *(in a Jewish leap year until Chodesh Nisan add: and for atonement of willful sins done to rebel against You).* *כִּי **בְעַמְּךָ יִשְׂרָאֵל בָּחַרְתָּ מִכָּל הָאֻמּוֹת**—For You have chosen Your nation Bnei Yisrael from all the nations of the world;* *וְחֻקֵּי **רָאשֵׁי חֳדָשִׁים לָהֶם קָבָעְתָּ**—and it was for them specifically that You instituted rules regarding (the special opportunities for renewal on) Rosh Chodesh.* *בָּרוּךְ **אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything;* *מְקַדֵּשׁ **יִשְׂרָאֵל וְרָאשֵׁי חֳדָשִׁים**—Who has made Bnei Yisrael and Rosh Chodesh kadosh, and unique.*"
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, renew this coming month for us for good and for blessing, for joy and for gladness, for salvation and for consolation, for material and economic stability, for life and for peace, for pardon of unintentional sin and for forgiveness of intentional sin *(in a Jewish leap year until Chodesh Nisan add: and for atonement of willful sins done to rebel against You).* *כִּי **בְעַמְּךָ יִשְׂרָאֵל בָּחַרְתָּ מִכָּל הָאֻמּוֹת**—For You have chosen Your nation Bnei Yisrael from all the nations of the world;* *וְחֻקֵּי **רָאשֵׁי חֳדָשִׁים לָהֶם קָבָעְתָּ**—and it was for them specifically that You instituted rules regarding (the special opportunities for renewal on) Rosh Chodesh.* *בָּרוּךְ **אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything;* *מְקַדֵּשׁ **יִשְׂרָאֵל וְרָאשֵׁי חֳדָשִׁים**—Who has made Bnei Yisrael and Rosh Chodesh kadosh, and unique.*"
             },
             {
               "id": "mrc2-s007",
               "type": "header",
               "enText": "Section 3—Thanks",
-              "heText": "עֲבוֹדָה"
+              "heText": "עֲבוֹדָה",
+              "enTop": true
             },
             {
               "id": "mrc2-s008",
@@ -580,7 +581,7 @@
             {
               "id": "mrc2-s046",
               "type": "commentary",
-              "enText": "*אֱלֹהַי—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond.* Open my heart to my Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
+              "enText": "**אֱלֹהַי**—*Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond.* Open my heart to my Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
             },
             {
               "id": "mrc2-s047",
@@ -597,7 +598,7 @@
               "id": "mrc2-s049",
               "type": "commentary",
               "condition": "Some add the following tefillah",
-              "enText": "*Some add the following tefillah:* *יְהִי **רָצוֹן מִלְּפָנֶיךָ**—Please, Hashem, let no one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble (despite my accomplishments today) and not be arrogant. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim.*"
+              "enText": "*יְהִי **רָצוֹן מִלְּפָנֶיךָ**—Please, Hashem, let no one be jealous of me, and may I not be jealous of others. Do not allow the yetzer hara to get the better of me, and help me stay humble (despite my accomplishments today) and not be arrogant. Please rebuild the Beis Hamikdash so that the whole world will recognize Your providence, and bring us all back to Yerushalayim.*"
             },
             {
               "id": "mrc2-s050",

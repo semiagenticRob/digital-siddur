@@ -6,7 +6,7 @@ and flags data that can't render or won't match the print. Grew out of the
 recurring bugs found during the Shacharis proofing pass:
   - Hebrew lemmas stranded in commentary.heText (commentary draws enText only)
   - bridge lines typed as commentary (boxed) instead of section_intro (centered)
-  - literal '*' in rubrics (rubrics draw as plain text, not markdown)
+  - literal '*' in rubric.heText (Hebrew rubric draws as plain text, not markdown)
   - garbled / wrong lemmas (lemma not present in the prayer it explains)
   - unbalanced **bold** / *italic* markers
 
@@ -25,7 +25,7 @@ RICHTEXT_TYPES = {'commentary', 'insight', 'faq', 'section_intro', 'transition'}
 # check-id -> severity. ERROR = renders wrong / data invisible. WARN = advisory.
 SEVERITY = {
     'commentary.heText (stranded — never renders)':       'error',
-    "rubric contains '*' (renders literally)":            'error',
+    "rubric.heText contains '*' (renders literally)":     'error',
     'unbalanced markdown markers':                        'error',
     'prayer.heText empty':                                'error',
     'lemma not bolded (**…**)':                           'warn',
@@ -69,10 +69,12 @@ def lint_segments(segs, where):
             if not he.strip():
                 findings['prayer.heText empty'].append(loc)
 
-        if t == 'rubric' and ('*' in he or '*' in en):
-            findings["rubric contains '*' (renders literally)"].append(loc)
+        # rubric.heText draws as plain <Text> (so '*' shows literally); rubric.enText
+        # draws via RichText (markdown + section:/prayer:/Appendix links), like commentary.
+        if t == 'rubric' and '*' in he:
+            findings["rubric.heText contains '*' (renders literally)"].append(loc)
 
-        if t in RICHTEXT_TYPES and en:
+        if (t in RICHTEXT_TYPES or t == 'rubric') and en:
             if en.count('**') % 2 or en.replace('**', '').count('*') % 2:
                 findings['unbalanced markdown markers'].append(loc)
 

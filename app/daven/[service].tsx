@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect, useMemo } from 'react';
 import { View, Text, Pressable, StyleSheet, useColorScheme, SafeAreaView } from 'react-native';
 import { useLocalSearchParams, router } from 'expo-router';
 import { getService } from '../../src/content/loader';
@@ -12,9 +12,19 @@ import { LightColors, DarkColors, ColorPalette } from '../../src/theme/colors';
 import { Fonts } from '../../src/theme/typography';
 
 export default function ServiceScreen() {
-  const { service: serviceId } = useLocalSearchParams<{ service: string }>();
+  const { service: serviceId, initialPrayer } = useLocalSearchParams<{ service: string; initialPrayer?: string }>();
   const [tocVisible, setTocVisible] = useState(false);
   const scrollRef = useRef<ServiceScrollHandle>(null);
+  const scrolledFor = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (!initialPrayer || scrolledFor.current === initialPrayer) return;
+    const t = setTimeout(() => {
+      scrollRef.current?.scrollToPrayer(initialPrayer);
+      scrolledFor.current = initialPrayer;
+    }, 350);
+    return () => clearTimeout(t);
+  }, [initialPrayer]);
 
   const { displayMode, theme, fontStep, setDisplayMode, bumpFontStep } = usePreferencesStore();
   const { isHighlighted, getNotes, toggleHighlight, addNote } = useAnnotationsStore();
@@ -25,7 +35,7 @@ export default function ServiceScreen() {
 
   const service = getService(serviceId ?? '');
 
-  const s = makeStyles(colors);
+  const s = useMemo(() => makeStyles(colors), [colors]);
 
   if (!service) {
     return (

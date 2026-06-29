@@ -40,6 +40,9 @@ yarn-error.*
 /ios
 /android
 
+# compound-engineering pipeline run artifacts
+.context/
+
 # extraction intermediates
 scripts/chunks/
 scripts/sample_output/

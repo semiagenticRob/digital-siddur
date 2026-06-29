@@ -38,7 +38,7 @@
             {
               "id": "seg-005",
               "type": "section_intro",
-              "enText": "It's important to think a bit before one does a mitzvah, so that one will be doing it for the correct reasons and realize that he is fulfilling a mitzvah! Therefore, one may say the following before counting the Omer:"
+              "enText": "It's important to think a bit before one does a mitzvah, so that one will be doing it for the correct reasons and realize that he is fulfilling a mitzvah! Therefore, some say the following before counting the Omer:"
             },
             {
               "id": "seg-006",
@@ -127,7 +127,7 @@
             {
               "id": "seg-021",
               "type": "section_intro",
-              "enText": "The focus of this chapter is on the future, when the entire world will join with Bnei Yisrael to sing praises to Hashem and submit to His Will. In addition, after the introductory pasuk, this chapter has forty-nine words, corresponding to the forty-nine days of the Omer."
+              "enText": "The focus of this chapter is on the future, when the entire world will join with Bnei Yisrael to sing praises to Hashem and submit to His Will. In addition, after the introductory pasuk, this chapter has forty-nine words, corresponding to the forty-nine days of the Omer!"
             },
             {
               "id": "seg-022",
@@ -436,6 +436,37 @@
               "type": "prayer",
               "heText": "כ\"ח אִיָּיר. הַיּוֹם שְׁלֹשָׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְיוֹם אֶחָד בָּעוֹמֶר:",
               "condition": "Day 43 — 28 Iyar"
+            },
+            {
+              "id": "seg-074",
+              "type": "prayer",
+              "heText": "כ\"ט אִיָּיר. הַיּוֹם אַרְבָּעָה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁנֵי יָמִים בָּעוֹמֶר:",
+              "condition": "Day 44 — 29 Iyar"
+            },
+            {
+              "id": "seg-075",
+              "type": "prayer",
+              "heText": "א' סיון. הַיּוֹם חֲמִשָּׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וּשְׁלֹשָׁה יָמִים בָּעוֹמֶר:"
+            },
+            {
+              "id": "seg-076",
+              "type": "prayer",
+              "heText": "ב' סיון. הַיּוֹם שִׁשָּׁה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְאַרְבָּעָה יָמִים בָּעוֹמֶר:"
+            },
+            {
+              "id": "seg-077",
+              "type": "prayer",
+              "heText": "ג' סיון. הַיּוֹם שִׁבְעָה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וַחֲמִשָּׁה יָמִים בָּעוֹמֶר:"
+            },
+            {
+              "id": "seg-078",
+              "type": "prayer",
+              "heText": "ד' סיון. הַיּוֹם שְׁמוֹנָה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁשָּׁה שָׁבוּעוֹת וְשִׁשָּׁה יָמִים בָּעוֹמֶר:"
+            },
+            {
+              "id": "seg-079",
+              "type": "prayer",
+              "heText": "ה' סיון. הַיּוֹם תִּשְׁעָה וְאַרְבָּעִים יוֹם, שֶׁהֵם שִׁבְעָה שָׁבוּעוֹת בָּעוֹמֶר:"
             }
           ]
         }
