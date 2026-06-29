@@ -124,14 +124,14 @@
               "enTop": true
             },
             {
-              "id": "hazan_commentary",
-              "type": "commentary",
-              "enText": "**בָּרוּךְ אַתָּה**—You, Hashem, are the Source of everything; You take care of us and You rule the entire world; and You provide all the needs for the entire world with kindness and compassion (even when we are not so deserving!). You provide food to all living things, thanks to Your good chessed. And because of Your constant goodness, we have never lacked food, and we will never lack anything, for You feed all, sustain all, do good for all the creatures You have created. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֶת הַכֹּל**—Who provides food for all."
-            },
-            {
               "id": "hazan_prayer",
               "type": "prayer",
               "heText": "בָּרוּךְ אַתָּה יְהֹוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, הַזָּן אֶת הָעוֹלָם כֻּלּוֹ, בְּטוּבוֹ בְּחֵן בְּחֶסֶד וּבְרַחֲמִים, הוּא נוֹתֵן לֶחֶם לְכָל בָּשָׂר, כִּי לְעוֹלָם חַסְדּוֹ. וּבְטוּבוֹ הַגָּדוֹל תָּמִיד לֹא חָסַר לָנוּ וְאַל יֶחְסַר לָנוּ מָזוֹן לְעוֹלָם וָעֶד, בַּעֲבוּר שְׁמוֹ הַגָּדוֹל, כִּי הוּא זָן וּמְפַרְנֵס לַכֹּל, וּמֵטִיב לַכֹּל, וּמֵכִין מָזוֹן לְכָל בְּרִיּוֹתָיו אֲשֶׁר בָּרָא. (כָּאָמוּר, פּוֹתֵחַ אֶת יָדֶךָ וּמַשְׂבִּיעַ לְכָל חַי רָצוֹן.) בָּרוּךְ אַתָּה יְהֹוָה, הַזָּן אֶת הַכֹּל:"
+            },
+            {
+              "id": "hazan_commentary",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ אַתָּה**—You, Hashem, are the Source of everything; You take care of us and You rule the entire world; and You provide all the needs for the entire world with kindness and compassion (even when we are not so deserving!). You provide food to all living things, thanks to Your good chessed. And because of Your constant goodness, we have never lacked food, and we will never lack anything, for You feed all, sustain all, do good for all the creatures You have created. **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֶת הַכֹּל**—Who provides food for all."
             },
             {
               "id": "hazan_faq",
@@ -154,14 +154,14 @@
               "enTop": true
             },
             {
-              "id": "nodeh_commentary",
-              "type": "commentary",
-              "enText": "**נוֹדֶה לְּךָ**—We thank You, Hashem, for: giving us a wonderful and spacious land; taking us out of Egypt and freeing us from slavery; giving us the mitzvah of bris milah; for Your Torah that You taught us; for Your mitzvos that You gave us; for life, goodness, and kindness that You granted us; and for continually taking care of us, constantly!"
-            },
-            {
               "id": "nodeh_prayer",
               "type": "prayer",
               "heText": "נוֹדֶה לְּךָ יְהֹוָה אֱלֹהֵינוּ, עַל שֶׁהִנְחַלְתָּ לַאֲבוֹתֵינוּ אֶרֶץ חֶמְדָּה טוֹבָה וּרְחָבָה, וְעַל שֶׁהוֹצֵאתָנוּ יְהֹוָה אֱלֹהֵינוּ מֵאֶרֶץ מִצְרַיִם, וּפְדִיתָנוּ מִבֵּית עֲבָדִים, וְעַל בְּרִיתְךָ שֶׁחָתַמְתָּ בִּבְשָׂרֵנוּ, וְעַל תּוֹרָתְךָ שֶׁלִּמַּדְתָּנוּ, וְעַל חֻקֶּיךָ שֶׁהוֹדַעְתָּנוּ, וְעַל חַיִּים חֵן וָחֶסֶד שֶׁחוֹנַנְתָּנוּ, וְעַל אֲכִילַת מָזוֹן שָׁאַתָּה זָן וּמְפַרְנֵס אוֹתָנוּ תָּמִיד, בְּכָל יוֹם וּבְכָל עֵת וּבְכָל שָׁעָה:"
+            },
+            {
+              "id": "nodeh_commentary",
+              "type": "commentary",
+              "enText": "**נוֹדֶה לְּךָ**—We thank You, Hashem, for: giving us a wonderful and spacious land; taking us out of Egypt and freeing us from slavery; giving us the mitzvah of bris milah; for Your Torah that You taught us; for Your mitzvos that You gave us; for life, goodness, and kindness that You granted us; and for continually taking care of us, constantly!"
             },
             {
               "id": "al_hanissim_rubric",
@@ -170,14 +170,20 @@
               "xref": "appendix:12:8"
             },
             {
+              "id": "al_hanissim_prayer",
+              "type": "prayer",
+              "heText": "(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה:",
+              "condition": "chanukah"
+            },
+            {
               "id": "al_hanissim_commentary",
               "type": "commentary",
               "enText": "(וְ)**עַל הַנִּסִּים**—(We also thank You) for our miraculous rescue; for the mighty acts and victories; and for the battles (from which You allowed us to emerge victorious) that You performed for our ancestors in those days at this season."
             },
             {
-              "id": "al_hanissim_prayer",
+              "id": "al_hanissim_chanukah_prayer",
               "type": "prayer",
-              "heText": "(וְ) עַל הַנִּסִּים וְעַל הַפֻּרְקָן וְעַל הַגְּבוּרוֹת וְעַל הַתְּשׁוּעוֹת וְעַל הַמִּלְחָמוֹת שֶׁעָשִׂיתָ לַאֲבוֹתֵינוּ בַּיָּמִים הָהֵם בַּזְּמַן הַזֶּה:",
+              "heText": "לַחֲנֻכָּה. בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ, וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה, וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל:",
               "condition": "chanukah"
             },
             {
@@ -187,21 +193,15 @@
               "condition": "chanukah"
             },
             {
-              "id": "al_hanissim_chanukah_prayer",
+              "id": "al_hanissim_purim_prayer",
               "type": "prayer",
-              "heText": "לַחֲנֻכָּה. בִּימֵי מַתִּתְיָהוּ בֶּן יוֹחָנָן כֹּהֵן גָּדוֹל חַשְׁמוֹנָאִי וּבָנָיו, כְּשֶׁעָמְדָה מַלְכוּת יָוָן הָרְשָׁעָה עַל עַמְּךָ יִשְׂרָאֵל לְהַשְׁכִּיחָם תּוֹרָתֶךָ וּלְהַעֲבִירָם מֵחֻקֵּי רְצוֹנֶךָ, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים עָמַדְתָּ לָהֶם בְּעֵת צָרָתָם, רַבְתָּ אֶת רִיבָם, דַּנְתָּ אֶת דִּינָם, נָקַמְתָּ אֶת נִקְמָתָם, מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים, וּטְמֵאִים בְּיַד טְהוֹרִים, וּרְשָׁעִים בְּיַד צַדִּיקִים, וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ, וּלְךָ עָשִׂיתָ שֵׁם גָּדוֹל וְקָדוֹשׁ בְּעוֹלָמֶךָ, וּלְעַמְּךָ יִשְׂרָאֵל עָשִׂיתָ תְּשׁוּעָה גְדוֹלָה וּפֻרְקָן כְּהַיּוֹם הַזֶּה, וְאַחַר כֵּן בָּאוּ בָנֶיךָ לִדְבִיר בֵּיתֶךָ, וּפִנּוּ אֶת הֵיכָלֶךָ, וְטִהֲרוּ אֶת מִקְדָּשֶׁךָ, וְהִדְלִיקוּ נֵרוֹת בְּחַצְרוֹת קָדְשֶׁךָ, וְקָבְעוּ שְׁמוֹנַת יְמֵי חֲנֻכָּה אֵלּוּ לְהוֹדוֹת וּלְהַלֵּל לְשִׁמְךָ הַגָּדוֹל:",
-              "condition": "chanukah"
+              "heText": "לַפּוּרִים. בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ:",
+              "condition": "purim"
             },
             {
               "id": "al_hanissim_purim_commentary",
               "type": "commentary",
               "enText": "On Purim: **בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
-              "condition": "purim"
-            },
-            {
-              "id": "al_hanissim_purim_prayer",
-              "type": "prayer",
-              "heText": "לַפּוּרִים. בִּימֵי מָרְדְּכַי וְאֶסְתֵּר בְּשׁוּשַׁן הַבִּירָה, כְּשֶׁעָמַד עֲלֵיהֶם הָמָן הָרָשָׁע, בִּקֵּשׁ לְהַשְׁמִיד לַהֲרֹג וּלְאַבֵּד אֶת כָּל הַיְּהוּדִים מִנַּעַר וְעַד זָקֵן טַף וְנָשִׁים בְּיוֹם אֶחָד בִּשְׁלוֹשָׁה עָשָׂר לְחֹדֶשׁ שְׁנֵים עָשָׂר הוּא חֹדֶשׁ אֲדָר וּשְׁלָלָם לָבוֹז, וְאַתָּה בְּרַחֲמֶיךָ הָרַבִּים הֵפַרְתָּ אֶת עֲצָתוֹ וְקִלְקַלְתָּ אֶת מַחֲשַׁבְתּוֹ וַהֲשֵׁבוֹתָ לּוֹ גְּמוּלוֹ בְּרֹאשׁוֹ וְתָלוּ אוֹתוֹ וְאֶת בָּנָיו עַל הָעֵץ:",
               "condition": "purim"
             },
             {
