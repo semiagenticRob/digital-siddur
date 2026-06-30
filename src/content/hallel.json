@@ -29,14 +29,14 @@
               "enText": "We tend to forget that we were the first nation to have a publicly funded orchestra! The Leviim, who were supported by maaser, sang and played instruments in the Beis Hamikdash as part of the avodah. Hallel is the part of tefillah that gives us an opportunity to fulfill \"ivdu es Hashem b'simchah\": get in touch with the depth of our neshamah and sing out thanks to Hashem. I know that ALL of us have struggles and difficulties. Some more than others. But now is the time to focus on what we DO have, not what we are missing. As a speaker (who has no shortage of struggles) once said: \"If you focus on the good and not on the bad, you will end up being as happy, if not more so, than if you had done everything you wanted to do.\" Read that line again and then sing Hallel."
             },
             {
-              "id": "hallel-bracha-gloss",
-              "type": "commentary",
-              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֱלֹהֵינוּ**—You take care of us; **מֶלֶךְ הָעוֹלָם**—and You rule the entire world; **אֲשֶׁר קִדְּשָׁנוּ**—You elevated us; **בְּמִצְוֹתָיו**—and through Your mitzvos You elevated us; **וְצִוָּנוּ לִקְרֹא אֶת הַהַלֵּל**—and You commanded us to recite the Hallel."
-            },
-            {
               "id": "hallel-bracha",
               "type": "prayer",
               "heText": "בָּרוּךְ אַתָּה יְהֹוָה, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו, וְצִוָּנוּ לִקְרֹא אֶת הַהַלֵּל:"
+            },
+            {
+              "id": "hallel-bracha-gloss",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֱלֹהֵינוּ**—You take care of us; **מֶלֶךְ הָעוֹלָם**—and You rule the entire world; **אֲשֶׁר קִדְּשָׁנוּ**—You elevated us; **בְּמִצְוֹתָיו**—and through Your mitzvos You elevated us; **וְצִוָּנוּ לִקְרֹא אֶת הַהַלֵּל**—and You commanded us to recite the Hallel."
             },
             {
               "id": "tehillim-113-header",
@@ -69,14 +69,14 @@
               "enText": "The focus of this chapter is that Hashem chose us as His nation, and thus we have a unique destiny."
             },
             {
-              "id": "tehillim-114-gloss",
-              "type": "commentary",
-              "enText": "**בְּצֵאת יִשְׂרָאֵל מִמִּצְרַיִם**—When Hashem took Bnei Yisrael out of Egypt with clear miracles, we became His chosen people, to live a life of holiness and purpose. The very natural order of the world was changed through those miracles; the sea split *(and even rocks gave forth water)*! This was a clear message to the world that **אָדוֹן חוּלִי אָרֶץ**—Hashem controls nature and **אֱלוֹהַּ יַעֲקֹב**—we are His unique people *(with unique responsibilities)*."
-            },
-            {
               "id": "tehillim-114-text",
               "type": "prayer",
               "heText": "בְּצֵאת יִשְׂרָאֵל מִמִּצְרָיִם, בֵּית יַעֲקֹב מֵעַם לֹעֵז: הָיְתָה יְהוּדָה לְקָדְשׁוֹ, יִשְׂרָאֵל מַמְשְׁלוֹתָיו: הַיָּם רָאָה וַיָּנֹס, הַיַּרְדֵּן יִסֹּב לְאָחוֹר: הֶהָרִים רָקְדוּ כְאֵילִים, גְּבָעוֹת כִּבְנֵי צֹאן: מַה לְּךָ הַיָּם כִּי תָנוּס, הַיַּרְדֵּן תִּסֹּב לְאָחוֹר: הֶהָרִים תִּרְקְדוּ כְאֵילִים, גְּבָעוֹת כִּבְנֵי צֹאן: מִלִּפְנֵי אָדוֹן חוּלִי אָרֶץ, מִלִּפְנֵי אֱלוֹהַּ יַעֲקֹב: הַהֹפְכִי הַצּוּר אֲגַם מָיִם, חַלָּמִישׁ לְמַעְיְנוֹ מָיִם:"
+            },
+            {
+              "id": "tehillim-114-gloss",
+              "type": "commentary",
+              "enText": "**בְּצֵאת יִשְׂרָאֵל מִמִּצְרַיִם**—When Hashem took Bnei Yisrael out of Egypt with clear miracles, we became His chosen people, to live a life of holiness and purpose. The very natural order of the world was changed through those miracles; the sea split *(and even rocks gave forth water)*! This was a clear message to the world that **אָדוֹן חוּלִי אָרֶץ**—Hashem controls nature and **אֱלוֹהַּ יַעֲקֹב**—we are His unique people *(with unique responsibilities)*."
             },
             {
               "id": "tehillim-115-omit-rubric",
@@ -98,15 +98,15 @@
               "optional": true
             },
             {
-              "id": "tehillim-115a-gloss",
-              "type": "commentary",
-              "enText": "**לֹא לָנוּ**—Give us life and prosperity, but not so that we ourselves get recognition or glory, but rather, so that Your \"Name\"—Your power and providence—will get the recognition it is due! When we suffer, the nations gloat saying, \"Where is their God?\" We know the truth: that You are all-powerful, and their idols and the powers they rely upon are powerless! And each of us, with our own unique role; **בְּטַח בַּיהֹוָה**—trusts in You; and **עֶזְרָם וּמָגִנָּם הוּא**—You give each of us what we need to fulfill our potential, and You protect us from physical and spiritual harm.",
-              "optional": true
-            },
-            {
               "id": "tehillim-115a-text",
               "type": "prayer",
               "heText": "לֹא לָנוּ יְהֹוָה לֹא לָנוּ, כִּי לְשִׁמְךָ תֵּן כָּבוֹד, עַל חַסְדְּךָ עַל אֲמִתֶּךָ: לָמָּה יֹאמְרוּ הַגּוֹיִם, אַיֵּה נָא אֱלֹהֵיהֶם: וֵאלֹהֵינוּ בַשָּׁמָיִם, כֹּל אֲשֶׁר חָפֵץ עָשָׂה: עֲצַבֵּיהֶם כֶּסֶף וְזָהָב, מַעֲשֵׂה יְדֵי אָדָם: פֶּה לָהֶם וְלֹא יְדַבֵּרוּ, עֵינַיִם לָהֶם וְלֹא יִרְאוּ: אָזְנַיִם לָהֶם וְלֹא יִשְׁמָעוּ, אַף לָהֶם וְלֹא יְרִיחוּן: יְדֵיהֶם וְלֹא יְמִישׁוּן, רַגְלֵיהֶם וְלֹא יְהַלֵּכוּ, לֹא יֶהְגּוּ בִּגְרוֹנָם: כְּמוֹהֶם יִהְיוּ עֹשֵׂיהֶם, כֹּל אֲשֶׁר בֹּטֵחַ בָּהֶם: יִשְׂרָאֵל בְּטַח בַּיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא: בֵּית אַהֲרֹן בִּטְחוּ בַיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא: יִרְאֵי יְהֹוָה בִּטְחוּ בַיהֹוָה, עֶזְרָם וּמָגִנָּם הוּא:",
+              "optional": true
+            },
+            {
+              "id": "tehillim-115a-gloss",
+              "type": "commentary",
+              "enText": "**לֹא לָנוּ**—Give us life and prosperity, but not so that we ourselves get recognition or glory, but rather, so that Your \"Name\"—Your power and providence—will get the recognition it is due! When we suffer, the nations gloat saying, \"Where is their God?\" We know the truth: that You are all-powerful, and their idols and the powers they rely upon are powerless! And each of us, with our own unique role; **בְּטַח בַּיהֹוָה**—trusts in You; and **עֶזְרָם וּמָגִנָּם הוּא**—You give each of us what we need to fulfill our potential, and You protect us from physical and spiritual harm.",
               "optional": true
             },
             {
@@ -115,14 +115,14 @@
               "enText": "The focus of the second half of this chapter is that we know that in truth, the providence of Hashem is everywhere."
             },
             {
-              "id": "tehillim-115b-gloss",
-              "type": "commentary",
-              "enText": "**יְהֹוָה זְכָרָנוּ יְבָרֵךְ**—Throughout our history we have never abandoned us. And we know that You will give blessing to each and every one of us, so that each of us can fulfill our God-given mission. **הַמֵּתִים לֹא יְהַלְלוּ יָהּ**—Those who have deadened their senses to growth in ruchniyus *(cannot see Your goodness, and therefore)* cannot praise You. **וַאֲנַחְנוּ**—But we; who see the Hand of Hashem everywhere and throughout history; **הַלְלוּיָהּ**—whatever happens, we praise Hashem!"
-            },
-            {
               "id": "tehillim-115b-text",
               "type": "prayer",
               "heText": "יְהֹוָה זְכָרָנוּ יְבָרֵךְ, יְבָרֵךְ אֶת בֵּית יִשְׂרָאֵל, יְבָרֵךְ אֶת בֵּית אַהֲרֹן: יְבָרֵךְ יִרְאֵי יְהֹוָה, הַקְּטַנִּים עִם הַגְּדֹלִים: יֹסֵף יְהֹוָה עֲלֵיכֶם, עֲלֵיכֶם וְעַל בְּנֵיכֶם: בְּרוּכִים אַתֶּם לַיהֹוָה, עֹשֵׂה שָׁמַיִם וָאָרֶץ: הַשָּׁמַיִם שָׁמַיִם לַיהֹוָה, וְהָאָרֶץ נָתַן לִבְנֵי אָדָם: לֹא הַמֵּתִים יְהַלְלוּ יָהּ, וְלֹא כָּל יֹרְדֵי דוּמָה: וַאֲנַחְנוּ נְבָרֵךְ יָהּ, מֵעַתָּה וְעַד עוֹלָם, הַלְלוּיָהּ:"
+            },
+            {
+              "id": "tehillim-115b-gloss",
+              "type": "commentary",
+              "enText": "**יְהֹוָה זְכָרָנוּ יְבָרֵךְ**—Throughout our history we have never abandoned us. And we know that You will give blessing to each and every one of us, so that each of us can fulfill our God-given mission. **הַמֵּתִים לֹא יְהַלְלוּ יָהּ**—Those who have deadened their senses to growth in ruchniyus *(cannot see Your goodness, and therefore)* cannot praise You. **וַאֲנַחְנוּ**—But we; who see the Hand of Hashem everywhere and throughout history; **הַלְלוּיָהּ**—whatever happens, we praise Hashem!"
             },
             {
               "id": "tehillim-116-omit-rubric",

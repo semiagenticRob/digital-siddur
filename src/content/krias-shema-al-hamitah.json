@@ -196,6 +196,11 @@
               "enText": "**יְהוָה מָה רַבּוּ צָרָי רַבִּים**—*(Says David HaMelech:)* I have so many oppressors, so many have risen up against me! They claim that You, Hashem, will not help me! But I know that You, Hashem, remain my Protector, the One Who raises me up *(when I am down)*. Thus, I go to sleep *(without fear)* and I awake, because I know that Hashem sustains me. I am not afraid of those who surround me to attack me, because I know that all salvation is in His Hands!"
             },
             {
+              "id": "ksm2-prayer-1",
+              "type": "prayer",
+              "heText": "הַשְׁכִּיבֵנוּ יְהֹוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר וְחֶרֶב וְרָעָב וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה, וּשְׁמֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:"
+            },
+            {
               "id": "ksm2-insight-1",
               "type": "insight",
               "enText": "**וְהָסֵר שָׂטָן מִלְּפָנֵינוּ**—*Remove the Satan in front of us and from behind us.* The Satan in front of us is clear: it is the click on the mouse we shouldn't make, the outfit that's only appropriate if we don't breathe or move, the funny story about someone we shouldn't say, and the not-so-kosher business deal we should turn down. But what is the Satan behind us? That is our past, those mistakes we made and our insecurities that are now whispering in our ear, \"Who do you think you are anyway? You're not frum! That next rung of growth isn't for guys like you—just give it up!\" All of this is false, as our mistakes in the past do not prevent our future growth! We therefore ask Hashem to help us overcome the \"Satan of the past\" so we can continue conquering new levels of growth."
@@ -206,19 +211,9 @@
               "enText": "**הַשְׁכִּיבֵנוּ**—May we rest peacefully tonight and wake up refreshed and full of life tomorrow. Give us the ability to make clear and good choices; **וְהוֹשִׁיעֵנוּ**—protect us from dangers; **לְמַעַן שְׁמֶךָ**—so that we can fulfill our mission and make a kiddush Hashem! Save us from wars, famine, and sickness; **וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ**—and remove the Satan from in front of us and from behind us (*see Instant Insight*). And please personally shelter us from all evil, for You are our Protector Who constantly saves us, for You are a merciful and compassionate King. **וּשְׁמֹר צֵאתֵנוּ וּבוֹאֵנוּ**—Guard all our comings and goings; **לְחַיִּים וּלְשָׁלוֹם**—that we should live, and be at peace; **מֵעַתָּה וְעַד עוֹלָם**—now and forever!"
             },
             {
-              "id": "ksm2-prayer-1",
-              "type": "prayer",
-              "heText": "הַשְׁכִּיבֵנוּ יְהֹוָה אֱלֹהֵינוּ לְשָׁלוֹם, וְהַעֲמִידֵנוּ מַלְכֵּנוּ לְחַיִּים, וּפְרֹשׂ עָלֵינוּ סֻכַּת שְׁלוֹמֶךָ, וְתַקְּנֵנוּ בְּעֵצָה טוֹבָה מִלְּפָנֶיךָ, וְהוֹשִׁיעֵנוּ לְמַעַן שְׁמֶךָ, וְהָגֵן בַּעֲדֵנוּ, וְהָסֵר מֵעָלֵינוּ אוֹיֵב, דֶּבֶר וְחֶרֶב וְרָעָב וְיָגוֹן, וְהָסֵר שָׂטָן מִלְּפָנֵינוּ וּמֵאַחֲרֵינוּ, וּבְצֵל כְּנָפֶיךָ תַּסְתִּירֵנוּ, כִּי אֵל שׁוֹמְרֵנוּ וּמַצִּילֵנוּ אָתָּה, כִּי אֵל מֶלֶךְ חַנּוּן וְרַחוּם אָתָּה, וּשְׁמֹר צֵאתֵנוּ וּבוֹאֵנוּ לְחַיִּים וּלְשָׁלוֹם מֵעַתָּה וְעַד עוֹלָם:"
-            },
-            {
               "id": "ksm2-rubric-1",
               "type": "rubric",
               "enText": "We then recite various pesukim that deal with Hashem's constant protection of us:"
-            },
-            {
-              "id": "ksm2-comm-2",
-              "type": "commentary",
-              "enText": "**בָּרוּךְ יְהֹוָה בַּיּוֹם, בָּרוּךְ יְהֹוָה בַּלָּיְלָה**—I thank Hashem for all that He does for me during the day (*when I can see His kindness*) and for all He does for me during the night (*when it is hard to see His kindness*). Hashem, I put myself in Your Hands at all times (*especially now when I go to sleep*). Hashem, may all recognize You as the one power, and may You rule over us forever!"
             },
             {
               "id": "ksm2-prayer-2",
@@ -226,9 +221,9 @@
               "heText": "בָּרוּךְ יְהֹוָה בַּיּוֹם, בָּרוּךְ יְהֹוָה בַּלָּיְלָה, בָּרוּךְ יְהֹוָה בְּשָׁכְבֵנוּ, בָּרוּךְ יְהֹוָה בְּקוּמֵנוּ: כִּי בְיָדְךָ נַפְשׁוֹת הַחַיִּים וְהַמֵּתִים, אֲשֶׁר בְּיָדוֹ נֶפֶשׁ כָּל חָי וְרוּחַ כָּל בְּשַׂר אִישׁ: בְּיָדְךָ אַפְקִיד רוּחִי, פָּדִיתָה אוֹתִי יְהֹוָה אֵל אֱמֶת: אֱלֹהֵינוּ שֶׁבַּשָּׁמַיִם, יַחֵד שִׁמְךָ וְקַיֵּם מַלְכוּתְךָ תָּמִיד, וּמְלֹךְ עָלֵינוּ לְעוֹלָם וָעֶד:"
             },
             {
-              "id": "ksm2-comm-3",
+              "id": "ksm2-comm-2",
               "type": "commentary",
-              "enText": "**יִרְאוּ עֵינֵינוּ וְיִשְׂמַח לִבֵּנוּ**—May we soon rejoice by witnessing the coming of Mashiach, when You will rule forever over the whole world. Because You are the only true King, and You rule over everything forever, for we have no other King but You!"
+              "enText": "**בָּרוּךְ יְהֹוָה בַּיּוֹם, בָּרוּךְ יְהֹוָה בַּלָּיְלָה**—I thank Hashem for all that He does for me during the day (*when I can see His kindness*) and for all He does for me during the night (*when it is hard to see His kindness*). Hashem, I put myself in Your Hands at all times (*especially now when I go to sleep*). Hashem, may all recognize You as the one power, and may You rule over us forever!"
             },
             {
               "id": "ksm2-prayer-3",
@@ -236,14 +231,14 @@
               "heText": "יִרְאוּ עֵינֵינוּ וְיִשְׂמַח לִבֵּנוּ, וְתָגֵל נַפְשֵׁנוּ בִּישׁוּעָתְךָ בֶּאֱמֶת, בֶּאֱמֹר לְצִיּוֹן מָלַךְ אֱלֹהָיִךְ: יְהֹוָה מֶלֶךְ, יְהֹוָה מָלָךְ, יְהֹוָה יִמְלֹךְ לְעוֹלָם וָעֶד: כִּי הַמַּלְכוּת שֶׁלְּךָ הִיא, וּלְעוֹלְמֵי עַד תִּמְלֹךְ בְּכָבוֹד, כִּי אֵין לָנוּ מֶלֶךְ אֶלָּא אָתָּה:"
             },
             {
+              "id": "ksm2-comm-3",
+              "type": "commentary",
+              "enText": "**יִרְאוּ עֵינֵינוּ וְיִשְׂמַח לִבֵּנוּ**—May we soon rejoice by witnessing the coming of Mashiach, when You will rule forever over the whole world. Because You are the only true King, and You rule over everything forever, for we have no other King but You!"
+            },
+            {
               "id": "ksm2-rubric-2",
               "type": "rubric",
               "enText": "When Yaakov Avinu gave a bracha to Ephraim and Menasheh, he said:"
-            },
-            {
-              "id": "ksm2-comm-4",
-              "type": "commentary",
-              "enText": "**הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל רָע**—May the angel who saved me from all evil bless the boys, and let them carry my name and the names Avraham and Yitzchak (*may they continue in our path of serving Hashem*); and may they multiply abundantly in the land."
             },
             {
               "id": "ksm2-prayer-4",
@@ -251,14 +246,14 @@
               "heText": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל רָע יְבָרֵךְ אֶת הַנְּעָרִים, וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק, וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָרֶץ:"
             },
             {
+              "id": "ksm2-comm-4",
+              "type": "commentary",
+              "enText": "**הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל רָע**—May the angel who saved me from all evil bless the boys, and let them carry my name and the names Avraham and Yitzchak (*may they continue in our path of serving Hashem*); and may they multiply abundantly in the land."
+            },
+            {
               "id": "ksm2-rubric-3",
               "type": "rubric",
               "enText": "And Moshe told Bnei Yisrael after they witnessed the splitting of the sea:"
-            },
-            {
-              "id": "ksm2-comm-5",
-              "type": "commentary",
-              "enText": "**וַיֹּאמֶר אִם שָׁמוֹעַ תִּשְׁמַע**—And Moshe told them in the name of Hashem: If you will listen to all that Hashem says and do what is correct, carefully keeping all the mitzvos, then none of the sicknesses that plagued Egypt will happen to you, for I am Hashem Who heals you."
             },
             {
               "id": "ksm2-prayer-5",
@@ -266,14 +261,14 @@
               "heText": "וַיֹּאמֶר אִם שָׁמוֹעַ תִּשְׁמַע לְקוֹל יְהֹוָה אֱלֹהֶיךָ, וְהַיָּשָׁר בְּעֵינָיו תַּעֲשֶׂה, וְהַאֲזַנְתָּ לְמִצְוֹתָיו וְשָׁמַרְתָּ כָּל חֻקָּיו, כָּל הַמַּחֲלָה אֲשֶׁר שַׂמְתִּי בְמִצְרַיִם לֹא אָשִׂים עָלֶיךָ, כִּי אֲנִי יְהֹוָה רֹפְאֶךָ:"
             },
             {
+              "id": "ksm2-comm-5",
+              "type": "commentary",
+              "enText": "**וַיֹּאמֶר אִם שָׁמוֹעַ תִּשְׁמַע**—And Moshe told them in the name of Hashem: If you will listen to all that Hashem says and do what is correct, carefully keeping all the mitzvos, then none of the sicknesses that plagued Egypt will happen to you, for I am Hashem Who heals you."
+            },
+            {
               "id": "ksm2-rubric-4",
               "type": "rubric",
               "enText": "When Yehoshua the Kohen Gadol was being threatened by the Satan:"
-            },
-            {
-              "id": "ksm2-comm-6",
-              "type": "commentary",
-              "enText": "**וַיֹּאמֶר יְהֹוָה אֶל הַשָּׂטָן**—And (*the angel of*) Hashem said to the Satan: Hashem will rebuke you, Satan; Hashem, Who has chosen Yerushalayim will denounce you! He (*Yehoshua the Kohen Gadol*) is like the remnants saved from the fire."
             },
             {
               "id": "ksm2-prayer-6",
@@ -281,14 +276,14 @@
               "heText": "וַיֹּאמֶר יְהֹוָה אֶל הַשָּׂטָן, יִגְעַר יְהֹוָה בְּךָ הַשָּׂטָן, וְיִגְעַר יְהֹוָה בְּךָ הַבֹּחֵר בִּירוּשָׁלָיִם, הֲלוֹא זֶה אוּד מֻצָּל מֵאֵשׁ:"
             },
             {
+              "id": "ksm2-comm-6",
+              "type": "commentary",
+              "enText": "**וַיֹּאמֶר יְהֹוָה אֶל הַשָּׂטָן**—And (*the angel of*) Hashem said to the Satan: Hashem will rebuke you, Satan; Hashem, Who has chosen Yerushalayim will denounce you! He (*Yehoshua the Kohen Gadol*) is like the remnants saved from the fire."
+            },
+            {
               "id": "ksm2-rubric-5",
               "type": "rubric",
               "enText": "The following two pesukim are from Shir Hashirim, most of which is allegorical and has many layers of meanings. We will offer two explanations of this pasuk:"
-            },
-            {
-              "id": "ksm2-comm-7",
-              "type": "commentary",
-              "enText": "**הִנֵּה מִטָּתוֹ שֶׁלִּשְׁלֹמֹה**—Rashi: Behold the Mishkan, escorted by six hundred thousand mighty warriors (*the number of adult males between twenty and sixty who escorted the Mishkan as we traveled through the desert*); all skilled in the battle of Torah study, which protects us from the fear of the darkness of our galus. Rashbam: (*In praise of Bnei Yisrael:*) Behold you, Bnei Yisrael, sleep as secure as Shlomo HaMelech, who (*like all kings*) needs sixty mighty skilled warriors with swords to protect him from his enemies."
             },
             {
               "id": "ksm2-prayer-7",
@@ -296,14 +291,14 @@
               "heText": "הִנֵּה מִטָּתוֹ שֶׁלִּשְׁלֹמֹה, שִׁשִּׁים גִּבֹּרִים סָבִיב לָהּ, מִגִּבֹּרֵי יִשְׂרָאֵל: כֻּלָּם אֲחֻזֵי חֶרֶב, מְלֻמְּדֵי מִלְחָמָה, אִישׁ חַרְבּוֹ עַל יְרֵכוֹ מִפַּחַד בַּלֵּילוֹת:"
             },
             {
+              "id": "ksm2-comm-7",
+              "type": "commentary",
+              "enText": "**הִנֵּה מִטָּתוֹ שֶׁלִּשְׁלֹמֹה**—Rashi: Behold the Mishkan, escorted by six hundred thousand mighty warriors (*the number of adult males between twenty and sixty who escorted the Mishkan as we traveled through the desert*); all skilled in the battle of Torah study, which protects us from the fear of the darkness of our galus. Rashbam: (*In praise of Bnei Yisrael:*) Behold you, Bnei Yisrael, sleep as secure as Shlomo HaMelech, who (*like all kings*) needs sixty mighty skilled warriors with swords to protect him from his enemies."
+            },
+            {
               "id": "ksm2-insight-2",
               "type": "insight",
               "enText": "As we go to sleep, we ask that Hashem protect us from all sides, similar to Bnei Yisrael in the desert, who had \"clouds of glory\" protecting them from all sides. Though our understanding of angels is limited, we do know the following: Michael represents chesed and mercy (*he is the angel who told Avraham and Sarah the good news that they would have a child*), whereas Gavriel represents din, strict justice (*he overturned Sodom*). We do want Hashem to judge us so that we can correct our ways, but we ask that \"Gavriel\" should be on the left (*which represents the weaker, softer side*) and \"Michael/chessed\" on the right, the stronger side. Uriel represents light and Chazal's wisdom. Thus, we ask that he be in front of us to lead us on the right path. Rafael, who represents healing (*he healed Avraham after his bris*), should be behind us to \"heal\" us when we stumble and fall backward. But these are \"only\" angels. We really want protection directly from Hashem Himself, and ask that His Presence should be directly over our heads, overseeing all we do."
-            },
-            {
-              "id": "ksm2-comm-8",
-              "type": "commentary",
-              "enText": "**יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you (*with material abundance*) and protect you (*from misusing it!*) **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you can see His providence (*in your life*). **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace (*within yourself*)."
             },
             {
               "id": "ksm2-prayer-8-gimelpe-rubric",
@@ -316,9 +311,9 @@
               "heText": "יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ: יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ: יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:"
             },
             {
-              "id": "ksm2-comm-9",
+              "id": "ksm2-comm-8",
               "type": "commentary",
-              "enText": "**הִנֵּה לֹא יָנוּם וְלֹא יִישָׁן שׁוֹמֵר יִשְׂרָאֵל**—Behold, the Protector of Bnei Yisrael never slumbers and sleeps!"
+              "enText": "**יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you (*with material abundance*) and protect you (*from misusing it!*) **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you can see His providence (*in your life*). **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace (*within yourself*)."
             },
             {
               "id": "ksm2-prayer-9-gimelpe-rubric",
@@ -331,9 +326,9 @@
               "heText": "הִנֵּה לֹא יָנוּם וְלֹא יִישָׁן שׁוֹמֵר יִשְׂרָאֵל:"
             },
             {
-              "id": "ksm2-comm-10",
+              "id": "ksm2-comm-9",
               "type": "commentary",
-              "enText": "**לִישׁוּעָתְךָ קִוִּיתִי יְהֹוָה**—For Your salvation I hope, Hashem! **קִוִּיתִי יְהֹוָה לִישׁוּעָתֶךָ**—I hope, Hashem, for Your salvation! **יְהֹוָה לִישׁוּעָתְךָ קִוִּיתִי**—Hashem, for Your salvation I hope!"
+              "enText": "**הִנֵּה לֹא יָנוּם וְלֹא יִישָׁן שׁוֹמֵר יִשְׂרָאֵל**—Behold, the Protector of Bnei Yisrael never slumbers and sleeps!"
             },
             {
               "id": "ksm2-prayer-10-gimelpe-rubric",
@@ -346,9 +341,9 @@
               "heText": "לִישׁוּעָתְךָ קִוִּיתִי יְהֹוָה: קִוִּיתִי יְהֹוָה לִישׁוּעָתֶךָ: יְהֹוָה לִישׁוּעָתְךָ קִוִּיתִי:"
             },
             {
-              "id": "ksm2-comm-11",
+              "id": "ksm2-comm-10",
               "type": "commentary",
-              "enText": "**בְּשֵׁם יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל**—Please, Hashem, Who has always taken care of us: May Michael be at my right, Gavriel at my left, Uriel in front of me, and Rafael behind me, and may the Presence of Hashem be above my head (*see Instant Insight*)."
+              "enText": "**לִישׁוּעָתְךָ קִוִּיתִי יְהֹוָה**—For Your salvation I hope, Hashem! **קִוִּיתִי יְהֹוָה לִישׁוּעָתֶךָ**—I hope, Hashem, for Your salvation! **יְהֹוָה לִישׁוּעָתְךָ קִוִּיתִי**—Hashem, for Your salvation I hope!"
             },
             {
               "id": "ksm2-prayer-11-gimelpe-rubric",
@@ -359,6 +354,11 @@
               "id": "ksm2-prayer-11",
               "type": "prayer",
               "heText": "בְּשֵׁם יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל, מִימִינִי מִיכָאֵל, וּמִשְּׂמֹאלִי גַּבְרִיאֵל, וּמִלְּפָנַי אוּרִיאֵל, וּמֵאֲחוֹרַי רְפָאֵל, וְעַל רֹאשִׁי שְׁכִינַת אֵל:"
+            },
+            {
+              "id": "ksm2-comm-11",
+              "type": "commentary",
+              "enText": "**בְּשֵׁם יְהֹוָה אֱלֹהֵי יִשְׂרָאֵל**—Please, Hashem, Who has always taken care of us: May Michael be at my right, Gavriel at my left, Uriel in front of me, and Rafael behind me, and may the Presence of Hashem be above my head (*see Instant Insight*)."
             },
             {
               "id": "ksm2-header-1",
@@ -372,14 +372,14 @@
               "enText": "The focus of this chapter is that a Jewish home will be tranquil, happy, peaceful, and productive only if it is based on Torah values! As we look back at our day and go to sleep for the night, we focus on what really matters—not our physical \"house\" and possessions, but the values and spiritual content of our \"home,\" for that is what brings ultimate shalom bayis."
             },
             {
-              "id": "ksm2-comm-12",
-              "type": "commentary",
-              "enText": "**שִׁיר הַמַּעֲלוֹת, אַשְׁרֵי כָּל יְרֵא יְהֹוָה**—True contentment and happiness is found among those who fear Hashem and follow His mitzvos, and those who can enjoy the fruits of their work are fortunate. Your wife, and mother of your children, will be able to flourish within such a home, and your children shall grow up (*spiritually and emotionally*) healthy, around your table (*feeling secure as part of the family*). Thus, the person who fears Hashem is truly blessed! May Hashem bless you from Zion, may You live to see the good of Yerushalayim, and may you live to see your children's children! Peace on all of Israel!"
-            },
-            {
               "id": "ksm2-prayer-12",
               "type": "prayer",
               "heText": "שִׁיר הַמַּעֲלוֹת, אַשְׁרֵי כָּל יְרֵא יְהֹוָה, הַהֹלֵךְ בִּדְרָכָיו: יְגִיעַ כַּפֶּיךָ כִּי תֹאכֵל, אַשְׁרֶיךָ וְטוֹב לָךְ: אֶשְׁתְּךָ כְּגֶפֶן פֹּרִיָּה בְּיַרְכְּתֵי בֵיתֶךָ, בָּנֶיךָ כִּשְׁתִלֵי זֵיתִים סָבִיב לְשֻׁלְחָנֶךָ: הִנֵּה כִי כֵן יְבֹרַךְ גָּבֶר יְרֵא יְהֹוָה: יְבָרֶכְךָ יְהֹוָה מִצִּיּוֹן, וּרְאֵה בְּטוּב יְרוּשָׁלָיִם כֹּל יְמֵי חַיֶּיךָ: וּרְאֵה בָנִים לְבָנֶיךָ, שָׁלוֹם עַל יִשְׂרָאֵל:"
+            },
+            {
+              "id": "ksm2-comm-12",
+              "type": "commentary",
+              "enText": "**שִׁיר הַמַּעֲלוֹת, אַשְׁרֵי כָּל יְרֵא יְהֹוָה**—True contentment and happiness is found among those who fear Hashem and follow His mitzvos, and those who can enjoy the fruits of their work are fortunate. Your wife, and mother of your children, will be able to flourish within such a home, and your children shall grow up (*spiritually and emotionally*) healthy, around your table (*feeling secure as part of the family*). Thus, the person who fears Hashem is truly blessed! May Hashem bless you from Zion, may You live to see the good of Yerushalayim, and may you live to see your children's children! Peace on all of Israel!"
             },
             {
               "id": "ksm2-section-intro-2",
@@ -387,14 +387,14 @@
               "enText": "The only thing to worry about are the choices you make, since everything else is in the Hands of Hashem! If you quietly resolve (*between you and Hashem*), as you fall asleep, that tomorrow you will do the best you can, then you have nothing to fear!"
             },
             {
-              "id": "ksm2-comm-13",
-              "type": "commentary",
-              "enText": "**רִגְזוּ וְאַל תֶּחֱטָאוּ**—Tremble and do not sin. Reflect in your heart as you lie in bed and be silent (*your resolutions for tomorrow are just between you and Hashem*)."
-            },
-            {
               "id": "ksm2-prayer-13",
               "type": "prayer",
               "heText": "רִגְזוּ וְאַל תֶּחֱטָאוּ, אִמְרוּ בִלְבַבְכֶם עַל מִשְׁכַּבְכֶם וְדֹמּוּ סֶלָה:"
+            },
+            {
+              "id": "ksm2-comm-13",
+              "type": "commentary",
+              "enText": "**רִגְזוּ וְאַל תֶּחֱטָאוּ**—Tremble and do not sin. Reflect in your heart as you lie in bed and be silent (*your resolutions for tomorrow are just between you and Hashem*)."
             },
             {
               "id": "ksm2-transition-1",
@@ -402,14 +402,14 @@
               "enText": "This is how we started our day—that we have \"a unique and close relationship with\" the Adon Olam, which is why \"I entrust my spirit into His Hand when…I am awake.\" And we end our day with the same feeling. Therefore, \"I entrust my spirit into His Hand when I sleep.\""
             },
             {
-              "id": "ksm2-comm-14",
-              "type": "commentary",
-              "enText": "**אֲדוֹן עוֹלָם**—You are the Master of the universe, Who ruled even before anything was created and will rule after all ceases to exist; and now that there IS a creation, You are proclaimed as King by all creatures: Hashem always was, is, and always will be. There is no power but You, without beginning or end, all power is Yours. (*Though understanding the essence of Hashem is beyond comprehension, nevertheless I have a unique and close relationship with Him!*) He is my God; my living redeemer; He is a rock for me when I am in pain or in time of distress; He is a refuge for me; He answers me when I call to Him. Therefore, I entrust my spirit into His Hand when I sleep and when I am awake (*I am in His Hands at all times*). With my spirit, my body, Hashem is with me and therefore I fear nothing."
-            },
-            {
               "id": "ksm2-prayer-14",
               "type": "prayer",
               "heText": "אֲדוֹן עוֹלָם אֲשֶׁר מָלַךְ, בְּטֶרֶם כָּל יְצִיר נִבְרָא: לְעֵת נַעֲשָׂה בְחֶפְצוֹ כֹּל, אֲזַי מֶלֶךְ שְׁמוֹ נִקְרָא: וְאַחֲרֵי כִּכְלוֹת הַכֹּל, לְבַדּוֹ יִמְלֹךְ נוֹרָא: וְהוּא הָיָה וְהוּא הֹוֶה, וְהוּא יִהְיֶה בְּתִפְאָרָה: וְהוּא אֶחָד וְאֵין שֵׁנִי, לְהַמְשִׁיל לוֹ לְהַחְבִּירָה: בְּלִי רֵאשִׁית בְּלִי תַכְלִית, וְלוֹ הָעֹז וְהַמִּשְׂרָה: וְהוּא אֵלִי וְחַי גֹּאֲלִי, וְצוּר חֶבְלִי בְּעֵת צָרָה: וְהוּא נִסִּי וּמָנוֹס לִי, מְנָת כּוֹסִי בְּיוֹם אֶקְרָא: בְּיָדוֹ אַפְקִיד רוּחִי, בְּעֵת אִישָׁן וְאָעִירָה: וְעִם רוּחִי גְּוִיָּתִי, יְהֹוָה לִי וְלֹא אִירָא:"
+            },
+            {
+              "id": "ksm2-comm-14",
+              "type": "commentary",
+              "enText": "**אֲדוֹן עוֹלָם**—You are the Master of the universe, Who ruled even before anything was created and will rule after all ceases to exist; and now that there IS a creation, You are proclaimed as King by all creatures: Hashem always was, is, and always will be. There is no power but You, without beginning or end, all power is Yours. (*Though understanding the essence of Hashem is beyond comprehension, nevertheless I have a unique and close relationship with Him!*) He is my God; my living redeemer; He is a rock for me when I am in pain or in time of distress; He is a refuge for me; He answers me when I call to Him. Therefore, I entrust my spirit into His Hand when I sleep and when I am awake (*I am in His Hands at all times*). With my spirit, my body, Hashem is with me and therefore I fear nothing."
             },
             {
               "id": "ksm2-transition-2",

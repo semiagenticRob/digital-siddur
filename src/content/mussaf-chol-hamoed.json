@@ -747,25 +747,25 @@
               "enText": "Birkas Kohanim is said by the chazzan (and in some places in Israel by Kohanim) during the repetition of the Shemoneh Esrei:"
             },
             {
-              "id": "seg-13",
-              "type": "commentary",
-              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah written in the Torah that was said by the Kohanim:"
-            },
-            {
-              "id": "seg-14",
-              "type": "commentary",
-              "enText": "**יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you *(with material abundance)* and protect you *(from misusing it!)*. **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you are able to see His providence *(in your life)*. **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace *(within yourself)*."
-            },
-            {
               "id": "seg-15",
               "type": "prayer",
               "heText": "אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, בָּרְכֵנוּ בַבְּרָכָה הַמְשֻׁלֶּשֶׁת בַּתּוֹרָה, הַכְּתוּבָה עַל יְדֵי מֹשֶׁה עַבְדֶּךָ, הָאֲמוּרָה מִפִּי אַהֲרֹן וּבָנָיו, כֹּהֲנִים עַם קְדוֹשֶׁךָ, כָּאָמוּר:"
+            },
+            {
+              "id": "seg-13",
+              "type": "commentary",
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah written in the Torah that was said by the Kohanim:"
             },
             {
               "id": "seg-16",
               "type": "prayer",
               "heText": "יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ: יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ: יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם:",
               "condition": "Said responsively, with the congregation saying after each verse:"
+            },
+            {
+              "id": "seg-14",
+              "type": "commentary",
+              "enText": "**יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you *(with material abundance)* and protect you *(from misusing it!)*. **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you are able to see His providence *(in your life)*. **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace *(within yourself)*."
             },
             {
               "id": "seg-17",
@@ -820,24 +820,24 @@
               "enText": "Concluding Statements"
             },
             {
-              "id": "seg-27",
-              "type": "commentary",
-              "enText": "**יִהְיוּ לְרָצוֹן אִמְרֵי פִי**—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer."
-            },
-            {
               "id": "seg-28",
               "type": "prayer",
               "heText": "יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ, יְהֹוָה צוּרִי וְגֹאֲלִי:"
             },
             {
-              "id": "seg-29",
+              "id": "seg-27",
               "type": "commentary",
-              "enText": "**אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע**—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
+              "enText": "**יִהְיוּ לְרָצוֹן אִמְרֵי פִי**—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer."
             },
             {
               "id": "seg-30",
               "type": "prayer",
               "heText": "אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע, וּשְׂפָתַי מִדַּבֵּר מִרְמָה, וְלִמְקַלְלַי נַפְשִׁי תִדֹּם, וְנַפְשִׁי כֶּעָפָר לַכֹּל תִּהְיֶה, פְּתַח לִבִּי בְּתוֹרָתֶךָ, וּבְמִצְוֹתֶיךָ תִּרְדֹּף נַפְשִׁי: וְכָל הַחוֹשְׁבִים עָלַי רָעָה, מְהֵרָה הָפֵר עֲצָתָם וְקַלְקֵל מַחֲשַׁבְתָּם:"
+            },
+            {
+              "id": "seg-29",
+              "type": "commentary",
+              "enText": "**אֱלֹהַי, נְצֹר לְשׁוֹנִי מֵרָע**—Please, Hashem, guard my tongue from evil and my lips from speaking with dishonesty. And to those who curse or insult me, let me have the ability to remain silent and not respond. Open my heart to Your Torah so that my neshamah will desire and run after mitzvos. And all those who plot evil against me, Hashem, please nullify and thwart their plans."
             },
             {
               "id": "seg-31",
@@ -859,14 +859,14 @@
               "optional": true
             },
             {
-              "id": "seg-34",
-              "type": "commentary",
-              "enText": "**עֲשֵׂה לְמַעַן שְׁמֶךָ**—Even though I may personally not be worthy, do this for the sake of Your holy Name and for the honor of Your Torah; because we are Your beloved children; therefore with strength and power save me and answer my requests. **אִמְרֵי פִי**—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer. **עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו**—May He who makes peace in the Heavens *(in the world of angels and in nature)*, **הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ**—may He bring about peace upon us *(since we seem to have a hard time doing it ourselves, may Hashem impose peace upon us!)*; **וְעַל כָּל יִשְׂרָאֵל**—and upon all of Bnei Yisrael; *(and (may the two angels who accompany me through life and therefore have been listening to my tefillah, please respond and)* say Amen."
-            },
-            {
               "id": "seg-35",
               "type": "prayer",
               "heText": "עֲשֵׂה לְמַעַן שְׁמֶךָ, עֲשֵׂה לְמַעַן יְמִינֶךָ, עֲשֵׂה לְמַעַן קְדֻשָּׁתֶךָ, עֲשֵׂה לְמַעַן תּוֹרָתֶךָ, לְמַעַן יֵחָלְצוּן יְדִידֶיךָ הוֹשִׁיעָה יְמִינְךָ וַעֲנֵנִי: יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ, יְהֹוָה צוּרִי וְגֹאֲלִי: עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו, הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ, וְעַל כָּל יִשְׂרָאֵל, וְאִמְרוּ אָמֵן:"
+            },
+            {
+              "id": "seg-34",
+              "type": "commentary",
+              "enText": "**עֲשֵׂה לְמַעַן שְׁמֶךָ**—Even though I may personally not be worthy, do this for the sake of Your holy Name and for the honor of Your Torah; because we are Your beloved children; therefore with strength and power save me and answer my requests. **אִמְרֵי פִי**—May all that I have said *(during this Shemoneh Esrei)* and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer. **עֹשֶׂה שָׁלוֹם בִּמְרוֹמָיו**—May He who makes peace in the Heavens *(in the world of angels and in nature)*, **הוּא יַעֲשֶׂה שָׁלוֹם עָלֵינוּ**—may He bring about peace upon us *(since we seem to have a hard time doing it ourselves, may Hashem impose peace upon us!)*; **וְעַל כָּל יִשְׂרָאֵל**—and upon all of Bnei Yisrael; *(and (may the two angels who accompany me through life and therefore have been listening to my tefillah, please respond and)* say Amen."
             },
             {
               "id": "seg-36",
@@ -874,14 +874,14 @@
               "enText": "Since tefillah was meant to take the place of korbanos, we add the following epilogue:"
             },
             {
-              "id": "seg-37",
-              "type": "commentary",
-              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that the Beis Hamikdash be rebuilt quickly in our days, and that we will find our unique connection to Your Torah, and there *(in the Beis Hamikdash)* we will be able to serve You with proper respect, as it was in the days of old. *(And when Mashiach arrives and rebuilds the Beis Hamikdash)*, then the korbanos of Yehudah and Yerushalayim will be accepted by Hashem, as it was in the days of old."
-            },
-            {
               "id": "seg-38",
               "type": "prayer",
               "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ, שֶׁיִּבָּנֶה בֵּית הַמִּקְדָּשׁ בִּמְהֵרָה בְיָמֵינוּ, וְתֵן חֶלְקֵנוּ בְּתוֹרָתֶךָ: וְשָׁם נַעֲבָדְךָ בְּיִרְאָה כִּימֵי עוֹלָם וּכְשָׁנִים קַדְמוֹנִיּוֹת: וְעָרְבָה לַיהֹוָה מִנְחַת יְהוּדָה וִירוּשָׁלָיִם, כִּימֵי עוֹלָם וּכְשָׁנִים קַדְמוֹנִיּוֹת:"
+            },
+            {
+              "id": "seg-37",
+              "type": "commentary",
+              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that the Beis Hamikdash be rebuilt quickly in our days, and that we will find our unique connection to Your Torah, and there *(in the Beis Hamikdash)* we will be able to serve You with proper respect, as it was in the days of old. *(And when Mashiach arrives and rebuilds the Beis Hamikdash)*, then the korbanos of Yehudah and Yerushalayim will be accepted by Hashem, as it was in the days of old."
             },
             {
               "id": "seg-39",

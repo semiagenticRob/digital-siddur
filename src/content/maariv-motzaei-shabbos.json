@@ -24,14 +24,14 @@
               "heText": "וִיהִי נֹעַם / יוֹשֵׁב בְּסֵתֶר / וְאַתָּה קָדוֹשׁ"
             },
             {
-              "id": "seg-vihi-noam-comm",
-              "type": "commentary",
-              "enText": "*(As we transition into the workweek, we invoke the brachah Moshe gave Bnei Yisrael upon the completion of the Mishkan:)* **וִיהִי נֹעַם**—May we always feel the pleasantness of the Divine Presence *(even though it is a weekday and not Shabbos)*; and may the Divine Presence always rest on the work of our hands."
-            },
-            {
               "id": "seg-vihi-noam",
               "type": "prayer",
               "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ׃"
+            },
+            {
+              "id": "seg-vihi-noam-comm",
+              "type": "commentary",
+              "enText": "*(As we transition into the workweek, we invoke the brachah Moshe gave Bnei Yisrael upon the completion of the Mishkan:)* **וִיהִי נֹעַם**—May we always feel the pleasantness of the Divine Presence *(even though it is a weekday and not Shabbos)*; and may the Divine Presence always rest on the work of our hands."
             },
             {
               "id": "seg-yosheiv-comm",
@@ -54,19 +54,14 @@
               "enText": "As we transition from the kedushah of Shabbos to the non-kadosh workweek, we proclaim that the Presence of Hashem is everywhere, and we ask that He help us retain our kedushas Shabbos all week:"
             },
             {
-              "id": "seg-vatah-kadosh-comm1",
-              "type": "commentary",
-              "enText": "**וְאַתָּה קָדוֹשׁ**—We realize that You, Hashem, are completely beyond our comprehension, yet we sing Your praises, just as the angels in Heaven proclaim:"
-            },
-            {
               "id": "seg-vatah-kadosh-1",
               "type": "prayer",
               "heText": "וְאַתָּה קָדוֹשׁ יוֹשֵׁב תְּהִלּוֹת יִשְׂרָאֵל׃ וְקָרָא זֶה אֶל זֶה וְאָמַר,"
             },
             {
-              "id": "seg-vatah-kadosh-comm2",
+              "id": "seg-vatah-kadosh-comm1",
               "type": "commentary",
-              "enText": "**קָדוֹשׁ קָדוֹשׁ**—The sanctity of Hashem can be felt in ALL worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere. And as the Serafim *(the highest levels of angels)* proclaim: **בָּרוּךְ כְּבוֹד יְהוָה**—The essence of Hashem is completely beyond us *(even the highest angels)*; it is **מִמְּקוֹמוֹ**—from His place *(up there, it all makes sense!).*"
+              "enText": "**וְאַתָּה קָדוֹשׁ**—We realize that You, Hashem, are completely beyond our comprehension, yet we sing Your praises, just as the angels in Heaven proclaim:"
             },
             {
               "id": "seg-vatah-kadosh-2",
@@ -74,19 +69,24 @@
               "heText": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ׃ וּמְקַבְּלִין דֵּין מִן דֵּין וְאָמְרִין, קַדִּישׁ בִּשְׁמֵי מְרוֹמָא עִלָּאָה בֵּית שְׁכִינְתֵּהּ, קַדִּישׁ עַל אַרְעָא עוֹבַד גְּבוּרְתֵּהּ, קַדִּישׁ לְעָלַם וּלְעָלְמֵי עָלְמַיָּא יְהוָה צְבָאוֹת, מַלְיָא כָל אַרְעָא זִיו יְקָרֵהּ׃ וַתִּשָּׂאֵנִי רוּחַ וָאֶשְׁמַע אַחֲרַי קוֹל רַעַשׁ גָּדוֹל, בָּרוּךְ כְּבוֹד יְהוָה מִמְּקוֹמוֹ׃ וּנְטָלַתְנִי רוּחָא וּשְׁמָעֵית בַּתְרַי קָל זִיעַ סַגִּיא דִּמְשַׁבְּחִין וְאָמְרִין, בְּרִיךְ יְקָרָא דַיהוָה מֵאֲתַר בֵּית שְׁכִינְתֵּהּ׃"
             },
             {
+              "id": "seg-vatah-kadosh-comm2",
+              "type": "commentary",
+              "enText": "**קָדוֹשׁ קָדוֹשׁ**—The sanctity of Hashem can be felt in ALL worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere. And as the Serafim *(the highest levels of angels)* proclaim: **בָּרוּךְ כְּבוֹד יְהוָה**—The essence of Hashem is completely beyond us *(even the highest angels)*; it is **מִמְּקוֹמוֹ**—from His place *(up there, it all makes sense!).*"
+            },
+            {
               "id": "seg-vatah-kadosh-3",
               "type": "prayer",
               "heText": "יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד׃"
             },
             {
-              "id": "seg-vatah-kadosh-comm3",
-              "type": "commentary",
-              "enText": "**יְהוָה אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל אֲבֹתֵינוּ**—*(As we go out and face the world we ask:)* Hashem Who took care of our ancestors, please direct our hearts to Your service and have mercy on us when we make mistakes, for You, Hashem, are forgiving and are kind to all who call to You. Shower us with Your blessings and save us from difficulties. Happy is the person who places their trust in You!"
-            },
-            {
               "id": "seg-vatah-kadosh-4",
               "type": "prayer",
               "heText": "יְהוָה מַלְכוּתֵיהּ קָאֵם לְעָלַם וּלְעָלְמֵי עָלְמַיָּא׃ יְהוָה אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל אֲבֹתֵינוּ, שָׁמְרָה זֹּאת לְעוֹלָם, לְיֵצֶר מַחְשְׁבוֹת לְבַב עַמֶּךָ, וְהָכֵן לְבָבָם אֵלֶיךָ׃ וְהוּא רַחוּם יְכַפֵּר עָוֹן וְלֹא יַשְׁחִית, וְהִרְבָּה לְהָשִׁיב אַפּוֹ, וְלֹא יָעִיר כָּל חֲמָתוֹ׃ כִּי אַתָּה אֲדֹנָי טוֹב וְסַלָּח, וְרַב חֶסֶד לְכָל קֹרְאֶיךָ׃ צִדְקָתְךָ צֶדֶק לְעוֹלָם, וְתוֹרָתְךָ אֱמֶת׃ תִּתֵּן אֱמֶת לְיַעֲקֹב, חֶסֶד לְאַבְרָהָם, אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתֵינוּ מִימֵי קֶדֶם׃ בָּרוּךְ אֲדֹנָי יוֹם יוֹם, יַעֲמָס לָנוּ הָאֵל יְשׁוּעָתֵנוּ סֶלָה׃ יְהוָה צְבָאוֹת עִמָּנוּ, מִשְׂגָּב לָנוּ אֱלֹהֵי יַעֲקֹב סֶלָה׃ יְהוָה צְבָאוֹת, אַשְׁרֵי אָדָם בֹּטֵחַ בָּךְ׃ יְהוָה הוֹשִׁיעָה, הַמֶּלֶךְ יַעֲנֵנוּ בְיוֹם קָרְאֵנוּ׃"
+            },
+            {
+              "id": "seg-vatah-kadosh-comm3",
+              "type": "commentary",
+              "enText": "**יְהוָה אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל אֲבֹתֵינוּ**—*(As we go out and face the world we ask:)* Hashem Who took care of our ancestors, please direct our hearts to Your service and have mercy on us when we make mistakes, for You, Hashem, are forgiving and are kind to all who call to You. Shower us with Your blessings and save us from difficulties. Happy is the person who places their trust in You!"
             }
           ]
         }
