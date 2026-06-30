@@ -31,7 +31,7 @@ SEVERITY = {
     'lemma not bolded (**…**)':                           'warn',
     'lemma not found in any prayer (garble/wrong?)':      'warn',
     'commentary looks like a bridge (→ section_intro?)':  'warn',
-    'prayer.enText (never renders)':                      'warn',
+    'prayer.enText (never renders)':                      'error',
     'heText in a render-enText type (never renders)':     'warn',
 }
 

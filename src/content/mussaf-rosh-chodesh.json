@@ -362,8 +362,7 @@
               "id": "mrc2-s004",
               "type": "prayer",
               "heText": "(בִּשְׁנַת הָעִבּוּר עַד חֹדֶשׁ נִיסָן וּלְכַפָּרַת פָּשַׁע).",
-              "condition": "In a Jewish leap year until Chodesh Nisan add: and for atonement of willful sins",
-              "optional": true
+              "condition": "In a Jewish leap year until Chodesh Nisan add: and for atonement of willful sins"
             },
             {
               "id": "mrc2-s005",

@@ -69,7 +69,8 @@ open nikud TODOs (build items, listed in REVIEW_QUEUE).
 | tefillas-haderech | p-tefillas-haderech | 155 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | pass |
 
 RUNNING COVERAGE: 60/60 prayers pass all 7 checks on both layers.
-Checks 1-6: verified vs print. Check 7: verified clean (1 render-clip fixed via line-break
-workaround on commentary_shabbos — remove when the renderer is fixed natively, REVIEW_QUEUE).
+Checks 1-6: verified vs print. Check 7: verified clean (the commentary_shabbos "clip" was a
+FlashList measurement-settle artifact, not a content bug — the line-break workaround was reverted;
+natural text + drawDistance render edge-to-edge. See REVIEW_QUEUE).
 OPEN NIKUD TODOs (build items, not audit discrepancies): PDF-extracted insertions still need
 nikud verification/completion — spot-listed in REVIEW_QUEUE.

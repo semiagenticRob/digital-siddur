@@ -387,3 +387,28 @@ pre-existing, none blocking:
    Blocked on harness setup: these live inside components, and importing them pulls FlashList/expo-router;
    `CONTENT_WIDTH` also resolves to -32 under Jest's node env. Cleanest path is to extract the pure helpers
    (flattenService, renderLeaf parsing) into standalone modules, then unit-test those.
+
+## Code-review + PDF-fidelity pass (2026-06-30)
+PDF-first verification of the corpus-wide carve-out/style work. Per-page print verification
+of all ~64 carve-out runs: boundaries confirmed exact. Corrections applied this pass:
+- **Un-boxed short inline inserts** the print renders inline (not shaded), per PDF-primary:
+  al-hamichyah Shabbos/RC/YT inserts, mussaf-rosh-chodesh leap-year (mrc2-s004), minchah AYT
+  המלך הקדוש substitute (min2-prayer-ledor-vador-mhk). Script: fix_carveout_pdf_corrections.py.
+- **Lint guard:** promoted `prayer.enText (never renders)` warn→error (corpus is clean of it
+  after the krias-shema relocation), so re-introduction blocks the commit gate.
+
+MISSING CONTENT (build TODO — needs a clean vocalized source, not yet digitized):
+- **Birkas Hamazon — Tehillim 122 (שִׁיר הַמַּעֲלוֹת לְדָוִד) Shabbos/Yom Tov pre-bentching insert**,
+  print p.120: rubric "On Shabbos and Yom Tov start with the following" + Psalm 122 + a "Some add"
+  addition. Entirely absent from birkas-hamazon.json (no segments). Add when a clean source is available.
+
+DEFERRED code-review findings (low priority; not PDF-fidelity — see ce-code-review run
+.context/compound-engineering/ce-code-review/20260630-083247-23c048f0/):
+- fix_ksm_dead_glosses.py: latent guard-soundness defects (`global ok` inert; slice_voc
+  first-match/nikud-blind/word-boundary-blind/empty-skeleton). SHIPPED OUTPUT VERIFIED CLEAN —
+  harden only if the slice-re-vocalize helper is reused.
+- Script duplication: `containers()`/`strip_md`/`skel`/`balanced` copy-pasted across scripts;
+  extract scripts/_content_utils.py (one skel variant includes Latin chars — reconcile first).
+- Linter hardening (style guards): add a malformed split-lemma (`*word **rest**`) error check and
+  a carve-out contiguity check to lint_content.py to prevent regression.
+- CONTENT_GUIDE.md: document the `optional`→shaded-box carve-out convention (style-doc sync).

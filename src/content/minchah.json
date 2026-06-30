@@ -655,8 +655,7 @@
               "id": "min2-prayer-ledor-vador-mhk",
               "type": "prayer",
               "heText": "(בעשי\"ת הַמֶּלֶךְ הַקָּדוֹשׁ)",
-              "condition": "During Aseres Yemei Teshuvah",
-              "optional": true
+              "condition": "During Aseres Yemei Teshuvah"
             },
             {
               "id": "min2-header-kedushas-hashem",
