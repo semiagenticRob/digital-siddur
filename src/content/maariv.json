@@ -1304,7 +1304,7 @@
             {
               "id": "mv4-seg-038",
               "type": "rubric",
-              "enText": "On regular weeknights, continue here with Full-Kaddish. On Motzaei Shabbos, say Half-Kaddish and continue on page 189."
+              "enText": "On regular weeknights, continue here with Full-Kaddish. On Motzaei Shabbos, say Half-Kaddish and continue [here](prayer:maariv-motzaei-shabbos/p-maariv-motzaei-shabbos)."
             },
             {
               "id": "mv4-seg-039",
@@ -1398,7 +1398,7 @@
             {
               "id": "mv4-seg-054",
               "type": "rubric",
-              "enText": "Between Pesach and Shavuos, count the Omer; see page 191.",
+              "enText": "Between Pesach and Shavuos, count the Omer; see [here](prayer:sefiras-haomer/p-sefiras-haomer).",
               "condition": "Between Pesach and Shavuos",
               "optional": true
             },

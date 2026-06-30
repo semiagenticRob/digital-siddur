@@ -4616,7 +4616,7 @@
             {
               "id": "tach1-s11",
               "type": "rubric",
-              "enText": "On all other weekdays, begin with \"Short Tachanun\" on page 87.",
+              "enText": "On all other weekdays, begin with \"Short Tachanun\".",
               "condition": "On all other weekdays, begin with Short Tachanun on page 87"
             },
             {
@@ -4755,7 +4755,7 @@
             {
               "id": "tach2-s11",
               "type": "rubric",
-              "enText": "On Mondays and Thursdays (when the \"long Tachanun\" focuses on our communal suffering and pain), add the following; on other days, continue on page 90.",
+              "enText": "On Mondays and Thursdays (when the \"long Tachanun\" focuses on our communal suffering and pain), add the following; on other days, continue below.",
               "condition": "On Mondays and Thursdays"
             },
             {
@@ -5785,13 +5785,13 @@
             {
               "id": "kt3-uva-rubric-kaddish-locator",
               "type": "rubric",
-              "enText": "On Rosh Chodesh, Half-Kaddish is said, followed by Mussaf—page 212.",
+              "enText": "On Rosh Chodesh, Half-Kaddish is said, followed by Mussaf, see [here](prayer:mussaf-rosh-chodesh/p-mussaf-rosh-chodesh).",
               "xref": "page 212"
             },
             {
               "id": "kt3-uva-rubric-kaddish-locator-2",
               "type": "rubric",
-              "enText": "On Chol Hamoed, Half-Kaddish is said, followed by Mussaf—page 223.",
+              "enText": "On Chol Hamoed, Half-Kaddish is said, followed by Mussaf, see [here](prayer:mussaf-chol-hamoed/p-mussaf-chol-hamoed).",
               "xref": "page 223"
             },
             {
