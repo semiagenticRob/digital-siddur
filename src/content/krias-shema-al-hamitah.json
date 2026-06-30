@@ -30,14 +30,22 @@
             {
               "id": "seg-prayer-ribono",
               "type": "prayer",
-              "heText": "רִבּוֹנוֹ שֶׁל עוֹלָם הֲרֵינִי מוֹחֵל לְכָל מִי שֶׁהִכְעִיס וְהִקְנִיט אוֹתִי אוֹ שֶׁחָטָא כְּנֶגְדִּי בֵּין בְּגוּפִי בֵּין בְּמָמוֹנִי בֵּין בִּכְבוֹדִי בֵּין בְּכָל אֲשֶׁר לִי בֵּין בְּאוֹנֶס בֵּין בְּרָצוֹן בֵּין בְּשׁוֹגֵג בֵּין בְּמֵזִיד בֵּין בְּדִבּוּר בֵּין בְּמַעֲשֶׂה בֵּין בְּגִלְגּוּל זֶה בֵּין בְּגִלְגּוּל אַחֵר לְכָל בַּר יִשְׂרָאֵל וְלֹא יֵעָנֵשׁ שׁוּם אָדָם בְּסִבָּתִי:",
-              "enText": "*רבונו של עולם*—Master of the universe, I hereby forgive anyone who angered me, offended me, or sinned against me, whether physically, financially, or by embarrassing me, or in any other way—whether intentionally and deliberately or unintentionally and by accident; whether in word, action, or thoughts; whether in this gilgul or another—*(I forgive)* every fellow Jew, and may no one be punished because of me."
+              "heText": "רִבּוֹנוֹ שֶׁל עוֹלָם הֲרֵינִי מוֹחֵל לְכָל מִי שֶׁהִכְעִיס וְהִקְנִיט אוֹתִי אוֹ שֶׁחָטָא כְּנֶגְדִּי בֵּין בְּגוּפִי בֵּין בְּמָמוֹנִי בֵּין בִּכְבוֹדִי בֵּין בְּכָל אֲשֶׁר לִי בֵּין בְּאוֹנֶס בֵּין בְּרָצוֹן בֵּין בְּשׁוֹגֵג בֵּין בְּמֵזִיד בֵּין בְּדִבּוּר בֵּין בְּמַעֲשֶׂה בֵּין בְּגִלְגּוּל זֶה בֵּין בְּגִלְגּוּל אַחֵר לְכָל בַּר יִשְׂרָאֵל וְלֹא יֵעָנֵשׁ שׁוּם אָדָם בְּסִבָּתִי:"
+            },
+            {
+              "id": "seg-prayer-ribono-comm",
+              "type": "commentary",
+              "enText": "**רִבּוֹנוֹ שֶׁל עוֹלָם**—Master of the universe, I hereby forgive anyone who angered me, offended me, or sinned against me, whether physically, financially, or by embarrassing me, or in any other way—whether intentionally and deliberately or unintentionally and by accident; whether in word, action, or thoughts; whether in this gilgul or another—*(I forgive)* every fellow Jew, and may no one be punished because of me."
             },
             {
               "id": "seg-prayer-yehi-ratzon",
               "type": "prayer",
-              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי שֶׁלֹּא אֶחֱטָא עוֹד וְלֹא אַחֲזֹר בָּהֶם וְלֹא אָשׁוּב עוֹד לְהַכְעִיסֶךָ וְלֹא אֶעֱשֶׂה הָרַע בְּעֵינֶיךָ וּמַה שֶּׁחָטָאתִי לְפָנֶיךָ מְחֹק בְּרַחֲמֶיךָ הָרַבִּים אֲבָל לֹא עַל יְדֵי יִסּוּרִים וָחֳלָיִים רָעִים יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ יְהוָה צוּרִי וְגֹאֲלִי:",
-              "enText": "*יהי רצון מלפניך*—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that I not sin anymore, that I not revert to my old ways, and I should never again anger You or do things that are inappropriate. *(Thus, please make tomorrow the kind of day in which it will be easy to make the correct decisions.)* With Your great mercy, please wipe away the sins that I have committed, but please not through suffering or illness. *היו לרצון אמרי פי*—May all that I have said and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer."
+              "heText": "יְהִי רָצוֹן מִלְּפָנֶיךָ יְהוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי שֶׁלֹּא אֶחֱטָא עוֹד וְלֹא אַחֲזֹר בָּהֶם וְלֹא אָשׁוּב עוֹד לְהַכְעִיסֶךָ וְלֹא אֶעֱשֶׂה הָרַע בְּעֵינֶיךָ וּמַה שֶּׁחָטָאתִי לְפָנֶיךָ מְחֹק בְּרַחֲמֶיךָ הָרַבִּים אֲבָל לֹא עַל יְדֵי יִסּוּרִים וָחֳלָיִים רָעִים יִהְיוּ לְרָצוֹן אִמְרֵי פִי וְהֶגְיוֹן לִבִּי לְפָנֶיךָ יְהוָה צוּרִי וְגֹאֲלִי:"
+            },
+            {
+              "id": "seg-prayer-yehi-ratzon-comm",
+              "type": "commentary",
+              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that I not sin anymore, that I not revert to my old ways, and I should never again anger You or do things that are inappropriate. *(Thus, please make tomorrow the kind of day in which it will be easy to make the correct decisions.)* With Your great mercy, please wipe away the sins that I have committed, but please not through suffering or illness. **הְיוּ לְרָצוֹן אִמְרֵי פִי**—May all that I have said and all the thoughts in my heart be acceptable to You, Hashem, my rock and my redeemer."
             },
             {
               "id": "seg-header-hamapil",
@@ -49,8 +57,12 @@
             {
               "id": "seg-prayer-hamapil",
               "type": "prayer",
-              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַמַּפִּיל חֶבְלֵי שֵׁנָה עַל עֵינַי וּתְנוּמָה עַל עַפְעַפָּי. וִיהִי רָצוֹן מִלְּפָנֶיךָ יְהוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי שֶׁתַּשְׁכִּיבֵנִי לְשָׁלוֹם וְתַעֲמִידֵנִי לְשָׁלוֹם וְאַל יְבַהֲלוּנִי רַעְיוֹנַי וַחֲלוֹמוֹת רָעִים וְהִרְהוּרִים רָעִים וּתְהֵא מִטָּתִי שְׁלֵמָה לְפָנֶיךָ וְהָאֵר עֵינַי פֶּן אִישַׁן הַמָּוֶת כִּי אַתָּה הַמֵּאִיר לְאִישׁוֹן בַּת עָיִן. בָּרוּךְ אַתָּה יְהוָה הַמֵּאִיר לְעוֹלָם כֻּלּוֹ בִּכְבוֹדוֹ:",
-              "enText": "*ברוך אתה יהוה*—You, Hashem, are the Source of everything; *אלהינו*—You take care of us; *מלך העולם*—and You rule the entire world; and You bring sleep to my eyes. May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that I sleep peacefully and wake up refreshed and feeling at peace. Let my sleep not be disturbed by bad dreams, troubling or inappropriate thoughts or images. Rather, let my bed be undisturbed before You. And may my eyes open tomorrow and see the morning light. *ברוך אתה יהוה*—You, Hashem, are the Source of everything, *המאיר לעולם כלו בכבודו*—Who illuminates the entire world with His Presence."
+              "heText": "בָּרוּךְ אַתָּה יְהוָה אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם הַמַּפִּיל חֶבְלֵי שֵׁנָה עַל עֵינַי וּתְנוּמָה עַל עַפְעַפָּי. וִיהִי רָצוֹן מִלְּפָנֶיךָ יְהוָה אֱלֹהַי וֵאלֹהֵי אֲבוֹתַי שֶׁתַּשְׁכִּיבֵנִי לְשָׁלוֹם וְתַעֲמִידֵנִי לְשָׁלוֹם וְאַל יְבַהֲלוּנִי רַעְיוֹנַי וַחֲלוֹמוֹת רָעִים וְהִרְהוּרִים רָעִים וּתְהֵא מִטָּתִי שְׁלֵמָה לְפָנֶיךָ וְהָאֵר עֵינַי פֶּן אִישַׁן הַמָּוֶת כִּי אַתָּה הַמֵּאִיר לְאִישׁוֹן בַּת עָיִן. בָּרוּךְ אַתָּה יְהוָה הַמֵּאִיר לְעוֹלָם כֻּלּוֹ בִּכְבוֹדוֹ:"
+            },
+            {
+              "id": "seg-prayer-hamapil-comm",
+              "type": "commentary",
+              "enText": "**בָּרוּךְ אַתָּה יְהוָה**—You, Hashem, are the Source of everything; **אֱלֹהֵינוּ**—You take care of us; **מֶלֶךְ הָעוֹלָם**—and You rule the entire world; and You bring sleep to my eyes. May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that I sleep peacefully and wake up refreshed and feeling at peace. Let my sleep not be disturbed by bad dreams, troubling or inappropriate thoughts or images. Rather, let my bed be undisturbed before You. And may my eyes open tomorrow and see the morning light. **בָּרוּךְ אַתָּה יְהוָה**—You, Hashem, are the Source of everything, **הַמֵּאִיר לְעוֹלָם כֻּלּוֹ בִּכְבוֹדוֹ**—Who illuminates the entire world with His Presence."
             },
             {
               "id": "seg-header-mission",
@@ -120,8 +132,12 @@
             {
               "id": "seg-prayer-veahavta",
               "type": "prayer",
-              "heText": "וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:",
-              "enText": "*ואהבת את יהוה אלהיך בכל לבבך ובכל נפשך*—And you must love Hashem with your whole heart and *ובכל מאדך*—and dedicate all your talents, your unique personality, and all that He has given you *(to His service)*, out of a sense of gratitude and love. *והיו הדברים האלה אשר אנכי*—And Torah and mitzvos should *(not be external and mechanical, but rather)* be from your heart; *מצוך היום על לבבך*—*(and they should be so dear to you that)* you pass it on to your children, and it is what you constantly talk about; *ושננתם לבניך ודברת בם בשבתך בביתך ובלכתך בדרך ובשכבך ובקומך*—wherever you are, all the time. *וקשרתם לאות על ידך והיו לטטפת בין עיניך*—You should dedicate your actions and thoughts to Him, symbolized by putting tefillin on your arm and on your head; *וכתבתם על מזזות ביתך ובשעריך*—and your entire home should be dedicated to Him, symbolized by putting mezuzos on your doorposts."
+              "heText": "וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ וּבְכָל מְאֹדֶךָ: וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ: וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ: וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ:"
+            },
+            {
+              "id": "seg-prayer-veahavta-comm",
+              "type": "commentary",
+              "enText": "**וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל לְבָבְךָ וּבְכָל נַפְשְׁךָ**—And you must love Hashem with your whole heart and **וּבְכָל מְאֹדֶךָ**—and dedicate all your talents, your unique personality, and all that He has given you *(to His service)*, out of a sense of gratitude and love. **וְהָיוּ הַדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי**—And Torah and mitzvos should *(not be external and mechanical, but rather)* be from your heart; **מְצַוְּךָ הַיּוֹם עַל לְבָבֶךָ**—*(and they should be so dear to you that)* you pass it on to your children, and it is what you constantly talk about; **וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ**—wherever you are, all the time. **וּקְשַׁרְתָּם לְאוֹת עַל יָדֶךָ וְהָיוּ לְטֹטָפֹת בֵּין עֵינֶיךָ**—You should dedicate your actions and thoughts to Him, symbolized by putting tefillin on your arm and on your head; **וּכְתַבְתָּם עַל מְזֻזוֹת בֵּיתֶךָ וּבִשְׁעָרֶיךָ**—and your entire home should be dedicated to Him, symbolized by putting mezuzos on your doorposts."
             },
             {
               "id": "seg-transition-vihi-noam",
@@ -131,8 +147,12 @@
             {
               "id": "seg-prayer-vihi-noam",
               "type": "prayer",
-              "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:",
-              "enText": "*ויהי נעם*—May we always feel the pleasantness of the Divine Presence , and may the Divine Presence always rest on the work of our hands."
+              "heText": "וִיהִי נֹעַם אֲדֹנָי אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנֵהוּ:"
+            },
+            {
+              "id": "seg-prayer-vihi-noam-comm",
+              "type": "commentary",
+              "enText": "**וִיהִי נֹעַם**—May we always feel the pleasantness of the Divine Presence , and may the Divine Presence always rest on the work of our hands."
             },
             {
               "id": "seg-transition-yoshev",
@@ -142,8 +162,12 @@
             {
               "id": "seg-prayer-yoshev-bseser",
               "type": "prayer",
-              "heText": "יֹשֵׁב בְּסֵתֶר עֶלְיוֹן בְּצֵל שַׁדַּי יִתְלוֹנָן: אֹמַר לַיהוָה מַחְסִי וּמְצוּדָתִי אֱלֹהַי אֶבְטַח בּוֹ: כִּי הוּא יַצִּילְךָ מִפַּח יָקוּשׁ מִדֶּבֶר הַוּוֹת: בְּאֶבְרָתוֹ יָסֶךְ לָךְ וְתַחַת כְּנָפָיו תֶּחְסֶה צִנָּה וְסֹחֵרָה אֲמִתּוֹ: לֹא תִירָא מִפַּחַד לָיְלָה מֵחֵץ יָעוּף יוֹמָם: מִדֶּבֶר בָּאֹפֶל יַהֲלֹךְ מִקֶּטֶב יָשׁוּד צָהֳרָיִם: יִפֹּל מִצִּדְּךָ אֶלֶף וּרְבָבָה מִימִינֶךָ אֵלֶיךָ לֹא יִגָּשׁ: רַק בְּעֵינֶיךָ תַבִּיט וְשִׁלֻּמַת רְשָׁעִים תִּרְאֶה: כִּי אַתָּה יְהוָה מַחְסִי עֶלְיוֹן שַׂמְתָּ מְעוֹנֶךָ: לֹא תְאֻנֶּה אֵלֶיךָ רָעָה וְנֶגַע לֹא יִקְרַב בְּאָהֳלֶךָ: כִּי מַלְאָכָיו יְצַוֶּה לָּךְ לִשְׁמָרְךָ בְּכָל דְּרָכֶיךָ: עַל כַּפַּיִם יִשָּׂאוּנְךָ פֶּן תִּגֹּף בָּאֶבֶן רַגְלֶךָ: עַל שַׁחַל וָפֶתֶן תִּדְרֹךְ תִּרְמֹס כְּפִיר וְתַנִּין: כִּי בִי חָשַׁק וַאֲפַלְּטֵהוּ אֲשַׂגְּבֵהוּ כִּי יָדַע שְׁמִי: יִקְרָאֵנִי וְאֶעֱנֵהוּ עִמּוֹ אָנֹכִי בְצָרָה אֲחַלְּצֵהוּ וַאֲכַבְּדֵהוּ: אֹרֶךְ יָמִים אַשְׂבִּיעֵהוּ וְאַרְאֵהוּ בִּישׁוּעָתִי:",
-              "enText": "*ישב בסתר עליון*—I put my complete trust in Hashem that He will shelter and protect me from all my enemies and all troubles. There is no need to fear the terror of the night *(enemies and difficulties that I do not even know about)* or be afraid of the \"arrows\" *(dangers and difficulties that I am aware of)*. For Hashem will instruct His angels to protect me wherever I go. *(Hashem responds to this declaration of trust in Him:)* \"Since he desires *(and is doing his best)* to be close to Me, I will rescue him. *עמו אנכי*—When he calls out to Me, I will answer him. *בצרה*—I will be with him in his pain and suffering, and I will rescue him. I will grant him a long life and will show him My salvation!\""
+              "heText": "יֹשֵׁב בְּסֵתֶר עֶלְיוֹן בְּצֵל שַׁדַּי יִתְלוֹנָן: אֹמַר לַיהוָה מַחְסִי וּמְצוּדָתִי אֱלֹהַי אֶבְטַח בּוֹ: כִּי הוּא יַצִּילְךָ מִפַּח יָקוּשׁ מִדֶּבֶר הַוּוֹת: בְּאֶבְרָתוֹ יָסֶךְ לָךְ וְתַחַת כְּנָפָיו תֶּחְסֶה צִנָּה וְסֹחֵרָה אֲמִתּוֹ: לֹא תִירָא מִפַּחַד לָיְלָה מֵחֵץ יָעוּף יוֹמָם: מִדֶּבֶר בָּאֹפֶל יַהֲלֹךְ מִקֶּטֶב יָשׁוּד צָהֳרָיִם: יִפֹּל מִצִּדְּךָ אֶלֶף וּרְבָבָה מִימִינֶךָ אֵלֶיךָ לֹא יִגָּשׁ: רַק בְּעֵינֶיךָ תַבִּיט וְשִׁלֻּמַת רְשָׁעִים תִּרְאֶה: כִּי אַתָּה יְהוָה מַחְסִי עֶלְיוֹן שַׂמְתָּ מְעוֹנֶךָ: לֹא תְאֻנֶּה אֵלֶיךָ רָעָה וְנֶגַע לֹא יִקְרַב בְּאָהֳלֶךָ: כִּי מַלְאָכָיו יְצַוֶּה לָּךְ לִשְׁמָרְךָ בְּכָל דְּרָכֶיךָ: עַל כַּפַּיִם יִשָּׂאוּנְךָ פֶּן תִּגֹּף בָּאֶבֶן רַגְלֶךָ: עַל שַׁחַל וָפֶתֶן תִּדְרֹךְ תִּרְמֹס כְּפִיר וְתַנִּין: כִּי בִי חָשַׁק וַאֲפַלְּטֵהוּ אֲשַׂגְּבֵהוּ כִּי יָדַע שְׁמִי: יִקְרָאֵנִי וְאֶעֱנֵהוּ עִמּוֹ אָנֹכִי בְצָרָה אֲחַלְּצֵהוּ וַאֲכַבְּדֵהוּ: אֹרֶךְ יָמִים אַשְׂבִּיעֵהוּ וְאַרְאֵהוּ בִּישׁוּעָתִי:"
+            },
+            {
+              "id": "seg-prayer-yoshev-bseser-comm",
+              "type": "commentary",
+              "enText": "**יֹשֵׁב בְּסֵתֶר עֶלְיוֹן**—I put my complete trust in Hashem that He will shelter and protect me from all my enemies and all troubles. There is no need to fear the terror of the night *(enemies and difficulties that I do not even know about)* or be afraid of the \"arrows\" *(dangers and difficulties that I am aware of)*. For Hashem will instruct His angels to protect me wherever I go. *(Hashem responds to this declaration of trust in Him:)* \"Since he desires *(and is doing his best)* to be close to Me, I will rescue him. **עִמּוֹ אָנֹכִי**—When he calls out to Me, I will answer him. **בְצָרָה**—I will be with him in his pain and suffering, and I will rescue him. I will grant him a long life and will show him My salvation!\""
             },
             {
               "id": "seg-insight-yoshev",
@@ -164,8 +188,12 @@
             {
               "id": "seg-prayer-tehillim-3",
               "type": "prayer",
-              "heText": "יְהוָה מָה רַבּוּ צָרָי רַבִּים קָמִים עָלָי: רַבִּים אֹמְרִים לְנַפְשִׁי אֵין יְשׁוּעָתָה לּוֹ בֵאלֹהִים סֶלָה: וְאַתָּה יְהוָה מָגֵן בַּעֲדִי כְּבוֹדִי וּמֵרִים רֹאשִׁי: קוֹלִי אֶל יְהוָה אֶקְרָא וַיַּעֲנֵנִי מֵהַר קָדְשׁוֹ סֶלָה: אֲנִי שָׁכַבְתִּי וָאִישָׁנָה הֱקִיצוֹתִי כִּי יְהוָה יִסְמְכֵנִי: לֹא אִירָא מֵרִבְבוֹת עָם אֲשֶׁר סָבִיב שָׁתוּ עָלָי: קוּמָה יְהוָה הוֹשִׁיעֵנִי אֱלֹהַי כִּי הִכִּיתָ אֶת כָּל אֹיְבַי לֶחִי שִׁנֵּי רְשָׁעִים שִׁבַּרְתָּ: לַיהוָה הַיְשׁוּעָה עַל עַמְּךָ בִרְכָתֶךָ סֶּלָה:",
-              "enText": "*יהוה מה רבו צרי רבים*—*(Says David HaMelech:)* I have so many oppressors, so many have risen up against me! They claim that You, Hashem, will not help me! But I know that You, Hashem, remain my Protector, the One Who raises me up *(when I am down)*. Thus, I go to sleep *(without fear)* and I awake, because I know that Hashem sustains me. I am not afraid of those who surround me to attack me, because I know that all salvation is in His Hands!"
+              "heText": "יְהוָה מָה רַבּוּ צָרָי רַבִּים קָמִים עָלָי: רַבִּים אֹמְרִים לְנַפְשִׁי אֵין יְשׁוּעָתָה לּוֹ בֵאלֹהִים סֶלָה: וְאַתָּה יְהוָה מָגֵן בַּעֲדִי כְּבוֹדִי וּמֵרִים רֹאשִׁי: קוֹלִי אֶל יְהוָה אֶקְרָא וַיַּעֲנֵנִי מֵהַר קָדְשׁוֹ סֶלָה: אֲנִי שָׁכַבְתִּי וָאִישָׁנָה הֱקִיצוֹתִי כִּי יְהוָה יִסְמְכֵנִי: לֹא אִירָא מֵרִבְבוֹת עָם אֲשֶׁר סָבִיב שָׁתוּ עָלָי: קוּמָה יְהוָה הוֹשִׁיעֵנִי אֱלֹהַי כִּי הִכִּיתָ אֶת כָּל אֹיְבַי לֶחִי שִׁנֵּי רְשָׁעִים שִׁבַּרְתָּ: לַיהוָה הַיְשׁוּעָה עַל עַמְּךָ בִרְכָתֶךָ סֶּלָה:"
+            },
+            {
+              "id": "seg-prayer-tehillim-3-comm",
+              "type": "commentary",
+              "enText": "**יְהוָה מָה רַבּוּ צָרָי רַבִּים**—*(Says David HaMelech:)* I have so many oppressors, so many have risen up against me! They claim that You, Hashem, will not help me! But I know that You, Hashem, remain my Protector, the One Who raises me up *(when I am down)*. Thus, I go to sleep *(without fear)* and I awake, because I know that Hashem sustains me. I am not afraid of those who surround me to attack me, because I know that all salvation is in His Hands!"
             },
             {
               "id": "ksm2-insight-1",
