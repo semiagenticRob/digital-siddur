@@ -19,7 +19,7 @@ export default function Settings() {
       <SafeAreaView style={s.safe}>
         <View style={s.header}>
           <Pressable
-            onPress={() => router.back()}
+            onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
           >

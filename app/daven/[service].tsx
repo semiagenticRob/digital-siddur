@@ -65,7 +65,7 @@ export default function ServiceScreen() {
             </View>
             <Pressable
               style={s.iconBtn}
-              onPress={() => router.back()}
+              onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
               accessibilityRole="button"
               accessibilityLabel="Go back"
             >
