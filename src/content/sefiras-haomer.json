@@ -13,23 +13,6 @@
           "enTitle": "Sefiras HaOmer",
           "segments": [
             {
-              "id": "seg-001",
-              "type": "commentary",
-              "heText": "",
-              "enText": "**שֶׁבְּרָאָנוּ לִכְבוֹדוֹ**—Thank You for creating us as Your unique nation and giving us a Torah of truth. Open our hearts to Your Torah and inspire us to do the right things! And may we live to see the coming of Mashiach."
-            },
-            {
-              "id": "seg-002",
-              "type": "commentary",
-              "heText": "",
-              "enText": "**בָּרוּךְ הַגֶּבֶר**—Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best *(even if it is hard to see)*. Hashem never abandons those who seek Him."
-            },
-            {
-              "id": "seg-003",
-              "type": "rubric",
-              "enText": "Full-Kaddish and Aleinu, see [here](prayer:maariv/p-aleinu-maariv)."
-            },
-            {
               "id": "seg-004",
               "type": "header",
               "heText": "סְפִירַת הָעוֹמֶר",
