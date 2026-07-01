@@ -3,6 +3,25 @@
 Items surfaced by the proactive print-vs-app audit that are intentionally NOT
 auto-applied. Track them here so they aren't lost.
 
+## Full print-vs-app audit (2026-07-01) — Shacharis + meal brachos
+
+Systematic per-page audit (vision agents, 300 DPI) of Shacharis (pp.2-118) and
+the meal-brachos block (pp.119-131). **Fixed this pass** (see scripts/):
+Barchi Nafshi closing קדיש יתום; Hashkamas HaBoker name-list subtitle; Birkas
+HaZan dropped אֵל (כִּי הוּא אֵל זָן); Al HaMichyah opening+closing variant scaffold
+(restored the wine chasimah + עַל הָעֵץ, removed the duplicate grain chasimah).
+
+**Still deferred (needs a clean vocalized source — unsliceable tokens):**
+- **Al HaMichyah — Eretz-Yisrael closing parentheticals**, print p.154: the wine
+  chasimah's `(בא״י וְעַל פְּרִי גַפְנָהּ)` and the fruit chasimah's `(בא״י וְעַל פֵּרוֹתֶיהָ)`.
+  The tokens גַפְנָהּ / פֵּרוֹתֶיהָ appear nowhere in the corpus to slice; retyping
+  their nikud is unsafe. Add both when a clean vocalized source is available.
+- **Birkas HaMazon — Zimun Tehillim 137 focus-commentary** and **Nodeh V'al Hakol
+  commentary** (print pp.143-144, 148). Both English glosses are printed but absent
+  — same class as the deferred Hallel 116/117 per-verse glosses below.
+  (Shir HaMaalos Ps 126 + Hodu Shabbos/YT block already tracked under MISSING
+  CONTENT, print p.120.)
+
 ## Nikud / spelling decisions (build TODOs)
 
 - **Divine Name spelling (siddur-wide).** The print spells the Tetragrammaton
