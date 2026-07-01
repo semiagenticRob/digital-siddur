@@ -3705,13 +3705,13 @@
               "id": "se4-end-rubric",
               "type": "rubric",
               "enText": "On Rosh Chodesh, Chanukah, and Chol Hamoed, Say Hallel.",
-              "xref": "page 204"
+              "xref": "prayer:hallel/p-hallel"
             },
             {
               "id": "se4-tachanun-xref-rubric",
               "type": "rubric",
               "enText": "[Tachanun](prayer:shacharit/p-tachanun); [Avinu Malkeinu](prayer:shacharit/avinu_malkeinu)",
-              "xref": "page 83; page 78"
+              "xref": "prayer:shacharit/p-tachanun; prayer:shacharit/avinu_malkeinu"
             }
           ]
         }
@@ -4617,7 +4617,7 @@
               "id": "tach1-s11",
               "type": "rubric",
               "enText": "On all other weekdays, begin with \"Short Tachanun\".",
-              "condition": "On all other weekdays, begin with Short Tachanun on page 87"
+              "condition": "On all other weekdays, begin with Short Tachanun"
             },
             {
               "id": "tach1-s12",
@@ -5786,13 +5786,13 @@
               "id": "kt3-uva-rubric-kaddish-locator",
               "type": "rubric",
               "enText": "On Rosh Chodesh, Half-Kaddish is said, followed by Mussaf, see [here](prayer:mussaf-rosh-chodesh/p-mussaf-rosh-chodesh).",
-              "xref": "page 212"
+              "xref": "prayer:mussaf-rosh-chodesh/p-mussaf-rosh-chodesh"
             },
             {
               "id": "kt3-uva-rubric-kaddish-locator-2",
               "type": "rubric",
               "enText": "On Chol Hamoed, Half-Kaddish is said, followed by Mussaf, see [here](prayer:mussaf-chol-hamoed/p-mussaf-chol-hamoed).",
-              "xref": "page 223"
+              "xref": "prayer:mussaf-chol-hamoed/p-mussaf-chol-hamoed"
             },
             {
               "id": "kt3-kaddish-header",

@@ -394,7 +394,7 @@
               "id": "hallel2-kaddish-rubric",
               "type": "rubric",
               "enText": "On Chol Hamoed and Rosh Chodesh, the chazzan says Full-Kaddish followed by Krias HaTorah, see [here](prayer:shacharit/p-seder-krias-hatorah). On Chanukah (except for Rosh Chodesh Teves), the chazzan says Half-Kaddish followed by Krias HaTorah, see [here](prayer:shacharit/p-seder-krias-hatorah).",
-              "xref": "page 92",
+              "xref": "prayer:shacharit/p-seder-krias-hatorah",
               "condition": "Chol Hamoed, Rosh Chodesh, or Chanukah",
               "optional": true
             }
