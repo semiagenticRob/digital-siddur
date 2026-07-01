@@ -8,7 +8,8 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.semiagenticrob.digitalsiddur"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +29,13 @@
       "expo-status-bar",
       "expo-font",
       "expo-splash-screen"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4c793e87-0302-4d19-bcc2-21b45fa3260c"
+      }
+    },
+    "owner": "semiagenticrob"
   }
 }
