@@ -60,6 +60,38 @@ test('ensureFresh swallows network errors and keeps existing cache', async () =>
   await expect(useZmanimStore.getState().ensureFresh('2026-07-02')).resolves.toBeUndefined();
 });
 
+test('ensureFresh keeps existing cache when a batch entry is missing a zman key', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  const priorDays = { '2026-07-01': {
+    sofZmanShma: '2026-07-01T09:14:00-04:00',
+    minchaGedola: '2026-07-01T13:45:00-04:00',
+    sunset: '2026-07-01T20:44:00-04:00',
+    tzeit85deg: '2026-07-01T21:26:00-04:00',
+  } };
+  useZmanimStore.setState({ days: priorDays, fetchedThrough: '2026-07-01' });
+  const partial = {
+    times: {
+      sofZmanShma: { '2026-07-02': '2026-07-02T09:14:00-04:00', '2026-07-03': '2026-07-03T09:14:00-04:00' },
+      minchaGedola: { '2026-07-02': '2026-07-02T13:45:00-04:00', '2026-07-03': '2026-07-03T13:45:00-04:00' },
+      sunset: { '2026-07-02': '2026-07-02T20:44:00-04:00', '2026-07-03': '2026-07-03T20:44:00-04:00' },
+      tzeit85deg: { '2026-07-02': '2026-07-02T21:26:00-04:00' }, // missing for 2026-07-03
+    },
+  };
+  (globalThis.fetch as jest.Mock).mockResolvedValueOnce({ ok: true, json: async () => partial });
+  await useZmanimStore.getState().ensureFresh('2026-07-02');
+  expect(useZmanimStore.getState().days).toEqual(priorDays);
+  expect(useZmanimStore.getState().fetchedThrough).toBe('2026-07-01');
+});
+
+test('ensureFresh keeps fetchedThrough when the batch times are empty', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  useZmanimStore.setState({ fetchedThrough: '2026-07-01' });
+  (globalThis.fetch as jest.Mock).mockResolvedValueOnce({ ok: true, json: async () => ({ times: {} }) });
+  await useZmanimStore.getState().ensureFresh('2026-07-02');
+  expect(useZmanimStore.getState().fetchedThrough).toBe('2026-07-01');
+  expect(useZmanimStore.getState().days).toEqual({});
+});
+
 test('setLocation clears the previous cache', () => {
   useZmanimStore.setState({ days: { '2026-07-02': {} as any }, fetchedThrough: '2026-07-31' });
   useZmanimStore.getState().setLocation(LOC);

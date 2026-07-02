@@ -74,6 +74,7 @@ export const useZmanimStore = create<ZmanimState>()(
           if (!json.times) return;
           const days: Record<string, DayZmanim> = { ...get().days };
           const dates = Object.keys(json.times[ZMANIM_KEYS[0]] ?? {});
+          if (dates.length === 0) return; // empty batch — don't reset fetchedThrough
           for (const date of dates) {
             const entry = {} as DayZmanim;
             for (const key of ZMANIM_KEYS) {
