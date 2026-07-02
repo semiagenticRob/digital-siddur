@@ -31,6 +31,14 @@ test('Omer period gets sefirah Tonight (evening begins next Hebrew day)', () => 
   expect(specialDayBadges(new Date(2026, 4, 24))['sefiras-haomer']).toBeUndefined();
 });
 
+test('Shavuos (6-7 Sivan, diaspora) gets hallel; 8 Sivan does not', () => {
+  // 6 Sivan 5786 = 22 May 2026, "Shavuot I"; 7 Sivan = 23 May, "Shavuot II";
+  // 8 Sivan = 24 May, plain day (all verified via hebcal converter).
+  expect(specialDayBadges(new Date(2026, 4, 22))['hallel']).toBe('Today');
+  expect(specialDayBadges(new Date(2026, 4, 23))['hallel']).toBe('Today');
+  expect(specialDayBadges(new Date(2026, 4, 24))['hallel']).toBeUndefined();
+});
+
 test('Chol Hamoed Sukkos gets mussaf-chol-hamoed + hallel + lulav', () => {
   // 17 Tishrei 5787 = 28 Sep 2026, Monday (verified via hebcal converter)
   const badges = specialDayBadges(new Date(2026, 8, 28));
