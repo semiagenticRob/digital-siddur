@@ -1,10 +1,11 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, AppState } from 'react-native';
-import { router, useFocusEffect } from 'expo-router';
+import React, { useEffect } from 'react';
+import { View, Text, Pressable, StyleSheet } from 'react-native';
+import { router } from 'expo-router';
 import { getService } from '../content/loader';
 import { useReadingPositionStore } from '../store/readingPosition';
 import { useZmanimStore, dateKey, DayZmanim } from '../store/zmanim';
 import { suggestService } from '../lib/suggestService';
+import { useNow } from '../lib/useNow';
 import { formatZmanTime } from '../lib/formatZmanTime';
 import { ColorPalette } from '../theme/colors';
 import { useThemeColors } from '../theme/useThemeColors';
@@ -25,38 +26,21 @@ export function NowCard() {
   const lastServiceId = useReadingPositionStore((s) => s.lastServiceId);
   const last = lastServiceId ? getService(lastServiceId) : null;
   const location = useZmanimStore((st) => st.location);
-  const [now, setNow] = useState(() => new Date());
+  const now = useNow();
   // Subscribe to the day's data itself — not the stable zmanimFor function
   // reference — so the card re-renders when ensureFresh's fetch lands.
   // Keyed on `now` state, so it follows the midnight focus/foreground
-  // refreshes above.
+  // refreshes from useNow().
   const todayZmanim = useZmanimStore((st) => st.days[dateKey(now)] ?? null);
   const s = makeStyles(colors);
-
-  // The home screen stays mounted across midnight (iOS keeps apps alive for
-  // days), so `now` must be refreshed rather than computed once at render:
-  // on screen focus, and when the app returns to the foreground.
-  useFocusEffect(
-    useCallback(() => {
-      setNow(new Date());
-    }, [])
-  );
-
-  useEffect(() => {
-    const subscription = AppState.addEventListener('change', (state) => {
-      if (state === 'active') {
-        setNow(new Date());
-      }
-    });
-    return () => subscription.remove();
-  }, []);
 
   // Keep the zmanim cache topped up; fire-and-forget, never blocks render.
   useEffect(() => {
     void useZmanimStore.getState().ensureFresh(dateKey(now));
   }, [now]);
 
-  const suggested = getService(suggestService(now, todayZmanim));
+  const suggestedId = suggestService(now, todayZmanim);
+  const suggested = suggestedId ? getService(suggestedId) : null;
 
   return (
     <View style={[s.card, { backgroundColor: colors.surface, borderColor: colors.line, borderTopColor: colors.gold }]}>

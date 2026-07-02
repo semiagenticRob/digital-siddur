@@ -111,6 +111,11 @@ Open items from this round, deferred to a future author decision/pass:
   computed/cached zmanim. These times are placeholders, not derived from any
   halachic source, and should be revisited once real-world usage data or
   author guidance is available.
+- **Yom Tov days are NOT suppressed from the suggestion in v1 (only
+  Shabbos).** `suggestService` returns `null` (no CTA) across the civil
+  Shabbos window but still suggests weekday shacharit/minchah/maariv on Yom
+  Tov days that fall on a weekday — author decision pending on whether/how
+  to handle Yom Tov.
 
 ## Full print-vs-app audit (2026-07-01) — Shacharis + meal brachos
 

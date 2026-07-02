@@ -8,6 +8,7 @@ import { ColorPalette } from '../../src/theme/colors';
 import { useThemeColors } from '../../src/theme/useThemeColors';
 import { Fonts, MAX_FONT_SCALE } from '../../src/theme/typography';
 import { specialDayBadges } from '../../src/lib/specialDays';
+import { useNow } from '../../src/lib/useNow';
 
 // Stable-sorts a section's rows so badged items (Today/Tonight) surface
 // first, preserving relative order within each group.
@@ -28,7 +29,8 @@ function stableSortBadgedFirst<T extends { id: string }>(
 
 export default function DavenHome() {
   const { colors } = useThemeColors();
-  const badges = specialDayBadges(new Date());
+  const now = useNow();
+  const badges = specialDayBadges(now);
   const sections: HomeSection[] = homeSections().map((section) =>
     section.key === 'special'
       ? { ...section, data: stableSortBadgedFirst(section.data, badges) }
