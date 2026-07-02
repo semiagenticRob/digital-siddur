@@ -85,11 +85,15 @@ The print glossary (siddur p. 269 ff.) is ~70 entries of `term — definition` i
   book content that can never be open-sourced. `Intl` Hebrew-calendar support on Hermes is
   unverifiable in jest, so it is not an option either.
 
-## Future plan (documented, not built): smart surfacing + zmanim
+## Smart surfacing + zmanim (shipped 2026-07-02 — implementation notes)
+
+Built in the zmanim round as designed here (store: `src/store/zmanim.ts`; rules:
+`src/lib/specialDays.ts`, `src/lib/suggestService.ts`; Settings location UI +
+attribution in `app/settings.tsx`):
 
 - **Zmanim source:** Hebcal hosted Zmanim REST API — free, no API key, JSON, batch up to
   180 days (`https://www.hebcal.com/zmanim?cfg=json&latitude=..&longitude=..&tzid=..&start=..&end=..`).
-  Output is CC-BY 4.0: the app must credit Hebcal.com (Settings/About line). Offline-first:
+  Output is CC-BY 4.0: the app credits Hebcal.com (Settings line). Offline-first:
   prefetch a 30-day batch when online, cache in AsyncStorage, render from cache; no
   cache + no network → strip hidden. Suggested-service rules run on the same cached data
   plus the local Hebrew-date converter.
@@ -102,6 +106,6 @@ The print glossary (siddur p. 269 ff.) is ~70 entries of `term — definition` i
 - Existing suites unaffected (`npm run check` green).
 - Content: new JSON passes `lint_content.py`; book-matter + glossary proofed against print pages before merge.
 
-## Explicitly out of scope this round
+## Explicitly out of scope
 
-Zmanim computation, location permission, suggested-service logic, Today badges, any reader-screen changes, appendix browsing hub (permanently out per user decision).
+Israel-mode calendar rules (diaspora practice only — see `docs/REVIEW_QUEUE.md`), any reader-screen changes, appendix browsing hub (permanently out per user decision).

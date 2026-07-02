@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { View, Text, Pressable, StyleSheet, SafeAreaView, Switch, TextInput } from 'react-native';
 import { router } from 'expo-router';
 import { usePreferencesStore, ComfortLevel } from '../src/store/preferences';
@@ -26,6 +26,14 @@ export default function Settings() {
   const [searched, setSearched] = useState(false);
   const searchTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const searchSeq = useRef(0);
+
+  // On unmount: cancel the pending debounce timer, and bump the seq so any
+  // in-flight searchCities response is dropped by the stale-guard instead of
+  // calling setState on an unmounted component.
+  useEffect(() => () => {
+    if (searchTimer.current) clearTimeout(searchTimer.current);
+    searchSeq.current += 1;
+  }, []);
 
   const handleUseMyLocation = async () => {
     setLocateError(false);
