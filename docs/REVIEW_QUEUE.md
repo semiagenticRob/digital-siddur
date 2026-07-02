@@ -1,5 +1,26 @@
 # Review queue — deferred items
 
+## Book matter (front/back matter, Task 9, 2026-07-02) — one omitted Hebrew line
+
+`scripts/extract_book_matter.py` builds `src/content/book-matter.json` from
+`pdftotext` output of the print's front/back matter. One Hebrew line is
+**omitted** rather than included: the dedications piece's Isaiah 56:5
+epigraph ("I will give them, in My house and within My walls, a monument
+and a name"), printed at the top of pdf p.8 above the Sara Goldman
+dedication. It is vocalized (nikud-bearing) and pdftotext extracts it badly
+mangled — spurious spaces inside nearly every word, from the same class of
+RTL/nikud extraction defect documented elsewhere in this file (see
+"PDF-extraction attempt results" above). Unlike the Ashrei lemma quoted in
+translation-note (also vocalized-and-mangled, but resolved by slicing the
+already-proofed lemma out of `shacharit.json`), this exact pasuk does not
+appear anywhere else in the digitized corpus to slice from. Per the task's
+explicit fallback, it was left out rather than retyped (retyping a nikud-
+bearing pasuk risks silent nikud errors). Add it when a clean vocalized
+source (e.g. a PyMuPDF geometry-based re-extraction, or Sefaria) is
+available — see `scripts/extract_pdf_hebrew.py` for the extraction
+approach used elsewhere in this project for the same class of defect.
+
+
 Items surfaced by the proactive print-vs-app audit that are intentionally NOT
 auto-applied. Track them here so they aren't lost.
 

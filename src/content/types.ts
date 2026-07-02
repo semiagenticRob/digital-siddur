@@ -62,3 +62,12 @@ export interface Appendix {
   title: string;
   segments: Segment[];
 }
+
+// Front/back matter of the print book (introductions, dedications, notes) —
+// prose pieces read on the About screen, reusing the Segment renderer.
+export interface BookPiece {
+  id: string;
+  title: string;
+  subtitle?: string;
+  segments: Segment[];
+}
