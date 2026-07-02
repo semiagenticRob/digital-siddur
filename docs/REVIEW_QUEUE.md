@@ -84,14 +84,33 @@ and judgment calls already logged above.
   misspelling as printed. Author call needed: correct it with an inline
   `[sic]`, or leave it exactly as the print has it.
 
-## Future round — Zmanim source decision (documented only, 2026-07-02)
+## Future round — Zmanim source decision — SHIPPED 2026-07-02
 
-Hebcal hosted Zmanim REST API selected for the future smart-surfacing/zmanim
-round (design details in `docs/superpowers/plans/2026-06-15-digital-siddur-v1.md`
-and the task-11 brief) — not built this pass. Output is CC-BY 4.0, so an
-attribution line for Hebcal.com is required in Settings/About when it ships.
-Whether sof zman Krias Shema displays as MGA or GRA is an author decision,
-also deferred.
+Hebcal hosted Zmanim REST API is now live (`src/store/zmanim.ts`, batch fetch
++ offline-first AsyncStorage cache; `src/lib/location.ts` for device location
+and city search; Settings "Zmanim" section for location management). The
+Hebcal.com attribution line (CC BY 4.0) ships in Settings. Sof zman Krias
+Shema displays as GRA (user decision 2026-07-02, recorded in
+`src/store/zmanim.ts`).
+
+Open items from this round, deferred to a future author decision/pass:
+
+- **Israel-mode calendar rules are out of scope.** The badges/chol-hamoed
+  spans and special-day promotion logic (`src/lib/specialDays.ts`) assume
+  diaspora practice only; an Israel toggle (different Yom Tov lengths, no
+  second-day observances) is a future author decision.
+- **Device-tz == location-tz assumption.** Wall-clock comparisons against
+  cached zmanim assume the device's timezone matches the selected zmanim
+  location's `tzid`. This breaks mid-travel (e.g. device still on home tz
+  while the user has set a zmanim location abroad) — no cross-check or
+  warning is implemented yet.
+- **Suggested-service fallback boundaries are v1 heuristics.** When no
+  zmanim are cached (offline, no location set, or stale beyond the batch
+  window), `src/lib/suggestService.ts` falls back to fixed wall-clock
+  boundaries (13:00 for Minchah, 19:30 for Maariv) rather than
+  computed/cached zmanim. These times are placeholders, not derived from any
+  halachic source, and should be revisited once real-world usage data or
+  author guidance is available.
 
 ## Full print-vs-app audit (2026-07-01) — Shacharis + meal brachos
 

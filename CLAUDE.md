@@ -35,7 +35,7 @@ Expo Router (file-based) in `app/`: `index.tsx` (home) → `daven/[service].tsx`
 
 - **Content registry** — `src/content/loader.ts` statically imports every service JSON into a `Record<string, Service>`; `getService(id)` / `listServices()` are the entry points. Appendices load separately via `src/content/appendices.ts`. Adding a service = add the JSON + register it in `loader.ts`. Book front/back matter loads via `src/content/bookMatter.ts` (`book-matter.json`; About screens), the glossary via `src/content/glossary.ts` (`glossary.json`; no segments — outside the segment contract).
 - **Reader** — `daven/[service].tsx` renders the service through a FlashList (`ServiceScroll`), one `SegmentRenderer` per segment.
-- **State** — Zustand stores in `src/store/`, persisted to AsyncStorage: `preferences` (displayMode `he`/`both`/`en`, theme, fontStep, comfortLevel, onboarding flag), `annotations` (highlights + notes keyed by segment id), `appendix` (modal nav). Theme tokens in `src/theme/`.
+- **State** — Zustand stores in `src/store/`, persisted to AsyncStorage: `preferences` (displayMode `he`/`both`/`en`, theme, fontStep, comfortLevel, onboarding flag), `annotations` (highlights + notes keyed by segment id), `appendix` (modal nav), `zmanim` (location + a batch-fetched, offline-first Hebcal REST cache). Rule modules live in `src/lib/specialDays.ts` (calendar-driven badges/spans) and `src/lib/suggestService.ts` (current-service heuristic); repo convention is to avoid `Intl` entirely except device-timezone detection via `expo-localization`. Theme tokens in `src/theme/`.
 
 ## Content model & the rendering contract (read before touching any `src/content/*.json`)
 

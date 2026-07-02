@@ -20,9 +20,9 @@ Appendices 1–12 stay reachable only via inline links (user decision — no bro
 |---|---|---|
 | Grouped home sections | ✅ build | — |
 | Now card: civil + Hebrew date, "Continue where you left off" | ✅ build | — |
-| Now card: suggested current service, "Daven now" CTA | ❌ | clock + Hebrew-calendar rules |
-| Zmanim strip on the now card | ❌ | location permission + zmanim engine |
-| "Today/Tonight" badges promoting Special Days entries | ❌ | Hebrew-calendar rules |
+| Now card: suggested current service, "Daven now" CTA | ✅ shipped 2026-07-02 | — |
+| Zmanim strip on the now card | ✅ shipped 2026-07-02 | — |
+| "Today/Tonight" badges promoting Special Days entries | ✅ shipped 2026-07-02 | — |
 | About this Siddur screen + digitized front/back matter | ✅ build | — |
 | Browsable Glossary (digitized from print) | ✅ build | — |
 
