@@ -8,14 +8,17 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // fine, the restore is best-effort.
 interface ReadingPositionState {
   offsets: Record<string, number>;
+  lastServiceId: string | null;
   setOffset: (serviceId: string, offset: number) => void;
   clearOffset: (serviceId: string) => void;
+  setLastService: (serviceId: string) => void;
 }
 
 export const useReadingPositionStore = create<ReadingPositionState>()(
   persist(
     (set) => ({
       offsets: {},
+      lastServiceId: null,
       setOffset: (serviceId, offset) =>
         set((s) => ({ offsets: { ...s.offsets, [serviceId]: offset } })),
       clearOffset: (serviceId) =>
@@ -23,6 +26,7 @@ export const useReadingPositionStore = create<ReadingPositionState>()(
           const { [serviceId]: _removed, ...rest } = s.offsets;
           return { offsets: rest };
         }),
+      setLastService: (serviceId) => set({ lastServiceId: serviceId }),
     }),
     {
       name: 'siddur-reading-position',

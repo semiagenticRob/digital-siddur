@@ -24,6 +24,7 @@ export default function ServiceScreen() {
   const listReady = useRef(false);
   const setOffset = useReadingPositionStore((s) => s.setOffset);
   const savedOffset = useReadingPositionStore((s) => (serviceId ? s.offsets[serviceId] : undefined));
+  const setLastService = useReadingPositionStore((s) => s.setLastService);
 
   // Runs once the list has completed its first layout (ServiceScroll onReady) —
   // the earliest point scrollTo* calls are reliable. A deep-linked prayer wins
@@ -64,6 +65,10 @@ export default function ServiceScreen() {
   const { colors } = useThemeColors();
 
   const service = getService(serviceId ?? '');
+
+  useEffect(() => {
+    if (serviceId && service) setLastService(serviceId);
+  }, [serviceId, service, setLastService]);
 
   const s = useMemo(() => makeStyles(colors), [colors]);
 
