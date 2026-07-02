@@ -7,6 +7,8 @@ import { Fonts, MAX_FONT_SCALE } from '../../src/theme/typography';
 
 // Reader-first ordering (not print order): the teen intro and translation
 // note are the two pieces a davener actually needs; provenance last.
+// The six ids below must match listBookPieces() in ../../src/content/bookMatter —
+// see src/content/__tests__/bookMatter.test.ts, which guards that seam.
 const TOC: Array<{ label: string; rows: Array<{ id: string; title: string; desc: string }> }> = [
   {
     label: 'Read First',

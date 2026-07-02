@@ -26,7 +26,7 @@ Appendices 1–12 stay reachable only via inline links (user decision — no bro
 | About this Siddur screen + digitized front/back matter | ✅ build | — |
 | Browsable Glossary (digitized from print) | ✅ build | — |
 
-The now card is built as a **shell whose layout already reserves the space** the future features occupy (CTA row, bottom zmanim strip), so adding them later changes no geometry.
+The now card is the **designated mount point** for the future CTA row and zmanim strip; it currently renders only the date line and resume link, and will extend downward as those features land rather than reserving their space in advance.
 
 ## Home screen (`app/daven/index.tsx`)
 
