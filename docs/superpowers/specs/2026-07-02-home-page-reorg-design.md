@@ -35,7 +35,7 @@ Order, top to bottom:
 1. **Header** — unchanged: "Daven", bookmark (Notes & Highlights), gear (Settings).
 2. **Now card** — surface card, 3px gold top border, rounded 16.
    - Row 1: `Wednesday · July 2` (left, muted) / Hebrew date in Frank Ruhl (right, RTL).
-   - Row 2 (this round): **Continue** link — "Resume Shacharis at Ashrei →" driven by the existing `readingPosition` store + last-opened service; hidden if no saved position. (Requires storing last prayer id or nearest-prayer lookup from saved offset — see Data.)
+   - Row 2 (this round): **Continue** link — "Resume Shacharis →" (service-only) from the persisted `lastServiceId`; hidden if no service has been opened yet.
    - Future rows (space reserved, not rendered): suggested-service title + "Daven now" CTA; zmanim strip (4 cells: Krias Shema / Minchah Gedolah / Shkiah / Tzeis) as a full-bleed footer inside the card.
 3. **Tefillos** — Shacharis, Minchah, Maariv. Full-size rows (current row style).
 4. **Special Days** — Sefiras HaOmer, Maariv for Motzaei Shabbos, Mussaf for Rosh Chodesh, Mussaf for Chol Hamoed, Hallel, Netilas Lulav. Compact rows. Static order this round; future calendar logic adds badges/promotion but **never hides** an entry.
@@ -59,7 +59,7 @@ TOC rows grouped for a reader (not print order):
 - **For Parents & Teachers** — Introduction for Parents, Mechanchim, and Mechanchos; A Personal Note from Rabbi Feigenbaum (both notes, pp. 239–240).
 - **The People Behind It** — Dedications (Cohen Family Edition memorial, Sara Goldman, Tobias tribute, ואלו יעמדו על הברכה); Acknowledgments.
 
-Tapping a row pushes a stack screen `app/about/[piece].tsx` that renders the piece's `Segment[]` with the existing `SegmentRenderer` (not a modal — these are long-form reads). The pieces are `section_intro`/`commentary`-style English prose with occasional inline Hebrew.
+Tapping a row pushes a stack screen `app/about/[piece].tsx` that renders the piece's `Segment[]` with the shared `ProseSegments` prose renderer (extracted from AppendixModal) (not a modal — these are long-form reads). The pieces are `section_intro`/`commentary`-style English prose with occasional inline Hebrew.
 
 ### Content model
 
