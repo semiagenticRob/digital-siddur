@@ -60,6 +60,23 @@ This is the part that bites. A field that a type doesn't render is **invisible**
    - `[label](prayer:serviceId/prayerId)` jumps to that prayer in that service
      (deep-links to `/daven/<serviceId>?initialPrayer=<prayerId>`).
 
+## Book matter & glossary
+
+Book front/back matter (`src/content/book-matter.json`, About screens) is a set
+of *pieces*, each holding a plain `Segment[]` — no `Service → Group → Prayer`
+wrapper, but the segments are ordinary segments and are linted like all other
+content: prose is `commentary`, standalone Hebrew lines are `prayer`, interior
+headings are `header`. The rendering contract above still applies field-by-field.
+
+The glossary (`src/content/glossary.json`) is `{ entries: [{ term, definition }] }`
+in print order — it has no segments and sits outside the segment contract
+entirely (not linted by `lint_content.py`).
+
+Both are digitized only via their dedicated extraction scripts
+(`scripts/extract_book_matter.py`, `scripts/extract_glossary.py`), never by
+hand, and proofed against 300 DPI renders of the print pages like any other
+content.
+
 ## The linter
 
 `scripts/lint_content.py` encodes the table + conventions above.

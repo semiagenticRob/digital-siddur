@@ -71,6 +71,28 @@ approach used elsewhere in this project for the same class of defect.
 Items surfaced by the proactive print-vs-app audit that are intentionally NOT
 auto-applied. Track them here so they aren't lost.
 
+## Book matter — digitization record + glossary typo call (Task 11, 2026-07-02)
+
+Front/back matter + glossary digitized (`scripts/extract_book_matter.py`,
+`scripts/extract_glossary.py`) — human spot-check of the six About pieces
+against the print recommended before release, in addition to the omissions
+and judgment calls already logged above.
+
+- **Glossary `sandek` entry preserves the print's typo "cirucumcision"
+  verbatim.** Per the fidelity rule (derive-don't-retype extends to not
+  silently "fixing" the print's own errors), `glossary.json` keeps the
+  misspelling as printed. Author call needed: correct it with an inline
+  `[sic]`, or leave it exactly as the print has it.
+
+## Future round — Zmanim source decision (documented only, 2026-07-02)
+
+Hebcal hosted Zmanim REST API selected for the future smart-surfacing/zmanim
+round (design details in `docs/superpowers/plans/2026-06-15-digital-siddur-v1.md`
+and the task-11 brief) — not built this pass. Output is CC-BY 4.0, so an
+attribution line for Hebcal.com is required in Settings/About when it ships.
+Whether sof zman Krias Shema displays as MGA or GRA is an author decision,
+also deferred.
+
 ## Full print-vs-app audit (2026-07-01) — Shacharis + meal brachos
 
 Systematic per-page audit (vision agents, 300 DPI) of Shacharis (pp.2-118) and
