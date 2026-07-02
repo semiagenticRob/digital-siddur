@@ -7,10 +7,33 @@ import { NowCard } from '../../src/components/NowCard';
 import { ColorPalette } from '../../src/theme/colors';
 import { useThemeColors } from '../../src/theme/useThemeColors';
 import { Fonts, MAX_FONT_SCALE } from '../../src/theme/typography';
+import { specialDayBadges } from '../../src/lib/specialDays';
+
+// Stable-sorts a section's rows so badged items (Today/Tonight) surface
+// first, preserving relative order within each group.
+function stableSortBadgedFirst<T extends { id: string }>(
+  data: T[],
+  badges: Record<string, string>
+): T[] {
+  return data
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => {
+      const aBadged = badges[a.item.id] ? 0 : 1;
+      const bBadged = badges[b.item.id] ? 0 : 1;
+      if (aBadged !== bBadged) return aBadged - bBadged;
+      return a.index - b.index;
+    })
+    .map(({ item }) => item);
+}
 
 export default function DavenHome() {
   const { colors } = useThemeColors();
-  const sections: HomeSection[] = homeSections();
+  const badges = specialDayBadges(new Date());
+  const sections: HomeSection[] = homeSections().map((section) =>
+    section.key === 'special'
+      ? { ...section, data: stableSortBadgedFirst(section.data, badges) }
+      : section
+  );
   const s = makeStyles(colors);
 
   return (
@@ -64,12 +87,24 @@ export default function DavenHome() {
               accessibilityRole="button"
               accessibilityLabel={`Open ${item.enTitle}`}
             >
-              <Text
-                style={[s.rowEn, (section as HomeSection).compact && s.rowEnCompact, { color: colors.ink }]}
-                maxFontSizeMultiplier={MAX_FONT_SCALE}
-              >
-                {item.enTitle}
-              </Text>
+              <View style={s.rowEnGroup}>
+                <Text
+                  style={[s.rowEn, (section as HomeSection).compact && s.rowEnCompact, { color: colors.ink }]}
+                  maxFontSizeMultiplier={MAX_FONT_SCALE}
+                >
+                  {item.enTitle}
+                </Text>
+                {badges[item.id] && (
+                  <View style={[s.badge, { backgroundColor: colors.goldFill }]}>
+                    <Text
+                      style={[s.badgeText, { color: colors.rubric }]}
+                      maxFontSizeMultiplier={MAX_FONT_SCALE}
+                    >
+                      {badges[item.id]}
+                    </Text>
+                  </View>
+                )}
+              </View>
               <Text
                 style={[s.rowHe, (section as HomeSection).compact && s.rowHeCompact, { color: colors.muted }]}
                 maxFontSizeMultiplier={MAX_FONT_SCALE}
@@ -153,8 +188,21 @@ function makeStyles(colors: ColorPalette) {
     },
     rowCompact: { paddingVertical: 11 },
     rowPressed: { opacity: 0.7 },
+    rowEnGroup: { flexDirection: 'row', alignItems: 'center', flexShrink: 1 },
     rowEn: { fontFamily: Fonts.uiMedium, fontSize: 17 },
     rowEnCompact: { fontSize: 15 },
+    badge: {
+      marginLeft: 8,
+      borderRadius: 6,
+      paddingVertical: 3,
+      paddingHorizontal: 7,
+    },
+    badgeText: {
+      fontFamily: Fonts.uiSemiBold,
+      fontSize: 10.5,
+      letterSpacing: 0.8,
+      textTransform: 'uppercase' as const,
+    },
     rowHe: { fontFamily: Fonts.hebrewBold, fontSize: 20, writingDirection: 'rtl' as const },
     rowHeCompact: { fontSize: 18 },
     bookRow: { flexDirection: 'row', gap: 8 },
