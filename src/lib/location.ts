@@ -93,20 +93,28 @@ async function resolveGeonameId(id: number, fallbackLabel: string): Promise<Zman
   }
 }
 
-export async function searchCities(query: string): Promise<ZmanimLocation[]> {
+// Settings shows at most 6 results, so slice the autocomplete candidates
+// down to 6 before the per-candidate /geo fan-out — no point resolving
+// coordinates for hits that will never be shown.
+const MAX_RESULTS = 6;
+
+// Returns `null` when the search itself failed (offline, complete.php
+// erroring) so callers can distinguish "couldn't search" from a genuine
+// "no cities found" ([]).
+export async function searchCities(query: string): Promise<ZmanimLocation[] | null> {
   try {
     const res = await fetch(`https://www.hebcal.com/complete.php?q=${encodeURIComponent(query)}`);
-    if (!res.ok) return [];
+    if (!res.ok) return null;
     const hits = (await res.json()) as CompleteHit[];
     if (!Array.isArray(hits)) return [];
-    const candidates = hits.filter(
-      (h): h is Required<CompleteHit> => typeof h.id === 'number' && typeof h.value === 'string'
-    );
+    const candidates = hits
+      .filter((h): h is Required<CompleteHit> => typeof h.id === 'number' && typeof h.value === 'string')
+      .slice(0, MAX_RESULTS);
     const resolved = await Promise.all(
       candidates.map((h) => resolveGeonameId(h.id, h.value))
     );
     return resolved.filter((loc): loc is ZmanimLocation => loc !== null);
   } catch {
-    return [];
+    return null;
   }
 }

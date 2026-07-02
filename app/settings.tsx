@@ -24,6 +24,7 @@ export default function Settings() {
   const [searching, setSearching] = useState(false);
   const [results, setResults] = useState<ZmanimLocation[]>([]);
   const [searched, setSearched] = useState(false);
+  const [searchFailed, setSearchFailed] = useState(false);
   const searchTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const searchSeq = useRef(0);
 
@@ -61,19 +62,23 @@ export default function Settings() {
       setResults([]);
       setSearching(false);
       setSearched(false);
+      setSearchFailed(false);
       return;
     }
     setSearching(true);
     setSearched(false);
+    setSearchFailed(false);
     const seq = ++searchSeq.current;
     searchTimer.current = setTimeout(async () => {
       try {
         const hits = await searchCities(trimmed);
         if (seq !== searchSeq.current) return; // stale — a newer search superseded this one
-        setResults(hits.slice(0, 6));
+        setResults(hits ?? []);
+        setSearchFailed(hits === null);
       } catch {
         if (seq !== searchSeq.current) return;
         setResults([]);
+        setSearchFailed(true);
       } finally {
         if (seq === searchSeq.current) {
           setSearching(false);
@@ -88,6 +93,7 @@ export default function Settings() {
     setQuery('');
     setResults([]);
     setSearched(false);
+    setSearchFailed(false);
   };
 
   return (
@@ -222,7 +228,9 @@ export default function Settings() {
             <Text style={[s.sectionHint, { color: colors.muted }]}>Searching…</Text>
           )}
           {!searching && searched && results.length === 0 && (
-            <Text style={[s.sectionHint, { color: colors.muted }]}>No cities found</Text>
+            <Text style={[s.sectionHint, { color: colors.muted }]}>
+              {searchFailed ? "Couldn't search — check your connection." : 'No cities found'}
+            </Text>
           )}
 
           {results.map((r, i) => (

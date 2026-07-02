@@ -59,11 +59,11 @@ describe('searchCities', () => {
     ]);
   });
 
-  test('returns [] on network failure', async () => {
+  test('returns null on network failure', async () => {
     globalThis.fetch = jest.fn(async () => {
       throw new Error('offline');
     }) as unknown as typeof fetch;
-    await expect(searchCities('x')).resolves.toEqual([]);
+    await expect(searchCities('x')).resolves.toBeNull();
   });
 
   test('drops hits missing id/value from complete.php', async () => {
@@ -125,9 +125,25 @@ describe('searchCities', () => {
     ]);
   });
 
-  test('returns [] when complete.php responds not-ok', async () => {
+  test('returns null when complete.php responds not-ok (a search failure, not "no results")', async () => {
     mockFetchByUrl(() => ({ ok: false, json: async () => [] }));
-    await expect(searchCities('x')).resolves.toEqual([]);
+    await expect(searchCities('x')).resolves.toBeNull();
+  });
+
+  test('slices autocomplete candidates to 6 before the /geo fan-out', async () => {
+    const eightHits = Array.from({ length: 8 }, (_, i) => ({ id: i, value: `City ${i}` }));
+    const geoCalls: string[] = [];
+    mockFetchByUrl((url) => {
+      if (url.includes('complete.php')) {
+        return { ok: true, json: async () => eightHits };
+      }
+      geoCalls.push(url);
+      const id = url.split('geonameid=')[1];
+      return { ok: true, json: async () => ({ latitude: 1, longitude: 1, timeZoneId: 'UTC', locationName: `City ${id}` }) };
+    });
+    const results = await searchCities('city');
+    expect(geoCalls).toHaveLength(6);
+    expect(results).toHaveLength(6);
   });
 });
 
