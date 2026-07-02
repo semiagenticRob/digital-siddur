@@ -25,8 +25,12 @@ export function NowCard() {
   const lastServiceId = useReadingPositionStore((s) => s.lastServiceId);
   const last = lastServiceId ? getService(lastServiceId) : null;
   const location = useZmanimStore((st) => st.location);
-  const zmanimFor = useZmanimStore((st) => st.zmanimFor);
   const [now, setNow] = useState(() => new Date());
+  // Subscribe to the day's data itself — not the stable zmanimFor function
+  // reference — so the card re-renders when ensureFresh's fetch lands.
+  // Keyed on `now` state, so it follows the midnight focus/foreground
+  // refreshes above.
+  const todayZmanim = useZmanimStore((st) => st.days[dateKey(now)] ?? null);
   const s = makeStyles(colors);
 
   // The home screen stays mounted across midnight (iOS keeps apps alive for
@@ -49,10 +53,9 @@ export function NowCard() {
 
   // Keep the zmanim cache topped up; fire-and-forget, never blocks render.
   useEffect(() => {
-    void useZmanimStore.getState().ensureFresh(dateKey(new Date()));
+    void useZmanimStore.getState().ensureFresh(dateKey(now));
   }, [now]);
 
-  const todayZmanim = zmanimFor(dateKey(now));
   const suggested = getService(suggestService(now, todayZmanim));
 
   return (
