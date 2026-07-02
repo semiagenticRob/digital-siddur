@@ -92,6 +92,42 @@ test('ensureFresh keeps fetchedThrough when the batch times are empty', async ()
   expect(useZmanimStore.getState().days).toEqual({});
 });
 
+test('ensureFresh ignores a stale response after the location changed mid-fetch', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  let resolveFetch!: (value: unknown) => void;
+  const pending = new Promise((resolve) => {
+    resolveFetch = resolve;
+  });
+  (globalThis.fetch as jest.Mock).mockReturnValueOnce(pending);
+
+  const ensurePromise = useZmanimStore.getState().ensureFresh('2026-07-02');
+
+  const LOC_B = { latitude: 40.7, longitude: -74.0, tzid: 'America/New_York', label: 'NYC' };
+  useZmanimStore.getState().setLocation(LOC_B);
+
+  resolveFetch({ ok: true, json: async () => HEBCAL_RESPONSE });
+  await ensurePromise;
+
+  expect(useZmanimStore.getState().days).toEqual({});
+  expect(useZmanimStore.getState().fetchedThrough).toBeNull();
+});
+
+test('ensureFresh prunes cached days older than todayKey on a successful fetch', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  const staleDay = {
+    sofZmanShma: '2026-06-30T09:14:00-04:00',
+    minchaGedola: '2026-06-30T13:45:00-04:00',
+    sunset: '2026-06-30T20:44:00-04:00',
+    tzeit85deg: '2026-06-30T21:26:00-04:00',
+  };
+  useZmanimStore.setState({ days: { '2026-06-30': staleDay }, fetchedThrough: '2026-06-30' });
+  await useZmanimStore.getState().ensureFresh('2026-07-02');
+  const days = useZmanimStore.getState().days;
+  expect(days['2026-06-30']).toBeUndefined();
+  expect(days['2026-07-02']).toBeDefined();
+  expect(days['2026-07-03']).toBeDefined();
+});
+
 test('setLocation clears the previous cache', () => {
   useZmanimStore.setState({ days: { '2026-07-02': {} as any }, fetchedThrough: '2026-07-31' });
   useZmanimStore.getState().setLocation(LOC);

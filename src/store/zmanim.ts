@@ -85,7 +85,17 @@ export const useZmanimStore = create<ZmanimState>()(
             days[date] = entry;
           }
           const last = dates.sort().at(-1) ?? null;
-          set({ days, fetchedThrough: last });
+          // A slow fetch started for a since-abandoned location must not
+          // land after the user switched — setLocation always stores a new
+          // object, so identity comparison catches the switch even if the
+          // new location's fields happen to coincide with the old one.
+          if (get().location !== location) return;
+          // Drop cached days that have already passed so the cache doesn't
+          // grow unbounded with days that will never be shown again.
+          const pruned = Object.fromEntries(
+            Object.entries(days).filter(([date]) => date >= todayKey)
+          );
+          set({ days: pruned, fetchedThrough: last });
         } catch {
           // Offline or API hiccup — cache (possibly stale) keeps serving.
         }
