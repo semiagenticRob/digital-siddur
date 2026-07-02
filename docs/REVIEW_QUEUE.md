@@ -1,5 +1,38 @@
 # Review queue — deferred items
 
+## Book matter (front/back matter, Task 9, 2026-07-02) — haskamos omitted (images, not text)
+
+pdf pp.9–10 contain two haskamos (rabbinic approbation letters) that are
+**deliberately omitted** from `src/content/book-matter.json`. Verified by
+rendering both pages at 300 DPI (`pdftoppm -png -r 300 -f 9 -l 10`) and
+reading them directly — the task-9 report's original characterization of
+these pages as "blank filler pages" was **wrong**; they are handwritten/
+facsimile letters:
+
+- **pdf p.9** — a handwritten English approbation letter from **Rabbi
+  Yitzchak Shmuel HaLevi Berkovits**, Rosh Reshet HaKollelim L'Inas
+  HaTzedek, Sanhedria HaMurchevet 113/27, Jerusalem.
+- **pdf p.10** — a handwritten Hebrew approbation letter on Kollel Toronto
+  (Institute for Advanced Judaic Studies) letterhead — Rosh HaKollel
+  **Rabbi Yaakov Hirschman** and Rosh HaKollel **Rabbi Shlomo Miller** are
+  named on the letterhead; the letter itself is signed **Rabbi Shlomo
+  Eliyahu Miller**, Rosh HaKollel v'Av Beis Din of Kollel Toronto.
+
+Both are facsimile reproductions of handwritten letters with **no digital
+text layer** — `pdftotext` extracts nothing usable from them (they are
+image content, not typeset text). Verbatim text digitization is impossible
+under the never-retype-Hebrew rule (there is no source string to slice,
+and transcribing handwriting from an image is exactly the kind of
+retyping the rule exists to prevent — silent errors with no way to
+verify against a byte-identical source). They are correctly left out of
+`book-matter.json` for this reason, not because the pages are blank.
+
+**Future option:** embed pdf pp.9–10 as images (e.g. on the About screen or
+a "haskamos" appendix), scanned/cropped at print quality. This needs an
+asset/rendering decision (how images are bundled and displayed elsewhere
+in the app, if at all) and author approval before implementing — not
+attempted this pass.
+
 ## Book matter (front/back matter, Task 9, 2026-07-02) — one omitted Hebrew line
 
 `scripts/extract_book_matter.py` builds `src/content/book-matter.json` from
@@ -20,6 +53,20 @@ source (e.g. a PyMuPDF geometry-based re-extraction, or Sefaria) is
 available — see `scripts/extract_pdf_hebrew.py` for the extraction
 approach used elsewhere in this project for the same class of defect.
 
+## Book matter (front/back matter, Task 9) — judgment calls (minor, disclosed only in task report)
+
+- **Dropped cross-reference line.** The personal-notes piece's "Teens—see
+  page 240 for YOUR personal note!" cross-reference (pdf pp.263–265) was
+  dropped from `book-matter.json`, following the same convention already
+  applied to the intro-parents piece's "Introduction for Teens on page
+  XVIII" cross-reference (which *was* specified in the task brief). This
+  extension to personal-notes was a judgment call, not explicit brief text.
+- **Dedication-page bolding extended to all name lines.** The task brief's
+  bold-markdown example covered the two memorial names (Cohen, Goldman)
+  explicitly; bolding was also applied to the Feigenbaum reference, the
+  Tobias tribute signature, and both donor names in the ואלו יעמדו על הברכה
+  line, matching their visual prominence in print. Judgment call extending
+  the brief's stated rule, not itself specified.
 
 Items surfaced by the proactive print-vs-app audit that are intentionally NOT
 auto-applied. Track them here so they aren't lost.
