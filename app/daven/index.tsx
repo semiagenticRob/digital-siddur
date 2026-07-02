@@ -60,7 +60,7 @@ export default function DavenHome() {
                 { backgroundColor: colors.surface, borderColor: colors.line },
                 pressed && s.rowPressed,
               ]}
-              onPress={() => router.push('/daven/' + item.id as any)}
+              onPress={() => router.push(('/daven/' + item.id) as any)}
               accessibilityRole="button"
               accessibilityLabel={`Open ${item.enTitle}`}
             >

@@ -1,6 +1,6 @@
-import React from 'react';
-import { View, Text, Pressable, StyleSheet } from 'react-native';
-import { router } from 'expo-router';
+import React, { useCallback, useEffect, useState } from 'react';
+import { View, Text, Pressable, StyleSheet, AppState } from 'react-native';
+import { router, useFocusEffect } from 'expo-router';
 import { getService } from '../content/loader';
 import { useReadingPositionStore } from '../store/readingPosition';
 import { ColorPalette } from '../theme/colors';
@@ -15,8 +15,26 @@ export function NowCard() {
   const { colors } = useThemeColors();
   const lastServiceId = useReadingPositionStore((s) => s.lastServiceId);
   const last = lastServiceId ? getService(lastServiceId) : null;
-  const now = new Date();
+  const [now, setNow] = useState(() => new Date());
   const s = makeStyles(colors);
+
+  // The home screen stays mounted across midnight (iOS keeps apps alive for
+  // days), so `now` must be refreshed rather than computed once at render:
+  // on screen focus, and when the app returns to the foreground.
+  useFocusEffect(
+    useCallback(() => {
+      setNow(new Date());
+    }, [])
+  );
+
+  useEffect(() => {
+    const subscription = AppState.addEventListener('change', (state) => {
+      if (state === 'active') {
+        setNow(new Date());
+      }
+    });
+    return () => subscription.remove();
+  }, []);
 
   return (
     <View style={[s.card, { backgroundColor: colors.surface, borderColor: colors.line, borderTopColor: colors.gold }]}>
@@ -30,7 +48,7 @@ export function NowCard() {
       </View>
       {last && (
         <Pressable
-          onPress={() => router.push('/daven/' + last.id as any)}
+          onPress={() => router.push(('/daven/' + last.id) as any)}
           accessibilityRole="button"
           accessibilityLabel={`Resume ${last.enTitle}`}
           style={s.resumeBtn}
