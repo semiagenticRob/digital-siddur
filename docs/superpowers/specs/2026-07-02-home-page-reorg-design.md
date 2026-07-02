@@ -75,13 +75,24 @@ The print glossary (siddur p. 269 ff.) is ~70 entries of `term — definition` i
 
 ## Data / store changes
 
-- **Resume line:** `readingPosition` store currently persists `offsets[serviceId]`. Add `lastService: string | null` + `lastPrayerEn/lastPrayerHe?` (set on scroll-settle alongside the offset, resolved from the flattened list's nearest prayer header) so the now card can say "Resume Shacharis at Ashrei". If resolving the prayer name proves noisy, fall back to "Resume Shacharis →" (service only) — acceptable v1.
-- **Hebrew date:** add `@hebcal/core` (offline, no permissions) for the now card's Hebrew date line. This is the only calendar dependency this round; it is also the engine the future zmanim/smart-surfacing work will build on (it computes zmanim + holidays), so it's a forward-compatible choice.
+- **Resume line:** service-only — "Resume Shacharis →" from a new persisted
+  `lastServiceId` in the reading-position store (the offset restore already
+  works on open). Prayer-level naming ("…at Ashrei") needs a viewability
+  callback through FlashList and is deferred as polish.
+- **Hebrew date:** hand-rolled converter in `src/lib/hebrewDate.ts` (Dershowitz–Reingold
+  algorithm, ~100 lines, tested against Hebcal converter-API reference values). We cannot
+  bundle `@hebcal/core` (GPL-2.0) or `kosher-zmanim` (LGPL-3.0): the app ships copyrighted
+  book content that can never be open-sourced. `Intl` Hebrew-calendar support on Hermes is
+  unverifiable in jest, so it is not an option either.
 
 ## Future plan (documented, not built): smart surfacing + zmanim
 
-- **Suggested service:** device clock + `@hebcal/core` calendar → Shacharis (dawn–midday), Minchah (midday–shkiah), Maariv (after shkiah); Motzaei Shabbos Maariv on Saturday night; Mussaf badge on Rosh Chodesh/Chol Hamoed; Hallel badge those days; Sefiras HaOmer "Tonight" badge during the Omer; Netilas Lulav badge on Sukkos.
-- **Zmanim strip:** foreground-only location (`expo-location`, when-in-use) → `@hebcal/core` Zmanim; graceful no-permission fallback = strip hidden, card unchanged. Times shown: sof zman Krias Shema (MGA or GRA — author decision), Minchah Gedolah, Shkiah, Tzeis.
+- **Zmanim source:** Hebcal hosted Zmanim REST API — free, no API key, JSON, batch up to
+  180 days (`https://www.hebcal.com/zmanim?cfg=json&latitude=..&longitude=..&tzid=..&start=..&end=..`).
+  Output is CC-BY 4.0: the app must credit Hebcal.com (Settings/About line). Offline-first:
+  prefetch a 30-day batch when online, cache in AsyncStorage, render from cache; no
+  cache + no network → strip hidden. Suggested-service rules run on the same cached data
+  plus the local Hebrew-date converter.
 - Promotion rule: a relevant Special Days entry gets a badge and moves to the top of its section — it never leaves the section, and nothing is ever hidden.
 
 ## Testing
