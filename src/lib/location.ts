@@ -67,6 +67,9 @@ interface GeoResult {
 
 async function resolveGeonameId(id: number, fallbackLabel: string): Promise<ZmanimLocation | null> {
   try {
+    // An invalid geonameid returns HTTP 404 (with a JSON error body), so
+    // !res.ok is the real failure path; the geo.error check below is
+    // belt-and-braces in case the API ever errors with a 200.
     const res = await fetch(`https://www.hebcal.com/geo?cfg=json&geonameid=${id}`);
     if (!res.ok) return null;
     const geo = (await res.json()) as GeoResult | null;

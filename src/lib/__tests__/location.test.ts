@@ -77,6 +77,8 @@ describe('searchCities', () => {
   });
 
   test('drops hits whose geo lookup is missing coordinates or timezone', async () => {
+    // Belt-and-braces path: a 200 body with an error / missing fields. (The
+    // live API actually 404s on bad ids — covered by the next test.)
     mockFetchByUrl((url) => {
       if (url.includes('complete.php')) {
         return { ok: true, json: async () => COMPLETE_RESPONSE };
@@ -84,6 +86,43 @@ describe('searchCities', () => {
       return { ok: true, json: async () => ({ error: "Sorry, can't find geonameid" }) };
     });
     await expect(searchCities('thornhill')).resolves.toEqual([]);
+  });
+
+  test('drops a candidate whose geo lookup 404s (invalid geonameid)', async () => {
+    // Real behavior probed 2026-07-02: /geo returns HTTP 404 with a JSON
+    // error body for an unknown geonameid.
+    mockFetchByUrl((url) => {
+      if (url.includes('complete.php')) {
+        return { ok: true, json: async () => COMPLETE_RESPONSE };
+      }
+      return { ok: false, json: async () => ({ error: "Sorry, can't find geonameid: 6165682" }) };
+    });
+    await expect(searchCities('thornhill')).resolves.toEqual([]);
+  });
+
+  test('keeps successfully resolved candidates when one geo lookup fails', async () => {
+    const THREE_HITS = [
+      { id: 111, value: 'Alpha, Country A' },
+      { id: 222, value: 'Beta, Country B' },
+      { id: 333, value: 'Gamma, Country C' },
+    ];
+    const geoFor: Record<string, unknown> = {
+      '111': { latitude: 1, longitude: 10, timeZoneId: 'Zone/Alpha', locationName: 'Alpha, Country A' },
+      '333': { latitude: 3, longitude: 30, timeZoneId: 'Zone/Gamma', locationName: 'Gamma, Country C' },
+    };
+    mockFetchByUrl((url) => {
+      if (url.includes('complete.php')) {
+        return { ok: true, json: async () => THREE_HITS };
+      }
+      const id = url.split('geonameid=')[1];
+      if (id === '222') return { ok: false, json: async () => ({ error: 'Not Found' }) };
+      return { ok: true, json: async () => geoFor[id] };
+    });
+
+    await expect(searchCities('multi')).resolves.toEqual([
+      { latitude: 1, longitude: 10, tzid: 'Zone/Alpha', label: 'Alpha, Country A' },
+      { latitude: 3, longitude: 30, tzid: 'Zone/Gamma', label: 'Gamma, Country C' },
+    ]);
   });
 
   test('returns [] when complete.php responds not-ok', async () => {
