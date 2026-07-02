@@ -59,7 +59,7 @@ function lastMonthOfHebrewYear(year: number): number {
   return isHebrewLeapYear(year) ? 13 : 12;
 }
 
-function lastDayOfHebrewMonth(year: number, month: number): number {
+export function lastDayOfHebrewMonth(year: number, month: number): number {
   if (month === 2 || month === 4 || month === 6 || month === 10 || month === 13) return 29;
   if (month === 12 && !isHebrewLeapYear(year)) return 29;
   if (month === 8 && daysInHebrewYear(year) % 10 !== 5) return 29; // regular/deficient Cheshvan
