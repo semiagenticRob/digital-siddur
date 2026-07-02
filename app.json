@@ -36,6 +36,13 @@
           "imageWidth": 200,
           "backgroundColor": "#F6F2E9"
         }
+      ],
+      "expo-localization",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Your location is used only to calculate accurate halachic times (zmanim) for where you are."
+        }
       ]
     ],
     "extra": {
