@@ -3,10 +3,9 @@ import { View, Text, Pressable, StyleSheet, ScrollView, Modal } from 'react-nati
 import { useAppendixStore } from '../store/appendix';
 import { getAppendix } from '../content/appendices';
 import { usePreferencesStore } from '../store/preferences';
-import { ColorPalette } from '../theme/colors';
 import { useThemeColors } from '../theme/useThemeColors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../theme/typography';
-import { RichText } from './RichText';
+import { ProseSegments } from './ProseSegments';
 
 export function AppendixModal() {
   const openNumber = useAppendixStore((s) => s.openNumber);
@@ -16,7 +15,7 @@ export function AppendixModal() {
   const { colors } = useThemeColors();
 
   const appendix = openNumber != null ? getAppendix(openNumber) : null;
-  const s = makeStyles(colors, hebrewFontSize(fontStep), englishFontSize(fontStep));
+  const s = makeStyles(englishFontSize(fontStep));
 
   return (
     <Modal visible={openNumber != null} animationType="slide" onRequestClose={close} transparent={false}>
@@ -41,39 +40,12 @@ export function AppendixModal() {
         ) : (
           <ScrollView contentContainerStyle={s.body} showsVerticalScrollIndicator={false}>
             <Text style={[s.title, { color: colors.ink }]}>{appendix.title}</Text>
-            {appendix.segments.map((seg, i) => {
-              if (seg.type === 'header') {
-                return (
-                  <Text key={i} style={[s.subhead, { color: colors.accent }]}>
-                    {seg.enText || seg.heText}
-                  </Text>
-                );
-              }
-              if (seg.type === 'rubric') {
-                return (
-                  <Text key={i} style={[s.rubric, { color: colors.muted }]}>
-                    {seg.enText || seg.heText}
-                  </Text>
-                );
-              }
-              if (seg.type === 'prayer') {
-                return (
-                  <Text key={i} style={[s.he, { color: colors.ink }]} selectable accessibilityLanguage="he">{seg.heText}</Text>
-                );
-              }
-              // commentary / insight prose
-              return (
-                <RichText
-                  key={i}
-                  text={seg.enText ?? ''}
-                  style={[s.prose, { color: colors.ink }]}
-                  italicStyle={s.italic}
-                  boldStyle={s.bold}
-                  linkStyle={s.link}
-                  selectable
-                />
-              );
-            })}
+            <ProseSegments
+              segments={appendix.segments}
+              heSize={hebrewFontSize(fontStep)}
+              enSize={englishFontSize(fontStep)}
+              colors={colors}
+            />
           </ScrollView>
         )}
       </View>
@@ -81,7 +53,7 @@ export function AppendixModal() {
   );
 }
 
-function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
+function makeStyles(enSize: number) {
   return StyleSheet.create({
     screen: { flex: 1 },
     header: {
@@ -94,18 +66,5 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     empty: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 32 },
     body: { padding: 22, paddingBottom: 80 },
     title: { fontFamily: Fonts.englishBold, fontSize: enSize * 1.5, lineHeight: enSize * 1.9, marginBottom: 16 },
-    subhead: {
-      fontFamily: Fonts.uiSemiBold, fontSize: enSize * 0.85, letterSpacing: 1,
-      textTransform: 'uppercase' as const, marginTop: 18, marginBottom: 6,
-    },
-    rubric: { fontFamily: Fonts.englishItalic, fontSize: enSize * 0.9, marginTop: 8, marginBottom: 4 },
-    he: {
-      fontFamily: Fonts.hebrew, fontSize: heSize, lineHeight: heSize * 1.9,
-      textAlign: 'right' as const, writingDirection: 'rtl' as const, marginVertical: 8,
-    },
-    prose: { fontFamily: Fonts.english, fontSize: enSize, lineHeight: enSize * 1.62, marginBottom: 12 },
-    italic: { fontFamily: Fonts.englishItalic, fontStyle: 'italic' as const },
-    bold: { fontFamily: Fonts.englishBold, fontWeight: '600' as const },
-    link: { color: c.accent, textDecorationLine: 'underline' as const, fontFamily: Fonts.uiSemiBold },
   });
 }
