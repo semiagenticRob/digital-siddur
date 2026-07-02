@@ -1,17 +1,14 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet, FlatList, SafeAreaView, useColorScheme } from 'react-native';
+import { View, Text, Pressable, StyleSheet, FlatList, SafeAreaView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { router } from 'expo-router';
 import { listServices } from '../../src/content/loader';
-import { usePreferencesStore } from '../../src/store/preferences';
-import { LightColors, DarkColors, ColorPalette } from '../../src/theme/colors';
+import { ColorPalette } from '../../src/theme/colors';
+import { useThemeColors } from '../../src/theme/useThemeColors';
 import { Fonts } from '../../src/theme/typography';
 
 export default function DavenHome() {
-  const { theme } = usePreferencesStore();
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors: ColorPalette = isDark ? DarkColors : LightColors;
+  const { colors } = useThemeColors();
   const services = listServices();
   const s = makeStyles(colors);
 
@@ -20,14 +17,24 @@ export default function DavenHome() {
       <SafeAreaView style={s.safe}>
         <View style={s.headerRow}>
           <Text style={[s.title, { color: colors.ink }]}>Daven</Text>
-          <Pressable
-            onPress={() => router.push('/settings')}
-            accessibilityRole="button"
-            accessibilityLabel="Open settings"
-            style={s.settingsBtn}
-          >
-            <Ionicons name="settings-outline" size={22} color={colors.muted} />
-          </Pressable>
+          <View style={s.headerActions}>
+            <Pressable
+              onPress={() => router.push('/notes')}
+              accessibilityRole="button"
+              accessibilityLabel="Open notes and highlights"
+              style={s.settingsBtn}
+            >
+              <Ionicons name="bookmark-outline" size={22} color={colors.muted} />
+            </Pressable>
+            <Pressable
+              onPress={() => router.push('/settings')}
+              accessibilityRole="button"
+              accessibilityLabel="Open settings"
+              style={s.settingsBtn}
+            >
+              <Ionicons name="settings-outline" size={22} color={colors.muted} />
+            </Pressable>
+          </View>
         </View>
         <FlatList
           data={services}
@@ -67,6 +74,7 @@ function makeStyles(colors: ColorPalette) {
       fontSize: 28,
     },
     settingsBtn: { padding: 8 },
+    headerActions: { flexDirection: 'row', alignItems: 'center' },
     list: { paddingHorizontal: 16, gap: 8, paddingBottom: 40 },
     row: {
       flexDirection: 'row',

@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet, ScrollView, Modal, useColorScheme } from 'react-native';
+import { View, Text, Pressable, StyleSheet, ScrollView, Modal } from 'react-native';
 import { useSectionModalStore } from '../store/sectionModal';
 import { getSection } from '../content/sections';
 import { usePreferencesStore } from '../store/preferences';
-import { LightColors, DarkColors, ColorPalette } from '../theme/colors';
+import { ColorPalette } from '../theme/colors';
+import { useThemeColors } from '../theme/useThemeColors';
 import { Fonts, englishFontSize } from '../theme/typography';
 import { RichText } from './RichText';
 
@@ -11,10 +12,8 @@ export function SectionModal() {
   const openKey = useSectionModalStore((s) => s.openKey);
   const close = useSectionModalStore((s) => s.close);
 
-  const { theme, fontStep } = usePreferencesStore();
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors: ColorPalette = (isDark ? DarkColors : LightColors) as ColorPalette;
+  const { fontStep } = usePreferencesStore();
+  const { colors } = useThemeColors();
 
   const section = openKey != null ? getSection(openKey) : null;
   const enSize = englishFontSize(fontStep);

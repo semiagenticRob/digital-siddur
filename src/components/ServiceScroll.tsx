@@ -4,56 +4,14 @@ import { FlashList, FlashListRef } from '@shopify/flash-list';
 import { Service, Segment } from '../content/types';
 import { DisplayMode } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
-import { Fonts } from '../theme/typography';
+import { Fonts, MAX_FONT_SCALE } from '../theme/typography';
 import { CONTENT_WIDTH, LIST_HORIZONTAL_PAD } from '../theme/layout';
 import { SegmentRenderer } from './SegmentRenderer';
-
-type ListItem =
-  | { kind: 'prayerHeader'; prayerId: string; heTitle: string; enTitle: string; groupTitle: string }
-  | { kind: 'segment'; segment: Segment; prayerId: string }
-  | { kind: 'optionalSegment'; segment: Segment; prayerId: string; pos: 'solo' | 'start' | 'mid' | 'end' };
-
-function flattenService(service: Service): ListItem[] {
-  const items: ListItem[] = [];
-  for (const group of service.groups) {
-    for (const prayer of group.prayers) {
-      items.push({
-        kind: 'prayerHeader',
-        prayerId: prayer.id,
-        heTitle: prayer.heTitle,
-        enTitle: prayer.enTitle,
-        groupTitle: group.title,
-      });
-      // Contiguous runs of optional segments each become their own FlashList item
-      // so FlashList measures each one independently (avoids 200px estimate clipping
-      // tall groups). Position flag drives the border/radius style so they look like
-      // one connected box.
-      const segs = prayer.segments;
-      let i = 0;
-      while (i < segs.length) {
-        if (segs[i].optional) {
-          const run: Segment[] = [];
-          while (i < segs.length && segs[i].optional) run.push(segs[i++]);
-          run.forEach((seg, idx) => {
-            const pos: 'solo' | 'start' | 'mid' | 'end' =
-              run.length === 1 ? 'solo'
-              : idx === 0 ? 'start'
-              : idx === run.length - 1 ? 'end'
-              : 'mid';
-            items.push({ kind: 'optionalSegment', segment: seg, prayerId: prayer.id, pos });
-          });
-        } else {
-          items.push({ kind: 'segment', segment: segs[i], prayerId: prayer.id });
-          i++;
-        }
-      }
-    }
-  }
-  return items;
-}
+import { flattenService, ListItem } from './flattenService';
 
 export interface ServiceScrollHandle {
   scrollToPrayer: (prayerId: string) => void;
+  scrollToOffset: (offset: number, animated?: boolean) => void;
 }
 
 interface Props {
@@ -65,12 +23,19 @@ interface Props {
   getNotes: (segmentId: string) => string[];
   onToggleHighlight: (segmentId: string) => void;
   onAddNote: (segmentId: string, text: string) => void;
+  // Fires once when the list has completed its first layout — the earliest
+  // moment scrollToPrayer/scrollToOffset are reliable (replaces the old
+  // fixed-delay guess in the reader screen).
+  onReady?: () => void;
+  // Fires when a scroll gesture settles (drag end / momentum end) with the
+  // current offset — used to persist the reading position.
+  onScrollSettled?: (offset: number) => void;
 }
 
 export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
-  ({ service, displayMode, fontStep, colors, isHighlighted, getNotes, onToggleHighlight, onAddNote }, ref) => {
+  ({ service, displayMode, fontStep, colors, isHighlighted, getNotes, onToggleHighlight, onAddNote, onReady, onScrollSettled }, ref) => {
     const listRef = useRef<FlashListRef<ListItem>>(null);
-    const items = useMemo(() => flattenService(service), [service]);
+    const items = useMemo(() => flattenService(service, displayMode), [service, displayMode]);
 
     useImperativeHandle(ref, () => ({
       scrollToPrayer: (prayerId: string) => {
@@ -81,7 +46,15 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
           listRef.current?.scrollToIndex({ index: idx, animated: true });
         }
       },
+      scrollToOffset: (offset: number, animated = false) => {
+        listRef.current?.scrollToOffset({ offset, animated });
+      },
     }), [items]);
+
+    const settle = onScrollSettled
+      ? (e: { nativeEvent: { contentOffset: { y: number } } }) =>
+          onScrollSettled(e.nativeEvent.contentOffset.y)
+      : undefined;
 
     const s = useMemo(() => makeStyles(colors), [colors]);
     const optionalBoxStyle = {
@@ -124,9 +97,9 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
           if (item.kind === 'prayerHeader') {
             inner = (
               <View style={s.prayerHeader}>
-                <Text style={s.prayerHeTitle}>{item.heTitle}</Text>
+                <Text style={s.prayerHeTitle} maxFontSizeMultiplier={MAX_FONT_SCALE} accessibilityLanguage="he">{item.heTitle}</Text>
                 <View style={s.prayerHeaderLine} />
-                <Text style={s.prayerEnTitle}>{item.enTitle}</Text>
+                <Text style={s.prayerEnTitle} maxFontSizeMultiplier={MAX_FONT_SCALE}>{item.enTitle}</Text>
               </View>
             );
           } else if (item.kind === 'optionalSegment') {
@@ -151,6 +124,9 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
         // transient mid-measurement state where a long RTL prayer line briefly
         // breaks mid-word at a wrap boundary before reflowing correctly.
         drawDistance={1000}
+        onLoad={onReady ? () => onReady() : undefined}
+        onScrollEndDrag={settle}
+        onMomentumScrollEnd={settle}
       />
     );
   }

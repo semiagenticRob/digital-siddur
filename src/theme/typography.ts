@@ -10,6 +10,11 @@ export const Fonts = {
   uiSemiBold: 'Inter_600SemiBold',
 } as const;
 
+// Cap OS Dynamic-Type compounding on top of the in-app fontStep — unbounded
+// system scaling breaks the reading layouts (worst on single-line display
+// verses). 1.4 honors a large accessibility setting without wrecking layout.
+export const MAX_FONT_SCALE = 1.4;
+
 export const BASE_HE_SIZE = 24.15; // 21 × 1.15 — Hebrew default 15% larger
 export const BASE_EN_SIZE = 15.5;
 export const FONT_STEP_SCALE = 0.12;

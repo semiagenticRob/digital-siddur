@@ -1,6 +1,6 @@
 import { Stack } from 'expo-router';
 import { useFonts } from 'expo-font';
-import { useColorScheme, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 import {
   FrankRuhlLibre_400Regular,
   FrankRuhlLibre_500Medium,
@@ -19,8 +19,7 @@ import {
 } from '@expo-google-fonts/inter';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
-import { usePreferencesStore } from '../src/store/preferences';
-import { DarkColors, LightColors } from '../src/theme/colors';
+import { useThemeColors } from '../src/theme/useThemeColors';
 import { AppendixModal } from '../src/components/AppendixModal';
 import { SectionModal } from '../src/components/SectionModal';
 
@@ -40,10 +39,7 @@ export default function RootLayout() {
     Inter_600SemiBold,
   });
 
-  const { theme } = usePreferencesStore();
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors = isDark ? DarkColors : LightColors;
+  const { colors, isDark } = useThemeColors();
 
   useEffect(() => {
     if (loaded || error) SplashScreen.hideAsync();

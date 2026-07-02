@@ -33,6 +33,8 @@ SEVERITY = {
     'commentary looks like a bridge (→ section_intro?)':  'warn',
     'prayer.enText (never renders)':                      'error',
     'heText in a render-enText type (never renders)':     'warn',
+    'heParts concat ≠ heText (spans must recompose heText)': 'error',
+    'heParts on a non-prayer segment (never renders)':    'error',
 }
 
 findings = defaultdict(list)
@@ -68,6 +70,14 @@ def lint_segments(segs, where):
                 findings['prayer.enText (never renders)'].append(loc)
             if not he.strip():
                 findings['prayer.heText empty'].append(loc)
+
+        # heParts: prayer-only span markup; concatenation must equal heText
+        # (heText stays canonical — renderer draws heParts when present).
+        if s.get('heParts'):
+            if t != 'prayer':
+                findings['heParts on a non-prayer segment (never renders)'].append(loc)
+            elif ''.join(p.get('text', '') for p in s['heParts']) != he:
+                findings['heParts concat ≠ heText (spans must recompose heText)'].append(loc)
 
         # rubric.heText draws as plain <Text> (so '*' shows literally); rubric.enText
         # draws via RichText (markdown + section:/prayer:/Appendix links), like commentary.

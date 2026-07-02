@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal } from 'react-native';
 import { Segment } from '../content/types';
-import { DisplayMode } from '../store/preferences';
+import { DisplayMode, usePreferencesStore } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
-import { Fonts, hebrewFontSize, englishFontSize } from '../theme/typography';
+import { Fonts, hebrewFontSize, englishFontSize, MAX_FONT_SCALE } from '../theme/typography';
 // CONTENT_WIDTH is the list's visible content width, applied as a maxWidth clamp
 // on the English text blocks. The clamp is the load-bearing constraint: inside a
 // FlashList cell that can size to its own content, a short commentary leading
@@ -27,7 +27,11 @@ export function SegmentRenderer({
   segment, displayMode, fontStep, colors,
   isHighlighted, notes, onToggleHighlight, onAddNote,
 }: Props) {
-  const [showInsight, setShowInsight] = useState(false);
+  // Beginners get the teaching layer open by default; comfortable/fluent
+  // readers start with the collapsibles closed (comfortLevel is set during
+  // onboarding and adjustable in Settings).
+  const comfortLevel = usePreferencesStore((s) => s.comfortLevel);
+  const [showInsight, setShowInsight] = useState(comfortLevel === 'beginner');
   const [noteModalVisible, setNoteModalVisible] = useState(false);
   const [noteText, setNoteText] = useState('');
   const [selectionVisible, setSelectionVisible] = useState(false);
@@ -53,8 +57,8 @@ export function SegmentRenderer({
     const enFirst = segment.enTop || segment.enPrimary;
     const heStyle = segment.plain ? s.headerHePlain : segment.enPrimary ? s.headerHeSub : s.headerHe;
     const enStyle = segment.plain ? s.headerEnPlain : segment.enPrimary ? s.headerEnPrimary : s.headerEn;
-    const en = segment.enText && displayMode !== 'he' && <Text style={enStyle}>{segment.enText}</Text>;
-    const he = segment.heText && displayMode !== 'en' && <Text style={heStyle}>{segment.heText}</Text>;
+    const en = segment.enText && displayMode !== 'he' && <Text style={enStyle} maxFontSizeMultiplier={MAX_FONT_SCALE}>{segment.enText}</Text>;
+    const he = segment.heText && displayMode !== 'en' && <Text style={heStyle} maxFontSizeMultiplier={MAX_FONT_SCALE} accessibilityLanguage="he">{segment.heText}</Text>;
     return (
       <View style={s.headerBlock}>
         {enFirst ? <>{en}{he}</> : <>{he}{en}</>}
@@ -75,6 +79,7 @@ export function SegmentRenderer({
         italicStyle={s.italicSpan}
         boldStyle={s.boldSpan}
         linkStyle={s.linkSpan}
+        selectable
       />
     );
   }
@@ -84,7 +89,7 @@ export function SegmentRenderer({
     if (displayMode === 'he') return null;
     return (
       <View style={s.transitionWrap}>
-        <Text style={s.transitionText}>{segment.enText}</Text>
+        <Text style={s.transitionText} maxFontSizeMultiplier={MAX_FONT_SCALE}>{segment.enText}</Text>
         <View style={s.transitionGlow} />
       </View>
     );
@@ -100,14 +105,15 @@ export function SegmentRenderer({
           onPress={() => setShowInsight(v => !v)}
           accessibilityRole="button"
           accessibilityLabel={showInsight ? 'Hide FAQ' : 'Show FAQ'}
+          accessibilityState={{ expanded: showInsight }}
         >
-          <Text style={s.faqToggleText}>
+          <Text style={s.faqToggleText} maxFontSizeMultiplier={MAX_FONT_SCALE}>
             {showInsight ? '▲ Hide FAQ' : 'FAQ'}
           </Text>
         </Pressable>
         {showInsight && (
           <View style={s.faqBody}>
-            <RichText text={segment.enText ?? ''} style={s.faqText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} />
+            <RichText text={segment.enText ?? ''} style={s.faqText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} selectable />
           </View>
         )}
       </View>
@@ -115,7 +121,10 @@ export function SegmentRenderer({
   }
 
   // Rubric — bilingual (both fields set): heText in he/both, enText in en.
-  // Single-field: Hebrew rubric hides in English-only; English rubric hides in Hebrew-only.
+  // Single-field: a Hebrew-only rubric hides in English-only mode (the prayer it
+  // governs is hidden there too); an English-only rubric shows in EVERY mode —
+  // the print never hides its instructions ("For men:", "Omit on Rosh Chodesh…"),
+  // and a Hebrew-only davener needs them most. Keep in sync with isSegmentVisible.
   if (segment.type === 'rubric') {
     if (segment.heText && segment.enText) {
       if (displayMode === 'en') {
@@ -127,11 +136,10 @@ export function SegmentRenderer({
           />
         );
       }
-      return <Text style={s.rubricHe}>{segment.heText}</Text>;
+      return <Text style={s.rubricHe} maxFontSizeMultiplier={MAX_FONT_SCALE} accessibilityLanguage="he">{segment.heText}</Text>;
     }
     if (segment.heText && displayMode === 'en') return null;
-    if (segment.enText && displayMode === 'he') return null;
-    if (segment.heText) return <Text style={s.rubricHe}>{segment.heText}</Text>;
+    if (segment.heText) return <Text style={s.rubricHe} maxFontSizeMultiplier={MAX_FONT_SCALE} accessibilityLanguage="he">{segment.heText}</Text>;
     return (
       <RichText
         text={segment.enText ?? ''}
@@ -146,8 +154,8 @@ export function SegmentRenderer({
     if (displayMode === 'he') return null;
     return (
       <View style={s.commentaryBlock}>
-        <Text style={s.commentaryTag}>EXPLANATION</Text>
-        <RichText text={segment.enText ?? ''} style={s.commentaryText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} />
+        <Text style={s.commentaryTag} maxFontSizeMultiplier={MAX_FONT_SCALE}>EXPLANATION</Text>
+        <RichText text={segment.enText ?? ''} style={s.commentaryText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} selectable />
       </View>
     );
   }
@@ -162,14 +170,15 @@ export function SegmentRenderer({
           onPress={() => setShowInsight(v => !v)}
           accessibilityRole="button"
           accessibilityLabel={showInsight ? 'Hide quick insight' : 'Show quick insight'}
+          accessibilityState={{ expanded: showInsight }}
         >
-          <Text style={s.insightToggleText}>
+          <Text style={s.insightToggleText} maxFontSizeMultiplier={MAX_FONT_SCALE}>
             {showInsight ? '▲ Hide insight' : 'Insight'}
           </Text>
         </Pressable>
         {showInsight && (
           <View style={s.insightBody}>
-            <RichText text={segment.enText ?? ''} style={s.insightText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} />
+            <RichText text={segment.enText ?? ''} style={s.insightText} italicStyle={s.italicSpan} boldStyle={s.boldSpan} linkStyle={s.linkSpan} selectable />
           </View>
         )}
       </View>
@@ -186,18 +195,36 @@ export function SegmentRenderer({
         onPress={() => setSelectionVisible(v => !v)}
         accessibilityRole="text"
         accessibilityLabel={segment.heText}
+        accessibilityLanguage="he"
       >
         {segment.inlineRubric ? (
+          // numberOfLines={1} + shrink-to-fit: cap system scaling harder here —
+          // extra Dynamic-Type growth just forces the whole line smaller.
           <Text
             style={s.heTextDisplayInline}
             adjustsFontSizeToFit
             numberOfLines={1}
+            maxFontSizeMultiplier={1.2}
           >
             <Text style={s.inlineRubricHe}>{segment.inlineRubric} </Text>
             {segment.heText}
           </Text>
+        ) : segment.heParts ? (
+          // heText split into spans; `small` spans (speaker tags, conditional
+          // parentheticals) render at rubric size inside the line and wrap
+          // normally with it — the small text must not inherit a display
+          // verse's enlargement (the print keeps it small inside the line).
+          <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText} maxFontSizeMultiplier={MAX_FONT_SCALE}>
+            {segment.heParts.map((part, i) =>
+              part.small ? (
+                <Text key={i} style={s.inlineRubricHe}>{part.text}</Text>
+              ) : (
+                part.text
+              )
+            )}
+          </Text>
         ) : (
-          <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText}>{segment.heText}</Text>
+          <Text style={segment.display ? s.heTextDisplay : segment.center ? s.heTextCenter : s.heText} maxFontSizeMultiplier={MAX_FONT_SCALE}>{segment.heText}</Text>
         )}
       </Pressable>
 
@@ -287,7 +314,9 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     heText: {
       fontFamily: Fonts.hebrew,
       fontSize: heSize,
-      lineHeight: heSize * 1.5,
+      // 1.72: Frank Ruhl Libre carries nikud below the baseline; 1.5 crowds
+      // consecutive lines (every other Hebrew surface in the app uses ~1.9).
+      lineHeight: heSize * 1.72,
       color: c.ink,
       textAlign: 'right',
       writingDirection: 'rtl' as const,
@@ -297,7 +326,7 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       // (e.g. the Amidah's opening אֲדֹנָי שְׂפָתַי under "Opening Statement")
       fontFamily: Fonts.hebrew,
       fontSize: heSize,
-      lineHeight: heSize * 1.5,
+      lineHeight: heSize * 1.72,
       color: c.ink,
       textAlign: 'center',
       writingDirection: 'rtl' as const,

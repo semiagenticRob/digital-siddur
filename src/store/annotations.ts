@@ -9,6 +9,7 @@ interface AnnotationsState {
   isHighlighted: (segmentId: string) => boolean;
   addNote: (segmentId: string, text: string) => void;
   getNotes: (segmentId: string) => string[];
+  removeNote: (segmentId: string, index: number) => void;
 }
 
 export const useAnnotationsStore = create<AnnotationsState>()(
@@ -28,6 +29,14 @@ export const useAnnotationsStore = create<AnnotationsState>()(
           notes: { ...s.notes, [id]: [...(s.notes[id] ?? []), text] },
         })),
       getNotes: (id) => get().notes[id] ?? [],
+      removeNote: (id, index) =>
+        set((s) => {
+          const remaining = (s.notes[id] ?? []).filter((_, i) => i !== index);
+          const notes = { ...s.notes };
+          if (remaining.length) notes[id] = remaining;
+          else delete notes[id];
+          return { notes };
+        }),
     }),
     {
       name: 'siddur-annotations',

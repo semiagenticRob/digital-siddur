@@ -3,7 +3,7 @@ import { persist, createJSONStorage } from 'zustand/middleware';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export type DisplayMode = 'he' | 'both' | 'en';
-export type Theme = 'light' | 'dark' | 'auto';
+export type Theme = 'light' | 'sepia' | 'dark' | 'auto';
 export type ComfortLevel = 'beginner' | 'comfortable' | 'fluent';
 
 interface PreferencesState {
@@ -11,11 +11,13 @@ interface PreferencesState {
   theme: Theme;
   fontStep: number;
   comfortLevel: ComfortLevel;
+  keepAwake: boolean;
   hasCompletedOnboarding: boolean;
   setDisplayMode: (mode: DisplayMode) => void;
   setTheme: (theme: Theme) => void;
   bumpFontStep: (delta: number) => void;
   setComfortLevel: (level: ComfortLevel) => void;
+  setKeepAwake: (on: boolean) => void;
   completeOnboarding: () => void;
   resetOnboarding: () => void;
 }
@@ -27,12 +29,14 @@ export const usePreferencesStore = create<PreferencesState>()(
       theme: 'auto',
       fontStep: 0,
       comfortLevel: 'comfortable',
+      keepAwake: true,
       hasCompletedOnboarding: false,
       setDisplayMode: (mode) => set({ displayMode: mode }),
       setTheme: (theme) => set({ theme }),
       bumpFontStep: (delta) =>
         set((s) => ({ fontStep: Math.max(-2, Math.min(4, s.fontStep + delta)) })),
       setComfortLevel: (level) => set({ comfortLevel: level }),
+      setKeepAwake: (on) => set({ keepAwake: on }),
       completeOnboarding: () => set({ hasCompletedOnboarding: true }),
       resetOnboarding: () => set({ hasCompletedOnboarding: false }),
     }),

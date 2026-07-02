@@ -29,6 +29,12 @@ export interface Segment {
   inlineRubric?: string; // prayer only: small rubric text rendered inline (smaller, italic) on the
                          // same centered line before the main heText — matches the print's layout
                          // where a chazzan cue sits inline at smaller size on the same line
+  heParts?: Array<{ text: string; small?: boolean }>;
+                       // prayer only: heText split into ordered spans; `small: true` spans render
+                       // at rubric size INSIDE the line (inline speaker tags like חזן: / קו״ח:, and
+                       // conditional parentheticals the print keeps small inside a line, e.g. the
+                       // AYT (בעשי״ת הַמֶּלֶךְ) inside a chasimah). The concatenation of all span
+                       // texts MUST equal heText exactly (lint-enforced) — heText stays canonical.
 }
 
 export interface Prayer {

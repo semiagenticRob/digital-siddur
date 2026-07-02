@@ -45,14 +45,14 @@ The critical, non-obvious rule: **each segment `type` renders only some of its f
 
 | type | renders | invisible field |
 |---|---|---|
-| `prayer` | `heText` only (Hebrew, RTL) | `enText` |
+| `prayer` | `heText` only (Hebrew, RTL); `heParts` spans (concat must equal `heText`) render `small` spans at rubric size inside the line — speaker tags, small conditional parentheticals | `enText` |
 | `commentary` / `insight` / `faq` | `enText` only (RichText markdown) | **`heText`** |
 | `section_intro` / `transition` | `enText`, centered | `heText` |
-| `rubric` | `heText` plain text (`*` literal) in he/both; else `enText` via **RichText** (markdown + links) in en | the other field |
+| `rubric` | `heText` plain text (`*` literal) in he/both; else `enText` via **RichText** (markdown + links) in en; an English-only rubric shows in **every** mode (instructions never hide) | the other field |
 | `header` | `heText` and/or `enText` | — |
 
 Header order and display verses are **per-PDF, never a blanket default**:
-- **`display: true`** (prayer only) → oversized & centered, enlarging the *whole* segment. Used for verses the print sets large+centered (Kedushah climaxes; the chasimos of the six framework Amidah brachos). To enlarge only a closing chasimah inside a longer prayer, **split the segment** so the chasimah is its own `display` prayer — `display` can't keep a small inline label/parenthetical small (a known renderer limit; same reason inline Kedushah speaker-tags can't sit on a display verse).
+- **`display: true`** (prayer only) → oversized & centered, enlarging the *whole* segment. Used for verses the print sets large+centered (Kedushah climaxes; the chasimos of the six framework Amidah brachos). To enlarge only a closing chasimah inside a longer prayer, **split the segment** so the chasimah is its own `display` prayer. To keep a small inline label/parenthetical small *inside* a line (display or normal), use `heParts` `small` spans (this is how the Kedushah speaker-tags and the AYT chasimah parentheticals are done).
 - Headers default **Hebrew-on-top** (the print's majority). **`enTop`** = English-on-top, set ONLY where the PDF prints the English first — **verify each at its TOC page**, there is no derivable rule (catchy English titles like "OUR REQUESTS" / "My Body Works!" are English-first; formal-Hebrew-name sections like שֵׁשׁ זְכִירוֹת / לְדָוִד ה׳ are Hebrew-first with the English as a *subtitle*). `enPrimary` = big English title over a small Hebrew name-list.
 
 So: cited Hebrew lemmas go **inline at the start of `commentary.enText`** (bold, em-dash separated: `**לֶמָּא**—gloss`), never in `commentary.heText`. Parentheticals are italic. Connective/bridge lines are `section_intro` (centered), not boxed `commentary`. **Derive Hebrew by slicing existing strings — never retype it** (retyping drops nikud/letters).

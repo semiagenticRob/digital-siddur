@@ -1,14 +1,18 @@
 import React, { useRef, useState, useEffect, useMemo } from 'react';
-import { View, Text, Pressable, StyleSheet, useColorScheme, SafeAreaView } from 'react-native';
+import { View, Text, Pressable, StyleSheet, SafeAreaView } from 'react-native';
 import { useLocalSearchParams, router } from 'expo-router';
+import { activateKeepAwakeAsync, deactivateKeepAwake } from 'expo-keep-awake';
 import { getService } from '../../src/content/loader';
 import { ServiceScroll, ServiceScrollHandle } from '../../src/components/ServiceScroll';
+import { ReaderContext, ReaderContextValue } from '../../src/components/ReaderContext';
 import { JumpToC } from '../../src/components/JumpToC';
 import { DisplayToggle } from '../../src/components/DisplayToggle';
 import { FontSizeControl } from '../../src/components/FontSizeControl';
 import { usePreferencesStore } from '../../src/store/preferences';
 import { useAnnotationsStore } from '../../src/store/annotations';
-import { LightColors, DarkColors, ColorPalette } from '../../src/theme/colors';
+import { useReadingPositionStore } from '../../src/store/readingPosition';
+import { ColorPalette } from '../../src/theme/colors';
+import { useThemeColors } from '../../src/theme/useThemeColors';
 import { Fonts } from '../../src/theme/typography';
 
 export default function ServiceScreen() {
@@ -17,25 +21,59 @@ export default function ServiceScreen() {
   const scrollRef = useRef<ServiceScrollHandle>(null);
   const scrolledFor = useRef<string | null>(null);
 
-  useEffect(() => {
-    if (!initialPrayer || scrolledFor.current === initialPrayer) return;
-    const t = setTimeout(() => {
+  const listReady = useRef(false);
+  const setOffset = useReadingPositionStore((s) => s.setOffset);
+  const savedOffset = useReadingPositionStore((s) => (serviceId ? s.offsets[serviceId] : undefined));
+
+  // Runs once the list has completed its first layout (ServiceScroll onReady) —
+  // the earliest point scrollTo* calls are reliable. A deep-linked prayer wins
+  // over the saved reading position.
+  const handleListReady = () => {
+    listReady.current = true;
+    if (initialPrayer && scrolledFor.current !== initialPrayer) {
       scrollRef.current?.scrollToPrayer(initialPrayer);
       scrolledFor.current = initialPrayer;
-    }, 350);
-    return () => clearTimeout(t);
+    } else if (savedOffset && savedOffset > 0) {
+      scrollRef.current?.scrollToOffset(savedOffset, false);
+    }
+  };
+
+  // A deep link can also arrive while the screen is already mounted (same-screen
+  // param change after the list is long since ready). Before first layout this
+  // is a no-op — handleListReady takes care of the initial scroll.
+  useEffect(() => {
+    if (!listReady.current || !initialPrayer || scrolledFor.current === initialPrayer) return;
+    scrollRef.current?.scrollToPrayer(initialPrayer);
+    scrolledFor.current = initialPrayer;
   }, [initialPrayer]);
 
-  const { displayMode, theme, fontStep, setDisplayMode, bumpFontStep } = usePreferencesStore();
+  const { displayMode, fontStep, keepAwake, setDisplayMode, bumpFontStep } = usePreferencesStore();
   const { isHighlighted, getNotes, toggleHighlight, addNote } = useAnnotationsStore();
 
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors: ColorPalette = (isDark ? DarkColors : LightColors) as ColorPalette;
+  // Davening happens hands-free — keep the screen on while a service is open
+  // (user-toggleable in Settings).
+  useEffect(() => {
+    if (!keepAwake) return;
+    const tag = 'siddur-reader';
+    activateKeepAwakeAsync(tag);
+    return () => {
+      deactivateKeepAwake(tag);
+    };
+  }, [keepAwake]);
+
+  const { colors } = useThemeColors();
 
   const service = getService(serviceId ?? '');
 
   const s = useMemo(() => makeStyles(colors), [colors]);
+
+  const readerCtx: ReaderContextValue = useMemo(
+    () => ({
+      serviceId: serviceId ?? '',
+      scrollToPrayer: (id: string) => scrollRef.current?.scrollToPrayer(id),
+    }),
+    [serviceId]
+  );
 
   if (!service) {
     return (
@@ -46,6 +84,7 @@ export default function ServiceScreen() {
   }
 
   return (
+    <ReaderContext.Provider value={readerCtx}>
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safeArea}>
         {/* Header */}
@@ -89,6 +128,8 @@ export default function ServiceScreen() {
           getNotes={getNotes}
           onToggleHighlight={toggleHighlight}
           onAddNote={addNote}
+          onReady={handleListReady}
+          onScrollSettled={(offset) => { if (serviceId) setOffset(serviceId, offset); }}
         />
 
         {/* Jump-ToC */}
@@ -101,6 +142,7 @@ export default function ServiceScreen() {
         />
       </SafeAreaView>
     </View>
+    </ReaderContext.Provider>
   );
 }
 

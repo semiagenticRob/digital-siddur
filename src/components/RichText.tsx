@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Text, StyleProp, TextStyle } from 'react-native';
 import { router } from 'expo-router';
 import { useAppendixStore } from '../store/appendix';
 import { useSectionModalStore } from '../store/sectionModal';
+import { ReaderContext } from './ReaderContext';
+import { MAX_FONT_SCALE } from '../theme/typography';
 
 // Wrap each maximal run of Hebrew (letters + nikkud + internal spaces/commas) in
 // Unicode directional isolates (RLI U+2067 … PDI U+2069) so inline Hebrew sits
@@ -26,6 +28,7 @@ interface Props {
   italicStyle?: StyleProp<TextStyle>;
   boldStyle?: StyleProp<TextStyle>;
   linkStyle?: StyleProp<TextStyle>;
+  selectable?: boolean;
 }
 
 // Render a leaf string: linkify "Appendix N", [text](section:key), and isolate inline Hebrew.
@@ -35,6 +38,7 @@ function renderLeaf(
   spanStyle: StyleProp<TextStyle> | undefined,
   openAppendix: (n: number) => void,
   openSection: (key: string) => void,
+  goToPrayer: (serviceId: string, prayerId: string) => void,
   linkStyle: StyleProp<TextStyle> | undefined
 ): React.ReactNode[] {
   // First split on inline links (section: and prayer:), then on Appendix references
@@ -65,7 +69,7 @@ function renderLeaf(
         <Text
           key={`${keyBase}-r${j}`}
           style={[spanStyle, linkStyle]}
-          onPress={() => router.push({ pathname: '/daven/[service]', params: { service: serviceId, initialPrayer: prayerId } })}
+          onPress={() => goToPrayer(serviceId, prayerId)}
           accessibilityRole="link"
           accessibilityLabel={`Go to ${label}`}
         >
@@ -101,20 +105,34 @@ function renderLeaf(
 
 // Renders commentary/insight/faq text with **bold**, *italic*, correct inline
 // Hebrew placement, tappable "Appendix N" links, and [label](section:key) links.
-export function RichText({ text, style, italicStyle, boldStyle, linkStyle }: Props) {
+export function RichText({ text, style, italicStyle, boldStyle, linkStyle, selectable }: Props) {
   const openAppendix = useAppendixStore((s) => s.open);
   const openSection = useSectionModalStore((s) => s.open);
+  const reader = useContext(ReaderContext);
+
+  // A prayer link whose target IS the current service scrolls in place;
+  // anything else (cross-service, or links inside the appendix/section modals)
+  // pushes the reader screen.
+  const goToPrayer = (serviceId: string, prayerId: string) => {
+    if (reader && reader.serviceId === serviceId) {
+      reader.scrollToPrayer(prayerId);
+      return;
+    }
+    router.push({ pathname: '/daven/[service]', params: { service: serviceId, initialPrayer: prayerId } });
+  };
 
   return (
-    <Text style={style}>
+    // maxFontSizeMultiplier on the root caps OS Dynamic-Type compounding for
+    // every nested span (see MAX_FONT_SCALE).
+    <Text style={style} selectable={selectable} maxFontSizeMultiplier={MAX_FONT_SCALE}>
       {text.split(SPAN_RE).flatMap((part, i) => {
         if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
-          return renderLeaf(part.slice(2, -2), `b${i}`, boldStyle, openAppendix, openSection, linkStyle);
+          return renderLeaf(part.slice(2, -2), `b${i}`, boldStyle, openAppendix, openSection, goToPrayer, linkStyle);
         }
         if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
-          return renderLeaf(part.slice(1, -1), `i${i}`, italicStyle, openAppendix, openSection, linkStyle);
+          return renderLeaf(part.slice(1, -1), `i${i}`, italicStyle, openAppendix, openSection, goToPrayer, linkStyle);
         }
-        return renderLeaf(part, `p${i}`, undefined, openAppendix, openSection, linkStyle);
+        return renderLeaf(part, `p${i}`, undefined, openAppendix, openSection, goToPrayer, linkStyle);
       })}
     </Text>
   );

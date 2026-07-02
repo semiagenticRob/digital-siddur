@@ -28,4 +28,23 @@ export const DarkColors = {
   optionalBorder: '#2A2F3C',
 } as const;
 
-export type ColorPalette = typeof LightColors | typeof DarkColors;
+// Warm print-paper palette: deeper amber ground than light, monochrome-warm
+// ink/accent so the page reads like an aged siddur rather than a blue-accented
+// screen.
+export const SepiaColors = {
+  paper: '#F3E9D2',
+  surface: '#F9F1DE',
+  ink: '#3B2F1E',
+  muted: '#7A6C52',
+  line: '#E0D3B4',
+  accent: '#7C5A21',
+  accentSoft: '#EFE3C6',
+  gold: '#C89032',
+  goldFill: 'rgba(200,144,50,0.30)',
+  rubric: '#8A6E33',
+  optionalShade: '#EBDFC2',
+  optionalBorder: '#D8C89F',
+} as const;
+
+// Mapped-string type so every palette (and future ones) is mutually assignable.
+export type ColorPalette = { [K in keyof typeof LightColors]: string };

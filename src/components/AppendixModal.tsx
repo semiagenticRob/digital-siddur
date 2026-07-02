@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Text, Pressable, StyleSheet, ScrollView, Modal, useColorScheme } from 'react-native';
+import { View, Text, Pressable, StyleSheet, ScrollView, Modal } from 'react-native';
 import { useAppendixStore } from '../store/appendix';
 import { getAppendix } from '../content/appendices';
 import { usePreferencesStore } from '../store/preferences';
-import { LightColors, DarkColors, ColorPalette } from '../theme/colors';
+import { ColorPalette } from '../theme/colors';
+import { useThemeColors } from '../theme/useThemeColors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../theme/typography';
 import { RichText } from './RichText';
 
@@ -11,10 +12,8 @@ export function AppendixModal() {
   const openNumber = useAppendixStore((s) => s.openNumber);
   const close = useAppendixStore((s) => s.close);
 
-  const { theme, fontStep } = usePreferencesStore();
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors: ColorPalette = (isDark ? DarkColors : LightColors) as ColorPalette;
+  const { fontStep } = usePreferencesStore();
+  const { colors } = useThemeColors();
 
   const appendix = openNumber != null ? getAppendix(openNumber) : null;
   const s = makeStyles(colors, hebrewFontSize(fontStep), englishFontSize(fontStep));
@@ -59,7 +58,7 @@ export function AppendixModal() {
               }
               if (seg.type === 'prayer') {
                 return (
-                  <Text key={i} style={[s.he, { color: colors.ink }]}>{seg.heText}</Text>
+                  <Text key={i} style={[s.he, { color: colors.ink }]} selectable accessibilityLanguage="he">{seg.heText}</Text>
                 );
               }
               // commentary / insight prose
@@ -71,6 +70,7 @@ export function AppendixModal() {
                   italicStyle={s.italic}
                   boldStyle={s.bold}
                   linkStyle={s.link}
+                  selectable
                 />
               );
             })}

@@ -2876,8 +2876,17 @@
             {
               "id": "se1-prayer-kadosh",
               "type": "prayer",
-              "heText": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:",
-              "display": true
+              "heText": "קו״ח: קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:",
+              "display": true,
+              "heParts": [
+                {
+                  "text": "קו״ח: ",
+                  "small": true
+                },
+                {
+                  "text": "קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת, מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-kadosh",
@@ -2885,14 +2894,18 @@
               "enText": "**קָדוֹשׁ קָדוֹשׁ קָדוֹשׁ יְהֹוָה צְבָאוֹת**—The sanctity of Hashem can be felt in **all** worlds, from the very highest world of angels down to the very lowest world, our material world; **מְלֹא כָל הָאָרֶץ כְּבוֹדוֹ**—His Presence can be felt everywhere *(though it requires effort and diligence in order to tap into it through Torah and mitzvos)*."
             },
             {
-              "id": "se1-rubric-chazan-leumasam",
-              "type": "rubric",
-              "heText": "חזן:"
-            },
-            {
               "id": "se1-prayer-leumasam",
               "type": "prayer",
-              "heText": "לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ:"
+              "heText": "חזן: לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ:",
+              "heParts": [
+                {
+                  "text": "חזן: ",
+                  "small": true
+                },
+                {
+                  "text": "לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-leumasam",
@@ -2900,15 +2913,19 @@
               "enText": "**לְעֻמָּתָם בָּרוּךְ יֹאמֵרוּ**—Correspondingly, other angels offer praise and declare *(as we do now also):*"
             },
             {
-              "id": "se1-rubric-kahal-baruch-kvod",
-              "type": "rubric",
-              "heText": "קר״ח:"
-            },
-            {
               "id": "se1-prayer-baruch-kvod",
               "type": "prayer",
-              "heText": "בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:",
-              "display": true
+              "heText": "קו״ח: בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:",
+              "display": true,
+              "heParts": [
+                {
+                  "text": "קו״ח: ",
+                  "small": true
+                },
+                {
+                  "text": "בָּרוּךְ כְּבוֹד יְהֹוָה מִמְּקוֹמוֹ:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-baruch-kvod",
@@ -2916,14 +2933,18 @@
               "enText": "**בָּרוּךְ כְּבוֹד יְהֹוָה**—The essence of Hashem is completely beyond us *(even the highest angels)*; it is **מִמְּקוֹמוֹ**—from His place *(up there, it all makes sense!)*."
             },
             {
-              "id": "se1-rubric-chazan-uvdivrei",
-              "type": "rubric",
-              "heText": "חזן:"
-            },
-            {
               "id": "se1-prayer-uvdivrei",
               "type": "prayer",
-              "heText": "וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:"
+              "heText": "חזן: וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:",
+              "heParts": [
+                {
+                  "text": "חזן: ",
+                  "small": true
+                },
+                {
+                  "text": "וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-uvdivrei",
@@ -2931,15 +2952,19 @@
               "enText": "**וּבְדִבְרֵי קָדְשְׁךָ כָּתוּב לֵאמֹר**—In addition, it is written in Your holy words:"
             },
             {
-              "id": "se1-rubric-kahal-yimloch",
-              "type": "rubric",
-              "heText": "קר״ח:"
-            },
-            {
               "id": "se1-prayer-yimloch",
               "type": "prayer",
-              "heText": "יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:",
-              "display": true
+              "heText": "קו״ח: יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:",
+              "display": true,
+              "heParts": [
+                {
+                  "text": "קו״ח: ",
+                  "small": true
+                },
+                {
+                  "text": "יִמְלֹךְ יְהֹוָה לְעוֹלָם, אֱלֹהַיִךְ צִיּוֹן לְדֹר וָדֹר, הַלְלוּיָהּ:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-yimloch",
@@ -2954,7 +2979,23 @@
             {
               "id": "se1-prayer-ledor-vador",
               "type": "prayer",
-              "heText": "לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ וּלְנֵצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ, וְשִׁבְחֲךָ אֱלֹהֵינוּ מִפִּינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד, כִּי אֵל מֶלֶךְ גָּדוֹל וְקָדוֹשׁ אָתָּה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ (בעשי\"ת הַמֶּלֶךְ הַקָּדוֹשׁ):"
+              "heText": "חזן: לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ וּלְנֵצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ, וְשִׁבְחֲךָ אֱלֹהֵינוּ מִפִּינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד, כִּי אֵל מֶלֶךְ גָּדוֹל וְקָדוֹשׁ אָתָּה: בָּרוּךְ אַתָּה יְהֹוָה הָאֵל (בעשי\"ת הַמֶּלֶךְ) הַקָּדוֹשׁ:",
+              "heParts": [
+                {
+                  "text": "חזן: ",
+                  "small": true
+                },
+                {
+                  "text": "לְדוֹר וָדוֹר נַגִּיד גָּדְלֶךָ וּלְנֵצַח נְצָחִים קְדֻשָּׁתְךָ נַקְדִּישׁ, וְשִׁבְחֲךָ אֱלֹהֵינוּ מִפִּינוּ לֹא יָמוּשׁ לְעוֹלָם וָעֶד, כִּי אֵל מֶלֶךְ גָּדוֹל וְקָדוֹשׁ אָתָּה: בָּרוּךְ אַתָּה יְהֹוָה הָאֵל "
+                },
+                {
+                  "text": "(בעשי\"ת הַמֶּלֶךְ)",
+                  "small": true
+                },
+                {
+                  "text": " הַקָּדוֹשׁ:"
+                }
+              ]
             },
             {
               "id": "se1-commentary-ledor-vador",
@@ -2972,7 +3013,20 @@
             {
               "id": "se1-prayer-kedushas-hashem",
               "type": "prayer",
-              "heText": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל הַקָּדוֹשׁ: (בעשי״ת הַמֶּלֶךְ הַקָּדוֹשׁ)"
+              "heText": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ:",
+              "heParts": [
+                {
+                  "text": "אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ, וּקְדוֹשִׁים בְּכָל יוֹם יְהַלְלוּךָ סֶּלָה: בָּרוּךְ אַתָּה יְהֹוָה, הָאֵל "
+                },
+                {
+                  "text": "(בעשי״ת הַמֶּלֶךְ)",
+                  "small": true
+                },
+                {
+                  "text": " הַקָּדוֹשׁ:"
+                }
+              ],
+              "display": true
             },
             {
               "id": "se1-commentary-kedushas-hashem",

@@ -129,13 +129,13 @@ brachos** oversized + centered; the 13 middle requests stay normal.
 APPLIED: `display` on i=16 (Avos), i=35 (Gevuros), i=131 (Retzei),
 i=175 (Sim Shalom); Modim split — i=159 keeps the normal opening,
 `se3-prayer-modim-chasimah` carries the enlarged chasimah.
-HELD — **i=53 / i=57 (Kedushas Hashem)**: the chasimah is enlarged but
-carries the small AYT parenthetical `(בעשי״ת הַמֶּלֶךְ הַקָּדוֹשׁ)`, which the
-print keeps small *inside* the enlarged line. A whole-segment `display`
-would enlarge the parenthetical too, so this can't match the print without
-a **renderer change** (small-label/parenthetical span inside a display
-verse). Also note an app-vs-print content diff: app has `הָאֵל הַקָּדוֹשׁ
-(בעשי״ת …)` but the print sets `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ` — content/house-style call.
+~~HELD — **i=53 / i=57 (Kedushas Hashem)**~~ **RESOLVED 2026-07-01** via the
+`heParts` small-span renderer field (`scripts/fix_kedushah_tags.py`): Atah
+Kadosh is now whole-segment `display` with the AYT parenthetical small inside
+the line, in the print's position `הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ`. The
+chazan's ledor-vador chasimah measured NOT-enlarged in print (1.00x) so it
+stays normal size with the same small parenthetical. See the Kedushah entry
+under "Blocked on a clean Hebrew source" for the measurements.
 
 ### Header order — re-architected to be PDF-deterministic (commit 32bc4f1)
 No global default may contradict the PDF. Default is now **Hebrew-on-top**
@@ -216,10 +216,32 @@ samples (My Body Works, OUR REQUESTS at 300 DPI) and consistent; for
 absolute per-instance certainty, eyeball the rendered sections.
 
 ### Blocked on a clean Hebrew source + renderer support
-- **Inline Kedushah speaker tags** (חזן / קו״ח / קו״ש before לְעֻמָּתָם i=44,
-  בָּרוּךְ כְּבוֹד i=46, וּבְדִבְרֵי i=48, יִמְלֹךְ i=50). Same renderer limit as
-  i=53/57: the labels on i=46/i=50 sit on `display` verses, so adding them
-  inline would enlarge the label. Needs a small-label-prefix renderer span.
+- ✅ **Inline Kedushah speaker tags — RESOLVED 2026-07-01** via the new
+  `heParts` small-span renderer field (`scripts/fix_kedushah_tags.py`).
+  Print-verified at 300 DPI (pdf 86-87): tags are חזן: / **קו"ח:** (the app's
+  standalone rubrics said קר״ח — misreading, fixed), inlined small on קָדוֹשׁ
+  (tag was missing entirely), לְעֻמָּתָם, בָּרוּךְ כְּבוֹד, וּבְדִבְרֵי, יִמְלֹךְ,
+  and לְדוֹר וָדוֹר; the four standalone tag rubrics removed.
+- ✅ **Kedushas Hashem AYT parenthetical — RESOLVED 2026-07-01** (same script).
+  Both chasimos now read the print's form `… הָאֵל (בעשי״ת הַמֶּלֶךְ) הַקָּדוֹשׁ:`
+  with the parenthetical as a small `heParts` span (was trailing, with הַקָּדוֹשׁ
+  duplicated inside). Pixel-verified: ledor-vador has NO comma after the Name
+  (removed); Atah Kadosh keeps its comma. `se1-prayer-kedushas-hashem` is now
+  `display: true` (print sets the whole short bracha ~1.18x, like the other
+  framework chasimos).
+- **NEW HOUSE-STYLE FINDING (held) — Kedushah response verses are NOT enlarged
+  in the print.** Same-word width measurement at 300 DPI (validated against the
+  Gevuros chasimah, which measures the expected ~1.18x): קָדוֹשׁ / בָּרוּךְ כְּבוֹד /
+  יִמְלֹךְ measure 1.00x (e.g. יְהֹוָה = 90px in all three, same as normal brachos;
+  בָּרוּךְ = 97px), right-aligned with inline tags — and the chazan's לְדוֹר וָדוֹר
+  chasimah is also 1.00x. The app's `display: true` (1.5x centered) on
+  se1-prayer-kadosh / baruch-kvod / yimloch therefore OVERSTATES the print.
+  Kept as-is for davening prominence pending an author call; if changed, also
+  revisit commit 8fd5527's premise. Note also the app's display scale (1.5x) vs
+  the print's measured ~1.18x for true framework chasimos — a global style knob.
+- **Follow-up:** mussaf-chol-hamoed has two standalone `חזן:` rubrics
+  (mch1-kedushah-chazzan1/2-rubric) that likely print inline the same way —
+  verify at their TOC pages and apply the heParts treatment there too.
 - **Adir Bamarom** congregational response after i=165 — new liturgy.
   pdftotext extraction fragments the nikud (אַדִּ יר), so it can't
   be added accurately without a clean vocalized source.

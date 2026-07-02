@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { View, Text, Pressable, StyleSheet, SafeAreaView, useColorScheme } from 'react-native';
+import { View, Text, Pressable, StyleSheet, SafeAreaView } from 'react-native';
 import { router } from 'expo-router';
 import { usePreferencesStore, COMFORT_PRESETS, ComfortLevel } from '../src/store/preferences';
-import { LightColors, DarkColors, ColorPalette } from '../src/theme/colors';
+import { ColorPalette } from '../src/theme/colors';
+import { useThemeColors } from '../src/theme/useThemeColors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../src/theme/typography';
 import { DisplayToggle } from '../src/components/DisplayToggle';
 
@@ -21,9 +22,7 @@ export default function Onboarding() {
     setComfortLevel, setDisplayMode, setTheme, bumpFontStep, completeOnboarding,
   } = usePreferencesStore();
 
-  const systemScheme = useColorScheme();
-  const isDark = theme === 'dark' || (theme === 'auto' && systemScheme === 'dark');
-  const colors = isDark ? DarkColors : LightColors;
+  const { colors } = useThemeColors();
   const s = makeStyles(colors);
 
   function applyPreset(level: ComfortLevel) {
@@ -114,7 +113,7 @@ export default function Onboarding() {
 
           <Text style={[s.controlLabel, { color: colors.muted, marginTop: 16 }]}>Theme</Text>
           <View style={s.themeRow}>
-            {(['light', 'dark', 'auto'] as const).map(t => (
+            {(['light', 'sepia', 'dark', 'auto'] as const).map(t => (
               <Pressable
                 key={t}
                 style={[

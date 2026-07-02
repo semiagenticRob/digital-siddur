@@ -18,13 +18,13 @@ This is the part that bites. A field that a type doesn't render is **invisible**
 
 | type | renders | ignores | notes |
 |---|---|---|---|
-| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL. `display: true` → oversized & centered (Kedushah/chasimah climaxes); `center: true` → centered at normal size (verses the print centers but doesn't enlarge, e.g. the Amidah opening אֲדֹנָי שְׂפָתַי) |
+| `prayer` | `heText` only | `enText` | hidden in English-only mode; right-aligned RTL. `display: true` → oversized & centered (Kedushah/chasimah climaxes); `center: true` → centered at normal size (verses the print centers but doesn't enlarge, e.g. the Amidah opening אֲדֹנָי שְׂפָתַי). `heParts` (ordered spans; concat MUST equal `heText`, lint-enforced) renders `small: true` spans at rubric size inside the line — inline speaker tags (חזן: / קו״ח:) and conditional parentheticals the print keeps small inside a line (e.g. the AYT בעשי״ת הַמֶּלֶךְ inside a chasimah) |
 | `commentary` | `enText` only (RichText) | **`heText`** | hidden in Hebrew-only; the EXPLANATION box |
 | `insight` | `enText` (RichText) | `heText` | collapsible "Insight" |
 | `faq` | `enText` (RichText) | `heText` | collapsible "FAQ" |
 | `section_intro` | `enText` (RichText) | `heText` | **centered**; the bridge/preamble style |
 | `transition` | `enText` | `heText` | centered, glowing bridge |
-| `rubric` | `heText` (plain `Text`) in he/both; `enText` (RichText) in en | the other field, per mode | `heText` is plain (`*` literal); `enText` renders markdown + inline links like commentary (see convention 8). Bilingual rubric shows heText in he/both, enText in en |
+| `rubric` | `heText` (plain `Text`) in he/both; `enText` (RichText) in en | the other field, per mode | `heText` is plain (`*` literal); `enText` renders markdown + inline links like commentary (see convention 8). Bilingual rubric shows heText in he/both, enText in en. **An English-only rubric shows in EVERY mode** (incl. Hebrew-only — the print never hides instructions like "For men:"); a Hebrew-only rubric still hides in English-only mode |
 | `header` | `heText` and/or `enText` | — | **Hebrew-on-top by default** (the print's majority — every transliteration/description sub-header). Order is per-header from the PDF, never a blanket default. `enTop` = English caps label on top, Hebrew title beneath — set ONLY for headers the PDF prints English-first (e.g. שְׁמֹנֶה עֶשְׂרֵה / OUR REQUESTS), each verified. `enPrimary` = big English title over small Hebrew subtitle. `plain` = quiet incipit. |
 
 ## Conventions (matched to the print)
