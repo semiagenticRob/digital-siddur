@@ -31,6 +31,18 @@ test('Omer period gets sefirah Tonight (evening begins next Hebrew day)', () => 
   expect(specialDayBadges(new Date(2026, 4, 24))['sefiras-haomer']).toBeUndefined();
 });
 
+test('Pesach hallel runs 15-22 Nisan (diaspora); 23 Nisan does not', () => {
+  // All verified via hebcal converter for 5786:
+  // 15 Nisan = 2 Apr 2026 ("Pesach I"); 17 Nisan = 4 Apr ("Pesach III (CH''M)");
+  // 22 Nisan = 9 Apr ("Pesach VIII", Acharon Shel Pesach); 23 Nisan = 10 Apr (plain day).
+  expect(specialDayBadges(new Date(2026, 3, 2))['hallel']).toBe('Today'); // 15 Nisan, Yom Tov I
+  const cholHamoed = specialDayBadges(new Date(2026, 3, 4)); // 17 Nisan, Chol Hamoed
+  expect(cholHamoed['mussaf-chol-hamoed']).toBe('Today');
+  expect(cholHamoed['hallel']).toBe('Today');
+  expect(specialDayBadges(new Date(2026, 3, 9))['hallel']).toBe('Today'); // 22 Nisan, Acharon Shel Pesach
+  expect(specialDayBadges(new Date(2026, 3, 10))['hallel']).toBeUndefined(); // 23 Nisan — Pesach over
+});
+
 test('Shavuos (6-7 Sivan, diaspora) gets hallel; 8 Sivan does not', () => {
   // 6 Sivan 5786 = 22 May 2026, "Shavuot I"; 7 Sivan = 23 May, "Shavuot II";
   // 8 Sivan = 24 May, plain day (all verified via hebcal converter).

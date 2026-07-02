@@ -36,10 +36,12 @@ export function specialDayBadges(civilDate: Date): Record<string, string> {
   const chanukahEndInTeves = kislevLen === 30 ? 2 : 3;
   const isChanukah = (month === 9 && day >= 25) || (month === 10 && day <= chanukahEndInTeves);
 
-  // Hallel: Rosh Chodesh, Chol Hamoed, the Yom Tov days of Pesach/Sukkos and
-  // Shavuos (6-7 Sivan in the diaspora), and Chanukah — Erchin 10a.
+  // Hallel: Rosh Chodesh, Chol Hamoed, all of Pesach through Acharon Shel
+  // Pesach (15-22 Nisan diaspora; chatzi Hallel on the last six days — Rama
+  // OC 490:4), Shavuos (6-7 Sivan diaspora), Sukkos through Simchas Torah
+  // (15-23 Tishrei), and Chanukah — Erchin 10a.
   const isYomTovHallel =
-    (month === 1 && day >= 15 && day <= 21) ||
+    (month === 1 && day >= 15 && day <= 22) ||
     (month === 3 && (day === 6 || day === 7)) ||
     (month === 7 && day >= 15 && day <= 23);
   if (isRoshChodesh || isCholHamoed || isYomTovHallel || isChanukah) {
