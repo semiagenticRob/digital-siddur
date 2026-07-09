@@ -15,6 +15,7 @@
       }
     },
     "android": {
+      "package": "com.semiagenticrob.digitalsiddur",
       "adaptiveIcon": {
         "backgroundColor": "#F6F2E9",
         "foregroundImage": "./assets/android-icon-foreground.png"

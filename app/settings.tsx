@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, SafeAreaView, Switch, TextInput } from 'react-native';
+import { View, Text, Pressable, StyleSheet, Switch, TextInput } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { usePreferencesStore, ComfortLevel } from '../src/store/preferences';
 import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';

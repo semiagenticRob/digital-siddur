@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import { View, Text, Pressable, StyleSheet, SectionList, SafeAreaView, ScrollView } from 'react-native';
+import { View, Text, Pressable, StyleSheet, SectionList, ScrollView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { glossarySections, GlossaryEntry } from '../src/content/glossary';
 import { ColorPalette } from '../src/theme/colors';
