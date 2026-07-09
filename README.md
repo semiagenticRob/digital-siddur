@@ -44,9 +44,9 @@ Run a single test: `npx jest src/store/__tests__/preferences.test.ts` (or
 
 ## Repo map
 
-- `app/` — Expo Router (file-based) screens: `index.tsx` (home) →
-  `daven/[service].tsx` (the reader), plus `onboarding.tsx` and
-  `settings.tsx`.
+- `app/` — Expo Router (file-based) screens: `daven/index.tsx` (home) →
+  `daven/[service].tsx` (the reader), plus `index.tsx` (redirect),
+  `onboarding.tsx`, and `settings.tsx`.
 - `src/content/` — the siddur content as structured JSON, loaded through
   `src/content/loader.ts`. The exact rendering contract (which segment
   fields are actually shown, header ordering, etc.) is documented in

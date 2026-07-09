@@ -31,7 +31,7 @@ Render a PDF page for proofing: `pdftoppm -png -r 300 -f <pg> -l <pg> feigenbaum
 
 ## App architecture
 
-Expo Router (file-based) in `app/`: `index.tsx` (home) → `daven/[service].tsx` (the reader) plus `onboarding.tsx`, `settings.tsx`, `about/` (book front/back matter: `index.tsx` TOC + `[piece].tsx` reader), and `glossary.tsx`. The home screen is grouped by `src/content/categories.ts` — **new services must be registered in both `src/content/loader.ts` and `categories.ts`**, or the categories test fails. `_layout.tsx` loads fonts (Frank Ruhl Libre = Hebrew, Newsreader = English serif, Inter = UI).
+Expo Router (file-based) in `app/`: `daven/index.tsx` (home screen, grouped by `src/content/categories.ts`) → `daven/[service].tsx` (the reader) plus `index.tsx` (redirect), `onboarding.tsx`, `settings.tsx`, `about/` (book front/back matter: `index.tsx` TOC + `[piece].tsx` reader), and `glossary.tsx`. — **new services must be registered in both `src/content/loader.ts` and `categories.ts`**, or the categories test fails. `_layout.tsx` loads fonts (Frank Ruhl Libre = Hebrew, Newsreader = English serif, Inter = UI).
 
 - **Content registry** — `src/content/loader.ts` statically imports every service JSON into a `Record<string, Service>`; `getService(id)` / `listServices()` are the entry points. Appendices load separately via `src/content/appendices.ts`. Adding a service = add the JSON + register it in `loader.ts`. Book front/back matter loads via `src/content/bookMatter.ts` (`book-matter.json`; About screens), the glossary via `src/content/glossary.ts` (`glossary.json`; no segments — outside the segment contract).
 - **Reader** — `daven/[service].tsx` renders the service through a FlashList (`ServiceScroll`), one `SegmentRenderer` per segment.
