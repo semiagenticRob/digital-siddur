@@ -118,7 +118,13 @@ export function NowCard() {
               <Text style={[s.zmanValue, { color: colors.ink }]} maxFontSizeMultiplier={MAX_FONT_SCALE}>
                 {formatZmanTime(todayZmanim[cell.key])}
               </Text>
-              <Text style={[s.zmanLabel, { color: colors.muted }]} maxFontSizeMultiplier={MAX_FONT_SCALE}>
+              <Text
+                style={[s.zmanLabel, { color: colors.muted }]}
+                maxFontSizeMultiplier={MAX_FONT_SCALE}
+                numberOfLines={1}
+                adjustsFontSizeToFit
+                minimumFontScale={0.8}
+              >
                 {cell.label}
               </Text>
             </View>
