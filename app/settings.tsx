@@ -1,17 +1,16 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, Switch, TextInput } from 'react-native';
+import React, { useState } from 'react';
+import { View, Text, Pressable, StyleSheet, Switch } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { usePreferencesStore, ComfortLevel } from '../src/store/preferences';
-import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';
-import { resolveDeviceLocation, searchCities } from '../src/lib/location';
+import { useZmanimStore } from '../src/store/zmanim';
+import { resolveDeviceLocation } from '../src/lib/location';
 import { ColorPalette } from '../src/theme/colors';
 import { useThemeColors } from '../src/theme/useThemeColors';
 import { Fonts } from '../src/theme/typography';
 import { DisplayToggle } from '../src/components/DisplayToggle';
 import { FontSizeControl } from '../src/components/FontSizeControl';
-
-const SEARCH_DEBOUNCE_MS = 350;
+import { CitySearch } from '../src/components/CitySearch';
 
 export default function Settings() {
   const { theme, displayMode, keepAwake, comfortLevel, setDisplayMode, setTheme, bumpFontStep, setKeepAwake, setComfortLevel, resetOnboarding } = usePreferencesStore();
@@ -21,21 +20,6 @@ export default function Settings() {
 
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState(false);
-  const [query, setQuery] = useState('');
-  const [searching, setSearching] = useState(false);
-  const [results, setResults] = useState<ZmanimLocation[]>([]);
-  const [searched, setSearched] = useState(false);
-  const [searchFailed, setSearchFailed] = useState(false);
-  const searchTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const searchSeq = useRef(0);
-
-  // On unmount: cancel the pending debounce timer, and bump the seq so any
-  // in-flight searchCities response is dropped by the stale-guard instead of
-  // calling setState on an unmounted component.
-  useEffect(() => () => {
-    if (searchTimer.current) clearTimeout(searchTimer.current);
-    searchSeq.current += 1;
-  }, []);
 
   const handleUseMyLocation = async () => {
     setLocateError(false);
@@ -52,49 +36,6 @@ export default function Settings() {
     } finally {
       setLocating(false);
     }
-  };
-
-  const handleQueryChange = (text: string) => {
-    setQuery(text);
-    setLocateError(false);
-    if (searchTimer.current) clearTimeout(searchTimer.current);
-    const trimmed = text.trim();
-    if (!trimmed) {
-      setResults([]);
-      setSearching(false);
-      setSearched(false);
-      setSearchFailed(false);
-      return;
-    }
-    setSearching(true);
-    setSearched(false);
-    setSearchFailed(false);
-    const seq = ++searchSeq.current;
-    searchTimer.current = setTimeout(async () => {
-      try {
-        const hits = await searchCities(trimmed);
-        if (seq !== searchSeq.current) return; // stale — a newer search superseded this one
-        setResults(hits ?? []);
-        setSearchFailed(hits === null);
-      } catch {
-        if (seq !== searchSeq.current) return;
-        setResults([]);
-        setSearchFailed(true);
-      } finally {
-        if (seq === searchSeq.current) {
-          setSearching(false);
-          setSearched(true);
-        }
-      }
-    }, SEARCH_DEBOUNCE_MS);
-  };
-
-  const handleSelectCity = (loc: ZmanimLocation) => {
-    setLocation(loc);
-    setQuery('');
-    setResults([]);
-    setSearched(false);
-    setSearchFailed(false);
   };
 
   return (
@@ -216,35 +157,11 @@ export default function Settings() {
             </Text>
           )}
 
-          <TextInput
-            style={[s.cityInput, { backgroundColor: colors.surface, borderColor: colors.line, color: colors.ink }]}
-            value={query}
-            onChangeText={handleQueryChange}
-            placeholder="Search for a city…"
-            placeholderTextColor={colors.muted}
-            accessibilityLabel="Search for a city"
+          <CitySearch
+            colors={colors}
+            onSelect={setLocation}
+            onQueryChange={() => setLocateError(false)}
           />
-
-          {searching && (
-            <Text style={[s.sectionHint, { color: colors.muted }]}>Searching…</Text>
-          )}
-          {!searching && searched && results.length === 0 && (
-            <Text style={[s.sectionHint, { color: colors.muted }]}>
-              {searchFailed ? "Couldn't search — check your connection." : 'No cities found'}
-            </Text>
-          )}
-
-          {results.map((r, i) => (
-            <Pressable
-              key={`${r.label}-${r.latitude}-${r.longitude}-${i}`}
-              style={[s.cityResult, { backgroundColor: colors.surface, borderColor: colors.line }]}
-              onPress={() => handleSelectCity(r)}
-              accessibilityRole="button"
-              accessibilityLabel={`Set location to ${r.label}`}
-            >
-              <Text style={[s.switchLabel, { color: colors.ink }]}>{r.label}</Text>
-            </Pressable>
-          ))}
 
           <Text style={[s.zmanimFooter, { color: colors.muted }]}>
             Zmanim powered by Hebcal.com (hebcal.com) · CC BY 4.0
@@ -291,22 +208,6 @@ function makeStyles(c: ColorPalette) {
     resetBtnText: { fontFamily: Fonts.uiMedium, fontSize: 14 },
     locateBtn: { paddingVertical: 12, borderRadius: 10, alignItems: 'center', marginBottom: 10 },
     locateBtnText: { fontFamily: Fonts.uiMedium, fontSize: 14 },
-    cityInput: {
-      borderWidth: 1,
-      borderRadius: 10,
-      paddingHorizontal: 12,
-      paddingVertical: 10,
-      fontFamily: Fonts.ui,
-      fontSize: 14,
-      marginTop: 10,
-    },
-    cityResult: {
-      borderWidth: 1,
-      borderRadius: 10,
-      paddingHorizontal: 12,
-      paddingVertical: 10,
-      marginTop: 8,
-    },
     zmanimFooter: { fontFamily: Fonts.ui, fontSize: 11.5, marginTop: 12 },
   });
 }

@@ -46,7 +46,27 @@ calls `finish()`.
 ## The location step
 
 Never calls `expo-location` directly — it calls `resolveDeviceLocation()`. On a non-null
-result it calls `useZmanimStore().setLocation(loc)` and shows the resolved state.
+result it **stages** the location in local state and shows the resolved state.
+
+### Staging, not committing
+
+A resolved location is held in local state and written to the store via `setLocation()`
+only when the user leaves the step. Committing eagerly on resolve looks simpler and is
+wrong: the resolved state offers "Not the right place? Search instead", and a user who
+takes that path and then leaves via "Not now" would have left a city they explicitly
+rejected sitting in the store. The wizard would believe no location was set, `NowCard`
+would never show its "set location" prompt, and zmanim would compute for the wrong place
+— silently. Staging makes "leaves with no location set" actually true.
+
+For the same reason, an in-flight `resolveDeviceLocation()` is guarded by a sequence
+number bumped by any user action that supersedes it. The reverse-geocode inside it is a
+network call, and the UI stays interactive while it runs — without the guard, a late
+resolve can snap a user who already moved on to the city search back to the resolved
+screen, discarding what they typed. Guarding rather than disabling "Not now" keeps the
+escape hatch usable during a slow network call. (Same stale-guard pattern as
+`CitySearch`.)
+
+Both of these were caught in review of the first implementation, 2026-07-16.
 
 Three states:
 

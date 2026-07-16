@@ -23,7 +23,9 @@
 
 ### Task 1: Extract `CitySearch` from Settings
 
-Pure refactor. Settings must behave exactly as it does now when this task is done. Nothing in onboarding changes yet.
+A move, not a redesign. Settings' Zmanim section must look and behave exactly as it does
+now, with one exception: the three enumerated select-handler bug fixes in Step 1, which
+are edge cases the happy path won't show. Nothing in onboarding changes yet.
 
 **Files:**
 - Create: `src/components/CitySearch.tsx`
@@ -39,7 +41,7 @@ interface CitySearchProps {
   onSelect: (loc: ZmanimLocation) => void;
   onQueryChange?: () => void;
 }
-export function CitySearch(props: CitySearchProps): JSX.Element
+export function CitySearch(props: CitySearchProps)
 ```
 
 `onQueryChange` exists because `app/settings.tsx:59` currently calls `setLocateError(false)` when the user types — typing dismisses the "Couldn't get your location" error. Once the query lives inside `CitySearch`, Settings can no longer see it. This callback preserves that behavior. It is optional; onboarding does not pass it.
@@ -309,9 +311,11 @@ repopulate the cleared list, and resets the searching flag."
 
 - [ ] **Step 1: Add imports and the `location` step to the wizard's state**
 
-Add to the import block at the top of `app/onboarding.tsx`:
+Widen the existing React import to bring in `useRef`, and add three module imports, at
+the top of `app/onboarding.tsx`:
 
 ```tsx
+import React, { useRef, useState } from 'react';
 import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';
 import { resolveDeviceLocation } from '../src/lib/location';
 import { CitySearch } from '../src/components/CitySearch';
@@ -333,6 +337,9 @@ Inside the component, alongside the existing `const [step, setStep] = useState<S
   const [locating, setLocating] = useState(false);
   const [locationDenied, setLocationDenied] = useState(false);
   const [resolved, setResolved] = useState<ZmanimLocation | null>(null);
+  // Retires an in-flight resolveDeviceLocation() whose result the user has
+  // since superseded — see Step 3.
+  const reqSeq = useRef(0);
   const setLocation = useZmanimStore(state => state.setLocation);
 ```
 
@@ -356,23 +363,37 @@ Replace the two `Pressable`s at `:52-57`:
 
 - [ ] **Step 3: Add the location step handlers**
 
+> **Corrected 2026-07-16 after review.** The handler code below originally committed the
+> location to the store eagerly on resolve, and left an in-flight `resolveDeviceLocation()`
+> ungarded. Both were real defects — a rejected city stayed committed, and a late resolve
+> could hijack the screen. The code shown now stages and guards. See the spec's
+> "Staging, not committing" section for why.
+
 Place these next to the existing `applyPreset` / `finish` functions:
 
 ```tsx
-  // Leaves the location step: on to comfort for the full setup, or straight
-  // into the app for the "Use defaults" path.
+  // Committing to the zmanim store happens *here*, not when a location
+  // resolves. Resolving (device GPS or a city pick) only stages a guess in
+  // local `resolved` state — the user hasn't confirmed it yet, and the
+  // "Not the right place? Search instead" escape hatch depends on being able
+  // to discard a staged guess with nothing ever having touched the
+  // persisted store. Committing on exit is the one place that only runs
+  // once the user has actually settled on (or explicitly skipped) a
+  // location.
   function leaveLocationStep() {
+    if (resolved) setLocation(resolved);
     if (fullSetup) setStep('comfort');
     else finish();
   }
 
   async function handleAllowLocation() {
+    const seq = ++reqSeq.current;
     setLocating(true);
     try {
       const loc = await resolveDeviceLocation();
+      if (seq !== reqSeq.current) return; // user moved on — drop this result
       if (loc) {
-        setLocation(loc);
-        setResolved(loc);
+        setResolved(loc); // stage, don't commit — see leaveLocationStep
       } else {
         // Denied, or the fix failed. Either way the fallback is the same.
         setLocationDenied(true);
@@ -381,15 +402,19 @@ Place these next to the existing `applyPreset` / `finish` functions:
       // resolveDeviceLocation never throws, but if the user backgrounds the
       // app mid-prompt this promise just stays pending — the flag clears only
       // once it actually settles.
-      setLocating(false);
+      if (seq === reqSeq.current) setLocating(false);
     }
   }
 
   function handlePickCity(loc: ZmanimLocation) {
-    setLocation(loc);
-    setResolved(loc);
+    reqSeq.current++; // supersede any still-in-flight device-location resolve
+    setResolved(loc); // stage, don't commit — see leaveLocationStep
   }
 ```
+
+`reqSeq` is a `useRef(0)` declared alongside the step's other state. The initial state's
+"Not now" bumps it too, so a late resolve can't drag a user who already moved on back to
+the resolved screen.
 
 - [ ] **Step 4: Render the location step**
 
@@ -443,7 +468,7 @@ Insert this block after the `welcome` block (after `:62`) and before the `comfor
                 >
                   <Text style={s.primaryBtnText}>{locating ? 'Locating…' : 'Allow location'}</Text>
                 </Pressable>
-                <Pressable style={s.ghostBtn} onPress={() => setLocationDenied(true)}>
+                <Pressable style={s.ghostBtn} onPress={() => { reqSeq.current++; setLocationDenied(true); }}>
                   <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
                 </Pressable>
               </>
