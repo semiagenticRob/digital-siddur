@@ -41,7 +41,7 @@ interface CitySearchProps {
   onSelect: (loc: ZmanimLocation) => void;
   onQueryChange?: () => void;
 }
-export function CitySearch(props: CitySearchProps): JSX.Element
+export function CitySearch(props: CitySearchProps)
 ```
 
 `onQueryChange` exists because `app/settings.tsx:59` currently calls `setLocateError(false)` when the user types — typing dismisses the "Couldn't get your location" error. Once the query lives inside `CitySearch`, Settings can no longer see it. This callback preserves that behavior. It is optional; onboarding does not pass it.
@@ -311,9 +311,11 @@ repopulate the cleared list, and resets the searching flag."
 
 - [ ] **Step 1: Add imports and the `location` step to the wizard's state**
 
-Add to the import block at the top of `app/onboarding.tsx`:
+Widen the existing React import to bring in `useRef`, and add three module imports, at
+the top of `app/onboarding.tsx`:
 
 ```tsx
+import React, { useRef, useState } from 'react';
 import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';
 import { resolveDeviceLocation } from '../src/lib/location';
 import { CitySearch } from '../src/components/CitySearch';
@@ -335,6 +337,9 @@ Inside the component, alongside the existing `const [step, setStep] = useState<S
   const [locating, setLocating] = useState(false);
   const [locationDenied, setLocationDenied] = useState(false);
   const [resolved, setResolved] = useState<ZmanimLocation | null>(null);
+  // Retires an in-flight resolveDeviceLocation() whose result the user has
+  // since superseded — see Step 3.
+  const reqSeq = useRef(0);
   const setLocation = useZmanimStore(state => state.setLocation);
 ```
 
@@ -463,7 +468,7 @@ Insert this block after the `welcome` block (after `:62`) and before the `comfor
                 >
                   <Text style={s.primaryBtnText}>{locating ? 'Locating…' : 'Allow location'}</Text>
                 </Pressable>
-                <Pressable style={s.ghostBtn} onPress={() => setLocationDenied(true)}>
+                <Pressable style={s.ghostBtn} onPress={() => { reqSeq.current++; setLocationDenied(true); }}>
                   <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
                 </Pressable>
               </>
