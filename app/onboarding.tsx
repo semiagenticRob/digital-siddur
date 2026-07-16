@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
@@ -34,6 +34,11 @@ export default function Onboarding() {
   const [locationDenied, setLocationDenied] = useState(false);
   const [resolved, setResolved] = useState<ZmanimLocation | null>(null);
   const setLocation = useZmanimStore(state => state.setLocation);
+  // Bumped whenever a request starts, and whenever a user action supersedes
+  // one still in flight (the initial "Not now", or picking a city). A
+  // resolve that lands with a stale seq is dropped instead of clobbering
+  // whatever state the user has since moved to.
+  const reqSeq = useRef(0);
 
   const { colors } = useThemeColors();
   const s = makeStyles(colors);
@@ -53,18 +58,29 @@ export default function Onboarding() {
 
   // Leaves the location step: on to comfort for the full setup, or straight
   // into the app for the "Use defaults" path.
+  //
+  // Committing to the zmanim store happens *here*, not when a location
+  // resolves. Resolving (device GPS or a city pick) only stages a guess in
+  // local `resolved` state — the user hasn't confirmed it yet, and the
+  // "Not the right place? Search instead" escape hatch depends on being able
+  // to discard a staged guess with nothing ever having touched the
+  // persisted store. Committing on exit is the one place that only runs
+  // once the user has actually settled on (or explicitly skipped) a
+  // location.
   function leaveLocationStep() {
+    if (resolved) setLocation(resolved);
     if (fullSetup) setStep('comfort');
     else finish();
   }
 
   async function handleAllowLocation() {
+    const seq = ++reqSeq.current;
     setLocating(true);
     try {
       const loc = await resolveDeviceLocation();
+      if (seq !== reqSeq.current) return; // user moved on — drop this result
       if (loc) {
-        setLocation(loc);
-        setResolved(loc);
+        setResolved(loc); // stage, don't commit — see leaveLocationStep
       } else {
         // Denied, or the fix failed. Either way the fallback is the same.
         setLocationDenied(true);
@@ -73,13 +89,13 @@ export default function Onboarding() {
       // resolveDeviceLocation never throws, but if the user backgrounds the
       // app mid-prompt this promise just stays pending — the flag clears only
       // once it actually settles.
-      setLocating(false);
+      if (seq === reqSeq.current) setLocating(false);
     }
   }
 
   function handlePickCity(loc: ZmanimLocation) {
-    setLocation(loc);
-    setResolved(loc);
+    reqSeq.current++; // supersede any still-in-flight device-location resolve
+    setResolved(loc); // stage, don't commit — see leaveLocationStep
   }
 
   if (step === 'welcome') {
@@ -154,7 +170,16 @@ export default function Onboarding() {
                 >
                   <Text style={s.primaryBtnText}>{locating ? 'Locating…' : 'Allow location'}</Text>
                 </Pressable>
-                <Pressable style={s.ghostBtn} onPress={() => setLocationDenied(true)}>
+                <Pressable
+                  style={s.ghostBtn}
+                  onPress={() => {
+                    // Supersede any in-flight resolve — a late-arriving
+                    // result must not snap the user back after they've
+                    // already moved to the search state.
+                    reqSeq.current++;
+                    setLocationDenied(true);
+                  }}
+                >
                   <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
                 </Pressable>
               </>
