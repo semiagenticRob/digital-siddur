@@ -7,8 +7,11 @@ import { ColorPalette } from '../src/theme/colors';
 import { useThemeColors } from '../src/theme/useThemeColors';
 import { Fonts, hebrewFontSize, englishFontSize } from '../src/theme/typography';
 import { DisplayToggle } from '../src/components/DisplayToggle';
+import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';
+import { resolveDeviceLocation } from '../src/lib/location';
+import { CitySearch } from '../src/components/CitySearch';
 
-type Step = 'welcome' | 'comfort' | 'review';
+type Step = 'welcome' | 'location' | 'comfort' | 'review';
 
 const COMFORT_OPTIONS: Array<{ value: ComfortLevel; label: string; description: string }> = [
   { value: 'beginner', label: 'Beginner', description: 'I read Hebrew slowly or follow in English' },
@@ -22,6 +25,15 @@ export default function Onboarding() {
     theme, displayMode, fontStep, comfortLevel,
     setComfortLevel, setDisplayMode, setTheme, bumpFontStep, completeOnboarding,
   } = usePreferencesStore();
+
+  // Which welcome button got us here. "Let's set it up" continues into the
+  // comfort/review steps; "Use defaults" still asks for location, then goes
+  // straight into the app with default preferences.
+  const [fullSetup, setFullSetup] = useState(true);
+  const [locating, setLocating] = useState(false);
+  const [locationDenied, setLocationDenied] = useState(false);
+  const [resolved, setResolved] = useState<ZmanimLocation | null>(null);
+  const setLocation = useZmanimStore(state => state.setLocation);
 
   const { colors } = useThemeColors();
   const s = makeStyles(colors);
@@ -39,6 +51,37 @@ export default function Onboarding() {
     router.replace('/daven');
   }
 
+  // Leaves the location step: on to comfort for the full setup, or straight
+  // into the app for the "Use defaults" path.
+  function leaveLocationStep() {
+    if (fullSetup) setStep('comfort');
+    else finish();
+  }
+
+  async function handleAllowLocation() {
+    setLocating(true);
+    try {
+      const loc = await resolveDeviceLocation();
+      if (loc) {
+        setLocation(loc);
+        setResolved(loc);
+      } else {
+        // Denied, or the fix failed. Either way the fallback is the same.
+        setLocationDenied(true);
+      }
+    } finally {
+      // resolveDeviceLocation never throws, but if the user backgrounds the
+      // app mid-prompt this promise just stays pending — the flag clears only
+      // once it actually settles.
+      setLocating(false);
+    }
+  }
+
+  function handlePickCity(loc: ZmanimLocation) {
+    setLocation(loc);
+    setResolved(loc);
+  }
+
   if (step === 'welcome') {
     return (
       <View style={[s.screen, { backgroundColor: colors.paper }]}>
@@ -49,12 +92,73 @@ export default function Onboarding() {
             <Text style={[s.welcomeBody, { color: colors.ink }]}>
               A faithful companion for daily tefillah — the complete weekday liturgy with Rabbi Feigenbaum's insights, built for teens finding their footing in davening.
             </Text>
-            <Pressable style={[s.primaryBtn, { backgroundColor: colors.accent }]} onPress={() => setStep('comfort')}>
+            <Pressable
+              style={[s.primaryBtn, { backgroundColor: colors.accent }]}
+              onPress={() => { setFullSetup(true); setStep('location'); }}
+            >
               <Text style={s.primaryBtnText}>Let's set it up</Text>
             </Pressable>
-            <Pressable style={s.ghostBtn} onPress={finish}>
+            <Pressable style={s.ghostBtn} onPress={() => { setFullSetup(false); setStep('location'); }}>
               <Text style={[s.ghostBtnText, { color: colors.muted }]}>Use defaults</Text>
             </Pressable>
+          </View>
+        </SafeAreaView>
+      </View>
+    );
+  }
+
+  if (step === 'location') {
+    return (
+      <View style={[s.screen, { backgroundColor: colors.paper }]}>
+        <SafeAreaView style={s.safe}>
+          <View style={s.content}>
+            {resolved ? (
+              <>
+                <Text style={[s.stepTitle, { color: colors.ink }]}>Zmanim set for {resolved.label}</Text>
+                <Text style={[s.reviewNote, { color: colors.muted }]}>
+                  You can change this anytime in Settings.
+                </Text>
+                <Pressable
+                  style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 8 }]}
+                  onPress={leaveLocationStep}
+                >
+                  <Text style={s.primaryBtnText}>{fullSetup ? 'Next →' : 'Start davening →'}</Text>
+                </Pressable>
+                <Pressable style={s.ghostBtn} onPress={() => { setResolved(null); setLocationDenied(true); }}>
+                  <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not the right place? Search instead</Text>
+                </Pressable>
+              </>
+            ) : locationDenied ? (
+              <>
+                <Text style={[s.stepTitle, { color: colors.ink }]}>Search for your city instead</Text>
+                <Text style={[s.reviewNote, { color: colors.muted }]}>
+                  Pick the closest city and we'll use it for your zmanim.
+                </Text>
+                <CitySearch colors={colors} onSelect={handlePickCity} />
+                <Pressable style={s.ghostBtn} onPress={leaveLocationStep}>
+                  <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
+                </Pressable>
+              </>
+            ) : (
+              <>
+                <Text style={[s.stepTitle, { color: colors.ink }]}>Accurate times for where you are</Text>
+                <Text style={[s.locationBody, { color: colors.ink }]}>
+                  Your location is used only to calculate halachic times — when to say Shema, when Shabbos comes in. It's used while you're in the app, and it never leaves your device except to look those times up.
+                </Text>
+                <Pressable
+                  style={[s.primaryBtn, { backgroundColor: colors.accent }]}
+                  onPress={handleAllowLocation}
+                  disabled={locating}
+                  accessibilityRole="button"
+                  accessibilityLabel="Allow location"
+                >
+                  <Text style={s.primaryBtnText}>{locating ? 'Locating…' : 'Allow location'}</Text>
+                </Pressable>
+                <Pressable style={s.ghostBtn} onPress={() => setLocationDenied(true)}>
+                  <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
+                </Pressable>
+              </>
+            )}
           </View>
         </SafeAreaView>
       </View>
@@ -175,6 +279,7 @@ function makeStyles(c: ColorPalette) {
     ghostBtnText: { fontFamily: Fonts.ui, fontSize: 14 },
     stepTitle: { fontFamily: Fonts.uiSemiBold, fontSize: 22, marginBottom: 8 },
     reviewNote: { fontFamily: Fonts.ui, fontSize: 13, marginBottom: 20 },
+    locationBody: { fontFamily: Fonts.english, fontSize: 15, lineHeight: 24, marginBottom: 28 },
     comfortOption: { borderRadius: 12, padding: 16, marginBottom: 10, borderWidth: 1.5 },
     comfortLabel: { fontFamily: Fonts.uiSemiBold, fontSize: 16, marginBottom: 4 },
     comfortDesc: { fontFamily: Fonts.ui, fontSize: 13 },
