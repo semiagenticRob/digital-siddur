@@ -23,7 +23,9 @@
 
 ### Task 1: Extract `CitySearch` from Settings
 
-Pure refactor. Settings must behave exactly as it does now when this task is done. Nothing in onboarding changes yet.
+A move, not a redesign. Settings' Zmanim section must look and behave exactly as it does
+now, with one exception: the three enumerated select-handler bug fixes in Step 1, which
+are edge cases the happy path won't show. Nothing in onboarding changes yet.
 
 **Files:**
 - Create: `src/components/CitySearch.tsx`
