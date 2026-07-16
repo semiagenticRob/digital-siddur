@@ -104,8 +104,13 @@ results list, and the empty states. Props:
 interface CitySearchProps {
   colors: ColorPalette;
   onSelect: (loc: ZmanimLocation) => void;
+  onQueryChange?: () => void;
 }
 ```
+
+`onQueryChange` exists because `app/settings.tsx:59` clears its "couldn't get your
+location" error when the user starts typing. Once the query lives inside `CitySearch`,
+Settings can't watch it directly. Optional — onboarding doesn't pass it.
 
 Settings and onboarding both render it. Settings' "Use my location" button and
 current-location display **stay in `settings.tsx`** — only the search moves.
