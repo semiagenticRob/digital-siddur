@@ -358,23 +358,37 @@ Replace the two `Pressable`s at `:52-57`:
 
 - [ ] **Step 3: Add the location step handlers**
 
+> **Corrected 2026-07-16 after review.** The handler code below originally committed the
+> location to the store eagerly on resolve, and left an in-flight `resolveDeviceLocation()`
+> ungarded. Both were real defects — a rejected city stayed committed, and a late resolve
+> could hijack the screen. The code shown now stages and guards. See the spec's
+> "Staging, not committing" section for why.
+
 Place these next to the existing `applyPreset` / `finish` functions:
 
 ```tsx
-  // Leaves the location step: on to comfort for the full setup, or straight
-  // into the app for the "Use defaults" path.
+  // Committing to the zmanim store happens *here*, not when a location
+  // resolves. Resolving (device GPS or a city pick) only stages a guess in
+  // local `resolved` state — the user hasn't confirmed it yet, and the
+  // "Not the right place? Search instead" escape hatch depends on being able
+  // to discard a staged guess with nothing ever having touched the
+  // persisted store. Committing on exit is the one place that only runs
+  // once the user has actually settled on (or explicitly skipped) a
+  // location.
   function leaveLocationStep() {
+    if (resolved) setLocation(resolved);
     if (fullSetup) setStep('comfort');
     else finish();
   }
 
   async function handleAllowLocation() {
+    const seq = ++reqSeq.current;
     setLocating(true);
     try {
       const loc = await resolveDeviceLocation();
+      if (seq !== reqSeq.current) return; // user moved on — drop this result
       if (loc) {
-        setLocation(loc);
-        setResolved(loc);
+        setResolved(loc); // stage, don't commit — see leaveLocationStep
       } else {
         // Denied, or the fix failed. Either way the fallback is the same.
         setLocationDenied(true);
@@ -383,15 +397,19 @@ Place these next to the existing `applyPreset` / `finish` functions:
       // resolveDeviceLocation never throws, but if the user backgrounds the
       // app mid-prompt this promise just stays pending — the flag clears only
       // once it actually settles.
-      setLocating(false);
+      if (seq === reqSeq.current) setLocating(false);
     }
   }
 
   function handlePickCity(loc: ZmanimLocation) {
-    setLocation(loc);
-    setResolved(loc);
+    reqSeq.current++; // supersede any still-in-flight device-location resolve
+    setResolved(loc); // stage, don't commit — see leaveLocationStep
   }
 ```
+
+`reqSeq` is a `useRef(0)` declared alongside the step's other state. The initial state's
+"Not now" bumps it too, so a late resolve can't drag a user who already moved on back to
+the resolved screen.
 
 - [ ] **Step 4: Render the location step**
 
