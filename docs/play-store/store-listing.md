@@ -84,52 +84,52 @@ not for tracking or ads; not linked to an identity; encrypted in transit.
 
 ### Set up your store listing
 
-**App name** (max 30 chars):
-> Digital Siddur
+**App name** (max 30 chars) — CHOSEN: `The Feigenbaum Weekday Siddur` (29/30)
 
-Alternative if you want it more descriptive (25 chars): `Feigenbaum Weekday Siddur`
+**Short description** (80/80):
+> A free, offline Nusach Ashkenaz weekday siddur with commentary, built for teens.
 
-**Short description** (max 80 chars):
-> A free, offline Nusach Ashkenaz weekday siddur with commentary, for teens.
+**Full description** (1,610/4,000):
 
-**Full description** (max 4000 chars):
-
-> Digital Siddur is a free, offline weekday prayer book (siddur) for the
-> Feigenbaum Weekday Siddur, Cohen Family Edition — Nusach Ashkenaz. It was
-> built especially for teens, with clear typography, plain-English explanations,
-> and a layout that's easy to follow whether you daven every day or are just
-> starting out.
+> The Feigenbaum Weekday Siddur is a free, offline weekday prayer book for daily
+> davening — Nusach Ashkenaz, the Cohen Family Edition. It was designed
+> especially for teens, with clear typography, plain-English explanations, and a
+> layout that's easy to follow whether you daven every day or are just getting
+> started.
 >
 > READ IT YOUR WAY
-> • Hebrew, English, or side-by-side "Both" display — switch any time.
-> • Adjustable font size and a light/dark theme.
-> • Inline commentary and insights that explain what the words mean and why we
->   say them, right where you need them.
+> • Choose Hebrew, English, or side-by-side — and switch any time.
+> • Adjustable font size, plus light and dark themes.
+> • Inline commentary and insights explain what the words mean and why we say
+>   them, right where you need them.
 >
 > MAKE IT YOURS
 > • Highlight meaningful lines and add your own private notes.
-> • Your notes and highlights stay on your device — always private.
-> • The app remembers where you left off.
+> • Your notes and highlights stay on your device and remain private.
+> • The siddur remembers where you left off.
 >
-> ACCURATE PRAYER TIMES (ZMANIM)
-> • Optionally get halachic times for your location, or just search for your
->   city. Location is optional and used only to calculate times.
+> PRAYER TIMES (ZMANIM)
+> • Optionally see halachic times for your location, or simply search for your
+>   city.
+> • Location is optional and is used only to calculate accurate times.
 >
 > WHAT'S INCLUDED
-> • Weekday Shacharis, Minchah, and Maariv (including Motzaei Shabbos).
-> • Mussaf for Rosh Chodesh and Chol HaMoed.
-> • Hallel.
-> • Birkas Hamazon, Al HaMichyah, and Borei Nefashos.
-> • Krias Shema al HaMitah, Sefiras HaOmer, Tefillas Haderech, Netilas Lulav.
-> • A glossary and the book's front and back matter.
+> • Weekday Shacharis, Minchah, and Maariv (including Motzaei Shabbos)
+> • Mussaf for Rosh Chodesh and Chol HaMoed
+> • Hallel
+> • Birkas Hamazon, Al HaMichyah, and Borei Nefashos
+> • Krias Shema al HaMitah, Sefiras HaOmer, Tefillas Haderech, and Netilas Lulav
+> • A glossary, plus the book's front and back matter
 >
 > PRIVATE AND FREE
-> • Completely free. No ads. No account or sign-in.
+> • Completely free, with no ads.
+> • No account or sign-in required.
 > • No analytics and no third-party tracking.
-> • Works offline — the prayers are always available, no connection required.
+> • Works fully offline — the prayers are always available, with or without a
+>   connection.
 >
-> Note: the digitized text is being proofed section by section against the
-> print edition. Feedback is welcome at rbrt.s.wrrn@gmail.com.
+> The digitized text is being carefully proofed section by section against the
+> printed edition. Questions and feedback are welcome at rbrt.s.wrrn@gmail.com.
 
 **Graphics assets Play will require (prepare separately):**
 - App icon: 512×512 PNG (32-bit). Your `assets/icon.png` can be the source.
