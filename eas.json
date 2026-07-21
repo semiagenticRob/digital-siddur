@@ -19,6 +19,11 @@
     "production": {
       "ios": {
         "ascAppId": "6786411470"
+      },
+      "android": {
+        "serviceAccountKeyPath": "./google-service-account.json",
+        "track": "internal",
+        "releaseStatus": "draft"
       }
     }
   }
