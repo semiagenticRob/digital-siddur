@@ -18,6 +18,13 @@ test('Rosh Chodesh gets mussaf + hallel', () => {
   expect(badges['hallel']).toBe('Today');
 });
 
+test('Shabbos Rosh Chodesh keeps hallel but not the weekday mussaf', () => {
+  // 1 Iyar 5786 = Sat 18 Apr 2026
+  const badges = specialDayBadges(new Date(2026, 3, 18));
+  expect(badges['mussaf-rosh-chodesh']).toBeUndefined();
+  expect(badges['hallel']).toBe('Today');
+});
+
 test('1 Tishrei (Rosh Hashanah) does not get mussaf-rosh-chodesh', () => {
   // 1 Tishrei 5787 = 12 Sep 2026 (verified via hebcal converter)
   const badges = specialDayBadges(new Date(2026, 8, 12));
@@ -36,9 +43,13 @@ test('Pesach hallel runs 15-22 Nisan (diaspora); 23 Nisan does not', () => {
   // 15 Nisan = 2 Apr 2026 ("Pesach I"); 17 Nisan = 4 Apr ("Pesach III (CH''M)");
   // 22 Nisan = 9 Apr ("Pesach VIII", Acharon Shel Pesach); 23 Nisan = 10 Apr (plain day).
   expect(specialDayBadges(new Date(2026, 3, 2))['hallel']).toBe('Today'); // 15 Nisan, Yom Tov I
-  const cholHamoed = specialDayBadges(new Date(2026, 3, 4)); // 17 Nisan, Chol Hamoed
+  const cholHamoed = specialDayBadges(new Date(2026, 3, 5)); // 18 Nisan (Sunday), Chol Hamoed
   expect(cholHamoed['mussaf-chol-hamoed']).toBe('Today');
   expect(cholHamoed['hallel']).toBe('Today');
+  // 17 Nisan = 4 Apr 2026 is Shabbos Chol Hamoed: Shabbos Mussaf, not the weekday one.
+  const shabbosCholHamoed = specialDayBadges(new Date(2026, 3, 4));
+  expect(shabbosCholHamoed['mussaf-chol-hamoed']).toBeUndefined();
+  expect(shabbosCholHamoed['hallel']).toBe('Today');
   expect(specialDayBadges(new Date(2026, 3, 9))['hallel']).toBe('Today'); // 22 Nisan, Acharon Shel Pesach
   expect(specialDayBadges(new Date(2026, 3, 10))['hallel']).toBeUndefined(); // 23 Nisan — Pesach over
 });

@@ -184,6 +184,18 @@ describe('resolveDeviceLocation', () => {
     });
   });
 
+  test('rounds device coordinates to ~1 km before returning (approximate location only)', async () => {
+    (Location.requestForegroundPermissionsAsync as jest.Mock).mockResolvedValue({ status: 'granted' });
+    (Location.getCurrentPositionAsync as jest.Mock).mockResolvedValue({
+      coords: { latitude: 44.603471, longitude: -63.587239 },
+    });
+    (Location.reverseGeocodeAsync as jest.Mock).mockResolvedValue([{ city: 'Halifax' }]);
+
+    const loc = await resolveDeviceLocation();
+    expect(loc).toMatchObject({ latitude: 44.6, longitude: -63.59 });
+    expect(Location.reverseGeocodeAsync).toHaveBeenCalledWith({ latitude: 44.6, longitude: -63.59 });
+  });
+
   test('falls back to a generic label when reverse geocoding fails', async () => {
     (Location.requestForegroundPermissionsAsync as jest.Mock).mockResolvedValue({ status: 'granted' });
     (Location.getCurrentPositionAsync as jest.Mock).mockResolvedValue({

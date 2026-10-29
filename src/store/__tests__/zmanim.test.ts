@@ -134,3 +134,30 @@ test('setLocation clears the previous cache', () => {
   expect(useZmanimStore.getState().days).toEqual({});
   expect(useZmanimStore.getState().fetchedThrough).toBeNull();
 });
+
+test('overlapping ensureFresh calls for the same location share one fetch', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  await Promise.all([
+    useZmanimStore.getState().ensureFresh('2026-07-02'),
+    useZmanimStore.getState().ensureFresh('2026-07-02'),
+    useZmanimStore.getState().ensureFresh('2026-07-02'),
+  ]);
+  expect(globalThis.fetch).toHaveBeenCalledTimes(1);
+});
+
+test('a location switch mid-fetch still starts a fetch for the new location', async () => {
+  useZmanimStore.getState().setLocation(LOC);
+  let resolveFetch!: (value: unknown) => void;
+  (globalThis.fetch as jest.Mock).mockReturnValueOnce(new Promise((r) => { resolveFetch = r; }));
+  const first = useZmanimStore.getState().ensureFresh('2026-07-02');
+
+  const LOC_B = { latitude: 40.7, longitude: -74.0, tzid: 'America/New_York', label: 'NYC' };
+  useZmanimStore.getState().setLocation(LOC_B);
+  const second = useZmanimStore.getState().ensureFresh('2026-07-02');
+
+  resolveFetch({ ok: true, json: async () => HEBCAL_RESPONSE });
+  await Promise.all([first, second]);
+  expect(globalThis.fetch).toHaveBeenCalledTimes(2);
+  expect((globalThis.fetch as jest.Mock).mock.calls[1][0]).toContain('latitude=40.7');
+  expect(useZmanimStore.getState().fetchedThrough).toBe('2026-07-03');
+});

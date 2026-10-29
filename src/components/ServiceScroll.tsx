@@ -88,6 +88,11 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
             ? `optseg-${item.segment.id}`
             : `seg-${item.segment.id}-${i}`
         }
+        // Recycle cells only between items of the same shape — a short rubric
+        // cell reused for a long prayer re-measures badly and jumps.
+        getItemType={(item) =>
+          item.kind === 'prayerHeader' ? 'prayerHeader' : `${item.kind}:${item.segment.type}`
+        }
         renderItem={({ item }) => {
           // Every item is wrapped in a full-width root so FlashList can't size
           // the cell to its content width — otherwise a long single line (e.g. a

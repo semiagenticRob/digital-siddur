@@ -20,14 +20,17 @@ export function specialDayBadges(civilDate: Date): Record<string, string> {
 
   // Rosh Chodesh mussaf: 30th of any month (first RC day when the outgoing
   // month is full) or 1st of any month, except 1 Tishrei — Bamidbar 28:11.
+  // On Shabbos the Shabbos Mussaf (with its own Rosh Chodesh insert) replaces
+  // this weekday service, so no badge — same rule as the lulav badge below.
   const isRoshChodesh = day === 30 || (day === 1 && month !== 7);
-  if (isRoshChodesh) badges['mussaf-rosh-chodesh'] = 'Today';
+  if (isRoshChodesh && !isSaturday) badges['mussaf-rosh-chodesh'] = 'Today';
 
   // Chol Hamoed mussaf: the intermediate days of Pesach and Sukkos —
   // Orach Chaim 490:1, 653:1.
   const isCholHamoed =
     (month === 1 && day >= 17 && day <= 20) || (month === 7 && day >= 17 && day <= 21);
-  if (isCholHamoed) badges['mussaf-chol-hamoed'] = 'Today';
+  // Shabbos Chol Hamoed uses the Shabbos Mussaf, not this weekday one.
+  if (isCholHamoed && !isSaturday) badges['mussaf-chol-hamoed'] = 'Today';
 
   // Chanukah runs 25 Kislev for 8 days regardless of Kislev's length, so it
   // ends 2 Teves when Kislev has 30 days or 3 Teves when Kislev has 29 —

@@ -22,6 +22,7 @@ import { useEffect } from 'react';
 import { useThemeColors } from '../src/theme/useThemeColors';
 import { AppendixModal } from '../src/components/AppendixModal';
 import { SectionModal } from '../src/components/SectionModal';
+import { useStoresHydrated } from '../src/store/hydration';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -40,12 +41,17 @@ export default function RootLayout() {
   });
 
   const { colors, isDark } = useThemeColors();
+  // Hold the splash until saved settings, annotations and reading positions
+  // have loaded — otherwise the onboarding redirect and scroll restore act on
+  // defaults (a returning user could be sent back through onboarding).
+  const storesHydrated = useStoresHydrated();
+  const ready = (loaded || !!error) && storesHydrated;
 
   useEffect(() => {
-    if (loaded || error) SplashScreen.hideAsync();
-  }, [loaded, error]);
+    if (ready) SplashScreen.hideAsync();
+  }, [ready]);
 
-  if (!loaded && !error) return null;
+  if (!ready) return null;
 
   return (
     <>

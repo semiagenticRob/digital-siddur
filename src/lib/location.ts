@@ -1,6 +1,7 @@
 import * as Location from 'expo-location';
 import * as Localization from 'expo-localization';
 import { ZmanimLocation } from '../store/zmanim';
+import { fetchWithTimeout, withTimeout } from './fetchWithTimeout';
 
 // Device timezone: no clear doc statement in the Expo SDK 56 / Hermes docs
 // confirms bare Intl.DateTimeFormat().resolvedOptions().timeZone is supported
@@ -15,24 +16,39 @@ function deviceTzid(): string {
   }
 }
 
+// The privacy policy and Play Data Safety form promise *approximate* location
+// only. Two decimal places is ~1 km — far below anything that moves zmanim by
+// more than a few seconds — so this is all that is ever stored or sent to
+// Hebcal. (app.json also blocks ACCESS_FINE_LOCATION on Android.)
+export function approximateCoord(value: number): number {
+  return Math.round(value * 100) / 100;
+}
+
+const POSITION_TIMEOUT_MS = 15_000;
+
 // Device path: when-in-use permission -> coarse position -> reverse-geocoded
-// city label. Returns null on any denial/failure — callers fall back to
-// manual city search. Never throws.
+// city label. Returns null on any denial/failure/timeout — callers fall back
+// to manual city search. Never throws.
 export async function resolveDeviceLocation(): Promise<ZmanimLocation | null> {
   try {
     const { status } = await Location.requestForegroundPermissionsAsync();
     if (status !== 'granted') return null;
-    const pos = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Low });
+    const pos = await withTimeout(
+      Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Low }),
+      POSITION_TIMEOUT_MS
+    );
+    const latitude = approximateCoord(pos.coords.latitude);
+    const longitude = approximateCoord(pos.coords.longitude);
     const tzid = deviceTzid();
     let label = 'Current location';
     try {
-      const places = await Location.reverseGeocodeAsync(pos.coords);
+      const places = await withTimeout(Location.reverseGeocodeAsync({ latitude, longitude }), POSITION_TIMEOUT_MS);
       const p = places[0];
       if (p?.city) label = p.city;
     } catch {
       // keep generic label
     }
-    return { latitude: pos.coords.latitude, longitude: pos.coords.longitude, tzid, label };
+    return { latitude, longitude, tzid, label };
   } catch {
     return null;
   }
@@ -70,7 +86,7 @@ async function resolveGeonameId(id: number, fallbackLabel: string): Promise<Zman
     // An invalid geonameid returns HTTP 404 (with a JSON error body), so
     // !res.ok is the real failure path; the geo.error check below is
     // belt-and-braces in case the API ever errors with a 200.
-    const res = await fetch(`https://www.hebcal.com/geo?cfg=json&geonameid=${id}`);
+    const res = await fetchWithTimeout(`https://www.hebcal.com/geo?cfg=json&geonameid=${id}`);
     if (!res.ok) return null;
     const geo = (await res.json()) as GeoResult | null;
     if (
@@ -103,7 +119,7 @@ const MAX_RESULTS = 6;
 // "no cities found" ([]).
 export async function searchCities(query: string): Promise<ZmanimLocation[] | null> {
   try {
-    const res = await fetch(`https://www.hebcal.com/complete.php?q=${encodeURIComponent(query)}`);
+    const res = await fetchWithTimeout(`https://www.hebcal.com/complete.php?q=${encodeURIComponent(query)}`);
     if (!res.ok) return null;
     const hits = (await res.json()) as CompleteHit[];
     if (!Array.isArray(hits)) return [];

@@ -39,10 +39,10 @@ test('completeOnboarding sets hasCompletedOnboarding true', () => {
   expect(usePreferencesStore.getState().hasCompletedOnboarding).toBe(true);
 });
 
-test('COMFORT_PRESETS beginner sets displayMode both', () => {
-  expect(COMFORT_PRESETS.beginner.displayMode).toBe('both');
-});
-
-test('COMFORT_PRESETS fluent sets displayMode he', () => {
-  expect(COMFORT_PRESETS.fluent.displayMode).toBe('he');
+test('COMFORT_PRESETS match the onboarding presets exactly', () => {
+  expect(COMFORT_PRESETS).toEqual({
+    beginner: { displayMode: 'both', fontStep: 1, theme: 'auto' },
+    comfortable: { displayMode: 'both', fontStep: 0, theme: 'auto' },
+    fluent: { displayMode: 'he', fontStep: 0, theme: 'auto' },
+  });
 });

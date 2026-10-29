@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## ⚠️ Expo has changed — check the versioned docs
 
-This project is on **Expo SDK 56 / React Native 0.85 / React 19 / Expo Router v4**, which differs from older Expo APIs in your training data. Read the exact versioned docs at https://docs.expo.dev/versions/v56.0.0/ before writing app/runtime code. (`AGENTS.md` carries this same note.)
+This project is on **Expo SDK 56 / React Native 0.85 / React 19 / expo-router ~56**, which differs from older Expo APIs in your training data. Read the exact versioned docs at https://docs.expo.dev/versions/v56.0.0/ before writing app/runtime code. (`AGENTS.md` carries this same note.)
 
 ## What this is
 
@@ -61,7 +61,7 @@ The full contract, conventions, and proofing workflow are in **`docs/CONTENT_GUI
 
 ## Content tooling & workflow
 
-- **Linter** (`scripts/lint_content.py`) encodes the table above. Errors (block commits): stranded `commentary.heText`, `*` in rubric.heText, unbalanced markdown (incl. rubric `enText`), empty `prayer.heText`. Warnings are advisory (unbolded lemma, lemma-not-found-in-prayer garble detector, etc.).
+- **Linter** (`scripts/lint_content.py`) encodes the table above. Errors (block commits): stranded `commentary.heText`, dead `prayer.enText`, `*` in rubric.heText, unbalanced markdown (incl. rubric `enText`), empty `prayer.heText`, bad `heParts` (must recompose `heText`; prayer only) — the `SEVERITY` table in the script is authoritative. Warnings are advisory (unbolded lemma, lemma-not-found-in-prayer garble detector, etc.).
 - **Pre-commit gate**: `scripts/hooks/pre-commit` runs the strict linter. Wired via `core.hooksPath` — **new clones must run `git config core.hooksPath scripts/hooks` once.** Bypass with `git commit --no-verify`.
 - **Edit JSON via deterministic Python scripts in `scripts/`**, not by hand — each asserts its target exists before editing, so a stale assumption fails loudly instead of corrupting text. Verify formatting changes by stripping markdown (`**`/`*`) and diffing against the current text so wording can't drift. The many `fix_*.py` scripts are the record of past section fixes; follow their pattern.
 - **Proactive per-section audit** before asking for human review: `python3 scripts/audit_prep.py <file.json> <prayer-id> <siddur-start> <siddur-end>` renders the print pages and dumps segments, then dispatch vision subagents to diff app-vs-print. **Vision agents are unreliable for two dimensions specifically — visual size (`display`) and header order — they both over- and under-report there.** Verify every display-flag and header-order call, plus all Hebrew-letter/word changes, **by hand at 300 DPI** on the TOC-located page. Treat agent output as a lead, not a verdict.

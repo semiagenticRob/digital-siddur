@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { View, Text, Pressable, StyleSheet, Switch } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { usePreferencesStore, ComfortLevel } from '../src/store/preferences';
-import { useZmanimStore } from '../src/store/zmanim';
+import { useZmanimStore, ZmanimLocation } from '../src/store/zmanim';
 import { resolveDeviceLocation } from '../src/lib/location';
 import { ColorPalette } from '../src/theme/colors';
 import { useThemeColors } from '../src/theme/useThemeColors';
@@ -20,22 +20,34 @@ export default function Settings() {
 
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState(false);
+  // Same guard as onboarding: a device-location lookup can take seconds, and
+  // if the user picks a city meanwhile, the late result must not replace it.
+  const reqSeq = useRef(0);
 
   const handleUseMyLocation = async () => {
+    const seq = ++reqSeq.current;
     setLocateError(false);
     setLocating(true);
     try {
       const loc = await resolveDeviceLocation();
+      if (seq !== reqSeq.current) return; // user picked a city meanwhile
       if (loc) {
         setLocation(loc);
       } else {
         setLocateError(true);
       }
     } catch {
-      setLocateError(true);
+      if (seq === reqSeq.current) setLocateError(true);
     } finally {
-      setLocating(false);
+      if (seq === reqSeq.current) setLocating(false);
     }
+  };
+
+  const handlePickCity = (loc: ZmanimLocation) => {
+    reqSeq.current++; // supersede any in-flight device-location lookup
+    setLocating(false);
+    setLocateError(false);
+    setLocation(loc);
   };
 
   return (
@@ -159,7 +171,7 @@ export default function Settings() {
 
           <CitySearch
             colors={colors}
-            onSelect={setLocation}
+            onSelect={handlePickCity}
             onQueryChange={() => setLocateError(false)}
           />
 

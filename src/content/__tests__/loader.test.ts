@@ -16,7 +16,7 @@ test('listServices includes shacharit', () => {
   expect(list.some(s => s.id === 'shacharit')).toBe(true);
 });
 
-test('listServices returns 4 services', () => {
+test('listServices returns all 14 registered services', () => {
   expect(listServices()).toHaveLength(14);
 });
 

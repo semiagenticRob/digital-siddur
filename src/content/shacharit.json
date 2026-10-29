@@ -385,7 +385,7 @@
               "enText": "After adjusting the tefillin shel rosh say:"
             },
             {
-              "id": "baruch_shem",
+              "id": "tefillin-baruch-shem",
               "type": "prayer",
               "heText": "בָּרוּךְ שֵׁם כְּבוֹד מַלְכוּתוֹ לְעוֹלָם וָעֶד:"
             },
@@ -541,7 +541,7 @@
               "enText": "**שֶׁלֹּא עָשַׂנִי גּוֹי**—Thank You, for You did not create me a member of another nation *(who have to go through an entire process if they want to join the Chosen People. I was given that as a gift at birth—thank You!)*."
             },
             {
-              "id": "faq-chosen-people",
+              "id": "birchos-hashachar-faq-chosen-people",
               "type": "faq",
               "enText": "FAQ: Chosen People? Doesn't this brachah sound racist? I mean, I know a lot of really nice non-Jews—and some \"not-so-great\" Jews! Is there really such a difference? ANSWER: Common misconception! See Appendix 4.",
               "xref": "Appendix 4"
@@ -2250,7 +2250,7 @@
               "heText": "קְרִיאַת שְׁמַע וּבִרְכוֹתֶיהָ"
             },
             {
-              "id": "section_intro",
+              "id": "birchos-krias-shema-section-intro",
               "type": "section_intro",
               "enText": "Chazal structured this section by having us say two brachos before we say the Shema (the first is a very long one made up of different parts, and the second is one paragraph) and one brachah after we say the Shema. Then we will be ready for our one-on-one with Hashem — the Shemoneh Esrei."
             },
@@ -6013,7 +6013,7 @@
               "enText": "Each Day Is Unique and Gets Us Closer to Shabbos—and Closer to Mashiach!"
             },
             {
-              "id": "commentary_intro",
+              "id": "shir-shel-yom-commentary-intro",
               "type": "commentary",
               "enText": "Each day, as part of the avodah in the Beis Hamikdash, the Leviim sang a different \"song\" (chapter of Tehillim) that (according to the Gemara) represents that day's aspect of Creation. In the hope that soon the Beis Hamikdash will be rebuilt, we also recite songs every day. By counting the days in reference to Shabbos (בְּשַׁבָּת, יוֹם רִאשׁוֹן, etc.), we fulfill the mitzvah to remember the Shabbos every day. In addition, this ties our daily successes to Shabbos, rather than to the planets (which is the source of the non-Jewish names of each day). According to the Zohar, each chapter connects to a different millennium of the seven one-thousand-year periods from Creation, thus each \"day\" gets us closer to \"Shabbos\"—**שַׁבָּת שֶׁל שַׁבָּת**—the coming of Mashiach."
             },
@@ -6208,7 +6208,7 @@
               "optional": true
             },
             {
-              "id": "barchi_nafshi_commentary",
+              "id": "barchi-nafshi-commentary",
               "type": "commentary",
               "enText": "Speaking about the majesty of Hashem's Creation is very nice, but how is that relevant to Rosh Chodesh (besides the fact that the moon gets mentioned as part of the Creation)? Bnei Yisrael follow the lunar (moon) calendar and not the solar (sun) calendar. Why? Because the moon seems to get smaller and smaller and almost disappears. Then, suddenly, just when you think the moon is gone, it reappears and grows again. So too, Bnei Yisrael—there are many times when the nations of the world assume that we are done, finished, and will disappear, and then we pop up again and grow bright and strong. The same is true with each of us. We've all had times when we feel we're not growing; we've become insignificant and are losing our \"light.\" But we always have the ability to pop back, just like the moon does every month. And why is that? Because the \"laws of nature\" and \"rules of politics and sociology\" are controlled by the Master Creator! But sometimes that's hard to see. So every month, when that moon \"miraculously\" reappears, we read this chapter of Tehillim where David HaMelech describes for us the wonders of the created world—how Hashem takes care of the largest to the smallest, and thus takes care of each and every one of us, allowing us to pop back up when we're down.",
               "optional": true
@@ -6344,7 +6344,7 @@
           "enTitle": "Pitum HaKetores",
           "segments": [
             {
-              "id": "section_intro",
+              "id": "pitum-haketores-section-intro",
               "type": "section_intro",
               "enText": "As we transition to our work day, we focus on: (1) trusting in Hashem that only He can make all our efforts succeed; (2) reciting the Ketores which, according to Kabbalistic sources, brings spiritual sustenance to ourselves and the world around us for the rest of the day; (3) the importance of using halacha to guide all our activities; and (notwithstanding the competitive nature of school and work) (4) the importance of peace and harmony."
             },
@@ -6492,14 +6492,14 @@
           "enTitle": "Shesh Zechiros",
           "segments": [
             {
-              "id": "header",
+              "id": "shesh-zechiros-header",
               "type": "header",
               "heText": "שֵׁשׁ זְכִירוֹת",
               "enText": "As You Go through Your Day, Don't Forget!",
               "enTop": true
             },
             {
-              "id": "section_intro",
+              "id": "shesh-zechiros-section-intro",
               "type": "section_intro",
               "enText": "Though there are siddurim that list just four, and some list ten, this list of six \"remembrances\" is the most common custom. Note that there are three positive elements to focus on: Hashem redeemed us from Egypt (and will in the future); Hashem spoke directly to us at Har Sinai, and Shabbos, which reminds us of Creation (and thus His providence). The three negative elements tell us to always be on guard against: the Golden Calf (sins against Hashem); Miriam's lashon hara (sins against others); and Amalek (nations who do not fear Hashem, no matter how seemingly \"cultured,\" can act with great cruelty). The point is not to mumble them like some magic formula! Rather, the idea is to focus on these key points and use them as your guide during your day."
             },
@@ -6571,14 +6571,14 @@
           "enTitle": "Shloshah Asar Ikarim",
           "segments": [
             {
-              "id": "header",
+              "id": "shloshah-asar-ikarim-header",
               "type": "header",
               "heText": "שְׁלֹשָׁה עָשָׂר עִקָּרִים",
               "enText": "No Matter What Happens, No Matter Where We Are, This Is What We Believe!",
               "enTop": true
             },
             {
-              "id": "section_intro",
+              "id": "shloshah-asar-ikarim-section-intro",
               "type": "section_intro",
               "enText": "What's popular is not always right, and what's right is not always popular! Not only must we make sure to \"do\" what is correct, but we need to also stay firm in our core beliefs and value system, which, in many cases, is not popular and are the opposite of what the \"world out there\" believes. As with the Six Remembrances, the point is not to mumble the Thirteen Principles like some magic formula! Rather, the idea is to think about what they mean to you and to use them as your guide during your day. The commentaries have pointed out that they break down into three basic categories: belief in Hashem (1-5), the truth of Torah (6-9), and our responsibilities as Bnei Yisrael and our ultimate reward (10-13)."
             },

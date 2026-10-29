@@ -114,8 +114,16 @@ def walk(node, path):
 def main():
     errors_only = '--errors' in sys.argv
     strict = '--strict' in sys.argv
-    for f in sorted(glob.glob('src/content/*.json')):
-        walk(json.load(open(f)), os.path.basename(f))
+    # Resolve content relative to this script, not the caller's cwd — run from
+    # anywhere else, a cwd-relative glob matched nothing and "passed".
+    content_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src', 'content')
+    files = sorted(glob.glob(os.path.join(content_dir, '*.json')))
+    if not files:
+        print(f'FAIL: no content JSON found in {content_dir}')
+        sys.exit(1)
+    for f in files:
+        with open(f, encoding='utf-8') as fh:
+            walk(json.load(fh), os.path.basename(f))
 
     n_err = sum(len(v) for k, v in findings.items() if SEVERITY.get(k) == 'error')
     n_warn = sum(len(v) for k, v in findings.items() if SEVERITY.get(k) != 'error')

@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { View, Text, StyleSheet, Pressable, TextInput, Modal } from 'react-native';
 import { Segment } from '../content/types';
 import { DisplayMode, usePreferencesStore } from '../store/preferences';
@@ -36,8 +36,17 @@ export function SegmentRenderer({
   const [noteText, setNoteText] = useState('');
   const [selectionVisible, setSelectionVisible] = useState(false);
 
+  // FlashList recycles this component for a different segment as the reader
+  // scrolls, so per-segment UI state must reset when the segment changes —
+  // otherwise an open insight or a half-typed note shows up on another prayer.
+  const renderedSegmentId = useRef(segment.id);
   useEffect(() => {
+    if (renderedSegmentId.current === segment.id) return; // first mount — state is already fresh
+    renderedSegmentId.current = segment.id;
     setSelectionVisible(false);
+    setNoteModalVisible(false);
+    setNoteText('');
+    setShowInsight(usePreferencesStore.getState().comfortLevel === 'beginner');
   }, [segment.id]);
 
   const heSize = hebrewFontSize(fontStep);

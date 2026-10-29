@@ -45,13 +45,24 @@ export const useAnnotationsStore = create<AnnotationsState>()(
         highlights: Array.from(s.highlights),
         notes: s.notes,
       }),
+      // zustand calls merge(undefined, …) on a fresh install (nothing stored
+      // yet), and storage could hold an unexpected shape — tolerate both so
+      // hydration always completes.
       merge: (persisted: unknown, current) => {
-        const p = persisted as { highlights?: string[]; notes?: Record<string, string[]> };
-        return {
-          ...current,
-          highlights: new Set(p.highlights ?? []),
-          notes: p.notes ?? {},
-        };
+        const p = (persisted ?? {}) as { highlights?: unknown; notes?: unknown };
+        const highlights = Array.isArray(p.highlights)
+          ? p.highlights.filter((id): id is string => typeof id === 'string')
+          : [];
+        const notes: Record<string, string[]> = {};
+        if (p.notes && typeof p.notes === 'object' && !Array.isArray(p.notes)) {
+          for (const [id, texts] of Object.entries(p.notes as Record<string, unknown>)) {
+            if (Array.isArray(texts)) {
+              const clean = texts.filter((t): t is string => typeof t === 'string');
+              if (clean.length) notes[id] = clean;
+            }
+          }
+        }
+        return { ...current, highlights: new Set(highlights), notes };
       },
     }
   )

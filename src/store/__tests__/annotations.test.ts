@@ -1,3 +1,4 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useAnnotationsStore } from '../annotations';
 
 beforeEach(() => {
@@ -30,7 +31,7 @@ test('addNote stores text for a segment', () => {
 test('addNote appends multiple notes', () => {
   useAnnotationsStore.getState().addNote('seg-3', 'First');
   useAnnotationsStore.getState().addNote('seg-3', 'Second');
-  expect(useAnnotationsStore.getState().getNotes('seg-3')).toHaveLength(2);
+  expect(useAnnotationsStore.getState().getNotes('seg-3')).toEqual(['First', 'Second']);
 });
 
 test('getNotes returns empty array for unknown segment', () => {
@@ -55,4 +56,37 @@ test('removeNote with an out-of-range index is a no-op', () => {
   useAnnotationsStore.getState().addNote('seg-6', 'Keep me');
   useAnnotationsStore.getState().removeNote('seg-6', 5);
   expect(useAnnotationsStore.getState().getNotes('seg-6')).toEqual(['Keep me']);
+});
+
+describe('loading from storage', () => {
+  const KEY = 'siddur-annotations';
+  beforeEach(() => AsyncStorage.clear());
+
+  test('a fresh install (nothing stored) finishes hydrating with empty state', async () => {
+    await useAnnotationsStore.persist.rehydrate();
+    expect(useAnnotationsStore.persist.hasHydrated()).toBe(true);
+    expect(useAnnotationsStore.getState().highlights.size).toBe(0);
+    expect(useAnnotationsStore.getState().notes).toEqual({});
+  });
+
+  test('stored highlights and notes load back (Set restored from array)', async () => {
+    await AsyncStorage.setItem(
+      KEY,
+      JSON.stringify({ state: { highlights: ['seg-a'], notes: { 'seg-b': ['Remember this'] } }, version: 0 })
+    );
+    await useAnnotationsStore.persist.rehydrate();
+    expect(useAnnotationsStore.getState().isHighlighted('seg-a')).toBe(true);
+    expect(useAnnotationsStore.getState().getNotes('seg-b')).toEqual(['Remember this']);
+  });
+
+  test('malformed stored data is dropped instead of breaking hydration', async () => {
+    await AsyncStorage.setItem(
+      KEY,
+      JSON.stringify({ state: { highlights: 'oops', notes: { x: 'not-an-array', y: ['ok', 3] } }, version: 0 })
+    );
+    await useAnnotationsStore.persist.rehydrate();
+    expect(useAnnotationsStore.persist.hasHydrated()).toBe(true);
+    expect(useAnnotationsStore.getState().highlights.size).toBe(0);
+    expect(useAnnotationsStore.getState().notes).toEqual({ y: ['ok'] });
+  });
 });

@@ -83,10 +83,14 @@ content.
 
 - `npm run lint:content` — full report (errors + advisory warnings).
 - `npm run lint:content:strict` — exit 1 on error-severity findings (the gate).
-- Errors (block commits): stranded `commentary.heText`, `*` in rubric.heText,
-  unbalanced markdown (incl. rubric `enText`), empty `prayer.heText`.
+- Errors (block commits): stranded `commentary.heText`, dead `prayer.enText`,
+  `*` in rubric.heText, unbalanced markdown (incl. rubric `enText`), empty
+  `prayer.heText`, `heParts` that don't recompose `heText`, `heParts` on a
+  non-prayer segment.
 - Warnings (advisory): unbolded lemma, lemma-not-found-in-prayer (garble
-  detector — consonant-level), bridge-looks-like-commentary, dead `prayer.enText`.
+  detector — consonant-level), bridge-looks-like-commentary, `heText` on an
+  insight/faq/section_intro/transition.
+- The source of truth is the `SEVERITY` table at the top of the script.
 
 A **pre-commit hook** (`scripts/hooks/pre-commit`, wired via `core.hooksPath`)
 runs the strict gate. Bypass with `git commit --no-verify`. New clones must run
