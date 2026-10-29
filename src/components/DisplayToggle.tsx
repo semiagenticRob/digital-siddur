@@ -53,6 +53,8 @@ function makeStyles(c: ColorPalette) {
     },
     btn: {
       flex: 1,
+      minHeight: 40, // + the track's 3pt padding = 46pt-tall control
+      justifyContent: 'center',
       paddingVertical: 8,
       paddingHorizontal: 4,
       borderRadius: 8,

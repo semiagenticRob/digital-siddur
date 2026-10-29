@@ -63,7 +63,7 @@ export default function NotesScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <View style={s.header}>
-          <Pressable
+          <Pressable hitSlop={10}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"

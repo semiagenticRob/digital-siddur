@@ -169,8 +169,8 @@ function makeStyles(colors: ColorPalette) {
       marginBottom: 10,
     },
     iconBtn: {
-      width: 38,
-      height: 38,
+      width: 44,
+      height: 44,
       alignItems: 'center',
       justifyContent: 'center',
       borderRadius: 11,

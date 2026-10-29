@@ -12,7 +12,12 @@ export type ListItem =
 // Mirrors SegmentRenderer's display-mode gating. Must stay in sync with it:
 // a segment filtered out here never reaches the renderer, and a segment kept
 // here must render non-null, otherwise optional runs draw empty shaded boxes.
-export function isSegmentVisible(segment: Segment, displayMode: DisplayMode): boolean {
+// `isAnnotated` reports whether the user has highlighted or noted a segment.
+export function isSegmentVisible(
+  segment: Segment,
+  displayMode: DisplayMode,
+  isAnnotated?: (segmentId: string) => boolean
+): boolean {
   switch (segment.type) {
     case 'header':
       // A header shows whichever titles the mode allows; it disappears only
@@ -35,12 +40,17 @@ export function isSegmentVisible(segment: Segment, displayMode: DisplayMode): bo
     case 'insight':
       return displayMode !== 'he';
     default:
-      // prayer — Hebrew text, hidden in English-only mode
-      return displayMode !== 'en';
+      // prayer — Hebrew text, hidden in English-only mode, except lines the
+      // user has highlighted or noted: their annotations must stay visible.
+      return displayMode !== 'en' || !!isAnnotated?.(segment.id);
   }
 }
 
-export function flattenService(service: Service, displayMode: DisplayMode): ListItem[] {
+export function flattenService(
+  service: Service,
+  displayMode: DisplayMode,
+  isAnnotated?: (segmentId: string) => boolean
+): ListItem[] {
   const items: ListItem[] = [];
   for (const group of service.groups) {
     for (const prayer of group.prayers) {
@@ -55,7 +65,7 @@ export function flattenService(service: Service, displayMode: DisplayMode): List
       // grouping, so a run's box positions (solo/start/mid/end) are computed on
       // what will actually render — otherwise hidden segments leave empty
       // shaded strips or whole empty boxes.
-      const segs = prayer.segments.filter((seg) => isSegmentVisible(seg, displayMode));
+      const segs = prayer.segments.filter((seg) => isSegmentVisible(seg, displayMode, isAnnotated));
       // Contiguous runs of optional segments each become their own FlashList item
       // so FlashList measures each one independently (avoids 200px estimate clipping
       // tall groups). Position flag drives the border/radius style so they look like

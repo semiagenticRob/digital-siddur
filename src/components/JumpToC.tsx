@@ -43,11 +43,11 @@ export function JumpToC({ visible, service, colors, onSelectPrayer, onClose }: P
               </View>
             ))}
           </ScrollView>
-          <Pressable style={s.closeBtn} onPress={onClose}>
+          <Pressable accessibilityRole="button" style={s.closeBtn} onPress={onClose}>
             <Text style={s.closeBtnText}>Close</Text>
           </Pressable>
         </View>
-        <Pressable style={s.scrim} onPress={onClose} accessibilityLabel="Close navigation" />
+        <Pressable accessibilityRole="button" style={s.scrim} onPress={onClose} accessibilityLabel="Close navigation" />
       </View>
     </Modal>
   );

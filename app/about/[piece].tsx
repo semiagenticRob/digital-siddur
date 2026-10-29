@@ -20,7 +20,7 @@ export default function BookPieceScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <ScrollView contentContainerStyle={s.body} showsVerticalScrollIndicator={false}>
-          <Pressable
+          <Pressable hitSlop={10}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/about' as any))}
             accessibilityRole="button"
             accessibilityLabel="Go back"

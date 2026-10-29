@@ -61,7 +61,7 @@ function makeStyles(enSize: number) {
       paddingTop: 56, paddingBottom: 12, paddingHorizontal: 18, borderBottomWidth: 1,
     },
     kicker: { fontFamily: Fonts.uiSemiBold, fontSize: 12, letterSpacing: 1.5 },
-    closeBtn: { padding: 4 },
+    closeBtn: { minHeight: 44, minWidth: 44, paddingHorizontal: 8, alignItems: 'center', justifyContent: 'center' },
     closeText: { fontFamily: Fonts.uiSemiBold, fontSize: 16 },
     empty: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 32 },
     body: { padding: 22, paddingBottom: 80 },

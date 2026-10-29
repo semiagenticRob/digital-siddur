@@ -8,6 +8,7 @@ import { Fonts, MAX_FONT_SCALE } from '../theme/typography';
 import { CONTENT_WIDTH, LIST_HORIZONTAL_PAD } from '../theme/layout';
 import { SegmentRenderer } from './SegmentRenderer';
 import { flattenService, ListItem } from './flattenService';
+import { useAnnotationsStore } from '../store/annotations';
 
 export interface ServiceScrollHandle {
   scrollToPrayer: (prayerId: string) => void;
@@ -35,7 +36,19 @@ interface Props {
 export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
   ({ service, displayMode, fontStep, colors, isHighlighted, getNotes, onToggleHighlight, onAddNote, onReady, onScrollSettled }, ref) => {
     const listRef = useRef<FlashListRef<ListItem>>(null);
-    const items = useMemo(() => flattenService(service, displayMode), [service, displayMode]);
+    // In English-only mode, annotated prayer lines stay in the list, so the
+    // list rebuilds when annotations change — in that mode only (elsewhere
+    // these selectors return null and never trigger a rebuild).
+    const enMode = displayMode === 'en';
+    const highlights = useAnnotationsStore((s) => (enMode ? s.highlights : null));
+    const notes = useAnnotationsStore((s) => (enMode ? s.notes : null));
+    const items = useMemo(() => {
+      const isAnnotated =
+        highlights && notes
+          ? (id: string) => highlights.has(id) || (notes[id]?.length ?? 0) > 0
+          : undefined;
+      return flattenService(service, displayMode, isAnnotated);
+    }, [service, displayMode, highlights, notes]);
 
     useImperativeHandle(ref, () => ({
       scrollToPrayer: (prayerId: string) => {

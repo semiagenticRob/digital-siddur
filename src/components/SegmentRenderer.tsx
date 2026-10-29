@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
-import { View, Text, StyleSheet, Pressable, TextInput, Modal } from 'react-native';
+import { View, Text, StyleSheet, Pressable, TextInput, Modal, KeyboardAvoidingView, Platform } from 'react-native';
 import { Segment } from '../content/types';
 import { DisplayMode, usePreferencesStore } from '../store/preferences';
 import { ColorPalette } from '../theme/colors';
@@ -194,17 +194,21 @@ export function SegmentRenderer({
     );
   }
 
-  // Prayer (default)
-  if (displayMode === 'en') return null;
+  // Prayer (default). Hidden in English-only mode — unless the user has
+  // highlighted it or written a note on it: their own annotations must never
+  // silently disappear (flattenService keeps these lines in the list too).
+  if (displayMode === 'en' && !isHighlighted && notes.length === 0) return null;
 
   return (
     <View>
       <Pressable
-        style={[s.heLine, isHighlighted && s.heLineHighlighted]}
+        style={[s.heLine, isHighlighted && s.heLineHighlighted, selectionVisible && !isHighlighted && s.heLineSelected]}
         onPress={() => setSelectionVisible(v => !v)}
-        accessibilityRole="text"
+        accessibilityRole="button"
         accessibilityLabel={segment.heText}
         accessibilityLanguage="he"
+        accessibilityHint="Shows highlight and note options"
+        accessibilityState={{ selected: isHighlighted, expanded: selectionVisible }}
       >
         {segment.inlineRubric ? (
           // numberOfLines={1} + shrink-to-fit: cap system scaling harder here —
@@ -242,12 +246,15 @@ export function SegmentRenderer({
           <Pressable
             style={s.selectionBtn}
             onPress={() => { onToggleHighlight(); setSelectionVisible(false); }}
+            accessibilityRole="button"
           >
-            <Text style={s.selectionBtnText}>Highlight</Text>
+            <Text style={s.selectionBtnText}>{isHighlighted ? 'Remove highlight' : 'Highlight'}</Text>
           </Pressable>
           <Pressable
             style={s.selectionBtn}
             onPress={() => { setSelectionVisible(false); setNoteModalVisible(true); }}
+            accessibilityRole="button"
+            accessibilityLabel="Add note"
           >
             <Text style={s.selectionBtnText}>Note</Text>
           </Pressable>
@@ -274,7 +281,12 @@ export function SegmentRenderer({
         animationType="slide"
         onRequestClose={() => setNoteModalVisible(false)}
       >
-        <View style={s.modalOverlay}>
+        {/* Lift the sheet above the on-screen keyboard — otherwise the input,
+            Cancel and Save all sit behind it. Android resizes the window itself. */}
+        <KeyboardAvoidingView
+          style={s.modalOverlay}
+          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+        >
           <View style={s.modalCard}>
             <Text style={s.modalTitle}>Add note</Text>
             <TextInput
@@ -286,10 +298,16 @@ export function SegmentRenderer({
               autoFocus
             />
             <View style={s.modalButtons}>
-              <Pressable onPress={() => { setNoteModalVisible(false); setNoteText(''); }}>
+              <Pressable
+                style={s.modalBtnHit}
+                onPress={() => { setNoteModalVisible(false); setNoteText(''); }}
+                accessibilityRole="button"
+              >
                 <Text style={[s.modalBtn, { color: colors.muted }]}>Cancel</Text>
               </Pressable>
               <Pressable
+                style={s.modalBtnHit}
+                accessibilityRole="button"
                 onPress={() => {
                   if (noteText.trim()) {
                     onAddNote(noteText.trim());
@@ -302,7 +320,7 @@ export function SegmentRenderer({
               </Pressable>
             </View>
           </View>
-        </View>
+        </KeyboardAvoidingView>
       </Modal>
     </View>
   );
@@ -314,6 +332,9 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       paddingVertical: 4,
       paddingHorizontal: 4,
       borderRadius: 6,
+    },
+    heLineSelected: {
+      backgroundColor: c.accentSoft,
     },
     heLineHighlighted: {
       backgroundColor: c.goldFill,
@@ -508,8 +529,10 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     faqToggle: {
       marginTop: 8,
       alignSelf: 'flex-start',
-      paddingVertical: 5,
-      paddingHorizontal: 10,
+      minHeight: 36,
+      justifyContent: 'center',
+      paddingVertical: 8,
+      paddingHorizontal: 14,
       borderRadius: 20,
       borderWidth: 1,
       borderStyle: 'dashed',
@@ -517,8 +540,10 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     },
     faqToggleText: {
       fontFamily: Fonts.uiSemiBold,
-      fontSize: 11,
-      color: c.gold,
+      fontSize: 13,
+      // Gold text on paper is 2:1 — the gold border carries the FAQ identity,
+      // the label uses ink so it's actually readable.
+      color: c.ink,
     },
     faqBody: {
       width: '100%',
@@ -566,8 +591,10 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     insightToggle: {
       marginTop: 10,
       alignSelf: 'flex-start',
-      paddingVertical: 6,
-      paddingHorizontal: 11,
+      minHeight: 36,
+      justifyContent: 'center',
+      paddingVertical: 8,
+      paddingHorizontal: 14,
       borderRadius: 20,
       borderWidth: 1,
       borderStyle: 'dashed',
@@ -575,7 +602,7 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     },
     insightToggleText: {
       fontFamily: Fonts.uiSemiBold,
-      fontSize: 12,
+      fontSize: 13,
       color: c.accent,
     },
     insightBody: {
@@ -607,13 +634,16 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
       alignSelf: 'center',
     },
     selectionBtn: {
-      paddingVertical: 8,
+      minHeight: 44,
+      minWidth: 44,
+      alignItems: 'center',
+      justifyContent: 'center',
       paddingHorizontal: 14,
       borderRadius: 8,
     },
     selectionBtnText: {
       fontFamily: Fonts.uiSemiBold,
-      fontSize: 12.5,
+      fontSize: 14,
       color: c.surface,
     },
     noteChip: {
@@ -660,8 +690,15 @@ function makeStyles(c: ColorPalette, heSize: number, enSize: number) {
     modalButtons: {
       flexDirection: 'row',
       justifyContent: 'flex-end',
-      gap: 20,
-      marginTop: 12,
+      gap: 8,
+      marginTop: 8,
+    },
+    modalBtnHit: {
+      minHeight: 44,
+      minWidth: 64,
+      paddingHorizontal: 12,
+      alignItems: 'center',
+      justifyContent: 'center',
     },
     modalBtn: {
       fontFamily: Fonts.uiSemiBold,

@@ -108,13 +108,13 @@ export default function Onboarding() {
             <Text style={[s.welcomeBody, { color: colors.ink }]}>
               A faithful companion for daily tefillah — the complete weekday liturgy with Rabbi Feigenbaum's insights, built for teens finding their footing in davening.
             </Text>
-            <Pressable
+            <Pressable accessibilityRole="button"
               style={[s.primaryBtn, { backgroundColor: colors.accent }]}
               onPress={() => { setFullSetup(true); setStep('location'); }}
             >
               <Text style={s.primaryBtnText}>Let's set it up</Text>
             </Pressable>
-            <Pressable style={s.ghostBtn} onPress={() => { setFullSetup(false); setStep('location'); }}>
+            <Pressable accessibilityRole="button" style={s.ghostBtn} onPress={() => { setFullSetup(false); setStep('location'); }}>
               <Text style={[s.ghostBtnText, { color: colors.muted }]}>Use defaults</Text>
             </Pressable>
           </View>
@@ -134,13 +134,13 @@ export default function Onboarding() {
                 <Text style={[s.reviewNote, { color: colors.muted }]}>
                   You can change this anytime in Settings.
                 </Text>
-                <Pressable
+                <Pressable accessibilityRole="button"
                   style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 8 }]}
                   onPress={leaveLocationStep}
                 >
                   <Text style={s.primaryBtnText}>{fullSetup ? 'Next →' : 'Start davening →'}</Text>
                 </Pressable>
-                <Pressable style={s.ghostBtn} onPress={() => { setResolved(null); setLocationDenied(true); }}>
+                <Pressable accessibilityRole="button" style={s.ghostBtn} onPress={() => { setResolved(null); setLocationDenied(true); }}>
                   <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not the right place? Search instead</Text>
                 </Pressable>
               </>
@@ -151,7 +151,7 @@ export default function Onboarding() {
                   Pick the closest city and we'll use it for your zmanim.
                 </Text>
                 <CitySearch colors={colors} onSelect={handlePickCity} />
-                <Pressable style={s.ghostBtn} onPress={leaveLocationStep}>
+                <Pressable accessibilityRole="button" style={s.ghostBtn} onPress={leaveLocationStep}>
                   <Text style={[s.ghostBtnText, { color: colors.muted }]}>Not now</Text>
                 </Pressable>
               </>
@@ -170,7 +170,7 @@ export default function Onboarding() {
                 >
                   <Text style={s.primaryBtnText}>{locating ? 'Locating…' : 'Allow location'}</Text>
                 </Pressable>
-                <Pressable
+                <Pressable accessibilityRole="button"
                   style={s.ghostBtn}
                   onPress={() => {
                     // Supersede any in-flight resolve — a late-arriving
@@ -218,7 +218,7 @@ export default function Onboarding() {
                 <Text style={[s.comfortDesc, { color: colors.muted }]}>{opt.description}</Text>
               </Pressable>
             ))}
-            <Pressable style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 24 }]} onPress={() => setStep('review')}>
+            <Pressable accessibilityRole="button" style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 24 }]} onPress={() => setStep('review')}>
               <Text style={s.primaryBtnText}>Next →</Text>
             </Pressable>
           </View>
@@ -258,7 +258,7 @@ export default function Onboarding() {
                 <Text style={[
                   s.themeBtnText,
                   { color: colors.muted },
-                  theme === t && { color: '#FFFFFF' },
+                  theme === t && { color: colors.onAccent },
                 ]}>
                   {t.charAt(0).toUpperCase() + t.slice(1)}
                 </Text>
@@ -280,7 +280,7 @@ export default function Onboarding() {
             )}
           </View>
 
-          <Pressable style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 24 }]} onPress={finish}>
+          <Pressable accessibilityRole="button" style={[s.primaryBtn, { backgroundColor: colors.accent, marginTop: 24 }]} onPress={finish}>
             <Text style={s.primaryBtnText}>Start davening →</Text>
           </Pressable>
         </View>
@@ -299,8 +299,8 @@ function makeStyles(c: ColorPalette) {
     welcomeTitle: { fontFamily: Fonts.uiSemiBold, fontSize: 18, textAlign: 'center', marginBottom: 16 },
     welcomeBody: { fontFamily: Fonts.english, fontSize: 16, lineHeight: 25, textAlign: 'center', marginBottom: 36 },
     primaryBtn: { borderRadius: 14, paddingVertical: 15, paddingHorizontal: 32, alignItems: 'center', width: '100%' },
-    primaryBtnText: { fontFamily: Fonts.uiSemiBold, fontSize: 16, color: '#FFFFFF' },
-    ghostBtn: { marginTop: 12, padding: 12, alignItems: 'center' },
+    primaryBtnText: { fontFamily: Fonts.uiSemiBold, fontSize: 16, color: c.onAccent },
+    ghostBtn: { marginTop: 12, minHeight: 44, justifyContent: 'center', padding: 12, alignItems: 'center' },
     ghostBtnText: { fontFamily: Fonts.ui, fontSize: 14 },
     stepTitle: { fontFamily: Fonts.uiSemiBold, fontSize: 22, marginBottom: 8 },
     reviewNote: { fontFamily: Fonts.ui, fontSize: 13, marginBottom: 20 },
@@ -310,7 +310,7 @@ function makeStyles(c: ColorPalette) {
     comfortDesc: { fontFamily: Fonts.ui, fontSize: 13 },
     controlLabel: { fontFamily: Fonts.uiSemiBold, fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase' as const, marginBottom: 8 },
     themeRow: { flexDirection: 'row', gap: 8 },
-    themeBtn: { flex: 1, paddingVertical: 10, borderRadius: 10, alignItems: 'center' },
+    themeBtn: { flex: 1, minHeight: 44, justifyContent: 'center', paddingVertical: 10, borderRadius: 10, alignItems: 'center' },
     themeBtnText: { fontFamily: Fonts.uiMedium, fontSize: 13 },
     previewCard: { borderRadius: 12, padding: 16, borderWidth: 1 },
     previewHe: { fontFamily: Fonts.hebrew, textAlign: 'right', writingDirection: 'rtl' as const },

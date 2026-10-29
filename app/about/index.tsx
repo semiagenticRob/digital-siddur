@@ -42,7 +42,7 @@ export default function AboutScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <ScrollView contentContainerStyle={s.body}>
-          <Pressable
+          <Pressable hitSlop={10}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"

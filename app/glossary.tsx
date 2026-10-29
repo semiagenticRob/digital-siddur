@@ -20,7 +20,7 @@ export default function GlossaryScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <View style={s.header}>
-          <Pressable
+          <Pressable hitSlop={10}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -38,6 +38,7 @@ export default function GlossaryScreen() {
             <Pressable
               key={section.letter}
               onPress={() => jumpTo(i)}
+              hitSlop={{ top: 2, bottom: 2 }}
               accessibilityRole="button"
               accessibilityLabel={`Jump to ${section.letter}`}
               style={[s.alphaBtn, { backgroundColor: colors.surface, borderColor: colors.line }]}
@@ -81,9 +82,9 @@ function makeStyles(c: ColorPalette) {
     backText: { fontFamily: Fonts.uiMedium, fontSize: 15, marginBottom: 8 },
     title: { fontFamily: Fonts.uiSemiBold, fontSize: 26 },
     sub: { fontFamily: Fonts.ui, fontSize: 13, marginTop: 2 },
-    alphaBar: { flexGrow: 0, marginTop: 8 },
-    alphaContent: { paddingHorizontal: 16, gap: 6 },
-    alphaBtn: { minWidth: 32, alignItems: 'center', borderRadius: 8, borderWidth: 1, paddingVertical: 6, paddingHorizontal: 4 },
+    alphaBar: { flexGrow: 0, flexShrink: 0, marginTop: 8 },
+    alphaContent: { paddingHorizontal: 16, paddingVertical: 4, gap: 6, alignItems: 'center' },
+    alphaBtn: { minWidth: 40, minHeight: 40, alignItems: 'center', justifyContent: 'center', borderRadius: 8, borderWidth: 1, paddingHorizontal: 6 },
     alphaText: { fontFamily: Fonts.uiSemiBold, fontSize: 13 },
     list: { paddingHorizontal: 16, paddingBottom: 40 },
     sectionLabel: {

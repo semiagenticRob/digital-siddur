@@ -42,8 +42,8 @@ function makeStyles(c: ColorPalette) {
       padding: 3,
     },
     btn: {
-      width: 36,
-      height: 30,
+      width: 44,
+      height: 40,
       alignItems: 'center',
       justifyContent: 'center',
       borderRadius: 8,

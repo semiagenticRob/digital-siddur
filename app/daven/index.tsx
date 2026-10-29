@@ -167,7 +167,7 @@ function makeStyles(colors: ColorPalette) {
       paddingBottom: 12,
     },
     title: { fontFamily: Fonts.uiSemiBold, fontSize: 28 },
-    iconBtn: { padding: 8 },
+    iconBtn: { minWidth: 44, minHeight: 44, alignItems: 'center', justifyContent: 'center' },
     headerActions: { flexDirection: 'row', alignItems: 'center' },
     list: { paddingHorizontal: 16, paddingBottom: 40 },
     sectionLabel: {

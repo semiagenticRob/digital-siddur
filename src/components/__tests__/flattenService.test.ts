@@ -141,3 +141,30 @@ describe('flattenService', () => {
     expect(optPositions(items)).toEqual(['start', 'end']);
   });
 });
+
+describe('annotated prayer lines in English-only mode', () => {
+  const prayer = { id: 'p1', type: 'prayer', heText: 'בָּרוּךְ' } as Segment;
+
+  test('stay visible when highlighted or noted', () => {
+    expect(isSegmentVisible(prayer, 'en', () => true)).toBe(true);
+  });
+
+  test('stay hidden when not annotated', () => {
+    expect(isSegmentVisible(prayer, 'en', () => false)).toBe(false);
+    expect(isSegmentVisible(prayer, 'en')).toBe(false);
+  });
+
+  test('flattenService keeps only the annotated prayer line', () => {
+    const service = {
+      id: 's', heTitle: '', enTitle: '',
+      groups: [{ title: 'g', prayers: [{ id: 'pr', heTitle: '', enTitle: '', segments: [
+        prayer,
+        { id: 'p2', type: 'prayer', heText: 'אַתָּה' } as Segment,
+      ] }] }],
+    } as unknown as Service;
+    const ids = flattenService(service, 'en', (id) => id === 'p1').flatMap((i) =>
+      i.kind === 'prayerHeader' ? [] : [i.segment.id]
+    );
+    expect(ids).toEqual(['p1']);
+  });
+});

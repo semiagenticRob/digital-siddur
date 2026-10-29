@@ -54,7 +54,7 @@ export default function Settings() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <View style={s.header}>
-          <Pressable
+          <Pressable hitSlop={10}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -87,7 +87,7 @@ export default function Settings() {
                 <Text style={[
                   s.themeBtnText,
                   { color: colors.muted },
-                  theme === t && { color: '#FFFFFF' },
+                  theme === t && { color: colors.onAccent },
                 ]}>
                   {t.charAt(0).toUpperCase() + t.slice(1)}
                 </Text>
@@ -119,7 +119,7 @@ export default function Settings() {
                 <Text style={[
                   s.themeBtnText,
                   { color: colors.muted },
-                  comfortLevel === level && { color: '#FFFFFF' },
+                  comfortLevel === level && { color: colors.onAccent },
                 ]}>
                   {level.charAt(0).toUpperCase() + level.slice(1)}
                 </Text>
@@ -214,7 +214,7 @@ function makeStyles(c: ColorPalette) {
     switchRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
     switchLabel: { fontFamily: Fonts.uiMedium, fontSize: 14 },
     sectionHint: { fontFamily: Fonts.ui, fontSize: 12, marginTop: 8 },
-    themeBtn: { flex: 1, paddingVertical: 10, borderRadius: 10, alignItems: 'center' },
+    themeBtn: { flex: 1, minHeight: 44, justifyContent: 'center', paddingVertical: 10, borderRadius: 10, alignItems: 'center' },
     themeBtnText: { fontFamily: Fonts.uiMedium, fontSize: 13 },
     resetBtn: { padding: 14, borderRadius: 12, borderWidth: 1, alignItems: 'center' },
     resetBtnText: { fontFamily: Fonts.uiMedium, fontSize: 14 },

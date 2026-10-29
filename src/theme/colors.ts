@@ -5,6 +5,8 @@ export const LightColors = {
   muted: '#6C7180',
   line: '#E4DECF',
   accent: '#34467F',
+  // Text on a solid accent fill (primary buttons, selected pills).
+  onAccent: '#FFFFFF',
   accentSoft: '#EBEEF8',
   gold: '#D9A53B',
   goldFill: 'rgba(217,165,59,0.30)',
@@ -20,6 +22,8 @@ export const DarkColors = {
   muted: '#969CAB',
   line: '#2A2F3C',
   accent: '#94A6E2',
+  // Dark mode's accent is light, so text on it must be dark (white is 2.4:1).
+  onAccent: '#11141C',
   accentSoft: '#222a3f',
   gold: '#E6B651',
   goldFill: 'rgba(230,182,81,0.20)',
@@ -38,6 +42,7 @@ export const SepiaColors = {
   muted: '#7A6C52',
   line: '#E0D3B4',
   accent: '#7C5A21',
+  onAccent: '#FFFFFF',
   accentSoft: '#EFE3C6',
   gold: '#C89032',
   goldFill: 'rgba(200,144,50,0.30)',
