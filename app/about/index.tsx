@@ -42,7 +42,7 @@ export default function AboutScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <ScrollView contentContainerStyle={s.body}>
-          <Pressable hitSlop={10}
+          <Pressable style={s.backBtn}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -93,6 +93,8 @@ function makeStyles(c: ColorPalette) {
     screen: { flex: 1 },
     safe: { flex: 1 },
     body: { paddingHorizontal: 16, paddingTop: 16, paddingBottom: 40 },
+    // A real 44pt target (hitSlop alone fails: the title below captures taps).
+    backBtn: { alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center' },
     backText: { fontFamily: Fonts.uiMedium, fontSize: 15, marginBottom: 8, paddingHorizontal: 4 },
     title: { fontFamily: Fonts.uiSemiBold, fontSize: 26, paddingHorizontal: 4 },
     sub: { fontFamily: Fonts.ui, fontSize: 13, lineHeight: 19, marginTop: 4, paddingHorizontal: 4 },

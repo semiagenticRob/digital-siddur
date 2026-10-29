@@ -20,7 +20,7 @@ export default function BookPieceScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <ScrollView contentContainerStyle={s.body} showsVerticalScrollIndicator={false}>
-          <Pressable hitSlop={10}
+          <Pressable style={s.backBtn}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/about' as any))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -54,6 +54,8 @@ function makeStyles(c: ColorPalette) {
     screen: { flex: 1 },
     safe: { flex: 1 },
     body: { paddingHorizontal: 22, paddingTop: 16, paddingBottom: 80 },
+    // A real 44pt target (hitSlop alone fails: the title below captures taps).
+    backBtn: { alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center' },
     backText: { fontFamily: Fonts.uiMedium, fontSize: 15, marginBottom: 12 },
     title: { fontFamily: Fonts.englishBold, fontSize: 23, lineHeight: 30, marginBottom: 4 },
     subtitle: { fontFamily: Fonts.englishItalic, fontSize: 14.5, marginBottom: 14 },

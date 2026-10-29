@@ -94,6 +94,12 @@ export const ServiceScroll = forwardRef<ServiceScrollHandle, Props>(
       <FlashList
         ref={listRef}
         data={items}
+        // The note sheet is a Modal rendered from inside a list cell, so in
+        // React's tree it lives inside this ScrollView. With the default
+        // ("never"), a tap on the sheet's Save/Cancel while the keyboard is
+        // open is captured here and only dismisses the keyboard — Save needs
+        // a second tap. "handled" lets the button receive the tap.
+        keyboardShouldPersistTaps="handled"
         keyExtractor={(item, i) =>
           item.kind === 'prayerHeader'
             ? `header-${item.prayerId}`

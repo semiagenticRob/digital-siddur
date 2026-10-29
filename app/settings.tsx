@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { View, Text, Pressable, StyleSheet, Switch } from 'react-native';
+import { View, Text, Pressable, StyleSheet, Switch, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { usePreferencesStore, ComfortLevel } from '../src/store/preferences';
@@ -53,8 +53,16 @@ export default function Settings() {
   return (
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
+        {/* Scrolls: on smaller phones (and with city results open) the page is
+            taller than the screen. persistTaps so a city result is tappable
+            while the keyboard is up. */}
+        <ScrollView
+          contentContainerStyle={s.scroll}
+          keyboardShouldPersistTaps="handled"
+          showsVerticalScrollIndicator={false}
+        >
         <View style={s.header}>
-          <Pressable hitSlop={10}
+          <Pressable style={s.backBtn}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -190,6 +198,7 @@ export default function Settings() {
             <Text style={[s.resetBtnText, { color: colors.muted }]}>Reset setup wizard</Text>
           </Pressable>
         </View>
+        </ScrollView>
       </SafeAreaView>
     </View>
   );
@@ -199,7 +208,10 @@ function makeStyles(c: ColorPalette) {
   return StyleSheet.create({
     screen: { flex: 1 },
     safe: { flex: 1, paddingHorizontal: 20 },
+    scroll: { paddingBottom: 40 },
     header: { paddingTop: 16, paddingBottom: 20 },
+    // A real 44pt target (hitSlop alone fails: the title below captures taps).
+    backBtn: { alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center' },
     backText: { fontFamily: Fonts.uiMedium, fontSize: 15, marginBottom: 8 },
     title: { fontFamily: Fonts.uiSemiBold, fontSize: 26 },
     section: { marginBottom: 24 },
@@ -218,7 +230,7 @@ function makeStyles(c: ColorPalette) {
     themeBtnText: { fontFamily: Fonts.uiMedium, fontSize: 13 },
     resetBtn: { padding: 14, borderRadius: 12, borderWidth: 1, alignItems: 'center' },
     resetBtnText: { fontFamily: Fonts.uiMedium, fontSize: 14 },
-    locateBtn: { paddingVertical: 12, borderRadius: 10, alignItems: 'center', marginBottom: 10 },
+    locateBtn: { minHeight: 44, justifyContent: 'center', paddingVertical: 12, borderRadius: 10, alignItems: 'center', marginBottom: 10 },
     locateBtnText: { fontFamily: Fonts.uiMedium, fontSize: 14 },
     zmanimFooter: { fontFamily: Fonts.ui, fontSize: 11.5, marginTop: 12 },
   });

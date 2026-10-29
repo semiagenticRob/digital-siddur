@@ -20,7 +20,7 @@ export default function GlossaryScreen() {
     <View style={[s.screen, { backgroundColor: colors.paper }]}>
       <SafeAreaView style={s.safe}>
         <View style={s.header}>
-          <Pressable hitSlop={10}
+          <Pressable style={s.backBtn}
             onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))}
             accessibilityRole="button"
             accessibilityLabel="Go back"
@@ -79,6 +79,8 @@ function makeStyles(c: ColorPalette) {
     screen: { flex: 1 },
     safe: { flex: 1 },
     header: { paddingTop: 16, paddingHorizontal: 20, paddingBottom: 6 },
+    // A real 44pt target (hitSlop alone fails: the title below captures taps).
+    backBtn: { alignSelf: 'flex-start', minHeight: 44, justifyContent: 'center' },
     backText: { fontFamily: Fonts.uiMedium, fontSize: 15, marginBottom: 8 },
     title: { fontFamily: Fonts.uiSemiBold, fontSize: 26 },
     sub: { fontFamily: Fonts.ui, fontSize: 13, marginTop: 2 },
