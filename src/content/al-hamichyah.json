@@ -16,13 +16,13 @@
               "id": "s-am-header",
               "type": "header",
               "heText": "בְּרָכָה מֵעֵין שָׁלֹשׁ—עַל הַמִּחְיָה",
-              "enText": "You Ate a Piece of Cake, Had Some Wine, and/or Fruit from the Seven Species? It's Also a Miracle like Manna from Heaven! Say Thank You!",
+              "enText": "You Ate a Piece of Cake, Had Some Wine, and/or Fruit from the Seven Species? It’s Also a Miracle like Manna from Heaven! Say Thank You!",
               "enTop": true
             },
             {
               "id": "s-am-intro",
               "type": "section_intro",
-              "enText": "Yes, even cake is a miracle! See the Introduction to Birkas Ha'mazon [here](section:bm-intro)."
+              "enText": "Yes, even cake is a miracle! See Introduction to Birkas Ha’mazon [here](section:bm-intro)."
             },
             {
               "id": "s-am-prayer-1",
@@ -32,7 +32,7 @@
             {
               "id": "s-am-commentary-1",
               "type": "commentary",
-              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֱלֹהֵינוּ**—You take care of us; **מֶלֶךְ הָעוֹלָם**—and You rule the entire world. Thank you for: the nourishment and sustenance/the vine and fruit of the vine/the tree and the fruit of the tree;"
+              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **אֱלֹהֵינוּ**—You take care of us; **מֶלֶךְ הָעוֹלָם**—and You rule the entire world. Thank you for: the nourishment and sustenance/the vine and fruit of the vine/the tree and"
             },
             {
               "id": "s-am-prayer-2",
@@ -42,7 +42,7 @@
             {
               "id": "s-am-commentary-2",
               "type": "commentary",
-              "enText": "**וְעַל תְּנוּבַת הַשָּׂדֶה**—and for the produce of the field, and for the precious, good, and spacious land that You have graciously given as a heritage to our ancestors, so that they may eat of its fruit and be satiated with its goodness. Hashem, have mercy on Your nation Bnei Yisrael, on Your city Yerushalayim, on Zion where Your Divine Presence rests, on Your Mizbei'ach and on the Beis Hamikdash. Rebuild Yerushalayim speedily in our lifetime, and may You bring us up there and we will rejoice in its rebuilding! And may we eat from its fruit, be satisfied by all its goodness, and we will thank You for all that with sanctity and purity."
+              "enText": "**וְעַל תְּנוּבַת הַשָּׂדֶה**—and for the produce of the field, and for the precious, good, and spacious land that You have graciously given as a heritage to our ancestors, so that they may eat of its fruit and be satiated with its goodness. Hashem, have mercy on Your nation Bnei Yisrael, on Your city Yerushalayim, on Zion where Your Divine Presence rests, on Your Mizbei’ach and on the Beis Hamikdash. Rebuild Yerushalayim speedily in our lifetime, and may You bring us up there and we will rejoice in its rebuilding! And may we eat from its fruit, be satisfied by all its goodness, and we will thank You for all that with sanctity and purity."
             },
             {
               "id": "s-am-rubric-shabbos",
@@ -98,7 +98,7 @@
             {
               "id": "s-am-commentary-4",
               "type": "commentary",
-              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; *(and we thank You)* for the land and for: the nourishment/fruit of the vine/the fruits."
+              "enText": "**בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; *(and we thank you)* for the land and for: the nourishment/fruit of the vine/the fruits."
             }
           ]
         }

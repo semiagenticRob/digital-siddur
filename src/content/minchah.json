@@ -16,7 +16,7 @@
               "id": "min1-header-minchah",
               "type": "header",
               "heText": "מִנְחָה",
-              "enText": "Minchah"
+              "enText": "Minchah)"
             },
             {
               "id": "min1-header-hardest-time",
@@ -26,17 +26,17 @@
             {
               "id": "min1-intro-1",
               "type": "section_intro",
-              "enText": "Why is the afternoon tefillah called Minchah? Shacharis comes from שַׁחַר—morning, and Maariv comes from עֶרֶב—evening, but \"Minchah\" means a gift! (True, there was a מִנְחָה/meal offering in the afternoon, but there also was one in the morning!) In addition, Chazal attach great importance to Minchah. Moshe successfully davened to Hashem to forgive the sin of the golden calf at Minchah time (FYI: עַל equals 103, and so does מִנְחָה); and Eliyahu, in his battle against the idol worshippers, was also answered late afternoon at Minchah time. So what is the significance of Minchah and Minchah-time? *(NOTE: Though technically one can daven Minchah once it is a halachic half-hour after noon, the \"tefillah of Minchah\" was set up parallel to the Tamid Shel Bein HaArbayim, the korban that was brought right before sunset as the day ended.)*"
+              "enText": "Why is the afternoon tefillah called Minchah? Shacharis comes from שַׁחַר—morning, and Maariv comes from עֶרֶב—evening, but “Minchah” means a gift! (True, there was a מִנְחָה/meal offering in the afternoon, but there also was one in the morning!) In addition, Chazal attach great importance to Minchah. Moshe successfully davened to Hashem to forgive the sin of the golden calf at Minchah time (FYI: עַל equals 103, and so does מִנְחָה); and Eliyahu, in his battle against the idol worshippers, was also answered late afternoon at Minchah time. So what is the significance of Minchah and Minchah-time? *(NOTE: Though technically one can daven Minchah once it is a halachic half-hour after noon, the “tefillah of Minchah” was set up parallel to the Tamid Shel Bein HaArbayim, the korban that was brought right before sunset as the day ended.)*"
             },
             {
               "id": "min1-intro-2",
               "type": "section_intro",
-              "enText": "Twilight represents a time of lack of clarity and vision. Most traffic accidents happen then! When it's dark, you know it's dark, so either you turn on your headlights or you're more careful. In the morning, things are clear. But dusk/late afternoon is that in-between time. You think you can see, but it's not really that clear. We all have those times in our lives, and that is when we are most prone to stumbling and doing things we will be disappointed about in the \"morning\" when we can look back with clarity! Thus \"Minchah-time\" is the time when we most need to reconnect to Hashem. And practically, it is usually at a very inconvenient part of the day when we are really busy with a million and one things. So emotionally, it's a hard time to connect, since we lack clarity; and practically, it's a hard time to connect, since we are so busy thinking about ourselves."
+              "enText": "Twilight represents a time of lack of clarity and vision. Most traffic accidents happen then! When it’s dark, you know it’s dark, so either you turn on your headlights or you’re more careful. In the morning, things are clear. But dusk/late afternoon is that in-between time. You think you can see, but it’s not really that clear. We all have those times in our lives, and that is when we are most prone to stumbling and doing things we will be disappointed about in the “morning” when we can look back with clarity! Thus “Minchah-time” is the time when we most need to reconnect to Hashem. And practically, it is usually at a very inconvenient part of the day when we are really busy with a million and one things. So emotionally, it’s a hard time to connect, since we lack clarity; and practically, it’s a hard time to connect, since we are so busy thinking about ourselves."
             },
             {
               "id": "min1-intro-3",
               "type": "section_intro",
-              "enText": "When we stop, step back, get ahold of ourselves, and proclaim our true feelings—that אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, those who are connected to the Presence of Hashem are the happiest people—we are giving a great gift, a מִנְחָה, to Hashem, by acknowledging Him when it is hardest to do so. And really, we are giving ourselves a great gift—the peace of mind that we are not alone, no matter what is going on in our lives at this moment. The hardest time to daven is when you need to daven the most!"
+              "enText": "When we stop, step back, get ahold of ourselves, and proclaim our true feelings—that אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, those who are connected to the Presence of Hashem are the happiest people—we are giving a great gift, a מִנְחָה, to Hashem, by acknowledging Him when it is hardest to do so. And really, we are giving ourselves a great gift—the peace of mind that we are not alone, no matter what is going in our lives at this moment. The hardest time to daven is when you need to daven the most!"
             },
             {
               "id": "min1-header-i-am-happy",
@@ -47,12 +47,12 @@
               "id": "min1-header-ashrei",
               "type": "header",
               "heText": "אַשְׁרֵי",
-              "enText": "Ashrei"
+              "enText": "Ashrei,"
             },
             {
               "id": "min1-intro-ashrei",
               "type": "section_intro",
-              "enText": "אַשְׁרֵי follows the aleph-beis. The significance is that in all areas of our life (aleph to tav), personally and nationally, we need Hashem and His help, and we are supported by Him, and His providence is constant. And this is true not only when our lives seem clear and bright (Shacharis—the morning), but also when things seem to be getting dark and not so bright or clear (Minchah—as the sun sets). Because of its importance, we will explain it line by line."
+              "enText": "אַשְׁרֵי follows the aleph-beis. The significance is that in all areas of our life (aleph to tav), personally and nationally, we need Hashem and His help, we are supported by Him, and His providence is constant. And this is true not only when our lives seem clear and bright (Shacharis—the morning), but also when things seem to be getting dark and not so bright or clear (Minchah—as the sun sets). Because of its importance, we will explain it line by line."
             },
             {
               "id": "min1-rubric-different-insights",
@@ -62,12 +62,12 @@
             {
               "id": "min1-prayer-ashrei-yoshvei",
               "type": "prayer",
-              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה: אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיהוה אֱלֹהָיו:"
+              "heText": "אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ, עוֹד יְהַלְלוּךָ סֶּלָה: אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ, אַשְׁרֵי הָעָם שֶׁיְהֹוָה אֱלֹהָיו:"
             },
             {
               "id": "min1-commentary-ashrei-yoshvei",
               "type": "commentary",
-              "enText": "**אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ**—Happy are those who (wherever they are) are living in the house of Hashem *(are living a meaningful and spiritually growing life)*; **עוֹד יְהַלְלוּךָ סֶּלָה**—they will constantly praise You *(since they see all the circumstances of their life as opportunities for growth)*. **אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ**—Happy and fortunate are we, the nation (Bnei Yisrael) that has all this *(glorious history and great mission)*; **אַשְׁרֵי הָעָם שֶׁיהוה אֱלֹהָיו**—happy and fortunate are we, the nation (Bnei Yisrael) that has Hashem as our personal God Who takes care of us."
+              "enText": "**אַשְׁרֵי יוֹשְׁבֵי בֵיתֶךָ**—Happy are those who (wherever they are) are living in the house of Hashem *(are living a meaningful and spiritually growing life)*; **עוֹד יְהַלְלוּךָ סֶּלָה**—they will constantly praise You *(since they see all the circumstances of their life as opportunities for growth)*. **אַשְׁרֵי הָעָם שֶׁכָּכָה לּוֹ**—Happy and fortunate are we, the nation (Bnei Yisrael) that has all this *(glorious history and great mission)*; **אַשְׁרֵי הָעָם שֶׁיְהֹוָה אֱלֹהָיו**—happy and fortunate are we, the nation (Bnei Yisrael) that has Hashem as our personal God Who takes care of us."
             },
             {
               "id": "min1-prayer-tehillah-ledavid",
@@ -92,12 +92,12 @@
             {
               "id": "min1-prayer-gadol",
               "type": "prayer",
-              "heText": "גָּדוֹל יהוה וּמְהֻלָּל מְאֹד, וְלִגְדֻלָּתוֹ אֵין חֵקֶר:"
+              "heText": "גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד, וְלִגְדֻלָּתוֹ אֵין חֵקֶר:"
             },
             {
               "id": "min1-commentary-gadol",
               "type": "commentary",
-              "enText": "**גָּדוֹל יהוה וּמְהֻלָּל מְאֹד**—(As much as we will thank and praise Hashem, and proclaim) Hashem is \"great\" and is \"extremely praised\"; **וְלִגְדֻלָּתוֹ אֵין חֵקֶר**—(the truth is that) the greatness of Hashem is beyond our real comprehension *(\"the more you know, the more you realize that you don't know\")*."
+              "enText": "**גָּדוֹל יְהֹוָה וּמְהֻלָּל מְאֹד**—(As much as we will thank and praise Hashem, and proclaim) Hashem is “great” and is “extremely praised”; **וְלִגְדֻלָּתוֹ אֵין חֵקֶר**—(the truth is that) the greatness of Hashem is beyond our real comprehension *(“the more you know, the more you realize that you don’t know”)*."
             },
             {
               "id": "min1-prayer-dor-ledor",
@@ -142,32 +142,32 @@
             {
               "id": "min1-prayer-chanun",
               "type": "prayer",
-              "heText": "חַנּוּן וְרַחוּם יהוה, אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד:"
+              "heText": "חַנּוּן וְרַחוּם יְהֹוָה, אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד:"
             },
             {
               "id": "min1-commentary-chanun",
               "type": "commentary",
-              "enText": "**חַנּוּן וְרַחוּם יהוה**—Hashem is gracious (giving us goodness more than we deserve) and merciful; (and that is apparent in the fact that He is) **אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד**—slow to anger, and thus shows His true greatness through His abundant chessed."
+              "enText": "**חַנּוּן וְרַחוּם יְהֹוָה**—Hashem is gracious (giving us goodness more than we deserve) and merciful; (and that is apparent in the fact that He is) **אֶרֶךְ אַפַּיִם וּגְדָל חָסֶד**—slow to anger, and thus shows His true greatness through His abundant chessed."
             },
             {
               "id": "min1-prayer-tov",
               "type": "prayer",
-              "heText": "טוֹב יהוה לַכֹּל, וְרַחֲמָיו עַל כָּל מַעֲשָׂיו:"
+              "heText": "טוֹב יְהֹוָה לַכֹּל, וְרַחֲמָיו עַל כָּל מַעֲשָׂיו:"
             },
             {
               "id": "min1-commentary-tov",
               "type": "commentary",
-              "enText": "**טוֹב יהוה לַכֹּל**—Hashem is good to all (of humanity—even those who have not yet lived up to their potential); **וְרַחֲמָיו עַל כָּל מַעֲשָׂיו**—and His mercy extends to all that He has created *(even the smallest of the animal world)*."
+              "enText": "**טוֹב יְהֹוָה לַכֹּל**—Hashem is good to all (of humanity—even those who have not yet lived up to their potential); **וְרַחֲמָיו עַל כָּל מַעֲשָׂיו**—and His mercy extends to all that He has created *(even the smallest of the animal world)*."
             },
             {
               "id": "min1-prayer-yoducha",
               "type": "prayer",
-              "heText": "יוֹדוּךָ יהוה כָּל מַעֲשֶׂיךָ, וַחֲסִידֶיךָ יְבָרְכוּכָה:"
+              "heText": "יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ, וַחֲסִידֶיךָ יְבָרְכוּכָה:"
             },
             {
               "id": "min1-commentary-yoducha",
               "type": "commentary",
-              "enText": "**יוֹדוּךָ יהוה כָּל מַעֲשֶׂיךָ**—All of Your creations will thank You (for Your goodness); **וַחֲסִידֶיךָ יְבָרְכוּכָה**—but Your righteous ones (who have used their God-given gifts to increase sanctity and goodness into the world) will draw increased benefit from You, the Source of all blessing, and in turn (by their good deeds) they will increase blessing in Your world."
+              "enText": "**יוֹדוּךָ יְהֹוָה כָּל מַעֲשֶׂיךָ**—All of Your creations will thank You (for Your goodness); **וַחֲסִידֶיךָ יְבָרְכוּכָה**—but Your righteous ones (who have used their God-given gifts to increase sanctity and goodness into the world) will draw increased energy from You, the Source of all blessing, and in turn (by their good deeds) they will increase blessing in Your world."
             },
             {
               "id": "min1-prayer-kevod",
@@ -187,7 +187,7 @@
             {
               "id": "min1-commentary-lehodia",
               "type": "commentary",
-              "enText": "**לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו**—But when they speak to the common man, first they tell about Hashem's might and open miracles (since that is easy for people to see); **וּכְבוֹד הֲדַר מַלְכוּתוֹ**—and (from the open miracles they) then explain to the common people how to see the Hand of Hashem in the daily miracles of \"nature.\""
+              "enText": "**לְהוֹדִיעַ לִבְנֵי הָאָדָם גְּבוּרֹתָיו**—But when they speak to the common man, first they tell about Hashem’s might and open miracles (since that is easy for people to see); **וּכְבוֹד הֲדַר מַלְכוּתוֹ**—and (from the open miracles they) then explain to the common people how to see the Hand of Hashem in the daily miracles of “nature.”"
             },
             {
               "id": "min1-prayer-malchuscha",
@@ -197,22 +197,22 @@
             {
               "id": "min1-commentary-malchuscha",
               "type": "commentary",
-              "enText": "**מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים**—Your Kingship is over all the \"worlds\" (the multitude of spiritual spheres and worlds that are beyond our comprehension); and **וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר**—Your Rulership spans eternity and governs each unique generation (in its own special role in Your master plan, all of which is also beyond our human comprehension)."
+              "enText": "**מַלְכוּתְךָ מַלְכוּת כָּל עֹלָמִים**—Your Kingship is over all the “worlds” (the multitude of spiritual spheres and worlds that are beyond our comprehension); and **וּמֶמְשַׁלְתְּךָ בְּכָל דּוֹר וָדֹר**—Your Rulership spans eternity and governs each unique generation (in its own special role in Your master plan, all of which is also beyond our human comprehension)."
             },
             {
               "id": "min1-prayer-somech",
               "type": "prayer",
-              "heText": "סוֹמֵךְ יהוה לְכָל הַנֹּפְלִים, וְזוֹקֵף לְכָל הַכְּפוּפִים:"
+              "heText": "סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים, וְזוֹקֵף לְכָל הַכְּפוּפִים:"
             },
             {
               "id": "min1-insight-malchuscha",
               "type": "insight",
-              "enText": "It does not say that Hashem picks up the \"נֹפְלִים\"—those who have fallen, rather He is \"סוֹמֵךְ\"—He supports them. Why doesn't Hashem simply pick us up? Because falling is part of the growth process, as Shlomo HaMelech (Mishlei 24:16) tells us, \"The tzaddik falls down seven times and gets up.\" The energy involved in getting back up is needed to build our \"spiritual muscles,\" and therefore we must do that on our own. But He does support and help us!"
+              "enText": "It does not say that Hashem picks up the \"נֹפְלִים\"—those who have fallen, rather He is \"סוֹמֵךְ\"—He supports them. Why doesn’t Hashem simply pick us up? Because falling is part of the growth process, as Shlomo HaMelech (Mishlei 24:16) tells us, “The tzaddik falls down seven times and gets up.” The energy involved in getting back up is needed to build our “spiritual muscles,” and therefore we must do that on our own. But He does support and help us!"
             },
             {
               "id": "min1-commentary-somech",
               "type": "commentary",
-              "enText": "**סוֹמֵךְ יהוה לְכָל הַנֹּפְלִים**—(Though Hashem is \"busy\" ruling over the entire universe and eternity, yet still He looks after each and every one of us constantly, and) He supports every individual who has fallen (spiritually or emotionally); **וְזוֹקֵף לְכָל הַכְּפוּפִים**—and He helps every person who is bent over (from his struggles) to get up (and continue his climb toward personal perfection)."
+              "enText": "**סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים**—(Though Hashem is “busy” ruling over the entire universe and eternity, yet still He looks after each and every one of us constantly, and) He supports every individual who has fallen (spiritually or emotionally); **וְזוֹקֵף לְכָל הַכְּפוּפִים**—and He helps every person who is bent over (from his struggles) to get up (and continue his climb toward personal perfection)."
             },
             {
               "id": "min1-prayer-einei-chol",
@@ -237,27 +237,27 @@
             {
               "id": "min1-insight-poseach",
               "type": "insight",
-              "enText": "It does not say that Hashem gives \"mazon\"—sustenance. Rather it says that He gives us \"ratzon,\" which literally means He gives us \"desire\" or the \"will\" to accomplish. Sometimes, when we are down, what we need is not more stuff but rather, an infusion of the will and energy to push forward and move onward and upward."
+              "enText": "It does not say that Hashem gives “mazon” —sustenance. Rather it says that He gives “ratzon,” which literally means He gives us “desire” or the “will” to accomplish. Sometimes, when we are down, what we need is not more stuff but rather, an infusion of the will and energy to push forward and move onward and upward."
             },
             {
               "id": "min1-prayer-tzaddik",
               "type": "prayer",
-              "heText": "צַדִּיק יהוה בְּכָל דְּרָכָיו, וְחָסִיד בְּכָל מַעֲשָׂיו:"
+              "heText": "צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו, וְחָסִיד בְּכָל מַעֲשָׂיו:"
             },
             {
               "id": "min1-commentary-tzaddik",
               "type": "commentary",
-              "enText": "**צַדִּיק יהוה בְּכָל דְּרָכָיו**—All that Hashem does is just and righteous *(even though as humans it does not always appear that way to us)*; **וְחָסִיד בְּכָל מַעֲשָׂיו**—and He applies that justice with great kindness."
+              "enText": "**צַדִּיק יְהֹוָה בְּכָל דְּרָכָיו**—All that Hashem does is just and righteous *(even though as humans it does not always appear that way to us)*; **וְחָסִיד בְּכָל מַעֲשָׂיו**—and He applies that justice with great kindness."
             },
             {
               "id": "min1-prayer-karov",
               "type": "prayer",
-              "heText": "קָרוֹב יהוה לְכָל קֹרְאָיו, לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת:"
+              "heText": "קָרוֹב יְהֹוָה לְכָל קֹרְאָיו, לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת:"
             },
             {
               "id": "min1-commentary-karov",
               "type": "commentary",
-              "enText": "**קָרוֹב יהוה לְכָל קֹרְאָיו**—(In truth,) Hashem is close to all who call to Him; **לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת**—but one must call out to Hashem with emes—honesty and sincerity. *(This means that (1) you do not say one thing in your tefillos but then by your actions distance yourself from Hashem; (2) in general, whenever you speak it is with honesty, i.e., you are a \"man of your word\" and sincere; and (3) it is clear from your actions that you are sincere in your requests from Hashem, since you are doing whatever you personally can do to achieve those goals.)*"
+              "enText": "**קָרוֹב יְהֹוָה לְכָל קֹרְאָיו**—(In truth,) Hashem is close to all who call to Him; **לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת**—but one must call out to Hashem with emes—honesty and sincerity. *(This means that (1) you do not say one thing in your tefillos but then by your actions distance yourself from Hashem; (2) in general, whenever you speak it is with honesty, i.e., you are a “man of your word” and sincere; and (3) it is clear from your actions that you are sincere in your requests from Hashem, since you are doing whatever you personally can do to achieve those goals.)*"
             },
             {
               "id": "min1-prayer-retzon",
@@ -272,22 +272,22 @@
             {
               "id": "min1-prayer-shomer",
               "type": "prayer",
-              "heText": "שׁוֹמֵר יהוה אֶת כָּל אֹהֲבָיו, וְאֵת כָּל הָרְשָׁעִים יַשְׁמִיד:"
+              "heText": "שׁוֹמֵר יְהֹוָה אֶת כָּל אֹהֲבָיו, וְאֵת כָּל הָרְשָׁעִים יַשְׁמִיד:"
             },
             {
               "id": "min1-commentary-shomer",
               "type": "commentary",
-              "enText": "**שׁוֹמֵר יהוה אֶת כָּל אֹהֲבָיו**—(But) those who serve Hashem from love (מאהבה), He will protect them from troubles in the first place! (Alternatively,) for those who serve Hashem from love (מאהבה), He reserves and preserves (שׁוֹמֵר) their ultimate and eternal reward to be given in Olam Haba; **וְאֵת כָּל הָרְשָׁעִים יַשְׁמִיד**—and Hashem will destroy all evil."
+              "enText": "**שׁוֹמֵר יְהֹוָה אֶת כָּל אֹהֲבָיו**—(But) those who serve Hashem from love (מאהבה), He will protect them from troubles in the first place! (Alternatively,) for those who serve Hashem from love (מאהבה), He reserves and preserves (שׁוֹמֵר) their ultimate and eternal reward to be given in Olam Haba; **וְאֵת כָּל הָרְשָׁעִים יַשְׁמִיד**—and Hashem will destroy all evil."
             },
             {
               "id": "min1-prayer-tehillas",
               "type": "prayer",
-              "heText": "תְּהִלַּת יהוה יְדַבֶּר פִּי, וִיבָרֵךְ כָּל בָּשָׂר שֵׁם קָדְשׁוֹ לְעוֹלָם וָעֶד:"
+              "heText": "תְּהִלַּת יְהֹוָה יְדַבֶּר פִּי, וִיבָרֵךְ כָּל בָּשָׂר שֵׁם קָדְשׁוֹ לְעוֹלָם וָעֶד:"
             },
             {
               "id": "min1-commentary-tehillas",
               "type": "commentary",
-              "enText": "**תְּהִלַּת יהוה יְדַבֶּר פִּי**—May my mouth declare the praises of Hashem *(so powerfully and sincerely, that)*; **וִיבָרֵךְ**—everyone (will be so impacted by my words and actions, that they too) will bless Hashem and see Him as the Source for all blessings—for eternity!"
+              "enText": "**תְּהִלַּת יְהֹוָה יְדַבֶּר פִּי**—May my mouth declare the praises of Hashem *(so powerfully and sincerely, that)*; **וִיבָרֵךְ**—everyone (will be so impacted by my words and actions, that they too) will bless Hashem and see Him as the Source for all blessings—for eternity!"
             },
             {
               "id": "min1-prayer-vaanachnu",
@@ -297,7 +297,7 @@
             {
               "id": "min1-commentary-vaanachnu",
               "type": "commentary",
-              "enText": "(And to sum up that entire Chapter 145 in one sentence:) **וַאֲנַחְנוּ נְבָרֵךְ יָהּ**—and each of us (in our way, based on our own life experiences,) will thank and see Him as the Source of blessing in our individual lives; **מֵעַתָּה וְעַד עוֹלָם**—now and forever (no matter what will happen! To sum it all up in one word:); **הַלְלוּיָהּ**—whatever happens, praise Hashem!"
+              "enText": "(And to sum up that entire Chapter 145 in one sentence:) **וַאֲנַחְנוּ נְבָרֵךְ יָהּ**—And each of us (in our way, based on our own life experiences,) will thank Hashem and see Him as the Source of blessing in our individual lives; **מֵעַתָּה וְעַד עוֹלָם**—now and forever (no matter what will happen! To sum it all up in one word:); **הַלְלוּיָהּ**—whatever happens, praise Hashem!"
             },
             {
               "id": "min1-header-chatzi-kaddish",
@@ -362,7 +362,7 @@
             {
               "id": "min2-faq-2",
               "type": "faq",
-              "enText": "FAQ: Why should I bother making requests from Hashem? I've asked Him many times before for stuff, and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael! See Appendix 1.",
+              "enText": "FAQ: Why should I bother making requests from Hashem? I’ve asked Him many times before for stuff, and He keeps on saying no! ANSWER: Both very crucial questions for a serious Ben Torah and Bas Yisrael! See Appendix 1.",
               "xref": "Appendix 1"
             },
             {
@@ -445,7 +445,7 @@
             {
               "id": "min2-insight-ozer",
               "type": "insight",
-              "enText": "The terms *מוֹשִׁיעַ, עוֹזֵר*, and *מָגֵן* represent three levels of help that we need in our lives—from the basic to the most. **עוֹזֵר**—\"help,\" is when we are on the right track, doing what we need to do in the best way possible, and we ask Hashem to please help us that all should work out, since nothing will come to fruition without His help. **מוֹשִׁיעַ**—\"salvation,\" is when we are completely at a loss; we throw up our hands and say to Hashem, \"Save me, I have no idea what to do next!\" The third and highest level, **מָגֵן**—\"protect,\" is when we think we're on the right track and think we know what we're doing, but in truth we are completely off base! We ask Hashem, \"If I'm going in the wrong direction—protect me from myself!\""
+              "enText": "The terms *מוֹשִׁיעַ, עוֹזֵר*, and *מָגֵן* represent three levels of help that we need in our lives—from the least to the most. **עוֹזֵר**—\"help,\" is when we are on the right track, doing what we need to do in the best way possible, and we ask Hashem to please help us that all should work out, since nothing will come to fruition without His help. **מוֹשִׁיעַ**—\"salvation,\" is when we are completely at a loss; we throw up our hands and say to Hashem, “Save me, I have no idea what to do next!” The third and highest level, **מָגֵן**—\"protect,\" is when we think we’re on the right track and think we know what we’re doing, but in truth we are completely off base! We ask Hashem, “If I’m going in the wrong direction—protect me from myself!”"
             },
             {
               "id": "min2-commentary-melech-ozer",
@@ -522,7 +522,7 @@
             {
               "id": "min2-commentary-mechalkel",
               "type": "commentary",
-              "enText": "**מְכַלְכֵּל חַיִּים בְּחֶסֶד**—You take care of us with Your kindness; and with Your great mercy You revive the dead (literally, Techiyas Hameisim, and You also revive those who are near physical or spiritual death); You support those who have fallen (physically and spiritually); You heal the sick (both physically and emotionally ill) and free those in prison (whether in real prisons or trapped in their own sense of limitations); and You keep the covenant You made with our ancestors. There is no other power like You at all; You have total control over our lives and our ultimate salvation. (And that is why we are turning to You and only You with the upcoming requests in our Shemoneh Esrei.)"
+              "enText": "**מְכַלְכֵּל חַיִּים בְּחֶסֶד**—You take care of us with Your kindness; and with Your great mercy You revive the dead (literally, Techiyas Hameisim, and You also save those who are near physical or spiritual death); You support those who have fallen (physically and spiritually); You heal the sick (both physically and emotionally ill) and free those in prison (whether in real prisons or trapped in their own sense of limitations); and You keep the covenant You made with our ancestors. There is no other power like You at all; You have total control over our lives and our ultimate salvation. (And that is why we are turning to You and only You with the upcoming requests in our Shemoneh Esrei.)"
             },
             {
               "id": "min2-rubric-aseres-yemei-mi-chamocha",
@@ -569,7 +569,7 @@
             {
               "id": "min2-commentary-kedushah-intro",
               "type": "commentary",
-              "enText": "Unlike angels who have a higher understanding of Hashem, we humans cannot understand \"Who\" Hashem is—His very essence (represented by the word \"אַתָּה\"). All we can perceive is what He does—referred to as \"שֵׁם.\" Nevertheless, in Kedushah we will praise Hashem like the angels do. Since we can only do this when we are at the level of a tzibbur—a unified community—we therefore only say this with a minyan."
+              "enText": "Unlike angels who have a higher understanding of Hashem, we humans cannot understand “Who” Hashem is—His very essence (represented by the word \"אַתָּה\"). All we can perceive is what He does—referred to as \"שֵׁם.\" Nevertheless, in Kedushah we will praise Hashem like the angels do. Since we can only do this when we are at the level of a tzibbur—a unified community—we therefore only say this with a minyan."
             },
             {
               "id": "min2-prayer-nekadeish",
@@ -579,7 +579,7 @@
             {
               "id": "min2-commentary-nekadeish",
               "type": "commentary",
-              "enText": "**נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם**—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; **כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם**—just like the angels declare the kedushah of \"אַתָּה\"—the essence of Hashem. **וְקָרָא זֶה אֶל זֶה וְאָמַר**—As the Navi tells us; that one angel calls to the other (so that they all praise Hashem in unison) and say:"
+              "enText": "**נְקַדֵּשׁ אֶת שִׁמְךָ בָּעוֹלָם**—Let us declare the kedushah of \"שֵׁם\"—all that Hashem does in this world; **כְּשֵׁם שֶׁמַּקְדִּישִׁים אוֹתוֹ בִּשְׁמֵי מָרוֹם**—just like the angels declare the kedushah of \"אַתָּה\"—the essence of Hashem. **וְקָרָא זֶה אֶל זֶה וְאָמַר**—that one angel calls to the other (so that they all praise Hashem in unison) and say:"
             },
             {
               "id": "min2-prayer-kadosh",
@@ -675,7 +675,7 @@
             {
               "id": "min2-commentary-atah-kadosh",
               "type": "commentary",
-              "enText": "**אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ**—You, Hashem, are *קָדוֹשׁ*, separate and far removed from this physical world, and all that we do You do (*שֵׁם*) is beyond our understanding. But we, Bnei Yisrael, are also *קְדוֹשִׁים*, separate and removed from the values and the norms of the regular material world (look at the miracle of our survival! And therefore, even though many times what happens to us seems not to make sense)—we, Your people, praise and thank You every day; **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָאֵל הַקָּדוֹשׁ**—the Almighty, the Kadosh One. (During Aseres Yemei Teshuvah say instead: **הַמֶּלֶךְ הַקָּדוֹשׁ**—the King, the Kadosh One.) (If you forgot—see Appendix 12:1)",
+              "enText": "**אַתָּה קָדוֹשׁ, וְשִׁמְךָ קָדוֹשׁ**—You, Hashem, are *קָדוֹשׁ*, separate and far removed from this physical world, and all that we see You do (*שֵׁם*) is beyond our understanding. But we, Bnei Yisrael, are also *קְדוֹשִׁים*, separate and removed from the values and the norms of the regular material world (look at the miracle of our survival! And therefore, even though many times what happens to us seems not to make sense)—we, Your people, praise and thank You every day; **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָאֵל הַקָּדוֹשׁ**—the Almighty, the Kadosh One. ( **הַמֶּלֶךְ הַקָּדוֹשׁ**—the King, the Kadosh One.) (If you forgot—see Appendix 12:1)",
               "condition": "During Aseres Yemei Teshuvah",
               "xref": "Appendix 12:1"
             },
@@ -747,7 +747,7 @@
             {
               "id": "min2-faq-selichah",
               "type": "faq",
-              "enText": "FAQ: But I keep on messing up! Maybe I should just give up. I've tried so many times to do the right thing, and yet I keep on failing! ANSWER: Good question! Everyone feels that way sometimes—including me! See Appendix 3.",
+              "enText": "FAQ: But I keep on messing up! Maybe I should just give up. I’ve tried so many times to do the right thing, and yet I keep on failing! ANSWER: Good question! Everyone feels that way sometimes—including me! See Appendix 3.",
               "xref": "Appendix 3"
             },
             {
@@ -787,7 +787,7 @@
             {
               "id": "min2-commentary-aneinu",
               "type": "commentary",
-              "enText": "**עֲנֵנוּ**—Please answer us on the day of public fasting for we are in great distress. We know we have not lived up to our potential, but please do not turn away from us! Rather, let Your great chessed be a comfort to us. Answer us even before we call out to You, as the pasuk says (when describing the end of days): \"I (Hashem) answer their requests (that are in their hearts) even before they articulate them!\" For You are the One Who answers us in the midst of our distress; You save and rescue us in all our times of trouble! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָעוֹנֶה בְּעֵת צָרָה**—Who answers in times of our distress.",
+              "enText": "**עֲנֵנוּ**—Please answer us on the day of public fasting for we are in great distress. We know we have not lived up to our potential, but please do not turn away from us! Rather, let Your great chessed be a comfort to us. Answer us even before we call out to You, as the pasuk says (when describing the end of days): “I (Hashem) answer their requests (that are in their hearts) even before they articulate them!” For You are the One Who answers us in times of our distress; You save and rescue us in all our times of trouble! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **הָעוֹנֶה בְּעֵת צָרָה**—Who answers in times of our distress.",
               "condition": "On fast days, in the chazzan's repetition",
               "optional": true
             },
@@ -804,12 +804,12 @@
             {
               "id": "min2-faq-refuah-1",
               "type": "faq",
-              "enText": "FAQ: Hashem knows I am sick, and knows I obviously want to get better. If He wanted me healed, He would have healed me without my asking!"
+              "enText": "FAQ: Hashem knows I am sick, and knows I obviously want to get better. If He wanted me healed, He would have healed me without me asking!"
             },
             {
               "id": "min2-faq-refuah-2",
               "type": "faq",
-              "enText": "FAQ: Hashem \"heals the sick?\" No, He doesn't! I've asked to be healed many times, and He still says no! ANSWER: Important questions that touch on the very essence of tefillah! See Appendix 1.",
+              "enText": "FAQ: Hashem “heals the sick”? No, He doesn’t! I’ve asked to be healed many times, and He still says no! ANSWER: Important questions that touch on the very essence of tefillah! See Appendix 1.",
               "xref": "Appendix 1"
             },
             {
@@ -839,7 +839,7 @@
             {
               "id": "min2-commentary-refuah-insert",
               "type": "commentary",
-              "enText": "One may insert now a tefillah for people who are ill: Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to (name) son/daughter of (mother's name) among the others of Bnei Yisrael who are in need of recovery.",
+              "enText": "One may insert now a tefillah for people who are ill: Please, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, quickly send a complete recovery from Heaven, a spiritual, emotional, and physical recovery to (name) son/daughter of (mother’s name) among the others of Bnei Yisrael who are in need of recovery.",
               "condition": "When inserting a tefillah for the ill",
               "optional": true
             },
@@ -952,7 +952,7 @@
             {
               "id": "min3-yerushalayim-nachem-rubric",
               "type": "rubric",
-              "enText": "On Tishah B'Av add the following:",
+              "enText": "On Tishah B’Av add the following:",
               "condition": "On Tishah B'Av",
               "optional": true
             },
@@ -966,7 +966,7 @@
             {
               "id": "min3-yerushalayim-nachem-commentary",
               "type": "commentary",
-              "enText": "**נַחֵם יְהֹוָה אֱלֹהֵינוּ אֶת אֲבֵלֵי צִיּוֹן וְאֶת אֲבֵלֵי יְרוּשָׁלָיִם**—Please, Hashem, comfort all who mourn for Zion and for Yerushalayim. *(Though today Yerushalayim is built up and seems to be thriving, we realize that it has lost its true glory (referring to the Beis Hamikdash; as well as its true kedushah and purity).* It has been defiled by so many inappropriate activities, that we ourselves have lost our sensitivity to what is holy and pure! And our enemies have killed so many of its inhabitants! I am in pain for these losses *(and for my lack of sensitivity to these losses!).* Hashem, You destroyed *(the Beis Hamikdash)* with fire, and I know You will rebuild it with fire and return Your Presence to Yerushalayim—just as You promised! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מְנַחֵם צִיּוֹן וּבוֹנֵה יְרוּשָׁלַיִם**—Who consoles Zion and builds Yerushalayim *(present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim).*",
+              "enText": "**נַחֵם יְהֹוָה אֱלֹהֵינוּ אֶת אֲבֵלֵי צִיּוֹן וְאֶת אֲבֵלֵי יְרוּשָׁלָיִם**—Please, Hashem, comfort us who mourn for Zion and for Yerushalayim. *(Though today Yerushalayim is built up and seems to be thriving, we realize that) it has lost its true glory (referring to the Beis Hamikdash; as well as its true kedushah and purity).* It has been defiled by so many inappropriate activities, that we ourselves have lost our sensitivity to what is holy and pure! And our enemies have killed so many of its inhabitants! I am in pain for these losses *(and for my lack of sensitivity to these losses!).* Hashem, You destroyed *(the Beis Hamikdash)* with fire, and I know You will rebuild it with fire and return Your Presence to Yerushalayim—just as You promised! **בָּרוּךְ אַתָּה יְהֹוָה**—You, Hashem, are the Source of everything; **מְנַחֵם צִיּוֹן וּבוֹנֵה יְרוּשָׁלַיִם**—Who consoles Zion and builds Yerushalayim *(present tense—since every step of our galus is a necessary part of the process of the eventual permanent rebuilding of Yerushalayim).*",
               "optional": true
             },
             {
@@ -1009,7 +1009,7 @@
             {
               "id": "min3-shema-koleinu-requests-rubric",
               "type": "rubric",
-              "enText": "(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don't be shy to speak it out now, Hashem understands all languages and He listens!)"
+              "enText": "(Now stop for a second. Here is your big chance! This is where you may add any and all personal requests you have! Whatever is in your heart and on your mind, don’t be shy to speak it out now, Hashem understands all languages and He listens!)"
             },
             {
               "id": "min3-shema-koleinu-aneinu-rubric",
@@ -1028,18 +1028,18 @@
             {
               "id": "min3-shema-koleinu-aneinu-commentary",
               "type": "commentary",
-              "enText": "**עֲנֵנוּ יְהֹוָה עֲנֵנוּ בְּיוֹם צוֹם תַּעֲנִיתֵנוּ**—Please answer us on the day of public fasting—for we are in great distress. We know we have not lived up to our potential—but please do not turn away from us! Rather—let Your great chessed be a comfort to us. Answer us even before we call out to You, as the pasuk says (when describing the end of days): \"I (Hashem) answer their requests (that are in their hearts) even before they articulate them!\" For You are the One Who answers us in times of our distress; You save and rescue us in all our times of trouble! *(Continue with \"For You, Hashem, listen…\" below.) (If you forgot to add—do not go back or repeat Shemoneh Esrei.)*",
+              "enText": "**עֲנֵנוּ יְהֹוָה עֲנֵנוּ בְּיוֹם צוֹם תַּעֲנִיתֵנוּ**—Please answer us on the day of public fasting—for we are in great distress. We know we have not lived up to our potential—but please do not turn away from us! Rather—let Your great chessed be a comfort to us. Answer us even before we call out to You, as the pasuk says (when describing the end of days): “I (Hashem) answer their requests (that are in their hearts) even before they articulate them!” For You are the One Who answers us in times of our distress; You save and rescue us in all our times of trouble! *(Continue with \"For You, Hashem, listen with compassion to add—do not go back or repeat Shemoneh Esrei.)*",
               "optional": true
             },
             {
               "id": "min3-shema-koleinu-insight-1",
               "type": "insight",
-              "enText": "Why do we say \"listen to our voice\" (קוֹלֵנוּ)? Shouldn't we ask Hashem to listen to the words we say? What we are asking Hashem is: \"I may not be so articulate and may not know how to say what I really feel. But I hope You can tell from the sound of my voice that I am doing the best I can to communicate with You!\""
+              "enText": "Why do we say “listen to our voice (קוֹלֵנוּ)? Shouldn’t we ask Hashem to listen to the words we say? What we are asking Hashem is: “I may not be so articulate and may not know how to say what I really feel. But I hope You can tell from the sound of my voice that I am doing the best I can to communicate with You!”"
             },
             {
               "id": "min3-shema-koleinu-insight-2",
               "type": "insight",
-              "enText": "We asked Hashem to \"accept our tefillos,\" so what are we adding by requesting, \"Do not turn us away empty-handed\"? Of course, we hope that Hashem will grant us what we have requested, but sometimes, for reasons known only to Him, Hashem must say no. We therefore ask Hashem that if the answer to our tefillah must be a no, then at least do not send us away feeling \"empty-handed\"—with a feeling of total rejection. Let our hearts be filled with emunah that we had the amazing zechus and opportunity to talk one-on-one with Hashem and He heard our tefillah, even if the best thing for us right now is a no."
+              "enText": "We asked Hashem to “accept our tefillos,” so what are we adding by requesting, “Do not turn us away empty-handed”? Of course, we hope that Hashem will grant us what we have requested, but sometimes, for reasons known only to Him, Hashem must say no. We therefore ask Hashem that if the answer to our tefillah must be a no, then at least do not send us away feeling “empty-handed”—with a feeling of total rejection. Let our hearts be filled with emunah that we had the amazing zechus and opportunity to talk one-on-one with Hashem and He heard our tefillah, even if the best thing for us right now is a no."
             },
             {
               "id": "min3-shema-koleinu-yom-kippur-rubric",
@@ -1089,7 +1089,7 @@
             {
               "id": "min3-avodah-yaaleh-veyavo-rubric",
               "type": "rubric",
-              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V'Yavo: (If you forgot, see Appendix 12:6)",
+              "enText": "On Rosh Chodesh and Chol Hamoed add Yaaleh V’Yavo: (If you forgot, see Appendix 12:6)",
               "condition": "On Rosh Chodesh and Chol Hamoed",
               "xref": "Appendix 12:6",
               "optional": true
@@ -1118,7 +1118,7 @@
             {
               "id": "min3-avodah-yaaleh-veyavo-commentary",
               "type": "commentary",
-              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please view us favorably, and take into account our special relationship with You and the promises You made to our ancestors—the promise to bring Mashiach and to rebuild Yerushalayim and restore its holiness, and to remember all of Bnei Yisrael everywhere, to deliver us from our exiles *(physical and spiritual)*, and to grant our requests and have mercy on us *(even if we are not deserving)*. Give us all goodness, blessings, and life *(even if we are not all deserving)*, show compassion on us, because we have turned to You for help, because we know that You, Hashem, control everything, and You are a compassionate and merciful King.",
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please view us favorably, and take into account our special relationship with You and the promises You made to our ancestors: the promise to bring Mashiach and to rebuild Yerushalayim and restore its holiness, and to remember all of Bnei Yisrael everywhere, to deliver us from our exiles *(physical and spiritual)*, and to grant our requests and have mercy on us *(even if we are not deserving)*. Give us all goodness, blessings, and life *(even if we are not all deserving)*, show compassion on us, because we have turned to You for help, because we know that You, Hashem, control everything, and You are",
               "optional": true
             },
             {
@@ -1166,7 +1166,7 @@
             {
               "id": "modim-derabbanan-transition",
               "type": "transition",
-              "enText": "When thanking Hashem, an \"Amen\" is not sufficient!"
+              "enText": "When thanking Hashem, an “Amen” is not sufficient!"
             },
             {
               "id": "modim-derabbanan-prayer",
@@ -1176,17 +1176,17 @@
             {
               "id": "modim-derabbanan-c1",
               "type": "commentary",
-              "enText": "**מוֹדִים אֲנַחְנוּ לָךְ**—We thank You, Hashem, that You are our G-d. You control everything and have taken care of Bnei Yisrael throughout our history starting from the time of the Avos. You are the Creator of all humanity, of the entire universe, and You specifically formed us as Your nation—for which we thank You, and for our miraculous survival till today. (*And since we are so sure that Am Yisrael is eternal*) **כֵּן תְּחַיֵּנוּ וּתְקַיְּמֵנוּ**—we thank You now for the fact that we will continue to survive, and that You will bring all the exiles to the (*rebuilt*) Beis Hamikdash where we will all serve You with a complete heart (*with no doubts or questions*). **עַל שֶׁאֲנַחְנוּ מוֹדִים לָךְ**—We thank You for instilling in us the concept and (*crucial*) character trait of gratitude! **בָּרוּךְ אֵל הַהוֹדָאוֹת**—You, Hashem, are the Source of everything, to Whom thanksgiving is due."
+              "enText": "**מוֹדִים אֲנַחְנוּ לָךְ**—We thank You, Hashem, for You are our God. You control everything and have taken care of Bnei Yisrael throughout our history starting from the time of the Avos. You are the Creator of all humanity, of the entire universe, and You specifically formed us as Your nation—for which we thank You, and for our miraculous survival till today. (*And since we are so sure that Am Yisrael is eternal*) **כֵּן תְּחַיֵּנוּ וּתְקַיְּמֵנוּ**—we thank You now for the fact that we will continue to survive, and that You will bring all the exiles to the (*rebuilt*) Beis Hamikdash where we will all serve You with a complete heart (*with no doubts or questions*). **עַל שֶׁאֲנַחְנוּ מוֹדִים לָךְ**—We thank You for instilling in us the concept and (*crucial*) character trait of gratitude! **בָּרוּךְ אֵל הַהוֹדָאוֹת**—You, Hashem, are the Source of everything, to Whom thanksgiving is due."
             },
             {
               "id": "modim-derabbanan-insight",
               "type": "insight",
-              "enText": "By all other brachos of the Shemoneh Esrei, we simply respond \"Amen\" to the chazzan's brachah. Why here must we say our own \"Modim,\" and an Amen is not sufficient? All other brachos are requests. When you are with someone else and they put in a request for something important, saying simply, \"And me too, I also agree!\" is fine. He represents you. That is \"Amen.\" But if someone is really bursting with gratitude, especially to Hashem, for \"our lives, which are entrusted into Your Hand\" and \"for our miraculous survival till today,\" then Amen is impossible. No one can \"represent\" your inner feeling of gratitude! It must burst forth! Thus, Modim D'Rabbanan!"
+              "enText": "By all other brachos of the Shemoneh Esrei, we simply respond “Amen” to the chazzan’s brachah. Why here must we say our own “Modim,” and an Amen is not sufficient? All other brachos are requests. When you are with someone else and they put in a request for something important, saying simply, “And me too, I also agree!” is fine. He represents you. That is “Amen.” But if someone is really bursting with gratitude, especially to Hashem, for “our lives, which are entrusted into Your Hand” and “for our miraculous survival till today,” then Amen is impossible. No one can “represent” your inner feeling of gratitude! It must burst forth! Thus, Modim D’Rabbanan!"
             },
             {
               "id": "al-hanissim-rubric",
               "type": "rubric",
-              "enText": "On Chanukah and Purim add the following special \"Thanks\": (If you forgot, see Appendix 12:7)",
+              "enText": "On Chanukah and Purim add the following special “Thanks”: (If you forgot, see Appendix 12:7)",
               "xref": "Appendix 12:7",
               "optional": true
             },
@@ -1273,7 +1273,7 @@
             {
               "id": "modim-uchsov-c1",
               "type": "commentary",
-              "enText": "**וּכְתוֹב לְחַיִּים טוֹבִים**—And may all the children of Your covenant with the Avos (*that's us!*) be written for a good life.",
+              "enText": "**וּכְתוֹב לְחַיִּים טוֹבִים**—And may all the children of Your covenant with the Avos (*that’s us!*) be written for a good life.",
               "condition": "During Aseres Yemei Teshuvah",
               "optional": true
             },
@@ -1304,13 +1304,13 @@
             {
               "id": "birkas-kohanim-c1",
               "type": "commentary",
-              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah that was said by the Kohanim. **יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you (*with material abundance*) and protect you (*from misusing it!*). **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you can see His providence (*in your life*). **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace (*within yourself*).",
+              "enText": "**אֱלֹהֵינוּ וֵאלֹהֵי אֲבוֹתֵינוּ**—Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, please bless us with the threefold brachah written in the Torah that was said by the Kohanim. **יְבָרֶכְךָ יְהֹוָה וְיִשְׁמְרֶךָ**—May Hashem bless you (*with material abundance*) and protect you (*from misusing it!*). **יָאֵר יְהֹוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ**—May Hashem grace you with sensitivity to spirituality so that you can see His providence (*in your life*). **יִשָּׂא יְהֹוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם**—May you feel the constant Presence of Hashem, and thus be at peace (*within yourself*).",
               "optional": true
             },
             {
               "id": "birkas-kohanim-insight",
               "type": "insight",
-              "enText": "Generally, we think of **שָׁלוֹם**—peace—as meaning people getting along with each other. But if so, then the third brachah should have said **יָשִׂים לְכֶם**—Hashem will give peace to you, plural, i.e., to the group. Why is the word **לְךָ**—to you, singular, used? The singular is used because you cannot get along with others if you first do not get along with yourself. Thus, this brachah is to the individual—that each person should have inner serenity and peace. Only then can we live in peace with others.",
+              "enText": "Generally, we think of **שָׁלוֹם**—peace—as meaning people getting along with each other. But if so, then the third brachah should have said **יָשִׂים לְכֶם**—Hashem will give peace to you,” plural, i.e., to the group. Why is the word **לְךָ**—to you,” singular, used? The singular is used because you cannot get along with others if you first do not get along with yourself! Thus, this brachah is to the individual—that each person should have inner serenity and peace. Only then can we live in peace with others.",
               "optional": true
             },
             {
@@ -1448,7 +1448,7 @@
             {
               "id": "epilogue-c1",
               "type": "commentary",
-              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that the Beis Hamikdash be rebuilt in our days, and help us find our unique connection to Your Torah. And there (*in the Beis Hamikdash*) we will be able to serve You with proper respect, as it was in the days of old. (*And when Mashiach arrives and rebuilds the Beis Hamikdash*) then the korbanos of Yehudah and Yerushalayim will be accepted by Hashem, as it was in the days of old."
+              "enText": "**יְהִי רָצוֹן מִלְּפָנֶיךָ**—May it be Your will, Hashem, Who controls everything and has taken care of Bnei Yisrael throughout our history, that the Beis Hamikdash be rebuilt quickly in our days, and help us find our unique connection to Your Torah. And there (*in the Beis Hamikdash*) we will be able to serve You with proper respect, as it was in the days of old. (*And when Mashiach arrives and rebuilds the Beis Hamikdash*) then the korbanos of Yehudah and Yerushalayim will be accepted by Hashem, as it was in the days of old."
             }
           ]
         }
@@ -1477,7 +1477,7 @@
             {
               "id": "am-rubric-when",
               "type": "rubric",
-              "enText": "On fast days (except Tishah B'Av) and during the Aseres Yemei Teshuvah, we add Avinu Malkeinu before Tachanun:"
+              "enText": "On fast days (except Tishah B’Av) and during the Aseres Yemei Teshuvah, we add Avinu Malkeinu before Tachanun:"
             },
             {
               "id": "am-intro-1",
@@ -1487,7 +1487,7 @@
             {
               "id": "am-intro-2",
               "type": "section_intro",
-              "enText": "Yet, importantly, He is also our Father Who understands that at times we stumble, lose our footing, and get sidetracked from our goal. Through all this, He still supports us and gives us multiple opportunities to get back on track. On these special days, when we think about who we really are, what our mission is, what our real potential is, and take stock of our progress, we need to focus on both these aspects of our relationship with Him. By doing that, we will be worthy of Hashem giving us what we are asking for so that we can get back up and be the people He created us to be."
+              "enText": "Yet, importantly, He is also our Father Who understands that at times we stumble, lose our footing, and get sidetracked from our goal. Through all this, He still supports us and gives us multiple opportunities to get back on track. On these special days, when we think about who we really are, what our mission is, what our real potential is, and take stock of our progress, we need to focus on both those aspects of our relationship with Him. By doing that, we will be worthy of Hashem giving us what we are asking for so that we can get back up and be the people He created us to be."
             },
             {
               "id": "am-note-rubric",
@@ -1541,7 +1541,7 @@
             {
               "id": "am-2-en",
               "type": "commentary",
-              "enText": "Our Father, our King, initiate for us a good new year.",
+              "enText": "Our Father, our King, initiate Our Father, our King, bless us for us a good new year.",
               "condition": "Aseres Yemei Teshuvah",
               "optional": true
             },
@@ -1562,7 +1562,7 @@
             {
               "id": "am-3-en",
               "type": "commentary",
-              "enText": "Our Father, our King, bless us with a good year.",
+              "enText": "Our Father, our King, bless us for us a good new year. with a good year.",
               "condition": "fast days",
               "optional": true
             },
@@ -1689,7 +1689,7 @@
             {
               "id": "am-15-en",
               "type": "commentary",
-              "enText": "Our Father, our King, send a complete recovery to the members of Your nation who are sick."
+              "enText": "Our Father, our King, send a completely recovery to the members of Your nation who are sick."
             },
             {
               "id": "am-16-he",
@@ -1728,7 +1728,7 @@
             {
               "id": "am-18-en",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of good life.",
+              "enText": "Our Father, our King, write us in the book Our Father, our King, remember us and ",
               "condition": "Aseres Yemei Teshuvah",
               "optional": true
             },
@@ -1742,7 +1742,7 @@
             {
               "id": "am-19-en",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the book of those who will see the geulah and be saved.",
+              "enText": "Our Father, our King, write us in the and bring the geulah and save us. book of those who will see the geulah and be saved.",
               "condition": "Aseres Yemei Teshuvah",
               "optional": true
             },
@@ -1806,7 +1806,7 @@
             {
               "id": "am-23-en",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us that we should have a life that is good.",
+              "enText": "Our Father, our King, remember us that we should have a life Our Father, our King, write us in the book that is",
               "condition": "fast days",
               "optional": true
             },
@@ -1834,7 +1834,7 @@
             {
               "id": "am-25-en",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us and ensure we earn a living and have our material needs.",
+              "enText": "Our Father, our King, remember Our Father, our King, write us in the book us and ensure we earn a living and have our material needs.",
               "condition": "fast days",
               "optional": true
             },
@@ -1930,7 +1930,7 @@
             {
               "id": "am-insight",
               "type": "insight",
-              "enText": "Regarding the \"book of merits\" or remembering us \"for merits\": Either one has merits or they do not! If they do, they are in the book; and if not, what is Hashem supposed to do? What does this mean? The idea here is that Hashem could arrange your life so that it's easy for you to pick up merits and good deeds *(someone in front of you drops something and you pick it up!)* or the opposite—you simply do not have easy opportunities to do good deeds. We are asking Hashem to please remember us and write us in the book of those who will have many opportunities to do mitzvos!"
+              "enText": "Regarding the “book of merits” or remembering us “for merits”: Either one has merits or they do not! If they do, they are in the book; and if not, what is Hashem supposed to do? What does this mean? The idea here is that Hashem could arrange your life so that it’s easy for you to pick up merits and good deeds *(someone in front of you drops something and you pick it up!)* or the opposite—you simply do not have easy opportunities to do good deeds. We are asking Hashem to please remember us and write us in the book of those who will have many opportunities to do mitzvos!"
             },
             {
               "id": "am-34-he",
@@ -2092,13 +2092,13 @@
             {
               "id": "tach-header",
               "type": "header",
-              "enText": "Maybe Today So Far Hasn't Been My Best, but I Realize That—and I'm Asking for Divine Favor!"
+              "enText": "Maybe Today So Far Hasn’t Been My Best, but I Realize That—and I’m Asking for Divine Favor!"
             },
             {
               "id": "tach-title",
               "type": "header",
               "heText": "תַּחֲנוּן",
-              "enText": "Tachanun"
+              "enText": "Tachanun."
             },
             {
               "id": "tach-omit-rubric",
@@ -2180,7 +2180,7 @@
             {
               "id": "tach-6-en",
               "type": "commentary",
-              "enText": "**מִתְרַצֶּה בְּרַחֲמִים**—There is no power that can save us but You. Though we may not be worthy, deal with us with Your loving-kindness and chesed."
+              "enText": "**מִתְרַצֶּה בְּרַחֲמִים**—There is no power that can save us but You. Though we may not be worthy, deal with us with Your loving-kindness and chessed."
             },
             {
               "id": "tach-7-he",
@@ -2190,7 +2190,7 @@
             {
               "id": "tach-7-en",
               "type": "commentary",
-              "enText": "**וַאֲנַחְנוּ לֹא נֵדַע**—*(To sum it all up:)* Hashem, we do not know what else we can do, so we turn to You for Your kindness and help. We know we lack merit, but You know that we are material beings and thus have many struggles! Pardon and give us another chance to prove ourselves, so that we may spread the knowledge of Your Presence to the whole world."
+              "enText": "**וַאֲנַחְנוּ לֹא נֵדַע**—*(To sum it all up:)* Hashem, we do not know what else we can do, so we turn to You for Your kindness and help. We know we lack merit, but You know that we are material beings and thus have many struggles! Pardon us and give us another chance to prove ourselves, so that we may spread the knowledge of Your Presence to the whole world."
             },
             {
               "id": "tach-kaddish-title",
@@ -2234,7 +2234,7 @@
             {
               "id": "min6-aleinu-1",
               "type": "prayer",
-              "heText": "עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל, לָתֵת גְּדֻלָּה לְיוֹצֵר בְּרֵאשִׁית, שֶׁלֹּא עָשָׂנוּ כְּגוֹיֵי הָאֲרָצוֹת, וְלֹא שָׂמָנוּ כְּמִשְׁפְּחוֹת הָאֲדָמָה, שֶׁלֹּא שָׂם חֶלְקֵנוּ כָּהֶם, וְגוֹרָלֵנוּ כְּכָל הֲמוֹנָם, שֶׁהֵם מִשְׁתַּחֲוִים לְהֶבֶל וָרִיק, וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ. וַאֲנַחְנוּ כּוֹרְעִים וּמִשְׁתַּחֲוִים וּמוֹדִים, לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא, שֶׁהוּא נוֹטֶה שָׁמַיִם וְיֹסֵד אָרֶץ, וּמוֹשַׁב יְקָרוֹ בַּשָּׁמַיִם מִמַּעַל, וּשְׁכִינַת עֻזּוֹ בְּגָבְהֵי מְרוֹמִים. הוּא אֱלֹהֵינוּ אֵין עוֹד, אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ. כַּכָּתוּב בְּתוֹרָתוֹ: וְיָדַעְתָּ הַיּוֹם וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ, כִּי יְהוָה הוּא הָאֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל הָאָרֶץ מִתָּחַת אֵין עוֹד."
+              "heText": "עָלֵינוּ לְשַׁבֵּחַ לַאֲדוֹן הַכֹּל, לָתֵת גְּדֻלָּה לְיוֹצֵר בְּרֵאשִׁית, שֶׁלֹּא עָשָׂנוּ כְּגוֹיֵי הָאֲרָצוֹת, וְלֹא שָׂמָנוּ כְּמִשְׁפְּחוֹת הָאֲדָמָה, שֶׁלֹּא שָׂם חֶלְקֵנוּ כָּהֶם, וְגוֹרָלֵנוּ כְּכָל הֲמוֹנָם, שֶׁהֵם מִשְׁתַּחֲוִים לְהֶבֶל וָרִיק, וּמִתְפַּלְּלִים אֶל אֵל לֹא יוֹשִׁיעַ. וַאֲנַחְנוּ כּוֹרְעִים וּמִשְׁתַּחֲוִים וּמוֹדִים, לִפְנֵי מֶלֶךְ מַלְכֵי הַמְּלָכִים הַקָּדוֹשׁ בָּרוּךְ הוּא, שֶׁהוּא נוֹטֶה שָׁמַיִם וְיֹסֵד אָרֶץ, וּמוֹשַׁב יְקָרוֹ בַּשָּׁמַיִם מִמַּעַל, וּשְׁכִינַת עֻזּוֹ בְּגָבְהֵי מְרוֹמִים. הוּא אֱלֹהֵינוּ אֵין עוֹד, אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ. כַּכָּתוּב בְּתוֹרָתוֹ: וְיָדַעְתָּ הַיּוֹם וַהֲשֵׁבֹתָ אֶל לְבָבֶךָ, כִּי יְהֹוָה הוּא הָאֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל הָאָרֶץ מִתָּחַת אֵין עוֹד."
             },
             {
               "id": "min6-aleinu-1-comm-a",
@@ -2244,27 +2244,27 @@
             {
               "id": "min6-aleinu-1-comm-b",
               "type": "commentary",
-              "enText": "**הוּא אֱלֹהֵינוּ אֵין עוֹד**—Hashem is OUR personal God, there is no other power that controls us; **אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ**—Hashem our King is true, there is nothing beside Him. As the pasuk says: \"You must know today and take to heart that Hashem alone is our God; in the Heavens above and on the earth below; **אֵין עוֹד**—there is nothing else (*but Hashem*)!\""
+              "enText": "**הוּא אֱלֹהֵינוּ אֵין עוֹד**—Hashem is OUR personal God, there is no other power that controls us; **אֱמֶת מַלְכֵּנוּ, אֶפֶס זוּלָתוֹ**—Hashem our King is true, there is nothing beside Him. As the pasuk says: “You must know today and take to heart that Hashem alone is our God; in the Heavens above and on the earth below; **אֵין עוֹד**—there is nothing else (*but Hashem*)!\""
             },
             {
               "id": "min6-aleinu-2",
               "type": "prayer",
-              "heText": "עַל כֵּן נְקַוֶּה לְּךָ יְהוָה אֱלֹהֵינוּ, לִרְאוֹת מְהֵרָה בְּתִפְאֶרֶת עֻזֶּךָ, לְהַעֲבִיר גִּלּוּלִים מִן הָאָרֶץ, וְהָאֱלִילִים כָּרוֹת יִכָּרֵתוּן, לְתַקֵּן עוֹלָם בְּמַלְכוּת שַׁדַּי, וְכָל בְּנֵי בָשָׂר יִקְרְאוּ בִשְׁמֶךָ, לְהַפְנוֹת אֵלֶיךָ כָּל רִשְׁעֵי אָרֶץ. יַכִּירוּ וְיֵדְעוּ כָּל יוֹשְׁבֵי תֵבֵל, כִּי לְךָ תִּכְרַע כָּל בֶּרֶךְ, תִּשָּׁבַע כָּל לָשׁוֹן. לְפָנֶיךָ יְהוָה אֱלֹהֵינוּ יִכְרְעוּ וְיִפֹּלוּ,"
+              "heText": "עַל כֵּן נְקַוֶּה לְּךָ יְהֹוָה אֱלֹהֵינוּ, לִרְאוֹת מְהֵרָה בְּתִפְאֶרֶת עֻזֶּךָ, לְהַעֲבִיר גִּלּוּלִים מִן הָאָרֶץ, וְהָאֱלִילִים כָּרוֹת יִכָּרֵתוּן, לְתַקֵּן עוֹלָם בְּמַלְכוּת שַׁדַּי, וְכָל בְּנֵי בָשָׂר יִקְרְאוּ בִשְׁמֶךָ, לְהַפְנוֹת אֵלֶיךָ כָּל רִשְׁעֵי אָרֶץ. יַכִּירוּ וְיֵדְעוּ כָּל יוֹשְׁבֵי תֵבֵל, כִּי לְךָ תִּכְרַע כָּל בֶּרֶךְ, תִּשָּׁבַע כָּל לָשׁוֹן. לְפָנֶיךָ יְהֹוָה אֱלֹהֵינוּ יִכְרְעוּ וְיִפֹּלוּ,"
             },
             {
               "id": "min6-aleinu-2-comm",
               "type": "commentary",
-              "enText": "**עַל כֵּן נְקַוֶּה לְּךָ**—Therefore, we hope that soon we will see Your power and glory when You destroy all of society's false gods, and all of humanity will recognize Your Presence, and all the wicked will submit to You and accept the yoke of Your Kingdom; and You will rule over the whole world; soon and forever!"
+              "enText": "**עַל כֵּן נְקַוֶּה לְּךָ**—Therefore, we hope that soon we will see Your power and glory when You destroy all of society’s false gods, and all of humanity will recognize Your Presence, and all the wicked will submit to You and accept the yoke of Your Kingdom; and You will rule over the whole world; soon and forever!"
             },
             {
               "id": "min6-aleinu-3",
               "type": "prayer",
-              "heText": "וְלִכְבוֹד שִׁמְךָ יְקָר יִתֵּנוּ, וִיקַבְּלוּ כֻלָּם אֶת עֹל מַלְכוּתֶךָ, וְתִמְלֹךְ עֲלֵיהֶם מְהֵרָה לְעוֹלָם וָעֶד. כִּי הַמַּלְכוּת שֶׁלְּךָ הִיא, וּלְעוֹלְמֵי עַד תִּמְלוֹךְ בְּכָבוֹד. כַּכָּתוּב בְּתוֹרָתֶךָ: יְהוָה יִמְלֹךְ לְעֹלָם וָעֶד. וְנֶאֱמַר: וְהָיָה יְהוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהוָה אֶחָד וּשְׁמוֹ אֶחָד."
+              "heText": "וְלִכְבוֹד שִׁמְךָ יְקָר יִתֵּנוּ, וִיקַבְּלוּ כֻלָּם אֶת עֹל מַלְכוּתֶךָ, וְתִמְלֹךְ עֲלֵיהֶם מְהֵרָה לְעוֹלָם וָעֶד. כִּי הַמַּלְכוּת שֶׁלְּךָ הִיא, וּלְעוֹלְמֵי עַד תִּמְלוֹךְ בְּכָבוֹד. כַּכָּתוּב בְּתוֹרָתֶךָ: יְהֹוָה יִמְלֹךְ לְעֹלָם וָעֶד. וְנֶאֱמַר: וְהָיָה יְהֹוָה לְמֶלֶךְ עַל כָּל הָאָרֶץ, בַּיּוֹם הַהוּא יִהְיֶה יְהֹוָה אֶחָד וּשְׁמוֹ אֶחָד."
             },
             {
               "id": "min6-aleinu-3-comm",
               "type": "commentary",
-              "enText": "**וְנֶאֱמַר**—As the pasuk says: \"Then Hashem will be the King over the entire earth; on that day Hashem will be One (*everyone will realize there is no other power but Hashem*), and His Name will be One (*everyone will realize that all that has happened since Creation is all good, and all came from Hashem as part of one unified plan*).\""
+              "enText": "**וְנֶאֱמַר**—As the pasuk says: “Then Hashem will be the King over the entire earth; on that day Hashem will be One (*everyone will realize there is no other power but Hashem*), and His Name will be One (*everyone will realize that all that has happened since Creation is all good, and all came from Hashem as part of one unified plan*).\""
             },
             {
               "id": "min6-altira",
