@@ -56,3 +56,8 @@ scripts/chunks4/
 
 # Google Play service account key (secret — never commit)
 google-service-account.json
+
+# Print-fidelity tool: regenerable outputs and local venv
+docs/fidelity/findings/
+.venv-fidelity/
+__pycache__/

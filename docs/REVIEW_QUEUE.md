@@ -146,6 +146,24 @@ HaZan dropped אֵל (כִּי הוּא אֵל זָן); Al HaMichyah opening+clo
   netilas-lulav 6. The brachos before the Shema already use the cholam form.
   → Pending decision; then mechanical full-token replace `יְהוָה`→`יְהוָֹה`
   (strip-diff verified). Decided 2026-06-18.
+  **RESOLVED 2026-10-29 (owner: "follow the print").** Applied token-by-token against
+  the print by `scripts/fidelity/apply_divine_name*.py`: 388 tokens now match the
+  print's spelling (cholam on the he, יְהֹוָה, in vocalized text; the print's own
+  vav-cholam / no-cholam forms kept in the Torah passages where it prints them; the
+  sheva the print sets under the yod after a prefix, e.g. וַיְהֹוָה). Every Hebrew change
+  verified to be a Divine Name token only. Log: `docs/fidelity/divine-name-fixes.json`.
+
+## Print fidelity audit (2026-10-29)
+
+Whole-book letter-for-letter check, `scripts/fidelity/` (see its README). Results in
+`docs/fidelity/`: `SUMMARY.md`, `missing-from-app.md`, `ledger.json`.
+- **English corrections applied:** 1,638 (`english-fixes.json`). Held for a human
+  (next to Hebrew, links/markdown, weak match, possible print typo): `english-held.json`.
+- **Hebrew differences for the rav:** every non-Divine-Name Hebrew difference is
+  `decision: rav-review` in the ledger — none were changed.
+- **Missing from the app:** 46 passages with no counterpart anywhere (e.g. Tefillas
+  HaDerech additions, Shir HaMa'alos before bentching, Hallel commentary, Omer dates);
+  96 present elsewhere in the app but not repeated where the print repeats them.
 
 ## Needs a careful dedicated pass
 

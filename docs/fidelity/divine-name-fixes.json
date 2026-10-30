@@ -1,0 +1,2330 @@
+[
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[9]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[3]/segments[11]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[31]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[31]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[33]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[33]/heText",
+  "old": "בַּיהוָה",
+  "new": "בַּיהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[33]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[33]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "birkas-hamazon.json",
+  "path": "/groups[0]/prayers[4]/segments[33]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[30]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[32]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[32]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[35]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "בַּיהוָה",
+  "new": "בַּיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "בַּיהוָה",
+  "new": "בַּיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[38]/heText",
+  "old": "וַיהוָה",
+  "new": "וַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[40]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[40]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[40]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[40]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[46]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[47]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[48]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[49]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[51]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[51]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[53]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[53]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[57]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[57]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[58]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[58]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[59]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[60]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[63]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[64]/enText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[66]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[66]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[67]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "hallel.json",
+  "path": "/groups[0]/prayers[0]/segments[69]/heText",
+  "old": "וַיהוָה",
+  "new": "וַיְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[8]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[8]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[8]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[9]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[9]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[15]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[15]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[17]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[17]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[19]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[19]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[24]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[29]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[29]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[34]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "krias-shema-al-hamitah.json",
+  "path": "/groups[0]/prayers[0]/segments[35]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[5]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/heText",
+  "old": "דַיהוָה",
+  "new": "דַיהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[11]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[12]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[14]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[15]/heText",
+  "old": "בַּיהֹוָה",
+  "new": "בַּיְהֹוָה"
+ },
+ {
+  "file": "maariv-motzaei-shabbos.json",
+  "path": "/groups[0]/prayers[0]/segments[15]/heText",
+  "old": "בַיהֹוָה",
+  "new": "בַיְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "וַיהוָה",
+  "new": "וַיְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[4]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "maariv.json",
+  "path": "/groups[1]/prayers[1]/segments[5]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[9]/heText",
+  "old": "שֶׁיהוה",
+  "new": "שֶׁיְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/enText",
+  "old": "שֶׁיהוה",
+  "new": "שֶׁיְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[15]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[16]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[25]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[26]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[27]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[28]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[29]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[30]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[37]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[39]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[45]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[46]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[47]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[48]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[51]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[52]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[53]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[0]/prayers[0]/segments[54]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[6]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[6]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "minchah.json",
+  "path": "/groups[1]/prayers[2]/segments[6]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[3]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[3]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[6]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[7]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[9]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "netilas-lulav.json",
+  "path": "/groups[0]/prayers[0]/segments[10]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[0]/segments[7]/heText",
+  "old": "בַּיהֹוָה",
+  "new": "בַּיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[7]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[7]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[8]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[8]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[3]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[4]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[4]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[4]/segments[9]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[4]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[4]/segments[14]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[7]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[8]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[11]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[19]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[20]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהוָֹה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[5]/segments[23]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[3]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[3]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[3]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[5]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[11]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[15]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[18]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[21]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[24]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[27]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[29]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[31]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[33]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[36]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[43]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[46]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[48]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[50]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[53]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[57]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[57]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[58]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[62]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[68]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[69]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[70]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[70]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[70]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[70]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[71]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[71]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[71]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[75]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[80]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[80]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[6]/segments[82]/heText",
+  "old": "יְהוָה",
+  "new": "יְהוָֹה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[9]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[9]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[9]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[11]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[13]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[14]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[14]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[19]/heText",
+  "old": "לַיהוה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[20]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[20]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[20]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[20]/heText",
+  "old": "לַיהוה",
+  "new": "לַיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[38]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[40]/heText",
+  "old": "לַיהוה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[40]/heText",
+  "old": "לַיהוה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[40]/heText",
+  "old": "לַיהוה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[44]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[48]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[0]/prayers[7]/segments[61]/heText",
+  "old": "יְהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[20]/heText",
+  "old": "וַיהֹוָה",
+  "new": "וַיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[127]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[127]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[127]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[127]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[131]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[131]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[135]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[136]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[136]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[136]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[136]/heText",
+  "old": "בַּיהוָה",
+  "new": "בַּיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[138]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[140]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[140]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[140]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[141]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[142]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[143]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[1]/prayers[0]/segments[143]/enText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[0]/segments[5]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[0]/segments[6]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[0]/segments[7]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[0]/segments[8]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[0]/segments[9]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[6]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[7]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[8]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[8]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[9]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[9]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[14]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[20]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[21]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[23]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[24]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[29]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[31]/heText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[32]/enText",
+  "old": "יְהוָֹה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[38]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[40]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[40]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[42]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[42]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[49]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[50]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[52]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[52]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[52]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[53]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[55]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[55]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[55]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[55]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[56]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[56]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[57]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[63]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[66]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[68]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[69]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[72]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[73]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[74]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[74]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[2]/prayers[1]/segments[75]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[117]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[119]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[120]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[122]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[127]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[144]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[145]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[149]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[149]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[149]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[152]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[152]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[3]/prayers[0]/segments[152]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[1]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[7]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[7]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[10]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[11]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[12]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[13]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[14]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[4]/prayers[0]/segments[15]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[5]/prayers[1]/segments[31]/heText",
+  "old": "בַּיהֹוָה",
+  "new": "בַּיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[5]/prayers[1]/segments[159]/heText",
+  "old": "בַּיהֹוָה",
+  "new": "בַּיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[5]/prayers[1]/segments[159]/heText",
+  "old": "בַיהֹוָה",
+  "new": "בַיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[0]/segments[4]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "לַיהוה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[5]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[10]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[10]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[20]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[25]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[25]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[30]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[30]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[30]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[30]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[30]/heText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[1]/segments[31]/enText",
+  "old": "יהוה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "לַיהוָה",
+  "new": "לַיהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "וַיהוָה",
+  "new": "וַיְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[2]/heText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[3]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[4]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ },
+ {
+  "file": "shacharit.json",
+  "path": "/groups[6]/prayers[3]/segments[5]/enText",
+  "old": "יְהוָה",
+  "new": "יְהֹוָה"
+ }
+]
