@@ -210,7 +210,7 @@
             {
               "id": "al_hanissim_purim_commentary",
               "type": "commentary",
-              "enText": "Chanukah for giving thanks and praise to You. **בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
+              "enText": "On Purim: **בִּימֵי מָרְדְּכַי וְאֶסְתֵּר**—In the days of Mordechai and Esther, in the capital city of Shushan, the evil Haman rose up to exterminate all Jews, young and old, on the thirteenth day of Adar. But You in Your great mercy thwarted his plan and caused his scheme against us to boomerang onto his own head, and he and his sons were hung on the gallows.",
               "condition": "purim",
               "optional": true
             },
@@ -526,7 +526,7 @@
             {
               "id": "hodu_en",
               "type": "commentary",
-              "enText": "Hashem, for all that He does is good; His kindness is eternal. Hashem, You open Your Hand and give each person what they need in order to be satisfied. Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best."
+              "enText": "Give thanks to Hashem, for all that He does is good; His kindness is eternal. Hashem, You open Your Hand and give each person what they need in order to be satisfied. Blessed is the person who truly trusts in Hashem and is secure in his belief that all Hashem does is for his best."
             },
             {
               "id": "hodu_faq",

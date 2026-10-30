@@ -570,7 +570,7 @@
             {
               "id": "bracha-shelo-asani-isha-commentary",
               "type": "commentary",
-              "enText": "**שֶׁלֹּא עָשַׂנִי אִשָּׁה**—Thank You, for for You created me according You did not create me a woman to Your will (and thus I have *(and I am happy to have all those extra mitzvos!)*.",
+              "enText": "**שֶׁלֹּא עָשַׂנִי אִשָּׁה**—Thank You, for You did not create me a woman *(and I am happy to have all those extra mitzvos!)*.",
               "condition": "For men"
             },
             {
@@ -1883,7 +1883,7 @@
             {
               "id": "pz3-147-insight",
               "type": "insight",
-              "enText": "הַלְלוּיָהּ, כִּי טוֹב זַמְּרָה literally translates as,“Hashem is building Yerushalayim”—present tense—even though in context it is referring to the Era of Mashiach. That is telling us that in truth, every single thing that happened and happens to us as individuals and as a nation is part of the process needed to build Yerushalayim. Thus all through our galus, all that Hashem has sent our way is part of a continuous building of Yerushalayim. Once Mashiach comes, that will all be clear."
+              "enText": "הַלְלוּיָהּ, כִּי טוֹב זַמְּרָה literally translates as, “Hashem is building Yerushalayim”—present tense—even though in context it is referring to the Era of Mashiach. That is telling us that in truth, every single thing that happened and happens to us as individuals and as a nation is part of the process needed to build Yerushalayim. Thus all through our galus, all that Hashem has sent our way is part of a continuous building of Yerushalayim. Once Mashiach comes, that will all be clear."
             },
             {
               "id": "pz3-148-header",
@@ -2402,7 +2402,7 @@
               "id": "ahavah_1_gloss",
               "type": "commentary",
               "heText": "",
-              "enText": "**אַהֲבָה רַבָּה**—*(Notwithstanding the fact that we may not always have deserved Your compassion, since there were times in our history when the study of Torah was neglected by many Jews, nevertheless)* You have shown ever-increasing love for us *(by providing for us Torah scholars and teachers in every generation who kept the flame of Torah alive and passed it down to us. Thank You!)*. *(We know that we cannot succeed in understanding and applying the Torah without Your help, therefore we ask:)* **אָבִינוּ הָאָב הָרַחֲמָן** — Please, our compassionate Father, instill in our hearts a depth of perception to understand the Torah; to take it personally; to be able to study and teach it to others; to apply it to all situations in our lives *(no matter how difficult)* — and this should all be out of love for Your Torah! **וְהָאֵר עֵינֵינוּ בְּתוֹרָתֶךָ** — May we find Torah study and mitzvos exciting so that we will serve You with both love and awe together; **וְלֹא נֵבוֹשׁ** — and thus we will never ever be ashamed of the way we lived our lives on this earth! We have full trust that if we do the very "
+              "enText": "**אַהֲבָה רַבָּה**—*(Notwithstanding the fact that we may not always have deserved Your compassion, since there were times in our history when the study of Torah was neglected by many Jews, nevertheless)* You have shown ever-increasing love for us *(by providing for us Torah scholars and teachers in every generation who kept the flame of Torah alive and passed it down to us. Thank You!)*. *(We know that we cannot succeed in understanding and applying the Torah without Your help, therefore we ask:)* **אָבִינוּ הָאָב הָרַחֲמָן** — Please, our compassionate Father, instill in our hearts a depth of perception to understand the Torah; to take it personally; to be able to study and teach it to others; to apply it to all situations in our lives *(no matter how difficult)* — and this should all be out of love for Your Torah! **וְהָאֵר עֵינֵינוּ בְּתוֹרָתֶךָ** — May we find Torah study and mitzvos exciting so that we will serve You with both love and awe together; **וְלֹא נֵבוֹשׁ** — and thus we will never ever be ashamed of the way we lived our lives on this earth! We have full trust that if we do the very best we can—we will merit Olam Haba."
             },
             {
               "id": "ahavah_2",
@@ -4108,7 +4108,7 @@
             {
               "id": "avinu_malkeinu_commentary_4a",
               "type": "commentary",
-              "enText": "Our Father, our King, initiate Our Father, our King, bless us for us a good new year.",
+              "enText": "Our Father, our King, initiate for us a good new year.",
               "condition": "aseres_yemei_teshuvah",
               "optional": true
             },
@@ -4127,7 +4127,7 @@
             {
               "id": "avinu_malkeinu_commentary_4b",
               "type": "commentary",
-              "enText": "Our Father, our King, bless us for us a good new year. with a good year.",
+              "enText": "Our Father, our King, bless us with a good year.",
               "condition": "fast_day",
               "optional": true
             },
@@ -4290,7 +4290,7 @@
             {
               "id": "avinu_malkeinu_commentary_ayt_1",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in the us that we should have a life book of good life.",
+              "enText": "Our Father, our King, write us in the book of good life.",
               "optional": true
             },
             {
@@ -4302,7 +4302,7 @@
             {
               "id": "avinu_malkeinu_commentary_ayt_2",
               "type": "commentary",
-              "enText": "Our Father, our King, write us in Our Father, our King, remember us the book of those who will see the and bring the geulah and save us. geulah and be saved.",
+              "enText": "Our Father, our King, write us in the book of those who will see the geulah and be saved.",
               "optional": true
             },
             {
@@ -4355,7 +4355,7 @@
             {
               "id": "avinu_malkeinu_commentary_fast_1",
               "type": "commentary",
-              "enText": "Our Father, our King, remember us for merits. (See Instant Insight below.) Our Father, our",
+              "enText": "Our Father, our King, remember us for a good life.",
               "optional": true
             },
             {
@@ -5647,7 +5647,7 @@
             {
               "id": "kt3-ashrei-insight-1",
               "type": "insight",
-              "enText": "There is no ו in Ashrei—why? The Maharal says that these pesukim, starting with the letters of the aleph-beis, express the inherent meaning (based on Kabbalah) of those letters. The inherent meaning of ו is **נְפִילָה** — a falling. Here David HaMelech is describing what Hashem does, and Hashem does not cause our fallings! Our mistakes are the result of our own poor choices! In the next verse we are told what Hashem does in regard to our fallings **סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים** — He will get back up! Crucial Instant Insight: It does not"
+              "enText": "There is no ו in Ashrei—why? The Maharal says that these pesukim, starting with the letters of the aleph-beis, express the inherent meaning (based on Kabbalah) of those letters. The inherent meaning of ו is **נְפִילָה** — a falling. Here David HaMelech is describing what Hashem does, and Hashem does not cause our fallings! Our mistakes are the result of our own poor choices! In the next verse we are told what Hashem does in regard to our fallings—**סוֹמֵךְ יְהֹוָה לְכָל הַנֹּפְלִים**—He helps us get back up!"
             },
             {
               "id": "kt3-ashrei-1",
@@ -6580,7 +6580,7 @@
             {
               "id": "shloshah-asar-ikarim-section-intro",
               "type": "section_intro",
-              "enText": "What We Believe! What’s popular is not always right, and what’s right is not always popular! Not only must we make sure to “do” what is correct, but we need to also stay firm in our core beliefs and value system, which, in many cases, are not popular and are the opposite of what the “world out there” believes. As with the Six Remembrances, the point is not to mumble the Thirteen Principles like some magic formula! Rather, the idea is to think about what they mean to you and to use them as your guide during your day. The commentaries have pointed out that they break down into three basic categories: belief in Hashem (1–5), the truth of Torah (6–9), and our responsibilities as Bnei Yisrael and our ultimate reward (10–13)."
+              "enText": "What’s popular is not always right, and what’s right is not always popular! Not only must we make sure to “do” what is correct, but we need to also stay firm in our core beliefs and value system, which, in many cases, are not popular and are the opposite of what the “world out there” believes. As with the Six Remembrances, the point is not to mumble the Thirteen Principles like some magic formula! Rather, the idea is to think about what they mean to you and to use them as your guide during your day. The commentaries have pointed out that they break down into three basic categories: belief in Hashem (1–5), the truth of Torah (6–9), and our responsibilities as Bnei Yisrael and our ultimate reward (10–13)."
             },
             {
               "id": "hebrew_ani_1",

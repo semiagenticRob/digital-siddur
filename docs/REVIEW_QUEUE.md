@@ -164,6 +164,12 @@ Whole-book letter-for-letter check, `scripts/fidelity/` (see its README). Result
 - **Missing from the app:** 46 passages with no counterpart anywhere (e.g. Tefillas
   HaDerech additions, Shir HaMa'alos before bentching, Hallel commentary, Omer dates);
   96 present elsewhere in the app but not repeated where the print repeats them.
+- **Visual spot check (2026-10-30)** — `docs/fidelity/visual-check-2026-10-30.md`.
+  29 wrong English fixes undone (`scripts/fix_fidelity_english_regressions.py`).
+  For the rav, found by eye: Tefillas HaDerech's instruction reads נ"פ in the app
+  where the print has ג"פ ("three times"), pdf p.155, both instances; the
+  Omer date labels (כ' אִיָּיר.) are vocalized with a period where the print has
+  small unvocalized labels with a colon (כ' אייר:).
 
 ## Needs a careful dedicated pass
 

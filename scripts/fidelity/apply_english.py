@@ -126,12 +126,22 @@ def decide(d, raw, words=None):
         return 'weak-field-match'
     if len(d.app) > 60 or len(d.print) > 60:
         return 'large'
+    # Multi-word edits are where reading order fails (side-by-side columns,
+    # labels and sidebars beside the text): a visual check found about a third
+    # of them wrong, so a person decides each one.
+    if len(re.findall(r'[A-Za-z]+', d.app)) >= 2 or len(re.findall(r'[A-Za-z]+', d.print)) >= 2:
+        return 'multi-word'
+    # A space dropped after punctuation ("rescue,for") is an extraction gap, not print.
+    if d.kind == 'app-only' and not d.app.strip():
+        i = d.app_context.find(d.app)
+        if i > 0 and d.app_context[i - 1] in ',;:.!?':
+            return 'space-after-punct'
     s, e = d.app_raw_span
     if XREF_PRINT.search(d.print) or XREF_PRINT.search(d.print_context[20:-20] if len(d.print_context) > 40 else d.print_context):
         if re.search(r'\bhere\b|\bpage\b|\d', d.app + d.print):
             return 'intentional-xref'
     for m in LINK.finditer(raw):
-        if s < m.end() and e > m.start() or (s == e and m.start() < s < m.end()):
+        if s < m.end() and e > m.start() or (s == e and m.start() < s <= m.end()):
             return 'touches-link'
     if '*' in raw[max(0, s - 1):e + 1] and d.kind != 'print-only':
         return 'touches-markdown'
@@ -149,8 +159,20 @@ def decide(d, raw, words=None):
     return 'apply'
 
 
+LEDGER = os.path.join(F.ROOT, 'docs', 'fidelity', 'ledger.json')
+
+
+def human_decisions() -> dict:
+    """Fingerprint -> decision for every finding a person has ruled on."""
+    if not os.path.exists(LEDGER):
+        return {}
+    return {k: v['decision'] for k, v in json.load(open(LEDGER, encoding='utf-8')).items()
+            if v.get('by') == 'human'}
+
+
 def main(apply: bool):
     diffs, _ = F.run_all()
+    ruled = human_decisions()
     words = print_word_counts(diffs)
     plan = defaultdict(list)          # file -> [(container, key, d)]
     reasons = Counter()
@@ -168,6 +190,9 @@ def main(apply: bool):
         else:
             raw = cont[key]
         r = decide(d, raw, words)
+        fp = F.fingerprint(d)
+        if r == 'apply' and fp in ruled and ruled[fp] != 'fix':
+            r = f'human:{ruled[fp]}'   # a person ruled on this one; only "fix" applies
         plan[d.file].append((cont, key, d, r))
 
     # Edits within a few characters of each other are one change: apply the
